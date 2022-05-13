@@ -3,73 +3,67 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2022-05-12 15:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-05-13 23:05+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
 #. type: Title =
 #: upstream/_guides/getting-started.adoc:6
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Creating Your First Application"
 msgstr "创建你的第一个应用程序"
 
 #. type: Plain text
 #: upstream/_guides/getting-started.adoc:23
-#, fuzzy
 msgid "Learn how to create a Hello World Quarkus app.  This guide covers:"
-msgstr "学习如何创建一个Hello World Quarkus应用程序。本指南包括。"
+msgstr "学习如何创建一个Hello World Quarkus应用程序。本指南包括："
 
 #. type: Plain text
 #: upstream/_guides/getting-started.adoc:25
-#, fuzzy
 msgid "Bootstrapping an application"
 msgstr "引导一个应用程序"
 
 #. type: Plain text
 #: upstream/_guides/getting-started.adoc:26
-#, fuzzy
 msgid "Creating a JAX-RS endpoint"
 msgstr "创建一个JAX-RS端点"
 
 #. type: Plain text
 #: upstream/_guides/getting-started.adoc:27
-#, fuzzy
 msgid "Injecting beans"
-msgstr "注入豆子"
+msgstr "注入beans"
 
 #. type: Plain text
 #: upstream/_guides/getting-started.adoc:28
-#, fuzzy
 msgid "Functional tests"
 msgstr "功能测试"
 
 #. type: Plain text
 #: upstream/_guides/getting-started.adoc:29
-#, fuzzy
 msgid "Packaging of the application"
-msgstr "申请书的包装"
+msgstr "应用打包"
 
 #. type: Title ==
 #: upstream/_guides/getting-started.adoc:30
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Prerequisites"
 msgstr "先决条件"
 
 #. type: Block title
 #: upstream/_guides/getting-started.adoc:36
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Verify Maven is using the Java you expect"
 msgstr "验证Maven是否使用了你期望的Java"
 
