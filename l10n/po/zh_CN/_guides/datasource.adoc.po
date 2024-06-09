@@ -908,7 +908,7 @@ msgstr ""
 #: _guides/datasource.adoc
 msgid ""
 "Enable XA support explicitly for each relevant datasource by setting\n"
-"<<quarkus-agroal_quarkus-datasource-jdbc-transactions,`quarkus.datasource[.optional name].transactions`>> to `xa`."
+"<<quarkus-agroal_quarkus-datasource-jdbc-transactions,`quarkus.datasource[.optional name].jdbc.transactions`>> to `xa`."
 msgstr ""
 
 #: _guides/datasource.adoc
