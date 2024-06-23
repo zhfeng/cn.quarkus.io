@@ -3,7 +3,7 @@ l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 605, 609, 12494, 12589, 1%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 780, 796, 12014, 12166, 2%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 310, 9047, 9081, 1%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 325, 372, 8218, 9197, 11%
-l10n/po/zh_CN/_guides/rest.adoc.po, 464, 474, 7502, 7587, 2%
+l10n/po/zh_CN/_guides/rest.adoc.po, 464, 482, 7502, 7696, 3%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 350, 362, 6100, 6137, 1%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 282, 294, 5454, 5625, 4%
@@ -29,7 +29,7 @@ l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 161, 173, 31
 l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 154, 156, 3115, 3117, 1%
 l10n/po/zh_CN/_guides/logging.adoc.po, 299, 304, 3114, 3121, 1%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 108, 112, 3087, 3095, 1%
-l10n/po/zh_CN/_guides/http-reference.adoc.po, 254, 261, 3008, 3046, 2%
+l10n/po/zh_CN/_guides/http-reference.adoc.po, 254, 263, 3008, 3057, 2%
 l10n/po/zh_CN/_guides/virtual-threads.adoc.po, 141, 143, 2987, 2991, 1%
 l10n/po/zh_CN/_guides/cache.adoc.po, 153, 162, 2969, 3062, 4%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 160, 171, 2963, 3071, 4%
