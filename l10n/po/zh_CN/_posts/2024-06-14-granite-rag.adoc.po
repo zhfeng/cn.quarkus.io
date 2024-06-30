@@ -23,7 +23,7 @@ msgstr ""
 #: _posts/2024-06-14-granite-rag.adoc
 msgid ""
 "Our chatbot leverages the Granite LLM, a language model that generates contextually relevant text based on user prompts.\n"
-"To run Granite locally, we'll be utilizing https://instructlab.ai/[InstructLab], though https://github.com/containers/podman-desktop-extension-ai-lab[Podman AI Studio] is another viable option."
+"To run Granite locally, we'll be utilizing https://instructlab.ai/[InstructLab], though https://github.com/containers/podman-desktop-extension-ai-lab[Podman AI Lab] is another viable option."
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc
@@ -157,7 +157,7 @@ msgid "To implement our chatbot, we rely on the following Quarkus extensions:"
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc
-msgid "`quarkus-langchain4j-openai`: Integrates LLM providers using the OpenAI API, suitable for both InstructLab and Podman AI Studio."
+msgid "`quarkus-langchain4j-openai`: Integrates LLM providers using the OpenAI API, suitable for both InstructLab and Podman AI Lab."
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc
@@ -191,8 +191,8 @@ msgstr ""
 #: _posts/2024-06-14-granite-rag.adoc
 msgid ""
 "Configure the OpenAI service to use InstructLab.\n"
-"You can replace the base URL with the one for Podman AI Studio if you prefer.\n"
-"Indeed, InstructLab and Podman AI Studio expose an OpenAI-compatible API."
+"You can replace the base URL with the one for Podman AI Lab if you prefer.\n"
+"Indeed, InstructLab and Podman AI Lab expose an OpenAI-compatible API."
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc
@@ -310,20 +310,20 @@ msgstr ""
 #: _posts/2024-06-14-granite-rag.adoc
 msgid ""
 "This command starts the Quarkus application in development mode.\n"
-"Ensure you have InstructLab or Podman AI Studio running to use the Granite LLM.\n"
+"Ensure you have InstructLab or Podman AI Lab running to use the Granite LLM.\n"
 "You will also need Docker or Podman to automatically start Infinispan."
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc
-msgid "Podman AI Studio or InstructLab?"
+msgid "Podman AI Lab or InstructLab?"
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc
 msgid ""
-"You can use either Podman AI Studio or InstructLab to run the Granite LLM locally.\n"
+"You can use either Podman AI Lab or InstructLab to run the Granite LLM locally.\n"
 "Depending on the OS, Podman may not have GPU support. Thus, response time can be high.\n"
 "In this case, InstructLab is the preferred option for better response times.\n"
-"Typically, on a Mac, you would use InstructLab, while on Linux, Podman AI Studio shows great performances."
+"Typically, on a Mac, you would use InstructLab, while on Linux, Podman AI Lab shows great performances."
 msgstr ""
 
 #: _posts/2024-06-14-granite-rag.adoc

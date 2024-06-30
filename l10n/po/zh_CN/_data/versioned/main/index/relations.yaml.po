@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-06-23 08:30+0000\n"
+"POT-Creation-Date: 2024-06-30 08:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1399,7 +1399,7 @@ msgstr "/guides/smallrye-metrics"
 #. type: Hash Value: /guides/telemetry-opentracing-to-otel-tutorial sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Using JDK Flight Recorder"
+msgid "Using Java Flight Recorder"
 msgstr ""
 
 #. type: Hash Value: /guides/telemetry-opentracing-to-otel-tutorial sameTopics url
