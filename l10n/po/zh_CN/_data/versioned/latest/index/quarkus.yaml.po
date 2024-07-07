@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-06-30 08:31+0000\n"
+"POT-Creation-Date: 2024-07-07 08:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5676,42 +5676,6 @@ msgstr "/guides/hibernate-reactive"
 
 #. type: Array Element: types guide extensions
 #: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, no-wrap
-msgid "io.quarkus:quarkus-jfr"
-msgstr ""
-
-#. type: Hash Value: types guide filename
-#: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, no-wrap
-msgid "jfr.adoc"
-msgstr ""
-
-#. type: Hash Value: types guide summary
-#: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, no-wrap
-msgid "This guide explains how JDK Flight Recorder can be extended to provide insight into your Quarkus application."
-msgstr ""
-
-#. type: Hash Value: types guide title
-#: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, no-wrap
-msgid "Using JDK Flight Recorder"
-msgstr ""
-
-#. type: Array Element: types guide topics
-#: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, no-wrap
-msgid "jfr"
-msgstr ""
-
-#. type: Hash Value: types guide url
-#: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, no-wrap
-msgid "/guides/jfr"
-msgstr ""
-
-#. type: Array Element: types guide extensions
-#: upstream/_data/versioned/latest/index/quarkus.yaml:0
 #, fuzzy, no-wrap
 msgid "org.amqphub.quarkus:quarkus-qpid-jms"
 msgstr "org.amqphub.quarkus:quarkus-qpid-jms"
@@ -5805,6 +5769,42 @@ msgstr "使用 JWT RBAC"
 #, no-wrap
 msgid "/guides/security-jwt"
 msgstr "/guides/security-jwt"
+
+#. type: Array Element: types guide extensions
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "io.quarkus:quarkus-jfr"
+msgstr ""
+
+#. type: Hash Value: types guide filename
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "jfr.adoc"
+msgstr ""
+
+#. type: Array Element: types guide topics
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "jfr"
+msgstr ""
+
+#. type: Hash Value: types guide summary
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "This guide explains how Java Flight Recorder (JFR) can be extended to provide additional insight into your Quarkus application."
+msgstr ""
+
+#. type: Hash Value: types guide title
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "Using Java Flight Recorder"
+msgstr ""
+
+#. type: Hash Value: types guide url
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "/guides/jfr"
+msgstr ""
 
 #. type: Array Element: types guide extensions
 #: upstream/_data/versioned/latest/index/quarkus.yaml:0
