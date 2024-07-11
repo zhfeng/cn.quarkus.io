@@ -1,5 +1,5 @@
 <tmx version="1.4">
-  <header creationtool="Translate Toolkit" creationtoolversion="3.13.1" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText" />
+  <header creationtool="Translate Toolkit" creationtoolversion="3.13.2" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText" />
   <body>
     <tu>
       <tuv xml:lang="en">
@@ -246,7 +246,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
         <seg>.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>.</seg>
+        <seg>。</seg>
       </tuv>
     </tu>
     <tu>
@@ -719,14 +719,6 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/dev-ui</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>/guides/dev-ui-v2</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>/guides/dev-ui-v2</seg>
       </tuv>
     </tu>
     <tu>
@@ -3878,7 +3870,7 @@ are in the the build directory:  `target/` for maven, `build/` for gradle.</seg>
         <seg>All `list` methods have equivalent `stream` versions.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>所有 `list` 方法都有相对应的 `stream` 版本。</seg>
+        <seg>上述所有 `list` 方法都有等效的的 `stream` 版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4667,7 +4659,7 @@ A processor method can be simply implemented using both the `@Incoming` and `@Ou
         <seg>Architecture</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>应用结构</seg>
+        <seg>架构</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,7 +4886,7 @@ This can be done using a Jackson deserializer:</seg>
         <seg>As usual, the application can be packaged using:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>像往常一样，该应用程序能够使用以下方式进行打包:</seg>
+        <seg>像往常一样，该应用程序可以用以下方式打包：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6500,7 +6492,7 @@ Then, open the project in your favorite IDE.</seg>
         <seg>Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>克隆 Git 仓库: `git clone {quickstarts-clone-url}` ，或下载一个 {quickstarts-archive-url}[存档] 。</seg>
+        <seg>克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7205,7 +7197,7 @@ Type: _string_</seg>
         <seg>Configuring the application</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>配置该应用程序</seg>
+        <seg>配置应用</seg>
       </tuv>
     </tu>
     <tu>
@@ -7285,7 +7277,7 @@ Type: _string_</seg>
         <seg>Connector auto-attachment</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>连接器自动连接</seg>
+        <seg>Connector auto-attachment</seg>
       </tuv>
     </tu>
     <tu>
@@ -8152,7 +8144,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining entities in external projects or jars</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在外部项目或jar中定义实体</seg>
+        <seg>在外部项目或jar包中定义实体</seg>
       </tuv>
     </tu>
     <tu>
@@ -8160,7 +8152,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining your entity</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>定义你的实体</seg>
+        <seg>定义实体类</seg>
       </tuv>
     </tu>
     <tu>
@@ -8168,7 +8160,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining your repository</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>定义你的存储库</seg>
+        <seg>定义Repository</seg>
       </tuv>
     </tu>
     <tu>
@@ -8337,7 +8329,7 @@ If you're new to CDI then we recommend you to read the xref:cdi.adoc[Introductio
         <seg>Deprecation</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>弃用</seg>
+        <seg>废弃的API</seg>
       </tuv>
     </tu>
     <tu>
@@ -8681,7 +8673,7 @@ If your environment does not support Docker, you will need to start the server m
         <seg>讨论Quarkus</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>Discussions and Collaboration</seg>
       </tuv>
@@ -8762,7 +8754,7 @@ handler bootstraps Quarkus and wraps your actual handler so that injection can b
         <seg>Documentation</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>文件</seg>
+        <seg>文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -9059,7 +9051,7 @@ record key propagation produces the outgoing record with the same _key_ as the i
 Type: _boolean_</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>启用（默认启用）或停用云事件支持。如果在 _传入_ 通道上启用，连接器会分析传入记录并尝试创建云事件元数据。如果在 _传出_ 通道上启用，并且如果消息包括云事件元数据，连接器会将传出的消息作为云事件发送。
+        <seg>启用（默认）或禁用云事件支持。如果在 _incoming_ 通道上启用了，则连接器会分析传入记录并尝试创建云事件元数据。如果在 _outgoing_ 通道上启用了，如果消息包括云事件元数据，则连接器会将传出消息作为云事件发送。
 
 类型: _boolean_</seg>
       </tuv>
@@ -9782,7 +9774,7 @@ This time, we will not accumulate the file's content in memory and write it in o
         <seg>First, let's create the `Fruit` bean as follows:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，让我们创建 `Fruit` 实体类，如下所示：</seg>
+        <seg>首先，让我们创建 `Fruit` bean，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9831,7 +9823,7 @@ Create a new project with the following command:</seg>
         <seg>First, we need a new project. Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新的项目:</seg>
+        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新项目:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9905,7 +9897,7 @@ See this part of the documentation: xref:mongodb.adoc#simplifying-mongodb-client
         <seg>First: an example</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>第一：一个例子</seg>
+        <seg>首先看一个例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -10187,7 +10179,7 @@ Note that if the `partitions` value exceed the number of partitions of the topic
         <seg>For example, The following code illustrates how you can store incoming payloads to a database using Hibernate with Panache:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>例如，下面的代码说明了如何使用带有Panache的Hibernate来将传入的有效载荷存储到数据库：</seg>
+        <seg>例如，下面的代码演示了如何使用Hibernate与Panache将接收到的payload存储到数据库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10833,7 +10825,7 @@ Refer to &lt;&lt;jackson-serialization&gt;&gt; to write your own serializer/dese
         <seg>Getting Started to SmallRye Reactive Messaging with Apache Kafka</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>开始使用Apache Kafka的SmallRye响应式消息传递</seg>
+        <seg>开始使用Apache Kafka的SmallRye响应式消息传递。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13799,7 +13791,7 @@ For further information, please consult the xref:native-and-ssl.adoc[Quarkus SSL
         <seg>If your method is annotated with `@Transactional`, it will be considered _blocking_ automatically, even if the method is not annotated with `@Blocking`.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>如果你的方法被注释为 `@Transactional` ，它将被自动视为 _blocking_ ，即使该方法没有被注释为 `@Blocking` 。</seg>
+        <seg>如果您的方法加了 `@Transactional` 注解，那么它即使没有添加 `@Blocking` 注解也将被自动视为 _阻塞_ 方法 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14598,7 +14590,7 @@ link:https://micrometer.io/docs/concepts[official documentation].</seg>
         <seg>In this example, we will create an application to manage a list of fruits.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在这个例子中，我们将创建一个应用程序来管理fruit列表。</seg>
+        <seg>在这个例子中，我们将创建一个应用程序来管理一个fruit列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14768,7 +14760,7 @@ To know more about Mutiny, check the xref:mutiny-primer.adoc[Mutiny documentatio
         <seg>In your build file, add the following dependencies:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在你的项目构建文件中，添加以下依赖：</seg>
+        <seg>在build文件中添加以下依赖项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17610,7 +17602,7 @@ to automatically convert your object to a BSON document.</seg>
         <seg>More Spring guides</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>更多Spring指南</seg>
+        <seg>更多 Spring 指南</seg>
       </tuv>
     </tu>
     <tu>
@@ -17727,7 +17719,7 @@ Dev Services for Redis implements a _service discovery_ mechanism for your multi
         <seg>Most useful operations</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>最有用的操作</seg>
+        <seg>常用操作</seg>
       </tuv>
     </tu>
     <tu>
@@ -18525,7 +18517,7 @@ One important thing to note is that having a default constructor is required by 
         <seg>Nothing fancy. One important thing to note is that having a default constructor is required by the JSON serialization layer.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>这非常的简单。需要注意的一件事是， JSON 序列化层需要具有默认构造函数。</seg>
+        <seg>这是非常的简单。需要注意的重要一点是， JSON 序列化层需要具有默认构造函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19105,7 +19097,7 @@ This is done in the `application.properties` configuration file. Edit it to the 
         <seg>Once you have written your repository, here are the most common operations you will be able to perform:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>编写存储库后，您可以执行以下最常见的操作：</seg>
+        <seg>写好了Repository类之后，你可以执行以下一些最常见的操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19226,7 +19218,7 @@ call must set a specific environment variable:</seg>
         <seg>Open your browser to http://localhost:8080/greeting.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>打开你的浏览器并访问 http://localhost:8080/greeting。</seg>
+        <seg>在你的浏览器中打开 http://localhost:8080/greeting 网页。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22127,7 +22119,7 @@ The `event` parameter takes any JSON file, in this case the sample `payload.json
         <seg>Running Native</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>以本地（native）模式运行</seg>
+        <seg>以本机可执行文件运行</seg>
       </tuv>
     </tu>
     <tu>
@@ -22889,7 +22881,7 @@ A request will be sent to the OpenID Provider UserInfo endpoint and  an `io.quar
         <seg>Shared broker</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>共享的broker</seg>
+        <seg>共享的代理</seg>
       </tuv>
     </tu>
     <tu>
@@ -24031,7 +24023,7 @@ remove duplicates. If you want to only enable a test resource on a single test c
         <seg>TestSecurity annotation</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>TestSecurity 注解</seg>
+        <seg>TestSecurity注解</seg>
       </tuv>
     </tu>
     <tu>
@@ -25600,7 +25592,7 @@ Type: _int_</seg>
         <seg>The application built in this guide is quite simple: the user can add elements in a list using a form and the list is updated.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素并更新列表。</seg>
+        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素，然后列表被更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27991,7 +27983,7 @@ It can use `double` payloads as in the following snippet:</seg>
         <seg>There are 2 `@Blocking` annotations:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>有2个 `@Blocking` 注释：</seg>
+        <seg>有2种 `@Blocking` 注解：</seg>
       </tuv>
     </tu>
     <tu>
@@ -28279,7 +28271,7 @@ Annotated nested methods once a transaction has started will throw an exception.
         <seg>This auto-attachment can be disabled using:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>可以用以下方法禁用这种自动连接功能：</seg>
+        <seg>可以用以下方法禁用这种auto-attachment功能：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30394,7 +30386,7 @@ the test is run.</seg>
         <seg>This will add the following to your build file:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>这会将以下内容添加到你的构建文件中:</seg>
+        <seg>这将在您的构建文件中添加以下内容：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30580,7 +30572,7 @@ It's essential to comprehend that _Reactive_ is not just a different execution m
         <seg>To complete this guide, you need:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>要完成这个指南，你需要：</seg>
+        <seg>完成这个指南，你需要:</seg>
       </tuv>
     </tu>
     <tu>
@@ -32895,7 +32887,7 @@ and for an outgoing channel checks that the topic used by the producer exist in 
         <seg>Using the repository pattern</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用资源库模式</seg>
+        <seg>使用Repository模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -35293,7 +35285,7 @@ Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.
         <seg>您还可以提供以数字开头的持续时间值。 在这种情况下，如果该值仅包含一个数字，则转换器将该值视为秒。 否则，`PT` 会隐式添加到值的前面，以获得标准的 `java.time.Duration` 格式。</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>You can also remove the limit of in-flight messages by setting `max-inflight-messages` to `0`.
 However, note that the Kafka producer may block if the number of requests reaches `max.in.flight.requests.per.connection`.</seg>
@@ -35831,7 +35823,7 @@ be appended to the end of the endpoint path.</seg>
         <seg>You can then point your browser to `http://localhost:8080/fruits.html` and use your application.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>然后你可以使用的浏览器访问 `&lt;a href="http://localhost:8080/fruits.html" class="bare"&gt;http://localhost:8080/fruits.html&lt;/a&gt;` 来使用你的应用程序。</seg>
+        <seg>然后你可以将你的浏览器访问 `http://localhost:8080/fruits.html` 并使用你的应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37962,7 +37954,7 @@ In case of a failure, only records that were not committed yet will be re-proces
         <seg>`io.smallrye.common.annotation.Blocking`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`io.smallrye.common.annotation.Blocking` </seg>
+        <seg>`io.smallrye.common.annotation.Blocking`</seg>
       </tuv>
     </tu>
     <tu>
@@ -37979,7 +37971,7 @@ It uses `MP JWT` and `smallrye-jwt` properties listed in the `Configuration` sec
         <seg>`io.smallrye.reactive.messaging.annotations.Blocking`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`io.smallrye.reactive.messaging.annotations.Blocking` </seg>
+        <seg>`io.smallrye.reactive.messaging.annotations.Blocking`</seg>
       </tuv>
     </tu>
     <tu>
@@ -38913,6 +38905,14 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>alt-languages, data</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>alt-languages, data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>alternative-languages</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -39412,7 +39412,15 @@ your migration as you normally do</seg>
         <seg>cloud</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>云</seg>
+        <seg>cloud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cloud, core</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>cloud, core</seg>
       </tuv>
     </tu>
     <tu>
@@ -39585,22 +39593,6 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>core, cloud</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>core, cloud</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>core, command-line</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>core, command-line</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>core, data, getting-started</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -39625,6 +39617,14 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>core, native, tooling</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>core, native, tooling</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>core, native, writing-extensions</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -39641,26 +39641,10 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>core, tooling, native</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>core, tooling, native</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>core, writing-extensions</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>core, writing-extensions</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>core, writing-extensions, native</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>core, writing-extensions, native</seg>
       </tuv>
     </tu>
     <tu>
@@ -39709,14 +39693,6 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>data</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>data, alt-languages</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>data, alt-languages</seg>
       </tuv>
     </tu>
     <tu>
@@ -39853,14 +39829,6 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>dev-services.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>dev-ui-v2.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>dev-ui-v2.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -40173,6 +40141,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>getting-started, native</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>getting-started, security</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>getting-started, security</seg>
       </tuv>
     </tu>
     <tu>
@@ -40668,7 +40644,7 @@ Similar to a message queue, or an enterprise messaging platform, it lets you:</s
  https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[Development Builds]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[插件市场]  link:https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[构建产物归档] </seg>
+        <seg>link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[插件市场]  link:https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[构建产物归档]</seg>
       </tuv>
     </tu>
     <tu>
@@ -40686,7 +40662,7 @@ Similar to a message queue, or an enterprise messaging platform, it lets you:</s
 https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[Development Builds]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:https://plugins.jetbrains.com/plugin/13234-quarkus/versions[插件市场]  link:https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[构建产物归档] </seg>
+        <seg>link:https://plugins.jetbrains.com/plugin/13234-quarkus/versions[插件市场]  link:https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[构建产物归档]</seg>
       </tuv>
     </tu>
     <tu>
@@ -41907,6 +41883,14 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>native, tooling</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>native, tooling</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>native-and-ssl.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -41935,6 +41919,14 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>observability</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>observability, web</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>observability, web</seg>
       </tuv>
     </tu>
     <tu>
@@ -41966,7 +41958,7 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
         <seg>open a browser to `http://localhost:8080/fruits.html`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>打开浏览器访问 `&lt;a href="http://localhost:8080/fruits.html" class="bare"&gt;http://localhost:8080/fruits.html&lt;/a&gt;` </seg>
+        <seg>打开浏览器访问 `http://localhost:8080/fruits.html` </seg>
       </tuv>
     </tu>
     <tu>
@@ -41999,22 +41991,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>opentelemetry.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>opentracing.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>opentracing.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>optaplanner.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>optaplanner.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -42601,22 +42577,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>security-basic-authentication-concept</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>security-basic-authentication-concept</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>security-basic-authentication-concept.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>security-basic-authentication-concept.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>security-basic-authentication-howto</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -42629,22 +42589,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>security-basic-authentication-howto.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>security-basic-authentication-tutorial</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>security-basic-authentication-tutorial</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>security-basic-authentication-tutorial.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>security-basic-authentication-tutorial.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -43093,6 +43037,14 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>serialization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>serialization, web</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>serialization, web</seg>
       </tuv>
     </tu>
     <tu>
@@ -43709,14 +43661,6 @@ or rolled-back only at termination of the reactive value.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>tooling, native</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>tooling, native</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>tooling.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -43737,14 +43681,6 @@ or rolled-back only at termination of the reactive value.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>tutorial</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>tutorial-micrometer</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>tutorial-micrometer</seg>
       </tuv>
     </tu>
     <tu>
@@ -43825,22 +43761,6 @@ or rolled-back only at termination of the reactive value.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>web</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>web, observability</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>web, observability</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>web, serialization</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>web, serialization</seg>
       </tuv>
     </tu>
     <tu>
@@ -44202,7 +44122,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>your JDBC driver extension (`quarkus-jdbc-postgresql`, `quarkus-jdbc-h2`, `quarkus-jdbc-mariadb`, ...)</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>JDBC驱动扩展 (如 `quarkus-jdbc-postgresql` , `quarkus-jdbc-h2` , `quarkus-jdbc-mariadb` , ...)</seg>
+        <seg>JDBC驱动扩展 ( `quarkus-jdbc-postgresql` , `quarkus-jdbc-h2` , `quarkus-jdbc-mariadb` , ...)</seg>
       </tuv>
     </tu>
     <tu>
