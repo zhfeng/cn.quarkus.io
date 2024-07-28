@@ -32,7 +32,7 @@ l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 143, 2987, 299
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 106, 112, 2985, 3095, 4%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 156, 177, 2949, 3158, 7%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 162, 2940, 3077, 5%
-l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 216, 229, 2914, 2976, 3%
+l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 215, 230, 2895, 3018, 5%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 175, 2810, 2878, 3%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 162, 199, 2594, 2907, 11%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 119, 132, 2485, 2609, 5%
@@ -64,7 +64,7 @@ l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 98, 1660, 1759,
 l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 95, 1641, 1718, 5%
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 79, 91, 1639, 1719, 5%
 l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 106, 109, 1616, 1621, 1%
-l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 88, 236, 1595, 4454, 65%
+l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 88, 237, 1595, 4496, 65%
 l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client.adoc.po, 94, 114, 1513, 1801, 16%
@@ -75,7 +75,7 @@ l10n/po/zh_CN/_versions/main/guides/container-image.adoc.po, 73, 87, 1461, 1691,
 l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 63, 211, 1459, 4138, 65%
 l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 62, 64, 1452, 1456, 1%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-google-cloud.adoc.po, 85, 88, 1448, 1454, 1%
-l10n/po/zh_CN/_versions/main/guides/mailer-reference.adoc.po, 87, 110, 1442, 1740, 18%
+l10n/po/zh_CN/_versions/main/guides/mailer-reference.adoc.po, 87, 111, 1442, 1756, 18%
 l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 43, 104, 1415, 2393, 41%
 l10n/po/zh_CN/_versions/main/guides/hibernate-reactive-panache.adoc.po, 49, 154, 1411, 3044, 54%
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 72, 73, 1401, 1404, 1%
@@ -83,7 +83,6 @@ l10n/po/zh_CN/_versions/main/guides/extension-registry-user.adoc.po, 65, 65, 139
 l10n/po/zh_CN/_versions/main/guides/openapi-swaggerui.adoc.po, 89, 105, 1377, 1468, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql-client.adoc.po, 46, 60, 1366, 1450, 6%
 l10n/po/zh_CN/_versions/main/guides/security-jwt.adoc.po, 92, 309, 1362, 4638, 71%
-l10n/po/zh_CN/_versions/main/guides/qute.adoc.po, 90, 95, 1345, 1388, 4%
 l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 77, 79, 1341, 1396, 4%
 l10n/po/zh_CN/_versions/main/guides/platform.adoc.po, 51, 52, 1341, 1342, 1%
 l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 113, 118, 1320, 1345, 2%
@@ -97,6 +96,7 @@ l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-json-schema.adoc.po, 6
 l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 79, 87, 1288, 1333, 4%
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 82, 101, 1283, 1518, 16%
 l10n/po/zh_CN/_versions/main/guides/transaction.adoc.po, 47, 102, 1230, 2387, 49%
+l10n/po/zh_CN/_versions/main/guides/qute.adoc.po, 84, 95, 1223, 1400, 13%
 l10n/po/zh_CN/_versions/main/guides/native-and-ssl.adoc.po, 86, 95, 1222, 1317, 8%
 l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 66, 67, 1151, 1152, 1%
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 92, 1136, 1284, 12%
@@ -281,4 +281,4 @@ l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 115, 0, 14
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-tracing.adoc.po, 0, 141, 0, 1754, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_versions/main/guides/testing-components.adoc.po, 0, 50, 0, 1033, 100%
-l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 180, 0, 3226, 100%
+l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 259, 0, 4879, 100%
