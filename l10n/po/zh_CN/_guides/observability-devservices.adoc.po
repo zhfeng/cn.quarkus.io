@@ -31,7 +31,7 @@ msgid "explicitly disable Dev Services and enable Dev Resources and use less-hea
 msgstr ""
 
 #: _guides/observability-devservices.adoc
-msgid "explicitly disable both Dev Services and Dev Resources, and use Quarkus' `@QuarkusTestResource` testing concept (see Note)"
+msgid "explicitly disable both Dev Services and Dev Resources, and use Quarkus' `@WithTestResource` testing concept (see Note)"
 msgstr ""
 
 #: _guides/observability-devservices.adoc
