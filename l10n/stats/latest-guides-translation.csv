@@ -9,7 +9,7 @@ l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 350, 364, 6100, 6197, 2%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 278, 319, 5370, 6057, 12%
 l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 263, 272, 5352, 5459, 2%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 193, 199, 5049, 5210, 4%
-l10n/po/zh_CN/_guides/rest-client.adoc.po, 270, 286, 5008, 5166, 4%
+l10n/po/zh_CN/_guides/rest-client.adoc.po, 270, 291, 5008, 5301, 6%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
 l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 269, 287, 4619, 4722, 3%
 l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 224, 279, 4190, 5354, 22%
@@ -64,7 +64,7 @@ l10n/po/zh_CN/_guides/smallrye-health.adoc.po, 81, 95, 1641, 1718, 5%
 l10n/po/zh_CN/_guides/kafka-schema-registry-avro.adoc.po, 79, 91, 1639, 1719, 5%
 l10n/po/zh_CN/_guides/rest-data-panache.adoc.po, 106, 109, 1616, 1621, 1%
 l10n/po/zh_CN/_guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
-l10n/po/zh_CN/_guides/websockets-next-reference.adoc.po, 87, 236, 1570, 4454, 65%
+l10n/po/zh_CN/_guides/websockets-next-reference.adoc.po, 87, 237, 1570, 4496, 66%
 l10n/po/zh_CN/_guides/smallrye-fault-tolerance.adoc.po, 71, 97, 1557, 2071, 25%
 l10n/po/zh_CN/_guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
 l10n/po/zh_CN/_guides/security-openid-connect-client.adoc.po, 94, 114, 1513, 1801, 16%
@@ -99,7 +99,7 @@ l10n/po/zh_CN/_guides/transaction.adoc.po, 47, 102, 1230, 2387, 49%
 l10n/po/zh_CN/_guides/qute.adoc.po, 84, 95, 1223, 1400, 13%
 l10n/po/zh_CN/_guides/native-and-ssl.adoc.po, 86, 95, 1222, 1317, 8%
 l10n/po/zh_CN/_guides/management-interface-reference.adoc.po, 66, 67, 1151, 1152, 1%
-l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 92, 1136, 1284, 12%
+l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 93, 1136, 1291, 13%
 l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 51, 200, 1134, 3873, 71%
 l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 51, 57, 1110, 1154, 4%
 l10n/po/zh_CN/_guides/extension-metadata.adoc.po, 52, 56, 1093, 1163, 7%
