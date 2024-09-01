@@ -601,7 +601,7 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/messaging.adoc
-msgid "During testing Quarkus creates a separate brok er instance to run the tests against it."
+msgid "During testing Quarkus creates a separate broker instance to run the tests against it."
 msgstr ""
 
 #: _versions/main/guides/messaging.adoc

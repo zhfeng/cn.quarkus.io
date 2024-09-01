@@ -59,8 +59,10 @@ msgid "Creating the Maven project"
 msgstr "创建Maven项目"
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "First, we need a new project. Create a new project with the following command:"
-msgstr "首先，我们需要一个新的项目。使用以下命令创建一个新的项目:"
+msgid ""
+"First, we need a new project.\n"
+"Create a new project with the following command:"
+msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
 msgid ""
@@ -96,7 +98,9 @@ msgid "Create a `src/main/java/org/acme/opentelemetry/MetricResource.java` file 
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Quarkus is not currently producing metrics out of the box. Here we are creating a counter for the number of invocations of the `hello()` method."
+msgid ""
+"Quarkus is not currently producing metrics out of the box.\n"
+"Here we are creating a counter for the number of invocations of the `hello()` method."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -124,15 +128,21 @@ msgid "If you need to change any of the default property values, here is an exam
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "All metrics created from the application will include an OpenTelemetry `Resource` indicating the metrics was created by the `myservice` application. If not set, it will default to the artifact id."
+msgid ""
+"All metrics created from the application will include an OpenTelemetry `Resource` indicating the metrics was created by the `myservice` application.\n"
+"If not set, it will default to the artifact id."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Enable the OpenTelemetry metrics. Must be set at build time."
+msgid ""
+"Enable the OpenTelemetry metrics.\n"
+"Must be set at build time."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "gRPC endpoint to send the metrics. If not set, it will default to `http://localhost:4317`."
+msgid ""
+"gRPC endpoint to send the metrics.\n"
+"If not set, it will default to `http://localhost:4317`."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -168,7 +178,9 @@ msgid "You can use the xref:observability-devservices-lgtm.adoc[Grafana-OTel-LGT
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "This Dev service includes a Grafana for visualizing data, Loki to store logs, Tempo to store traces and Prometheus to store metrics. Also provides and OTel collector to receive the data."
+msgid ""
+"This Dev service includes a Grafana for visualizing data, Loki to store logs, Tempo to store traces and Prometheus to store metrics.\n"
+"Also provides and OTel collector to receive the data."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -180,11 +192,16 @@ msgid "You can output all metrics to the console by setting the exporter to `log
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Set the exporter to `logging`. Normally you don't need to set this. The default is `cdi`."
+msgid ""
+"Set the exporter to `logging`.\n"
+"Normally you don't need to set this.\n"
+"The default is `cdi`."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Set the interval to export the metrics. The default is `1m`, which is too long for debugging."
+msgid ""
+"Set the interval to export the metrics.\n"
+"The default is `1m`, which is too long for debugging."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -192,8 +209,10 @@ msgid "Start the application"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Now we are ready to run our application. If using `application.properties` to configure the tracer:"
-msgstr "现在我们准备运行我们的应用程序。如果使用 `application.properties` 来配置tracer："
+msgid ""
+"Now we are ready to run our application.\n"
+"If using `application.properties` to configure the tracer:"
+msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
 msgid "or if configuring the OTLP gRPC endpoint via JVM arguments:"
@@ -204,7 +223,9 @@ msgid "With the OpenTelemetry Collector, the Jaeger system and the application r
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "When using the logger exporter, metrics will be printed to the console. This is a pretty printed example:"
+msgid ""
+"When using the logger exporter, metrics will be printed to the console.\n"
+"This is a pretty printed example:"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -220,11 +241,15 @@ msgid "The name, description and unit of the metric you defined in the construct
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "The value of the metric. 3 invocations were made until now."
+msgid ""
+"The value of the metric.\n"
+"3 invocations were made until now."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Exemplars additional tracing information about the metric. In this case, the traceId and spanId of one os the request that triggered the metric, since it was last sent."
+msgid ""
+"Exemplars additional tracing information about the metric.\n"
+"In this case, the traceId and spanId of one os the request that triggered the metric, since it was last sent."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -240,7 +265,9 @@ msgid "OpenTelemetry Metrics vs Micrometer Metrics"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Metrics are single numerical measurements, often have additional data captured with them. This ancillary data is used to group or aggregate metrics for analysis."
+msgid ""
+"Metrics are single numerical measurements, often have additional data captured with them.\n"
+"This ancillary data is used to group or aggregate metrics for analysis."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -248,7 +275,10 @@ msgid "Pretty much like in the xref:telemetry-micrometer.adoc#create-your-own-me
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "The OpenTelemetry API provides a `Meter` interface to create metrics instead of a Registry. The `Meter` interface is the entry point for creating metrics. It provides methods to create counters, gauges, and histograms."
+msgid ""
+"The OpenTelemetry API provides a `Meter` interface to create metrics instead of a Registry.\n"
+"The `Meter` interface is the entry point for creating metrics.\n"
+"It provides methods to create counters, gauges, and histograms."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -288,11 +318,16 @@ msgid "Increment the counter by one."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Add an attribute to the counter. This will create a dimension called `attribute.name` with value `attribute value`."
+msgid ""
+"Add an attribute to the counter.\n"
+"This will create a dimension called `attribute.name` with value `attribute value`."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Each unique combination of metric name and dimension produces a unique time series. Using an unbounded set of dimensional data (many different values like a userId) can lead to a \"cardinality explosion\", an exponential increase in the creation of new time series. Avoid!"
+msgid ""
+"Each unique combination of metric name and dimension produces a unique time series.\n"
+"Using an unbounded set of dimensional data (many different values like a userId) can lead to a \"cardinality explosion\", an exponential increase in the creation of new time series.\n"
+"Avoid!"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -308,15 +343,20 @@ msgid "Gauges"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Observable Gauges should be used to measure non-additive values. A value that can increase or decrease over time, like the speedometer on a car. Gauges can be useful when monitoring the statistics for a cache or collection."
+msgid ""
+"Observable Gauges should be used to measure non-additive values.\n"
+"A value that can increase or decrease over time, like the speedometer on a car.\n"
+"Gauges can be useful when monitoring the statistics for a cache or collection."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "With this metric you provide a function to be periodically probed by a callback. The value returned by the function is the value of the gauge."
+msgid ""
+"With this metric you provide a function to be periodically probed by a callback.\n"
+"The value returned by the function is the value of the gauge."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "The default gauge records `Double`values, but if you want to record `Long` values, you can use"
+msgid "The default gauge records `Double` values, but if you want to record `Long` values, you can use"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -328,7 +368,9 @@ msgid "If you want to record `Long` values you need this builder method because 
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Build the gauge with a callback. An imperative builder is also available."
+msgid ""
+"Build the gauge with a callback.\n"
+"An imperative builder is also available."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -363,7 +405,9 @@ msgid "If you want to record `Long` values you need this builder method because 
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Set the explicit bucket boundaries for the histogram. The boundaries are inclusive."
+msgid ""
+"Set the explicit bucket boundaries for the histogram.\n"
+"The boundaries are inclusive."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -371,7 +415,9 @@ msgid "Record the value of the roll."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Add an attribute to the histogram. This will create a dimension called `attribute.name` with value `value`."
+msgid ""
+"Add an attribute to the histogram.\n"
+"This will create a dimension called `attribute.name` with value `value`."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -383,7 +429,9 @@ msgid "We can invoke the endpoint with a curl command."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "If we execute 4 consecutive requests, with results *2,2,3 and 4* this will produce the following output. The `Resource` and `InstrumentationScopeInfo` data are ignored for brevity."
+msgid ""
+"If we execute 4 consecutive requests, with results *2,2,3 and 4* this will produce the following output.\n"
+"The `Resource` and `InstrumentationScopeInfo` data are ignored for brevity."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -423,7 +471,9 @@ msgid "The number of values recorded in each bucket."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "The list of exemplars with tracing data for the values recorded. We only show 1 of 3 exemplars for brevity."
+msgid ""
+"The list of exemplars with tracing data for the values recorded.\n"
+"We only show 1 of 3 exemplars for brevity."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -435,11 +485,15 @@ msgid "Differences with the Micrometer API"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Timers and Distribution Summaries are not available in the OpenTelemetry API. Instead, use Histograms."
+msgid ""
+"Timers and Distribution Summaries are not available in the OpenTelemetry API.\n"
+"Instead, use Histograms."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "The OpenTelemetry API does not define annotations for metrics like Micrometer's `@Counted`, `@Timed` or `@MeterTag`  You need to manually create the metrics."
+msgid ""
+"The OpenTelemetry API does not define annotations for metrics like Micrometer's `@Counted`, `@Timed` or `@MeterTag`.\n"
+"You need to manually create the metrics."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -459,7 +513,9 @@ msgid "Additional instrumentation"
 msgstr "其他的植入(instrumentation)"
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Automatic metrics are not yet provided by the Quarkus OpenTelemetry extension. We plan to bridge the existing Quarkus Micrometer extension metrics to OpenTelemetry in the future."
+msgid ""
+"Automatic metrics are not yet provided by the Quarkus OpenTelemetry extension.\n"
+"We plan to bridge the existing Quarkus Micrometer extension metrics to OpenTelemetry in the future."
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc

@@ -847,7 +847,7 @@ msgid "Methods annotated with `@OnOpen`, `@OnTextMessage`, `@OnBinaryMessage`, a
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
-msgid "Note that outside of these methos, the `WebSocketConnection` object is not available. However, it is possible to <<list-open-connections,list all open connections>>."
+msgid "Note that outside of these methods, the `WebSocketConnection` object is not available. However, it is possible to <<list-open-connections,list all open connections>>."
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
@@ -1103,7 +1103,7 @@ msgid "Methods annotated with `@OnOpen`, `@OnTextMessage`, `@OnBinaryMessage`, a
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
-msgid "Note that outside of these methos, the `WebSocketClientConnection` object is not available. However, it is possible to <<list-open-client-connections,list all open client connections>>."
+msgid "Note that outside of these methods, the `WebSocketClientConnection` object is not available. However, it is possible to <<list-open-client-connections,list all open client connections>>."
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc

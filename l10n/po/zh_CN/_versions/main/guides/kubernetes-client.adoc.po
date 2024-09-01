@@ -218,7 +218,7 @@ msgid "You can also use the `setup` attribute on the `@WithKubernetesTestServer`
 msgstr "你也可以使用 `@WithKubernetesTestServer` 注解上的 `setup` 属性来提供一个将配置 `KubernetesServer` 实例的类。"
 
 #: _versions/main/guides/kubernetes-client.adoc
-msgid "Alternately, you can create an extension of the `KubernetesServerTestResource` class to ensure all your `@QuarkusTest` enabled test classes share the same mock server setup via the `WithTestResource` annotation:"
+msgid "Alternately, you can create an extension of the `KubernetesServerTestResource` class to ensure all your `@QuarkusTest` enabled test classes share the same mock server setup via the `QuarkusTestResource` annotation:"
 msgstr ""
 
 #. type: Plain text

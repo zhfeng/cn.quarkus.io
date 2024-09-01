@@ -2051,7 +2051,7 @@ msgstr "如果必须在运行测试前将自定义 realm 文件导入 Keycloak�
 #: _guides/security-oidc-code-flow-authentication.adoc
 msgid ""
 "Finally, write a test code the same way as it is described in the <<code-flow-integration-testing-wiremock,Wiremock>> section.\n"
-"The only difference is that `@WithTestResource` is no longer needed:"
+"The only difference is that `@QuarkusTestResource` is no longer needed:"
 msgstr ""
 
 #. type: Title ===
@@ -2084,7 +2084,7 @@ msgstr "然后，按如下步骤配置 Maven Surefire 插件（在本地镜像�
 #: _guides/security-oidc-code-flow-authentication.adoc
 msgid ""
 "Now, set the configuration and write the test code the same way as it is described in the <<code-flow-integration-testing-wiremock,Wiremock>> section.\n"
-"The only difference is the name of `WithTestResource`:"
+"The only difference is the name of `QuarkusTestResource`:"
 msgstr ""
 
 #: _guides/security-oidc-code-flow-authentication.adoc

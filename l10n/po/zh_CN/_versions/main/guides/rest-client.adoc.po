@@ -1536,13 +1536,13 @@ msgstr "使用适当的Wiremock版本。所有可用的版本都可以 link:http
 
 #: _versions/main/guides/rest-client.adoc
 msgid ""
-"In Quarkus tests when some service needs to be started before the Quarkus tests are ran, we utilize the `@io.quarkus.test.common.WithTestResource`\n"
+"In Quarkus tests when some service needs to be started before the Quarkus tests are ran, we utilize the `@io.quarkus.test.common.QuarkusTestResource`\n"
 "annotation to specify a `io.quarkus.test.common.QuarkusTestResourceLifecycleManager` which can start the service and supply configuration\n"
 "values that Quarkus will use."
 msgstr ""
 
 #: _versions/main/guides/rest-client.adoc
-msgid "For more details about `@WithTestResource` refer to  xref:getting-started-testing.adoc#quarkus-test-resource[this part of the documentation]."
+msgid "For more details about `@QuarkusTestResource` refer to  xref:getting-started-testing.adoc#quarkus-test-resource[this part of the documentation]."
 msgstr ""
 
 #. type: Plain text
@@ -1599,6 +1599,10 @@ msgstr "当所有测试完成后，关闭Wiremock。"
 #, fuzzy
 msgid "The `ExtensionsResourceTest` test class needs to be annotated like so:"
 msgstr " `ExtensionsResourceTest` 测试类需要被这样注解。"
+
+#: _versions/main/guides/rest-client.adoc
+msgid "`@QuarkusTestResource` applies to all tests, not just `ExtensionsResourceTest`."
+msgstr ""
 
 #: _versions/main/guides/rest-client.adoc
 #, fuzzy

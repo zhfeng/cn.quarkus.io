@@ -99,7 +99,7 @@ msgid "And for the least 'auto-magical' usage in the tests, simply disable both 
 msgstr ""
 
 #: _guides/observability-devservices-lgtm.adoc
-msgid "And then explicitly list LGTM Dev Resource in the test as a `@WithTestResource` resource:"
+msgid "And then explicitly list LGTM Dev Resource in the test as a `@QuarkusTestResource` resource:"
 msgstr ""
 
 #: _guides/observability-devservices-lgtm.adoc

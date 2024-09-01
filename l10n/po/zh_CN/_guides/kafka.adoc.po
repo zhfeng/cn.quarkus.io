@@ -2456,7 +2456,7 @@ msgid "which provides `io.quarkus.test.kafka.KafkaCompanionResource` - an implem
 msgstr "它提供了 `io.quarkus.test.kafka.KafkaCompanionResource` -- `io.quarkus.test.common.QuarkusTestResourceLifecycleManager` 的一种实现。"
 
 #: _guides/kafka.adoc
-msgid "Then use `@WithTestResource` to configure the Kafka Companion in tests, for example:"
+msgid "Then use `@QuarkusTestResource` to configure the Kafka Companion in tests, for example:"
 msgstr ""
 
 #. type: Plain text

@@ -304,7 +304,7 @@ msgstr "为了给Github设置OIDC，你需要在 link:https://github.com/setting
 
 #: _guides/security-openid-connect-providers.adoc
 msgid ""
-"Make sure to fill in the appropriate details, but more importantly the Authorization Callback URL, set to `http://localhost:8080/_renarde/security/github-success`\n"
+"Make sure to fill in the appropriate details, but more importantly the Authorization Callback URL, set to `http://localhost:8080/_renarde/security/oidc-success`\n"
 "(if you intend to test this using the Quarkus dev mode)."
 msgstr ""
 

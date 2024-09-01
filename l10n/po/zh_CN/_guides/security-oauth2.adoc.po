@@ -379,13 +379,13 @@ msgstr "使用适当的Wiremock版本。所有可用的版本都可以 link:http
 
 #: _guides/security-oauth2.adoc
 msgid ""
-"In Quarkus tests when some service needs to be started before the Quarkus tests are ran, we utilize the `@io.quarkus.test.common.WithTestResource`\n"
+"In Quarkus tests when some service needs to be started before the Quarkus tests are ran, we utilize the `@io.quarkus.test.common.QuarkusTestResource`\n"
 "annotation to specify a `io.quarkus.test.common.QuarkusTestResourceLifecycleManager` which can start the service and supply configuration\n"
 "values that Quarkus will use."
 msgstr ""
 
 #: _guides/security-oauth2.adoc
-msgid "For more details about `@WithTestResource` refer to xref:getting-started-testing.adoc#quarkus-test-resource[this part of the documentation]."
+msgid "For more details about `@QuarkusTestResource` refer to xref:getting-started-testing.adoc#quarkus-test-resource[this part of the documentation]."
 msgstr ""
 
 #. type: Plain text
@@ -425,7 +425,7 @@ msgid "When all tests have finished, shutdown Wiremock."
 msgstr "当所有测试完成后，关闭Wiremock。"
 
 #: _guides/security-oauth2.adoc
-msgid "Your test class needs to be annotated like with `@WithTestResource(MockAuthorizationServerTestResource.class)` to use this `QuarkusTestResourceLifecycleManager`."
+msgid "Your test class needs to be annotated like with `@QuarkusTestResource(MockAuthorizationServerTestResource.class)` to use this `QuarkusTestResourceLifecycleManager`."
 msgstr ""
 
 #. type: Plain text
@@ -451,6 +451,10 @@ msgstr "无论您想定义什么令牌，OAuth2 模拟授权服务器都不会�
 #, fuzzy
 msgid "Use this token inside the `Authorization` header to trigger OAuth2 authentication."
 msgstr "在 `Authorization` 标头中使用此令牌可触发 OAuth2 身份验证。"
+
+#: _guides/security-oauth2.adoc
+msgid "`@QuarkusTestResource` applies to all tests, not just `TokenSecuredResourceTest`."
+msgstr ""
 
 #. type: Title ==
 #: _guides/security-oauth2.adoc

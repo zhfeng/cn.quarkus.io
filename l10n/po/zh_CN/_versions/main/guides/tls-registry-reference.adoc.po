@@ -13,13 +13,13 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The TLS registry is a Quarkus extension centralizing the TLS configuration for the application.\n"
-"It allows to define the TLS configuration in a single place and to reference it from multiple places in the application."
+"You can use the TLS registry to define the configuration in one place and reference it from multiple places in the application."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The TLS extension should be automatically added to your project as soon as you use a compatible extension.\n"
-"For example, if your application uses Quarkus REST, gRPC or reactive routes, the TLS registry is automatically added to your project."
+"The TLS extension is automatically added to your project when you use a compatible extension.\n"
+"For example, if your application uses Quarkus REST, gRPC, or reactive routes, the TLS registry is automatically added to your project."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -27,13 +27,14 @@ msgid "Using TLS registry"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To configure a TLS connection, and more specifically the key stores and trust stores, you use the `quarkus.tls.*` properties."
+msgid "To configure a TLS connection, including key and trust stores, use the `quarkus.tls.*` properties."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Configuration directly under `quarkus.tls` is the default configuration that will be used by all the TLS connections in the application.\n"
-"However, you can also have specific configurations for specific connections by using the `quarkus.tls.<name>.*` properties."
+"The configuration model always contains a default (unnamed) TLS configuration that is configured by properties directly under `quarkus.tls.*`.\n"
+"In addition, it allows you to define separate named configurations; these use `quarkus.tls.<name>.*` properties.\n"
+"However, by using the `quarkus.tls.<name>.*` properties, you can also have specific configurations for specific connections."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -45,7 +46,7 @@ msgid "To configure the HTTP server to use HTTPS, you can use the following conf
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "So you a `p12` (PKCS12) key store, use the following configuration:"
+msgid "With a `p12` (PKCS12) keystore, use the following configuration:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -66,24 +67,24 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"To configure mTLS, you need to configure both the server and the client.\n"
-"Both will receive a key store and a trust store:"
+"To configure mTLS, set up both the server and the client.\n"
+"Each will require a keystore and a truststore:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the server key store contains the server certificate and private key"
+msgid "the server keystore contains the server certificate and private key"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the client key store contains the client certificate and private key"
+msgid "the client keystore contains the client certificate and private key"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the server trust store contains the client certificate (to authenticate the client)"
+msgid "the server truststore contains the client certificate (to authenticate the client)"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the client trust store contains the server certificate (to authenticate the server)"
+msgid "the client truststore contains the server certificate (to authenticate the server)"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -91,9 +92,7 @@ msgid "Referencing a TLS configuration"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"Once you have configured a _named_ configuration using `quarkus.tls.<name>`, you need to reference it.\n"
-"This is done using the `tls-configuration-name` property:"
+msgid "After you have configured a _named_ configuration by using `quarkus.tls.<name>`, reference it by using the `tls-configuration-name` property:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -115,7 +114,7 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Key stores are used to store the private key and the certificate.\n"
-"They are mainly used on the server-side, but can also be used on the client-side when mTLS is used."
+"They are mainly used on the server side but can also be used on the client side when mTLS is used."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -124,29 +123,34 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"PEM key stores are composed of a list of pair of two files: the certificate and the private key.\n"
-"The certificate file is a `.crt` or `.pem` file, and the private key file is often a `.key` file."
+"Privacy Enhanced Mail (PEM) keystores are composed of a list of pairs of two files: the certificate and the private key.\n"
+"The certificate file is a `.crt` or `.pem` file; the private key file is often a `.key` file."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To configure a PEM key store, use the following properties:"
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"In general, you will only need one pair of certificate and private key.\n"
-"The certificate may contain multiple certificates (a chain), but there should be one private key."
+msgid "To configure a PEM keystore, use the following properties:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"When multiple pairs are configured, the selection is done using SNI (Server Name Indication).\n"
-"The client will send the server name it wants to connect to, and the server will select the appropriate pair of certificate and private key.\n"
-"Make sure xref:./tls-registry-reference.adoc#sni[SNI] is enabled on both the client and server to use this feature."
+"In general, you only need a single pair consisting of a certificate and a private key.\n"
+"Even if the certificate is part of a certificate chain, it includes only one private key corresponding to the end-entity certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "When configuring multiple key/cert pairs, the order is following the lexicographical order of the name (`a` and `b` in the previous snippet). So, the first pair is the one with the lowest lexicographical order. You can define the order by using the `quarkus.tls.key-store.pem.order` property, for example: `quarkus.tls.key-store.pem.order=b,c,a`. This is important when using SNI, as the first pair is the default one."
+msgid ""
+"When multiple pairs are configured, the selection is based on Server Name Indication (SNI).\n"
+"The client sends the server name it wants to connect to, and the server selects the appropriate pair of certificates and private keys.\n"
+"To use this feature, ensure xref:./tls-registry-reference.adoc#sni[SNI] is enabled on both the client and server."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid ""
+"When configuring multiple key or certificate pairs, the order follows the lexicographical order of their names, as demonstrated with `a` and `b` in the previous example.\n"
+"The pair with the lowest lexicographical order is considered the first.\n"
+"You can define the order by using the `quarkus.tls.key-store.pem.order` property.\n"
+"For example, `quarkus.tls.key-store.pem.order=b,c,a`.\n"
+"This setting is crucial when using SNI, where the first specified pair is used as the default."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -154,28 +158,35 @@ msgid "PKCS12 key stores"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"PKCS12 key stores are a single file containing the certificate and the private key.\n"
-"To configure a PKCS12 key store, use the following properties:"
+msgid "PKCS12 key stores are a single file containing the certificate and the private key."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "To configure a PKCS12 keystore, use the following properties:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"`.p12` files are password-protected, so you need to provide the password to open the key store.\n"
-"Also, they can include more than one certificate and private key.\n"
-"In this case, you can:"
+"`.p12` files are password-protected, so you need to provide the password to open the keystore.\n"
+"These files can include more than one certificate and private key."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "either provide the alias of the certificate and private key you want to use"
+msgid "If this is the case, take either of the following actions:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "or use SNI to select the appropriate certificate and private key (all keys must use the same password)"
+msgid "Provide the alias of the certificate and the private key you want to use."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid "To configure the alias, use the following properties:"
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid ""
+"Alternatively, use SNI to select the appropriate certificate and private key.\n"
+"Note that all keys must use the same password."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -186,14 +197,14 @@ msgstr ""
 msgid ""
 "JKS key stores are a single file containing the certificate and the private key.\n"
 "Note that the JKS format should be avoided as it is less secure than PKCS12.\n"
-"To configure a JKS key store, use the following properties:"
+"To configure a JKS keystore, use the following properties:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"`.jks` files are password-protected, so you need to provide the password to open the key store.\n"
+"`.jks` files are password-protected, so you need to provide the password to open the keystore.\n"
 "Also, they can include more than one certificate and private key.\n"
-"In this case, you can:"
+"If this is the case:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -202,7 +213,7 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Server Name Indication (SNI) is a TLS extension that allows a client to specify the hostname it is attempting to connect to during the TLS handshake.\n"
+"Server Name Indication (SNI) is a TLS extension allowing a client to specify the hostname it attempts to connect to during the TLS handshake.\n"
 "It enables a server to present different TLS certificates for multiple domains on a single IP address, facilitating secure communication for virtual hosting scenarios."
 msgstr ""
 
@@ -211,15 +222,18 @@ msgid "To enable SNI, use the following property:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "With this setting enabled, the client indicate the server name during the TLS handshake, allowing the server to select the right certificate:"
+msgid "With this setting enabled, the client indicates the server name during the TLS handshake, allowing the server to select the appropriate certificate:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "When configuring the keystore with PEM files, multiple CRT/Key must be given."
+msgid "When configuring the keystore with PEM files, multiple certificate (CRT) and key files must be provided. CRT is a common file extension for X.509 certificate files, typically in PEM (Privacy-Enhanced Mail) format. These files contain the public certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "When configuring the keystore with a JKS or a P12 file, it selects one alias based on the SNI hostname. In this case, all the keystore password and alias password must be the same. Do not set the `alias` property in this case."
+msgid ""
+"When configuring the keystore with a JKS or P12 file, the server selects the appropriate certificate based on the SNI (Server Name Indication) hostname provided by the client during the TLS handshake.\n"
+"The server matches the SNI hostname with the common name (CN) or subject alternative names (SAN) configured in the certificates stored in the keystore.\n"
+"All keystore and alias passwords must be identical, and there is no need to set the alias property."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -227,13 +241,13 @@ msgid "Credential providers"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Instead of passing the key store password and alias password in the configuration, you can use a credential provider."
+msgid "You can use a credential provider instead of passing the keystore password and alias password in the configuration."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"A credential provider offers a way to retrieve the key store password and alias password.\n"
-"Note that the credential provider is only used if the password / alias password are not set in the configuration."
+"A credential provider offers a way to retrieve the keystore and alias password.\n"
+"Note that the credential provider is only used if the password or alias password is not set in the configuration."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -251,7 +265,8 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Trust stores are used to store the certificates of the trusted parties.\n"
-"They are generally used on the client-side, and on the server-side when mTLS is used."
+"In regular TLS, the client uses a truststore to authenticate the server.\n"
+"With mutual TLS (mTLS), both the server and the client use truststores to authenticate each other."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -265,7 +280,7 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To configure a PEM trust store, use the following properties:"
+msgid "To configure a PEM truststore, use the following properties:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -275,17 +290,17 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "PKCS12 trust stores are a single file containing the certificates.\n"
-"When multiple certificates are included, you can use the alias to select the appropriate certificate."
+"You can use the alias to select the appropriate certificate when multiple certificates are included."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To configure a PKCS12 trust store, use the following properties:"
+msgid "To configure a PKCS12 truststore, use the following properties:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"`.p12` files are password-protected, so you need to provide the password to open the trust store.\n"
-"However, unlike for key stores, the alias does not require a password (because it's the public certificate and not a private key)."
+"`.p12` files are password-protected, so you need to provide the password to open the truststore.\n"
+"However, unlike key stores, the alias does not require a password because it contains a public certificate, not a private key."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -294,29 +309,26 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"JKS trust stores are a single file containing the certificates.\n"
-"When multiple certificates are included, you can use the alias to select the appropriate certificate.\n"
-"Note that the JKS format should be avoided as it is less secure than PKCS12."
+"JKS truststores are single files containing multiple certificates.\n"
+"You can use the alias to select the appropriate certificate when multiple certificates are present.\n"
+"However, avoid using the JKS format as it is less secure than PKCS12."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To configure a JKS trust store, use the following properties:"
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"`.jks` files are password-protected, so you need to provide the password to open the trust store.\n"
-"However, unlike for key stores, the alias does not require a password (because it's the public certificate and not a private key)."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "Instead of passing the trust store password in the configuration, you can use a credential provider."
+msgid "To configure a JKS truststore, use the following properties:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"A credential provider offers a way to retrieve passwords and other credentials.\n"
-"Note that the credential provider is only used if the password is not set in the configuration."
+"`.jks` files are password-protected, so you need to provide the password to open the truststore.\n"
+"However, unlike keystores, the alias does not require a password because it contains a public certificate, not a private key."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid ""
+"Instead of passing the truststore password in the configuration, you can use a credential provider.\n"
+"A credential provider allows you to retrieve passwords and other credentials.\n"
+"Note that the credential provider is used only if the password is not set in the configuration."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -332,7 +344,7 @@ msgid "While key stores and trust stores are the most important properties, ther
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "while the following examples use the _default_ configuration, you can use the _named_ configuration by prefixing the properties with the name of the configuration."
+msgid "While the following examples use the _default_ configuration, you can use the _named_ configuration by prefixing the properties with the configuration's name."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -341,10 +353,10 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The cipher suites are the list of ciphers that can be used during the TLS handshake.\n"
+"Cipher suites are the list of ciphers that you can use during the TLS handshake.\n"
 "You can configure the ordered list of enabled cipher suites.\n"
 "If not configured, a reasonable default is selected from the built-in ciphers.\n"
-"However, when configured, it takes precedence over the default suite defined by the SSL engine in use."
+"However, when specified, your configuration precedes the default suite defined by the SSL engine in use."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -358,12 +370,13 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The TLS protocol versions are the list of protocols that can be used during the TLS handshake.\n"
-"You can configure the ordered list of enabled TLS protocols.\n"
-"If not configured , it defaults to `TLSv1.3`, `TLSv1.2`."
+"Enabled TLS protocol versions are specified as an ordered list separated by commas.\n"
+"The relevant configuration property is `quarkus.tls.protocols` (or `quarkus.tls.<name>.protocols` for named TLS configurations).\n"
+"It defaults to `TLSv1.3, TLSv1.2` if not configured."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Are supported: `TLSv1`, `TLSv1.1`, `TLSv1.2`, `TLSv1.3`."
+msgid "The supported values are: `TLSv1`, `TLSv1.1`, `TLSv1.2`, `TLSv1.3`."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -377,7 +390,7 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "When a TLS connection is established, the handshake phase is the first step.\n"
-"During this phase, the client and server exchange information to establish the connection, typically the cipher suite, the TLS protocol version, the certification validation and so on."
+"During this phase, the client and server exchange information to establish the connection, typically the cipher suite, the TLS protocol version, the certification validation, and so on."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -390,12 +403,12 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Application-Layer Protocol Negotiation (ALPN) is a TLS extension that allows the client and server during the TLS handshake to negotiate which protocol they will use for communication.\n"
-"ALPN enables more efficient communication by allowing the client to indicate its preferred application protocol to the server before the TLS connection is established."
+"Application-Layer Protocol Negotiation (ALPN) is a TLS extension that allows the client and server to negotiate which protocol they will use for communication during the TLS handshake.\n"
+"ALPN enables more efficient communication by allowing the client to indicate its preferred application protocol to the server before establishing the TLS connection."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "This helps in scenarios such as HTTP/2 where multiple protocols may be available, allowing for faster protocol selection."
+msgid "This helps in scenarios like HTTP/2, where multiple protocols might be available, allowing for faster protocol selection."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -410,14 +423,14 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"A Certificate Revocation List (CRL) is a list of certificates that have been revoked by the issuing Certificate Authority (CA) before their scheduled expiration date.\n"
-"When a certificate is compromised, no longer needed, or deemed invalid for any reason, the CA adds it to the CRL to inform relying parties not to trust the certificate anymore."
+"A Certificate Revocation List (CRL) is a list of certificates the issuing Certificate Authority (CA) revoked before their scheduled expiration date.\n"
+"When a certificate is compromised, no longer needed, or deemed invalid, the CA adds it to the CRL to inform relying parties not to trust it anymore."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "You can configure the CRL with the list of certificate files you do not trust anymore.\n"
-"Two formats are allowed: DER and PKCS#7 (also known as P7B)."
+"Two formats are allowed: DER and PKCS#7 (P7B)."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -425,7 +438,7 @@ msgid "When using the DER format, you must pass DER-encoded CRLs."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "When using the PKCS#7 format, you must pass PKCS#7 `SignedData` object, with the only significant field being `crls`."
+msgid "When using the PKCS#7 format, you must pass the PKCS#7 `SignedData` object, with the only significant field being `crls`."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -441,17 +454,23 @@ msgid "These two properties should not be used in production."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
+msgid "You can configure your TLS connection to trust all certificates and disable the hostname verification."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Note that these are two different processes:"
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"You can configure your TLS connection to trust all certificates and to disable the hostname verification.\n"
-"These are two different steps:"
+"Trusting all certificates ignores the certificate validation, so all certificates are trusted.\n"
+"This method is useful for testing with self-signed certificates, but it should not be used in production."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "trusting all certificates ignores the certificate validation, so all certificates are trusted. It is useful for testing with self-signed certificates, but should not be used in production."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "hostname verification is the process of verifying the server's identity. It is useful to prevent man-in-the-middle attacks. It often defaults to `HTTPS` or `LDAPS`."
+msgid ""
+"Hostname verification is the process of verifying the server's identity.\n"
+"It is useful to prevent man-in-the-middle attacks and often defaults to `HTTPS` or `LDAPS`."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -479,11 +498,13 @@ msgid "The registry API"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "While extensions will automatically use the TLS registry, you can also use the registry API to access the TLS configuration programmatically."
+msgid "While extensions automatically use the TLS registry, you can also access the TLS configuration programmatically through the registry API."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To access the TLS configuration, inject the `TlsConfigurationRegistry` bean and gets the TLS configuration by name (or the default one):"
+msgid ""
+"To access the TLS configuration, inject the `TlsConfigurationRegistry` bean.\n"
+"You can retrieve a named TLS configuration by calling `get(\"<NAME>\")` or the default configuration by calling `getDefault()`."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -515,7 +536,7 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The certificate supplier is a runtime object that is generally retrieved using a recorder method.\n"
+"The certificate supplier is a runtime object generally retrieved by using a recorder method.\n"
 "Here is an example of a certificate supplier:"
 msgstr ""
 
@@ -524,31 +545,31 @@ msgid "Startup checks"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "When the application starts, the TLS registry performs some checks to ensure the configuration is correct:"
+msgid "When the application starts, the TLS registry performs several checks to ensure the configuration is correct:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the key stores and trust stores are accessible"
+msgid "Key stores and trust stores are accessible."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the aliases are available and accessible in the key stores and trust stores"
+msgid "Aliases are available and accessible in the key stores and trust stores."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the certificates are valid"
+msgid "Certificates are valid."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the cipher suites and protocols are valid"
+msgid "Cipher suites and protocols are valid."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "the CRLs are valid"
+msgid "Certificate Revocation Lists (CRLs) are valid."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "If any of these checks fail, the application will fail to start."
+msgid "If any of these checks fail, the application will not start."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -589,9 +610,9 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The TLS registry does include a built-in mechanism for periodically checking the file system for changes and reloading the certificates.\n"
-"You can configure periodic reloading of certificates using properties.\n"
-"The `reload-period` property specifies the interval at which certificates are reloaded, and it will emit a `CertificateReloadedEvent`."
+"The TLS registry includes a built-in mechanism for periodically checking the file system for changes and reloading certificates.\n"
+"You can configure periodic certificate reloading by using properties.\n"
+"The `reload-period` property specifies the interval for reloading certificates and will emit a `CertificateReloadedEvent` each time certificates are reloaded."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -601,7 +622,7 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Remember that the impacted server and client may need to listen to the `CertificateReloadedEvent` to apply the new certificates.\n"
-"This is automatically done for the Quarkus HTTP server (including the management interface if enabled)."
+"This is automatically done for the Quarkus HTTP server, including the management interface if it is enabled."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -619,11 +640,11 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "To use Kubernetes secrets, you need to create a secret with the key stores and trust stores.\n"
-"Let's take the following secret as an example:"
+"Consider the following secret as an example:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The easiest way to uses these certificates is to mount the secret as a volume in the pod:"
+msgid "The easiest way to use these certificates is to mount the secret as a volume in the pod:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -640,10 +661,10 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"When running in Kubernetes, you can use cert-manager to automatically generate and renew certificates.\n"
-"Cert-manager will produce a secret with the key stores and trust stores.\n"
-"So, configuring the TLS registry is the same as when using Kubernetes secrets.\n"
-"The generated secret uses the following files:"
+"When running in Kubernetes, you can use cert-manager to generate and renew certificates automatically.\n"
+"Cert-manager produces a secret containing the keystores and truststores.\n"
+"Configuring the TLS registry is the same as when using Kubernetes secrets.\n"
+"The generated secret includes the following files:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -663,13 +684,13 @@ msgid "To handle the renewal, you can use the periodic reloading mechanism:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Utilizing OpenShift serving certificates"
+msgid "Working with OpenShift serving certificates"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"When running your application in OpenShift, you can leverage the https://docs.openshift.com/container-platform/4.16/security/certificates/service-serving-certificate.html[OpenShift serving certificates] to automatically generate and renew TLS certificates.\n"
-"The Quarkus TLS registry can use these certificates and Certificate Authority (CA) files to handle HTTPS traffic securely and to validate certificates."
+"When running your application in OpenShift, you can leverage the https://docs.openshift.com/container-platform/4.16/security/certificates/service-serving-certificate.html[OpenShift serving certificates] to generate and renew TLS certificates automatically.\n"
+"The Quarkus TLS registry can use these certificates and Certificate Authority (CA) files to handle HTTPS traffic and validate certificates securely."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -678,7 +699,7 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"To have OpenShift generate a certificate, you need to annotate an existing _Service_ object.\n"
+"To have OpenShift generate a certificate, annotate an existing _Service_ object.\n"
 "The generated certificate will be stored in a secret, which you can then mount in your pod."
 msgstr ""
 
@@ -687,11 +708,19 @@ msgid "Consider the following _Service_ example:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The annotation `service.beta.openshift.io/serving-cert-secret-name` instructs OpenShift to generate a certificate and store it in a secret named `my-tls-secret`. If your service is already running, you can add this annotation with the following command:"
+msgid "The annotation `service.beta.openshift.io/serving-cert-secret-name` instructs OpenShift to generate a certificate and store it in a secret named `my-tls-secret`."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Next, mount the secret in your pod by updating your _Deployment_ configuration to include a volume and mount the secret:"
+msgid "To use the stored certificate:"
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Add this annotation to your already running service:"
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Mount the secret as a volume in your pod by updating your _Deployment_ configuration:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -699,7 +728,7 @@ msgid "Define a volume to mount the secret. Use the same name as the secret decl
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Set up the key store with the paths to the certificate and private key. This can be configured using environment variables or configuration files. Here, we use environment variables. OpenShift serving certificates always create the `tls.crt` and `tls.key` files."
+msgid "Set up the keystore with the paths to the certificate and private key. This can be configured using environment variables or configuration files. Here, we use environment variables. OpenShift serving certificates always create the `tls.crt` and `tls.key` files."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -712,12 +741,15 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"By setting the `quarkus.tls.key-store.pem.acme.cert` and `quarkus.tls.key-store.pem.acme.key` variables (or their environment variable variant as done above), the TLS registry will use the certificate and private key from the secret. This configures the default key store for the Quarkus HTTP server, allowing it to use the certificate.\n"
-"For using this certificate in a named configuration, refer to <<referencing-a-tls-configuration>>."
+"By setting the `quarkus.tls.key-store.pem.acme.cert` and `quarkus.tls.key-store.pem.acme.key` variables (or their environment variable variant as done above), the TLS registry will use the certificate and private key from the secret.\n"
+"This configures the default keystore for the Quarkus HTTP server, allowing it to use the certificate.\n"
+"For information about using this certificate in a named configuration, see <<referencing-a-tls-configuration>>."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Deploy your application, and it will utilize the certificate generated by OpenShift, making the service available over HTTPS."
+msgid ""
+"Deploy your application to use the certificate generated by OpenShift.\n"
+"This will make the service available over HTTPS."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -726,18 +758,16 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Now that your service uses a certificate issued by OpenShift, you might need to configure your client applications to trust this certificate.\n"
-"To accomplish this, create a _ConfigMap_ that holds the CA certificate and mount it in the application's pod."
+"Now that your service uses a certificate issued by OpenShift, configure your client applications to trust this certificate.\n"
+"To do so, create a ConfigMap that holds the CA certificate, and then configure the pod to mount it."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "In this example, we'll use a Quarkus REST client, but the same principle applies to any client."
+msgid "As demonstrated below with a Quarkus REST client, the same principle applies to any client."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"First, create a _ConfigMap_ for the CA certificate.\n"
-"Start by defining an _empty_ ConfigMap, which will be populated with the CA certificate:"
+msgid "Start by defining an _empty_ ConfigMap, which will be populated with the CA certificate:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -748,7 +778,7 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Next, mount the ConfigMap by adding a volume and mount it in your _Deployment_ configuration:"
+msgid "Mount the ConfigMap by adding a volume and mounting it in your _Deployment_ configuration:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -760,15 +790,22 @@ msgid "Define a volume to mount the ConfigMap and reference the ConfigMap that r
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Finally, configure the REST client to use this CA certificate. Consider the following REST client interface:"
+msgid "Configure the REST client to use this CA certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Configure the base URI and the configuration key. The name must be in the format `<service-name>.<namespace>.svc`, otherwise the certificate will not be trusted. Ensure to also configure the `configKey`."
+msgid "Consider the following REST client interface:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Next, configure the REST client to trust the CA certificate:"
+msgid ""
+"Configure the base URI and the configuration key.\n"
+"The name must be in the format `<service-name>.<namespace>.svc`; otherwise, the certificate will not be trusted.\n"
+"Ensure that the `configKey` is also configured."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Configure the REST client to trust the CA certificate generated by OpenShift:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -776,11 +813,10 @@ msgid "Configure the `hero` REST client with the TLS configuration named `my-ser
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Set up the `my-service-tls` TLS configuration, specifically the trust store with the CA certificate. Ensure the path matches the one used in the Kubernetes _Deployment_ configuration. The file is always named `service-ca.crt`."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "Now, the REST client is configured to trust the certificate generated by OpenShift."
+msgid ""
+"Set up the `my-service-tls` TLS configuration, specifically the truststore with the CA certificate.\n"
+"Ensure the path matches the one used in the Kubernetes _Deployment_ configuration.\n"
+"The file is always named `service-ca.crt`."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -817,14 +853,14 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"In most cases, you generate the Quarkus Development CA once, and then generate certificates signed by this CA.\n"
+"In most cases, you generate the Quarkus Development CA once and then generate certificates signed by this CA.\n"
 "The Quarkus Development CA is a Certificate Authority that can be used to sign certificates locally.\n"
 "It is only valid for development purposes and only trusted on the local machine.\n"
-"The generated CA is located in `$HOME/.quarkus/quarkus-dev-root-ca.pem`, and installed in the system trust store."
+"The generated CA is located in `$HOME/.quarkus/quarkus-dev-root-ca.pem`, and installed in the system truststore."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "CA, signed vs. self-signed certificates"
+msgid "Understanding self-signed versus CA-signed certificates"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -832,28 +868,33 @@ msgid "When developing with TLS, you can use two types of certificates:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "a self-signed certificate: the certificate is signed by the same entity that uses it. It is not trusted by default. It's generally what we use when we don't have a CA, or don't want to dig too much into TLS. This is not a production setup, and may be used only for development."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "a signed certificate: the certificate is signed by a Certificate Authority (CA). The CA is a trusted entity that signs the certificate. The certificate is trusted by default. This is what we use in production."
+msgid ""
+"**Self-signed certificate**: The certificate is signed by the same entity that uses it.\n"
+"It is not trusted by default.\n"
+"This type of certificate is typically used when a Certificate Authority (CA) is unavailable or you want a simple setup.\n"
+"It is not suitable for production and should only be used for development."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"We could use self-signed certificate when running application locally, but it's not always convenient.\n"
-"Typically, browsers will not trust the certificate, and you will have to import it manually.\n"
-"`curl`, `wget`, `httpie` and other tools will also not trust the certificate."
+"**CA-signed certificate**: The certificate is signed by a Certificate CA, a trusted entity.\n"
+"This certificate is trusted by default and is the standard choice for production environments."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"To avoid this, we can use a development CA to sign the certificates, and install it into the system trust store.\n"
-"Thus, every certificate signed by this CA will be trusted by the system."
+"While you can use a self-signed certificate for local development, it has limitations.\n"
+"Browsers and tools like `curl`, `wget`, and `httpie` typically do not trust self-signed certificates, requiring manual import."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Quarkus makes it easy to generate a development CA and certificates signed by this CA."
+msgid ""
+"To avoid this issue, you can use a development CA to sign certificates and install the CA in the system truststore.\n"
+"This ensures that the system trusts all certificates signed by the CA."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Quarkus simplifies the generation of a development CA and the certificates that are signed by this CA."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -863,39 +904,39 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The development CA is a Certificate Authority that can be used to sign certificates locally.\n"
-"Note that the generated CA is only valid for development purposes, and only trusted on the local machine."
+"Note that the generated CA is only valid for development purposes and can only be trusted on the local machine."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "To generate a development CA, use the following command:"
+msgid "Generate a development CA:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"`--install` installs the CA in the system trust store.\n"
-"Windows, Mac and Linux (Fedora and Ubuntu) are supported.\n"
-"However, depending on your browser, you may need to import the generated CA manually.\n"
-"Refer to the browser documentation for more information.\n"
+"`--install` installs the CA in the system truststore.\n"
+"Windows, Mac, and Linux (Fedora and Ubuntu) are supported.\n"
+"However, depending on your browser, you might need to import the generated CA manually.\n"
+"Refer to your browser's documentation for more information.\n"
 "The generated CA is located in `$HOME/.quarkus/quarkus-dev-root-ca.pem`."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "When installing the certificate, your system may ask for your password to install the certificate in the system trust store, or ask for confirmation in a dialog (on Windows)."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "On Windows, makes sure you run from an elevated terminal (run as administrator) to install the CA in the system trust store."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "`--renew` renews the CA if it already exists.\n"
-"When this option is used, you need to re-generate the certificates that were signed by the CA, as the private key is changed.\n"
-"Note that if the CA expires, it will automatically be renewed (without passing `--renew`)."
+"When this option is used, the private key is changed, so you need to regenerate the certificates signed by the CA.\n"
+"If the CA expires, it will automatically renew without requiring the `--renew` option."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "`--truststore` also generates a PKCS12 trust store containing the CA certificate."
+msgid "`--truststore` also generates a PKCS12 truststore containing the CA certificate."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "When installing the certificate, your system might ask for your password to install the certificate in the system truststore or ask for confirmation in a dialog on Windows."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "On Windows, run as administrator from an elevated terminal to install the CA in the system truststore."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -904,12 +945,12 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Once you have installed the Quarkus Development CA, you can generate a trusted certificate.\n"
-"It will be signed by the Quarkus Development CA, and so trusted by your system."
+"After installing the Quarkus Development CA, you can generate a trusted certificate.\n"
+"This certificate will be signed by the Quarkus Development CA and trusted by your system."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "This generates a certificate signed by the Quarkus Development CA, and so if properly installed / imported, will be trusted by your system."
+msgid "This command generates a certificate signed by the Quarkus Development CA, which your system will trust if properly installed or imported."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -919,29 +960,31 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "`$NAME-keystore.p12` - contains the private key and the certificate. It's password protected."
+msgid ""
+"`$NAME-keystore.p12`: Contains the private key and the certificate.\n"
+"It is password-protected."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "`$NAME-truststore.p12` - contains the CA certificate, that you can used as trust store (for test, for instance)."
+msgid "`$NAME-truststore.p12`: Contains the CA certificate, which you can use as a truststore, for example, for testing."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "More options are available:"
+msgid "Additional options are available:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"When generating the certificate, a `.env` file is also generated making the Quarkus dev mode aware of these certificates.\n"
+"A `.env` file is also generated when generating the certificate, making the Quarkus dev mode aware of these certificates.\n"
 "So, then, if you run your application in dev mode, it will use these certificates:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Now, you can open the Dev UI using HTTPS: `https://localhost:8443/q/dev`, or issue a request using `curl`:"
+msgid "Now, you can open the Dev UI using HTTPS: `https://localhost:8443/q/dev` or issue a request using `curl`:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "If the Quarkus Development CA is not installed, a self-signed certificate is generated."
+msgid "A self-signed certificate is generated if the Quarkus Development CA is not installed."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -953,7 +996,7 @@ msgid "Even if the Quarkus Development CA is installed, you can generate a self-
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "This generates a self-signed certificate, not signed by the Quarkus Development CA."
+msgid "This generates a self-signed certificate that the Quarkus Development CA does not sign."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1005,13 +1048,15 @@ msgid "https://letsencrypt.org[Let's Encrypt] is a free, automated certificate a
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Let's Encrypt uses https://datatracker.ietf.org/doc/html/rfc8555[Automated certificate management environment (ACME) protocol] to support an automatic certificate issuance and renewal. Please read https://letsencrypt.org/docs/[Let's Encrypt documentation] to learn more about Let's Encrypt and ACME."
+msgid ""
+"Let's Encrypt uses https://datatracker.ietf.org/doc/html/rfc8555[Automated certificate management environment (ACME) protocol] to support automatic certificate issuance and renewal.\n"
+"To learn more about Let's Encrypt and ACME, see https://letsencrypt.org/docs/[Let's Encrypt documentation]."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"TLS registry project provides a CLI ACME client to issue and renew Let's Encrypt certificates.\n"
-"Your application uses TLS registry to resolve ACME protocol challenges."
+"The TLS registry extension allows a CLI ACME client to issue and renew Let's Encrypt certificates.\n"
+"Your application uses this TLS registry extension to resolve ACME protocol challenges."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1024,9 +1069,9 @@ msgstr "先决条件"
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Make sure that a fully resolvable DNS domain name is available and can be used to access your application.\n"
-"This domain name is used for creating a Let's Encrypt account, and supporting Let's Encrypt ACME challenges to prove that you own this domain.\n"
-"You can use https://ngrok.com/[Ngrok] to start experimenting with the Quarkus Let's Encrypt ACME feature, see <<lets-encrypt-ngrok>> section below for more information."
+"Ensure that a fully resolvable DNS domain name is available that you can use to access your application.\n"
+"You can use this domain name to create a Let's Encrypt account and support Let's Encrypt ACME challenges to prove that you own this domain.\n"
+"You can use https://ngrok.com/[ngrok] to start experimenting with the Quarkus Let's Encrypt ACME feature; for more information, see the <<lets-encrypt-ngrok>> section below."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1035,12 +1080,12 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The TLS registry can manage the challenge process from either the main HTTP interface or from the management interface.\n"
-"Using a management interface is **strongly** recommended to let Quarkus deal with ACME challenge configuration separately to the main application's deployment and security requirements:"
+"The TLS registry can manage the challenge process from either the main HTTP interface or the management interface.\n"
+"Using a management interface is **strongly** recommended to let Quarkus deal with ACME challenge configuration separately from the main application's deployment and security requirements:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The challenge itself is served from the primary HTTP interface (the one accessible from your DNS domain name)."
+msgid "The challenge is served from the primary HTTP interface (accessible from your DNS domain name)."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1052,7 +1097,7 @@ msgid "Application preparation"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Before you request a Let's Encrypt certificate, you must run TLS registry Let's Encrypt CLI `prepare` command to prepare your application:"
+msgid "Before you request a Let's Encrypt certificate, you must run the TLS registry Let's Encrypt CLI `prepare` command to prepare your application:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1068,11 +1113,11 @@ msgid "Creates a `.letsencrypt` folder in your application's root directory"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Creates a self-signed domain certificate and private key for your application configured in the previous <<lets-encrypt-prerequisites>> step to be able to start and accept HTTPS requests."
+msgid "Creates a self-signed domain certificate and private key for your application configured in the previous <<lets-encrypt-prerequisites>> step to be able to start and accept HTTPS requests"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Create a `.env` configuration file in your application's root directory configure the application to use the self-signed domain certificate and private key (until we get the Let's Encrypt certificate)."
+msgid "Creates a `.env` configuration file in your application's root directory and configures the application to use the self-signed domain certificate and private key (until we get the Let's Encrypt certificate)"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1080,7 +1125,7 @@ msgid "The following snippet shows an example of the generated `.env` file:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The `.env` file does not contain the `quarkus.tls.lets-encrypt.enabled` and `quarkus.management.enabled` properties as they are build-time properties requiring a rebuild of the application."
+msgid "The `.env` file does not contain the `quarkus.tls.lets-encrypt.enabled` and `quarkus.management.enabled` properties as they are build-time properties that require a rebuild of the application."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1092,7 +1137,7 @@ msgid "You can start your application:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Access your application endpoint using `https://your-domain-name:8443/`, for example, `https://your-domain-name:8443/hello`, accept a self-signed certificate in the browser."
+msgid "Access your application endpoint by using `https://your-domain-name:8443/`; for example, `https://your-domain-name:8443/hello`, and accept a self-signed certificate in the browser."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1116,28 +1161,46 @@ msgid "Provide your contact email address that Let's Encrypt can use to contact 
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Set your application management URL which can be used to handle ACME challenges. Use `https://localhost:8443/` if you chose not to enable a management router in the <<lets-encrypt-prerequisites>> step."
+msgid ""
+"Set your application management URL, which you can use to handle ACME challenges.\n"
+"Use `https://localhost:8443/` if you choose not to enable a management router in the <<lets-encrypt-prerequisites>> step."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "During this command, the TLS registry CLI checks if the application is prepared to serve the challenge, creates and records Let's Encrypt account information, issues a Let's Encrypt certificate request, and interacts with the Quarkus application to resolve ACME challenges."
+msgid "During the processing of the `issue-certificate` command, the TLS registry CLI performs the following tasks:"
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Checks if the application is prepared to serve the challenge."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Creates and records Let's Encrypt account information."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Issues a Let's Encrypt certificate request."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "Interacts with the Quarkus application to resolve ACME challenges."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Once the Let's Encrypt certificate chain and private key have been successfully acquired, they are converted to PEM format and copied to your application's `.letsencrypt` folder.\n"
-"The TLS registry is informed that a new certificate and private key are ready, and reloads them automatically."
+"The TLS registry is informed that a new certificate and private key are ready and reloads them automatically."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Now, access your application's endpoint using `https://your-domain-name:8443/` again.\n"
-"Confirm in the browser that your domain certificate is now signed by the Let's Encrypt certificate authority."
+"Confirm in the browser that the Let's Encrypt certificate authority is now signing your domain certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Note that currently, a Let's Encrypt account is created implicitly by the `issue-certificate` command to make it easy for users to get started with the ACME protocol.\n"
+"Note that currently, the `issue-certificate` command implicitly creates a Let's Encrypt account to make it easy for users to get started with the ACME protocol.\n"
 "Support for the Let's Encrypt account management will evolve further."
 msgstr ""
 
@@ -1160,47 +1223,47 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Once the Let's Encrypt certificate chain and private key have been successfully renewed, they are converted to PEM format and copied to your application's `.letsencrypt` folder.\n"
-"TLS registry is informed that a new certificate and private key are ready and it reloads them automatically."
+"The TLS registry is notified when a new certificate and private key are ready, and it automatically reloads them."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Use NGrok for testing"
+msgid "Use ngrok for testing"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "https://ngrok.com/[Ngrok] can be used to provide a secure HTTPS tunnel to your application running on localhost, and make it easy to test HTTPS based applications."
+msgid "https://ngrok.com/[ngrok] can be used to provide a secure HTTPS tunnel to your application running on localhost, and make it easy to test HTTPS based applications."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Using Ngrok provides an easiest option to get started with the Quarkus Let's Encrypt ACME feature."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"The first thing you have to do with Ngrok is to ask it to reserve a domain.\n"
-"You can use https://github.com/quarkiverse/quarkus-ngrok[Quarkiverse NGrok] in devmode, or have it reserved directly in the NGrok dashboard."
+msgid "ngrok provides a simplified way of getting started with the Quarkus Let's Encrypt ACME feature."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Unfortunately, you can't use your NGrok domain to test the Quarkus Let's Encrypt ACME feature immediately.\n"
-"This is due to the fact that Ngrok is itself using Let's Encrypt and intercepts ACME challenges which are meant to be handled by the Quarkus application instead."
+"The first thing you have to do with ngrok is to ask it to reserve a domain.\n"
+"You can use https://github.com/quarkiverse/quarkus-ngrok[Quarkiverse ngrok] in dev mode or reserve it directly in the ngrok dashboard."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Therefore, you need to remove an NGrok Let's Encrypt certificate policy from your NGrok domain:"
+msgid ""
+"Unfortunately, you cannot use your ngrok domain to test the Quarkus Let's Encrypt ACME feature immediately.\n"
+"This is because ngrok itself uses Let's Encrypt and intercepts ACME challenges that are meant to be handled by the Quarkus application instead."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "`YOUR-RESERVED-DOMAIN-ID` is your reserved domain's id which starts from `rd_`, you can find it in the https://dashboard.ngrok.com/cloud-edge/domains[NGrok dashboard domains section]."
+msgid "Therefore, remove the ngrok Let's Encrypt certificate policy from your ngrok domain:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Now, NGrok will forward ACME challenges over HTTP only, therefore you need to start Ngrok like this:"
+msgid "`YOUR-RESERVED-DOMAIN-ID` is your reserved domain's id which starts from `rd_`, you can find it in the https://dashboard.ngrok.com/cloud-edge/domains[ngrok dashboard domains section]."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "where `8080` is the localhost HTTP port that your application is listening on."
+msgid "Now, because ngrok only forwards ACME challenges over HTTP, start ngrok as follows:"
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "`8080` is the localhost HTTP port your application is listening on."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
