@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-01 08:33+0000\n"
+"POT-Creation-Date: 2024-09-08 08:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,64 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/28"
+msgid "https://github.com/orgs/quarkusio/projects/30"
 msgstr ""
 
 #. type: Hash Value: working-groups last-activity
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2024-08-30"
+msgid "2024-09-06"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"Since we don't have a target date, and progress is being made, I can declare this on track, with only a slightly murky conscience. \n"
+"This is a big change, and one which doesn't lend itself well to dividing into smaller chunks. I'm keeping a spreadsheet of build results. In the CI runs, the number of failing jobs was 31 at the last update, and it is now 25. A number of suites, such as `integration-tests/devtools` were failing, and are now passing.\n"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<p>At the moment, Quarkus tests are invoked using one classloader, and then executed in a different classloader. This mostly works well, but means some use cases don't work: extensions cannot manipulate test classes in the same way that they do normal application classes. For example, anything run via a JUnit @TestTemplate test case will see the un-transformed class.</p>\n"
+"<p>It also means we have extra user-facing complexity, such as the QuarkusTest*Callbacks](https://quarkus.io/guides/getting-started-testing#enrichment-via-quarkustestcallback):</p>\n"
+"<blockquote>\n"
+"<p>While it is possible to use JUnit Jupiter callback interfaces like BeforeEachCallback, you might run into classloading issues because Quarkus has to run tests in a custom classloader which JUnit is not aware of.</p>\n"
+"</blockquote>\n"
+"<p>A final benefit is a reduction in the internal complexity of our code. Hopping between classloaders during test execution takes a lot of work, and adds a lot of code! It also is brittle in places. For example, because the hop between classloaders relies on serialization in some cases, it's becoming harder to do as the JVM tightens up security restrictions. We used to rely on xstream, but that stopped working in Java 17. In https://github.com/quarkusio/quarkus/pull/40601, @dmlloyd moved us to use the JBoss Serializer, which works better, but might still be affected by future restrictions on class access.</p>\n"
+"<p>The goal of this working group is to allow test classes to fully participate in the 'quarkification' of classes. The mechanism for this is probably just to load the test classes with the classloader we intend to run them with, so that JUnit sees the 'correct' version of the class.</p>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "The goal of this working group is to rewrite Quarkus's test classloading, so that tests are run in the same classloader as the application under tests, and Quarkus extensions can do \"Quarkus-y\" manipulations of test classes."
+msgstr ""
+
+#. type: Hash Value: working-groups status
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "on track"
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Test classloading"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkusio/projects/28"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Work is progressing. Still items that will need to be cleaned. Thus still at risk but managable.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -68,7 +119,7 @@ msgstr ""
 #. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "Approaching completion. Watch [Quarkus Insight"
+msgid "Approaching completion. Watch [Quarkus Insight #177](https://www.youtube.com/watch?v=VP7c9ftFwrQ&list=PLsM3ZE5tGAVatO65JIxgskQh-OKoqM4F2&index=1) to see various demo going from configuration, local TLS, certificate reloading and ACME integration.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -87,12 +138,6 @@ msgstr ""
 msgid "Track the progress around the new TLS configuration centralization and new features (like Let's Encrypt, Cert-Manager, and local experience...)"
 msgstr ""
 
-#. type: Hash Value: working-groups status
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "on track"
-msgstr ""
-
 #. type: Hash Value: working-groups title
 #: upstream/_data/wg.yaml:0
 #, no-wrap
@@ -105,10 +150,16 @@ msgstr ""
 msgid "https://github.com/orgs/quarkusio/projects/26"
 msgstr ""
 
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2024-09-05"
+msgstr ""
+
 #. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "The last outstanding issue is OTel integration. @michalvavrik is working on a [pull request](https://github.com/quarkusio/quarkus/pull/41956). I will meet with Michal and Bruno in the coming weeks. The PR is quite massive and we need to review it carefully."
+msgid "The last outstanding issue is OTel integration. @michalvavrik is working on a [pull request](https://github.com/quarkusio/quarkus/pull/41956). I will meet with Michal and Bruno in the coming weeks. The PR is quite massive and we need to review it carefully.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -135,44 +186,17 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/30"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<p>At the moment, Quarkus tests are invoked using one classloader, and then executed in a different classloader. This mostly works well, but means some use cases don't work: extensions cannot manipulate test classes in the same way that they do normal application classes. For example, anything run via a JUnit @TestTemplate test case will see the un-transformed class.</p>\n"
-"<p>It also means we have extra user-facing complexity, such as the QuarkusTest*Callbacks](https://quarkus.io/guides/getting-started-testing#enrichment-via-quarkustestcallback):</p>\n"
-"<blockquote>\n"
-"<p>While it is possible to use JUnit Jupiter callback interfaces like BeforeEachCallback, you might run into classloading issues because Quarkus has to run tests in a custom classloader which JUnit is not aware of.</p>\n"
-"</blockquote>\n"
-"<p>A final benefit is a reduction in the internal complexity of our code. Hopping between classloaders during test execution takes a lot of work, and adds a lot of code! It also is brittle in places. For example, because the hop between classloaders relies on serialization in some cases, it's becoming harder to do as the JVM tightens up security restrictions. We used to rely on xstream, but that stopped working in Java 17. In https://github.com/quarkusio/quarkus/pull/40601, @dmlloyd moved us to use the JBoss Serializer, which works better, but might still be affected by future restrictions on class access.</p>\n"
-"<p>The goal of this working group is to allow test classes to fully participate in the 'quarkification' of classes. The mechanism for this is probably just to load the test classes with the classloader we intend to run them with, so that JUnit sees the 'correct' version of the class.</p>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "The goal of this working group is to rewrite Quarkus's test classloading, so that tests are run in the same classloader as the application under tests, and Quarkus extensions can do \"Quarkus-y\" manipulations of test classes."
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Test classloading"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
 msgid "https://github.com/orgs/quarkiverse/projects/6"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "Good progress so far."
+msgid ""
+"0.0.3 has been released, it is the MVP version and allowed to publish the Roq blog: https://quarkiverse.io/quarkus-roq/posts/2024-08-29-welcome-to-roq/\n"
+"From now on, we start adding features incrementally, documenting.\n"
+"The target is to have 1.0.0 the 1 October 2024.\n"
+"For 1.0 we need pagination, tags and SEO.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -212,6 +236,12 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/32"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2024-08-30"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -268,6 +298,12 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "A working group focusing on the generation of Dockerfile / ContainerFile"
+msgstr ""
+
+#. type: Hash Value: working-groups status
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "staled"
 msgstr ""
 
 #. type: Hash Value: working-groups title

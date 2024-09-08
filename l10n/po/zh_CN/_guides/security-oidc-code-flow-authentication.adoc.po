@@ -869,12 +869,10 @@ msgid "By default, `quarkus.oidc.authentication.cookie-path` is set to `/` but y
 msgstr "默认情况下， `quarkus.oidc.authentication.cookie-path` 被设置为 `/` ，但如果需要，你可以将其改为更具体的路径，例如， `/web-app` 。"
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
 msgid ""
 "To set the cookie path dynamically, configure the `quarkus.oidc.authentication.cookie-path-header` property.\n"
-"Set the `quarkus.oidc.authentication.cookie-path-header` property.\n"
-"For example, to set the cookie path dynamically by using the value of the`X-Forwarded-Prefix` HTTP header, configure the property to `quarkus.oidc.authentication.cookie-path-header=X-Forwarded-Prefix`."
-msgstr "要动态设置 cookie 路径，请配置 `quarkus.oidc.authentication.cookie-path-header` 属性。设置 `quarkus.oidc.authentication.cookie-path-header` 属性。例如，要使用 \"X-Forwarded-Prefix \"HTTP 标头的值动态设置 cookie 路径，可将该属性配置为 `quarkus.oidc.authentication.cookie-path-header=X-Forwarded-Prefix` 。"
+"For example, to set the cookie path dynamically by using the value of the `X-Forwarded-Prefix` HTTP header, configure the property to `quarkus.oidc.authentication.cookie-path-header=X-Forwarded-Prefix`."
+msgstr ""
 
 #: _guides/security-oidc-code-flow-authentication.adoc
 #, fuzzy
@@ -911,13 +909,13 @@ msgid ""
 msgstr ""
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-msgid "The default state cookie age is 5 mins and you can change it with a `quarkus.oidc.authenticaion.state-cookie-age` Duration property."
+msgid "The default state cookie age is 5 mins and you can change it with a `quarkus.oidc.authentication.state-cookie-age` Duration property."
 msgstr ""
 
 #: _guides/security-oidc-code-flow-authentication.adoc
 msgid ""
 "Quarkus creates a unique state cookie name every time a new authorization code flow is started to support multi-tab authentication. Many concurrent authentication requests on behalf of the same user may cause a lot of state cookies be created.\n"
-"If you do not want to allow your users use multiple browser tabs to authenticate then it is recommended to disable it with `quarkus.oidc.authenticaion.allow-multiple-code-flows=false`. It also ensures that the same state cookie name is created for every new user authentication."
+"If you do not want to allow your users use multiple browser tabs to authenticate then it is recommended to disable it with `quarkus.oidc.authentication.allow-multiple-code-flows=false`. It also ensures that the same state cookie name is created for every new user authentication."
 msgstr ""
 
 #. type: Title ====
@@ -1559,19 +1557,13 @@ msgid "To support the integration with such OAuth2 servers, `quarkus-oidc` needs
 msgstr "为了支持与此类OAuth2服务器的整合， `quarkus-oidc` ，需要进行一些不同的配置，以允许授权代码流响应，而不需要 `IdToken` ： `quarkus.oidc.authentication.id-token-required=false` 。"
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
 msgid ""
 "Even though you configure the extension to support the authorization code flows without `IdToken`, an internal `IdToken` is generated to standardize the way `quarkus-oidc` operates.\n"
 "You use an internal `IdToken` to support the authentication session and to avoid redirecting the user to the provider,  such as GitHub, on every request.\n"
 "In this case, the `IdToken` age is set to the value of a standard `expires_in` property in the authorization code flow response.\n"
-"You can use a `quarkus.oidc.authentication.internal-id-token-lifespan`property to customize the ID token age.\n"
-"The default ID token age is 5 minutes."
-msgstr "即使您配置扩展以支持无需 `IdToken` 的授权代码流，也会生成一个内部 `IdToken` ，以规范 `quarkus-oidc` 的操作方式。使用内部 `IdToken` 可以支持身份验证会话，避免每次请求都将用户重定向到提供商（如 GitHub）。在这种情况下， `IdToken` 年龄会被设置为授权代码流响应中标准 `expires_in` 属性的值。你可以使用 \"quarkus.oidc.authentication.internal-id-token-lifespan \"属性自定义 ID 令牌年龄。默认的 ID 令牌有效期为 5 分钟。"
-
-#: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
-msgid ", which you can extend further as described in the <<session-management,session management>> section."
-msgstr "您可以按照 xref:session-management[会话管理] 部分的描述进一步扩展。"
+"You can use a `quarkus.oidc.authentication.internal-id-token-lifespan` property to customize the ID token age.\n"
+"The default ID token age is 5 minutes, which you can extend further as described in the <<session-management,session management>> section."
+msgstr ""
 
 #. type: Plain text
 #: _guides/security-oidc-code-flow-authentication.adoc
@@ -1653,11 +1645,10 @@ msgid "Possibly a simpler alternative is to inject both `@IdToken JsonWebToken` 
 msgstr "一个更简单的替代方法可能是同时注入 `@IdToken JsonWebToken` 和 `UserInfo` ，在处理返回 `IdToken` 的提供程序时使用 `JsonWebToken` ，在处理不返回 `IdToken` 的提供程序时使用 `UserInfo` 。"
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
 msgid ""
 "You must ensure that the callback path you enter in the GitHub OAuth application configuration matches the endpoint path where you want the user to be redirected after a successful GitHub authentication and application authorization.\n"
-"In this case, it has to be set to `http:localhost:8080/github/userinfo`."
-msgstr "必须确保在 GitHub OAuth 应用程序配置中输入的回调路径与 GitHub 身份验证和应用程序授权成功后重定向用户的端点路径相匹配。在这种情况下，必须将其设置为 `http:localhost:8080/github/userinfo` 。"
+"In this case, it has to be set to `http://localhost:8080/github/userinfo`."
+msgstr ""
 
 #. type: Title ===
 #: _guides/security-oidc-code-flow-authentication.adoc
@@ -1889,12 +1880,11 @@ msgid "For example, name it as `OktaSaml`:"
 msgstr "例如，将其命名为 `OktaSaml` ："
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
 msgid ""
 "Next, configure it to point to a Keycloak SAML broker endpoint.\n"
-"At this point, you need to know the name of the Keycloak realm, for example, `quarkus`, and, assuming that the Keycloak SAML broker alias is `saml`, enter the endpoint address as `http:localhost:8081/realms/quarkus/broker/saml/endpoint`.\n"
-"Enter the service provider (SP) entity ID as `http:localhost:8081/realms/quarkus`, where `http://localhost:8081` is a Keycloak base address and `saml` is a broker alias:"
-msgstr "接下来，配置它指向 Keycloak SAML 代理端点。此时，您需要知道 Keycloak 领域的名称，例如 `quarkus` ，假设 Keycloak SAML 代理的别名是 `saml` ，则输入端点地址为 `http:localhost:8081/realms/quarkus/broker/saml/endpoint` 。输入服务提供商 (SP) 实体 ID 为 `http:localhost:8081/realms/quarkus` ，其中 `http://localhost:8081` 是 Keycloak 基本地址， `saml` 是代理别名："
+"At this point, you need to know the name of the Keycloak realm, for example, `quarkus`, and, assuming that the Keycloak SAML broker alias is `saml`, enter the endpoint address as `http://localhost:8081/realms/quarkus/broker/saml/endpoint`.\n"
+"Enter the service provider (SP) entity ID as `http://localhost:8081/realms/quarkus`, where `http://localhost:8081` is a Keycloak base address and `saml` is a broker alias:"
+msgstr ""
 
 #. type: Plain text
 #: _guides/security-oidc-code-flow-authentication.adoc
@@ -1920,9 +1910,8 @@ msgid "Now, in the `quarkus` realm properties, navigate to `Identity Providers` 
 msgstr "现在，在 `quarkus` realm 属性中，导航至 `Identity Providers` 并添加新的 SAML 提供程序："
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
-msgid "Note the alias is set to `saml`, `Redirect URI` is `http:localhost:8081/realms/quarkus/broker/saml/endpoint` and `Service provider entity ID` is `http:localhost:8081/realms/quarkus` - these are the same values you entered when creating the Okta SAML integration in the previous step."
-msgstr "请注意，别名设置为 `saml` ， `Redirect URI` 为 `http:localhost:8081/realms/quarkus/broker/saml/endpoint` ， `Service provider entity ID` 为 `http:localhost:8081/realms/quarkus` - 这些与您在上一步创建 Okta SAML 集成时输入的值相同。"
+msgid "Note the alias is set to `saml`, `Redirect URI` is `http://localhost:8081/realms/quarkus/broker/saml/endpoint` and `Service provider entity ID` is `http://localhost:8081/realms/quarkus` - these are the same values you entered when creating the Okta SAML integration in the previous step."
+msgstr ""
 
 #: _guides/security-oidc-code-flow-authentication.adoc
 #, fuzzy
@@ -2108,9 +2097,8 @@ msgid "TestSecurity annotation"
 msgstr "TestSecurity注解"
 
 #: _guides/security-oidc-code-flow-authentication.adoc
-#, fuzzy
-msgid "You can use @TestSecurity and @OidcSecurity annotations to test the `web-app` application endpoint code, which depends on either one of the following injections, or all four:"
-msgstr "您可以使用 @TestSecurity 和 @OidcSecurity 注解来测试 `web-app` 应用程序端点代码，该代码依赖于以下一种或全部四种注入方式："
+msgid "You can use `@TestSecurity` and `@OidcSecurity` annotations to test the `web-app` application endpoint code, which depends on either one of the following injections, or all four:"
+msgstr ""
 
 #: _guides/security-oidc-code-flow-authentication.adoc
 #, fuzzy

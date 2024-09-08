@@ -170,7 +170,7 @@ msgid "See the data"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "Grafana-OTel-LGTM dev service"
+msgid "Grafana-OTel-LGTM Dev Service"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc

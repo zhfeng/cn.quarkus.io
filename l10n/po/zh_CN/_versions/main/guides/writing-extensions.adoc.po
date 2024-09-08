@@ -3121,7 +3121,9 @@ msgid ""
 msgstr "在构建阶段，Quarkus 会生成大量的类，在许多情况下还会转换现有的类。在开发扩展时，查看生成的字节码和转换后的类通常非常有用。"
 
 #: _versions/main/guides/writing-extensions.adoc
-msgid "If you set the `quarkus.package.jar.decompiler.enabled` property to `true` then Quarkus will download and invoke the https://github.com/Vineflower/vineflower[Vineflower decompiler] and dump the result in the `decompiled` directory of the build tool output (`target/decompiled` for Maven for example)."
+msgid ""
+"If you set the `quarkus.package.jar.decompiler.enabled` property to `true` then Quarkus will download and invoke the https://github.com/Vineflower/vineflower[Vineflower decompiler] and dump the result in the `decompiled` directory of the build tool output (`target/decompiled` for Maven for example).\n"
+"The output directory can be changed with `quarkus.package.jar.decompiler.output-dir`."
 msgstr ""
 
 #. type: Plain text

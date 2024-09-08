@@ -1213,6 +1213,14 @@ msgid "`quarkusBuild`"
 msgstr ""
 
 #: _versions/main/guides/gradle-tooling.adoc
+msgid "`imageBuild`"
+msgstr ""
+
+#: _versions/main/guides/gradle-tooling.adoc
+msgid "`imagePush`"
+msgstr ""
+
+#: _versions/main/guides/gradle-tooling.adoc
 msgid "`quarkusDev`"
 msgstr ""
 
@@ -1238,14 +1246,6 @@ msgstr ""
 
 #: _versions/main/guides/gradle-tooling.adoc
 msgid "`quarkusUpdate`"
-msgstr ""
-
-#: _versions/main/guides/gradle-tooling.adoc
-msgid "`imageBuild`"
-msgstr ""
-
-#: _versions/main/guides/gradle-tooling.adoc
-msgid "`imagePush`"
 msgstr ""
 
 #: _versions/main/guides/gradle-tooling.adoc
