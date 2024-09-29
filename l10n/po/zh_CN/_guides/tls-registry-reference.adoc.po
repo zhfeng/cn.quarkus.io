@@ -806,7 +806,6 @@ msgstr ""
 #: _guides/tls-registry-reference.adoc
 msgid ""
 "When running your application in OpenShift, you can use the link:https://docs.openshift.com/container-platform/4.16/security/certificates/service-serving-certificate.html[OpenShift serving certificates] to generate and renew TLS certificates automatically.\n"
-"When running your application in OpenShift, you can use the link:https://docs.openshift.com/container-platform/4.16/security/certificates/service-serving-certificate.html[OpenShift serving certificates] to generate and renew TLS certificates automatically.\n"
 "The Quarkus TLS registry can use these certificates and Certificate Authority (CA) files to handle HTTPS traffic and validate certificates securely."
 msgstr ""
 

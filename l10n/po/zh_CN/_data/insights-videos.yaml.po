@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-15 08:36+0000\n"
+"POT-Creation-Date: 2024-09-29 08:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,42 +21,6 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Scheduled Podcasts"
 msgstr "预定播客"
-
-#. type: Hash Value: pastvideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, fuzzy, no-wrap
-msgid "Phillip Krüger"
-msgstr "菲利普-克吕格"
-
-#. type: Hash Value: futurevideos date
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "September 16, 2024"
-msgstr ""
-
-#. type: Hash Value: futurevideos title
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "EPISODE #179: DevUI Improvements with Chappie"
-msgstr ""
-
-#. type: Hash Value: pastvideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "Matheus Cruz & Andy Damevin"
-msgstr ""
-
-#. type: Hash Value: futurevideos date
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "September 23, 2024"
-msgstr ""
-
-#. type: Hash Value: futurevideos title
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "EPISODE #180: Quarkus Web-Lab Part 2 - Blog and Comments"
-msgstr ""
 
 #. type: Hash Value: futurevideos authors
 #: upstream/_data/insights-videos.yaml:0
@@ -98,6 +62,12 @@ msgstr ""
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
 msgid "Emil Lefkof (Melloware) & Loïc Hermann"
+msgstr ""
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "October 21, 2024"
 msgstr ""
 
 #. type: Hash Value: futurevideos title
@@ -147,6 +117,54 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Archived Podcast Videos"
 msgstr "存档播客视频"
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Matheus Cruz & Andy Damevin"
+msgstr ""
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "September 23, 2024"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://youtube.com/live/qsQo8eaJuTk"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "EPISODE #180: Quarkus Web-Lab Part 2 - Blog and Comments"
+msgstr ""
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, fuzzy, no-wrap
+msgid "Phillip Krüger"
+msgstr "菲利普-克吕格"
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "September 16, 2024"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://youtube.com/live/1PJNbX8eWG0"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "EPISODE #179: Developer Experience Improvements"
+msgstr ""
 
 #. type: Hash Value: pastvideos date
 #: upstream/_data/insights-videos.yaml:0

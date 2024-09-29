@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-22 08:33+0000\n"
+"POT-Creation-Date: 2024-09-29 08:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,74 +19,13 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkiverse/projects/6"
-msgstr ""
-
-#. type: Hash Value: working-groups last-activity
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "2024-09-21"
-msgstr ""
-
-#. type: Hash Value: working-groups last-update
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"0.0.3 has been released, it is the MVP version and allowed to publish the Roq blog: https://quarkiverse.io/quarkus-roq/posts/2024-08-29-welcome-to-roq/\n"
-"From now on, we start adding features incrementally, documenting.\n"
-"The target is to have 1.0.0 the 1 October 2024.\n"
-"For 1.0 we need pagination, tags and SEO.\n"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<p>New initiative to allow Static Site Generation with Quarkus.</p>\n"
-"<p>Quarkus already provides most of the pieces to create great web applications (https://quarkus.io/guides/web).</p>\n"
-"<p>I recently added https://github.com/quarkiverse/quarkus-roq. It will allow generating a static website out of any Quarkus application (it starts the app, fetch all the configured pages and assets, generate a static website and stop), it already works but it is still very alpha.</p>\n"
-"<p>What's missing? we now need to incrementally add the toolkit to ease the process of creating static content through Quarkus:</p>\n"
-"<ul>\n"
-"<li>Static Data</li>\n"
-"<li>Markdown/Asciidoc and frontmatter</li>\n"
-"<li>SEO</li>\n"
-"<li>Image processing</li>\n"
-"<li>Easy to configure routing</li>\n"
-"</ul>\n"
-"<p>This will allow to develop the content using Quarkus dev-mode, and then generate for Github Pages or similar when it's ready.</p>\n"
-"<p>Bonus, everything added will benefit any &quot;non-static&quot; Quarkus app and any Static Quarkus app could also become non static.</p>\n"
-"<p>This effort is now tracked using a &quot;Working Group&quot; project: https://github.com/orgs/quarkiverse/projects/6</p>\n"
-"<p>This is a great opportunity to participate in fun effort and be involved with the Quarkus community, if anyone is interested in being a part of this, please reach out to me 🚀</p>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Allow Static Site Generation with Quarkus."
-msgstr ""
-
-#. type: Hash Value: working-groups status
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "on track"
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Roq :: Quarkus SSG"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/38"
 msgstr ""
 
 #. type: Hash Value: working-groups last-activity
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2024-09-20"
+msgid "2024-09-29"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -131,10 +70,16 @@ msgstr ""
 msgid "Work needed around moving Quarkus to foundation and streamline open governance."
 msgstr ""
 
+#. type: Hash Value: working-groups status
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "on track"
+msgstr ""
+
 #. type: Hash Value: working-groups title
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "Moving Quarkus to the CommonHaus Foundation"
+msgid "Quarkus to the CommonHaus Foundation"
 msgstr ""
 
 #. type: Hash Value: working-groups board-url
@@ -143,16 +88,12 @@ msgstr ""
 msgid "https://github.com/orgs/quarkusio/projects/28"
 msgstr ""
 
-#. type: Hash Value: working-groups last-activity
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "2024-09-17"
-msgstr ""
-
 #. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "Work is progressing. Still items that will need to be cleaned. Thus still at risk but managable.\n"
+msgid ""
+"3.15 has been cut. \n"
+"The 3.15.x is the new LTS, starting with 3.15.1\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -174,12 +115,6 @@ msgstr ""
 msgid "This WG focuses on defining the issues we would like to have in the next-to-be LTS (Quarkus 3.14/3.15)"
 msgstr ""
 
-#. type: Hash Value: working-groups status
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "at risk"
-msgstr ""
-
 #. type: Hash Value: working-groups title
 #: upstream/_data/wg.yaml:0
 #, no-wrap
@@ -190,6 +125,12 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/30"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2024-09-24"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -223,6 +164,88 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "Test classloading"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkusio/projects/32"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<p>Let's define a format for the files containing the config model we will include in the jars for IDE consumption.</p>\n"
+"<p>See https://github.com/quarkusio/quarkus/discussions/42671 for more details.</p>\n"
+"<p><em>Point of contact</em>: @gsmet (Zulip: @_<strong>Guillaume Smet</strong> )</p>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Let's define a format for the files containing the config model we will include in the jars for IDE consumption."
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Quarkus Config and IDEs"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkiverse/projects/6"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2024-09-23"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"0.0.3 has been released, it is the MVP version and allowed to publish the Roq blog: https://quarkiverse.io/quarkus-roq/posts/2024-08-29-welcome-to-roq/\n"
+"From now on, we start adding features incrementally, documenting.\n"
+"The target is to have 1.0.0 the 1 October 2024.\n"
+"For 1.0 we need pagination, tags and SEO.\n"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<p>New initiative to allow Static Site Generation with Quarkus.</p>\n"
+"<p>Quarkus already provides most of the pieces to create great web applications (https://quarkus.io/guides/web).</p>\n"
+"<p>I recently added https://github.com/quarkiverse/quarkus-roq. It will allow generating a static website out of any Quarkus application (it starts the app, fetch all the configured pages and assets, generate a static website and stop), it already works but it is still very alpha.</p>\n"
+"<p>What's missing? we now need to incrementally add the toolkit to ease the process of creating static content through Quarkus:</p>\n"
+"<ul>\n"
+"<li>Static Data</li>\n"
+"<li>Markdown/Asciidoc and frontmatter</li>\n"
+"<li>SEO</li>\n"
+"<li>Image processing</li>\n"
+"<li>Easy to configure routing</li>\n"
+"</ul>\n"
+"<p>This will allow to develop the content using Quarkus dev-mode, and then generate for Github Pages or similar when it's ready.</p>\n"
+"<p>Bonus, everything added will benefit any &quot;non-static&quot; Quarkus app and any Static Quarkus app could also become non static.</p>\n"
+"<p>This effort is now tracked using a &quot;Working Group&quot; project: https://github.com/orgs/quarkiverse/projects/6</p>\n"
+"<p>This is a great opportunity to participate in fun effort and be involved with the Quarkus community, if anyone is interested in being a part of this, please reach out to me 🚀</p>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Allow Static Site Generation with Quarkus."
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Roq :: Quarkus SSG"
 msgstr ""
 
 #. type: Hash Value: working-groups board-url
@@ -268,33 +291,6 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/32"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<p>Let's define a format for the files containing the config model we will include in the jars for IDE consumption.</p>\n"
-"<p>See https://github.com/quarkusio/quarkus/discussions/42671 for more details.</p>\n"
-"<p><em>Point of contact</em>: @gsmet (Zulip: @_<strong>Guillaume Smet</strong> )</p>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Let's define a format for the files containing the config model we will include in the jars for IDE consumption."
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Quarkus Config and IDEs"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/27"
 msgstr ""
 
@@ -302,6 +298,19 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "2024-09-10"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"There is a first draft https://github.com/quarkusio/quarkus/pull/42316\n"
+"The PR introduces a CLI plugin that generates a Dockerfile. \n"
+"At the moment one can configure:\n"
+"- base image\n"
+"- falvor (jdk or native)\n"
+"With more features to be added in future pull requests.\n"
+"The pull request is on hold due to some concerns raised by @ia3andy. A meeting has been scheduled to discuss those concerns.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -325,12 +334,6 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "A working group focusing on the generation of Dockerfile / ContainerFile"
-msgstr ""
-
-#. type: Hash Value: working-groups status
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "staled"
 msgstr ""
 
 #. type: Hash Value: working-groups title
