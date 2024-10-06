@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-29 08:36+0000\n"
+"POT-Creation-Date: 2024-10-06 08:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,118 +19,19 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/38"
-msgstr ""
-
-#. type: Hash Value: working-groups last-activity
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "2024-09-29"
-msgstr ""
-
-#. type: Hash Value: working-groups last-update
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Just got started.\n"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<p>from Discussion at https://github.com/quarkusio/quarkus/discussions/43013</p>\n"
-"<p>We started the move of Quarkus to a foundation <a href=\"https://quarkus.io/blog/quarkus-in-a-foundation/\">earlier this year</a> and recently <a href=\"https://quarkus.io/blog/quarkus-moving-to-commonhaus/\">set the direction</a> towards <a href=\"https://www.commonhaus.org/\">CommonHaus</a> and during the summer break the CommonHaus council <a href=\"https://github.com/commonhaus/foundation/pull/183\">approved our request</a> to join.</p>\n"
-"<p>Thus, now the real work starts, and it's just fitting we set up a working group for the effort getting Quarkus to CommonHaus foundation.</p>\n"
-"<h1>Goal</h1>\n"
-"<p>Two parts</p>\n"
-"<ul>\n"
-"<li>setup Quarkus to have transparent and open governance</li>\n"
-"<li>Go through the few but important requirements for a CommonHaus project.</li>\n"
-"</ul>\n"
-"<h1>Initial work items/questions:</h1>\n"
-"<p>Current known list, but not limited to:</p>\n"
-"<ul>\n"
-"<li>identify design communication channels (i.e. #41973)</li>\n"
-"<li>which repositories / code will move</li>\n"
-"<li>impact (if any) on quarkiverse projects</li>\n"
-"<li>how will trademarks work/change</li>\n"
-"<li>identify running services and setup/maintain them (registry.quarkus.io, code.quarkus.io etc.)</li>\n"
-"<li>add required metadata/files to the various repositories</li>\n"
-"</ul>\n"
-"<h1>Tracking</h1>\n"
-"<p>We will use the working group board to track publicly all the known relevant work and questions.For the few exception cases where, for legal or personal constraints, the work must happen in private, we will post the outcome and results in public places (like a GitHub discussion of a GitHub issue tracked on the working group board).</p>\n"
-"<h1>When will this working group be done?</h1>\n"
-"<p>When Quarkus has an active working governance model in place and all major work items around setting up Quarkus at CommonHaus are completed - after that, its expected things will just be iteratively improved, and the dedicated working group will not be needed (others might start to continue more specific efforts).</p>\n"
-"<p>The majority of the work must be done before the end of December 2024. The latest deadline for CommonHaus is April 2025, when the bootstrap period of CommonHaus ends.</p>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Work needed around moving Quarkus to foundation and streamline open governance."
-msgstr ""
-
-#. type: Hash Value: working-groups status
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "on track"
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Quarkus to the CommonHaus Foundation"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/28"
-msgstr ""
-
-#. type: Hash Value: working-groups last-update
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"3.15 has been cut. \n"
-"The 3.15.x is the new LTS, starting with 3.15.1\n"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<p>This working group uses a different board:</p>\n"
-"<ul>\n"
-"<li>The <code>under discussion</code> column contains the issues we would like to have in the next LTS but are still under consideration.</li>\n"
-"<li>The <code>out of scope</code> column contains the issues under discussion' that won't be included. The reason can be time or technical...</li>\n"
-"<li>The <code>in progress</code> means that the work has started and should be completed before the TLS cut date</li>\n"
-"<li>The <code>done</code> column means that the issues have been completed</li>\n"
-"</ul>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "This WG focuses on defining the issues we would like to have in the next-to-be LTS (Quarkus 3.14/3.15)"
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Quarkus 3.15 LTS"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/30"
 msgstr ""
 
+#. type: Hash Value: working-groups completed
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "false"
+msgstr ""
+
 #. type: Hash Value: working-groups last-activity
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2024-09-24"
+msgid "2024-10-04"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -160,6 +61,12 @@ msgstr ""
 msgid "The goal of this working group is to rewrite Quarkus's test classloading, so that tests are run in the same classloader as the application under tests, and Quarkus extensions can do \"Quarkus-y\" manipulations of test classes."
 msgstr ""
 
+#. type: Hash Value: working-groups status
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "on track"
+msgstr ""
+
 #. type: Hash Value: working-groups title
 #: upstream/_data/wg.yaml:0
 #, no-wrap
@@ -170,6 +77,12 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/32"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2024-10-03"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -196,13 +109,55 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkiverse/projects/6"
+msgid "https://github.com/orgs/quarkusio/projects/27"
 msgstr ""
 
-#. type: Hash Value: working-groups last-activity
+#. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2024-09-23"
+msgid ""
+"There is a first draft https://github.com/quarkusio/quarkus/pull/42316\n"
+"The PR introduces a CLI plugin that generates a Dockerfile. \n"
+"At the moment one can configure:\n"
+"- base image\n"
+"- falvor (jdk or native)\n"
+"With more features to be added in future pull requests.\n"
+"The pull request is on hold due to some concerns raised by @ia3andy. A meeting has been scheduled to discuss those concerns.\n"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<p>At the moment, when you create a Quarkus project (from code.quarkus.io or the CLI), a set of <code>Dockerfiles</code> is generated. However,</p>\n"
+"<ol>\n"
+"<li>Not all these files are used by the user</li>\n"
+"<li>These files are very quickly outdated</li>\n"
+"<li>It does not allow <em>extensions</em> to customize the content</li>\n"
+"</ol>\n"
+"<p>This working group aims to replace these `Dockerfiles' with a CLI command that generates an up-to-date Dockerfile and includes extension customization.</p>\n"
+"<p>The goal is not to allow updating these files once generated but to provide a one-off generation that the user can consult and use. It will use the recommended and up-to-date <code>FROM</code> image to improve security and, depending on the generated <em>variant</em> (JVM, native, native-micro...), follow good practices (such as using <code>run-java</code> for the JVM one).</p>\n"
+"<p>You can find more details about this working group on <a href=\"https://github.com/quarkusio/quarkus/discussions/41352\">this discussion</a>.\n"
+"Once completed, this working group will be followed by other initiatives focusing on generating the Github Action and Tekton pipelines.</p>\n"
+"<p><em>Point of contact</em>: @iocanel (<code>Ioannis Canellos</code>on Zulip)</p>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "A working group focusing on the generation of Dockerfile / ContainerFile"
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Docker file generation"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkiverse/projects/6"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -251,19 +206,73 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/24"
+msgid "https://github.com/orgs/quarkusio/projects/28"
 msgstr ""
 
 #. type: Hash Value: working-groups last-activity
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2024-09-13"
+msgid "2024-10-01"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "Approaching completion. Watch [Quarkus Insight #177](https://www.youtube.com/watch?v=VP7c9ftFwrQ&list=PLsM3ZE5tGAVatO65JIxgskQh-OKoqM4F2&index=1) to see various demo going from configuration, local TLS, certificate reloading and ACME integration.\n"
+msgid ""
+"3.15 has been cut. \n"
+"The 3.15.x is the new LTS, starting with 3.15.1\n"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<p>This working group uses a different board:</p>\n"
+"<ul>\n"
+"<li>The <code>under discussion</code> column contains the issues we would like to have in the next LTS but are still under consideration.</li>\n"
+"<li>The <code>out of scope</code> column contains the issues under discussion' that won't be included. The reason can be time or technical...</li>\n"
+"<li>The <code>in progress</code> means that the work has started and should be completed before the TLS cut date</li>\n"
+"<li>The <code>done</code> column means that the issues have been completed</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "This WG focuses on defining the issues we would like to have in the next-to-be LTS (Quarkus 3.14/3.15)"
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Quarkus 3.15 LTS"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkusio/projects/24"
+msgstr ""
+
+#. type: Hash Value: working-groups completed
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "true"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2024-09-29"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"This working group is complete! \n"
+"That does not mean that no work will be done around TLS, but what was defined in the initial scope of the working group has been completed. \n"
+"Enhancements and bug fixes will follow.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
@@ -282,6 +291,12 @@ msgstr ""
 msgid "Track the progress around the new TLS configuration centralization and new features (like Let's Encrypt, Cert-Manager, and local experience...)"
 msgstr ""
 
+#. type: Hash Value: working-groups status
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "complete"
+msgstr ""
+
 #. type: Hash Value: working-groups title
 #: upstream/_data/wg.yaml:0
 #, no-wrap
@@ -291,55 +306,55 @@ msgstr ""
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/27"
-msgstr ""
-
-#. type: Hash Value: working-groups last-activity
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "2024-09-10"
+msgid "https://github.com/orgs/quarkusio/projects/38"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid ""
-"There is a first draft https://github.com/quarkusio/quarkus/pull/42316\n"
-"The PR introduces a CLI plugin that generates a Dockerfile. \n"
-"At the moment one can configure:\n"
-"- base image\n"
-"- falvor (jdk or native)\n"
-"With more features to be added in future pull requests.\n"
-"The pull request is on hold due to some concerns raised by @ia3andy. A meeting has been scheduled to discuss those concerns.\n"
+msgid "Just got started.\n"
 msgstr ""
 
 #. type: Hash Value: working-groups readme
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid ""
-"<p>At the moment, when you create a Quarkus project (from code.quarkus.io or the CLI), a set of <code>Dockerfiles</code> is generated. However,</p>\n"
-"<ol>\n"
-"<li>Not all these files are used by the user</li>\n"
-"<li>These files are very quickly outdated</li>\n"
-"<li>It does not allow <em>extensions</em> to customize the content</li>\n"
-"</ol>\n"
-"<p>This working group aims to replace these `Dockerfiles' with a CLI command that generates an up-to-date Dockerfile and includes extension customization.</p>\n"
-"<p>The goal is not to allow updating these files once generated but to provide a one-off generation that the user can consult and use. It will use the recommended and up-to-date <code>FROM</code> image to improve security and, depending on the generated <em>variant</em> (JVM, native, native-micro...), follow good practices (such as using <code>run-java</code> for the JVM one).</p>\n"
-"<p>You can find more details about this working group on <a href=\"https://github.com/quarkusio/quarkus/discussions/41352\">this discussion</a>.\n"
-"Once completed, this working group will be followed by other initiatives focusing on generating the Github Action and Tekton pipelines.</p>\n"
-"<p><em>Point of contact</em>: @iocanel (<code>Ioannis Canellos</code>on Zulip)</p>\n"
+"<p>from Discussion at https://github.com/quarkusio/quarkus/discussions/43013</p>\n"
+"<p>We started the move of Quarkus to a foundation <a href=\"https://quarkus.io/blog/quarkus-in-a-foundation/\">earlier this year</a> and recently <a href=\"https://quarkus.io/blog/quarkus-moving-to-commonhaus/\">set the direction</a> towards <a href=\"https://www.commonhaus.org/\">CommonHaus</a> and during the summer break the CommonHaus council <a href=\"https://github.com/commonhaus/foundation/pull/183\">approved our request</a> to join.</p>\n"
+"<p>Thus, now the real work starts, and it's just fitting we set up a working group for the effort getting Quarkus to CommonHaus foundation.</p>\n"
+"<h1>Goal</h1>\n"
+"<p>Two parts</p>\n"
+"<ul>\n"
+"<li>setup Quarkus to have transparent and open governance</li>\n"
+"<li>Go through the few but important requirements for a CommonHaus project.</li>\n"
+"</ul>\n"
+"<h1>Initial work items/questions:</h1>\n"
+"<p>Current known list, but not limited to:</p>\n"
+"<ul>\n"
+"<li>identify design communication channels (i.e. #41973)</li>\n"
+"<li>which repositories / code will move</li>\n"
+"<li>impact (if any) on quarkiverse projects</li>\n"
+"<li>how will trademarks work/change</li>\n"
+"<li>identify running services and setup/maintain them (registry.quarkus.io, code.quarkus.io etc.)</li>\n"
+"<li>add required metadata/files to the various repositories</li>\n"
+"</ul>\n"
+"<h1>Tracking</h1>\n"
+"<p>We will use the working group board to track publicly all the known relevant work and questions.For the few exception cases where, for legal or personal constraints, the work must happen in private, we will post the outcome and results in public places (like a GitHub discussion of a GitHub issue tracked on the working group board).</p>\n"
+"<h1>When will this working group be done?</h1>\n"
+"<p>When Quarkus has an active working governance model in place and all major work items around setting up Quarkus at CommonHaus are completed - after that, its expected things will just be iteratively improved, and the dedicated working group will not be needed (others might start to continue more specific efforts).</p>\n"
+"<p>The majority of the work must be done before the end of December 2024. The latest deadline for CommonHaus is April 2025, when the bootstrap period of CommonHaus ends.</p>\n"
 msgstr ""
 
 #. type: Hash Value: working-groups short-description
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "A working group focusing on the generation of Dockerfile / ContainerFile"
+msgid "Work needed around moving Quarkus to foundation and streamline open governance."
 msgstr ""
 
 #. type: Hash Value: working-groups title
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "Docker file generation"
+msgid "Quarkus to the CommonHaus Foundation"
 msgstr ""
 
 #. type: Hash Value: working-groups board-url
