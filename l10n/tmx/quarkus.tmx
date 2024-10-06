@@ -3,46 +3,6 @@
   <body>
     <tu>
       <tuv xml:lang="en">
-        <seg>## How do you unify imperative and reactive programming?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>## 如何统一指令式编程和响应式编程?</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>## What are you doing to improve developer joy?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>## 项目会做些什么来提高开发者的乐趣?</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>## What does Container First mean?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>## 容器优先是什么意思?</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>## What is GraalVM?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>## 什么是GraalVM？</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>## What is your view on standards?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>## 对标准有什么考虑?</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>' '</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -105,8 +65,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>*Experimental*: early feedback is requested to mature the idea. There is no guarantee of stability nor long term presence in the platform until the solution matures. Such extensions are at the beginning of their maturation process.
-</seg>
+        <seg>*Experimental*: early feedback is requested to mature the idea. There is no guarantee of stability nor long term presence in the platform until the solution matures. Such extensions are at the beginning of their maturation process.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>*Experimental*: 尽早反馈，以使想法更加成熟。在解决方案成熟之前，无法保证平台的稳定性或长期存在。这些扩展正处于其成熟过程的开始阶段。
@@ -133,8 +92,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>*Preview*: backward compatibility and presence in the ecosystem is not guaranteed. Specific improvements might require to change configuration or APIs and plans to become _stable_ are under way. Such extensions are in the middle of their maturation process.
-</seg>
+        <seg>*Preview*: backward compatibility and presence in the ecosystem is not guaranteed. Specific improvements might require to change configuration or APIs and plans to become _stable_ are under way. Such extensions are in the middle of their maturation process.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>*Preview*: 不能保证向后兼容性和在生态系统中的存在。具体的改进可能需要改变配置、API和计划，使之变得 _stable_ 。这些扩展还处于成熟过程的中间阶段。
@@ -161,8 +119,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>*Stable*: backward compatibility and presence in the ecosystem are taken very seriously. An application can safely rely on these extensions. Extensions not marked as preview or experimental (the majority) are stable.
-</seg>
+        <seg>*Stable*: backward compatibility and presence in the ecosystem are taken very seriously. An application can safely rely on these extensions. Extensions not marked as preview or experimental (the majority) are stable.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>*Stable*: 向后兼容性和在生态系统中的存在被非常重视。应用程序可以安全地依赖于这些扩展。没有标记为预览或实验的扩展(大多数)是稳定的。
@@ -10706,14 +10663,6 @@ Refer to &lt;&lt;jackson-serialization&gt;&gt; to write your own serializer/dese
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>开始体验</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Get answers to some of your common Quarkus questions.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>找到一些常见Quarkus问题的答案。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42356,16 +42305,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>security</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>security at quarkus.io
-</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>quarkus.io 安全
-</seg>
       </tuv>
     </tu>
     <tu>
