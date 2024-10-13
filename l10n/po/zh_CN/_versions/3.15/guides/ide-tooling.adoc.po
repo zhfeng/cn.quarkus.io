@@ -44,7 +44,7 @@ msgstr "下表给出了当前支持的集成开发环境的概述，并附有链
 
 #: _versions/3.15/guides/ide-tooling.adoc
 msgid "."
-msgstr ""
+msgstr "."
 
 #: _versions/3.15/guides/ide-tooling.adoc
 msgid ""
