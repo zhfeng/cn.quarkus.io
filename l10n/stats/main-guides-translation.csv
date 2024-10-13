@@ -1,15 +1,15 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 601, 620, 12323, 12744, 4%
-l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 780, 809, 11875, 12418, 5%
+l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 777, 812, 11808, 12579, 7%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 344, 9047, 10196, 12%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 464, 494, 7530, 8078, 7%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 311, 381, 7501, 9414, 21%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 349, 367, 6063, 6257, 4%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 274, 322, 5368, 6193, 14%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 263, 274, 5352, 5499, 3%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 272, 323, 5326, 6237, 15%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5210, 4%
-l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 270, 293, 5008, 5338, 7%
+l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 270, 301, 5008, 5471, 9%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 259, 287, 4559, 4722, 4%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 223, 287, 4256, 5578, 24%
@@ -31,7 +31,7 @@ l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 156, 175, 2829, 3165, 11%
 l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 211, 233, 2819, 3085, 9%
-l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 178, 2810, 2903, 4%
+l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 151, 200, 2764, 3537, 22%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 119, 132, 2485, 2609, 5%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-providers.adoc.po, 130, 153, 2404, 3074, 22%
@@ -60,10 +60,10 @@ l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 102, 118, 1788, 1922, 7%
 l10n/po/zh_CN/_versions/main/guides/cli-tooling.adoc.po, 144, 173, 1774, 2178, 19%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 90, 95, 1669, 1689, 2%
 l10n/po/zh_CN/_versions/main/guides/quarkus-reactive-architecture.adoc.po, 65, 66, 1663, 1664, 1%
-l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 98, 1660, 1759, 6%
+l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 95, 1641, 1718, 5%
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 78, 91, 1623, 1719, 6%
-l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 88, 241, 1595, 4565, 66%
+l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 88, 246, 1595, 4660, 66%
 l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
 l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 104, 112, 1564, 1603, 3%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
