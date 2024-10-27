@@ -36,11 +36,7 @@ msgid "On these page we show the signal independent features of the extension."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
-msgid "The old OpenTelemetry guide has been split into this generic guide, the xref:opentelemetry-tracing.adoc[OpenTelemetry Tracing Guide] and the new  xref:opentelemetry-metrics.adoc[OpenTelemetry Metrics Guide] has been created."
-msgstr ""
-
-#: _versions/main/guides/opentelemetry.adoc
-msgid "OpenTelemetry Logging is not yet supported."
+msgid "The old OpenTelemetry guide has been split into this generic guide, the xref:opentelemetry-tracing.adoc[OpenTelemetry Tracing Guide], the new xref:opentelemetry-metrics.adoc[OpenTelemetry Metrics Guide] and the xref:opentelemetry-logging.adoc[OpenTelemetry Logging Guide]."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
@@ -56,7 +52,7 @@ msgid "https://opentelemetry.io/docs/what-is-opentelemetry/[OpenTelemetry] is an
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
-msgid "Quarkus provides manual and automatic instrumentation for tracing and manual instrumentation  capabilities for metrics."
+msgid "Quarkus provides manual and automatic instrumentation for tracing and manual instrumentation capabilities for metrics."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
@@ -104,18 +100,6 @@ msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
 msgid "At build time on your `application.properties` file."
-msgstr ""
-
-#: _versions/main/guides/opentelemetry.adoc
-msgid "Manual instrumentation only"
-msgstr ""
-
-#: _versions/main/guides/opentelemetry.adoc
-msgid "For now only manual instrumentation is supported. You can use the OpenTelemetry API to create and record metrics but Quarkus is not yet providing automatic instrumentation for metrics."
-msgstr ""
-
-#: _versions/main/guides/opentelemetry.adoc
-msgid "In the future, we plan to bridge current Micrometer metrics to OpenTelemetry and maintain compatibility when possible."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc

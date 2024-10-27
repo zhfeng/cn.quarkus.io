@@ -327,7 +327,7 @@ msgid "To use the built-in sampler, you can configure it by setting the desired 
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-tracing.adoc
-msgid "An interesting use case for the sampler is to activate and deactivate tracing export at runtime, acording to this example:"
+msgid "An interesting use case for the sampler is to activate and deactivate tracing export at runtime, according to this example:"
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-tracing.adoc
