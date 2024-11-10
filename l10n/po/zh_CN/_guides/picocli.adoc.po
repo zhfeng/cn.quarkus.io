@@ -222,6 +222,10 @@ msgid ""
 "For Gradle projects, arguments can be passed using `--quarkus-args`."
 msgstr ""
 
+#: _guides/picocli.adoc
+msgid "If you're creating a typical Quarkus application (e.g., HTTP-based services) that includes command-line functionality, you'll need to handle the application's lifecycle differently. In the `Runnable.run()` method of your command, make sure to use `Quarkus.waitForExit()` or `Quarkus.asyncExit()`. This will prevent the application from shutting down prematurely and ensure a proper shutdown process."
+msgstr ""
+
 #. type: Title ==
 #: _guides/picocli.adoc
 #, fuzzy, no-wrap

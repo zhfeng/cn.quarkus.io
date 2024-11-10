@@ -17,6 +17,10 @@ msgid ""
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
+msgid "OpenTelemetry Metrics is considered _tech preview_ and is disabled by default."
+msgstr ""
+
+#: _guides/opentelemetry-metrics.adoc
 msgid "The xref:opentelemetry.adoc[OpenTelemetry Guide] is available with signal independent information about the OpenTelemetry extension."
 msgstr ""
 
@@ -120,11 +124,11 @@ msgid "Create the configuration"
 msgstr "创建配置"
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "There are no mandatory configurations for the extension to work."
+msgid "The only mandatory configuration for OpenTelemetry Metrics is the one enabling it:"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
-msgid "If you need to change any of the default property values, here is an example on how to configure the default OTLP gRPC Exporter within the application, using the `src/main/resources/application.properties` file:"
+msgid "To change any of the default property values, here is an example on how to configure the default OTLP gRPC Exporter within the application, using the `src/main/resources/application.properties` file:"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc
@@ -202,6 +206,10 @@ msgstr ""
 msgid ""
 "Set the interval to export the metrics.\n"
 "The default is `1m`, which is too long for debugging."
+msgstr ""
+
+#: _guides/opentelemetry-metrics.adoc
+msgid "Also add this dependency to your project:"
 msgstr ""
 
 #: _guides/opentelemetry-metrics.adoc

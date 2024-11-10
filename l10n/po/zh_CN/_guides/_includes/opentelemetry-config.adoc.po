@@ -7,10 +7,6 @@ msgstr ""
 "X-Generator: jekyll-l10n\n"
 
 #: _guides/_includes/opentelemetry-config.adoc
-msgid "There are no mandatory configurations for the extension to work."
-msgstr ""
-
-#: _guides/_includes/opentelemetry-config.adoc
 msgid "By default, the exporters will send out data in batches, using the gRPC protocol and endpoint `http://localhost:4317`."
 msgstr ""
 
@@ -52,4 +48,8 @@ msgstr ""
 
 #: _guides/_includes/opentelemetry-config.adoc
 msgid "The endpoint for the metrics exporter."
+msgstr ""
+
+#: _guides/_includes/opentelemetry-config.adoc
+msgid "The endpoint for the logs exporter."
 msgstr ""

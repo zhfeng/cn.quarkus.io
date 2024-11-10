@@ -67,7 +67,7 @@ msgid "The test injects the component under the test. The types of all fields an
 msgstr ""
 
 #: _guides/testing-components.adoc
-msgid "The test also injects a mock for `Charlie`. `Charlie` is an _unsatisifed_ dependency for which a synthetic `@Singleton` bean is registered automatically. The injected reference is an \"unconfigured\" Mockito mock."
+msgid "The test also injects a mock for `Charlie`. `Charlie` is an _unsatisfied_ dependency for which a synthetic `@Singleton` bean is registered automatically. The injected reference is an \"unconfigured\" Mockito mock."
 msgstr ""
 
 #: _guides/testing-components.adoc
@@ -91,7 +91,7 @@ msgid "Parameters annotated with `@io.quarkus.test.component.SkipInject` are nev
 msgstr ""
 
 #: _guides/testing-components.adoc
-msgid "Furthermore, if you need the full control over the `QuarkusComponentTestExtension` configuration then you can use the `@RegisterExtension` annotation and configure the extension programatically."
+msgid "Furthermore, if you need the full control over the `QuarkusComponentTestExtension` configuration then you can use the `@RegisterExtension` annotation and configure the extension programmatically."
 msgstr ""
 
 #: _guides/testing-components.adoc

@@ -63,6 +63,13 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
+msgid ""
+"The default TLS configuration is not a fallback/global configuration. This means that each named TLS configuration\n"
+"(or \"TLS bucket\") needs to provide its own properties. For instance, `quarkus.tls.reload-period` will only be applied\n"
+"to the default TLS configuration."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
 msgid "Configuring HTTPS for a HTTP server"
 msgstr ""
 
@@ -692,7 +699,7 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The `TlsConfiguration` obtained from the `TLSConfigurationRegistry` includes a mechanism for reloading certificates.\n"
-"The `reload` method refreshes the keystores and truststores, typically by reloading them from the file system."
+"The `reload` method refreshes the keystores, truststores and CRLs, typically by reloading them from the file system."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -737,8 +744,10 @@ msgid ""
 "    }\n"
 "}\n"
 "\n"
-"// In the server or client code\n"
-"public void onReload(@Observes CertificateUpdatedEvent reload) {\n"
+"// In the server (or client) code\n"
+"private final io.vertx.core.http.HttpServer server;\n"
+"\n"
+"public void onCertificateUpdate(@Observes CertificateUpdatedEvent reload) {\n"
 "    if (\"name\".equals(event.getName())) {\n"
 "        server.updateSSLOptions(reload.tlsConfiguration().getSSLOptions());\n"
 "        // Or update the SSLContext.\n"
@@ -768,7 +777,12 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Impacted server and client may need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
-"This is automatically done for the Quarkus HTTP server, including the management interface if it is enabled."
+"This is automatically done for the Quarkus HTTP server (i.e. Quarkus REST server, gRPC server, Web Socket server) and\n"
+"the management interface if it is enabled."
+msgstr ""
+
+#: _versions/main/guides/tls-registry-reference.adoc
+msgid "In Quarkus dev mode, when files are touched, it will trigger the `CertificateUpdatedEvent` much more frequently."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc

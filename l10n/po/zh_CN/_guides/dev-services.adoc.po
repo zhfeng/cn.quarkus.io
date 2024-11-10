@@ -193,6 +193,10 @@ msgid ""
 "xref:security-openid-connect-dev-services.adoc[OIDC Dev Services Guide]."
 msgstr "如果您的应用程序中存在 `quarkus-oidc` 扩展，且服务器地址未明确配置，则将启用 Keycloak Dev 服务。更多信息请参阅《 xref:security-openid-connect-dev-services.adoc[OIDC 开发服务指南] 》。"
 
+#: _guides/dev-services.adoc
+msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgstr ""
+
 #. type: Title ==
 #: _guides/dev-services.adoc
 #, fuzzy, no-wrap
@@ -314,7 +318,7 @@ msgid ""
 msgstr ""
 
 #: _guides/dev-services.adoc
-msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
 
 #: _guides/dev-services.adoc

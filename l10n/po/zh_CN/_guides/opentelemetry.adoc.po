@@ -36,11 +36,7 @@ msgid "On these page we show the signal independent features of the extension."
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "The old OpenTelemetry guide has been split into this generic guide, the xref:opentelemetry-tracing.adoc[OpenTelemetry Tracing Guide] and the new  xref:opentelemetry-metrics.adoc[OpenTelemetry Metrics Guide] has been created."
-msgstr ""
-
-#: _guides/opentelemetry.adoc
-msgid "OpenTelemetry Logging is not yet supported."
+msgid "The old OpenTelemetry guide has been split into this generic guide, the xref:opentelemetry-tracing.adoc[OpenTelemetry Tracing Guide], the new xref:opentelemetry-metrics.adoc[OpenTelemetry Metrics Guide] and the xref:opentelemetry-logging.adoc[OpenTelemetry Logging Guide]."
 msgstr ""
 
 #: _guides/opentelemetry.adoc
@@ -56,7 +52,7 @@ msgid "https://opentelemetry.io/docs/what-is-opentelemetry/[OpenTelemetry] is an
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "Quarkus provides manual and automatic instrumentation for tracing and manual instrumentation  capabilities for metrics."
+msgid "Quarkus provides manual and automatic instrumentation for tracing and manual instrumentation capabilities for metrics."
 msgstr ""
 
 #: _guides/opentelemetry.adoc
@@ -116,6 +112,18 @@ msgstr ""
 
 #: _guides/opentelemetry.adoc
 msgid "In the future, we plan to bridge current Micrometer metrics to OpenTelemetry and maintain compatibility when possible."
+msgstr ""
+
+#: _guides/opentelemetry.adoc
+msgid "xref:opentelemetry-logging.adoc[OpenTelemetry Logging Guide]"
+msgstr ""
+
+#: _guides/opentelemetry.adoc
+msgid "Enable Logs"
+msgstr ""
+
+#: _guides/opentelemetry.adoc
+msgid "The logging functionality is experimental and *off* by default. You will need to activate it by setting:"
 msgstr ""
 
 #: _guides/opentelemetry.adoc

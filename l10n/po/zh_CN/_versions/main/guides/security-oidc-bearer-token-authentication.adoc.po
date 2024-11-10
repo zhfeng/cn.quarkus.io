@@ -129,7 +129,7 @@ msgid "To learn about how you can protect service applications by using OIDC Bea
 msgstr ""
 
 #: _versions/main/guides/security-oidc-bearer-token-authentication.adoc
-msgid "xref:security-oidc-bearer-token-authentication-tutorial.adoc[Protect a web application by using OpenID Connect (OIDC) authorization code flow]."
+msgid "xref:security-oidc-bearer-token-authentication-tutorial.adoc[Protect a service application by using OpenID Connect (OIDC) Bearer token authentication]."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-bearer-token-authentication.adoc

@@ -33,7 +33,7 @@ msgstr ""
 #: _guides/extension-writing-dev-service.adoc
 msgid ""
 "To create a Dev Service, add a new build step into the extension processor class that returns a `DevServicesResultBuildItem`.\n"
-"Here, the link:https://hub.docker.com/_/hello-world`hello-world` image is used, but you should set up the right image for your service."
+"Here, the https://hub.docker.com/_/hello-world[`hello-world`] image is used, but you should set up the right image for your service."
 msgstr ""
 
 #: _guides/extension-writing-dev-service.adoc

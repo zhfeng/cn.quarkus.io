@@ -327,71 +327,7 @@ msgid "To use the built-in sampler, you can configure it by setting the desired 
 msgstr ""
 
 #: _guides/opentelemetry-tracing.adoc
-msgid "An interesting use case for the sampler is to activate and deactivate tracing export at runtime, acording to this example:"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "Quarkus 3.0 introduced breaking changes on the configuration."
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "Sampler related property names and values change to comply with the latest Java OpenTelemetry SDK. During a transition period it will be possible to set the new configuration values in the old property because we are mapping  `quarkus.opentelemetry.tracer.sampler` -> `quarkus.otel.traces.sampler`."
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "If the sampler is parent based, there is no need to set, the now dropped property, `quarkus.opentelemetry.tracer.sampler.parent-based`."
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "The values you need to set on `quarkus.opentelemetry.tracer.sampler` are now:"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "Old Sampler config value"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "New Sampler config value"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "New Sampler config value (Parent based)"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`on`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`always_on`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`parentbased_always_on`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`off`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`always_off`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`parentbased_always_off`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`ratio`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`traceidratio`"
-msgstr ""
-
-#: _guides/opentelemetry-tracing.adoc
-msgid "`parentbased_traceidratio`"
+msgid "An interesting use case for the sampler is to activate and deactivate tracing export at runtime, according to this example:"
 msgstr ""
 
 #: _guides/opentelemetry-tracing.adoc
