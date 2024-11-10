@@ -21,7 +21,7 @@ l10n/po/zh_CN/_includes/get-started-band.html.po, 4, 10, 4, 59, 94%
 l10n/po/zh_CN/_includes/homepage-worldtour-band.html.po, 2, 4, 4, 45, 92%
 l10n/po/zh_CN/_includes/community-contrib-band.html.po, 1, 27, 2, 372, 100%
 l10n/po/zh_CN/_includes/homepage-features-icon-band.html.po, 1, 11, 1, 178, 100%
-l10n/po/zh_CN/_includes/about.html.po, 0, 19, 0, 382, 100%
+l10n/po/zh_CN/_includes/about.html.po, 0, 22, 0, 418, 100%
 l10n/po/zh_CN/_includes/awards-band.html.po, 0, 2, 0, 8, 100%
 l10n/po/zh_CN/_includes/container-first.html.po, 0, 16, 0, 544, 100%
 l10n/po/zh_CN/_includes/developer-joy.html.po, 0, 23, 0, 272, 100%
@@ -33,16 +33,16 @@ l10n/po/zh_CN/_includes/kubernetes-native.html.po, 0, 16, 0, 403, 100%
 l10n/po/zh_CN/_includes/support-options-band.html.po, 0, 5, 0, 33, 100%
 l10n/po/zh_CN/_includes/worldtour-code.html.po, 0, 3, 0, 36, 100%
 l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 650, 1487, 3532, 6306, 44%
-l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 632, 1474, 3427, 6248, 46%
+l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 631, 1486, 3425, 6305, 46%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 698, 2376, 2715, 13%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 700, 2376, 2725, 13%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
-l10n/po/zh_CN/_data/books.yaml.po, 81, 81, 900, 900, 0%
+l10n/po/zh_CN/_data/books.yaml.po, 79, 81, 894, 902, 1%
 l10n/po/zh_CN/_data/extensions.yaml.po, 390, 416, 856, 883, 4%
 l10n/po/zh_CN/_data/versioned/main/index/relations.yaml.po, 167, 483, 751, 1289, 42%
-l10n/po/zh_CN/_data/versioned/latest/index/relations.yaml.po, 163, 481, 742, 1282, 43%
+l10n/po/zh_CN/_data/versioned/latest/index/relations.yaml.po, 163, 483, 742, 1289, 43%
 l10n/po/zh_CN/_data/versioned/3-8/index/relations.yaml.po, 158, 446, 702, 1195, 42%
 l10n/po/zh_CN/_data/versioned/3-6/index/relations.yaml.po, 154, 444, 674, 1182, 43%
 l10n/po/zh_CN/_data/qtips-videos.yaml.po, 107, 107, 398, 398, 0%
@@ -58,10 +58,10 @@ l10n/po/zh_CN/_data/versioned/latest/index/quarkiverse.yaml.po, 7, 102, 98, 690,
 l10n/po/zh_CN/_data/versioned/main/index/quarkiverse.yaml.po, 7, 102, 98, 690, 86%
 l10n/po/zh_CN/_data/getstarted-nextsteps.yaml.po, 10, 24, 93, 140, 34%
 l10n/po/zh_CN/_data/getstarted-videos.yaml.po, 21, 21, 91, 91, 0%
+l10n/po/zh_CN/_data/events.yaml.po, 8, 37, 66, 183, 64%
 l10n/po/zh_CN/_data/callout-quotes.yaml.po, 3, 3, 55, 55, 0%
 l10n/po/zh_CN/_data/cheatsheets.yaml.po, 11, 11, 42, 42, 0%
 l10n/po/zh_CN/_data/event_worldtour_hero.yaml.po, 2, 2, 34, 34, 0%
-l10n/po/zh_CN/_data/events.yaml.po, 2, 30, 5, 204, 98%
 l10n/po/zh_CN/_data/1kcontributor-list.yaml.po, 0, 3940, 0, 7910, 100%
 l10n/po/zh_CN/_data/guides.yaml.po, 0, 5, 0, 15, 100%
 l10n/po/zh_CN/_data/index-docs.yaml.po, 0, 14, 0, 67, 100%
@@ -69,4 +69,4 @@ l10n/po/zh_CN/_data/publication-entries.yaml.po, 0, 1, 0, 18, 100%
 l10n/po/zh_CN/_data/recent-posts-band.yaml.po, 0, 2, 0, 6, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/quarkus.yaml.po, 0, 1474, 0, 6248, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/relations.yaml.po, 0, 481, 0, 1282, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 50, 0, 1574, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 51, 0, 1758, 100%
