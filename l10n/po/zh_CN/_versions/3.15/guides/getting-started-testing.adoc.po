@@ -1059,7 +1059,7 @@ msgid "The test injects the component under the test. The types of all fields an
 msgstr ""
 
 #: _versions/3.15/guides/getting-started-testing.adoc
-msgid "The test also injects a mock for `Charlie`. `Charlie` is an _unsatisifed_ dependency for which a synthetic `@Singleton` bean is registered automatically. The injected reference is an \"unconfigured\" Mockito mock."
+msgid "The test also injects a mock for `Charlie`. `Charlie` is an _unsatisfied_ dependency for which a synthetic `@Singleton` bean is registered automatically. The injected reference is an \"unconfigured\" Mockito mock."
 msgstr ""
 
 #: _versions/3.15/guides/getting-started-testing.adoc

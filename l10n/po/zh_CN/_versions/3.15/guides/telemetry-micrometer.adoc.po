@@ -230,8 +230,8 @@ msgstr ""
 
 #: _versions/3.15/guides/telemetry-micrometer.adoc
 msgid ""
-"Micrometer is built primariliy for backend monitoring systems that support dimensional data (metric names that are enchriched with key/value pairs).\n"
-"For heirarchical systems that only support a flat metric name, Micrometer will flatten the set of key/value pairs (sorted by key) and add them to the name."
+"Micrometer is built primarily for backend monitoring systems that support dimensional data (metric names that are enriched with key/value pairs).\n"
+"For hierarchical systems that only support a flat metric name, Micrometer will flatten the set of key/value pairs (sorted by key) and add them to the name."
 msgstr ""
 
 #: _versions/3.15/guides/telemetry-micrometer.adoc

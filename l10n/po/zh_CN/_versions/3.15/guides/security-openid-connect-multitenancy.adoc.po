@@ -403,7 +403,7 @@ msgid "Static tenant resolution using one of these options: custom `TenantResolv
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-multitenancy.adoc
-msgid "Finally, the default OIDC tenant is selected if a tenant id has not been resolved after the preceeding steps."
+msgid "Finally, the default OIDC tenant is selected if a tenant id has not been resolved after the preceding steps."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-multitenancy.adoc
@@ -688,7 +688,7 @@ msgid "The default configuration may look like this:"
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-multitenancy.adoc
-msgid "The preceeding example assumes that the `tenant-a`, `tenant-b` and default tenants are all used to protect the same endpoint paths. In other words, after the user has authenticated with the `tenant-a` configuration, this user will not be able to choose to authenticate with the `tenant-b` or default configuration before this user logs out and has a session cookie cleared or expired."
+msgid "The preceding example assumes that the `tenant-a`, `tenant-b` and default tenants are all used to protect the same endpoint paths. In other words, after the user has authenticated with the `tenant-a` configuration, this user will not be able to choose to authenticate with the `tenant-b` or default configuration before this user logs out and has a session cookie cleared or expired."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-multitenancy.adoc

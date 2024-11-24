@@ -239,7 +239,7 @@ msgid "Add the following Maven Dependency:"
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "Note it will also bring `io.quarkus:quarkus-oidc-client`."
+msgid "It will also bring `io.quarkus:quarkus-oidc-client`."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
@@ -247,7 +247,7 @@ msgid "`quarkus-rest-client-oidc-filter` extension provides `io.quarkus.oidc.cli
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "It works similarly to the way `OidcClientRequestFilter` does (see <<resteasy-client-oidc-filter,Use OidcClient in MicroProfile RestClient client filter>>) - it uses `OidcClient` to acquire the access token, refresh it if needed, and set it as an HTTP `Authorization` `Bearer` scheme value. The difference is that it works with xref:rest-client.adoc[Reactive RestClient] and implements a non-blocking client filter that does not block the current IO thread when acquiring or refreshing the tokens."
+msgid "It works similarly to the way `OidcClientRequestFilter` does (see <<resteasy-client-oidc-filter,Use OidcClient in MicroProfile RestClient client filter>>) - it uses `OidcClient` to acquire the access token, refresh it if needed, and set it as an HTTP `Authorization Bearer` scheme value. The difference is that it works with xref:rest-client.adoc[Reactive RestClient] and implements a non-blocking client filter that does not block the current IO thread when acquiring or refreshing the tokens."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
@@ -274,7 +274,7 @@ msgid "Use OidcClient in RestClient ClientFilter"
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "`quarkus-resteasy-client-oidc-filter` extension provides `io.quarkus.oidc.client.filter.OidcClientRequestFilter` Jakarta REST ClientRequestFilter which uses `OidcClient` to acquire the access token, refresh it if needed, and set it as an HTTP `Authorization` `Bearer` scheme value."
+msgid "`quarkus-resteasy-client-oidc-filter` extension provides `io.quarkus.oidc.client.filter.OidcClientRequestFilter` Jakarta REST ClientRequestFilter which uses `OidcClient` to acquire the access token, refresh it if needed, and set it as an HTTP `Authorization Bearer` scheme value."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
@@ -429,7 +429,7 @@ msgid "Here is an example of the Quarkus REST (formerly RESTEasy Reactive) custo
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "Here is an example of the RestEasy Classic custom filter:"
+msgid "Here is an example of the RESTEasy Classic custom filter:"
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
@@ -471,6 +471,10 @@ msgstr "Wiremock"
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
 msgid "Add the following dependencies to your test project:"
 msgstr "在你的测试项目中添加以下依赖项："
+
+#: _versions/3.15/guides/security-openid-connect-client-reference.adoc
+msgid "Use a proper Wiremock version. All available versions can be found link:https://search.maven.org/artifact/org.wiremock/wiremock[here]."
+msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
 msgid "Write a Wiremock-based `QuarkusTestResourceLifecycleManager`, for example:"
@@ -541,7 +545,7 @@ msgid "Please note that the `exchange-token` configuration property is ignored w
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "Note `AccessTokenRequestReactiveFilter` will use `OidcClient` to exchange the current token, and you can use `quarkus.oidc-client.grant-options.exchange` to set the additional exchange properties expected by your OpenID Connect Provider."
+msgid "`AccessTokenRequestReactiveFilter` will use `OidcClient` to exchange the current token, and you can use `quarkus.oidc-client.grant-options.exchange` to set the additional exchange properties expected by your OpenID Connect Provider."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
@@ -608,7 +612,7 @@ msgid "If you work with providers such as `Azure` that link:https://learn.micros
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "Note `AccessTokenRequestFilter` will use `OidcClient` to exchange the current token, and you can use `quarkus.oidc-client.grant-options.exchange` to set the additional exchange properties expected by your OpenID Connect Provider."
+msgid "`AccessTokenRequestFilter` will use `OidcClient` to exchange the current token, and you can use `quarkus.oidc-client.grant-options.exchange` to set the additional exchange properties expected by your OpenID Connect Provider."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
@@ -624,7 +628,7 @@ msgid "Using `JsonWebTokenRequestFilter` is recommended if you work with Bearer 
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc
-msgid "`JsonWebTokenRequestFilter` makes it easy for `Service A` implementations to update the injected `org.eclipse.microprofile.jwt.JsonWebToken` with the new `issuer` and `audience` claim values and secure the updated token again with a new signature. The only difficult step is ensuring that `Service A` has a signing key; it should be provisioned from a secure file system or remote secure storage such as Vault."
+msgid "`JsonWebTokenRequestFilter` makes it easy for `Service A` implementations to update the injected `org.eclipse.microprofile.jwt.JsonWebToken` with the new `issuer` and `audience` claim values and secure the updated token again with a new signature. The only difficult step is ensuring that `Service A` has a signing key which should be provisioned from a secure file system or remote secure storage such as Vault."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client-reference.adoc

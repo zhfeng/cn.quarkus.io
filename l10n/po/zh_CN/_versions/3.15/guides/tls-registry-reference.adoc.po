@@ -25,9 +25,18 @@ msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc
 msgid ""
-"The TLS Registry extension is automatically included in your project when you use compatible extensions, such as Quarkus REST, gRPC, or Reactive Routes.\n"
-"As a result, applications that use the TLS Registry can be ready to handle secure communications out of the box.\n"
-"TLS Registry also provides features like automatic certificate reloading, Let's Encrypt (ACME) integration, Kubernetes Cert-Manager support, and compatibility with various keystore formats, such as PKCS12, PEM, and JKS."
+"The TLS Registry extension is automatically included in your project when you use compatible extensions, such as Quarkus REST, gRPC\n"
+", or Reactive Routes\n"
+".\n"
+"As a result, applications that use the TLS Registry can be ready to handle secure communications out of the box."
+msgstr ""
+
+#: _versions/3.15/guides/tls-registry-reference.adoc
+msgid ""
+"TLS Registry also provides automatic certificate reloading\n"
+", integration with Let's Encrypt (ACME)\n"
+", support for Kubernetes Cert-Manager,\n"
+"and compatibility with various keystore formats, such as PKCS12, PEM, and JKS."
 msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc
@@ -739,7 +748,7 @@ msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc
 msgid ""
-"Impacted server and client may need to listen to the `CertificateReloadedEvent` to apply the new certificates.\n"
+"Impacted server and client may need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
 "This is automatically done for the Quarkus HTTP server, including the management interface if it is enabled."
 msgstr ""
 
@@ -1317,7 +1326,7 @@ msgid "Keep the application running and request your first Let's Encrypt certifi
 msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc
-msgid "Issue a certificate:"
+msgid "Issue a certificate"
 msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc
@@ -1399,7 +1408,7 @@ msgid ""
 msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc
-msgid "Testing with ngrok:"
+msgid "Testing with ngrok"
 msgstr ""
 
 #: _versions/3.15/guides/tls-registry-reference.adoc

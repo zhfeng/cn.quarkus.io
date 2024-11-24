@@ -247,7 +247,7 @@ msgstr ""
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
 msgid ""
 "App Engine Flexible custom runtimes support link:https://cloud.google.com/appengine/docs/flexible/reference/app-yaml?tab=java#updated_health_checks[health checks],\n"
-"it is strongly advised to provide them thanks to Quarkus xref:smallrye-health.adoc[Smallrye Health] support."
+"it is strongly advised to provide them thanks to Quarkus xref:smallrye-health.adoc[SmallRye Health] support."
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
@@ -305,7 +305,7 @@ msgstr ""
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
 msgid ""
 "Cloud Run supports link:https://cloud.google.com/run/docs/configuring/healthchecks[health checks],\n"
-"it is strongly advised to provide them thanks to Quarkus xref:smallrye-health.adoc[Smallrye Health] support."
+"it is strongly advised to provide them thanks to Quarkus xref:smallrye-health.adoc[SmallRye Health] support."
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
@@ -378,7 +378,11 @@ msgid "Using Cloud SQL with native executables"
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
-msgid "When generating native executables, you must also mark `jnr.ffi.provider.jffi.NativeFinalizer$SingletonHolder` as runtime initialized."
+msgid "When generating native executables, you must mark `jnr.ffi.provider.jffi.NativeFinalizer$SingletonHolder` as runtime initialized."
+msgstr ""
+
+#: _versions/3.15/guides/deploying-to-google-cloud.adoc
+msgid "Additionally, starting with `com.google.cloud.sql:postgres-socket-factory:1.17.0`, you must also mark `com.kenai.jffi.internal.Cleaner` as runtime initialized."
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
@@ -392,5 +396,5 @@ msgid ""
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-google-cloud.adoc
-msgid "You can find some documentation about them in the link:https://quarkiverse.github.io/quarkiverse-docs/quarkus-google-cloud-services/main/index.html[Quarkiverse Google Cloud Services documentation]."
+msgid "You can find some documentation about them in the link:https://docs.quarkiverse.io/quarkus-google-cloud-services/main/index.html[Quarkiverse Google Cloud Services documentation]."
 msgstr ""

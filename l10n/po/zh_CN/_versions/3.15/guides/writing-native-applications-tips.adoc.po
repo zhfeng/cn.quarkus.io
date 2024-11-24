@@ -428,7 +428,7 @@ msgstr ""
 
 #: _versions/3.15/guides/writing-native-applications-tips.adoc
 msgid ""
-"Certain commonly used Java methods are overriden by user classes,\n"
+"Certain commonly used Java methods are overridden by user classes,\n"
 "e.g. `toString`, `equals`, `hashCode`...etc.\n"
 "The majority of overrides do not cause problems,\n"
 "but if they use third party libraries (e.g. for additional formatting),\n"

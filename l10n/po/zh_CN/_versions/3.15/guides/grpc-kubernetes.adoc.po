@@ -61,7 +61,7 @@ msgid "Using gRPC Health probes"
 msgstr ""
 
 #: _versions/3.15/guides/grpc-kubernetes.adoc
-msgid "By default, the Kubernetes resources do not contain readiness and liveness probes. To add them, import the Smallrye Health extension to your build file:"
+msgid "By default, the Kubernetes resources do not contain readiness and liveness probes. To add them, import the SmallRye Health extension to your build file:"
 msgstr ""
 
 #: _versions/3.15/guides/grpc-kubernetes.adoc

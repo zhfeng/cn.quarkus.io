@@ -260,7 +260,7 @@ msgstr ""
 #: _versions/3.15/guides/security-openid-connect-client.adoc
 msgid ""
 "This exception mapper is only added to verify during the tests that `ProtectedResource` returns `403` when the token has no expected role.\n"
-"Without this mapper, `Quarkus REST (formerly RESTEasy Reactive)` would correctly convert the exceptions that escape from REST client calls to `500` to avoid leaking the information from the downstream resources such as `ProtectedResource`.\n"
+"Without this mapper, Quarkus REST (formerly RESTEasy Reactive) would correctly convert the exceptions that escape from REST client calls to `500` to avoid leaking the information from the downstream resources such as `ProtectedResource`.\n"
 "However, in the tests, it would not be possible to assert that `500` is caused by an authorization exception instead of some internal error."
 msgstr ""
 
@@ -275,7 +275,7 @@ msgstr ""
 #: _versions/3.15/guides/security-openid-connect-client.adoc
 msgid ""
 "The preceding configuration references Keycloak, which is used by `ProtectedResource` to verify the incoming access tokens and by `OidcClient` to get the tokens for a user `alice` by using a `password` grant.\n"
-"Both REST clients point to `ProtectedResource`'s HTTP address."
+"Both REST clients point to ``ProtectedResource``'s HTTP address."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
@@ -341,7 +341,7 @@ msgid "xref:security-openid-connect-dev-services.adoc[Dev Services for Keycloak]
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
-msgid "Open a xref:dev-ui.adoc[Dev UI] available at http://localhost:8080/q/dev-ui[/q/dev-ui] and click a `Provider: Keycloak` link in the *OpenID Connect Dev UI* card."
+msgid "Open a xref:dev-ui.adoc[Dev UI] available at http://localhost:8080/q/dev-ui[/q/dev-ui] and click a `Keycloak provider` link in the *OpenID Connect Dev UI* card."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
@@ -351,7 +351,7 @@ msgstr ""
 #: _versions/3.15/guides/security-openid-connect-client.adoc
 msgid ""
 "Log in as `alice`, with the password, `alice`.\n"
-"This user has a `user` role."
+"This user has both `admin` and `user` roles."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
@@ -359,17 +359,17 @@ msgid "Access `/frontend/user-name-with-propagated-token`, which returns `200`."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
-msgid "Access `/frontend/admin-name-with-propagated-token`, which returns `403`."
+msgid "Access `/frontend/admin-name-with-propagated-token`, which returns `200`."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
 msgid ""
-"Log out and back in as `admin` with the password, `admin`.\n"
-"This user has both `admin` and `user` roles."
+"Log out and back in as `bob` with the password, `bob`.\n"
+"This user has a `user` role."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc
-msgid "Access `/frontend/admin-name-with-propagated-token`, which returns `200`."
+msgid "Access `/frontend/admin-name-with-propagated-token`, which returns `403`."
 msgstr ""
 
 #: _versions/3.15/guides/security-openid-connect-client.adoc

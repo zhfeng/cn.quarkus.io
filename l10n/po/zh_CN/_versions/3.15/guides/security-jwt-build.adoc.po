@@ -44,7 +44,7 @@ msgstr "build.gradle"
 
 #: _versions/3.15/guides/security-jwt-build.adoc
 msgid ""
-"Note you can use Smallrye JWT Build API without having to create MicroProfile JWT endpoints supported by `quarkus-smallrye-jwt`.\n"
+"Note you can use SmallRye JWT Build API without having to create MicroProfile JWT endpoints supported by `quarkus-smallrye-jwt`.\n"
 "It can also be excluded from `quarkus-smallrye-jwt` if MP JWT endpoints do not need to generate JWT tokens."
 msgstr ""
 
@@ -473,7 +473,7 @@ msgid "xref:security-oidc-bearer-token-authentication.adoc[OIDC Bearer token aut
 msgstr ""
 
 #: _versions/3.15/guides/security-jwt-build.adoc
-msgid "xref:security-jwt.adoc[Using Smallrye JWT to Protect Service Applications]"
+msgid "xref:security-jwt.adoc[Using SmallRye JWT to Protect Service Applications]"
 msgstr ""
 
 #: _versions/3.15/guides/security-jwt-build.adoc

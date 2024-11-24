@@ -300,7 +300,7 @@ msgid "Integrating with `systemd-notify`"
 msgstr ""
 
 #: _versions/3.15/guides/container-image.adoc
-msgid "If you are building a container image in order to deploy your Quarkus application as a Linux service with Podman and Systemd, you might want to consider including the https://quarkiverse.github.io/quarkiverse-docs/quarkus-systemd-notify/dev/index.html[Quarkus Systemd Notify Extension] as part of your application, with:"
+msgid "If you are building a container image in order to deploy your Quarkus application as a Linux service with Podman and Systemd, you might want to consider including the https://docs.quarkiverse.io/quarkus-systemd-notify/dev/index.html[Quarkus Systemd Notify Extension] as part of your application, with:"
 msgstr ""
 
 #: _versions/3.15/guides/container-image.adoc

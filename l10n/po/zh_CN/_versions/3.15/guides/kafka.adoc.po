@@ -78,12 +78,12 @@ msgid "The extension includes `kafka-clients` version 3.2.1 as a transitive depe
 msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
-msgid "Configuring Smallrye Kafka Connector"
-msgstr "配置Smallrye Kafka Connector"
+msgid "Configuring SmallRye Kafka Connector"
+msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
-msgid "Because Smallrye Reactive Messaging framework supports different messaging backends like Apache Kafka, AMQP, Apache Camel, JMS, MQTT, etc., it employs a generic vocabulary:"
-msgstr "因为Smallrye Reactive Messaging框架支持不同的消息后端，如Apache Kafka，AMQP，Apache Camel，JMS以及MQTT等，所以它使用了一个通用的术语表："
+msgid "Because SmallRye Reactive Messaging framework supports different messaging backends like Apache Kafka, AMQP, Apache Camel, JMS, MQTT, etc., it employs a generic vocabulary:"
+msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
 msgid "Applications send and receive *messages*. A message wraps a _payload_ and can be extended with some _metadata_. With the Kafka connector, a _message_ corresponds to a Kafka _record_."
@@ -375,7 +375,7 @@ msgstr "要么将 `enable.auto.commit` 设置为true，并在consuming方法中�
 
 #: _versions/3.15/guides/kafka.adoc
 msgid ""
-"Smallrye Reactive Messaging enables implementing custom commit strategies.\n"
+"SmallRye Reactive Messaging enables implementing custom commit strategies.\n"
 "See https://smallrye.io/smallrye-reactive-messaging/latest/kafka/receiving-kafka-records/#acknowledgement[SmallRye Reactive Messaging documentation] for more information."
 msgstr ""
 
@@ -445,7 +445,7 @@ msgstr "*dead-letter-offset* ：失败记录的原始偏移量(long映射为Stri
 
 #: _versions/3.15/guides/kafka.adoc
 msgid ""
-"Smallrye Reactive Messaging enables implementing custom failure strategies.\n"
+"SmallRye Reactive Messaging enables implementing custom failure strategies.\n"
 "See https://smallrye.io/smallrye-reactive-messaging/latest/kafka/receiving-kafka-records/#acknowledgement[SmallRye Reactive Messaging documentation] for more information."
 msgstr ""
 
@@ -592,8 +592,8 @@ msgstr ""
 #: _versions/3.15/guides/kafka.adoc
 msgid ""
 "During normal operation, a Kafka consumer preserves the order of records inside each partition assigned to it.\n"
-"Smallrye Reactive Messaging keeps this order for processing, unless `@Blocking(ordered = false)` is used (see <<blocking-processing>>)."
-msgstr "正常操作中，Kafka消费者会保留分配给它的每个分区里面的records的顺序。Smallrye Reactive Messaging会使用这个顺序进行处理，除非设置了 `@Blocking(ordered = false)` (参见<<blocking-processing>> )。"
+"SmallRye Reactive Messaging keeps this order for processing, unless `@Blocking(ordered = false)` is used (see <<blocking-processing>>)."
+msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
 msgid "Note that due to consumer rebalances, Kafka consumers only guarantee at-least-once processing of single records, meaning that uncommitted records _can_ be processed again by consumers."
@@ -798,7 +798,7 @@ msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
 msgid ""
-"Smallrye Reactive Messaging `checkpoint` commit strategy allows consumer applications to process messages in a stateful manner, while also respecting Kafka consumer scalability.\n"
+"SmallRye Reactive Messaging `checkpoint` commit strategy allows consumer applications to process messages in a stateful manner, while also respecting Kafka consumer scalability.\n"
 "An incoming channel with `checkpoint` commit strategy persists consumer offsets on an external\n"
 "<<state-stores,state store>>, such as a relational database or a key-value store.\n"
 "As a result of processing consumed records, the consumer application can accumulate an internal state for each topic-partition assigned to the Kafka consumer.\n"
@@ -1283,7 +1283,7 @@ msgstr ""
 #: _versions/3.15/guides/kafka.adoc
 msgid ""
 "For more information on Kafka Request Reply feature and advanced configuration options,\n"
-"see the https://smallrye.io/smallrye-reactive-messaging/latest/kafka/request-reply/[Smallrye Reactive Messaging Documentation]."
+"see the https://smallrye.io/smallrye-reactive-messaging/latest/kafka/request-reply/[SmallRye Reactive Messaging Documentation]."
 msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
@@ -2620,7 +2620,7 @@ msgid "Receive a payload by serving HTTP requests using Quarkus REST,"
 msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc
-msgid "Limit concurrency of that HTTP endpoint using Smallrye Fault Tolerance,"
+msgid "Limit concurrency of that HTTP endpoint using SmallRye Fault Tolerance,"
 msgstr ""
 
 #: _versions/3.15/guides/kafka.adoc

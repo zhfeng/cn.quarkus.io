@@ -21,7 +21,9 @@ msgid ""
 msgstr ""
 
 #: _versions/3.15/guides/writing-extensions.adoc
-msgid "This is an in-depth documentation, see the xref:building-my-first-extension.adoc[building my first extension] if you need an introduction."
+msgid ""
+"This is an in-depth documentation, see the xref:building-my-first-extension.adoc[building my first extension] if you need an introduction,\n"
+"or the xref:extension-faq.adoc[frequently asked questions]."
 msgstr ""
 
 #: _versions/3.15/guides/writing-extensions.adoc

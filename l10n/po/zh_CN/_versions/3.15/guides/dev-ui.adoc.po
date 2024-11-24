@@ -416,23 +416,23 @@ msgid "Qomponent"
 msgstr ""
 
 #: _versions/3.15/guides/dev-ui.adoc
-msgid "We also include all components from the [Qomponent](https://github.com/qomponent) library"
+msgid "We also include all components from the https://github.com/qomponent[Qomponent] library"
 msgstr ""
 
 #: _versions/3.15/guides/dev-ui.adoc
-msgid "[Card](https://www.npmjs.com/package/@qomponent/qui-card)"
+msgid "https://www.npmjs.com/package/@qomponent/qui-card[Card]"
 msgstr ""
 
 #: _versions/3.15/guides/dev-ui.adoc
-msgid "[Badge](https://www.npmjs.com/package/@qomponent/qui-badge)"
+msgid "https://www.npmjs.com/package/@qomponent/qui-badge[Badge]"
 msgstr ""
 
 #: _versions/3.15/guides/dev-ui.adoc
-msgid "[Alert](https://www.npmjs.com/package/@qomponent/qui-alert)"
+msgid "https://www.npmjs.com/package/@qomponent/qui-alert[Alert]"
 msgstr ""
 
 #: _versions/3.15/guides/dev-ui.adoc
-msgid "[Code block](https://www.npmjs.com/package/@qomponent/qui-code-block)"
+msgid "https://www.npmjs.com/package/@qomponent/qui-code-block[Code block]"
 msgstr ""
 
 #: _versions/3.15/guides/dev-ui.adoc

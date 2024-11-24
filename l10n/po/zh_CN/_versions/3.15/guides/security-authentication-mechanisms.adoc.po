@@ -101,7 +101,7 @@ msgid "Kerberos ticket"
 msgstr ""
 
 #: _versions/3.15/guides/security-authentication-mechanisms.adoc
-msgid "link:https://quarkiverse.github.io/quarkiverse-docs/quarkus-kerberos/dev/index.html[Kerberos]"
+msgid "link:https://docs.quarkiverse.io/quarkus-kerberos/dev/index.html[Kerberos]"
 msgstr ""
 
 #: _versions/3.15/guides/security-authentication-mechanisms.adoc
@@ -321,7 +321,7 @@ msgid "Use HTTP security policy to require that `SecurityIdentity` must have eit
 msgstr ""
 
 #: _versions/3.15/guides/security-authentication-mechanisms.adoc
-msgid "Given the preceeding configuration, the request is authorized if the client certificate's CN attribute is equal to `alice` or `bob` and forbidden if it is equal to `jdoe`."
+msgid "Given the preceding configuration, the request is authorized if the client certificate's CN attribute is equal to `alice` or `bob` and forbidden if it is equal to `jdoe`."
 msgstr ""
 
 #: _versions/3.15/guides/security-authentication-mechanisms.adoc

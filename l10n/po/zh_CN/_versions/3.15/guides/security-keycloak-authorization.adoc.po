@@ -538,7 +538,7 @@ msgstr ""
 
 #: _versions/3.15/guides/security-keycloak-authorization.adoc
 msgid ""
-"This configuration adheres to the official [Keycloak Policy Enforcer Configuration](https://www.keycloak.org/docs/latest/authorization_services/index.html#_enforcer_filter) guidelines.\n"
+"This configuration adheres to the official https://www.keycloak.org/docs/latest/authorization_services/index.html#_enforcer_filter[Keycloak Policy Enforcer Configuration] guidelines.\n"
 "For detailed insights into various configuration options, see the following documentation:"
 msgstr ""
 

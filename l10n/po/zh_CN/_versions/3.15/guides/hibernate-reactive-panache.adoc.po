@@ -645,10 +645,6 @@ msgid "And this repository:"
 msgstr "还有这个储存库："
 
 #: _versions/3.15/guides/hibernate-reactive-panache.adoc
-msgid "The injected `UniAsserter` agrument is used to make assertions."
-msgstr ""
-
-#: _versions/3.15/guides/hibernate-reactive-panache.adoc
 msgid "How and why we simplify Hibernate Reactive mappings"
 msgstr "我们为什么简化Hibernate Reactive映射？怎么做到的？"
 

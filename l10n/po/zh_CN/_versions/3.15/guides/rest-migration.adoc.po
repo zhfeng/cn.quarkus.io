@@ -399,7 +399,7 @@ msgid ""
 msgstr ""
 
 #: _versions/3.15/guides/rest-migration.adoc
-msgid "A couple good examples of how Quarkus uses this strategy to support both RESTEasy flavors in the core repository can be seen [here](https://github.com/quarkusio/quarkus/pull/21089) and [here](https://github.com/quarkusio/quarkus/pull/20874)."
+msgid "A couple good examples of how Quarkus uses this strategy to support both RESTEasy flavors in the core repository can be seen https://github.com/quarkusio/quarkus/pull/21089[here] and https://github.com/quarkusio/quarkus/pull/20874[here]."
 msgstr ""
 
 #: _versions/3.15/guides/rest-migration.adoc

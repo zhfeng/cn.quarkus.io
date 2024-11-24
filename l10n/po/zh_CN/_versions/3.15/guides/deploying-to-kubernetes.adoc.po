@@ -509,7 +509,7 @@ msgstr ""
 
 #: _versions/3.15/guides/deploying-to-kubernetes.adoc
 msgid ""
-"Quarkus supports passing configuration from external locations (via Smallrye Config). This usually requires setting an additional environment variable or system property.\n"
+"Quarkus supports passing configuration from external locations (via SmallRye Config). This usually requires setting an additional environment variable or system property.\n"
 "When you need to use a secret or a config map for the purpose of application configuration, you need to:"
 msgstr ""
 
