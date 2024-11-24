@@ -1,5 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 599, 620, 12256, 12750, 4%
+l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 599, 622, 12256, 12778, 5%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 770, 812, 11699, 12579, 7%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 344, 9047, 10196, 12%
 l10n/po/zh_CN/_guides/rest.adoc.po, 461, 494, 7468, 8078, 8%
@@ -29,7 +29,7 @@ l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 106, 112, 29
 l10n/po/zh_CN/_guides/http-reference.adoc.po, 249, 273, 2964, 3288, 10%
 l10n/po/zh_CN/_guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 144, 188, 2898, 3878, 26%
-l10n/po/zh_CN/_guides/dev-ui.adoc.po, 208, 233, 2770, 3085, 11%
+l10n/po/zh_CN/_guides/dev-ui.adoc.po, 207, 233, 2766, 3085, 11%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 151, 200, 2764, 3537, 22%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 154, 175, 2749, 3165, 14%
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 166, 189, 2538, 3159, 20%
@@ -95,12 +95,10 @@ l10n/po/zh_CN/_guides/databases-dev-services.adoc.po, 74, 79, 1253, 1395, 11%
 l10n/po/zh_CN/_guides/security-getting-started-tutorial.adoc.po, 78, 107, 1245, 1612, 23%
 l10n/po/zh_CN/_guides/stork-kubernetes.adoc.po, 67, 76, 1241, 1320, 6%
 l10n/po/zh_CN/_guides/transaction.adoc.po, 47, 102, 1230, 2387, 49%
-l10n/po/zh_CN/_guides/qute.adoc.po, 84, 95, 1223, 1400, 13%
 l10n/po/zh_CN/_guides/native-and-ssl.adoc.po, 86, 95, 1222, 1317, 8%
 l10n/po/zh_CN/_guides/getting-started-dev-services.adoc.po, 77, 87, 1188, 1333, 11%
 l10n/po/zh_CN/_guides/management-interface-reference.adoc.po, 66, 68, 1151, 1172, 2%
 l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
-l10n/po/zh_CN/_guides/extension-metadata.adoc.po, 52, 57, 1093, 1186, 8%
 l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 50, 57, 1092, 1154, 6%
 l10n/po/zh_CN/_guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
@@ -108,10 +106,12 @@ l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 48, 200, 1081, 3907, 73%
 l10n/po/zh_CN/_guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
 l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 65, 78, 1047, 1210, 14%
+l10n/po/zh_CN/_guides/extension-metadata.adoc.po, 51, 57, 1037, 1186, 13%
 l10n/po/zh_CN/_guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_guides/quartz.adoc.po, 71, 89, 1027, 1142, 11%
 l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication-tutorial.adoc.po, 73, 93, 1021, 1268, 20%
+l10n/po/zh_CN/_guides/qute.adoc.po, 80, 95, 1014, 1394, 28%
 l10n/po/zh_CN/_guides/command-mode-reference.adoc.po, 52, 64, 1010, 1098, 9%
 l10n/po/zh_CN/_guides/lifecycle.adoc.po, 53, 68, 1008, 1121, 11%
 l10n/po/zh_CN/_guides/security-oauth2.adoc.po, 56, 79, 1005, 1226, 19%
@@ -272,6 +272,7 @@ l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 20, 0, 398, 100
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 40, 0, 642, 100%
 l10n/po/zh_CN/_guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_guides/extension-faq.adoc.po, 0, 36, 0, 715, 100%
+l10n/po/zh_CN/_guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1400, 100%
 l10n/po/zh_CN/_guides/extension-writing-dev-service.adoc.po, 0, 23, 0, 409, 100%
 l10n/po/zh_CN/_guides/grpc-cli.adoc.po, 0, 9, 0, 40, 100%
 l10n/po/zh_CN/_guides/jfr.adoc.po, 0, 90, 0, 1618, 100%
