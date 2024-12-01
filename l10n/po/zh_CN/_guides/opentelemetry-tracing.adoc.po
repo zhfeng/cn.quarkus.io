@@ -545,6 +545,10 @@ msgid "https://quarkus.io/guides/vertx[`quarkus-vertx`] (http requests)"
 msgstr ""
 
 #: _guides/opentelemetry-tracing.adoc
+msgid "xref:websockets-next-reference.adoc[`websockets-next`]"
+msgstr ""
+
+#: _guides/opentelemetry-tracing.adoc
 msgid "Disable parts of the automatic tracing"
 msgstr ""
 

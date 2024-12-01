@@ -1500,7 +1500,10 @@ msgstr ""
 #: _guides/rest.adoc
 msgid ""
 "All resource methods returning data secured with the `@SecureField` annotation should be tested.\n"
-"Please make sure data are secured as you intended."
+"Please make sure data are secured as you intended.\n"
+"Quarkus always attempts to detect fields annotated with the `@SecureField` annotation,\n"
+"however it may fail to infer returned type and miss the `@SecureField` annotation instance.\n"
+"If that happens, please explicitly enable secure serialization on the resource endpoint with the `@EnableSecureSerialization` annotation."
 msgstr ""
 
 #: _guides/rest.adoc

@@ -73,23 +73,21 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
 #: _guides/picocli.adoc
-#, fuzzy, no-wrap
-msgid "Simple command line application"
-msgstr "简单的命令行应用"
+msgid "Building a command line application"
+msgstr ""
 
-#. type: Plain text
 #: _guides/picocli.adoc
-#, fuzzy
-msgid "Simple PicocliApplication with only one `Command` can be created as follows:"
-msgstr "简单的PicocliApplication只有一个 `Command` ，可以按如下方式创建。"
+msgid "Simple application"
+msgstr ""
 
-#. type: Plain text
 #: _guides/picocli.adoc
-#, fuzzy
-msgid "If there is only one class annotated with `picocli.CommandLine.Command` it will be used as entry point to Picocli CommandLine."
-msgstr "如果只有一个用 `picocli.CommandLine.Command` 注释的类，它将被用作Picocli CommandLine的入口点。"
+msgid "A simple Picocli application with only one `Command` can be created as follows:"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "If there is only one class annotated with `picocli.CommandLine.Command`, it will be used automatically as the entry point of the command line application."
+msgstr ""
 
 #. type: Plain text
 #: _guides/picocli.adoc
@@ -98,12 +96,12 @@ msgid "All classes annotated with `picocli.CommandLine.Command` are registered a
 msgstr "所有用 `picocli.CommandLine.Command` 注释的类都被注册为CDI Bean。"
 
 #: _guides/picocli.adoc
-#, fuzzy
 msgid ""
-"Beans with `@CommandLine.Command` should not use proxied scopes (e.g. do not use `@ApplicationScope`)\n"
-"because Picocli will not be able to set field values in such beans. This extension will register classes with `@CommandLine.Command` annotation\n"
-"using `@Depended` scope. If you need to use proxied scope, then annotate setter and not field, for example:"
-msgstr "带有 `@CommandLine.Command` 的 Bean 不应使用代理作用域（例如，不要使用 `@ApplicationScope` ），因为 Picocli 将无法在此类 Bean 中设置字段值。该扩展将使用 `@Depended` 作用域注册带有 `@CommandLine.Command` 注解的类。如果需要使用代理作用域，请注解 setter 而不是 field："
+"Beans annotated with `@CommandLine.Command` should not use proxied scopes (e.g. do not use `@ApplicationScoped`)\n"
+"because Picocli will not be able to set field values in such beans.\n"
+"By default, this Picocli extension registers classes annotated with `@CommandLine.Command`\n"
+"with the `@Dependent` scope. If you need to use a proxied scope, then annotate the setters and not the fields, for example:"
+msgstr ""
 
 #. type: Title ==
 #: _guides/picocli.adoc
@@ -174,11 +172,9 @@ msgstr "您可以使用 `Event<CommandLine.ParseResult>` 或 `CommandLine.ParseR
 msgid "`@ApplicationScoped` used for lazy initialization"
 msgstr " `@ApplicationScoped` 用于懒惰的初始化"
 
-#. type: Title ==
 #: _guides/picocli.adoc
-#, fuzzy, no-wrap
-msgid "Providing own QuarkusMain"
-msgstr "提供自己的QuarkusMain"
+msgid "Providing your own QuarkusMain"
+msgstr ""
 
 #. type: Plain text
 #: _guides/picocli.adoc
@@ -194,24 +190,6 @@ msgstr "Quarkus兼容的 `CommandLine.IFactory` bean，由 `picocli` extension�
 
 #. type: Title ==
 #: _guides/picocli.adoc
-#, fuzzy, no-wrap
-msgid "Native mode support"
-msgstr "支持本地模式"
-
-#. type: Plain text
-#: _guides/picocli.adoc
-#, fuzzy
-msgid "This extension uses the Quarkus standard build steps mechanism to support GraalVM Native images. In the exceptional case that incompatible changes in a future picocli release cause any issue, the following configuration can be used to fall back to the annotation processor from the picocli project as a temporary workaround:"
-msgstr "这个扩展使用Quarkus标准构建步骤机制来支持GraalVM Native图像。在特殊情况下，如果未来的picocli版本中不兼容的变化导致任何问题，以下配置可以用来回退到picocli项目中的注释处理器，作为一个临时的变通。"
-
-#. type: Plain text
-#: _guides/picocli.adoc
-#, fuzzy
-msgid "For Gradle, you need to add the following in `dependencies` section of the `build.gradle` file:"
-msgstr "对于Gradle，你需要在 `build.gradle` 文件的 `dependencies` 部分添加以下内容。"
-
-#. type: Title ==
-#: _guides/picocli.adoc
 #, no-wrap
 msgid "Development Mode"
 msgstr "开发模式"
@@ -224,6 +202,80 @@ msgstr ""
 
 #: _guides/picocli.adoc
 msgid "If you're creating a typical Quarkus application (e.g., HTTP-based services) that includes command-line functionality, you'll need to handle the application's lifecycle differently. In the `Runnable.run()` method of your command, make sure to use `Quarkus.waitForExit()` or `Quarkus.asyncExit()`. This will prevent the application from shutting down prematurely and ensure a proper shutdown process."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "Packaging your application"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "A Picocli command line application can be packaged in multiple formats (e.g. a JAR, a native executable) and can be published to various repositories (e.g. Homebrew, Chocolatey, SDKMAN!)."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "As a jar"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "A Picocli command line application is a standard Quarkus application and as such can be published as a JAR in various packaging formats (e.g. fast-jar, uber-jar)."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "In the context of a command line application, building an uber-jar is more practical if you plan on publishing the JAR as is."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "For more information about how to build an uber-jar, see our documentation:"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "For https://quarkus.io/guides/maven-tooling#uber-jar-maven[Maven]"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "For https://quarkus.io/guides/gradle-tooling#building-uber-jars[Gradle]"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "You can then execute the application by using the standard `java -jar your-application.jar` command."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "Using plugins such as the https://github.com/brianm/really-executable-jars-maven-plugin[really-executable-jar-maven-plugin] can be handy to simplify the execution of your command line application."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "As a native executable"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "You can also build a https://quarkus.io/guides/building-native-image[native executable] but keep in mind that native executables are not portable and that you need one binary per supported platform."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "Publishing the application"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid ""
+"Publishing your command line application to a repository makes it a lot easier to consume.\n"
+"Various application repositories are available depending on your requirements such as https://sdkman.io/[SDKMAN!], https://brew.sh/[Homebrew] for macOS, or https://chocolatey.org/[Chocolatey] for Windows."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "To publish to these repositories, we recommend the usage of https://jreleaser.org/[JReleaser]."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "JReleaser adds executable wrappers around your JAR for your application to be easily executable."
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "More information"
+msgstr ""
+
+#: _guides/picocli.adoc
+msgid "You can also consult the https://picocli.info/#_packaging_your_application[Picocli official documentation] for more general information about how to package Picocli applications."
 msgstr ""
 
 #. type: Title ==
