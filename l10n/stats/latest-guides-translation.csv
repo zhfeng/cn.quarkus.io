@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 627, 12193, 12826, 5%
-l10n/po/zh_CN/_guides/qute-reference.adoc.po, 766, 837, 11616, 12874, 10%
+l10n/po/zh_CN/_guides/qute-reference.adoc.po, 766, 839, 11616, 12947, 11%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 347, 9047, 10247, 12%
 l10n/po/zh_CN/_guides/rest.adoc.po, 461, 494, 7468, 8119, 9%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
@@ -11,11 +11,11 @@ l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 269, 329, 5194, 6328, 18%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5210, 4%
 l10n/po/zh_CN/_guides/rest-client.adoc.po, 268, 301, 4890, 5471, 11%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
-l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 259, 287, 4559, 4722, 4%
+l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 217, 293, 4075, 5753, 30%
 l10n/po/zh_CN/_guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
 l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication.adoc.po, 171, 196, 3938, 4305, 9%
-l10n/po/zh_CN/_guides/hibernate-search-standalone-elasticsearch.adoc.po, 231, 249, 3920, 4023, 3%
+l10n/po/zh_CN/_guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
 l10n/po/zh_CN/_guides/config-reference.adoc.po, 221, 231, 3894, 4113, 6%
 l10n/po/zh_CN/_guides/kafka.adoc.po, 154, 616, 3393, 12374, 73%
 l10n/po/zh_CN/_guides/gradle-tooling.adoc.po, 168, 201, 3367, 3587, 7%
