@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-08 08:38+0000\n"
+"POT-Creation-Date: 2024-12-22 08:35+0000\n"
 "PO-Revision-Date: 2022-05-16 12:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -75,7 +75,7 @@ msgstr "<a href=\"{{site.baseurl}}/standards\" class=\"{% if page.url contains '
 
 #. type: Content of: <div><div><div><nav><ul><li><ul><li>
 #: upstream/_includes/header-navigation.html:21
-msgid "<a href=\"{{site.baseurl}}/continuum\" class=\"{% if page.url contains '/continuum/' %}active{% endif %}\">VERSATILITY</a>"
+msgid "<a href=\"{{site.baseurl}}/versatility\" class=\"{% if page.url contains '/versatility/' %}active{% endif %}\">VERSATILITY</a>"
 msgstr ""
 
 #. type: Content of: <div><div><div><nav><ul><li><ul><li>
