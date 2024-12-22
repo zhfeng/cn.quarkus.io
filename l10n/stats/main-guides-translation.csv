@@ -4,17 +4,17 @@ l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 768, 843, 11643, 130
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 347, 9047, 10247, 12%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 463, 494, 7508, 8119, 8%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 307, 394, 7345, 9624, 24%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 307, 397, 7345, 9679, 25%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 348, 370, 6022, 6292, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 262, 280, 5284, 5595, 6%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 269, 330, 5210, 6362, 19%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5210, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
-l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 268, 311, 4890, 5683, 14%
+l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 264, 314, 4844, 5711, 16%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 221, 293, 4221, 5753, 27%
 l10n/po/zh_CN/_versions/main/guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 196, 4011, 4305, 7%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 217, 4011, 4665, 15%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
 l10n/po/zh_CN/_versions/main/guides/config-reference.adoc.po, 221, 231, 3894, 4113, 6%
 l10n/po/zh_CN/_versions/main/guides/kafka.adoc.po, 154, 616, 3393, 12374, 73%
@@ -28,7 +28,7 @@ l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 309
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 106, 112, 2985, 3095, 4%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 290, 348, 2958, 4103, 28%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 145, 188, 2914, 3878, 25%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 144, 190, 2893, 3945, 27%
 l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 210, 233, 2815, 3085, 9%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 149, 210, 2719, 3782, 29%
@@ -75,7 +75,6 @@ l10n/po/zh_CN/_versions/main/guides/smallrye-graphql-client.adoc.po, 45, 62, 136
 l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 61, 215, 1360, 4171, 68%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-google-cloud.adoc.po, 80, 89, 1356, 1478, 9%
 l10n/po/zh_CN/_versions/main/guides/openapi-swaggerui.adoc.po, 88, 107, 1353, 1501, 10%
-l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 42, 104, 1350, 2393, 44%
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 70, 74, 1343, 1436, 7%
 l10n/po/zh_CN/_versions/main/guides/platform.adoc.po, 51, 52, 1341, 1342, 1%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
@@ -84,8 +83,9 @@ l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-migration.adoc.po, 94, 97, 1301, 1304, 1%
+l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 40, 107, 1287, 2429, 48%
 l10n/po/zh_CN/_versions/main/guides/rest-migration.adoc.po, 95, 97, 1286, 1314, 3%
-l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 67, 137, 1283, 2978, 57%
+l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 65, 139, 1281, 3007, 58%
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 74, 81, 1253, 1418, 12%
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 78, 107, 1245, 1612, 23%
@@ -142,7 +142,7 @@ l10n/po/zh_CN/_versions/main/guides/kubernetes-config.adoc.po, 39, 43, 815, 830,
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication-tutorial.adoc.po, 59, 75, 787, 1110, 30%
 l10n/po/zh_CN/_versions/main/guides/capabilities.adoc.po, 41, 44, 769, 776, 1%
 l10n/po/zh_CN/_versions/main/guides/smallrye-metrics.adoc.po, 48, 55, 767, 776, 2%
-l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 30, 232, 766, 5061, 85%
+l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 30, 233, 766, 5124, 86%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-virtual-threads.adoc.po, 49, 55, 763, 784, 3%
 l10n/po/zh_CN/_versions/main/guides/rest-virtual-threads.adoc.po, 49, 55, 762, 783, 3%
 l10n/po/zh_CN/_versions/main/guides/security-csrf-prevention.adoc.po, 37, 48, 757, 845, 11%
@@ -275,6 +275,7 @@ l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-derby.adoc.po, 0, 1, 0, 
 l10n/po/zh_CN/_versions/main/guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 20, 0, 398, 100%
 l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
+l10n/po/zh_CN/_versions/main/guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-faq.adoc.po, 0, 37, 0, 754, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1400, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-writing-dev-service.adoc.po, 0, 23, 0, 409, 100%
