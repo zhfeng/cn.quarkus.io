@@ -4,7 +4,7 @@ l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 768, 843, 11643, 130
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 347, 9047, 10247, 12%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 463, 494, 7508, 8119, 8%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 306, 397, 7327, 9680, 25%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 306, 402, 7327, 9752, 25%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 348, 370, 6022, 6292, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 262, 280, 5284, 5595, 6%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 269, 330, 5210, 6362, 19%
@@ -14,7 +14,7 @@ l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 264, 314, 4844, 5711, 1
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 221, 293, 4221, 5753, 27%
 l10n/po/zh_CN/_versions/main/guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 217, 4011, 4667, 15%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 222, 4011, 4739, 16%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
 l10n/po/zh_CN/_versions/main/guides/config-reference.adoc.po, 221, 231, 3894, 4113, 6%
 l10n/po/zh_CN/_versions/main/guides/kafka.adoc.po, 154, 616, 3393, 12374, 73%
@@ -32,10 +32,10 @@ l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.ado
 l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 210, 233, 2815, 3085, 9%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 149, 210, 2719, 3782, 29%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 153, 177, 2690, 3152, 15%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 153, 183, 2690, 3197, 16%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql.adoc.po, 163, 177, 2351, 2429, 4%
-l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 154, 2333, 2846, 19%
+l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 153, 214, 2328, 3314, 30%
 l10n/po/zh_CN/_versions/main/guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 252, 317, 2263, 3306, 32%
@@ -283,7 +283,7 @@ l10n/po/zh_CN/_versions/main/guides/grpc-cli.adoc.po, 0, 9, 0, 40, 100%
 l10n/po/zh_CN/_versions/main/guides/jfr.adoc.po, 0, 90, 0, 1618, 100%
 l10n/po/zh_CN/_versions/main/guides/load-shedding-reference.adoc.po, 0, 53, 0, 896, 100%
 l10n/po/zh_CN/_versions/main/guides/messaging.adoc.po, 0, 162, 0, 2801, 100%
-l10n/po/zh_CN/_versions/main/guides/mongodb-dev-services.adoc.po, 0, 9, 0, 258, 100%
+l10n/po/zh_CN/_versions/main/guides/mongodb-dev-services.adoc.po, 0, 9, 0, 262, 100%
 l10n/po/zh_CN/_versions/main/guides/mongodb-panache-kotlin.adoc.po, 0, 24, 0, 607, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-logging.adoc.po, 0, 42, 0, 511, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 120, 0, 1485, 100%
