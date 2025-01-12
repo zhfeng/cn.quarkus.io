@@ -1,12 +1,12 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
 l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 768, 843, 11643, 13020, 11%
-l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 347, 9047, 10247, 12%
+l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 463, 494, 7508, 8119, 8%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 306, 402, 7327, 9752, 25%
-l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 348, 370, 6022, 6292, 5%
-l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 262, 280, 5284, 5595, 6%
+l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
+l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 262, 280, 5284, 5596, 6%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 269, 330, 5210, 6362, 19%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5213, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
@@ -25,7 +25,7 @@ l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 209, 230, 3289, 373
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 196, 206, 3201, 3260, 2%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 106, 112, 2985, 3095, 4%
-l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 290, 348, 2958, 4103, 28%
+l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 290, 353, 2958, 4233, 31%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 273, 2941, 3288, 11%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 144, 190, 2893, 3945, 27%
@@ -78,7 +78,7 @@ l10n/po/zh_CN/_versions/main/guides/openapi-swaggerui.adoc.po, 88, 107, 1353, 15
 l10n/po/zh_CN/_versions/main/guides/platform.adoc.po, 51, 52, 1341, 1342, 1%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 69, 74, 1333, 1437, 8%
-l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 271, 1316, 5253, 75%
+l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 278, 1316, 5344, 76%
 l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1314, 1346, 3%
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
@@ -97,11 +97,11 @@ l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 87
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 64, 77, 1125, 1327, 16%
 l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 69, 78, 1124, 1210, 8%
-l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 50, 57, 1092, 1154, 6%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_versions/main/guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_versions/main/guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
+l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 47, 56, 1057, 1149, 9%
 l10n/po/zh_CN/_versions/main/guides/extension-metadata.adoc.po, 51, 74, 1037, 1473, 30%
 l10n/po/zh_CN/_versions/main/guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_versions/main/guides/lifecycle.adoc.po, 54, 68, 1033, 1121, 8%
@@ -116,7 +116,6 @@ l10n/po/zh_CN/_versions/main/guides/command-mode-reference.adoc.po, 51, 64, 996,
 l10n/po/zh_CN/_versions/main/guides/dev-services.adoc.po, 50, 56, 995, 1110, 11%
 l10n/po/zh_CN/_versions/main/guides/security-keycloak-authorization.adoc.po, 65, 189, 989, 2542, 62%
 l10n/po/zh_CN/_versions/main/guides/stork.adoc.po, 58, 68, 965, 995, 4%
-l10n/po/zh_CN/_versions/main/guides/deploying-to-heroku.adoc.po, 59, 63, 959, 967, 1%
 l10n/po/zh_CN/_versions/main/guides/spring-data-rest.adoc.po, 87, 111, 955, 1143, 17%
 l10n/po/zh_CN/_versions/main/guides/lra.adoc.po, 18, 22, 946, 960, 2%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-consumer.adoc.po, 113, 119, 940, 963, 3%
@@ -135,6 +134,7 @@ l10n/po/zh_CN/_versions/main/guides/ansible.adoc.po, 29, 30, 881, 882, 1%
 l10n/po/zh_CN/_versions/main/guides/podman.adoc.po, 24, 25, 871, 881, 2%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-tutorial.adoc.po, 55, 65, 839, 941, 11%
 l10n/po/zh_CN/_versions/main/guides/config-mappings.adoc.po, 59, 62, 837, 864, 4%
+l10n/po/zh_CN/_versions/main/guides/deploying-to-heroku.adoc.po, 51, 71, 834, 1092, 24%
 l10n/po/zh_CN/_versions/main/guides/grpc-getting-started.adoc.po, 49, 56, 822, 872, 6%
 l10n/po/zh_CN/_versions/main/guides/spring-web.adoc.po, 86, 115, 817, 1000, 19%
 l10n/po/zh_CN/_versions/main/guides/credentials-provider.adoc.po, 49, 50, 816, 818, 1%
@@ -164,7 +164,6 @@ l10n/po/zh_CN/_versions/main/guides/elasticsearch-dev-services.adoc.po, 37, 40, 
 l10n/po/zh_CN/_versions/main/guides/_includes/quarkus-blaze-persistence.adoc.po, 16, 18, 660, 662, 1%
 l10n/po/zh_CN/_versions/main/guides/azure-functions.adoc.po, 41, 43, 651, 653, 1%
 l10n/po/zh_CN/_versions/main/guides/reaugmentation.adoc.po, 19, 21, 639, 703, 10%
-l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 24, 112, 637, 1955, 68%
 l10n/po/zh_CN/_versions/main/guides/rabbitmq.adoc.po, 29, 78, 619, 1124, 45%
 l10n/po/zh_CN/_versions/main/guides/init-tasks.adoc.po, 32, 32, 611, 611, 0%
 l10n/po/zh_CN/_versions/main/guides/jms.adoc.po, 36, 53, 609, 725, 16%
@@ -172,6 +171,7 @@ l10n/po/zh_CN/_versions/main/guides/security-overview.adoc.po, 40, 48, 609, 722,
 l10n/po/zh_CN/_versions/main/guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_versions/main/guides/security-jdbc.adoc.po, 31, 48, 605, 744, 19%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-client.adoc.po, 141, 147, 598, 604, 1%
+l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 23, 112, 596, 1956, 70%
 l10n/po/zh_CN/_versions/main/guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 80%
 l10n/po/zh_CN/_versions/main/guides/security-proactive-authentication.adoc.po, 19, 21, 578, 581, 1%
 l10n/po/zh_CN/_versions/main/guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%

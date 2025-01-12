@@ -6,7 +6,7 @@ l10n/po/zh_CN/_guides/rest.adoc.po, 461, 494, 7468, 8119, 9%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 300, 385, 7135, 9532, 26%
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 347, 370, 6017, 6292, 5%
-l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 262, 274, 5284, 5499, 4%
+l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 262, 274, 5284, 5500, 4%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 269, 329, 5194, 6328, 18%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5210, 4%
 l10n/po/zh_CN/_guides/rest-client.adoc.po, 268, 305, 4890, 5527, 12%
@@ -26,8 +26,8 @@ l10n/po/zh_CN/_guides/infinispan-client-reference.adoc.po, 195, 206, 3158, 3260,
 l10n/po/zh_CN/_guides/datasource.adoc.po, 291, 348, 3009, 4116, 27%
 l10n/po/zh_CN/_guides/virtual-threads.adoc.po, 141, 143, 2987, 2991, 1%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 106, 112, 2985, 3095, 4%
-l10n/po/zh_CN/_guides/http-reference.adoc.po, 249, 273, 2964, 3288, 10%
 l10n/po/zh_CN/_guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
+l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 273, 2911, 3288, 12%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 144, 188, 2898, 3878, 26%
 l10n/po/zh_CN/_guides/dev-ui.adoc.po, 207, 233, 2766, 3085, 11%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 154, 175, 2749, 3165, 14%
@@ -35,7 +35,7 @@ l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 2
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 166, 189, 2538, 3159, 20%
 l10n/po/zh_CN/_guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_guides/smallrye-graphql.adoc.po, 163, 177, 2351, 2429, 4%
-l10n/po/zh_CN/_guides/resteasy.adoc.po, 108, 154, 2333, 2846, 19%
+l10n/po/zh_CN/_guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_guides/security-authentication-mechanisms.adoc.po, 153, 214, 2328, 3314, 30%
 l10n/po/zh_CN/_guides/logging.adoc.po, 253, 311, 2291, 3222, 29%
 l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
@@ -100,7 +100,7 @@ l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 50, 57, 1092, 1154, 6%
 l10n/po/zh_CN/_guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
-l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 48, 200, 1081, 3907, 73%
+l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 48, 200, 1081, 3905, 73%
 l10n/po/zh_CN/_guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
 l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 65, 78, 1047, 1210, 14%
@@ -143,7 +143,7 @@ l10n/po/zh_CN/_guides/spring-di.adoc.po, 58, 83, 781, 1094, 29%
 l10n/po/zh_CN/_guides/conditional-extension-dependencies.adoc.po, 31, 32, 776, 779, 1%
 l10n/po/zh_CN/_guides/capabilities.adoc.po, 41, 44, 769, 776, 1%
 l10n/po/zh_CN/_guides/smallrye-metrics.adoc.po, 48, 55, 767, 776, 2%
-l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 30, 232, 766, 5085, 85%
+l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 30, 232, 766, 5093, 85%
 l10n/po/zh_CN/_guides/resteasy-reactive-virtual-threads.adoc.po, 49, 55, 763, 784, 3%
 l10n/po/zh_CN/_guides/rest-virtual-threads.adoc.po, 49, 55, 762, 783, 3%
 l10n/po/zh_CN/_guides/security-csrf-prevention.adoc.po, 37, 48, 757, 845, 11%
@@ -165,12 +165,12 @@ l10n/po/zh_CN/_guides/security-jpa.adoc.po, 34, 37, 676, 713, 6%
 l10n/po/zh_CN/_guides/elasticsearch-dev-services.adoc.po, 37, 40, 671, 723, 8%
 l10n/po/zh_CN/_guides/azure-functions.adoc.po, 41, 43, 651, 653, 1%
 l10n/po/zh_CN/_guides/_includes/quarkus-blaze-persistence.adoc.po, 14, 16, 637, 639, 1%
-l10n/po/zh_CN/_guides/mongodb.adoc.po, 24, 112, 637, 1955, 68%
 l10n/po/zh_CN/_guides/rabbitmq.adoc.po, 29, 78, 619, 1124, 45%
 l10n/po/zh_CN/_guides/init-tasks.adoc.po, 32, 32, 611, 611, 0%
 l10n/po/zh_CN/_guides/jms.adoc.po, 36, 53, 609, 725, 16%
 l10n/po/zh_CN/_guides/security-overview.adoc.po, 40, 48, 609, 722, 16%
 l10n/po/zh_CN/_guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
+l10n/po/zh_CN/_guides/mongodb.adoc.po, 23, 112, 596, 1956, 70%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-client.adoc.po, 140, 146, 595, 601, 1%
 l10n/po/zh_CN/_guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 80%
 l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 19, 21, 578, 581, 1%
