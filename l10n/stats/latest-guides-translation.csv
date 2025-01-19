@@ -1,11 +1,11 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 627, 12193, 12826, 5%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 766, 839, 11616, 12947, 11%
-l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 347, 9047, 10247, 12%
+l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_guides/rest.adoc.po, 461, 494, 7468, 8119, 9%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 300, 385, 7135, 9532, 26%
-l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 347, 370, 6017, 6292, 5%
+l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 346, 370, 6008, 6293, 5%
 l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 262, 274, 5284, 5500, 4%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 269, 329, 5194, 6328, 18%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5210, 4%
@@ -31,7 +31,7 @@ l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 273, 2911, 3288, 12%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 144, 188, 2898, 3878, 26%
 l10n/po/zh_CN/_guides/dev-ui.adoc.po, 207, 233, 2766, 3085, 11%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 154, 175, 2749, 3165, 14%
-l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 210, 2719, 3782, 29%
+l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 213, 2719, 3837, 30%
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 166, 189, 2538, 3159, 20%
 l10n/po/zh_CN/_guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_guides/smallrye-graphql.adoc.po, 163, 177, 2351, 2429, 4%
@@ -179,7 +179,7 @@ l10n/po/zh_CN/_guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
 l10n/po/zh_CN/_guides/kotlin.adoc.po, 23, 93, 546, 1479, 64%
 l10n/po/zh_CN/_guides/spring-cache.adoc.po, 32, 48, 544, 646, 16%
-l10n/po/zh_CN/_guides/security-ldap.adoc.po, 29, 43, 538, 619, 14%
+l10n/po/zh_CN/_guides/security-ldap.adoc.po, 29, 46, 538, 700, 24%
 l10n/po/zh_CN/_guides/config-secrets.adoc.po, 30, 32, 537, 560, 5%
 l10n/po/zh_CN/_guides/config-yaml.adoc.po, 30, 36, 528, 546, 4%
 l10n/po/zh_CN/_guides/build-analytics.adoc.po, 45, 48, 526, 529, 1%
