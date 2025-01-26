@@ -90,13 +90,6 @@ msgid "Building a container"
 msgstr ""
 
 #: _versions/3.15/guides/dev-mode-differences.adoc
-msgid ""
-"A new Dev UI has been implemented in Quarkus 3.x.\n"
-"Not all the features are available yet.\n"
-"You can still access the previous version of the Dev UI using: http://localhost:8080/q/dev-ui/."
-msgstr ""
-
-#: _versions/3.15/guides/dev-mode-differences.adoc
 msgid "Error pages"
 msgstr ""
 
