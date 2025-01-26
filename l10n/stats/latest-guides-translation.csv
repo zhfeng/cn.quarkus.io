@@ -31,7 +31,7 @@ l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 273, 2911, 3288, 12%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 144, 188, 2898, 3878, 26%
 l10n/po/zh_CN/_guides/dev-ui.adoc.po, 207, 233, 2766, 3085, 11%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 154, 175, 2749, 3165, 14%
-l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 213, 2719, 3837, 30%
+l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 215, 2719, 3951, 32%
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 166, 189, 2538, 3159, 20%
 l10n/po/zh_CN/_guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_guides/smallrye-graphql.adoc.po, 163, 177, 2351, 2429, 4%
@@ -67,7 +67,7 @@ l10n/po/zh_CN/_guides/smallrye-fault-tolerance.adoc.po, 71, 97, 1557, 2071, 25%
 l10n/po/zh_CN/_guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
 l10n/po/zh_CN/_guides/websockets-next-reference.adoc.po, 85, 256, 1517, 4853, 69%
 l10n/po/zh_CN/_guides/grpc-service-implementation.adoc.po, 107, 108, 1512, 1514, 1%
-l10n/po/zh_CN/_guides/security-customization.adoc.po, 75, 79, 1494, 1580, 6%
+l10n/po/zh_CN/_guides/security-customization.adoc.po, 75, 80, 1494, 1596, 7%
 l10n/po/zh_CN/_guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
 l10n/po/zh_CN/_guides/vertx-reference.adoc.po, 108, 258, 1429, 3434, 59%
 l10n/po/zh_CN/_guides/container-image.adoc.po, 72, 87, 1419, 1691, 17%
@@ -89,12 +89,12 @@ l10n/po/zh_CN/_guides/rest-migration.adoc.po, 95, 97, 1286, 1314, 3%
 l10n/po/zh_CN/_guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_guides/resteasy-reactive-migration.adoc.po, 92, 95, 1275, 1278, 1%
 l10n/po/zh_CN/_guides/databases-dev-services.adoc.po, 74, 81, 1253, 1418, 12%
-l10n/po/zh_CN/_guides/security-getting-started-tutorial.adoc.po, 78, 107, 1245, 1612, 23%
 l10n/po/zh_CN/_guides/stork-kubernetes.adoc.po, 67, 76, 1241, 1320, 6%
 l10n/po/zh_CN/_guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_guides/funqy-gcp-functions.adoc.po, 68, 77, 1227, 1299, 6%
 l10n/po/zh_CN/_guides/native-and-ssl.adoc.po, 86, 95, 1222, 1317, 8%
 l10n/po/zh_CN/_guides/getting-started-dev-services.adoc.po, 77, 87, 1188, 1333, 11%
+l10n/po/zh_CN/_guides/security-getting-started-tutorial.adoc.po, 75, 107, 1176, 1596, 27%
 l10n/po/zh_CN/_guides/management-interface-reference.adoc.po, 66, 68, 1151, 1172, 2%
 l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 50, 57, 1092, 1154, 6%
@@ -173,7 +173,6 @@ l10n/po/zh_CN/_guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_guides/mongodb.adoc.po, 23, 112, 596, 1956, 70%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-client.adoc.po, 140, 146, 595, 601, 1%
 l10n/po/zh_CN/_guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 80%
-l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 19, 21, 578, 581, 1%
 l10n/po/zh_CN/_guides/security-jdbc.adoc.po, 30, 48, 552, 744, 26%
 l10n/po/zh_CN/_guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
@@ -197,6 +196,7 @@ l10n/po/zh_CN/_guides/grpc-reference.adoc.po, 33, 43, 464, 627, 26%
 l10n/po/zh_CN/_guides/vertx.adoc.po, 27, 102, 438, 1550, 72%
 l10n/po/zh_CN/_guides/hibernate-orm-panache-kotlin.adoc.po, 11, 30, 431, 708, 40%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-producer.adoc.po, 77, 82, 429, 434, 2%
+l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 17, 24, 426, 725, 42%
 l10n/po/zh_CN/_guides/cache-redis-reference.adoc.po, 26, 29, 392, 418, 7%
 l10n/po/zh_CN/_guides/websockets.adoc.po, 26, 41, 391, 491, 21%
 l10n/po/zh_CN/_guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
