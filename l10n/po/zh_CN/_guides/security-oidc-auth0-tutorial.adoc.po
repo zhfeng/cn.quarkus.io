@@ -1002,7 +1002,7 @@ msgid "Press `r` and notice this test failing with `403` which is expected becau
 msgstr "按 `r` 并注意到该测试以 `403` 失败，这在意料之中，因为测试没有向端点发送令牌："
 
 #: _guides/security-oidc-auth0-tutorial.adoc
-msgid "Before fixing the test, let's review the options available for testing Quarkus endpoints secured by OIDC. These options might vary, depending on which flow your application supports and how you prefer to test. Endpoints which use OIDC authorization code flow can be tested using xref:security-oidc-code-flow-authentication#code-flow-integration-testing[one of these options] and endpoints which use Bearer token authentication can be tested using xref:security-oidc-bearer-token-authentication#bearer-token-integration-testing[one of these options]."
+msgid "Before fixing the test, let's review the options available for testing Quarkus endpoints secured by OIDC. These options might vary, depending on which flow your application supports and how you prefer to test. Endpoints which use OIDC authorization code flow can be tested using xref:security-oidc-code-flow-authentication.adoc#code-flow-integration-testing[one of these options] and endpoints which use Bearer token authentication can be tested using xref:security-oidc-bearer-token-authentication.adoc#bearer-token-integration-testing[one of these options]."
 msgstr ""
 
 #. type: Plain text
@@ -1041,7 +1041,7 @@ msgid "It is important to clarify that we do not recommend using the deprecated 
 msgstr "需要说明的是，我们不建议在生产中使用过时的 OAuth2 `password` 令牌授权。不过，使用它有助于使用从实时开发 Auth0 租户获取的令牌测试端点。"
 
 #: _guides/security-oidc-auth0-tutorial.adoc
-msgid "`OidcTestClient` should be used to test applications accepting bearer tokens which will work for the endpoint developed in this tutorial as it supports both authorization code flow and bearer token authentication. You would need to use OIDC WireMock or `HtmlUnit` directly against the Auth0 dev tenant if only the authorization code flow was supported - in the latter case `HtmlUnit` test code would have to be aligned with how Auth0 challenges users to enter their credentials. If you like, you can copy the xref:security-oidc-code-flow-authentication#code-flow-integration-testing-wiremock[HtmlUnit test fragment] from the documentation and experiment with it."
+msgid "`OidcTestClient` should be used to test applications accepting bearer tokens which will work for the endpoint developed in this tutorial as it supports both authorization code flow and bearer token authentication. You would need to use OIDC WireMock or `HtmlUnit` directly against the Auth0 dev tenant if only the authorization code flow was supported - in the latter case `HtmlUnit` test code would have to be aligned with how Auth0 challenges users to enter their credentials. If you like, you can copy the xref:security-oidc-code-flow-authentication.adoc#code-flow-integration-testing-wiremock[HtmlUnit test fragment] from the documentation and experiment with it."
 msgstr ""
 
 #. type: Plain text

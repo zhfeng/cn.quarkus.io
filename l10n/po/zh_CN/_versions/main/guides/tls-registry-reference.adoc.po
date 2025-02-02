@@ -64,9 +64,9 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The default TLS configuration is not a fallback/global configuration. This means that each named TLS configuration\n"
-"(or \"TLS bucket\") needs to provide its own properties. For instance, `quarkus.tls.reload-period` will only be applied\n"
-"to the default TLS configuration."
+"The default TLS configuration is not a fallback or global configuration.\n"
+"Each named TLS configuration, or \"TLS bucket,\" must provide its own properties.\n"
+"For instance, `quarkus.tls.reload-period` will only be applied to the default TLS configuration."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -78,11 +78,11 @@ msgid "To ensure secure client-server communication, the client is often require
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The server must use a keystore that contains its certificate and private key"
+msgid "The server must use a keystore that contains its certificate and private key."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The client needs to be configured with a truststore to validate the server's certificate"
+msgid "The client needs to be configured with a truststore to validate the server's certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -158,9 +158,7 @@ msgid "Referencing a TLS configuration"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"To reference an example  _named_ configuration that you created by using the `quarkus.tls.<name>.*` properties as explained in <<using-the-tls-registry>>\n"
-", use the `tls-configuration-name` property as shown in the following examples:"
+msgid "To reference an example _named_ configuration that you created by using the `quarkus.tls.<name>.*` properties as explained in <<using-the-tls-registry>>, use the `tls-configuration-name` property as shown in the following examples:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -177,14 +175,10 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"When using the Typesafe GraphQL client with a certificate\n"
-"reloading mechanism (see <<reloading-certificates>>), it is essential to\n"
-"override the bean's scope to `RequestScoped` (or another similar scope\n"
-"shorter than application). This is because by default, the Typesafe client is an\n"
-"application-scoped bean, so shortening the scope guarantees that new instances of the bean\n"
-"created after a certificate reload will be configured with the latest\n"
-"certificate. Dynamic clients are `@Dependent` scoped, so you should\n"
-"inject them into components with an appropriate scope."
+"When using the Typesafe GraphQL client with a certificate reloading mechanism, as described in the <<reloading-certificates>> section, it is essential to override the bean's scope to `RequestScoped` or another similar scope shorter than the application.\n"
+"This is because, by default, the Typesafe client is an application-scoped bean.\n"
+"Shortening the scope guarantees that new instances of the bean created after a certificate reload will be configured with the latest certificate.\n"
+"Dynamic clients are `@Dependent` scoped; inject them into components with an appropriate scope."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -194,46 +188,40 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "JDK distributions typically contain a truststore in the `$JAVA_HOME/lib/security/cacerts` file.\n"
-"It is used as a default truststore by SunJSSE, the default implementation of Java Secure Socket Extension (JSSE).\n"
-"SSL/TLS capabilities provided by SunJSSE are leveraged by various Java Runtime components,\n"
-"such as `javax.net.ssl.HttpsURLConnection` and others."
+"This truststore is used as a default truststore by SunJSSE, the default implementation of the Java Secure Socket Extension (JSSE).\n"
+"SSL/TLS capabilities provided by SunJSSE are leveraged by various Java Runtime components, such as `javax.net.ssl.HttpsURLConnection` and others."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Although Quarkus extensions typically do not honor the default truststore of SunJSSE,\n"
-"it might still be practical to use it in some situations - be it migration from legacy technologies\n"
-"or when running on a Linux distribution where the SunJSSE truststore is synchronized with the operating system truststore."
+"Although Quarkus extensions typically do not honor the default truststore of SunJSSE, it is still practical to use it in some situations.\n"
+"This applies when migrating from legacy technologies or running on a Linux distribution where the SunJSSE truststore is synchronized with the operating system (OS)."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"To make the use of SunJSSE truststore easier, Quarkus TLS Registry provides a TLS configuration\n"
-"under the name `javax.net.ssl` that mimics the default behavior of SunJSSE:"
+msgid "To simplify the use of the SunJSSE truststore, Quarkus TLS Registry provides a TLS configuration under the name `javax.net.ssl` that mimics the default behavior of SunJSSE:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "If the `javax.net.ssl.trustStore` system property is defined, then its value is honored as a truststore"
+msgid "If the `javax.net.ssl.trustStore` system property is defined, its value is honored as a truststore."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid ""
-"Otherwise, the paths `$JAVA_HOME/lib/security/jssecacerts` and `$JAVA_HOME/lib/security/cacerts` are checked\n"
-"and the first existing file is used as a truststore"
+msgid "Otherwise, the paths `$JAVA_HOME/lib/security/jssecacerts` and `$JAVA_HOME/lib/security/cacerts` are checked, and the first existing file is used as a truststore."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Otherwise an `IllegalStateException` is thrown."
+msgid "If neither condition is met, an `IllegalStateException` is thrown."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The password for opening the truststore is taken from the `javax.net.ssl.trustStorePassword` system property.\n"
-"If it is not set, the default password `changeit` is used."
+"If this property is not set, the default password `changeit` is used."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "`javax.net.ssl` can be used as a value for various `*.tls-configuration-name` properties, for example:"
+msgid "The `javax.net.ssl` configuration can be used as a value for various `*.tls-configuration-name` properties, as shown below:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -260,7 +248,7 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Key stores are used to store private keys and the certificates.\n"
+"Key stores store private keys and certificates.\n"
 "They are mainly used on the server side but can also be used on the client side when mTLS is used."
 msgstr ""
 
@@ -273,11 +261,11 @@ msgid "Privacy Enhanced Mail (PEM) keystores are composed of a list of file pair
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "*The certificate file* - a `.crt` or `.pem` file"
+msgid "*The certificate file* - a `.crt` or `.pem` file."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "*The private key file* - often a `.key` file"
+msgid "*The private key file* - often a `.key` file."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -326,7 +314,7 @@ msgid "Encrypted PKCS#8 private key (encrypted with AES-128-CBC)"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "In the later case, the `quarkus.tls.key-store.pem.password` (or `quarkus.tls.key-store.pem.<name>.password`) property must be set to the password used to decrypt the private key:"
+msgid "In the later case, the `quarkus.tls.key-store.pem.password` or `quarkus.tls.key-store.pem.<name>.password` property must be set to the password used to decrypt the private key."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -558,7 +546,7 @@ msgstr ""
 msgid ""
 "The TLS protocol versions are the list of protocols that can be used during the TLS handshake.\n"
 "Enabled TLS protocol versions are specified as an ordered list separated by commas.\n"
-"The relevant configuration property is `quarkus.tls.protocols` (or `quarkus.tls.<name>.protocols` for named TLS configurations).\n"
+"The relevant configuration property is `quarkus.tls.protocols` or `quarkus.tls.<name>.protocols` for named TLS configurations.\n"
 "It defaults to `TLSv1.3, TLSv1.2` if not configured."
 msgstr ""
 
@@ -772,13 +760,13 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The `TlsConfiguration` obtained from the `TLSConfigurationRegistry` includes a mechanism for reloading certificates.\n"
-"The `reload` method refreshes the keystores, truststores and CRLs, typically by reloading them from the file system."
+"The `reload` method refreshes the keystores, truststores, and CRLs, typically by reloading them from the file system."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "The reload operation is not automatic and must be triggered manually.\n"
-"Additionally, the `TlsConfiguration` implementation must support reloading (which is the case for the configured certificate)."
+"Additionally, the `TlsConfiguration` implementation must support reloading, as is the case for the configured certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -793,8 +781,7 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The recommended approach for informing clients and servers about the certificate reload is to fire a CDI event of\n"
-"type `io.quarkus.tls.CertificateUpdatedEvent`.\n"
+"The recommended approach for informing clients and servers about the certificate reload is to fire a CDI event of type `io.quarkus.tls.CertificateUpdatedEvent`.\n"
 "To do so, inject a CDI event of this type and fire it when a reload occurs."
 msgstr ""
 
@@ -849,9 +836,8 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"Impacted server and client may need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
-"This is automatically done for the Quarkus HTTP server (i.e. Quarkus REST server, gRPC server, Web Socket server) and\n"
-"the management interface if it is enabled."
+"Impacted servers and clients may need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
+"This is automatically done for the Quarkus HTTP server, such as the Quarkus REST server, gRPC server, and WebSocket server, as well as the management interface if it is enabled."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1135,8 +1121,8 @@ msgstr ""
 msgid ""
 "**Self-signed certificate**: The certificate is signed by the same entity that uses it.\n"
 "It is not trusted by default.\n"
-"This type of certificate is typically used when a Certificate Authority (CA) is unavailable or you want a simple setup.\n"
-"It is not suitable for production and should only be used for development."
+"This type of certificate is typically used when a Certificate Authority (CA) is unavailable or when a simple setup is needed.\n"
+"It is not suitable for production and is intended only for development."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1148,17 +1134,14 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "While you can use a self-signed certificate for local development, it has limitations.\n"
-"Browsers and tools like `curl`, `wget`, and `httpie` typically do not trust self-signed certificates, requiring manual import of the CA in your OS."
+"Browsers and tools like `curl`, `wget`, and `httpie` typically do not trust self-signed certificates, requiring manual import of the CA in your operating system."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"To avoid this issue, you can use a development CA to sign certificates and install the CA in the system truststore.\n"
-"This ensures that the system trusts all certificates signed by the CA."
-msgstr ""
-
-#: _versions/main/guides/tls-registry-reference.adoc
-msgid "Quarkus simplifies the generation of a development CA and the certificates that are signed by this CA."
+"To avoid this issue, use a development CA to sign certificates and install the CA in the system truststore.\n"
+"This ensures that the system trusts all certificates signed by the CA.\n"
+"Quarkus simplifies the generation of a development CA and the certificates that are signed by this CA."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1356,7 +1339,7 @@ msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
-"The Let's Encrypt ACME challenge requires that the application is reachable on port `80` (basically: `http://your-dns-name`).\n"
+"The Let's Encrypt ACME challenge requires that the application is reachable on port `80`, essentially `http://your-dns-name`.\n"
 "Ensure the port `80` is accessible from the Internet.\n"
 "It might require an explicit security policy depending on your hosting provider."
 msgstr ""
@@ -1368,7 +1351,7 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "The challenge is served from the primary HTTP interface (accessible from your DNS domain name)."
+msgid "The challenge is served from the primary HTTP interface, which is accessible from your DNS domain name."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
@@ -1396,15 +1379,15 @@ msgid "The `prepare` command does the following:"
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Creates a `.letsencrypt` folder in your application's root directory"
+msgid "Creates a `.letsencrypt` folder in your application's root directory."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Creates a self-signed domain certificate and private key for your application configured in the previous <<lets-encrypt-prerequisites,Let's Encrypt prerequisites>> step to be able to start and accept HTTPS requests"
+msgid "Creates a self-signed domain certificate and private key for your application configured in the previous <<lets-encrypt-prerequisites,Let's Encrypt prerequisites>> step to start and accept HTTPS requests."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
-msgid "Creates a `.env` configuration file in your application's root directory and configures the application to use the self-signed domain certificate and private key (until we get the Let's Encrypt certificate)"
+msgid "Creates a `.env` configuration file in the root directory of your application and configures it to use the self-signed domain certificate and private key until you obtain the Let's Encrypt certificate."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc
