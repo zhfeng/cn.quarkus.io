@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
-l10n/po/zh_CN/_guides/qute-reference.adoc.po, 765, 847, 11598, 13103, 12%
+l10n/po/zh_CN/_guides/qute-reference.adoc.po, 759, 847, 11307, 13103, 14%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_guides/rest.adoc.po, 461, 494, 7468, 8119, 9%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
@@ -66,10 +66,10 @@ l10n/po/zh_CN/_guides/grpc-service-implementation.adoc.po, 107, 108, 1512, 1514,
 l10n/po/zh_CN/_guides/security-customization.adoc.po, 75, 80, 1494, 1596, 7%
 l10n/po/zh_CN/_guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
 l10n/po/zh_CN/_guides/smallrye-fault-tolerance.adoc.po, 67, 119, 1436, 2182, 35%
-l10n/po/zh_CN/_guides/vertx-reference.adoc.po, 108, 258, 1429, 3434, 59%
 l10n/po/zh_CN/_guides/container-image.adoc.po, 72, 87, 1419, 1691, 17%
 l10n/po/zh_CN/_guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
 l10n/po/zh_CN/_guides/hibernate-reactive-panache.adoc.po, 48, 153, 1402, 3035, 54%
+l10n/po/zh_CN/_guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
 l10n/po/zh_CN/_guides/extension-registry-user.adoc.po, 65, 65, 1391, 1391, 0%
 l10n/po/zh_CN/_guides/building-native-image.adoc.po, 61, 215, 1360, 4171, 68%
 l10n/po/zh_CN/_guides/deploying-to-google-cloud.adoc.po, 80, 89, 1356, 1478, 9%
@@ -222,8 +222,8 @@ l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-outgoing.adoc.po, 23, 31, 230, 2
 l10n/po/zh_CN/_guides/grpc-xds.adoc.po, 18, 20, 201, 205, 2%
 l10n/po/zh_CN/_guides/README.adoc.po, 20, 21, 200, 201, 1%
 l10n/po/zh_CN/_guides/security-vulnerability-detection.adoc.po, 15, 19, 187, 261, 29%
-l10n/po/zh_CN/_guides/kafka-dev-services.adoc.po, 9, 32, 183, 591, 70%
 l10n/po/zh_CN/_guides/security-jwt-build.adoc.po, 19, 130, 178, 1846, 91%
+l10n/po/zh_CN/_guides/kafka-dev-services.adoc.po, 8, 32, 166, 592, 72%
 l10n/po/zh_CN/_guides/grpc.adoc.po, 17, 19, 164, 169, 3%
 l10n/po/zh_CN/_guides/security-identity-providers.adoc.po, 10, 13, 143, 193, 26%
 l10n/po/zh_CN/_guides/funqy-azure-functions-http.adoc.po, 4, 4, 135, 135, 0%
