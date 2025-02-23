@@ -1,8 +1,8 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
-l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 760, 849, 11292, 13163, 15%
+l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 759, 864, 11290, 13305, 16%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
-l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 463, 494, 7508, 8119, 8%
+l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 463, 500, 7508, 8209, 9%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 305, 410, 7306, 9971, 27%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
@@ -24,7 +24,7 @@ l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 165, 208, 3315, 3719
 l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 209, 230, 3289, 3732, 12%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 196, 207, 3201, 3262, 2%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
-l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 273, 2941, 3288, 11%
+l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 286, 352, 2819, 4180, 33%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 190, 2819, 3949, 29%
@@ -50,7 +50,7 @@ l10n/po/zh_CN/_versions/main/guides/jreleaser.adoc.po, 61, 63, 1985, 1989, 1%
 l10n/po/zh_CN/_versions/main/guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
 l10n/po/zh_CN/_versions/main/guides/software-transactional-memory.adoc.po, 40, 44, 1950, 1959, 1%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer.adoc.po, 171, 203, 1940, 2666, 28%
-l10n/po/zh_CN/_versions/main/guides/reactive-sql-clients.adoc.po, 170, 179, 1923, 1973, 3%
+l10n/po/zh_CN/_versions/main/guides/reactive-sql-clients.adoc.po, 163, 173, 1878, 1945, 4%
 l10n/po/zh_CN/_versions/main/guides/smallrye-fault-tolerance.adoc.po, 81, 120, 1876, 2240, 17%
 l10n/po/zh_CN/_versions/main/guides/extension-codestart.adoc.po, 132, 145, 1807, 1939, 7%
 l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 102, 119, 1788, 2018, 12%
@@ -169,7 +169,7 @@ l10n/po/zh_CN/_versions/main/guides/security-overview.adoc.po, 40, 48, 609, 722,
 l10n/po/zh_CN/_versions/main/guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_versions/main/guides/security-jdbc.adoc.po, 31, 48, 605, 744, 19%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-client.adoc.po, 141, 147, 598, 604, 1%
-l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 23, 112, 596, 1956, 70%
+l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 23, 115, 596, 1989, 71%
 l10n/po/zh_CN/_versions/main/guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 80%
 l10n/po/zh_CN/_versions/main/guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
@@ -187,11 +187,11 @@ l10n/po/zh_CN/_versions/main/guides/liquibase.adoc.po, 36, 44, 506, 566, 11%
 l10n/po/zh_CN/_versions/main/guides/rest-json.adoc.po, 21, 100, 504, 1667, 70%
 l10n/po/zh_CN/_versions/main/guides/picocli.adoc.po, 27, 60, 496, 994, 51%
 l10n/po/zh_CN/_versions/main/guides/security-testing.adoc.po, 28, 42, 487, 722, 33%
-l10n/po/zh_CN/_versions/main/guides/liquibase-mongodb.adoc.po, 29, 36, 483, 537, 11%
 l10n/po/zh_CN/_versions/main/guides/security-architecture.adoc.po, 31, 36, 475, 564, 16%
 l10n/po/zh_CN/_versions/main/guides/security-basic-authentication.adoc.po, 29, 32, 474, 477, 1%
 l10n/po/zh_CN/_versions/main/guides/grpc-reference.adoc.po, 33, 43, 464, 627, 26%
 l10n/po/zh_CN/_versions/main/guides/flyway.adoc.po, 23, 53, 455, 882, 49%
+l10n/po/zh_CN/_versions/main/guides/liquibase-mongodb.adoc.po, 28, 37, 439, 539, 19%
 l10n/po/zh_CN/_versions/main/guides/vertx.adoc.po, 27, 102, 438, 1550, 72%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-producer.adoc.po, 78, 83, 432, 437, 2%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm-panache-kotlin.adoc.po, 11, 30, 431, 708, 40%
@@ -232,7 +232,7 @@ l10n/po/zh_CN/_versions/main/guides/security-identity-providers.adoc.po, 10, 13,
 l10n/po/zh_CN/_versions/main/guides/funqy-azure-functions-http.adoc.po, 4, 4, 135, 135, 0%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry.adoc.po, 17, 127, 134, 1335, 90%
 l10n/po/zh_CN/_versions/main/guides/spring-scheduled.adoc.po, 3, 57, 132, 726, 82%
-l10n/po/zh_CN/_versions/main/guides/observability-devservices-lgtm.adoc.po, 11, 52, 127, 703, 82%
+l10n/po/zh_CN/_versions/main/guides/observability-devservices-lgtm.adoc.po, 11, 56, 127, 726, 83%
 l10n/po/zh_CN/_versions/main/guides/quarkus-maven-plugin.adoc.po, 6, 6, 116, 116, 0%
 l10n/po/zh_CN/_versions/main/guides/_includes/duration-format-note.adoc.po, 8, 8, 111, 111, 0%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-kafka-outgoing.adoc.po, 38, 90, 103, 995, 90%
@@ -295,4 +295,4 @@ l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-registration.
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 103, 0, 976, 100%
 l10n/po/zh_CN/_versions/main/guides/testing-components.adoc.po, 0, 57, 0, 1149, 100%
-l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 335, 0, 6035, 100%
+l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 341, 0, 6164, 100%
