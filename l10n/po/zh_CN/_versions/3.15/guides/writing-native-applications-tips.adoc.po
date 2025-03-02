@@ -183,7 +183,7 @@ msgid "This feature is handy when using third-party libraries using object mappi
 msgstr "在运用使用对象映射功能的第三方库（如Jackson或GSON）时，这个功能很方便："
 
 #: _versions/3.15/guides/writing-native-applications-tips.adoc
-msgid "Note: By default the `@RegisterForReflection` annotation will also registered any potential nested classes for reflection. If you want to avoid this behavior, you can set the `ignoreNested` attribute to `true`."
+msgid "Note: By default the `@RegisterForReflection` annotation will also register any potential nested classes for reflection. If you want to avoid this behavior, you can set the `ignoreNested` attribute to `true`."
 msgstr ""
 
 #: _versions/3.15/guides/writing-native-applications-tips.adoc

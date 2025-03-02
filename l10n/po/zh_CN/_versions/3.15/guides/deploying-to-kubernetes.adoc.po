@@ -197,7 +197,7 @@ msgid ""
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-kubernetes.adoc
-msgid "More specifically a `Secret`like the one bellow is genrated:"
+msgid "More specifically a `Secret` like the one below is generated:"
 msgstr ""
 
 #: _versions/3.15/guides/deploying-to-kubernetes.adoc

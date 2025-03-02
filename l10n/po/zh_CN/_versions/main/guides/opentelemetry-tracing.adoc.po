@@ -525,15 +525,19 @@ msgid "https://quarkus.io/guides/redis[`quarkus-redis-client`]"
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-tracing.adoc
-msgid "https://quarkus.io/extensions/io.quarkus/quarkus-rest-client-jaxrs[`quarkus-rest-client-jaxrs`]"
-msgstr ""
-
-#: _versions/main/guides/opentelemetry-tracing.adoc
 msgid "https://quarkus.io/guides/rest[`quarkus-rest`]"
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-tracing.adoc
-msgid "https://quarkus.io/guides/resteasy[`quarkus-resteasy-jackson`]"
+msgid "https://quarkus.io/guides/rest[`quarkus-rest-client`]"
+msgstr ""
+
+#: _versions/main/guides/opentelemetry-tracing.adoc
+msgid "https://quarkus.io/extensions/io.quarkus/quarkus-rest-client-jaxrs[`quarkus-rest-client-jaxrs`]"
+msgstr ""
+
+#: _versions/main/guides/opentelemetry-tracing.adoc
+msgid "https://quarkus.io/guides/resteasy[`quarkus-resteasy`]"
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-tracing.adoc
