@@ -10,7 +10,7 @@ l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 260, 283, 5240, 5715, 9%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 267, 330, 5132, 6363, 20%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5213, 4%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
-l10n/po/zh_CN/_guides/rest-client.adoc.po, 264, 315, 4844, 5749, 16%
+l10n/po/zh_CN/_guides/rest-client.adoc.po, 263, 315, 4838, 5749, 16%
 l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
 l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 216, 293, 4010, 5756, 31%
@@ -157,7 +157,7 @@ l10n/po/zh_CN/_guides/funqy.adoc.po, 21, 21, 710, 710, 0%
 l10n/po/zh_CN/_guides/aws-lambda-http.adoc.po, 30, 111, 697, 2251, 70%
 l10n/po/zh_CN/_guides/continuous-testing.adoc.po, 37, 43, 686, 721, 5%
 l10n/po/zh_CN/_guides/mailer.adoc.po, 51, 61, 681, 750, 10%
-l10n/po/zh_CN/_guides/security-jpa.adoc.po, 34, 37, 676, 713, 6%
+l10n/po/zh_CN/_guides/security-jpa.adoc.po, 34, 38, 676, 729, 8%
 l10n/po/zh_CN/_guides/elasticsearch-dev-services.adoc.po, 37, 40, 671, 723, 8%
 l10n/po/zh_CN/_guides/centralized-log-management.adoc.po, 40, 65, 657, 1073, 39%
 l10n/po/zh_CN/_guides/azure-functions.adoc.po, 41, 43, 651, 653, 1%
@@ -196,7 +196,6 @@ l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-producer.adoc.po, 77, 82, 429, 4
 l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 17, 24, 426, 725, 42%
 l10n/po/zh_CN/_guides/websockets.adoc.po, 26, 41, 391, 491, 21%
 l10n/po/zh_CN/_guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
-l10n/po/zh_CN/_guides/kubernetes-dev-services.adoc.po, 18, 19, 373, 375, 1%
 l10n/po/zh_CN/_guides/security-properties.adoc.po, 34, 42, 367, 560, 35%
 l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 53, 356, 882, 60%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-incoming.adoc.po, 42, 51, 355, 365, 3%
@@ -218,6 +217,7 @@ l10n/po/zh_CN/_guides/security-basic-authentication-howto.adoc.po, 21, 24, 277, 
 l10n/po/zh_CN/_guides/init-tasks.adoc.po, 20, 37, 275, 630, 57%
 l10n/po/zh_CN/_guides/rabbitmq-dev-services.adoc.po, 14, 34, 272, 570, 53%
 l10n/po/zh_CN/_guides/redis.adoc.po, 22, 78, 268, 849, 69%
+l10n/po/zh_CN/_guides/kubernetes-dev-services.adoc.po, 15, 26, 245, 495, 51%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-outgoing.adoc.po, 23, 31, 230, 239, 4%
 l10n/po/zh_CN/_guides/grpc-xds.adoc.po, 18, 20, 201, 205, 2%
 l10n/po/zh_CN/_guides/README.adoc.po, 20, 21, 200, 201, 1%

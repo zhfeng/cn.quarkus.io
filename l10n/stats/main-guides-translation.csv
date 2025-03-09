@@ -2,7 +2,7 @@ Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
 l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 752, 868, 11126, 13412, 18%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
-l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 463, 500, 7508, 8209, 9%
+l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 462, 500, 7504, 8208, 9%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 305, 410, 7306, 9971, 27%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
@@ -32,7 +32,7 @@ l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 210, 233, 2815, 3085, 9%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 100, 120, 2738, 3191, 15%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 149, 215, 2719, 3951, 32%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 153, 183, 2690, 3197, 16%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 153, 184, 2690, 3261, 18%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql.adoc.po, 163, 177, 2351, 2429, 4%
 l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
@@ -76,7 +76,7 @@ l10n/po/zh_CN/_versions/main/guides/platform.adoc.po, 51, 56, 1341, 1447, 8%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 69, 74, 1333, 1437, 8%
 l10n/po/zh_CN/_versions/main/guides/container-image.adoc.po, 69, 87, 1331, 1688, 22%
-l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 301, 1316, 5867, 78%
+l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 305, 1316, 5945, 78%
 l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1314, 1346, 3%
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
@@ -156,7 +156,7 @@ l10n/po/zh_CN/_versions/main/guides/reactive-event-bus.adoc.po, 43, 73, 711, 996
 l10n/po/zh_CN/_versions/main/guides/funqy.adoc.po, 21, 21, 710, 710, 0%
 l10n/po/zh_CN/_versions/main/guides/aws-lambda-http.adoc.po, 30, 111, 697, 2251, 70%
 l10n/po/zh_CN/_versions/main/guides/mailer.adoc.po, 51, 61, 681, 750, 10%
-l10n/po/zh_CN/_versions/main/guides/security-jpa.adoc.po, 34, 37, 676, 713, 6%
+l10n/po/zh_CN/_versions/main/guides/security-jpa.adoc.po, 34, 38, 676, 729, 8%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch-dev-services.adoc.po, 37, 40, 671, 723, 8%
 l10n/po/zh_CN/_versions/main/guides/_includes/quarkus-blaze-persistence.adoc.po, 16, 18, 660, 662, 1%
 l10n/po/zh_CN/_versions/main/guides/centralized-log-management.adoc.po, 40, 65, 657, 1073, 39%
