@@ -2,7 +2,7 @@ Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 756, 864, 11245, 13305, 16%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
-l10n/po/zh_CN/_guides/rest.adoc.po, 461, 494, 7468, 8119, 9%
+l10n/po/zh_CN/_guides/rest.adoc.po, 459, 494, 7425, 8119, 9%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 294, 410, 6940, 9971, 31%
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 346, 370, 6008, 6293, 5%
@@ -49,8 +49,8 @@ l10n/po/zh_CN/_guides/deploying-to-openshift.adoc.po, 136, 144, 1991, 2063, 4%
 l10n/po/zh_CN/_guides/jreleaser.adoc.po, 61, 63, 1985, 1989, 1%
 l10n/po/zh_CN/_guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
 l10n/po/zh_CN/_guides/software-transactional-memory.adoc.po, 40, 44, 1950, 1959, 1%
-l10n/po/zh_CN/_guides/telemetry-micrometer.adoc.po, 171, 203, 1940, 2666, 28%
 l10n/po/zh_CN/_guides/reactive-sql-clients.adoc.po, 170, 179, 1923, 1973, 3%
+l10n/po/zh_CN/_guides/telemetry-micrometer.adoc.po, 167, 203, 1827, 2666, 32%
 l10n/po/zh_CN/_guides/validation.adoc.po, 102, 119, 1788, 2018, 12%
 l10n/po/zh_CN/_guides/cli-tooling.adoc.po, 144, 173, 1774, 2178, 19%
 l10n/po/zh_CN/_guides/extension-codestart.adoc.po, 131, 145, 1754, 1939, 10%
