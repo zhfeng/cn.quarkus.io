@@ -297,11 +297,11 @@ msgid "PostgreSQL, MariaDB, MySQL, IBM Db2, H2"
 msgstr ""
 
 #: _versions/3.15/guides/databases-dev-services.adoc
-msgid "`quarkus` for the default datasource or name of the datasource"
+msgid "`quarkus`"
 msgstr ""
 
 #: _versions/3.15/guides/databases-dev-services.adoc
-msgid "`quarkus`"
+msgid "`quarkus` for the default datasource or name of the datasource"
 msgstr ""
 
 #: _versions/3.15/guides/databases-dev-services.adoc
