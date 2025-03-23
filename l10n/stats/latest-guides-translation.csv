@@ -2,7 +2,7 @@ Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 756, 864, 11245, 13305, 16%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
-l10n/po/zh_CN/_guides/rest.adoc.po, 459, 494, 7425, 8119, 9%
+l10n/po/zh_CN/_guides/rest.adoc.po, 459, 496, 7425, 8162, 10%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 294, 410, 6940, 9971, 31%
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 346, 370, 6008, 6293, 5%
@@ -45,7 +45,6 @@ l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 160, 2086,
 l10n/po/zh_CN/_guides/rabbitmq-reference.adoc.po, 199, 253, 2065, 2494, 18%
 l10n/po/zh_CN/_guides/scheduler-reference.adoc.po, 111, 134, 2061, 2568, 20%
 l10n/po/zh_CN/_guides/cdi.adoc.po, 120, 131, 1992, 2338, 15%
-l10n/po/zh_CN/_guides/deploying-to-openshift.adoc.po, 136, 144, 1991, 2063, 4%
 l10n/po/zh_CN/_guides/jreleaser.adoc.po, 61, 63, 1985, 1989, 1%
 l10n/po/zh_CN/_guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
 l10n/po/zh_CN/_guides/software-transactional-memory.adoc.po, 40, 44, 1950, 1959, 1%
@@ -91,7 +90,7 @@ l10n/po/zh_CN/_guides/databases-dev-services.adoc.po, 74, 81, 1253, 1418, 12%
 l10n/po/zh_CN/_guides/stork-kubernetes.adoc.po, 67, 76, 1241, 1320, 6%
 l10n/po/zh_CN/_guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_guides/funqy-gcp-functions.adoc.po, 68, 77, 1227, 1299, 6%
-l10n/po/zh_CN/_guides/native-and-ssl.adoc.po, 86, 95, 1222, 1317, 8%
+l10n/po/zh_CN/_guides/native-and-ssl.adoc.po, 86, 96, 1222, 1361, 11%
 l10n/po/zh_CN/_guides/getting-started-dev-services.adoc.po, 77, 87, 1188, 1333, 11%
 l10n/po/zh_CN/_guides/security-getting-started-tutorial.adoc.po, 73, 116, 1136, 1642, 31%
 l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
@@ -104,7 +103,7 @@ l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 47, 56, 1057, 1149, 9%
 l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 65, 78, 1047, 1210, 14%
 l10n/po/zh_CN/_guides/extension-metadata.adoc.po, 51, 74, 1037, 1473, 30%
 l10n/po/zh_CN/_guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
-l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 47, 200, 1033, 3891, 74%
+l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 47, 201, 1033, 3918, 74%
 l10n/po/zh_CN/_guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_guides/quartz.adoc.po, 71, 89, 1027, 1142, 11%
 l10n/po/zh_CN/_guides/lifecycle.adoc.po, 53, 68, 1008, 1121, 11%
@@ -175,10 +174,10 @@ l10n/po/zh_CN/_guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
 l10n/po/zh_CN/_guides/kotlin.adoc.po, 23, 93, 546, 1479, 64%
 l10n/po/zh_CN/_guides/spring-cache.adoc.po, 32, 48, 544, 646, 16%
-l10n/po/zh_CN/_guides/security-ldap.adoc.po, 29, 46, 538, 700, 24%
 l10n/po/zh_CN/_guides/config-secrets.adoc.po, 30, 32, 537, 560, 5%
 l10n/po/zh_CN/_guides/config-yaml.adoc.po, 30, 36, 528, 546, 4%
 l10n/po/zh_CN/_guides/build-analytics.adoc.po, 45, 48, 526, 529, 1%
+l10n/po/zh_CN/_guides/security-ldap.adoc.po, 28, 51, 517, 807, 36%
 l10n/po/zh_CN/_guides/security-keycloak-admin-client.adoc.po, 32, 43, 516, 588, 13%
 l10n/po/zh_CN/_guides/aws-lambda-snapstart.adoc.po, 37, 37, 514, 514, 0%
 l10n/po/zh_CN/_guides/appcds.adoc.po, 24, 31, 511, 823, 38%
@@ -196,6 +195,7 @@ l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-producer.adoc.po, 77, 82, 429, 4
 l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 17, 24, 426, 725, 42%
 l10n/po/zh_CN/_guides/websockets.adoc.po, 26, 41, 391, 491, 21%
 l10n/po/zh_CN/_guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
+l10n/po/zh_CN/_guides/deploying-to-openshift.adoc.po, 65, 167, 375, 2128, 83%
 l10n/po/zh_CN/_guides/security-properties.adoc.po, 34, 42, 367, 560, 35%
 l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 53, 356, 882, 60%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-incoming.adoc.po, 42, 51, 355, 365, 3%
@@ -270,6 +270,9 @@ l10n/po/zh_CN/_guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 20, 0, 398, 100%
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 40, 0, 642, 100%
 l10n/po/zh_CN/_guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
+l10n/po/zh_CN/_guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
+l10n/po/zh_CN/_guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
+l10n/po/zh_CN/_guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 488, 100%
 l10n/po/zh_CN/_guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_guides/extension-faq.adoc.po, 0, 37, 0, 754, 100%
 l10n/po/zh_CN/_guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1406, 100%

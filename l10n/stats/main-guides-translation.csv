@@ -4,7 +4,7 @@ l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 752, 868, 11126, 134
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 461, 502, 7465, 8250, 10%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 305, 410, 7306, 9971, 27%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 305, 411, 7306, 9995, 27%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 283, 5240, 5715, 9%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 268, 333, 5198, 6449, 20%
@@ -60,8 +60,8 @@ l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 98, 1641, 1812,
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 78, 91, 1623, 1719, 6%
 l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 85, 91, 1573, 1619, 3%
-l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 104, 112, 1564, 1603, 3%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
+l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 110, 1541, 1598, 4%
 l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 108, 1512, 1514, 1%
 l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 80, 1494, 1596, 7%
 l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
@@ -128,7 +128,7 @@ l10n/po/zh_CN/_versions/main/guides/tests-with-coverage.adoc.po, 50, 59, 914, 10
 l10n/po/zh_CN/_versions/main/guides/grpc-service-consumption.adoc.po, 65, 69, 892, 1014, 13%
 l10n/po/zh_CN/_versions/main/guides/ansible.adoc.po, 29, 30, 881, 882, 1%
 l10n/po/zh_CN/_versions/main/guides/podman.adoc.po, 24, 25, 871, 881, 2%
-l10n/po/zh_CN/_versions/main/guides/grpc-generation-reference.adoc.po, 59, 106, 852, 1285, 34%
+l10n/po/zh_CN/_versions/main/guides/grpc-generation-reference.adoc.po, 59, 106, 852, 1279, 34%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-tutorial.adoc.po, 55, 66, 839, 961, 13%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-heroku.adoc.po, 51, 71, 834, 1092, 24%
 l10n/po/zh_CN/_versions/main/guides/grpc-getting-started.adoc.po, 49, 56, 822, 872, 6%
@@ -168,8 +168,8 @@ l10n/po/zh_CN/_versions/main/guides/security-overview.adoc.po, 40, 48, 609, 722,
 l10n/po/zh_CN/_versions/main/guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_versions/main/guides/security-jdbc.adoc.po, 31, 48, 605, 744, 19%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-client.adoc.po, 141, 147, 598, 604, 1%
-l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 23, 115, 596, 1989, 71%
 l10n/po/zh_CN/_versions/main/guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 80%
+l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 22, 118, 548, 2030, 74%
 l10n/po/zh_CN/_versions/main/guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
 l10n/po/zh_CN/_versions/main/guides/kotlin.adoc.po, 23, 93, 546, 1479, 64%
@@ -199,7 +199,7 @@ l10n/po/zh_CN/_versions/main/guides/getting-started.adoc.po, 23, 106, 396, 1714,
 l10n/po/zh_CN/_versions/main/guides/websockets.adoc.po, 26, 41, 391, 491, 21%
 l10n/po/zh_CN/_versions/main/guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
 l10n/po/zh_CN/_versions/main/guides/cache-infinispan-reference.adoc.po, 23, 40, 375, 642, 42%
-l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift.adoc.po, 65, 167, 375, 2128, 83%
+l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift.adoc.po, 65, 168, 375, 2135, 83%
 l10n/po/zh_CN/_versions/main/guides/security-properties.adoc.po, 34, 42, 367, 560, 35%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-incoming.adoc.po, 43, 52, 358, 368, 3%
 l10n/po/zh_CN/_versions/main/guides/cache-redis-reference.adoc.po, 23, 31, 327, 477, 32%
@@ -211,7 +211,7 @@ l10n/po/zh_CN/_versions/main/guides/upx.adoc.po, 26, 26, 302, 302, 0%
 l10n/po/zh_CN/_versions/main/guides/web-dependency-locator.adoc.po, 22, 26, 301, 335, 11%
 l10n/po/zh_CN/_versions/main/guides/security-keycloak-authorization.adoc.po, 34, 189, 294, 2506, 89%
 l10n/po/zh_CN/_versions/main/guides/grpc-kubernetes.adoc.po, 14, 17, 291, 319, 9%
-l10n/po/zh_CN/_versions/main/guides/security-jwt.adoc.po, 30, 336, 289, 4718, 94%
+l10n/po/zh_CN/_versions/main/guides/security-jwt.adoc.po, 30, 343, 289, 4841, 95%
 l10n/po/zh_CN/_versions/main/guides/update-quarkus.adoc.po, 20, 22, 289, 307, 6%
 l10n/po/zh_CN/_versions/main/guides/funqy-gcp-functions-http.adoc.po, 10, 14, 283, 300, 6%
 l10n/po/zh_CN/_versions/main/guides/funqy-aws-lambda-http.adoc.po, 10, 14, 278, 295, 6%
@@ -279,14 +279,15 @@ l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 488, 100%
+l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_versions/main/guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-faq.adoc.po, 0, 37, 0, 754, 100%
-l10n/po/zh_CN/_versions/main/guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1406, 100%
+l10n/po/zh_CN/_versions/main/guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1428, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-writing-dev-service.adoc.po, 0, 27, 0, 438, 100%
 l10n/po/zh_CN/_versions/main/guides/grpc-cli.adoc.po, 0, 9, 0, 40, 100%
 l10n/po/zh_CN/_versions/main/guides/jfr.adoc.po, 0, 91, 0, 1638, 100%
 l10n/po/zh_CN/_versions/main/guides/load-shedding-reference.adoc.po, 0, 53, 0, 896, 100%
-l10n/po/zh_CN/_versions/main/guides/messaging.adoc.po, 0, 170, 0, 3024, 100%
+l10n/po/zh_CN/_versions/main/guides/messaging.adoc.po, 0, 206, 0, 3848, 100%
 l10n/po/zh_CN/_versions/main/guides/mongodb-dev-services.adoc.po, 0, 10, 0, 264, 100%
 l10n/po/zh_CN/_versions/main/guides/mongodb-panache-kotlin.adoc.po, 0, 24, 0, 607, 100%
 l10n/po/zh_CN/_versions/main/guides/observability.adoc.po, 0, 57, 0, 641, 100%
