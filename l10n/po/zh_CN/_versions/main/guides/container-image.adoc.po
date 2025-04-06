@@ -522,3 +522,15 @@ msgstr "除了通用容器映像选项外， `container-image-openshift` 还提�
 #: _versions/main/guides/container-image.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-4\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
+
+#: _versions/main/guides/container-image.adoc
+msgid "Buildpack Options"
+msgstr ""
+
+#: _versions/main/guides/container-image.adoc
+msgid "In addition to the generic container image options, the `container-image-buildpack` also provides the following options:"
+msgstr ""
+
+#: _versions/main/guides/container-image.adoc
+msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-5\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgstr ""

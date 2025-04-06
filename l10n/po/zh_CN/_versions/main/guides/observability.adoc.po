@@ -27,7 +27,7 @@ msgid "Telemetry contains data about the internal state of the system and can be
 msgstr ""
 
 #: _versions/main/guides/observability.adoc
-msgid "*Logging*, classical local or distributed logs"
+msgid "*Logging*, classical local or centralised logs"
 msgstr ""
 
 #: _versions/main/guides/observability.adoc
