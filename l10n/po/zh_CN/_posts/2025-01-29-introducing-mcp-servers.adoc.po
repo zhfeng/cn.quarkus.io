@@ -159,7 +159,7 @@ msgid "First is that the programming model provided by Quarkus is very powerful,
 msgstr ""
 
 #: _posts/2025-01-29-introducing-mcp-servers.adoc
-msgid "Second, is the wast Java ecosystem provides things like JDBC drivers which enables us to make a single server that works with any JDBC-compatible database. We use `jbang` to dynamically download https://github.com/quarkiverse/quarkus-mcp-servers/blob/main/jdbc/.scripts/mcpjdbc.java[the right JDBC driver] and then launch the quarkus mcp server. Similar is done for `jfx` to https://github.com/quarkiverse/quarkus-mcp-servers/blob/main/jbang-catalog.json#L34[fetch] the right OS specific JavaFX dependencies."
+msgid "Second, is the vast Java ecosystem provides things like JDBC drivers which enables us to make a single server that works with any JDBC-compatible database. We use `jbang` to dynamically download https://github.com/quarkiverse/quarkus-mcp-servers/blob/main/jdbc/.scripts/mcpjdbc.java[the right JDBC driver] and then launch the quarkus mcp server. Similar is done for `jfx` to https://github.com/quarkiverse/quarkus-mcp-servers/blob/main/jbang-catalog.json#L34[fetch] the right OS specific JavaFX dependencies."
 msgstr ""
 
 #: _posts/2025-01-29-introducing-mcp-servers.adoc

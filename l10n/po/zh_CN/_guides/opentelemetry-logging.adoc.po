@@ -11,9 +11,7 @@ msgid "Using OpenTelemetry Logging"
 msgstr ""
 
 #: _guides/opentelemetry-logging.adoc
-msgid ""
-"This guide explains how your Quarkus application can utilize https://opentelemetry.io/[OpenTelemetry] (OTel) to provide\n"
-"distributed logging for interactive web applications."
+msgid "This guide explains how your Quarkus application can utilize https://opentelemetry.io/[OpenTelemetry] (OTel) to provide structured, contextual, vendor-neutral and centralised logging for interactive web applications."
 msgstr ""
 
 #: _guides/opentelemetry-logging.adoc
@@ -37,7 +35,7 @@ msgid "Architecture"
 msgstr "架构"
 
 #: _guides/opentelemetry-logging.adoc
-msgid "In this guide, we create a straightforward REST application to demonstrate distributed logging, similar to the other OpenTelemetry guides."
+msgid "In this guide, we create a straightforward REST application to demonstrate OTel logging, in a similar way to the other OpenTelemetry signal guides."
 msgstr ""
 
 #: _guides/opentelemetry-logging.adoc
