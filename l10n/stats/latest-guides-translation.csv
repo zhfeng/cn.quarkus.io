@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
-l10n/po/zh_CN/_guides/qute-reference.adoc.po, 749, 868, 11081, 13412, 18%
+l10n/po/zh_CN/_guides/qute-reference.adoc.po, 748, 868, 10961, 13412, 19%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_guides/rest.adoc.po, 459, 502, 7425, 8250, 10%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
@@ -288,7 +288,7 @@ l10n/po/zh_CN/_guides/mongodb-panache-kotlin.adoc.po, 0, 24, 0, 607, 100%
 l10n/po/zh_CN/_guides/observability-devservices-lgtm.adoc.po, 0, 56, 0, 726, 100%
 l10n/po/zh_CN/_guides/observability-devservices.adoc.po, 0, 11, 0, 278, 100%
 l10n/po/zh_CN/_guides/observability.adoc.po, 0, 57, 0, 641, 100%
-l10n/po/zh_CN/_guides/opentelemetry-logging.adoc.po, 0, 43, 0, 531, 100%
+l10n/po/zh_CN/_guides/opentelemetry-logging.adoc.po, 0, 43, 0, 539, 100%
 l10n/po/zh_CN/_guides/opentelemetry-metrics.adoc.po, 0, 121, 0, 1505, 100%
 l10n/po/zh_CN/_guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1817, 100%
 l10n/po/zh_CN/_guides/quarkus-runtime-base-image.adoc.po, 0, 14, 0, 190, 100%
