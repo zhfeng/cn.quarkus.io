@@ -4,10 +4,10 @@ l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 751, 868, 11006, 134
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 461, 502, 7465, 8250, 10%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 305, 412, 7306, 10000, 27%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 305, 415, 7306, 10037, 28%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 283, 5240, 5715, 9%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 266, 348, 5183, 6720, 23%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 266, 362, 5183, 6943, 26%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5213, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 261, 317, 4777, 5771, 18%

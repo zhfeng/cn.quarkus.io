@@ -136,12 +136,12 @@ l10n/po/zh_CN/_guides/credentials-provider.adoc.po, 49, 50, 816, 818, 1%
 l10n/po/zh_CN/_guides/kubernetes-config.adoc.po, 39, 43, 815, 830, 2%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication-tutorial.adoc.po, 59, 75, 787, 1110, 30%
 l10n/po/zh_CN/_guides/spring-di.adoc.po, 58, 83, 781, 1094, 29%
-l10n/po/zh_CN/_guides/config-mappings.adoc.po, 55, 62, 779, 881, 12%
 l10n/po/zh_CN/_guides/capabilities.adoc.po, 41, 44, 769, 776, 1%
 l10n/po/zh_CN/_guides/smallrye-metrics.adoc.po, 48, 55, 767, 776, 2%
 l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 30, 233, 766, 5132, 86%
 l10n/po/zh_CN/_guides/resteasy-reactive-virtual-threads.adoc.po, 49, 55, 763, 784, 3%
 l10n/po/zh_CN/_guides/rest-virtual-threads.adoc.po, 49, 55, 762, 783, 3%
+l10n/po/zh_CN/_guides/config-mappings.adoc.po, 54, 62, 757, 882, 15%
 l10n/po/zh_CN/_guides/security-csrf-prevention.adoc.po, 37, 48, 757, 845, 11%
 l10n/po/zh_CN/_guides/config.adoc.po, 60, 75, 753, 851, 12%
 l10n/po/zh_CN/_guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
