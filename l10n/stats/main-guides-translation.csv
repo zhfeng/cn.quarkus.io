@@ -14,7 +14,7 @@ l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 261, 317, 4777, 5771, 1
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055, 32%
 l10n/po/zh_CN/_versions/main/guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 234, 4011, 4951, 19%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 245, 4011, 5248, 24%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
 l10n/po/zh_CN/_versions/main/guides/config-reference.adoc.po, 220, 231, 3852, 4107, 7%
 l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
@@ -26,9 +26,9 @@ l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 20
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
-l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 286, 353, 2819, 4280, 35%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 190, 2819, 3949, 29%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
+l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 285, 353, 2809, 4280, 35%
 l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 209, 232, 2808, 3078, 9%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 100, 120, 2738, 3191, 15%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 149, 215, 2719, 3951, 32%
@@ -39,7 +39,7 @@ l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 153, 224, 2328, 3534, 35%
 l10n/po/zh_CN/_versions/main/guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_versions/main/guides/cdi.adoc.po, 127, 132, 2259, 2372, 5%
-l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 251, 318, 2249, 3321, 33%
+l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 250, 319, 2206, 3334, 34%
 l10n/po/zh_CN/_versions/main/guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_versions/main/guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-providers.adoc.po, 120, 160, 2086, 3209, 35%
@@ -75,7 +75,7 @@ l10n/po/zh_CN/_versions/main/guides/platform.adoc.po, 51, 56, 1341, 1447, 8%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 69, 74, 1333, 1437, 8%
 l10n/po/zh_CN/_versions/main/guides/container-image.adoc.po, 69, 90, 1331, 1725, 23%
-l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 305, 1316, 5945, 78%
+l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 306, 1316, 5965, 78%
 l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1314, 1346, 3%
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
@@ -87,9 +87,9 @@ l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 65, 139, 1281, 30
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_versions/main/guides/openapi-swaggerui.adoc.po, 86, 108, 1269, 1547, 18%
 l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 74, 81, 1253, 1418, 12%
-l10n/po/zh_CN/_versions/main/guides/stork-kubernetes.adoc.po, 67, 76, 1241, 1320, 6%
 l10n/po/zh_CN/_versions/main/guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_versions/main/guides/funqy-gcp-functions.adoc.po, 68, 77, 1227, 1299, 6%
+l10n/po/zh_CN/_versions/main/guides/stork-kubernetes.adoc.po, 66, 76, 1227, 1321, 8%
 l10n/po/zh_CN/_versions/main/guides/native-and-ssl.adoc.po, 86, 96, 1222, 1361, 11%
 l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 87, 1188, 1333, 11%
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 73, 116, 1136, 1642, 31%
@@ -113,8 +113,8 @@ l10n/po/zh_CN/_versions/main/guides/context-propagation.adoc.po, 66, 73, 1002, 1
 l10n/po/zh_CN/_versions/main/guides/command-mode-reference.adoc.po, 51, 64, 996, 1107, 11%
 l10n/po/zh_CN/_versions/main/guides/dev-services.adoc.po, 50, 58, 995, 1130, 12%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication-tutorial.adoc.po, 72, 98, 978, 1332, 27%
-l10n/po/zh_CN/_versions/main/guides/stork.adoc.po, 58, 68, 965, 995, 4%
 l10n/po/zh_CN/_versions/main/guides/spring-data-rest.adoc.po, 87, 111, 955, 1143, 17%
+l10n/po/zh_CN/_versions/main/guides/stork.adoc.po, 57, 68, 951, 996, 5%
 l10n/po/zh_CN/_versions/main/guides/lra.adoc.po, 18, 22, 946, 960, 2%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-consumer.adoc.po, 113, 119, 940, 963, 3%
 l10n/po/zh_CN/_versions/main/guides/funqy-aws-lambda.adoc.po, 41, 77, 938, 1382, 33%
@@ -138,7 +138,6 @@ l10n/po/zh_CN/_versions/main/guides/kubernetes-config.adoc.po, 39, 43, 815, 830,
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication-tutorial.adoc.po, 59, 75, 787, 1110, 30%
 l10n/po/zh_CN/_versions/main/guides/capabilities.adoc.po, 41, 44, 769, 776, 1%
 l10n/po/zh_CN/_versions/main/guides/smallrye-metrics.adoc.po, 48, 55, 767, 776, 2%
-l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 30, 233, 766, 5132, 86%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-virtual-threads.adoc.po, 49, 55, 763, 784, 3%
 l10n/po/zh_CN/_versions/main/guides/rest-virtual-threads.adoc.po, 49, 55, 762, 783, 3%
 l10n/po/zh_CN/_versions/main/guides/config-mappings.adoc.po, 54, 62, 757, 882, 15%
@@ -147,6 +146,7 @@ l10n/po/zh_CN/_versions/main/guides/config.adoc.po, 60, 75, 753, 851, 12%
 l10n/po/zh_CN/_versions/main/guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
 l10n/po/zh_CN/_versions/main/guides/dev-mode-differences.adoc.po, 41, 46, 732, 747, 3%
+l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 29, 234, 732, 5135, 86%
 l10n/po/zh_CN/_versions/main/guides/azure-functions-http.adoc.po, 44, 46, 728, 730, 1%
 l10n/po/zh_CN/_versions/main/guides/funqy-http.adoc.po, 37, 39, 726, 738, 2%
 l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 50, 719, 876, 18%
@@ -302,4 +302,4 @@ l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-registration.
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 103, 0, 976, 100%
 l10n/po/zh_CN/_versions/main/guides/testing-components.adoc.po, 0, 63, 0, 1216, 100%
-l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 341, 0, 6164, 100%
+l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 340, 0, 6115, 100%
