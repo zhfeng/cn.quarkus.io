@@ -888,7 +888,8 @@ msgstr ""
 #: _versions/main/guides/tls-registry-reference.adoc
 msgid ""
 "Impacted servers and clients may need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
-"This is automatically done for the Quarkus HTTP server, such as the Quarkus REST server, gRPC server, and WebSocket server, as well as the management interface if it is enabled."
+"This is automatically done for the Quarkus HTTP server, as well as the Quarkus REST server, gRPC server, and WebSocket server, as well as the management interface if it is enabled.\n"
+"On the client side, Quarkus REST Client automatically handles certificate update events."
 msgstr ""
 
 #: _versions/main/guides/tls-registry-reference.adoc

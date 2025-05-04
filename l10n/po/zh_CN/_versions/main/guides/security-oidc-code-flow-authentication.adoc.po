@@ -835,7 +835,7 @@ msgid "Jose4j Validator"
 msgstr "Jose4j 验证器"
 
 #: _versions/main/guides/security-oidc-code-flow-authentication.adoc
-msgid "You can register a custom Jose4j Validator to customize the JWT claim verification process. See the xref:security-oidc-bearer-token-authentication.adoc#jose4j-validator[Jose4j] section for more information."
+msgid "You can register a custom Jose4j Validator to customize the JWT claim verification process. See the xref:security-oidc-bearer-token-authentication.adoc#jose4j-validator-bearer[Jose4j] section for more information."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-code-flow-authentication.adoc

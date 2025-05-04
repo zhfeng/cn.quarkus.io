@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-06 08:40+0000\n"
+"POT-Creation-Date: 2025-05-04 08:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,6 +304,18 @@ msgstr "4"
 msgid "3"
 msgstr "3"
 
+#. type: Hash Value: /guides/tests-with-coverage sameTopics title
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "Compose Dev Services"
+msgstr ""
+
+#. type: Hash Value: /guides/tests-with-coverage sameTopics url
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "/guides/compose-dev-services"
+msgstr ""
+
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/latest/index/relations.yaml:0
 #, fuzzy, no-wrap
@@ -511,25 +523,13 @@ msgstr "/guides/container-image"
 #. type: Hash Value: /guides/stork-kubernetes sameTopics title
 #: upstream/_data/versioned/latest/index/relations.yaml:0
 #, no-wrap
-msgid "Deploy Quarkus applications to OpenShift in a single step"
+msgid "Deploying Quarkus applications compiled to native executables"
 msgstr ""
 
 #. type: Hash Value: /guides/stork-kubernetes sameTopics url
 #: upstream/_data/versioned/latest/index/relations.yaml:0
 #, no-wrap
-msgid "/guides/deploying-to-openshift-howto"
-msgstr ""
-
-#. type: Hash Value: /guides/stork-kubernetes sameTopics title
-#: upstream/_data/versioned/latest/index/relations.yaml:0
-#, no-wrap
-msgid "Deploy Quarkus Java applications to OpenShift by using a Docker build strategy"
-msgstr ""
-
-#. type: Hash Value: /guides/stork-kubernetes sameTopics url
-#: upstream/_data/versioned/latest/index/relations.yaml:0
-#, no-wrap
-msgid "/guides/deploying-to-openshift-docker-howto"
+msgid "/guides/deploying-to-openshift-native-howto"
 msgstr ""
 
 #. type: Hash Value: /guides/stork-kubernetes sameTopics title
@@ -543,6 +543,30 @@ msgstr ""
 #, no-wrap
 msgid "/guides/deploying-to-openshift"
 msgstr "/guides/deploying toopenshift"
+
+#. type: Hash Value: /guides/stork-kubernetes sameTopics title
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "Deploying Quarkus applications to OpenShift in a single step"
+msgstr ""
+
+#. type: Hash Value: /guides/stork-kubernetes sameTopics url
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "/guides/deploying-to-openshift-howto"
+msgstr ""
+
+#. type: Hash Value: /guides/stork-kubernetes sameTopics title
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "Deploying Quarkus Java applications to OpenShift by using a Docker build strategy"
+msgstr ""
+
+#. type: Hash Value: /guides/stork-kubernetes sameTopics url
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "/guides/deploying-to-openshift-docker-howto"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/latest/index/relations.yaml:0
@@ -2091,6 +2115,18 @@ msgstr "通过使用OpenID Connect（OIDC）授权代码流来保护一个网络
 #, no-wrap
 msgid "/guides/security-oidc-code-flow-authentication-tutorial"
 msgstr "/guides/security-oidc-code-flow-authentication-tutorial"
+
+#. type: Hash Value: /guides/tls-registry-reference sameTopics title
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "Quarkus OpenId Connect (OIDC) Expanded Configuration Reference"
+msgstr ""
+
+#. type: Hash Value: /guides/tls-registry-reference sameTopics url
+#: upstream/_data/versioned/latest/index/relations.yaml:0
+#, no-wrap
+msgid "/guides/security-oidc-expanded-configuration"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/latest/index/relations.yaml:0
