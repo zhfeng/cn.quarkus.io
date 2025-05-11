@@ -29,7 +29,7 @@ l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 275, 2911, 3300, 12%
 l10n/po/zh_CN/_guides/datasource.adoc.po, 285, 353, 2809, 4280, 35%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 140, 190, 2803, 3949, 30%
 l10n/po/zh_CN/_guides/dev-ui.adoc.po, 206, 232, 2759, 3078, 11%
-l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 100, 120, 2738, 3191, 15%
+l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 100, 121, 2738, 3213, 15%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 215, 2719, 3951, 32%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 153, 184, 2690, 3261, 18%
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 166, 189, 2538, 3159, 20%
@@ -81,7 +81,7 @@ l10n/po/zh_CN/_guides/web.adoc.po, 68, 74, 1302, 1437, 10%
 l10n/po/zh_CN/_guides/websockets-next-reference.adoc.po, 73, 305, 1291, 5945, 79%
 l10n/po/zh_CN/_guides/writing-native-applications-tips.adoc.po, 40, 107, 1287, 2429, 48%
 l10n/po/zh_CN/_guides/rest-migration.adoc.po, 95, 97, 1286, 1314, 3%
-l10n/po/zh_CN/_guides/building-native-image.adoc.po, 59, 220, 1283, 4326, 71%
+l10n/po/zh_CN/_guides/building-native-image.adoc.po, 59, 220, 1283, 4333, 71%
 l10n/po/zh_CN/_guides/security-webauthn.adoc.po, 65, 139, 1281, 3007, 58%
 l10n/po/zh_CN/_guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_guides/resteasy-reactive-migration.adoc.po, 92, 95, 1275, 1278, 1%
@@ -146,12 +146,12 @@ l10n/po/zh_CN/_guides/config.adoc.po, 60, 75, 753, 851, 12%
 l10n/po/zh_CN/_guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
 l10n/po/zh_CN/_guides/dev-mode-differences.adoc.po, 41, 46, 732, 747, 3%
-l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 29, 234, 732, 5135, 86%
 l10n/po/zh_CN/_guides/azure-functions-http.adoc.po, 44, 46, 728, 730, 1%
 l10n/po/zh_CN/_guides/funqy-http.adoc.po, 37, 39, 726, 738, 2%
 l10n/po/zh_CN/_guides/infinispan-dev-services.adoc.po, 38, 50, 719, 876, 18%
 l10n/po/zh_CN/_guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_guides/funqy.adoc.po, 21, 21, 710, 710, 0%
+l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 28, 234, 710, 5144, 87%
 l10n/po/zh_CN/_guides/aws-lambda-http.adoc.po, 30, 111, 697, 2251, 70%
 l10n/po/zh_CN/_guides/infinispan-client.adoc.po, 47, 69, 684, 887, 23%
 l10n/po/zh_CN/_guides/mailer.adoc.po, 51, 61, 681, 750, 10%
@@ -193,9 +193,9 @@ l10n/po/zh_CN/_guides/vertx.adoc.po, 27, 102, 438, 1550, 72%
 l10n/po/zh_CN/_guides/hibernate-orm-panache-kotlin.adoc.po, 11, 30, 431, 708, 40%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-producer.adoc.po, 77, 82, 429, 434, 2%
 l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 17, 24, 426, 725, 42%
-l10n/po/zh_CN/_guides/websockets.adoc.po, 26, 41, 391, 491, 21%
 l10n/po/zh_CN/_guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
 l10n/po/zh_CN/_guides/security-properties.adoc.po, 34, 42, 367, 560, 35%
+l10n/po/zh_CN/_guides/websockets.adoc.po, 25, 43, 359, 530, 33%
 l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 53, 356, 882, 60%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-incoming.adoc.po, 42, 51, 355, 365, 3%
 l10n/po/zh_CN/_guides/getting-started.adoc.po, 22, 106, 352, 1714, 80%
@@ -298,5 +298,5 @@ l10n/po/zh_CN/_guides/security-openid-connect-client-registration.adoc.po, 0, 54
 l10n/po/zh_CN/_guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 103, 0, 976, 100%
 l10n/po/zh_CN/_guides/testing-components.adoc.po, 0, 63, 0, 1216, 100%
-l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 340, 0, 6115, 100%
+l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 340, 0, 6128, 100%
 l10n/po/zh_CN/_guides/web-dependency-locator.adoc.po, 0, 26, 0, 335, 100%
