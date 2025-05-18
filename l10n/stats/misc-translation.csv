@@ -36,7 +36,7 @@ l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 639, 1547, 3319, 6484,
 l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 621, 1547, 3254, 6484, 50%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 777, 2376, 3041, 22%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 780, 2376, 3060, 23%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 78, 84, 886, 904, 2%
@@ -47,7 +47,7 @@ l10n/po/zh_CN/_data/versioned/3-8/index/relations.yaml.po, 158, 446, 702, 1195, 
 l10n/po/zh_CN/_data/versioned/3-6/index/relations.yaml.po, 154, 444, 674, 1182, 43%
 l10n/po/zh_CN/_data/qtips-videos.yaml.po, 107, 107, 398, 398, 0%
 l10n/po/zh_CN/_data/training.yaml.po, 59, 59, 355, 355, 0%
-l10n/po/zh_CN/_data/newsletter.yaml.po, 130, 166, 326, 422, 23%
+l10n/po/zh_CN/_data/newsletter.yaml.po, 130, 169, 326, 430, 25%
 l10n/po/zh_CN/_data/guides-2-13.yaml.po, 59, 707, 259, 4448, 95%
 l10n/po/zh_CN/_data/guides-2-7.yaml.po, 44, 666, 215, 4223, 95%
 l10n/po/zh_CN/_data/projectfooter.yaml.po, 79, 93, 174, 195, 11%
@@ -71,4 +71,4 @@ l10n/po/zh_CN/_data/versioned/3-15/index/quarkus.yaml.po, 0, 1478, 0, 6258, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/relations.yaml.po, 0, 481, 0, 1282, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/quarkus.yaml.po, 0, 1532, 0, 6413, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/relations.yaml.po, 0, 497, 0, 1347, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 132, 0, 3725, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 131, 0, 3724, 100%

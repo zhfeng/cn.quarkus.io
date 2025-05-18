@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
-l10n/po/zh_CN/_guides/qute-reference.adoc.po, 748, 868, 10961, 13423, 19%
+l10n/po/zh_CN/_guides/qute-reference.adoc.po, 748, 871, 10961, 13444, 19%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_guides/rest.adoc.po, 459, 502, 7425, 8250, 10%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
@@ -28,7 +28,7 @@ l10n/po/zh_CN/_guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 275, 2911, 3300, 12%
 l10n/po/zh_CN/_guides/datasource.adoc.po, 285, 353, 2809, 4280, 35%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 140, 190, 2803, 3949, 30%
-l10n/po/zh_CN/_guides/dev-ui.adoc.po, 206, 232, 2759, 3078, 11%
+l10n/po/zh_CN/_guides/dev-ui.adoc.po, 206, 233, 2759, 3107, 12%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 100, 121, 2738, 3213, 15%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 149, 215, 2719, 3951, 32%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 153, 184, 2690, 3261, 18%
@@ -41,7 +41,7 @@ l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_guides/logging.adoc.po, 250, 319, 2206, 3334, 34%
 l10n/po/zh_CN/_guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
-l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 160, 2086, 3209, 35%
+l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3273, 37%
 l10n/po/zh_CN/_guides/rabbitmq-reference.adoc.po, 199, 253, 2065, 2494, 18%
 l10n/po/zh_CN/_guides/scheduler-reference.adoc.po, 111, 134, 2061, 2568, 20%
 l10n/po/zh_CN/_guides/cdi.adoc.po, 120, 132, 1992, 2372, 17%
@@ -196,7 +196,7 @@ l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 17, 24, 426, 72
 l10n/po/zh_CN/_guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
 l10n/po/zh_CN/_guides/security-properties.adoc.po, 34, 42, 367, 560, 35%
 l10n/po/zh_CN/_guides/websockets.adoc.po, 25, 43, 359, 530, 33%
-l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 53, 356, 882, 60%
+l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 59, 356, 1002, 65%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-incoming.adoc.po, 42, 51, 355, 365, 3%
 l10n/po/zh_CN/_guides/getting-started.adoc.po, 22, 106, 352, 1714, 80%
 l10n/po/zh_CN/_guides/security-testing.adoc.po, 18, 42, 351, 722, 52%
@@ -209,7 +209,7 @@ l10n/po/zh_CN/_guides/_includes/smallrye-kafka-incoming.adoc.po, 62, 112, 305, 1
 l10n/po/zh_CN/_guides/upx.adoc.po, 26, 26, 302, 302, 0%
 l10n/po/zh_CN/_guides/security-keycloak-authorization.adoc.po, 34, 189, 294, 2506, 89%
 l10n/po/zh_CN/_guides/grpc-kubernetes.adoc.po, 14, 17, 291, 319, 9%
-l10n/po/zh_CN/_guides/security-jwt.adoc.po, 30, 343, 289, 4841, 95%
+l10n/po/zh_CN/_guides/security-jwt.adoc.po, 30, 345, 289, 4871, 95%
 l10n/po/zh_CN/_guides/update-quarkus.adoc.po, 20, 22, 289, 307, 6%
 l10n/po/zh_CN/_guides/funqy-gcp-functions-http.adoc.po, 10, 14, 283, 300, 6%
 l10n/po/zh_CN/_guides/funqy-aws-lambda-http.adoc.po, 10, 14, 278, 295, 6%
@@ -298,5 +298,5 @@ l10n/po/zh_CN/_guides/security-openid-connect-client-registration.adoc.po, 0, 54
 l10n/po/zh_CN/_guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 103, 0, 976, 100%
 l10n/po/zh_CN/_guides/testing-components.adoc.po, 0, 63, 0, 1216, 100%
-l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 340, 0, 6128, 100%
+l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 341, 0, 6158, 100%
 l10n/po/zh_CN/_guides/web-dependency-locator.adoc.po, 0, 26, 0, 335, 100%

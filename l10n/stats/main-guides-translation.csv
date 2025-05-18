@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
-l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 744, 871, 10890, 13469, 20%
+l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 744, 874, 10890, 13490, 20%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 459, 503, 7436, 8276, 11%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
@@ -8,7 +8,7 @@ l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 283, 5240, 5715, 9%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5213, 4%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 263, 362, 5022, 6943, 28%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 263, 364, 5022, 6969, 28%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 261, 317, 4777, 5771, 18%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
@@ -82,7 +82,7 @@ l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-migration.adoc.po, 94, 97, 1301, 1304, 1%
 l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 40, 107, 1287, 2429, 48%
 l10n/po/zh_CN/_versions/main/guides/rest-migration.adoc.po, 95, 97, 1286, 1314, 3%
-l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 59, 220, 1283, 4333, 71%
+l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 59, 220, 1283, 4373, 71%
 l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 65, 139, 1281, 3007, 58%
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_versions/main/guides/openapi-swaggerui.adoc.po, 86, 108, 1269, 1547, 18%
@@ -95,7 +95,7 @@ l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 87
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 73, 116, 1136, 1642, 31%
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 64, 77, 1125, 1327, 16%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 90, 1092, 1455, 25%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 93, 1092, 1487, 27%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_versions/main/guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
@@ -297,7 +297,7 @@ l10n/po/zh_CN/_versions/main/guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 121, 0, 1505, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1817, 100%
 l10n/po/zh_CN/_versions/main/guides/quarkus-runtime-base-image.adoc.po, 0, 14, 0, 190, 100%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 694, 0, 12383, 100%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 700, 0, 12476, 100%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-registration.adoc.po, 0, 54, 0, 962, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 103, 0, 976, 100%
