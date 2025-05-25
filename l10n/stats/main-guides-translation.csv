@@ -53,7 +53,7 @@ l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer.adoc.po, 167, 203, 1827
 l10n/po/zh_CN/_versions/main/guides/jreleaser.adoc.po, 58, 64, 1826, 2019, 10%
 l10n/po/zh_CN/_versions/main/guides/extension-codestart.adoc.po, 132, 145, 1807, 1939, 7%
 l10n/po/zh_CN/_versions/main/guides/cli-tooling.adoc.po, 144, 173, 1774, 2178, 19%
-l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 99, 120, 1711, 2166, 22%
+l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
 l10n/po/zh_CN/_versions/main/guides/quarkus-reactive-architecture.adoc.po, 65, 66, 1663, 1664, 1%
 l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 98, 1641, 1812, 10%
@@ -63,7 +63,7 @@ l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 85, 91, 1573, 1619, 3
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
 l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 110, 1541, 1598, 4%
 l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 112, 1512, 1651, 9%
-l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 85, 1494, 1712, 13%
+l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 87, 1494, 1736, 14%
 l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
 l10n/po/zh_CN/_versions/main/guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
 l10n/po/zh_CN/_versions/main/guides/hibernate-reactive-panache.adoc.po, 48, 153, 1402, 3035, 54%
