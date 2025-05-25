@@ -1300,7 +1300,7 @@ msgstr ""
 
 #: _versions/3.15/guides/rest.adoc
 msgid ""
-"When the result the `userPublic` method is serialized, the `id` field will not be contained in the response as the `Public` view does not include it.\n"
+"When the result of the `userPublic` method is serialized, the `id` field will not be contained in the response as the `Public` view does not include it.\n"
 "The result of `userPrivate` however will include the `id` as expected when serialized."
 msgstr ""
 
