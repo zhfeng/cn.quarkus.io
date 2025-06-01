@@ -1138,6 +1138,10 @@ msgid "The `getProduct` callback method can only be invoked if the current secur
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
+msgid "More information about permission checkers can be found on the JavaDoc of link:https://javadoc.io/doc/io.quarkus.security/quarkus-security/latest/io.quarkus.security.api/io/quarkus/security/PermissionChecker.html[`@PermissionChecker`]."
+msgstr ""
+
+#: _guides/websockets-next-reference.adoc
 msgid "Bearer token authentication"
 msgstr ""
 
