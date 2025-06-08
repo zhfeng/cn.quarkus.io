@@ -21,7 +21,7 @@ l10n/po/zh_CN/_guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
 l10n/po/zh_CN/_guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
 l10n/po/zh_CN/_guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
 l10n/po/zh_CN/_guides/redis-reference.adoc.po, 209, 230, 3289, 3732, 12%
-l10n/po/zh_CN/_guides/gradle-tooling.adoc.po, 164, 208, 3272, 3722, 13%
+l10n/po/zh_CN/_guides/gradle-tooling.adoc.po, 162, 208, 3238, 3721, 13%
 l10n/po/zh_CN/_guides/infinispan-client-reference.adoc.po, 187, 201, 3060, 3185, 4%
 l10n/po/zh_CN/_guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
@@ -56,7 +56,7 @@ l10n/po/zh_CN/_guides/validation.adoc.po, 99, 120, 1711, 2166, 22%
 l10n/po/zh_CN/_guides/quarkus-reactive-architecture.adoc.po, 65, 66, 1663, 1664, 1%
 l10n/po/zh_CN/_guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
 l10n/po/zh_CN/_guides/smallrye-health.adoc.po, 81, 98, 1641, 1812, 10%
-l10n/po/zh_CN/_guides/kafka-schema-registry-avro.adoc.po, 78, 91, 1623, 1719, 6%
+l10n/po/zh_CN/_guides/kafka-schema-registry-avro.adoc.po, 77, 91, 1603, 1719, 7%
 l10n/po/zh_CN/_guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
 l10n/po/zh_CN/_guides/gcp-functions.adoc.po, 85, 91, 1573, 1619, 3%
 l10n/po/zh_CN/_guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
@@ -90,7 +90,7 @@ l10n/po/zh_CN/_guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_guides/funqy-gcp-functions.adoc.po, 68, 77, 1227, 1299, 6%
 l10n/po/zh_CN/_guides/stork-kubernetes.adoc.po, 66, 76, 1227, 1321, 8%
 l10n/po/zh_CN/_guides/native-and-ssl.adoc.po, 86, 96, 1222, 1361, 11%
-l10n/po/zh_CN/_guides/databases-dev-services.adoc.po, 73, 81, 1209, 1418, 15%
+l10n/po/zh_CN/_guides/databases-dev-services.adoc.po, 72, 81, 1208, 1418, 15%
 l10n/po/zh_CN/_guides/getting-started-dev-services.adoc.po, 77, 87, 1188, 1335, 12%
 l10n/po/zh_CN/_guides/security-getting-started-tutorial.adoc.po, 73, 116, 1136, 1642, 31%
 l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
@@ -172,7 +172,7 @@ l10n/po/zh_CN/_guides/security-jdbc.adoc.po, 30, 48, 552, 744, 26%
 l10n/po/zh_CN/_guides/mongodb.adoc.po, 22, 118, 548, 2030, 74%
 l10n/po/zh_CN/_guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
-l10n/po/zh_CN/_guides/kotlin.adoc.po, 23, 93, 546, 1479, 64%
+l10n/po/zh_CN/_guides/kotlin.adoc.po, 23, 94, 546, 1502, 64%
 l10n/po/zh_CN/_guides/spring-cache.adoc.po, 32, 48, 544, 646, 16%
 l10n/po/zh_CN/_guides/config-secrets.adoc.po, 30, 32, 537, 560, 5%
 l10n/po/zh_CN/_guides/config-yaml.adoc.po, 30, 36, 528, 546, 4%
@@ -222,7 +222,7 @@ l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-outgoing.adoc.po, 23, 31, 230, 2
 l10n/po/zh_CN/_guides/grpc-xds.adoc.po, 18, 20, 201, 205, 2%
 l10n/po/zh_CN/_guides/README.adoc.po, 20, 21, 200, 201, 1%
 l10n/po/zh_CN/_guides/security-vulnerability-detection.adoc.po, 15, 19, 187, 261, 29%
-l10n/po/zh_CN/_guides/security-jwt-build.adoc.po, 19, 135, 178, 1846, 91%
+l10n/po/zh_CN/_guides/security-jwt-build.adoc.po, 19, 138, 178, 1882, 91%
 l10n/po/zh_CN/_guides/kafka-dev-services.adoc.po, 8, 33, 166, 594, 73%
 l10n/po/zh_CN/_guides/grpc.adoc.po, 17, 19, 164, 169, 3%
 l10n/po/zh_CN/_guides/security-identity-providers.adoc.po, 10, 13, 143, 193, 26%

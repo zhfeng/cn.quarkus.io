@@ -57,7 +57,7 @@ l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
 l10n/po/zh_CN/_versions/main/guides/quarkus-reactive-architecture.adoc.po, 65, 66, 1663, 1664, 1%
 l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 98, 1641, 1812, 10%
-l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 78, 91, 1623, 1719, 6%
+l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 77, 91, 1603, 1719, 7%
 l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 85, 91, 1573, 1619, 3%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
@@ -172,7 +172,7 @@ l10n/po/zh_CN/_versions/main/guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 
 l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 22, 118, 548, 2030, 74%
 l10n/po/zh_CN/_versions/main/guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
-l10n/po/zh_CN/_versions/main/guides/kotlin.adoc.po, 23, 93, 546, 1479, 64%
+l10n/po/zh_CN/_versions/main/guides/kotlin.adoc.po, 23, 94, 546, 1502, 64%
 l10n/po/zh_CN/_versions/main/guides/spring-cache.adoc.po, 32, 48, 544, 646, 16%
 l10n/po/zh_CN/_versions/main/guides/config-secrets.adoc.po, 30, 32, 537, 560, 5%
 l10n/po/zh_CN/_versions/main/guides/config-yaml.adoc.po, 30, 36, 528, 546, 4%
@@ -248,7 +248,7 @@ l10n/po/zh_CN/_versions/main/guides/spring-boot-properties.adoc.po, 3, 53, 53, 6
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/create-app.adoc.po, 6, 9, 48, 71, 33%
 l10n/po/zh_CN/_versions/main/guides/getting-started-reactive.adoc.po, 5, 74, 45, 1820, 98%
 l10n/po/zh_CN/_versions/main/guides/spring-cloud-config-client.adoc.po, 2, 38, 36, 436, 92%
-l10n/po/zh_CN/_versions/main/guides/_includes/extension-status.adoc.po, 3, 6, 33, 130, 75%
+l10n/po/zh_CN/_versions/main/guides/_includes/extension-status.adoc.po, 3, 7, 33, 143, 77%
 l10n/po/zh_CN/_versions/main/guides/amqp-dev-services.adoc.po, 1, 19, 31, 334, 91%
 l10n/po/zh_CN/_versions/main/guides/_includes/prerequisites.adoc.po, 3, 12, 25, 87, 72%
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/create-cli.adoc.po, 3, 6, 21, 44, 53%
