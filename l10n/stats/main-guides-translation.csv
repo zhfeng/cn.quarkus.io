@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
-l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 744, 874, 10890, 13490, 20%
+l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 742, 879, 10865, 13534, 20%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 459, 503, 7436, 8276, 11%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
@@ -8,7 +8,7 @@ l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 283, 5240, 5715, 9%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 192, 199, 5025, 5213, 4%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 263, 364, 5022, 6969, 28%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 263, 363, 5022, 6948, 28%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 261, 317, 4777, 5771, 18%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
@@ -21,18 +21,18 @@ l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
 l10n/po/zh_CN/_versions/main/guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
 l10n/po/zh_CN/_versions/main/guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
 l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 209, 230, 3289, 3732, 12%
-l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 162, 208, 3238, 3721, 13%
+l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 206, 3224, 3707, 14%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 201, 3103, 3185, 3%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 190, 2819, 3949, 29%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 192, 2819, 4021, 30%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 285, 353, 2809, 4280, 35%
 l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 209, 233, 2808, 3107, 10%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 100, 121, 2738, 3213, 15%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 149, 215, 2719, 3951, 32%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 153, 184, 2690, 3261, 18%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 197, 2581, 3528, 27%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql.adoc.po, 163, 177, 2351, 2429, 4%
 l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
@@ -95,12 +95,12 @@ l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 87
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 73, 116, 1136, 1642, 31%
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 64, 77, 1125, 1327, 16%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 93, 1092, 1487, 27%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 94, 1092, 1506, 28%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_versions/main/guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_versions/main/guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
-l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 47, 56, 1057, 1149, 9%
+l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 47, 67, 1057, 1458, 28%
 l10n/po/zh_CN/_versions/main/guides/extension-metadata.adoc.po, 51, 74, 1037, 1473, 30%
 l10n/po/zh_CN/_versions/main/guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_versions/main/guides/lifecycle.adoc.po, 54, 68, 1033, 1121, 8%

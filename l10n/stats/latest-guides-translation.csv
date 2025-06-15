@@ -99,7 +99,7 @@ l10n/po/zh_CN/_guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
-l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 47, 56, 1057, 1149, 9%
+l10n/po/zh_CN/_guides/kubernetes-client.adoc.po, 47, 67, 1057, 1458, 28%
 l10n/po/zh_CN/_guides/extension-metadata.adoc.po, 51, 74, 1037, 1473, 30%
 l10n/po/zh_CN/_guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 47, 201, 1033, 3918, 74%
