@@ -1080,11 +1080,9 @@ msgid ""
 "you could also use `validate` to have Hibernate verify the schema matches its expectations."
 msgstr "使用这种方法对实体进行修改时，确保对数据库模式进行相应调整；还可以使用 `validate` 让 Hibernate 验证模式是否符合其预期。"
 
-#. type: Plain text
 #: _guides/hibernate-orm.adoc
-#, fuzzy
-msgid "Do not use `quarkus.hibernate-orm.database.generation` `drop-and-create` and `update` in your production environment."
-msgstr "不要在你的生产环境中使用 `quarkus.hibernate-orm.database.generation` `drop-and-create` 和 `update` 。"
+msgid "Do not use `quarkus.hibernate-orm.schema-management.strategy` `drop-and-create` and `update` in your production environment."
+msgstr ""
 
 #: _guides/hibernate-orm.adoc
 #, fuzzy
