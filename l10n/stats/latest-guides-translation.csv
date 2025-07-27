@@ -2,7 +2,7 @@ Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 739, 879, 10820, 13534, 21%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
-l10n/po/zh_CN/_guides/rest.adoc.po, 457, 503, 7396, 8276, 11%
+l10n/po/zh_CN/_guides/rest.adoc.po, 456, 506, 7349, 8324, 12%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 294, 415, 6940, 10037, 31%
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 346, 370, 6008, 6293, 5%
@@ -73,7 +73,6 @@ l10n/po/zh_CN/_guides/deploying-to-google-cloud.adoc.po, 80, 89, 1356, 1478, 9%
 l10n/po/zh_CN/_guides/smallrye-graphql-client.adoc.po, 43, 62, 1347, 1486, 10%
 l10n/po/zh_CN/_guides/platform.adoc.po, 51, 56, 1341, 1447, 8%
 l10n/po/zh_CN/_guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
-l10n/po/zh_CN/_guides/container-image.adoc.po, 69, 90, 1331, 1725, 23%
 l10n/po/zh_CN/_guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1314, 1346, 3%
 l10n/po/zh_CN/_guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
@@ -83,6 +82,7 @@ l10n/po/zh_CN/_guides/writing-native-applications-tips.adoc.po, 40, 107, 1287, 2
 l10n/po/zh_CN/_guides/rest-migration.adoc.po, 95, 97, 1286, 1314, 3%
 l10n/po/zh_CN/_guides/building-native-image.adoc.po, 59, 220, 1283, 4373, 71%
 l10n/po/zh_CN/_guides/security-webauthn.adoc.po, 65, 139, 1281, 3007, 58%
+l10n/po/zh_CN/_guides/container-image.adoc.po, 68, 90, 1279, 1727, 26%
 l10n/po/zh_CN/_guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_guides/resteasy-reactive-migration.adoc.po, 92, 95, 1275, 1278, 1%
 l10n/po/zh_CN/_guides/openapi-swaggerui.adoc.po, 86, 108, 1269, 1547, 18%
@@ -270,7 +270,7 @@ l10n/po/zh_CN/_guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 416, 100%
 l10n/po/zh_CN/_guides/assistant.adoc.po, 0, 84, 0, 855, 100%
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 40, 0, 642, 100%
-l10n/po/zh_CN/_guides/compose-dev-services.adoc.po, 0, 171, 0, 2223, 100%
+l10n/po/zh_CN/_guides/compose-dev-services.adoc.po, 0, 171, 0, 2226, 100%
 l10n/po/zh_CN/_guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
