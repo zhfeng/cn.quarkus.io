@@ -21,16 +21,16 @@ l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
 l10n/po/zh_CN/_versions/main/guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
 l10n/po/zh_CN/_versions/main/guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
 l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 209, 230, 3289, 3732, 12%
-l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 206, 3224, 3707, 14%
+l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 211, 3224, 3883, 17%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 201, 3103, 3185, 3%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 197, 2819, 4160, 33%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
-l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 285, 353, 2809, 4280, 35%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 100, 121, 2738, 3213, 15%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 149, 232, 2719, 4153, 35%
+l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 277, 352, 2640, 4279, 39%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 197, 2581, 3528, 27%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql.adoc.po, 163, 180, 2351, 2455, 5%
@@ -38,7 +38,7 @@ l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 153, 242, 2328, 3825, 40%
 l10n/po/zh_CN/_versions/main/guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_versions/main/guides/cdi.adoc.po, 127, 132, 2259, 2372, 5%
-l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 250, 319, 2206, 3334, 34%
+l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 250, 320, 2206, 3331, 34%
 l10n/po/zh_CN/_versions/main/guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_versions/main/guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3273, 37%
@@ -61,7 +61,7 @@ l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 15
 l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 85, 91, 1573, 1619, 3%
 l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 113, 399, 1558, 5100, 70%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
-l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 110, 1541, 1598, 4%
+l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 115, 1541, 1675, 8%
 l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 112, 1512, 1651, 9%
 l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 87, 1494, 1736, 14%
 l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
@@ -108,7 +108,6 @@ l10n/po/zh_CN/_versions/main/guides/mongodb-panache.adoc.po, 47, 201, 1033, 3918
 l10n/po/zh_CN/_versions/main/guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_versions/main/guides/quartz.adoc.po, 71, 89, 1027, 1142, 11%
 l10n/po/zh_CN/_versions/main/guides/security-oauth2.adoc.po, 56, 79, 1005, 1226, 19%
-l10n/po/zh_CN/_versions/main/guides/qute.adoc.po, 79, 96, 1003, 1396, 29%
 l10n/po/zh_CN/_versions/main/guides/context-propagation.adoc.po, 66, 73, 1002, 1049, 5%
 l10n/po/zh_CN/_versions/main/guides/command-mode-reference.adoc.po, 51, 64, 996, 1107, 11%
 l10n/po/zh_CN/_versions/main/guides/dev-services.adoc.po, 50, 58, 995, 1130, 12%
@@ -118,6 +117,7 @@ l10n/po/zh_CN/_versions/main/guides/stork.adoc.po, 57, 68, 951, 996, 5%
 l10n/po/zh_CN/_versions/main/guides/lra.adoc.po, 18, 22, 946, 960, 2%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-consumer.adoc.po, 113, 119, 940, 963, 3%
 l10n/po/zh_CN/_versions/main/guides/funqy-aws-lambda.adoc.po, 41, 77, 938, 1382, 33%
+l10n/po/zh_CN/_versions/main/guides/qute.adoc.po, 76, 97, 935, 1412, 34%
 l10n/po/zh_CN/_versions/main/guides/spring-di.adoc.po, 59, 83, 935, 1094, 15%
 l10n/po/zh_CN/_versions/main/guides/scripting.adoc.po, 57, 74, 931, 1106, 16%
 l10n/po/zh_CN/_versions/main/guides/resteasy-client-multipart.adoc.po, 47, 61, 923, 1022, 10%
@@ -275,7 +275,7 @@ l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-derby.adoc.po, 0, 1, 0, 
 l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-encrypted-pem-tech-prev.adoc.po, 0, 1, 0, 6, 100%
 l10n/po/zh_CN/_versions/main/guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 416, 100%
-l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 99, 0, 1079, 100%
+l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 101, 0, 1099, 100%
 l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 171, 0, 2226, 100%
 l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
