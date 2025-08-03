@@ -859,11 +859,9 @@ msgstr "IDE 链接"
 msgid "Creates a link to a resource (like a Java source file) that can be opened in the user's IDE (if we could detect the IDE)."
 msgstr "创建一个指向资源（如 Java 源文件）的链接，该资源可在用户的集成开发环境中打开（如果我们能检测到集成开发环境的话）。"
 
-#. type: Plain text
 #: _guides/dev-ui.adoc
-#, fuzzy
-msgid "https://github.com/quarkusio/quarkus/blob/582f1f78806d2268885faea7aa8f5a4d2b3f5b98/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/qwc/qwc-server-log.js#L315[Example code]"
-msgstr "link:https://github.com/quarkusio/quarkus/blob/582f1f78806d2268885faea7aa8f5a4d2b3f5b98/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/qwc/qwc-server-log.js#L315[代码示例]"
+msgid "https://github.com/quarkusio/quarkus/blob/b84f13bb1a94073900328829e0b2224903179baf/extensions/devui/resources/src/main/resources/dev-ui/qwc/qwc-server-log.js#L334[Example code]"
+msgstr ""
 
 #. type: Title =====
 #: _guides/dev-ui.adoc
@@ -871,11 +869,9 @@ msgstr "link:https://github.com/quarkusio/quarkus/blob/582f1f78806d2268885faea7a
 msgid "Using internal controllers"
 msgstr "使用内部控制器"
 
-#. type: Plain text
 #: _guides/dev-ui.adoc
-#, fuzzy
-msgid "Some https://github.com/quarkusio/quarkus/tree/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/controller[internal controllers] are available to make certain things easier:"
-msgstr "一些 link:https://github.com/quarkusio/quarkus/tree/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/controller[内部控制器] 可以让某些事情变得更容易："
+msgid "Some https://github.com/quarkusio/quarkus/tree/main/extensions/devui/resources/src/main/resources/dev-ui/controller[internal controllers] are available to make certain things easier:"
+msgstr ""
 
 #. type: Plain text
 #: _guides/dev-ui.adoc
@@ -906,11 +902,9 @@ msgstr "路由器"
 msgid "This is an easy way to show a toast message. The toast can be placed on the screen (default left bottom) and can have a level (Info, Success, Warning, Error). Any of the levels can also be primary, which will create a more prominent toast message."
 msgstr "这是一种显示祝酒词的简便方法。祝酒词可以放在屏幕上（默认左下方），并可以有一个级别（信息、成功、警告、错误）。任何一个级别都可以是主级别，这样吐司信息会更突出。"
 
-#. type: Plain text
 #: _guides/dev-ui.adoc
-#, fuzzy
-msgid "See the source of this controller https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/controller/notifier.js[here]."
-msgstr "link:https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/controller/notifier.js[点击此处] 查看该控制器的来源。"
+msgid "See the source of this controller https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/controller/notifier.js[here]."
+msgstr ""
 
 #. type: Plain text
 #: _guides/dev-ui.adoc
@@ -941,11 +935,9 @@ msgstr "一种以安全方式访问本地存储的简便方法。这将在本地
 msgid "Local storage is useful to remember user preferences or state. For example, the footer remembers the state (open/close) and the size when open of the bottom drawer."
 msgstr "本地存储对于记忆用户偏好或状态非常有用。例如，页脚会记住底部抽屉的状态（打开/关闭）和打开时的大小。"
 
-#. type: Plain text
 #: _guides/dev-ui.adoc
-#, fuzzy
-msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/qwc/qwc-footer.js[Example code]"
-msgstr "link:https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/qwc/qwc-footer.js[代码示例]"
+msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/qwc/qwc-footer.js[Example code]"
+msgstr ""
 
 #: _guides/dev-ui.adoc
 msgid ""
@@ -953,11 +945,9 @@ msgid ""
 "See <<footer>>."
 msgstr ""
 
-#. type: Plain text
 #: _guides/dev-ui.adoc
-#, fuzzy
-msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/qwc/qwc-server-log.js[Example code]"
-msgstr "link:https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/qwc/qwc-server-log.js[代码示例]"
+msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/qwc/qwc-server-log.js[Example code]"
+msgstr ""
 
 #. type: Plain text
 #: _guides/dev-ui.adoc
@@ -965,11 +955,9 @@ msgstr "link:https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-htt
 msgid "The router is mostly used internally. This uses https://github.com/vaadin/router[Vaadin Router] under the covers to route URLs to the correct page/section within the SPA. It will update the navigation and allow history (back button). This also creates the sub-menu available on extensions that have multiple pages."
 msgstr "路由器主要在内部使用。它使用 link:https://github.com/vaadin/router[Vaadin 路由器] 将 URL 路由到 SPA 中正确的页面/部分。它将更新导航并允许历史记录（返回按钮）。它还能在有多个页面的扩展程序中创建子菜单。"
 
-#. type: Plain text
 #: _guides/dev-ui.adoc
-#, fuzzy
-msgid "See the https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/controller/router-controller.js[controller] for some methods that might be useful."
-msgstr "请参阅 link:https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/controller/router-controller.js[控制器] ，了解一些可能有用的方法。"
+msgid "See the https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/controller/router-controller.js[controller] for some methods that might be useful."
+msgstr ""
 
 #: _guides/dev-ui.adoc
 msgid "Global State"
@@ -1024,7 +1012,7 @@ msgid "Now you can access the connection state anywhere in your page, and when t
 msgstr ""
 
 #: _guides/dev-ui.adoc
-msgid "You can see all the properties of connection state https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/state/connection-state.js[here]"
+msgid "You can see all the properties of connection state https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/state/connection-state.js[here]"
 msgstr ""
 
 #: _guides/dev-ui.adoc
@@ -1044,7 +1032,7 @@ msgid "Now you can access the theme state anywhere in your page, and when that s
 msgstr ""
 
 #: _guides/dev-ui.adoc
-msgid "You can see all the properties of theme state https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/state/theme-state.js[here]"
+msgid "You can see all the properties of theme state https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/state/theme-state.js[here]"
 msgstr ""
 
 #: _guides/dev-ui.adoc
@@ -1064,7 +1052,7 @@ msgid "Now you can access the assistant state anywhere in your page, and when th
 msgstr ""
 
 #: _guides/dev-ui.adoc
-msgid "You can see all the properties of assistant state https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/state/assistant-state.js[here]"
+msgid "You can see all the properties of assistant state https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/state/assistant-state.js[here]"
 msgstr ""
 
 #: _guides/dev-ui.adoc
@@ -1082,7 +1070,7 @@ msgstr ""
 #: _guides/dev-ui.adoc
 msgid ""
 "You can see all the properties of dev ui state\n"
-"https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-resources/src/main/resources/dev-ui/state/devui-state.js[here]"
+"https://github.com/quarkusio/quarkus/blob/main/extensions/devui/resources/src/main/resources/dev-ui/state/devui-state.js[here]"
 msgstr ""
 
 #: _guides/dev-ui.adoc
@@ -1706,6 +1694,46 @@ msgstr "使用 `999-SNAPSHOT` 版本运行本地应用程序时，开发人员�
 
 #: _guides/dev-ui.adoc
 msgid "There might be cases where you develop an extension outside of Quarkus core (like Quarkiverse), so your quarkus version is not `999-SNAPSHOT`. In that case you can still enable the Dev UI log with this application property: `quarkus.dev-ui.show-json-rpc-log=true`"
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "Advanced: Headless Components"
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "In rare cases, an extension might need to execute logic *even when its main component is not added to the DOM*. This is typically useful for setting global state or triggering background tasks without displaying any UI."
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "To support this, extensions can declare a *headless component* — a web component with no visual representation that runs automatically on page load."
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "Declare the headless component in your extension:"
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "Set the path to the headless component JavaScript file (relative to the extension resources)."
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "Then create the component alongside your other Dev UI pages:"
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "The `namespace` attribute will always be provided automatically by Dev UI."
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "Perform your logic in `connectedCallback`, then remove the element if no longer needed."
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "When using JsonRPC, pass in the provided namespace (instead of `this`, as in normal components)."
+msgstr ""
+
+#: _guides/dev-ui.adoc
+msgid "Your tag definition have to be the filename without the `.js`"
 msgstr ""
 
 #. type: Title ==

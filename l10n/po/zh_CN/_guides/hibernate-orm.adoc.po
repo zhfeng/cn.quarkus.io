@@ -359,12 +359,6 @@ msgid ""
 "using <<quarkus-hibernate-orm_quarkus-hibernate-orm-database-version-check-enabled,`quarkus.hibernate-orm.database.version-check.enabled=false`>>."
 msgstr ""
 
-#: _guides/hibernate-orm.adoc
-msgid ""
-"The version check is disabled by default when a dialect is set explicitly,\n"
-"as a workaround for https://github.com/quarkusio/quarkus/issues/42255[#42255]/link:https://github.com/quarkusio/quarkus/issues/43703[#43703]."
-msgstr ""
-
 #. type: Title ====
 #: _guides/hibernate-orm.adoc
 #, fuzzy, no-wrap

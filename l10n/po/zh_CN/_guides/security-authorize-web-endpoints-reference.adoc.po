@@ -254,9 +254,15 @@ msgid ""
 "The context can be activated by users, for example with the `@ActivateRequestContext`, however authorization happens before Quarkus prepares some `@RequestScoped` beans.\n"
 "We recommend to let Quarkus activate and prepare CDI request context for you.\n"
 "For example, consider a situation where you want to inject a bean from the Jakarta REST context, such as the `jakarta.ws.rs.core.UriInfo` bean.\n"
-"In this case, you must apply the `HttpSecurityPolicy` to Jakarta REST endpoints. This can be achieved in one of the following ways:\n"
-"* Use the `@AuthorizationPolicy` security annotation.\n"
-"* Set the `quarkus.http.auth.permission.custom1.applies-to=jaxrs` configuration property."
+"In this case, you must apply the `HttpSecurityPolicy` to Jakarta REST endpoints. This can be achieved in one of the following ways:"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Use the `@AuthorizationPolicy` security annotation."
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Set the `quarkus.http.auth.permission.custom1.applies-to=jaxrs` configuration property."
 msgstr ""
 
 #. type: Title ===
@@ -590,6 +596,10 @@ msgid "The `/*` path is not secured. You must secure your endpoints with standar
 msgstr "`/*` 路径未加密。您必须使用标准安全注释或定义 HTTP 权限来保护您的端点。"
 
 #: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "If you prefer a programmatic configuration, the same mapping can be added with the `io.quarkus.vertx.http.security.HttpSecurity` CDI event:"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
 #, fuzzy
 msgid "Shared permission checks"
 msgstr "共享权限检查"
@@ -638,6 +648,62 @@ msgstr "`/secured/*` 路径只能由通过身份验证的用户访问。这样�
 #, fuzzy
 msgid "Shared permissions are always applied before unshared ones, therefore a `SecurityIdentity` with the `root` role will have the `user` role as well."
 msgstr "共享权限总是在非共享权限之前应用，因此，具有 `root` 角色的 `SecurityIdentity` 也将具有 `user` 角色。"
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Set up path-specific authorization programmatically"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid ""
+"You can also configure the authorization policies presented by this guide so far programmatically.\n"
+"Consider the example mentioned earlier:"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "The same authorization policies can be configured programmatically:"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Additionally, the `io.quarkus.vertx.http.security.HttpSecurity` CDI event can be used to configure specific authentication mechanisms and policies:"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Use the Basic authentication and authorize the requests with a custom `io.quarkus.vertx.http.runtime.security.HttpSecurityPolicy`."
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Use the Bearer token authentication and authorize the `SecurityIdentity` with your own policy."
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Use Authorization Code Flow mechanism and write your own policy based on incoming request headers."
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "When Quarkus fires the `HttpSecurity` CDI event, the runtime configuration is ready."
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid ""
+"Require that all the requests to the `/user-info` path have string permissions `openid`, `email` and `profile`.\n"
+"The same authorization can be required with the `@PermissionsAllowed(value = { \"openid\", \"email\", \"profile\" }, inclusive = true)` annotation instance placed on an endpoint."
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "Programmatic set up references"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "xref:security-basic-authentication.adoc#basic-auth-programmatic-set-up[Set up Basic authentication programmatically]"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "xref:security-openid-connect-multitenancy.adoc#programmatic-startup[Programmatic OIDC start-up for multitenant application]"
+msgstr ""
+
+#: _guides/security-authorize-web-endpoints-reference.adoc
+msgid "xref:security-authentication-mechanisms.adoc#form-based-auth-programmatic-set-up[Set up Form-based authentication programmatically]"
+msgstr ""
 
 #. type: Title ==
 #: _guides/security-authorize-web-endpoints-reference.adoc
