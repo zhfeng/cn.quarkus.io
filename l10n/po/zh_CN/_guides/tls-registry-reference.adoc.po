@@ -71,8 +71,8 @@ msgstr ""
 
 #: _guides/tls-registry-reference.adoc
 msgid ""
-"As described in detail  link:https://github.com/quarkusio/quarkus/blob/main/adr/0004-using-the-tls-registry-for-clients.adoc#configuring-clients-with-the-tls-registry[here], Quarkus client extensions (REST, GRPC, etc) ignore properties, defined in default (ie unnamed) TLS configuration.\n"
-"The only exception is `quarkus.tls.trust-all` property."
+"As described in detail link:https://github.com/quarkusio/quarkus/blob/main/adr/0004-using-the-tls-registry-for-clients.adoc#configuring-clients-with-the-tls-registry[here], Quarkus client extensions (such as REST, GRPC, and so on) ignore properties defined in default (that is, unnamed) TLS configurations.\n"
+"The `quarkus.tls.trust-all` property is the only exception."
 msgstr ""
 
 #: _guides/tls-registry-reference.adoc
@@ -865,7 +865,7 @@ msgstr ""
 
 #: _guides/tls-registry-reference.adoc
 msgid ""
-"The recommended approach for informing clients and servers about the certificate reload is to fire a CDI event of type `io.quarkus.tls.CertificateUpdatedEvent`.\n"
+"The preferred approach for informing clients and servers about the certificate reload is to fire a CDI event of type `io.quarkus.tls.CertificateUpdatedEvent`.\n"
 "To do so, inject a CDI event of this type and fire it when a reload occurs."
 msgstr ""
 
@@ -893,8 +893,8 @@ msgstr ""
 
 #: _guides/tls-registry-reference.adoc
 msgid ""
-"Impacted servers and clients may need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
-"This is automatically done for the Quarkus HTTP server, as well as the Quarkus REST server, gRPC server, and WebSocket server, as well as the management interface if it is enabled.\n"
+"Impacted servers and clients might need to listen to the `CertificateUpdatedEvent` to apply the new certificates.\n"
+"This is automatically handled for the Quarkus HTTP, REST, gRPC, and WebSocket servers, as well as the management interface if enabled.\n"
 "On the client side, Quarkus REST Client automatically handles certificate update events."
 msgstr ""
 
