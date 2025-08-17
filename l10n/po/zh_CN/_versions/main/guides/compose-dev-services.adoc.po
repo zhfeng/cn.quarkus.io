@@ -180,7 +180,7 @@ msgid "AMQP"
 msgstr ""
 
 #: _versions/main/guides/compose-dev-services.adoc
-msgid "amqp, activemq-artemis, rabbitmq"
+msgid "amqp, activemq-artemis, amq-broker, rabbitmq"
 msgstr ""
 
 #: _versions/main/guides/compose-dev-services.adoc
@@ -360,7 +360,7 @@ msgid "Infinispan"
 msgstr ""
 
 #: _versions/main/guides/compose-dev-services.adoc
-msgid "infinispan"
+msgid "infinispan, datagrid"
 msgstr ""
 
 #: _versions/main/guides/compose-dev-services.adoc

@@ -288,6 +288,18 @@ msgstr ""
 msgid "Note that the order of the specified proxy interfaces is significant. For more information, see link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/reflect/Proxy.html[Proxy javadoc]."
 msgstr ""
 
+#: _versions/main/guides/writing-native-applications-tips.adoc
+msgid "Registering resource bundles and resource files"
+msgstr ""
+
+#: _versions/main/guides/writing-native-applications-tips.adoc
+msgid "Resource bundles can be registered to be included in the native image by using `@RegisterResourceBundle`:"
+msgstr ""
+
+#: _versions/main/guides/writing-native-applications-tips.adoc
+msgid "Other resources files can be registered to be included in the native image by using `@RegisterResources`:"
+msgstr ""
+
 #. type: Title ===
 #: _versions/main/guides/writing-native-applications-tips.adoc
 #, no-wrap

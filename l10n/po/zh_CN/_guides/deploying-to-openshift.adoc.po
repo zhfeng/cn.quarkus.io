@@ -636,7 +636,7 @@ msgstr ""
 #: _guides/deploying-to-openshift.adoc
 msgid ""
 "CronJob resources require the https://en.wikipedia.org/wiki/Cron[Cron] expression to specify when to launch the job through the `quarkus.openshift.cron-job.schedule` property.\n"
-"If thet are not provided, the build fails."
+"If they are not provided, the build fails."
 msgstr ""
 
 #: _guides/deploying-to-openshift.adoc
