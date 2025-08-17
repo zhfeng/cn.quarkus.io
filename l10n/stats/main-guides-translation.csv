@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
-l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 742, 879, 10865, 13534, 20%
+l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 742, 880, 10865, 13633, 21%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 458, 506, 7389, 8324, 12%
@@ -59,7 +59,7 @@ l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 98, 1641, 1812,
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 77, 91, 1603, 1719, 7%
 l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 85, 91, 1573, 1619, 3%
-l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 113, 399, 1558, 5100, 70%
+l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 113, 430, 1558, 5478, 72%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
 l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 115, 1541, 1675, 8%
 l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 112, 1512, 1651, 9%
@@ -79,7 +79,7 @@ l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-migration.adoc.po, 94, 97, 1301, 1304, 1%
-l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 40, 107, 1287, 2429, 48%
+l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 40, 110, 1287, 2466, 48%
 l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 59, 223, 1283, 4393, 71%
 l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 65, 139, 1281, 3007, 58%
 l10n/po/zh_CN/_versions/main/guides/container-image.adoc.po, 68, 90, 1279, 1727, 26%
@@ -148,7 +148,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-azure-cloud.adoc.po, 46, 49, 73
 l10n/po/zh_CN/_versions/main/guides/dev-mode-differences.adoc.po, 41, 46, 732, 747, 3%
 l10n/po/zh_CN/_versions/main/guides/azure-functions-http.adoc.po, 44, 46, 728, 730, 1%
 l10n/po/zh_CN/_versions/main/guides/funqy-http.adoc.po, 37, 39, 726, 738, 2%
-l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 50, 719, 876, 18%
+l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
 l10n/po/zh_CN/_versions/main/guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_versions/main/guides/funqy.adoc.po, 21, 21, 710, 710, 0%
 l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 28, 238, 710, 5256, 87%
@@ -208,7 +208,6 @@ l10n/po/zh_CN/_versions/main/guides/pulsar-dev-services.adoc.po, 19, 23, 325, 33
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-kafka-incoming.adoc.po, 63, 113, 308, 1357, 78%
 l10n/po/zh_CN/_versions/main/guides/scheduler.adoc.po, 20, 44, 307, 496, 39%
 l10n/po/zh_CN/_versions/main/guides/web-dependency-locator.adoc.po, 22, 26, 301, 335, 11%
-l10n/po/zh_CN/_versions/main/guides/security-keycloak-authorization.adoc.po, 34, 189, 294, 2506, 89%
 l10n/po/zh_CN/_versions/main/guides/grpc-kubernetes.adoc.po, 14, 17, 291, 319, 9%
 l10n/po/zh_CN/_versions/main/guides/security-jwt.adoc.po, 30, 345, 289, 4871, 95%
 l10n/po/zh_CN/_versions/main/guides/update-quarkus.adoc.po, 20, 22, 289, 307, 6%
@@ -216,6 +215,7 @@ l10n/po/zh_CN/_versions/main/guides/funqy-gcp-functions-http.adoc.po, 10, 14, 28
 l10n/po/zh_CN/_versions/main/guides/funqy-aws-lambda-http.adoc.po, 10, 14, 278, 295, 6%
 l10n/po/zh_CN/_versions/main/guides/security-basic-authentication-howto.adoc.po, 21, 24, 277, 288, 4%
 l10n/po/zh_CN/_versions/main/guides/init-tasks.adoc.po, 20, 37, 275, 630, 57%
+l10n/po/zh_CN/_versions/main/guides/security-keycloak-authorization.adoc.po, 33, 188, 274, 2492, 90%
 l10n/po/zh_CN/_versions/main/guides/rabbitmq-dev-services.adoc.po, 14, 34, 272, 570, 53%
 l10n/po/zh_CN/_versions/main/guides/redis.adoc.po, 22, 78, 268, 849, 69%
 l10n/po/zh_CN/_versions/main/guides/upx.adoc.po, 25, 33, 257, 442, 42%
@@ -249,12 +249,12 @@ l10n/po/zh_CN/_versions/main/guides/_includes/devtools/create-app.adoc.po, 6, 9,
 l10n/po/zh_CN/_versions/main/guides/getting-started-reactive.adoc.po, 5, 74, 45, 1820, 98%
 l10n/po/zh_CN/_versions/main/guides/spring-cloud-config-client.adoc.po, 2, 38, 36, 436, 92%
 l10n/po/zh_CN/_versions/main/guides/_includes/extension-status.adoc.po, 3, 7, 33, 143, 77%
-l10n/po/zh_CN/_versions/main/guides/amqp-dev-services.adoc.po, 1, 19, 31, 334, 91%
+l10n/po/zh_CN/_versions/main/guides/amqp-dev-services.adoc.po, 1, 21, 31, 352, 92%
 l10n/po/zh_CN/_versions/main/guides/_includes/prerequisites.adoc.po, 3, 12, 25, 87, 72%
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/create-cli.adoc.po, 3, 6, 21, 44, 53%
 l10n/po/zh_CN/_versions/main/guides/all-config.adoc.po, 1, 2, 20, 23, 14%
 l10n/po/zh_CN/_versions/main/guides/ide-tooling.adoc.po, 6, 49, 14, 252, 95%
-l10n/po/zh_CN/_versions/main/guides/security-cors.adoc.po, 3, 27, 14, 405, 97%
+l10n/po/zh_CN/_versions/main/guides/security-cors.adoc.po, 3, 27, 14, 418, 97%
 l10n/po/zh_CN/_versions/main/guides/_attributes.adoc.po, 2, 3, 7, 11, 37%
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/build-native-container-parameters.adoc.po, 2, 4, 5, 7, 29%
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/build-native-container.adoc.po, 2, 4, 4, 6, 34%
@@ -276,14 +276,14 @@ l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-encrypted-pem-tech-prev.
 l10n/po/zh_CN/_versions/main/guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 416, 100%
 l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 101, 0, 1099, 100%
-l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 171, 0, 2226, 100%
+l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 171, 0, 2228, 100%
 l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 482, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-native-howto.adoc.po, 0, 30, 0, 395, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 41, 0, 555, 100%
-l10n/po/zh_CN/_versions/main/guides/dev-mcp.adoc.po, 0, 35, 0, 577, 100%
+l10n/po/zh_CN/_versions/main/guides/dev-mcp.adoc.po, 0, 36, 0, 574, 100%
 l10n/po/zh_CN/_versions/main/guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-faq.adoc.po, 0, 40, 0, 933, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1428, 100%
