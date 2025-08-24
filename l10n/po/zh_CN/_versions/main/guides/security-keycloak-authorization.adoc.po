@@ -706,7 +706,7 @@ msgstr ""
 
 #: _versions/main/guides/security-keycloak-authorization.adoc
 msgid ""
-"To use the `AuthzClient` directly, set `quarkus.keycloak.policy-enforcer.enable=true`.\n"
+"To use the `AuthzClient` directly, set `quarkus.keycloak.policy-enforcer.enabled=true`.\n"
 "Otherwise, no bean is available for injection."
 msgstr ""
 

@@ -408,13 +408,12 @@ msgid "By default, integration tests both *build* and *run* the native executabl
 msgstr "默认情况下，集成测试使用 `prod` 配置文件 *build* 和 *run* 原生可执行文件。"
 
 #: _versions/main/guides/building-native-image.adoc
-#, fuzzy
 msgid ""
-"You can override the profile the executable *runs* with during the test using the `quarkus.test.native-image-profile` property.\n"
+"You can override the profile the executable *runs* with during the test using the `quarkus.test.integration-test-profile` property.\n"
 "Either by adding it to `application.properties` or by appending it to the command line:\n"
-"`./mvnw verify -Dnative -Dquarkus.test.native-image-profile=test`.\n"
+"`./mvnw verify -Dnative -Dquarkus.test.integration-test-profile=test`.\n"
 "Your `%test.` prefixed properties will be used at the test runtime."
-msgstr "您可以使用 `quarkus.test.native-image-profile` 属性覆盖可执行文件在测试过程中的 *运行* 配置文件。可将其添加到 `application.properties` 或添加到命令行： `./mvnw verify -Dnative -Dquarkus.test.native-image-profile=test` 。测试运行时将使用 `%test.` 前缀的属性。"
+msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc
 #, fuzzy

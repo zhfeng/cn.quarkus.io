@@ -65,7 +65,7 @@ msgid "Enables the CORS filter."
 msgstr ""
 
 #: _guides/security-cors.adoc
-msgid "Specifies allowed origins, including a regular expression."
+msgid "Specifies allowed origins, including a regular expression. When not specified, CORS is not permitted, and only same-origin requests are allowed."
 msgstr ""
 
 #: _guides/security-cors.adoc

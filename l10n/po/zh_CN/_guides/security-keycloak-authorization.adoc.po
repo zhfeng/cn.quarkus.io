@@ -704,11 +704,6 @@ msgid ""
 msgstr ""
 
 #: _guides/security-keycloak-authorization.adoc
-#, fuzzy
-msgid "If you want to use the `AuthzClient` directly, set `quarkus.keycloak.policy-enforcer.enable=true`; otherwise, no bean is available for injection."
-msgstr "如果要直接使用 `AuthzClient` ，请设置 `quarkus.keycloak.policy-enforcer.enable=true` ；否则，将无法注入任何 Bean。"
-
-#: _guides/security-keycloak-authorization.adoc
 msgid ""
 "To use the `AuthzClient` directly, set `quarkus.keycloak.policy-enforcer.enable=true`.\n"
 "Otherwise, no bean is available for injection."
@@ -720,11 +715,11 @@ msgid "Mapping protected resources"
 msgstr "绘制受保护资源地图"
 
 #: _guides/security-keycloak-authorization.adoc
-msgid "By default, the extension fetches resources from Keycloak on demand, using their URI to identify and map the application resources that require protection."
+msgid "By default, the extension uses lazy loading to fetch resources from Keycloak on demand. It uses the request URI to identify and map application resources that require protection."
 msgstr ""
 
 #: _guides/security-keycloak-authorization.adoc
-msgid "To disable on-demand fetching and instead pre-load resources at startup, configure the following property:"
+msgid "To disable lazy loading and instead pre-load all resources at startup, configure the following property:"
 msgstr ""
 
 #: _guides/security-keycloak-authorization.adoc

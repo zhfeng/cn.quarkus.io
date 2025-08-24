@@ -317,16 +317,53 @@ msgstr "表示密码使用的字段。默认情况下，它使用 bcrypt 加密�
 msgid "Indicates the comma-separated list of roles added to the target principal representation attributes."
 msgstr "用逗号分隔的角色列表。"
 
-#. type: Plain text
 #: _versions/main/guides/security-getting-started-tutorial.adoc
-#, fuzzy
-msgid "Allows us to add users while hashing passwords with the proper bcrypt hash."
-msgstr "允许我们添加用户，同时使用适当的 bcrypt 哈希值散列密码。"
+msgid "Provides a helper method to add users with properly hashed passwords. The `BcryptUtil.bcryptHash()` method:"
+msgstr ""
 
 #: _versions/main/guides/security-getting-started-tutorial.adoc
-#, fuzzy
-msgid "Don’t forget to set up the Panache and PostgreSQL JDBC driver, please see xref:hibernate-orm-panache.adoc#setting-up-and-configuring-hibernate-orm-with-panache[Setting up and configuring Hibernate ORM with Panache] for more information."
-msgstr "不要忘记设置 Panache 和 PostgreSQL JDBC 驱动程序，更多信息请参阅 xref:hibernate-orm-panache.adoc#setting-up-and-configuring-hibernate-orm-with-panache[使用 Panache 设置和配置 Hibernate ORM] 。"
+msgid "Automatically generates a random salt for each password."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "Hashes the password using bcrypt with 10 iterations (default)."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "Returns the hash in Modular Crypt Format (MCF), which includes the algorithm identifier, cost parameter, salt, and hash."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "**Password hashing best practices:**"
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "Always pass plain text passwords to `BcryptUtil.bcryptHash()` - never pre-hash them."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "The bcrypt hash includes the salt, so no separate salt storage is needed."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "To verify passwords during authentication, the framework automatically uses `BcryptUtil.matches(plainPassword, hashedPassword)`."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "For custom iterations: `BcryptUtil.bcryptHash(password, iterationCount)` where higher iterations (12-14) provide more security but slower performance."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "For more information about configuring passwords and roles, see xref:configure-the-application[Configure the application]."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "For more information on hashing passwords and available options, see xref:security-jpa.adoc#password-storage-and-hashing[Password storage and hashing]."
+msgstr ""
+
+#: _versions/main/guides/security-getting-started-tutorial.adoc
+msgid "Remember to set up the Panache and PostgreSQL JDBC driver. For more information, see xref:hibernate-orm-panache.adoc#setting-up-and-configuring-hibernate-orm-with-panache[Setting up and configuring Hibernate ORM with Panache]."
+msgstr ""
 
 #: _versions/main/guides/security-getting-started-tutorial.adoc
 #, fuzzy

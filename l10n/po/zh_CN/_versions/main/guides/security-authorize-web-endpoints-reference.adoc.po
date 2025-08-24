@@ -29,13 +29,6 @@ msgid ""
 "When security is active, the system performs a permission check on all HTTP requests to determine if they should proceed."
 msgstr "Quarkus 包含一个可插拔的网络安全层。当安全性处于激活状态时，系统会对所有 HTTP 请求进行权限检查，以确定它们是否应该继续。"
 
-#: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
-#, fuzzy
-msgid ""
-"Using `@PermitAll` will not open a path if the path is restricted by the `quarkus.http.auth.` configuration.\n"
-"To ensure specific paths are accessible, appropriate configurations must be made within the Quarkus security settings."
-msgstr "如果路径受到 `quarkus.http.auth.` 配置的限制，使用 `@PermitAll` 将无法打开该路径。要确保特定路径可以访问，必须在 Quarkus 安全设置中进行适当配置。"
-
 #. type: delimited block =
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
 #, fuzzy
@@ -60,6 +53,10 @@ msgstr "使用配置进行授权"
 #, fuzzy
 msgid "Permissions are defined in the Quarkus configuration by permission sets, each specifying a policy for access control."
 msgstr "在 Quarkus 配置中，权限由权限集定义，每个权限集指定一个访问控制策略。"
+
+#: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
+msgid "When a security policy's `paths` property contains the most specific path that matches the current request path, it takes precedence over other security policies with matching paths and is said to win."
+msgstr ""
 
 #. type: Block title
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
@@ -350,7 +347,7 @@ msgstr "前面的示例演示了当路径以 `*` 通配符结尾时匹配所有�
 
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
 msgid ""
-"This wildcard also applies in the middle of a path, representing a single path segment.\n"
+"This wildcard can also be applied in the middle of a path, representing a single path segment.\n"
 "It cannot be mixed with other path segment characters; thus, path separators always enclose the `$$*$$` wildcard, as seen in the `/public/$$*$$/about-us` path."
 msgstr ""
 
@@ -576,11 +573,10 @@ msgid "Map `SecurityIdentity` roles"
 msgstr "地图 `SecurityIdentity` 作用"
 
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
-#, fuzzy
 msgid ""
-"Winning role-based policy can map the `SecurityIdentity` roles to the deployment-specific roles.\n"
+"The winning role-based policy that was chosen to authorize the current request can map `SecurityIdentity` roles to deployment-specific roles.\n"
 "These roles are then applicable for endpoint authorization by using the `@RolesAllowed` annotation."
-msgstr "基于角色的制胜策略可将 `SecurityIdentity` 角色映射到特定于部署的角色。然后，通过使用 `@RolesAllowed` 注释，这些角色可用于端点授权。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
@@ -614,13 +610,12 @@ msgid "Shared permission checks"
 msgstr "共享权限检查"
 
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
-#, fuzzy
 msgid ""
 "One important rule for unshared permission checks is that only one path match is applied, the most specific one.\n"
-"Naturally you can specify as many permissions with the same winning path as you want and they will all be applied.\n"
+"When a path matches as the most specific, you can specify multiple permissions for that path and they are all applied.\n"
 "However, there can be permission checks you want to apply to many paths without repeating them over and over again.\n"
 "That's where shared permission checks come in, they are always applied when the permission path is matched."
-msgstr "非共享权限检查的一个重要规则是，只应用一个路径匹配，即最特殊的路径。当然，你可以指定任意多个具有相同获胜路径的权限，它们都会被应用。不过，有些权限检查可能需要应用于多个路径，而不需要重复使用。这就是共享权限检查的用处，它们总是在权限路径匹配时应用。"
+msgstr ""
 
 #. type: Block title
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
@@ -722,6 +717,14 @@ msgstr ""
 msgid "xref:security-authentication-mechanisms.adoc#mtls-programmatic-set-up[Set up the mutual TLS client authentication programmatically]"
 msgstr ""
 
+#: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
+msgid "xref:security-cors.adoc#cors-filter-programmatic-set-up[Configuring the CORS filter programmatically]"
+msgstr ""
+
+#: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
+msgid "xref:security-csrf-prevention.adoc#csrf-prevention-programmatic-set-up[Configuring the CSRF prevention programmatically]"
+msgstr ""
+
 #. type: Title ==
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
 #, fuzzy, no-wrap
@@ -734,6 +737,13 @@ msgid ""
 "{project-name} includes built-in security to allow for link:https://en.wikipedia.org/wiki/Role-based_access_control[Role-Based Access Control (RBAC)]\n"
 "based on the common security annotations `@RolesAllowed`, `@DenyAll`, `@PermitAll` on REST endpoints and CDI beans."
 msgstr "{project-name} 包含内置安全功能，可根据 REST 端点和 CDI Bean 上的通用安全注释 `@RolesAllowed` , `@DenyAll` , `@PermitAll` 实现 link:https://en.wikipedia.org/wiki/Role-based_access_control[基于角色的访问控制 (RBAC] )。"
+
+#: _versions/main/guides/security-authorize-web-endpoints-reference.adoc
+msgid ""
+"Authorization checks for `quarkus.http.auth.` configurations are performed before security checks for standard security annotations.\n"
+"Therefore, `@PermitAll` only permits access to paths that are not already restricted by HTTP permissions.\n"
+"`@PermitAll` cannot override HTTP-level security configurations, only relax restrictions imposed by other standard security annotations such as `@RolesAllowed`."
+msgstr ""
 
 #. type: Block title
 #: _versions/main/guides/security-authorize-web-endpoints-reference.adoc

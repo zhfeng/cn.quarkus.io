@@ -197,13 +197,12 @@ msgid "Configuration property conflicts"
 msgstr "配置键冲突"
 
 #: _versions/main/guides/config-yaml.adoc
-#, fuzzy
 msgid ""
 "The MicroProfile Config specification defines configuration properties as an arbitrary `.`-delimited string.\n"
 "However, structured formats such as YAML only support a subset of the possible configuration namespace.\n"
-"For example, consider the two configuration properties `quarkus.http.cors` and `quarkus.http.cors.methods`.\n"
+"For example, consider the two configuration properties `one.two` and `one.two.three`.\n"
 "One property is the prefix of another, so it might not be immediately evident how to specify both keys in your YAML configuration."
-msgstr "MicroProfile Config 规范将配置属性定义为任意 `.` 分隔的字符串。然而，YAML 等结构化格式只支持可能的配置命名空间的一个子集。例如，考虑两个配置属性 `quarkus.http.cors` 和 `quarkus.http.cors.methods` 。其中一个属性是另一个属性的前缀，因此在 YAML 配置中如何指定这两个键可能并不明显。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/config-yaml.adoc

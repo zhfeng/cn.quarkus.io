@@ -110,9 +110,9 @@ msgstr "配置AMQP代理访问"
 
 #: _guides/amqp-reference.adoc
 msgid ""
-"The AMQP connector connects to AMQP 1.0 brokers such as Apache ActiveMQ or Artemis.\n"
+"The AMQP connector connects to AMQP 1.0 brokers such as Apache's ActiveMQ Classic or ActiveMQ Artemis.\n"
 "To configure the location and credentials of the broker, add the following properties in the `application.properties`:"
-msgstr "AMQP连接器连接到AMQP 1.0代理，如Apache ActiveMQ或Artemis。要配置代理的位置和凭证，请在 `application.properties` 中添加以下属性："
+msgstr ""
 
 #. type: Plain text
 #: _guides/amqp-reference.adoc
@@ -522,8 +522,8 @@ msgstr "如果没有设置 `address` 属性，连接器将使用通道名称。"
 #: _guides/amqp-reference.adoc
 msgid ""
 "To use an existing queue, you need to configure the `address`, `container-id` and, optionally, the `link-name` attributes.\n"
-"For example, if you have an Apache Artemis broker configured with:"
-msgstr "要使用一个现有的队列，你需要配置 `address` , `container-id` 及可选的 `link-name` 属性。例如，如果你有一个Apache Artemis代理，使用以下方式配置："
+"For example, if you have an Apache ActiveMQ Artemis broker configured with:"
+msgstr ""
 
 #. type: Plain text
 #: _guides/amqp-reference.adoc
@@ -540,10 +540,9 @@ msgstr "如果队列名称不是通道名称，你可能需要配置 `link-name`
 msgid "To use a `MULTICAST` queue, you need to provide the _FQQN_ (fully-qualified queue name) instead of just the name of the queue:"
 msgstr "要使用 `MULTICAST` 队列，你需要提供 _FQQN_ （完全限定队列名称），而不仅仅是队列的名称:"
 
-#. type: Plain text
 #: _guides/amqp-reference.adoc
-msgid "More details about the AMQP Address model can be found in the https://activemq.apache.org/components/artemis/documentation/2.0.0/address-model.html[Artemis documentation]."
-msgstr "关于AMQP地址模型的更多详情，请参阅 link:https://activemq.apache.org/components/artemis/documentation/2.0.0/address-model.html[Artemis文档] 。"
+msgid "More details about the AMQP Address model can be found in the https://activemq.apache.org/components/artemis/documentation/latest/address-model.html[ActiveMQ Artemis documentation]."
+msgstr ""
 
 #. type: Title ===
 #: _guides/amqp-reference.adoc

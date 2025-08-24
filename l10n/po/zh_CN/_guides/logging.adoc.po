@@ -539,6 +539,10 @@ msgid "An example of how you can set the default log level to `INFO` logging and
 msgstr "运行时日志是在 `application.properties` 文件中配置的，例如，将默认日志级别设置为 `INFO` 日志，并包括Hibernate `DEBUG` 日志。"
 
 #: _guides/logging.adoc
+msgid "The equivalent in YAML (assuming the https://quarkus.io/guides/config-yaml[Quarkus YAML extension] is included) would be:"
+msgstr ""
+
+#: _guides/logging.adoc
 msgid ""
 "When you set the log level to below `DEBUG`, you must also adjust the minimum log level.\n"
 "This setting might be applied either globally with the `quarkus.log.min-level` configuration property, or per category:"
