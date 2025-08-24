@@ -37,7 +37,7 @@ l10n/po/zh_CN/_guides/smallrye-graphql.adoc.po, 163, 180, 2351, 2455, 5%
 l10n/po/zh_CN/_guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_guides/security-authentication-mechanisms.adoc.po, 153, 228, 2328, 3584, 36%
 l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
-l10n/po/zh_CN/_guides/logging.adoc.po, 250, 320, 2206, 3331, 34%
+l10n/po/zh_CN/_guides/logging.adoc.po, 250, 321, 2206, 3345, 35%
 l10n/po/zh_CN/_guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
 l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3273, 37%
@@ -167,7 +167,7 @@ l10n/po/zh_CN/_guides/jms.adoc.po, 36, 53, 609, 725, 16%
 l10n/po/zh_CN/_guides/security-overview.adoc.po, 40, 48, 609, 722, 16%
 l10n/po/zh_CN/_guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-client.adoc.po, 140, 146, 595, 601, 1%
-l10n/po/zh_CN/_guides/amqp-reference.adoc.po, 25, 229, 591, 2931, 80%
+l10n/po/zh_CN/_guides/amqp-reference.adoc.po, 25, 229, 591, 2935, 80%
 l10n/po/zh_CN/_guides/security-jdbc.adoc.po, 30, 48, 552, 744, 26%
 l10n/po/zh_CN/_guides/mongodb.adoc.po, 22, 118, 548, 2030, 74%
 l10n/po/zh_CN/_guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
@@ -206,7 +206,6 @@ l10n/po/zh_CN/_guides/grpc-virtual-threads.adoc.po, 14, 16, 326, 330, 2%
 l10n/po/zh_CN/_guides/pulsar-dev-services.adoc.po, 19, 23, 325, 335, 3%
 l10n/po/zh_CN/_guides/scheduler.adoc.po, 20, 44, 307, 496, 39%
 l10n/po/zh_CN/_guides/_includes/smallrye-kafka-incoming.adoc.po, 62, 112, 305, 1354, 78%
-l10n/po/zh_CN/_guides/security-keycloak-authorization.adoc.po, 34, 189, 294, 2506, 89%
 l10n/po/zh_CN/_guides/grpc-kubernetes.adoc.po, 14, 17, 291, 319, 9%
 l10n/po/zh_CN/_guides/security-jwt.adoc.po, 30, 345, 289, 4871, 95%
 l10n/po/zh_CN/_guides/update-quarkus.adoc.po, 20, 22, 289, 307, 6%
@@ -214,6 +213,7 @@ l10n/po/zh_CN/_guides/funqy-gcp-functions-http.adoc.po, 10, 14, 283, 300, 6%
 l10n/po/zh_CN/_guides/funqy-aws-lambda-http.adoc.po, 10, 14, 278, 295, 6%
 l10n/po/zh_CN/_guides/security-basic-authentication-howto.adoc.po, 21, 24, 277, 288, 4%
 l10n/po/zh_CN/_guides/init-tasks.adoc.po, 20, 37, 275, 630, 57%
+l10n/po/zh_CN/_guides/security-keycloak-authorization.adoc.po, 33, 188, 274, 2492, 90%
 l10n/po/zh_CN/_guides/rabbitmq-dev-services.adoc.po, 14, 34, 272, 570, 53%
 l10n/po/zh_CN/_guides/redis.adoc.po, 22, 78, 268, 849, 69%
 l10n/po/zh_CN/_guides/upx.adoc.po, 25, 33, 257, 442, 42%
@@ -250,7 +250,7 @@ l10n/po/zh_CN/_guides/_includes/prerequisites.adoc.po, 3, 11, 25, 86, 71%
 l10n/po/zh_CN/_guides/all-config.adoc.po, 1, 2, 20, 23, 14%
 l10n/po/zh_CN/_guides/_includes/devtools/create-cli.adoc.po, 2, 5, 19, 42, 55%
 l10n/po/zh_CN/_guides/ide-tooling.adoc.po, 6, 49, 14, 252, 95%
-l10n/po/zh_CN/_guides/security-cors.adoc.po, 3, 27, 14, 405, 97%
+l10n/po/zh_CN/_guides/security-cors.adoc.po, 3, 27, 14, 418, 97%
 l10n/po/zh_CN/_guides/_attributes.adoc.po, 2, 3, 7, 11, 37%
 l10n/po/zh_CN/_guides/_includes/devtools/build-native-container-parameters.adoc.po, 1, 6, 1, 26, 97%
 l10n/po/zh_CN/_guides/_includes/devtools/build-native-container.adoc.po, 1, 3, 1, 3, 67%

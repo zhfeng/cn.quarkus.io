@@ -61,7 +61,7 @@ l10n/po/zh_CN/_data/getstarted-videos.yaml.po, 21, 21, 91, 91, 0%
 l10n/po/zh_CN/_data/callout-quotes.yaml.po, 3, 3, 55, 55, 0%
 l10n/po/zh_CN/_data/cheatsheets.yaml.po, 11, 11, 42, 42, 0%
 l10n/po/zh_CN/_data/event_worldtour_hero.yaml.po, 2, 2, 34, 34, 0%
-l10n/po/zh_CN/_data/events.yaml.po, 4, 111, 9, 705, 99%
+l10n/po/zh_CN/_data/events.yaml.po, 4, 118, 9, 776, 99%
 l10n/po/zh_CN/_data/1kcontributor-list.yaml.po, 0, 3940, 0, 7910, 100%
 l10n/po/zh_CN/_data/guides.yaml.po, 0, 5, 0, 15, 100%
 l10n/po/zh_CN/_data/index-docs.yaml.po, 0, 14, 0, 67, 100%
@@ -71,4 +71,4 @@ l10n/po/zh_CN/_data/versioned/3-15/index/quarkus.yaml.po, 0, 1478, 0, 6258, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/relations.yaml.po, 0, 481, 0, 1282, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/quarkus.yaml.po, 0, 1537, 0, 6441, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/relations.yaml.po, 0, 499, 0, 1357, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 148, 0, 4895, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 147, 0, 4893, 100%
