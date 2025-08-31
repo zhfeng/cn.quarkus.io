@@ -33,16 +33,16 @@ l10n/po/zh_CN/_includes/kubernetes-native.html.po, 0, 16, 0, 403, 100%
 l10n/po/zh_CN/_includes/support-options-band.html.po, 0, 5, 0, 33, 100%
 l10n/po/zh_CN/_includes/worldtour-code.html.po, 0, 3, 0, 36, 100%
 l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 637, 1563, 3300, 6530, 50%
-l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 619, 1558, 3235, 6519, 51%
+l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 619, 1563, 3235, 6530, 51%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 825, 2376, 3245, 27%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 821, 2376, 3235, 27%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 78, 84, 886, 904, 2%
 l10n/po/zh_CN/_data/extensions.yaml.po, 390, 416, 856, 883, 4%
 l10n/po/zh_CN/_data/versioned/main/index/relations.yaml.po, 162, 509, 720, 1380, 48%
-l10n/po/zh_CN/_data/versioned/latest/index/relations.yaml.po, 158, 507, 711, 1377, 49%
+l10n/po/zh_CN/_data/versioned/latest/index/relations.yaml.po, 158, 509, 711, 1380, 49%
 l10n/po/zh_CN/_data/versioned/3-8/index/relations.yaml.po, 158, 446, 702, 1195, 42%
 l10n/po/zh_CN/_data/versioned/3-6/index/relations.yaml.po, 154, 444, 674, 1182, 43%
 l10n/po/zh_CN/_data/qtips-videos.yaml.po, 106, 111, 395, 412, 5%
@@ -71,4 +71,4 @@ l10n/po/zh_CN/_data/versioned/3-15/index/quarkus.yaml.po, 0, 1478, 0, 6258, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/relations.yaml.po, 0, 481, 0, 1282, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/quarkus.yaml.po, 0, 1537, 0, 6441, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/relations.yaml.po, 0, 499, 0, 1357, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 147, 0, 4893, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 155, 0, 5246, 100%
