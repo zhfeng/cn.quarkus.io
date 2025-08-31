@@ -148,7 +148,11 @@ msgid "OIDC request filters"
 msgstr ""
 
 #: _guides/security-openid-connect-client-registration.adoc
-msgid "You can filter OIDC client registration and registered client requests registering one or more `OidcRequestFilter` implementations, which can update or add new request headers. For example, a filter can analyze the request body and add its digest as a new header value:"
+msgid "You can filter OIDC client registration and registered client requests registering one or more `OidcRequestFilter` implementations, which can update or add new request headers, as well as customize a request body."
+msgstr ""
+
+#: _guides/security-openid-connect-client-registration.adoc
+msgid "For example, a filter can analyze the request body and add its digest as a new header value:"
 msgstr ""
 
 #: _guides/security-openid-connect-client-registration.adoc
@@ -167,6 +171,12 @@ msgstr ""
 msgid ""
 "`OidcRequestContextProperties` can be used to access request properties.\n"
 "Currently, you can use a `client_id` key to access the client tenant id and a `grant_type` key to access the grant type which the OIDC client uses to acquire tokens."
+msgstr ""
+
+#: _guides/security-openid-connect-client-registration.adoc
+msgid ""
+"`OidcRequestFilter` can customize a request body by preparing an instance of `io.vertx.mutiny.core.buffer.Buffer`\n"
+"and setting it on a request context, for example:"
 msgstr ""
 
 #: _guides/security-openid-connect-client-registration.adoc
@@ -199,6 +209,12 @@ msgstr ""
 
 #: _guides/security-openid-connect-client-registration.adoc
 msgid "Confirm the client name property was updated."
+msgstr ""
+
+#: _guides/security-openid-connect-client-registration.adoc
+msgid ""
+"`OidcResponseFilter` can customize a response body by preparing an instance of `io.vertx.mutiny.core.buffer.Buffer`\n"
+"and setting it as a property on a response context, for example:"
 msgstr ""
 
 #: _guides/security-openid-connect-client-registration.adoc

@@ -343,11 +343,11 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-metrics.adoc
-msgid "OpenTelemetry provides many other types of Counters: `LongUpDownCounter`, `DoubleCounter`, `DoubleUpDownCounter` and also Observable, async counters like `ObservableLongCounter`, `ObservableDoubleCounter`, `ObservableLongUpDownCounter` and `ObservableDoubleUpDownCounter`."
+msgid "OpenTelemetry provides many other types of Counters: `LongUpDownCounter`, `DoubleCounter`, `UpDownCounter`,  `DoubleUpDownCounter` and also Observable, async counters like `ObservableLongCounter`, `ObservableDoubleCounter`, `ObservableLongUpDownCounter` and `ObservableDoubleUpDownCounter`."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-metrics.adoc
-msgid "For more details please refer to the https://opentelemetry.io/docs/languages/java/instrumentation/#using-counters[OpenTelemetry Java documentation about Counters]."
+msgid "For more details please refer to the https://opentelemetry.io/docs/languages/java/api/#counter[OpenTelemetry Java documentation about Counters]."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry-metrics.adoc

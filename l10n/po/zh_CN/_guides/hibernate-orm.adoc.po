@@ -765,6 +765,14 @@ msgstr "注入一个命名的持久化单元（ `users` 在我们的例子中）
 msgid "Here again, we use the same `@io.quarkus.hibernate.orm.PersistenceUnit` annotation."
 msgstr "在这里，我们再次使用相同的 `@io.quarkus.hibernate.orm.PersistenceUnit` 注释。"
 
+#: _guides/hibernate-orm.adoc
+msgid "The injected `EntityManager` or `Session` instance is a proxy that requires an active transaction for interaction."
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid "By default it is also possible to use it for read-only operations without a transaction when in a request scope, but this can be disabled by setting `quarkus.hibernate-orm.request-scoped.enabled` to `false`."
+msgstr ""
+
 #. type: Plain text
 #: _guides/hibernate-orm.adoc
 #, fuzzy
@@ -1042,11 +1050,11 @@ msgid ""
 msgstr "这样，应用程序，特别是实体的每一次更改，数据库模式都会正确地重新创建，而数据夹具（存储在 `import.sql` 中）将用于从头开始重新填充。这是对环境进行完美控制的最佳方式，与 Quarkus 实时重载模式配合使用，效果奇佳：您的实体更改或对 `import.sql` 的任何更改都会立即被接收，并在无需重启应用程序的情况下更新模式！"
 
 #: _guides/hibernate-orm.adoc
-#, fuzzy
 msgid ""
 "By default, in `dev` and `test` modes, Hibernate ORM, upon boot, will read and execute the SQL statements in the `/import.sql` file (if present).\n"
-"You can change the file name by changing the property `quarkus.hibernate-orm.sql-load-script` in `application.properties`."
-msgstr "默认情况下，在 `dev` 和 `test` 模式下，Hibernate ORM 将在启动时读取并执行 `/import.sql` 文件（如果存在）中的 SQL 语句。你可以通过修改 `application.properties` 中的属性 `quarkus.hibernate-orm.sql-load-script` 来更改文件名。"
+"You can change the file name by changing the property `quarkus.hibernate-orm.sql-load-script` in `application.properties`.\n"
+"You can also provide a `.zip` file in the same way which should contain only the files containing the SQL statements to be executed."
+msgstr ""
 
 #: _guides/hibernate-orm.adoc
 msgid ""
@@ -1192,6 +1200,49 @@ msgid ""
 "This button is simply a convenience to quickly get you started with Flyway, it is up to you to determine how you want to\n"
 "manage your database schemas in production. In particular the `migrate-at-start` setting may not be right for all environments."
 msgstr "这个按钮只是为了方便您快速开始使用 Flyway，您可以自行决定在生产中如何管理数据库模式。尤其是 `migrate-at-start` 设置不一定适合所有环境。"
+
+#: _guides/hibernate-orm.adoc
+msgid "Offline startup"
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid "By default, Hibernate attempts to connect to the database at startup to fetch metadata. This is useful, for example, to validate the schema or create some temporary tables, making the startup process smoother and more user-friendly."
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid ""
+"However, in certain environments, such as when running a Quarkus application in a container within a Kubernetes\n"
+"cluster, this connection might not be possible. For example, if the application runs in one pod and the database\n"
+"in another, the database may not be reachable at startup time.\n"
+"To address this, Quarkus provides an _offline startup_ mode, which allows Hibernate to skip connecting to the database\n"
+"during application startup."
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid ""
+"When using offline startup, it's important to ensure that the database schema has already been created correctly before\n"
+"the application starts."
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid ""
+"You can rely on xref:flyway.adoc[Flyway], xref:liquibase.adoc[Liquibase] or custom setups to create/migrate your database schema,\n"
+"though obviously at a time where the database _is_ accessible --\n"
+"Flyway's `migrate-at-start` option in particular will just fail at application startup\n"
+"if the database is not reachable."
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid "To enable offline startup, set the following configuration property:"
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid "You can also fine-tune dialect behavior for specific databases using additional properties, such as:"
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid "Refer to the <<hibernate-configuration-properties,Hibernate ORM configuration properties>> section for more details on the available properties."
+msgstr ""
 
 #. type: Title ==
 #: _guides/hibernate-orm.adoc
@@ -2247,6 +2298,22 @@ msgstr ""
 
 #: _guides/hibernate-orm.adoc
 msgid "And then the repository can be used as any other bean:"
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid ""
+"When working with non-default persistence units, remember to specify the persistence unit name the repository is targeting\n"
+"in the `dataStore` attribute of the repository annotation:"
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid "Pass the name of the non-default persistence unit to the repository annotation (`other` in this example)."
+msgstr ""
+
+#: _guides/hibernate-orm.adoc
+msgid ""
+"Review the https://jakarta.ee/specifications/data/1.0/apidocs/jakarta.data/jakarta/data/repository/repository#dataStore()[Javadoc of the `@Repository` annotation]\n"
+"to learn more about the `dataStore` attribute."
 msgstr ""
 
 #: _guides/hibernate-orm.adoc

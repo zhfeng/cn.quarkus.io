@@ -319,5 +319,15 @@ msgid ""
 msgstr "默认情况下，共享功能在开发模式下启用，但在测试模式下禁用。您可以使用 `quarkus.infinispan-client.devservices.shared=false`"
 
 #: _guides/infinispan-dev-services.adoc
+msgid "Compose"
+msgstr ""
+
+#: _guides/infinispan-dev-services.adoc
+msgid ""
+"Dev Services for Infinispan supports xref:compose-dev-services.adoc[Compose Dev Services].\n"
+"It relies on a `compose-devservices.yml`, such as:"
+msgstr ""
+
+#: _guides/infinispan-dev-services.adoc
 msgid "Configuration reference"
 msgstr ""
