@@ -1,5 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 599, 649, 12243, 13024, 6%
+l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 598, 650, 12162, 13007, 7%
 l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 742, 880, 10865, 13633, 21%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
@@ -16,7 +16,7 @@ l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055,
 l10n/po/zh_CN/_versions/main/guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 174, 247, 4011, 5319, 25%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
-l10n/po/zh_CN/_versions/main/guides/config-reference.adoc.po, 219, 231, 3837, 4109, 7%
+l10n/po/zh_CN/_versions/main/guides/config-reference.adoc.po, 208, 254, 3490, 4481, 23%
 l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
 l10n/po/zh_CN/_versions/main/guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
 l10n/po/zh_CN/_versions/main/guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
@@ -25,8 +25,8 @@ l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 211, 3224, 3883
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 201, 3103, 3185, 3%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
-l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 197, 2819, 4160, 33%
+l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 168, 2940, 3224, 9%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 197, 2819, 4159, 33%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 277, 353, 2640, 4274, 39%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3209, 19%
@@ -102,7 +102,7 @@ l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 1
 l10n/po/zh_CN/_versions/main/guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
 l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 47, 67, 1057, 1458, 28%
 l10n/po/zh_CN/_versions/main/guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
-l10n/po/zh_CN/_versions/main/guides/lifecycle.adoc.po, 54, 68, 1033, 1121, 8%
+l10n/po/zh_CN/_versions/main/guides/lifecycle.adoc.po, 54, 71, 1033, 1203, 15%
 l10n/po/zh_CN/_versions/main/guides/mongodb-panache.adoc.po, 47, 201, 1033, 3918, 74%
 l10n/po/zh_CN/_versions/main/guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_versions/main/guides/quartz.adoc.po, 71, 89, 1027, 1142, 11%
@@ -298,8 +298,8 @@ l10n/po/zh_CN/_versions/main/guides/observability.adoc.po, 0, 57, 0, 641, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 174, 0, 1763, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1822, 100%
-l10n/po/zh_CN/_versions/main/guides/quarkus-runtime-base-image.adoc.po, 0, 14, 0, 190, 100%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 720, 0, 12922, 100%
+l10n/po/zh_CN/_versions/main/guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 723, 0, 12987, 100%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-registration.adoc.po, 0, 57, 0, 1024, 100%
 l10n/po/zh_CN/_versions/main/guides/security-vertx-oidc-to-quarkus-oidc-migration.adoc.po, 0, 132, 0, 3155, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
