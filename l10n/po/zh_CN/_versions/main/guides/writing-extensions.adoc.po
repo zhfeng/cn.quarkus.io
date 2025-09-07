@@ -2164,14 +2164,15 @@ msgid "Injecting Configuration into Recorders"
 msgstr "将配置注入记录器中"
 
 #: _versions/main/guides/writing-extensions.adoc
-#, fuzzy
 msgid ""
 "Configuration objects with phase `RUNTIME` or `BUILD_AND_RUNTIME_FIXED` can be injected into recorders via constructor\n"
-"injection. Just create a constructor that takes the configuration objects the recorder needs. If the recorder has multiple\n"
-"constructors you can annotate the one you want Quarkus to use with `@Inject`. If the recorder wants to inject runtime config\n"
-"but is also used at static init time then it needs to inject a `RuntimeValue<ConfigObject>`, this value will only be set\n"
-"when the runtime methods are being invoked."
-msgstr "带有相位 `RUNTIME` 或 `BUILD_AND_RUNTIME_FIXED` 的配置对象可通过构造函数注入的方式注入记录器。只需创建一个构造函数，接收记录仪所需的配置对象即可。如果记录器有多个构造函数，你可以用 `@Inject` 来注解你希望 Quarkus 使用的那个。如果记录器想要注入运行时配置，但也在静态初始化时使用，那么它就需要注入一个 `RuntimeValue<ConfigObject>` ，这个值只有在运行时方法被调用时才会被设置。"
+"injection. The constructor requires a parameter for each configuration object type. If the Configuration object type is\n"
+"declared to be in the `RUNTIME` phase, it must be wrapped in a `RuntimeValue<>` type."
+msgstr ""
+
+#: _versions/main/guides/writing-extensions.adoc
+msgid "If the recorder has multiple constructors you can annotate the one you want Quarkus to use with `@Inject`."
+msgstr ""
 
 #. type: Title ====
 #: _versions/main/guides/writing-extensions.adoc

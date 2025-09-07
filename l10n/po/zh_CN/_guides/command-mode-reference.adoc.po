@@ -370,6 +370,30 @@ msgstr "每个测试方法都必须用 `@Launch` 进行注释，以便自动启�
 msgid "We can then extend this with an integration test that can be used to test the native executable or runnable jar:"
 msgstr "然后，我们可以用一个集成测试来扩展它，该测试可以用来测试本地可执行文件或可运行的jar。"
 
+#: _guides/command-mode-reference.adoc
+msgid "Limitations"
+msgstr ""
+
+#: _guides/command-mode-reference.adoc
+msgid "`@QuarkusMainTest` does **not** support the following features:"
+msgstr ""
+
+#: _guides/command-mode-reference.adoc
+msgid "Injection of CDI beans"
+msgstr ""
+
+#: _guides/command-mode-reference.adoc
+msgid "Using Panache entities"
+msgstr ""
+
+#: _guides/command-mode-reference.adoc
+msgid "Using mocks with `@InjectMock`"
+msgstr ""
+
+#: _guides/command-mode-reference.adoc
+msgid "Usually, it's best to use a combination of `@QuarkusMainTest` tests for testing application externals, and `@QuarkusTest` tests for fine-grained testing which requires access to application internals."
+msgstr ""
+
 #. type: Title ===
 #: _guides/command-mode-reference.adoc
 #, no-wrap
