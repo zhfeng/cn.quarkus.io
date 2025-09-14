@@ -1,5 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 598, 649, 12193, 13024, 7%
+l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 597, 650, 12112, 13007, 7%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 739, 880, 10820, 13633, 21%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_guides/rest.adoc.po, 456, 509, 7349, 8423, 13%
@@ -26,7 +26,7 @@ l10n/po/zh_CN/_guides/infinispan-client-reference.adoc.po, 187, 201, 3060, 3185,
 l10n/po/zh_CN/_guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_guides/cache.adoc.po, 152, 163, 2940, 3097, 6%
 l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 275, 2911, 3300, 12%
-l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 140, 197, 2803, 4160, 33%
+l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 140, 197, 2803, 4159, 33%
 l10n/po/zh_CN/_guides/datasource.adoc.po, 277, 353, 2640, 4274, 39%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3209, 19%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 146, 233, 2583, 4209, 39%
@@ -68,7 +68,7 @@ l10n/po/zh_CN/_guides/smallrye-fault-tolerance.adoc.po, 67, 120, 1436, 2240, 36%
 l10n/po/zh_CN/_guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
 l10n/po/zh_CN/_guides/hibernate-reactive-panache.adoc.po, 48, 153, 1402, 3035, 54%
 l10n/po/zh_CN/_guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
-l10n/po/zh_CN/_guides/extension-registry-user.adoc.po, 65, 72, 1391, 1539, 10%
+l10n/po/zh_CN/_guides/extension-registry-user.adoc.po, 65, 82, 1391, 1660, 17%
 l10n/po/zh_CN/_guides/deploying-to-google-cloud.adoc.po, 80, 89, 1356, 1478, 9%
 l10n/po/zh_CN/_guides/smallrye-graphql-client.adoc.po, 43, 62, 1347, 1486, 10%
 l10n/po/zh_CN/_guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
@@ -294,8 +294,8 @@ l10n/po/zh_CN/_guides/observability.adoc.po, 0, 57, 0, 641, 100%
 l10n/po/zh_CN/_guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589, 100%
 l10n/po/zh_CN/_guides/opentelemetry-metrics.adoc.po, 0, 174, 0, 1763, 100%
 l10n/po/zh_CN/_guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1822, 100%
-l10n/po/zh_CN/_guides/quarkus-runtime-base-image.adoc.po, 0, 14, 0, 190, 100%
-l10n/po/zh_CN/_guides/security-oidc-expanded-configuration.adoc.po, 0, 720, 0, 12922, 100%
+l10n/po/zh_CN/_guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
+l10n/po/zh_CN/_guides/security-oidc-expanded-configuration.adoc.po, 0, 723, 0, 12987, 100%
 l10n/po/zh_CN/_guides/security-openid-connect-client-registration.adoc.po, 0, 57, 0, 1024, 100%
 l10n/po/zh_CN/_guides/security-vertx-oidc-to-quarkus-oidc-migration.adoc.po, 0, 132, 0, 3155, 100%
 l10n/po/zh_CN/_guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
