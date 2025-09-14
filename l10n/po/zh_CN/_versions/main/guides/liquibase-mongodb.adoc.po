@@ -111,13 +111,11 @@ msgid "build.gradle"
 msgstr "build.gradle"
 
 #: _versions/main/guides/liquibase-mongodb.adoc
-#, fuzzy
 msgid ""
 "The Liquibase MongoDB extension support relies on the Quarkus MongoDB client config.\n"
-"For the time being, it does not support multiple clients.\n"
 "You need to add the MongoDB config to the `{config-file}` file\n"
 "in order to allow Liquibase to manage the schema."
-msgstr "Liquibase MongoDB 扩展支持依赖于 Quarkus MongoDB 客户端配置。目前，它不支持多客户端。你需要将 MongoDB 配置添加到 `{config-file}` 文件，以便 Liquibase 管理模式。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/liquibase-mongodb.adoc
@@ -146,6 +144,20 @@ msgstr "按照 Liquibase 的命名约定，在默认文件夹中添加变更日�
 msgid "Now you can start your application and Quarkus will run the Liquibase's update method according to your config."
 msgstr "现在你可以启动你的应用程序，Quarkus将根据你的配置来运行Liquibase的更新方法。"
 
+#: _versions/main/guides/liquibase-mongodb.adoc
+msgid "Multiple Clients"
+msgstr ""
+
+#: _versions/main/guides/liquibase-mongodb.adoc
+msgid ""
+"Liquibase MongoDB can be configured to support multiple clients.\n"
+"The properties are prefixed exactly the same way as named MongoDB clients. For example:"
+msgstr ""
+
+#: _versions/main/guides/liquibase-mongodb.adoc
+msgid "The property `quarkus.liquibase-mongodb.[MongoDB client name].change-log` is the minimal configuration required for the extension to detect a new client setup."
+msgstr ""
+
 #. type: Title ==
 #: _versions/main/guides/liquibase-mongodb.adoc
 #, fuzzy, no-wrap
@@ -171,6 +183,10 @@ msgstr "如果启用了 `quarkus.liquibase.migrate-at-start` 属性，那么当�
 msgid "Inject the LiquibaseFactory object"
 msgstr "注入LiquibaseFactory对象"
 
+#: _versions/main/guides/liquibase-mongodb.adoc
+msgid "Inject Liquibase MongoDB for named clients using the Quarkus `LiquibaseMongodbClient` qualifier"
+msgstr ""
+
 #. type: Plain text
 #: _versions/main/guides/liquibase-mongodb.adoc
 #, fuzzy
@@ -183,11 +199,9 @@ msgstr "直接使用Liquibase实例"
 msgid "List of applied or not applied liquibase ChangeSets"
 msgstr "已应用或未应用的液基变更集列表"
 
-#. type: Title ==
 #: _versions/main/guides/liquibase-mongodb.adoc
-#, fuzzy, no-wrap
-msgid "Liquibase Mongodb on Kubernetes"
-msgstr "Liquibase MongoDB扩展"
+msgid "Liquibase MongoDB on Kubernetes"
+msgstr ""
 
 #: _versions/main/guides/liquibase-mongodb.adoc
 #, fuzzy

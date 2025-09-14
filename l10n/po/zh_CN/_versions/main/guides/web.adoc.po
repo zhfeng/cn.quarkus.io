@@ -145,14 +145,12 @@ msgid "Model-View-Controller (MVC)"
 msgstr "模型-视图-控制器（MVC）"
 
 #: _versions/main/guides/web.adoc
-#, fuzzy
-msgid "The MVC approach is also made very easy with Quarkus thanks to https://docs.quarkiverse.io/quarkus-renarde/dev/index.html[the Renarde extension], a Rails-like framework using Qute."
-msgstr "由于使用了 Qute 的 Rails 类框架 link:https://docs.quarkiverse.io/quarkus-renarde/dev/index.html[Renarde 扩展] ，Quarkus 的 MVC 方法也变得非常简单。"
+msgid "The MVC approach is also made very easy with Quarkus thanks to Qute."
+msgstr ""
 
 #: _versions/main/guides/web.adoc
-#, fuzzy
-msgid "Associated with the https://docs.quarkiverse.io/quarkus-web-bundler/dev/[Web Bundler extension], the road is open to build modern web applications for all your needs. Here is what a simple Renarde controller looks like:"
-msgstr "有了 link:https://docs.quarkiverse.io/quarkus-web-bundler/dev/[Web Bundler 扩展] ，您就可以根据自己的需要构建现代网络应用程序了。下面是一个简单的 Renarde 控制器："
+msgid "Associated with the https://docs.quarkiverse.io/quarkus-web-bundler/dev/[Web Bundler extension], the road is open to build modern web applications for all your needs."
+msgstr ""
 
 #: _versions/main/guides/web.adoc
 #, fuzzy
@@ -160,7 +158,7 @@ msgid "src/main/java/rest/Todos.java"
 msgstr "src/main/java/rest/Todos.java"
 
 #: _versions/main/guides/web.adoc
-msgid "Check out https://www.youtube.com/watch?v=JNmHNSmK180[Quarkus Insights Episode #178]. First part is a hands-on demonstration of creating a CMS with Renarde. You can also give it a try using https://github.com/quarkusio/quarkus-web-lab[the web-lab repo])."
+msgid "Check out https://www.youtube.com/watch?v=JNmHN5mK180[Quarkus Insights Episode #178]. You can also give it a try using https://github.com/quarkusio/quarkus-web-lab[the web-lab repo]."
 msgstr ""
 
 #: _versions/main/guides/web.adoc

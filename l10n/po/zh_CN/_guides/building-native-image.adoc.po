@@ -88,10 +88,9 @@ msgstr "在Linux上，你将需要GCC，以及glibc和zlib头文件。常见发�
 msgid "XCode provides the required dependencies on macOS:"
 msgstr "XCode在macOS上提供了必要的依赖性："
 
-#. type: Plain text
 #: _guides/building-native-image.adoc
-msgid "On Windows, you will need to install the https://aka.ms/vs/15/release/vs_buildtools.exe[Visual Studio 2017 Visual C++ Build Tools]"
-msgstr "在Windows上，你将需要安装 https://aka.ms/vs/15/release/vs_buildtools.exe[Visual Studio 2017 Visual C++构建工具]"
+msgid "On Windows, you will need to install the https://aka.ms/vs/17/release/vs_buildtools.exe[Visual Studio 2022 Visual C++ Build Tools]"
+msgstr ""
 
 #. type: Title ===
 #: _guides/building-native-image.adoc

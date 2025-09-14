@@ -103,7 +103,7 @@ msgid "xref:opentelemetry.adoc[quarkus-opentelemetry]"
 msgstr ""
 
 #: _versions/main/guides/observability.adoc
-msgid "O"
+msgid "O, R"
 msgstr ""
 
 #: _versions/main/guides/observability.adoc

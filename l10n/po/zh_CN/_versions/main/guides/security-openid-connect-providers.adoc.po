@@ -59,7 +59,7 @@ msgid "`quarkus.oidc.provider` configuration property has been introduced to ref
 msgstr " `quarkus.oidc.provider` 配置属性已被引入，以参考众所周知的 和 提供商。这个属性可以用来指代诸如 ，只需要最低数量的定制，通常情况下，必须设置一个特定账户 、 和一些属性来完成配置。 `OpenId Connect` `OAuth2` `github` `client id` `client secret` "
 
 #: _versions/main/guides/security-openid-connect-providers.adoc
-msgid "This property can be used in `application.properties`, in xref:security-openid-connect-multitenancy.adoc[multi-tenant] set-ups if more than one provider has to be configured (for example, see https://docs.quarkiverse.io/quarkus-renarde/dev/security.html#_using_oidc_for_login[Quarkus Renarde security documentation]), in custom xref:security-openid-connect-multitenancy.adoc#tenant-config-resolver[TenantConfigResolvers] if the tenant configurations are created dynamically."
+msgid "This property can be used in `application.properties` and in custom xref:security-openid-connect-multitenancy.adoc#tenant-config-resolver[TenantConfigResolvers] if the tenant configurations are created dynamically."
 msgstr ""
 
 #. type: Title ==

@@ -146,12 +146,11 @@ msgid "Deploying applications"
 msgstr "部署应用程序"
 
 #: _posts/2023-06-23-quarkus-cli.adoc
-#, fuzzy
 msgid ""
 "In a way similar to building container images Quarkus allowed the application deployment to platforms like https://kubernetes.io[Kubernetes] and https://openshift.com[OpenShift].\n"
 "Again, this is something the required the use of extensions and additional build options to enable deployment.\n"
-"For example to deploy an application on https://kubernetes.io[Kubernetes] one needed to explicitly add the extension to the project and enable deployment using the `quakrus.kubernetes.deploy` property."
-msgstr "与构建容器镜像类似，Quarkus 允许将应用程序部署到 link:https://kubernetes.io[Kubernetes] 和 link:https://openshift.com[OpenShift] 等平台。同样，这也需要使用扩展和额外的构建选项来实现部署。例如，要在 link:https://kubernetes.io[Kubernetes] 上部署应用程序，需要将扩展明确添加到项目中，并使用 `quakrus.kubernetes.deploy` 属性启用部署。"
+"For example to deploy an application on https://kubernetes.io[Kubernetes] one needed to explicitly add the extension to the project and enable deployment using the `quarkus.kubernetes.deploy` property."
+msgstr ""
 
 #. type: Title ====
 #: _posts/2023-06-23-quarkus-cli.adoc
