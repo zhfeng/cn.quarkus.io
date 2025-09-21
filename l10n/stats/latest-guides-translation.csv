@@ -10,12 +10,12 @@ l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 260, 283, 5240, 5715, 9%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 191, 199, 5022, 5211, 4%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 260, 377, 4901, 7336, 34%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
-l10n/po/zh_CN/_guides/rest-client.adoc.po, 261, 317, 4777, 5770, 18%
+l10n/po/zh_CN/_guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
 l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
 l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 216, 306, 4010, 6055, 34%
-l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication.adoc.po, 171, 245, 3938, 5248, 25%
 l10n/po/zh_CN/_guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
+l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication.adoc.po, 169, 245, 3843, 5259, 27%
 l10n/po/zh_CN/_guides/config-reference.adoc.po, 208, 254, 3490, 4481, 23%
 l10n/po/zh_CN/_guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
 l10n/po/zh_CN/_guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
@@ -40,7 +40,7 @@ l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_guides/logging.adoc.po, 250, 321, 2206, 3345, 35%
 l10n/po/zh_CN/_guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
-l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3273, 37%
+l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3251, 36%
 l10n/po/zh_CN/_guides/rabbitmq-reference.adoc.po, 199, 253, 2065, 2494, 18%
 l10n/po/zh_CN/_guides/scheduler-reference.adoc.po, 111, 134, 2061, 2568, 20%
 l10n/po/zh_CN/_guides/cdi.adoc.po, 120, 132, 1992, 2372, 17%
@@ -76,7 +76,6 @@ l10n/po/zh_CN/_guides/platform.adoc.po, 50, 62, 1339, 1505, 12%
 l10n/po/zh_CN/_guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1314, 1346, 3%
 l10n/po/zh_CN/_guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
-l10n/po/zh_CN/_guides/web.adoc.po, 68, 74, 1302, 1437, 10%
 l10n/po/zh_CN/_guides/websockets-next-reference.adoc.po, 73, 319, 1291, 6278, 80%
 l10n/po/zh_CN/_guides/writing-native-applications-tips.adoc.po, 40, 110, 1287, 2466, 48%
 l10n/po/zh_CN/_guides/building-native-image.adoc.po, 59, 223, 1283, 4393, 71%
@@ -85,6 +84,7 @@ l10n/po/zh_CN/_guides/container-image.adoc.po, 68, 90, 1279, 1727, 26%
 l10n/po/zh_CN/_guides/kafka-schema-registry-json-schema.adoc.po, 62, 74, 1275, 1363, 7%
 l10n/po/zh_CN/_guides/resteasy-reactive-migration.adoc.po, 92, 95, 1275, 1278, 1%
 l10n/po/zh_CN/_guides/openapi-swaggerui.adoc.po, 86, 108, 1269, 1547, 18%
+l10n/po/zh_CN/_guides/web.adoc.po, 66, 74, 1249, 1406, 12%
 l10n/po/zh_CN/_guides/rest-migration.adoc.po, 94, 97, 1244, 1312, 6%
 l10n/po/zh_CN/_guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_guides/funqy-gcp-functions.adoc.po, 68, 77, 1227, 1299, 6%
