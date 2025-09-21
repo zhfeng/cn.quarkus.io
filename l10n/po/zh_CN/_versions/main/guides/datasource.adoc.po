@@ -829,7 +829,7 @@ msgid "Static CDI injection points involving the datasource, such as `@Inject Da
 msgstr ""
 
 #: _versions/main/guides/datasource.adoc
-msgid "Dynamic retrieval of the datasource, such as through `CDI.getBeanContainer()`, `Arc.instance()`, or by injecting an `Instance<DataSource>`, causes an exception to be thrown."
+msgid "Dynamic retrieval of the datasource, such as through `CDI.getBeanContainer()`, `Arc.instance()`, or an injected `Instance<DataSource>`, causes an exception to be thrown."
 msgstr ""
 
 #: _versions/main/guides/datasource.adoc
@@ -839,7 +839,7 @@ msgstr ""
 #: _versions/main/guides/datasource.adoc
 msgid ""
 "In this case, you must also deactivate those other extensions.\n"
-"To see an example of this scenario, refer to xref:hibernate-orm.adoc#persistence-unit-active[this section of the Hibernate ORM guide]."
+"To see an example of this scenario, refer to xref:hibernate-orm.adoc#persistence-unit-active[this section of the Hibernate ORM guide]. For Hibernate ORM, deactivation of the persistence unit is automatic when the datasource is inactive."
 msgstr ""
 
 #: _versions/main/guides/datasource.adoc

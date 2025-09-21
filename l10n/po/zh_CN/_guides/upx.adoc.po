@@ -114,7 +114,7 @@ msgstr "如果你不在这些情况中，压缩就会失败。"
 #: _guides/upx.adoc
 msgid ""
 "Setting `quarkus.native.compression.container-image` results in the compression to run in a container.\n"
-"If you want to set the variable, but not run the compression in a container, set `quakrus.native.compression.container-build` explicitly to `false`."
+"If you want to set the variable, but not run the compression in a container, set `quarkus.native.compression.container-build` explicitly to `false`."
 msgstr ""
 
 #: _guides/upx.adoc

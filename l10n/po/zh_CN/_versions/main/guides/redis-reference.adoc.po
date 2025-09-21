@@ -1101,11 +1101,10 @@ msgid "The following snippet shows how to create a transaction executing two rel
 msgstr "下面的片段显示了如何创建一个事务，执行两个相关的 _写操作_ 。"
 
 #: _versions/main/guides/redis-reference.adoc
-#, fuzzy
 msgid ""
-"The received `tx` object can also be used to _discard_ the transaction, using: `tx.discard();`.\n"
+"The received `tx` object can also be used to _discard_ the transaction, using `tx.discard()`.\n"
 "The returned `TransactionResult` lets you retrieve the result of each command."
-msgstr "收到的 `tx` 对象也可用于 _放弃_ 事务，使用： `tx.discard();` 。通过返回的 `TransactionResult` ，可以检索每条命令的结果。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/redis-reference.adoc
@@ -1114,12 +1113,11 @@ msgid "When using the reactive variant of the data source, the passed callback i
 msgstr "当使用数据源的反应式变体时，传递的回调是一个 `Function<ReactiveTransactionalRedisDataSource, Uni<Void>>` 。"
 
 #: _versions/main/guides/redis-reference.adoc
-#, fuzzy
 msgid ""
 "Transaction execution can be conditioned by _keys_.\n"
 "When a passed key gets modified during the execution of a transaction, the transaction is discarded.\n"
-"The keys are passed as `String` as a second parameter to the `withTransaction` method:"
-msgstr "事务的执行可以 _由键_ 来决定。在事务执行过程中，当传递的键被修改时，事务将被丢弃。键作为 `String` 的第二个参数传递给 `withTransaction` 方法："
+"The keys are passed as ``String``s to the second, vararg parameter of the `withTransaction` method:"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/redis-reference.adoc
@@ -1134,11 +1132,10 @@ msgid "Implement the optimistic locking pattern"
 msgstr "实施乐观锁定模式"
 
 #: _versions/main/guides/redis-reference.adoc
-#, fuzzy
 msgid ""
-"To use optimistic locking, you need to use a variant of the `withTransaction` method, allowing the execution of code before the transaction starts.\n"
+"To use optimistic locking, you need to use a variant of the `withTransaction` method allowing execution of code before the transaction starts.\n"
 "In other words, it will be executed as follows:"
-msgstr "要使用乐观锁定，需要使用 `withTransaction` 方法的变体，允许在事务开始前执行代码。换句话说，代码的执行过程如下："
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/redis-reference.adoc
@@ -1164,11 +1161,53 @@ msgid ""
 "These commands must not modify the watched keys."
 msgstr "预事务块和事务块在同一个 Redis 连接上调用。因此，预事务块必须使用传递的数据源来执行命令。因此，命令是从该连接发出的。这些命令不得修改监视键。"
 
-#. type: Plain text
 #: _versions/main/guides/redis-reference.adoc
-#, fuzzy
-msgid "The transaction is aborted if the pre-transaction block throws an exception (or produces a failure when using the reactive API)."
-msgstr "如果预交易块抛出一个异常（或者在使用反应式API时产生一个失败），交易将被中止。"
+msgid "Error handling"
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid ""
+"If the transaction block returns successfully (or completes with an item in case of the reactive API), the transaction is executed.\n"
+"Note that in this case, some transaction commands may succeed and some may fail; this is standard Redis behavior.\n"
+"The `TransactionResult.hasErrors()` method indicates whether at least one command failed.\n"
+"Results of failed commands in the `TransactionResult` are represented as ``Throwable``s.\n"
+"If the transaction block throws an exception (or completes with a failure in case of the reactive API), the transaction is discarded automatically and the exception is rethrown (or the resulting `Uni` completes with the same failure in case of the reactive API)."
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid ""
+"In case of the optimistic locking API, if the pre-transaction block returns successfully (or completes with an item in case of the reactive API), the transaction is started and execution proceeds to the transaction block.\n"
+"If the pre-transaction block throws an exception (or completes with a failure in case of the reactive API), all watched keys are ``UNWATCH``ed automatically and the exception is rethrown (or the resulting `Uni` completes with the same failure in case of the reactive API).\n"
+"In this case, the transaction is not started and the transaction block is not executed."
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid "Transactions in Redis Cluster"
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid "In the cluster mode, transaction commands (`MULTI`, `EXEC`, `DISCARD`, `WATCH`, `UNWATCH`) are handled specially."
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid "By default, transactions in cluster are disabled and transaction commands immediately fail."
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid ""
+"It is however possible to enable single-node transactions by setting `quarkus.redis.cluster-transactions` to `single-node`.\n"
+"Note that this setting only makes sense in the cluster mode and is ignored otherwise."
+msgstr ""
+
+#: _versions/main/guides/redis-reference.adoc
+msgid ""
+"In this mode, the `MULTI` command is queued and is only issued when the next command is executed.\n"
+"This next command binds the connection to the corresponding node of the Redis cluster (so it should have keys, otherwise the target node is random).\n"
+"All subsequent commands are targeted to that node.\n"
+"If some of the subsequent commands have a key that belongs to another node, the command fails on the server side.\n"
+"If `WATCH` is used before `MULTI`, its key(s) determine to which node the connection is bound and the subsequent `MULTI` is not queued.\n"
+"If `WATCH` keys belong to multiple nodes, the command fails on the client side."
+msgstr ""
 
 #. type: Title ====
 #: _versions/main/guides/redis-reference.adoc
@@ -1327,9 +1366,9 @@ msgstr "以编程方式设定Redis主机"
 
 #: _versions/main/guides/redis-reference.adoc
 msgid ""
-"The `RedisHostsProvider` programmatically provides redis hosts.\n"
-"This allows for configuration of properties like redis connection password coming from other sources."
-msgstr "`RedisHostsProvider` 接口支持以编程方式设定Redis主机。这个机制支持了从其他来源获取Redis连接属性进行配置，如Redis连接密码等。"
+"The `RedisHostsProvider` programmatically provides Redis hosts.\n"
+"This allows for configuration of properties like Redis connection password coming from other sources."
+msgstr ""
 
 #. type: delimited block =
 #: _versions/main/guides/redis-reference.adoc
