@@ -38,11 +38,14 @@ msgid "Intro"
 msgstr "介绍"
 
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
 msgid ""
-"Quarkus provides a dev mode (explained in more detail xref:maven-tooling.adoc#dev-mode[here] and link:gradle-tooling#dev-mode[here]) which greatly aids\n"
+"Quarkus provides a dev mode which greatly aids\n"
 "during development but should *NEVER* be used in production."
-msgstr "Quarkus 提供了一种开发模式（ xref:maven-tooling.adoc#dev-mode[在此处] 和 link:gradle-tooling#dev-mode[此处] 有更详细的解释），可在开发过程中提供极大帮助，但 *绝对不能* 在生产过程中使用。"
+msgstr ""
+
+#: _versions/main/guides/dev-mode-differences.adoc
+msgid "These pages have instruction on how to use dev mode with xref:maven-tooling.adoc#dev-mode[Maven], link:gradle-tooling#dev-mode[Gradle] or with the xref:cli-tooling#development-mode[Quarkus CLI]."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -57,11 +60,10 @@ msgid "Feature sets aside, the Quarkus application that is run under dev mode di
 msgstr "撇开功能设置不谈，在开发模式下运行的Quarkus应用程序在架构上与生产应用程序（即使用 `java -jar …​` ）不同。"
 
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
 msgid ""
-"In dev mode, Quarkus uses a ClassLoader hierarchy (explained in detail xref:class-loading-reference.adoc[here]) that enables the live reload of user code\n"
+"In dev mode, Quarkus uses a ClassLoader hierarchy (explained in detail in the xref:class-loading-reference.adoc[class loading reference]) that enables the live reload of user code\n"
 "without requiring a rebuild and restart of the application."
-msgstr "在开发模式下，Quarkus 使用 ClassLoader 层次结构（ xref:class-loading-reference.adoc[此处] 有详细解释），可以实时重新加载用户代码，而无需重建和重启应用程序。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -154,11 +156,9 @@ msgstr "为了使开发错误非常容易诊断，Quarkus在开发模式下运�
 msgid "Database import scripts"
 msgstr "数据库导入脚本"
 
-#. type: Plain text
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
-msgid "The `quarkus-hibernate-orm` extension will run the `import.sql` script in `src/main/resources` when Quarkus is running in dev mode. More details can be found xref:hibernate-orm.adoc#dev-mode[here]."
-msgstr "当Quarkus以dev-mode运行时， `quarkus-hibernate-orm` 扩展将在 `src/main/resources` 中运行 `import.sql` 脚本。更多的细节可以 link:hibernate-orm.html#dev-mode[在这里] 找到。"
+msgid "The `quarkus-hibernate-orm` extension will run the `import.sql` script in `src/main/resources` when Quarkus is running in dev mode. More details can be found in the xref:hibernate-orm.adoc#dev-mode[Hibernate ORM guide]."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -167,11 +167,10 @@ msgid "Dev Services"
 msgstr "开发服务"
 
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
 msgid ""
 "When testing or running in dev mode Quarkus can even provide you with a zero config database out of the box, a feature we refer to as Dev Services.\n"
-"More information can be found xref:datasource.adoc#dev-services[here]."
-msgstr "在测试或以开发模式运行时，Quarkus 甚至可以为您提供开箱即用的零配置数据库，我们称之为开发服务（Dev Services）。更多信息请点击 xref:datasource.adoc#dev-services[此处] 。"
+"More information can be found in the xref:datasource.adoc#dev-services[Datasource guide]."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -179,11 +178,9 @@ msgstr "在测试或以开发模式运行时，Quarkus 甚至可以为您提供�
 msgid "Swagger UI"
 msgstr "Swagger UI"
 
-#. type: Plain text
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
-msgid "The `quarkus-smallrye-openapi` extension will expose the Swagger UI when Quarkus is running in dev mode. Additional information can be found xref:openapi-swaggerui.adoc#dev-mode[here]."
-msgstr "当Quarkus在开发模式下运行时， `quarkus-smallrye-openapi` 扩展将暴露出Swagger UI。更多的信息可以 link:openapi-swaggerui.html#dev-mode[在这里] 找到。"
+msgid "The `quarkus-smallrye-openapi` extension will expose the Swagger UI when Quarkus is running in dev mode. Additional information can be found in the xref:openapi-swaggerui.adoc#dev-mode[Swagger UI guide]."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -191,11 +188,9 @@ msgstr "当Quarkus在开发模式下运行时， `quarkus-smallrye-openapi` 扩�
 msgid "GraphQL UI"
 msgstr "GraphiQL用户界面"
 
-#. type: Plain text
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
-msgid "The `quarkus-smallrye-graphql` extension will expose the GraphQL UI when Quarkus is running in dev mode. More details can be found xref:smallrye-graphql.adoc#ui[here]."
-msgstr "当Quarkus以开发模式运行时， `quarkus-smallrye-graphql` 扩展将暴露GraphiQL的用户界面。更多的细节可以 link:smallrye-graphql.html#ui[在这里] 找到。"
+msgid "The `quarkus-smallrye-graphql` extension will expose the GraphQL UI when Quarkus is running in dev mode. More details can be found in the xref:smallrye-graphql.adoc#ui[Graphql guide]."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -203,11 +198,9 @@ msgstr "当Quarkus以开发模式运行时， `quarkus-smallrye-graphql` 扩展�
 msgid "Health UI"
 msgstr "健康用户界面"
 
-#. type: Plain text
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
-msgid "The `quarkus-smallrye-health` extension will expose the Health UI when Quarkus is running in dev mode. xref:smallrye-health.adoc#ui[This] section provides additional information."
-msgstr "当Quarkus在开发模式下运行时， `quarkus-smallrye-health` 扩展将暴露出健康用户界面。 link:smallrye-health.html#ui[本] 节提供了额外的信息。"
+msgid "The `quarkus-smallrye-health` extension will expose the Health UI when Quarkus is running in dev mode. The xref:smallrye-health.adoc#ui[Healthcheck] section provides additional information."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/dev-mode-differences.adoc
@@ -215,11 +208,9 @@ msgstr "当Quarkus在开发模式下运行时， `quarkus-smallrye-health` 扩�
 msgid "Mock mailer"
 msgstr "模拟邮件"
 
-#. type: Plain text
 #: _versions/main/guides/dev-mode-differences.adoc
-#, fuzzy
-msgid "The `quarkus-mailer` extension will enable an in-memory mock mail server when Quarkus is running in dev mode. See xref:mailer-reference.adoc#testing[this] for more details."
-msgstr " `quarkus-mailer` 扩展将在Quarkus运行于开发模式时启用内存中的模拟邮件服务器。更多细节 link:mailer-reference.html#testing[见此] 。"
+msgid "The `quarkus-mailer` extension will enable an in-memory mock mail server when Quarkus is running in dev mode. See the xref:mailer-reference.adoc#testing[Mailer guide] for more details."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/dev-mode-differences.adoc
