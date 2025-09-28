@@ -9,7 +9,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 260, 382, 4938, 7396, 34%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 260, 382, 4938, 7407, 34%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055, 32%
@@ -32,7 +32,7 @@ l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 277, 353, 2640, 4288, 39
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3209, 19%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 146, 235, 2583, 4221, 39%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 201, 2581, 3594, 29%
-l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 118, 132, 2440, 2608, 7%
+l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 117, 132, 2417, 2606, 8%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql.adoc.po, 163, 180, 2351, 2455, 5%
 l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 153, 242, 2328, 3825, 40%
@@ -95,7 +95,7 @@ l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 87
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 64, 77, 1125, 1327, 16%
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 71, 126, 1098, 1760, 38%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 105, 1092, 1680, 35%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 105, 1092, 1691, 36%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_versions/main/guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
@@ -128,7 +128,7 @@ l10n/po/zh_CN/_versions/main/guides/hibernate-orm-panache.adoc.po, 34, 159, 897,
 l10n/po/zh_CN/_versions/main/guides/grpc-service-consumption.adoc.po, 65, 69, 892, 1014, 13%
 l10n/po/zh_CN/_versions/main/guides/ansible.adoc.po, 29, 30, 881, 882, 1%
 l10n/po/zh_CN/_versions/main/guides/podman.adoc.po, 24, 25, 871, 881, 2%
-l10n/po/zh_CN/_versions/main/guides/grpc-generation-reference.adoc.po, 59, 106, 852, 1279, 34%
+l10n/po/zh_CN/_versions/main/guides/grpc-generation-reference.adoc.po, 59, 107, 852, 1333, 37%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-tutorial.adoc.po, 55, 66, 839, 961, 13%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-heroku.adoc.po, 51, 71, 834, 1092, 24%
 l10n/po/zh_CN/_versions/main/guides/grpc-getting-started.adoc.po, 49, 56, 822, 872, 6%
@@ -145,7 +145,6 @@ l10n/po/zh_CN/_versions/main/guides/security-csrf-prevention.adoc.po, 37, 51, 75
 l10n/po/zh_CN/_versions/main/guides/config.adoc.po, 60, 75, 753, 851, 12%
 l10n/po/zh_CN/_versions/main/guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
-l10n/po/zh_CN/_versions/main/guides/dev-mode-differences.adoc.po, 41, 46, 732, 747, 3%
 l10n/po/zh_CN/_versions/main/guides/azure-functions-http.adoc.po, 44, 46, 728, 730, 1%
 l10n/po/zh_CN/_versions/main/guides/funqy-http.adoc.po, 37, 39, 726, 738, 2%
 l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
@@ -175,6 +174,7 @@ l10n/po/zh_CN/_versions/main/guides/gcp-functions-http.adoc.po, 39, 46, 546, 614
 l10n/po/zh_CN/_versions/main/guides/kotlin.adoc.po, 23, 94, 546, 1502, 64%
 l10n/po/zh_CN/_versions/main/guides/spring-cache.adoc.po, 32, 48, 544, 646, 16%
 l10n/po/zh_CN/_versions/main/guides/config-secrets.adoc.po, 30, 32, 537, 560, 5%
+l10n/po/zh_CN/_versions/main/guides/dev-mode-differences.adoc.po, 33, 47, 528, 779, 33%
 l10n/po/zh_CN/_versions/main/guides/build-analytics.adoc.po, 45, 48, 526, 529, 1%
 l10n/po/zh_CN/_versions/main/guides/security-ldap.adoc.po, 28, 51, 517, 807, 36%
 l10n/po/zh_CN/_versions/main/guides/security-keycloak-admin-client.adoc.po, 32, 43, 516, 588, 13%
