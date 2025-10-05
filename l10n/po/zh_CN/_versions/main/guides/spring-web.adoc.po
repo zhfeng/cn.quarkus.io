@@ -489,6 +489,16 @@ msgid ""
 "For this to function however, users need to add the `quarkus-undertow` dependency."
 msgstr "除了上表中可使用相应 Spring Web 注释的方法参数外，还支持 `jakarta.servlet.http.HttpServletRequest` 和 `jakarta.servlet.http.HttpServletResponse` 。不过，用户需要添加 `quarkus-undertow` 依赖关系，才能使用该功能。"
 
+#: _versions/main/guides/spring-web.adoc
+msgid "⚠️ Important: These types are only available when using the Classic RESTEasy stack (quarkus-resteasy / quarkus-resteasy-jackson) because they rely on the Servlet API provided by Undertow (quarkus-undertow)."
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid ""
+"If your application uses the Reactive stack (quarkus-rest / quarkus-rest-jackson), then the Servlet API is not supported.\n"
+"In this case, adding the quarkus-undertow dependency will not enable servlet injection and will result in runtime errors."
+msgstr ""
+
 #. type: Title ===
 #: _versions/main/guides/spring-web.adoc
 #, fuzzy, no-wrap
@@ -536,6 +546,45 @@ msgstr "请求和/或响应对象（通常来自Servlet API）。你可以选择
 #, fuzzy
 msgid "Other parameter types mentioned in the Spring `https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ExceptionHandler.html[ExceptionHandler javadoc]` are not supported."
 msgstr "在Spring中提到的其他参数类型 `<a href=\"https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ExceptionHandler.html\">ExceptionHandler javadoc</a>` 中提到的其他参数类型不被支持。"
+
+#: _versions/main/guides/spring-web.adoc
+msgid "Using `HttpServerRequest` and `HttpServerResponse` in Spring Web-style exception handlers"
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid ""
+"When using the Quarkus Spring Web compatibility layer on top of the reactive stack (`quarkus-rest-jackson`),\n"
+"you cannot inject servlet-based request and response types such as `jakarta.servlet.http.HttpServletRequest` or `jakarta.servlet.http.HttpServletResponse`.\n"
+"These types are only available when using the Classic RESTEasy stack (quarkus-resteasy / quarkus-resteasy-jackson), which relies on the Servlet API provided by `quarkus-undertow` dependency."
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid "To provide a Spring-friendly experience while staying reactive, Quarkus allows you to inject the following types into your `@ExceptionHandler` methods:"
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid "io.vertx.core.http.HttpServerRequest"
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid "io.vertx.core.http.HttpServerResponse"
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid ""
+"These types give you direct access to the underlying Vert.x HTTP layer.\n"
+"This allows you to manipulate the response (e.g. set headers, cookies, or status codes) or enrich the returned information using details from the request."
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid "For example:"
+msgstr ""
+
+#: _versions/main/guides/spring-web.adoc
+msgid ""
+"**Warning:** This is potentially dangerous.\n"
+"Users should only do this if they understand the reactive model, and are aware that writing directly to the response can bypass normal handling of status codes, headers, and serialization."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/spring-web.adoc

@@ -949,6 +949,14 @@ msgid ""
 msgstr "您也可以使用 Jakarta REST 类型 link:{jaxrsapi}/jakarta/ws/rs/core/Response.html[Response] 但它与您的实体不是强类型的。"
 
 #: _versions/main/guides/rest.adoc
+msgid "Responding with files"
+msgstr ""
+
+#: _versions/main/guides/rest.adoc
+msgid "When a file needs to be returned, the following code ensures that Quarkus properly streams the file contents to the client."
+msgstr ""
+
+#: _versions/main/guides/rest.adoc
 #, fuzzy
 msgid "Using annotations"
 msgstr "使用注释"
