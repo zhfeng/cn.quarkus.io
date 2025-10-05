@@ -10,8 +10,8 @@ l10n/po/zh_CN/_includes/catalog-index-band.html.po, 34, 52, 36, 109, 67%
 l10n/po/zh_CN/_includes/homepage-extensions-band.html.po, 1, 2, 35, 41, 15%
 l10n/po/zh_CN/_includes/homepage-hero-newrelease-band.html.po, 6, 6, 33, 33, 0%
 l10n/po/zh_CN/_includes/support-help-band.html.po, 1, 9, 28, 97, 72%
-l10n/po/zh_CN/_includes/header-navigation.html.po, 13, 42, 11, 54, 80%
 l10n/po/zh_CN/_includes/homepage-developer_joy-band.html.po, 2, 8, 11, 48, 78%
+l10n/po/zh_CN/_includes/header-navigation.html.po, 12, 48, 10, 67, 86%
 l10n/po/zh_CN/_includes/homepage-hero-band-ssjprime.html.po, 3, 9, 10, 46, 79%
 l10n/po/zh_CN/_includes/homepage-hero-band.html.po, 5, 12, 10, 51, 81%
 l10n/po/zh_CN/_includes/homepage-features-band.html.po, 1, 17, 5, 146, 97%
@@ -36,7 +36,7 @@ l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 636, 1567, 3289, 6549,
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
 l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 618, 1563, 3224, 6531, 51%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 840, 2376, 3317, 29%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 841, 2376, 3326, 29%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 78, 84, 886, 904, 2%
@@ -73,4 +73,4 @@ l10n/po/zh_CN/_data/versioned/3-20/index/quarkus.yaml.po, 0, 1537, 0, 6441, 100%
 l10n/po/zh_CN/_data/versioned/3-20/index/relations.yaml.po, 0, 499, 0, 1357, 100%
 l10n/po/zh_CN/_data/versioned/3-27/index/quarkus.yaml.po, 0, 1563, 0, 6530, 100%
 l10n/po/zh_CN/_data/versioned/3-27/index/relations.yaml.po, 0, 509, 0, 1380, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 167, 0, 5685, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 168, 0, 5686, 100%
