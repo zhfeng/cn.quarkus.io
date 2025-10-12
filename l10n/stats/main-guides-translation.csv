@@ -9,7 +9,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 260, 382, 4938, 7407, 34%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 260, 403, 4938, 7617, 36%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055, 32%
@@ -275,7 +275,7 @@ l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-derby.adoc.po, 0, 1, 0, 
 l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-encrypted-pem-tech-prev.adoc.po, 0, 1, 0, 6, 100%
 l10n/po/zh_CN/_versions/main/guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 416, 100%
-l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 101, 0, 1099, 100%
+l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 102, 0, 1107, 100%
 l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 174, 0, 2250, 100%
 l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
@@ -300,7 +300,7 @@ l10n/po/zh_CN/_versions/main/guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 174, 0, 1763, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1822, 100%
 l10n/po/zh_CN/_versions/main/guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
-l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 726, 0, 13056, 100%
+l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 728, 0, 13115, 100%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-registration.adoc.po, 0, 57, 0, 1024, 100%
 l10n/po/zh_CN/_versions/main/guides/security-vertx-oidc-to-quarkus-oidc-migration.adoc.po, 0, 132, 0, 3155, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%

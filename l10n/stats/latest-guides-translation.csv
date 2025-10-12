@@ -17,9 +17,9 @@ l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 216, 306, 4010, 6055, 34%
 l10n/po/zh_CN/_guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
 l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication.adoc.po, 169, 247, 3843, 5330, 28%
 l10n/po/zh_CN/_guides/config-reference.adoc.po, 208, 254, 3490, 4481, 23%
-l10n/po/zh_CN/_guides/cassandra.adoc.po, 156, 167, 3335, 3411, 3%
 l10n/po/zh_CN/_guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
 l10n/po/zh_CN/_guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
+l10n/po/zh_CN/_guides/cassandra.adoc.po, 154, 167, 3277, 3413, 4%
 l10n/po/zh_CN/_guides/gradle-tooling.adoc.po, 160, 211, 3224, 3883, 17%
 l10n/po/zh_CN/_guides/redis-reference.adoc.po, 205, 237, 3174, 4082, 23%
 l10n/po/zh_CN/_guides/infinispan-client-reference.adoc.po, 187, 201, 3060, 3185, 4%
