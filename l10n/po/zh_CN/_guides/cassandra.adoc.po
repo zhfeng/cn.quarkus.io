@@ -652,12 +652,11 @@ msgid "Now let's add a simple web page to interact with our `FruitResource`."
 msgstr "现在让我们添加一个简单的网页来与我们的 `FruitResource` 。"
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
 "Quarkus automatically serves static resources located under the `META-INF/resources` directory. In\n"
 "the `src/main/resources/META-INF/resources` directory, add a `fruits.html` file with the contents\n"
-"from link:src/main/resources/META-INF/resources/fruits.html[this file] in it."
-msgstr "Quarkus 会自动提供位于 `META-INF/resources` 目录下的静态资源。在 `src/main/resources/META-INF/resources` 目录中，添加一个 `fruits.html` 文件，其中包含 link:src/main/resources/META-INF/resources/fruits.html[该文件] 的内容。"
+"from link:https://github.com/datastax/cassandra-quarkus/blob/main/quickstart/src/main/resources/META-INF/resources/fruits.html[this file] in it."
+msgstr ""
 
 #. type: Plain text
 #: _guides/cassandra.adoc
@@ -821,12 +820,11 @@ msgid "Creating a Reactive Frontend"
 msgstr "创建一个反应式的前端"
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
 "Now let's add a simple web page to interact with our `ReactiveFruitResource`. In the\n"
 "`src/main/resources/META-INF/resources` directory, add a `reactive-fruits.html` file with the\n"
-"contents from link:src/main/resources/META-INF/resources/reactive-fruits.html[this file] in it."
-msgstr "现在，让我们添加一个简单的网页，与 `ReactiveFruitResource` 进行交互。在 `src/main/resources/META-INF/resources` 目录中，添加一个 `reactive-fruits.html` 文件，其中包含 link:src/main/resources/META-INF/resources/reactive-fruits.html[该文件] 的内容。"
+"contents from link:https://github.com/datastax/cassandra-quarkus/blob/main/quickstart/src/main/resources/META-INF/resources/reactive-fruits.html[this file] in it."
+msgstr ""
 
 #. type: Plain text
 #: _guides/cassandra.adoc
