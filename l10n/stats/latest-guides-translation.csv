@@ -8,8 +8,8 @@ l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication.adoc.po, 293, 420, 
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 346, 370, 6008, 6293, 5%
 l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
-l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 260, 377, 4901, 7336, 34%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
+l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 256, 376, 4844, 7313, 34%
 l10n/po/zh_CN/_guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
 l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 286, 4544, 4707, 4%
 l10n/po/zh_CN/_guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
@@ -104,12 +104,12 @@ l10n/po/zh_CN/_guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_guides/mongodb-panache.adoc.po, 47, 201, 1033, 3918, 74%
 l10n/po/zh_CN/_guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_guides/quartz.adoc.po, 71, 89, 1027, 1142, 11%
-l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 63, 100, 1015, 1577, 36%
 l10n/po/zh_CN/_guides/lifecycle.adoc.po, 53, 71, 1008, 1203, 17%
 l10n/po/zh_CN/_guides/security-oauth2.adoc.po, 56, 79, 1005, 1226, 19%
 l10n/po/zh_CN/_guides/context-propagation.adoc.po, 66, 73, 1002, 1049, 5%
 l10n/po/zh_CN/_guides/command-mode-reference.adoc.po, 51, 70, 996, 1152, 14%
 l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication-tutorial.adoc.po, 72, 98, 978, 1332, 27%
+l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 60, 101, 976, 1587, 39%
 l10n/po/zh_CN/_guides/dev-services.adoc.po, 49, 58, 956, 1130, 16%
 l10n/po/zh_CN/_guides/spring-data-rest.adoc.po, 87, 111, 955, 1143, 17%
 l10n/po/zh_CN/_guides/stork.adoc.po, 57, 68, 951, 996, 5%
@@ -295,7 +295,7 @@ l10n/po/zh_CN/_guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589, 100%
 l10n/po/zh_CN/_guides/opentelemetry-metrics.adoc.po, 0, 174, 0, 1763, 100%
 l10n/po/zh_CN/_guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1822, 100%
 l10n/po/zh_CN/_guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
-l10n/po/zh_CN/_guides/security-oidc-expanded-configuration.adoc.po, 0, 726, 0, 13056, 100%
+l10n/po/zh_CN/_guides/security-oidc-expanded-configuration.adoc.po, 0, 728, 0, 13115, 100%
 l10n/po/zh_CN/_guides/security-openid-connect-client-registration.adoc.po, 0, 57, 0, 1024, 100%
 l10n/po/zh_CN/_guides/security-vertx-oidc-to-quarkus-oidc-migration.adoc.po, 0, 132, 0, 3155, 100%
 l10n/po/zh_CN/_guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%

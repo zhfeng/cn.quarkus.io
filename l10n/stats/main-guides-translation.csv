@@ -9,7 +9,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 260, 403, 4938, 7617, 36%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 256, 402, 4881, 7594, 36%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055, 32%
@@ -66,7 +66,6 @@ l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 11
 l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 87, 1494, 1736, 14%
 l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
 l10n/po/zh_CN/_versions/main/guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive-panache.adoc.po, 48, 161, 1402, 3153, 56%
 l10n/po/zh_CN/_versions/main/guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
 l10n/po/zh_CN/_versions/main/guides/extension-registry-user.adoc.po, 65, 82, 1391, 1660, 17%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-google-cloud.adoc.po, 80, 89, 1356, 1478, 9%
@@ -78,7 +77,7 @@ l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-migration.adoc.po, 94, 97, 1301, 1304, 1%
-l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 40, 110, 1287, 2466, 48%
+l10n/po/zh_CN/_versions/main/guides/writing-native-applications-tips.adoc.po, 40, 109, 1287, 2448, 48%
 l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 65, 139, 1281, 3007, 58%
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 67, 74, 1280, 1406, 9%
 l10n/po/zh_CN/_versions/main/guides/container-image.adoc.po, 68, 90, 1279, 1727, 26%
@@ -89,18 +88,19 @@ l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 58, 223, 1233
 l10n/po/zh_CN/_versions/main/guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_versions/main/guides/funqy-gcp-functions.adoc.po, 68, 77, 1227, 1299, 6%
 l10n/po/zh_CN/_versions/main/guides/stork-kubernetes.adoc.po, 66, 76, 1227, 1321, 8%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive-panache.adoc.po, 46, 162, 1223, 3255, 63%
 l10n/po/zh_CN/_versions/main/guides/native-and-ssl.adoc.po, 86, 96, 1222, 1361, 11%
 l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 72, 84, 1208, 1456, 18%
 l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 87, 1188, 1335, 12%
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 64, 77, 1125, 1327, 16%
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 71, 126, 1098, 1760, 38%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 67, 105, 1092, 1691, 36%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_versions/main/guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_versions/main/guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
 l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 47, 67, 1057, 1458, 28%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 64, 106, 1053, 1701, 39%
 l10n/po/zh_CN/_versions/main/guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_versions/main/guides/lifecycle.adoc.po, 54, 71, 1033, 1203, 15%
 l10n/po/zh_CN/_versions/main/guides/mongodb-panache.adoc.po, 47, 201, 1033, 3918, 74%
