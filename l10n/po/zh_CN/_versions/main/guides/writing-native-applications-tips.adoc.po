@@ -98,29 +98,22 @@ msgstr "使用 `quarkus.native.resources.includes` 配置属性"
 
 #: _versions/main/guides/writing-native-applications-tips.adoc
 msgid ""
-"To include more resources in the native executable, the easiest way is to use the `quarkus.native.resources.includes` configuration property,\n"
-"and its counterpart to exclude resources `quarkus.native.resources.excludes`."
-msgstr "要在原生可执行文件中包含更多的资源，最简单的方法是使用 `quarkus.native.resources.includes` 配置属性，及其对应的排除资源 `quarkus.native.resources.excludes`。"
+"To include more resources in the native executable, the easiest way is to use the `quarkus.native.resources.includes` configuration property.\n"
+"The configuration property supports glob patterns."
+msgstr ""
 
-#. type: Plain text
 #: _versions/main/guides/writing-native-applications-tips.adoc
-msgid "Both configuration properties support glob patterns."
-msgstr "这两个配置属性都支持glob模式。"
-
-#. type: Plain text
-#: _versions/main/guides/writing-native-applications-tips.adoc
-msgid "For instance, having the following properties in your `application.properties`:"
-msgstr "例如，在你的 `application.properties`中有以下属性："
+msgid "For instance, having the following property in your `application.properties`:"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/writing-native-applications-tips.adoc
 msgid "will include:"
 msgstr "将包括："
 
-#. type: Plain text
 #: _versions/main/guides/writing-native-applications-tips.adoc
-msgid "all files in the `foo/` directory and its subdirectories except for files in `foo/private/` and its subdirectories,"
-msgstr " `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外。"
+msgid "all files in the `foo/` directory and its subdirectories,"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/writing-native-applications-tips.adoc

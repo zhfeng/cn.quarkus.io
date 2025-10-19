@@ -216,9 +216,8 @@ msgid "Also, Quarkus will set many Hibernate ORM configuration settings automati
 msgstr "另外，Quarkus会自动设置许多Hibernate ORM的配置设置，并经常使用更现代的默认值。"
 
 #: _versions/main/guides/hibernate-orm.adoc
-#, fuzzy
-msgid "For a list of the items that you can set in `{config-file}`, see <<hibernate-configuration-properties,Hibernate ORM configuration properties>>."
-msgstr "有关可在 `{config-file}` 中设置的项目列表，请参阅 xref:hibernate-configuration-properties[Hibernate ORM 配置属性] 。"
+msgid "For a list of the items that you can set in `{config-file}`, see <<configuration-reference>>."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/hibernate-orm.adoc
@@ -477,16 +476,9 @@ msgid ""
 "and will have it use the default datasource."
 msgstr "如果没有设置任何属性，Quarkus 通常可以推断出设置 Hibernate ORM 所需的一切，并让它使用默认数据源。"
 
-#. type: Plain text
 #: _versions/main/guides/hibernate-orm.adoc
-#, fuzzy
-msgid "The configuration properties listed here allow you to override such defaults, and customize and tune various aspects."
-msgstr "这里列出的配置属性允许你覆盖这些默认值，并自定义和调整各方面。"
-
-#: _versions/main/guides/hibernate-orm.adoc
-#, fuzzy
-msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
-msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgid "The configuration properties listed in <<configuration-reference>> allow you to override such defaults, and customize and tune various aspects."
+msgstr ""
 
 #: _versions/main/guides/hibernate-orm.adoc
 #, fuzzy
@@ -502,18 +494,6 @@ msgid ""
 "If your classpath contains a `persistence.xml` that you want to ignore,\n"
 "set the following configuration property:"
 msgstr "如果您的类路径中包含要忽略的 `persistence.xml` ，请设置以下配置属性："
-
-#. type: Plain text
-#: _versions/main/guides/hibernate-orm.adoc
-#, fuzzy
-msgid "Want to start a PostgreSQL server on the side with Docker?"
-msgstr "想用Docker启动一个PostgreSQL服务器吗？"
-
-#. type: Plain text
-#: _versions/main/guides/hibernate-orm.adoc
-#, fuzzy
-msgid "This will start a non-durable empty database: ideal for a quick experiment!"
-msgstr "这将启动一个非持久性的空数据库：是快速实验的理想选择。"
 
 #. type: Title ===
 #: _versions/main/guides/hibernate-orm.adoc
@@ -1347,7 +1327,7 @@ msgid "You can also fine-tune dialect behavior for specific databases using addi
 msgstr ""
 
 #: _versions/main/guides/hibernate-orm.adoc
-msgid "Refer to the <<hibernate-configuration-properties,Hibernate ORM configuration properties>> section for more details on the available properties."
+msgid "Refer to the <<configuration-reference>> section for more details on the available properties."
 msgstr ""
 
 #. type: Title ==
@@ -2433,3 +2413,12 @@ msgid ""
 "and https://jakarta.ee/specifications/data/1.0/jakarta-data-1.0[Jakarta Data]\n"
 "guides to learn what else they have to offer."
 msgstr ""
+
+#: _versions/main/guides/hibernate-orm.adoc
+msgid "Configuration Reference for Hibernate ORM"
+msgstr ""
+
+#: _versions/main/guides/hibernate-orm.adoc
+#, fuzzy
+msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
