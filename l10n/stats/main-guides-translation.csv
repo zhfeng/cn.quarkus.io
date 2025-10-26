@@ -9,7 +9,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 256, 402, 4881, 7594, 36%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 256, 409, 4881, 7700, 37%
 l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055, 32%
@@ -26,7 +26,7 @@ l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 20
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 171, 2940, 3292, 11%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 197, 2819, 4159, 33%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 141, 197, 2819, 4160, 33%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 277, 353, 2640, 4288, 39%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3209, 19%
@@ -38,7 +38,7 @@ l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 153, 242, 2328, 3825, 40%
 l10n/po/zh_CN/_versions/main/guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_versions/main/guides/cdi.adoc.po, 127, 132, 2259, 2372, 5%
-l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 250, 321, 2206, 3345, 35%
+l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 248, 326, 2170, 3484, 38%
 l10n/po/zh_CN/_versions/main/guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_versions/main/guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3249, 36%
@@ -72,7 +72,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-google-cloud.adoc.po, 80, 89, 1
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql-client.adoc.po, 43, 62, 1347, 1486, 10%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
 l10n/po/zh_CN/_versions/main/guides/platform.adoc.po, 50, 62, 1339, 1505, 12%
-l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 319, 1316, 6278, 80%
+l10n/po/zh_CN/_versions/main/guides/websockets-next-reference.adoc.po, 74, 321, 1316, 6330, 80%
 l10n/po/zh_CN/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1314, 1346, 3%
 l10n/po/zh_CN/_versions/main/guides/performance-measure.adoc.po, 79, 82, 1309, 1316, 1%
 l10n/po/zh_CN/_versions/main/guides/doc-create-tutorial.adoc.po, 94, 96, 1307, 1311, 1%
