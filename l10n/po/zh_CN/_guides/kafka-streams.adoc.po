@@ -423,11 +423,9 @@ msgid ""
 "To do so, edit the file `aggregator/src/main/docker/Dockerfile.jvm` and replace the line `FROM fabric8/java-alpine-openjdk8-jre` with `FROM fabric8/java-centos-openjdk8-jdk`."
 msgstr "Quarkus 默认创建的 `Dockerfile` 需要对 `aggregator` 应用程序进行一次调整，以便运行 Kafka Streams 管道。为此，请编辑文件 `aggregator/src/main/docker/Dockerfile.jvm` ，将 `FROM fabric8/java-alpine-openjdk8-jre` 行替换为 `FROM fabric8/java-centos-openjdk8-jdk` 。"
 
-#. type: Plain text
 #: _guides/kafka-streams.adoc
-#, fuzzy
-msgid "Next create a Docker Compose file (`docker-compose.yaml`) for spinning up the two applications as well as Apache Kafka and ZooKeeper like so:"
-msgstr "接下来创建一个Docker Compose文件（ `docker-compose.yaml` ），用于启动两个应用程序以及Apache Kafka和ZooKeeper，像这样。"
+msgid "Next create a Docker Compose file (`docker-compose.yaml`) for spinning up the two applications as well as Apache Kafka like so:"
+msgstr ""
 
 #: _guides/kafka-streams.adoc
 #, fuzzy

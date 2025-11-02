@@ -605,10 +605,15 @@ msgstr ""
 msgid "Multiple Persistence Units"
 msgstr "多个持久化单元"
 
-#. type: delimited block =
 #: _guides/hibernate-reactive-panache.adoc
-msgid "Hibernate Reactive in Quarkus currently does not support multiple persistence units."
-msgstr "Quarkus中的Hibernate Reactive目前不支持多个持久化单元。"
+msgid ""
+"Hibernate Reactive with Panache supports multiple persistence units.\n"
+"When using multiple persistence units, Panache automatically uses the correct persistence unit based on the entity's configuration."
+msgstr ""
+
+#: _guides/hibernate-reactive-panache.adoc
+msgid "For configuration details on setting up multiple persistence units, refer to the xref:hibernate-orm.adoc#multiple-persistence-units[Multiple Persistence Units] section in the Hibernate ORM guide."
+msgstr ""
 
 #. type: Title ==
 #: _guides/hibernate-reactive-panache.adoc
@@ -617,7 +622,6 @@ msgid "Sessions and Transactions"
 msgstr "事务"
 
 #: _guides/hibernate-reactive-panache.adoc
-#, fuzzy
 msgid ""
 "First of all, most of the methods of a Panache entity must be invoked within the scope of a reactive `Mutiny.Session`.\n"
 "In some cases, the session is opened automatically on demand.\n"
@@ -625,8 +629,9 @@ msgid ""
 "For other cases, there are both a declarative and a programmatic way to ensure the session is opened.\n"
 "You can annotate a CDI business method that returns `Uni` with the `@WithSession` annotation.\n"
 "The method will be intercepted and the returned `Uni` will be triggered within a scope of a reactive session.\n"
+"If you have multiple persistence units, you can specify which one to use by providing the persistence unit name as the annotation value: `@WithSession(\"my-persistence-unit\")`. If not specified, the default persistence unit is used.\n"
 "Alternatively, you can use the `Panache.withSession()` method to achieve the same effect."
-msgstr "首先，Panache 实体的大多数方法必须在反应式 `Mutiny.Session` 的范围内调用。在某些情况下，会话是按需自动打开的。例如，如果在包含 `quarkus-rest` 扩展的应用程序中，在 Jakarta REST 资源方法中调用了 Panache 实体方法。在其他情况下，有一种声明式和编程式方法可确保会话被打开。您可以使用 `@WithSession` 注解来注解返回 `Uni` 的 CDI 业务方法。该方法将被拦截，返回的 `Uni` 将在反应会话的作用域内触发。或者，您也可以使用 `Panache.withSession()` 方法来达到同样的效果。"
+msgstr ""
 
 #. type: delimited block =
 #: _guides/hibernate-reactive-panache.adoc
@@ -635,13 +640,13 @@ msgid "Note that a Panache entity may not be used from a blocking thread. See al
 msgstr "请注意，Panache实体不能从一个阻塞线程中使用。请参阅《 link:getting-started-reactive.html[反应式入门] 指南》，它解释了Quarkus中反应式原理的基本知识。"
 
 #: _guides/hibernate-reactive-panache.adoc
-#, fuzzy
 msgid ""
 "Also make sure to wrap methods that modify the database or involve multiple queries (e.g. `entity.persist()`) within a transaction.\n"
 "You can annotate a CDI business method that returns `Uni` with the `@WithTransaction` annotation.\n"
 "The method will be intercepted and the returned `Uni` is triggered within a transaction boundary.\n"
+"If you have multiple persistence units, you can specify which one to use by providing the persistence unit name as the annotation value: `@WithTransaction(\"my-persistence-unit\")`. If not specified, the default persistence unit is used.\n"
 "Alternatively, you can use the `Panache.withTransaction()` method for the same effect."
-msgstr "还要确保将修改数据库或涉及多个查询（如 `entity.persist()` ）的方法封装在一个事务中。您可以使用 `@WithTransaction` 注解来注解返回 `Uni` 的 CDI 业务方法。该方法将被拦截，返回的 `Uni` 将在事务边界内触发。或者，您也可以使用 `Panache.withTransaction()` 方法来达到同样的效果。"
+msgstr ""
 
 #. type: delimited block =
 #: _guides/hibernate-reactive-panache.adoc
