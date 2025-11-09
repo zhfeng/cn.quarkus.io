@@ -26,7 +26,7 @@ l10n/po/zh_CN/_guides/infinispan-client-reference.adoc.po, 187, 201, 3060, 3185,
 l10n/po/zh_CN/_guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_guides/cache.adoc.po, 152, 171, 2940, 3292, 11%
 l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 275, 2911, 3300, 12%
-l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 140, 197, 2803, 4159, 33%
+l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 140, 197, 2803, 4160, 33%
 l10n/po/zh_CN/_guides/datasource.adoc.po, 277, 353, 2640, 4288, 39%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3209, 19%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 146, 235, 2583, 4221, 39%
@@ -67,7 +67,7 @@ l10n/po/zh_CN/_guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
 l10n/po/zh_CN/_guides/smallrye-fault-tolerance.adoc.po, 67, 120, 1436, 2240, 36%
 l10n/po/zh_CN/_guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
 l10n/po/zh_CN/_guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
-l10n/po/zh_CN/_guides/extension-registry-user.adoc.po, 65, 82, 1391, 1660, 17%
+l10n/po/zh_CN/_guides/extension-registry-user.adoc.po, 65, 96, 1391, 1712, 19%
 l10n/po/zh_CN/_guides/deploying-to-google-cloud.adoc.po, 80, 89, 1356, 1478, 9%
 l10n/po/zh_CN/_guides/smallrye-graphql-client.adoc.po, 43, 62, 1347, 1486, 10%
 l10n/po/zh_CN/_guides/security-openid-connect-client.adoc.po, 89, 114, 1340, 1801, 26%
@@ -145,7 +145,6 @@ l10n/po/zh_CN/_guides/security-csrf-prevention.adoc.po, 37, 51, 757, 896, 16%
 l10n/po/zh_CN/_guides/config.adoc.po, 60, 75, 753, 851, 12%
 l10n/po/zh_CN/_guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
-l10n/po/zh_CN/_guides/azure-functions-http.adoc.po, 44, 46, 728, 730, 1%
 l10n/po/zh_CN/_guides/funqy-http.adoc.po, 37, 39, 726, 738, 2%
 l10n/po/zh_CN/_guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
 l10n/po/zh_CN/_guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
@@ -157,7 +156,6 @@ l10n/po/zh_CN/_guides/mailer.adoc.po, 51, 61, 681, 750, 10%
 l10n/po/zh_CN/_guides/security-jpa.adoc.po, 34, 38, 676, 729, 8%
 l10n/po/zh_CN/_guides/elasticsearch-dev-services.adoc.po, 37, 40, 671, 723, 8%
 l10n/po/zh_CN/_guides/centralized-log-management.adoc.po, 40, 65, 657, 1073, 39%
-l10n/po/zh_CN/_guides/azure-functions.adoc.po, 41, 43, 651, 653, 1%
 l10n/po/zh_CN/_guides/continuous-testing.adoc.po, 36, 63, 640, 1232, 49%
 l10n/po/zh_CN/_guides/reaugmentation.adoc.po, 19, 21, 639, 703, 10%
 l10n/po/zh_CN/_guides/_includes/quarkus-blaze-persistence.adoc.po, 14, 16, 637, 639, 1%
@@ -194,6 +192,7 @@ l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-producer.adoc.po, 77, 82, 429, 4
 l10n/po/zh_CN/_guides/security-proactive-authentication.adoc.po, 17, 24, 426, 725, 42%
 l10n/po/zh_CN/_guides/liquibase-mongodb.adoc.po, 26, 41, 393, 587, 34%
 l10n/po/zh_CN/_guides/stork-reference.adoc.po, 30, 33, 385, 399, 4%
+l10n/po/zh_CN/_guides/azure-functions-http.adoc.po, 23, 44, 379, 725, 48%
 l10n/po/zh_CN/_guides/security-properties.adoc.po, 34, 42, 367, 560, 35%
 l10n/po/zh_CN/_guides/websockets.adoc.po, 25, 43, 359, 530, 33%
 l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 59, 356, 1002, 65%
@@ -224,6 +223,7 @@ l10n/po/zh_CN/_guides/security-vulnerability-detection.adoc.po, 15, 19, 187, 261
 l10n/po/zh_CN/_guides/security-jwt-build.adoc.po, 19, 138, 178, 1882, 91%
 l10n/po/zh_CN/_guides/kafka-dev-services.adoc.po, 8, 36, 166, 645, 75%
 l10n/po/zh_CN/_guides/grpc.adoc.po, 17, 19, 164, 169, 3%
+l10n/po/zh_CN/_guides/azure-functions.adoc.po, 18, 42, 160, 662, 76%
 l10n/po/zh_CN/_guides/security-identity-providers.adoc.po, 10, 13, 143, 193, 26%
 l10n/po/zh_CN/_guides/funqy-azure-functions-http.adoc.po, 4, 4, 135, 135, 0%
 l10n/po/zh_CN/_guides/spring-scheduled.adoc.po, 3, 57, 132, 726, 82%
@@ -262,6 +262,7 @@ l10n/po/zh_CN/_guides/_includes/devtools/extension-add.adoc.po, 1, 3, 1, 3, 67%
 l10n/po/zh_CN/_guides/_includes/devtools/extension-list.adoc.po, 1, 2, 1, 2, 50%
 l10n/po/zh_CN/_guides/_includes/devtools/maven-opts.adoc.po, 1, 4, 1, 8, 88%
 l10n/po/zh_CN/_guides/guides.md.po, 1, 3, 1, 4, 75%
+l10n/po/zh_CN/_guides/_includes/devtools/run.adoc.po, 0, 3, 0, 3, 100%
 l10n/po/zh_CN/_guides/_includes/devtools/test.adoc.po, 0, 2, 0, 2, 100%
 l10n/po/zh_CN/_guides/_includes/json-provider-note.adoc.po, 0, 3, 0, 68, 100%
 l10n/po/zh_CN/_guides/_includes/opentelemetry-config.adoc.po, 0, 13, 0, 224, 100%
@@ -270,7 +271,7 @@ l10n/po/zh_CN/_guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
 l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 416, 100%
 l10n/po/zh_CN/_guides/assistant.adoc.po, 0, 102, 0, 1107, 100%
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 40, 0, 642, 100%
-l10n/po/zh_CN/_guides/compose-dev-services.adoc.po, 0, 174, 0, 2250, 100%
+l10n/po/zh_CN/_guides/compose-dev-services.adoc.po, 0, 175, 0, 2259, 100%
 l10n/po/zh_CN/_guides/cyclonedx.adoc.po, 0, 68, 0, 1458, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
