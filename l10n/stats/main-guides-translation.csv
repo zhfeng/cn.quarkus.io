@@ -3,7 +3,7 @@ l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 598, 650, 12162,
 l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 741, 882, 10689, 13753, 23%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10334, 13%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
-l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 458, 511, 7389, 8447, 13%
+l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 458, 516, 7389, 8585, 14%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 304, 420, 7274, 10187, 29%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 347, 370, 6013, 6293, 5%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
@@ -21,7 +21,7 @@ l10n/po/zh_CN/_versions/main/guides/building-my-first-extension.adoc.po, 171, 17
 l10n/po/zh_CN/_versions/main/guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
 l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 154, 167, 3277, 3413, 4%
 l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 211, 3224, 3883, 17%
-l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 205, 237, 3174, 4082, 23%
+l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 205, 252, 3174, 4368, 28%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 201, 3103, 3185, 3%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 141, 149, 2987, 3099, 4%
 l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 275, 2941, 3300, 11%
@@ -149,7 +149,7 @@ l10n/po/zh_CN/_versions/main/guides/funqy-http.adoc.po, 37, 39, 726, 738, 2%
 l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
 l10n/po/zh_CN/_versions/main/guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_versions/main/guides/funqy.adoc.po, 21, 21, 710, 710, 0%
-l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 28, 238, 710, 5256, 87%
+l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 28, 247, 710, 5421, 87%
 l10n/po/zh_CN/_versions/main/guides/aws-lambda-http.adoc.po, 30, 111, 697, 2251, 70%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client.adoc.po, 47, 69, 684, 887, 23%
 l10n/po/zh_CN/_versions/main/guides/mailer.adoc.po, 51, 61, 681, 750, 10%
@@ -166,7 +166,7 @@ l10n/po/zh_CN/_versions/main/guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_versions/main/guides/security-jdbc.adoc.po, 31, 48, 605, 744, 19%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-client.adoc.po, 141, 147, 598, 604, 1%
 l10n/po/zh_CN/_versions/main/guides/amqp-reference.adoc.po, 25, 229, 591, 2935, 80%
-l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 22, 118, 548, 2030, 74%
+l10n/po/zh_CN/_versions/main/guides/mongodb.adoc.po, 22, 133, 548, 2316, 77%
 l10n/po/zh_CN/_versions/main/guides/websockets-next-tutorial.adoc.po, 33, 49, 548, 652, 16%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions-http.adoc.po, 39, 46, 546, 614, 12%
 l10n/po/zh_CN/_versions/main/guides/kotlin.adoc.po, 23, 94, 546, 1502, 64%
@@ -177,7 +177,7 @@ l10n/po/zh_CN/_versions/main/guides/build-analytics.adoc.po, 45, 48, 526, 529, 1
 l10n/po/zh_CN/_versions/main/guides/security-ldap.adoc.po, 28, 51, 517, 807, 36%
 l10n/po/zh_CN/_versions/main/guides/security-keycloak-admin-client.adoc.po, 32, 43, 516, 588, 13%
 l10n/po/zh_CN/_versions/main/guides/aws-lambda-snapstart.adoc.po, 37, 37, 514, 514, 0%
-l10n/po/zh_CN/_versions/main/guides/appcds.adoc.po, 24, 31, 511, 823, 38%
+l10n/po/zh_CN/_versions/main/guides/appcds.adoc.po, 24, 33, 511, 883, 43%
 l10n/po/zh_CN/_versions/main/guides/blaze-persistence.adoc.po, 40, 41, 509, 511, 1%
 l10n/po/zh_CN/_versions/main/guides/liquibase.adoc.po, 36, 44, 506, 566, 11%
 l10n/po/zh_CN/_versions/main/guides/rest-json.adoc.po, 21, 100, 504, 1667, 70%
