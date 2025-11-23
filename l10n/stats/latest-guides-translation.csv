@@ -108,7 +108,6 @@ l10n/po/zh_CN/_guides/lifecycle.adoc.po, 53, 71, 1008, 1203, 17%
 l10n/po/zh_CN/_guides/security-oauth2.adoc.po, 56, 79, 1005, 1226, 19%
 l10n/po/zh_CN/_guides/context-propagation.adoc.po, 66, 73, 1002, 1049, 5%
 l10n/po/zh_CN/_guides/command-mode-reference.adoc.po, 51, 70, 996, 1152, 14%
-l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication-tutorial.adoc.po, 72, 98, 978, 1332, 27%
 l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 60, 106, 976, 1701, 43%
 l10n/po/zh_CN/_guides/dev-services.adoc.po, 49, 60, 956, 1170, 19%
 l10n/po/zh_CN/_guides/spring-data-rest.adoc.po, 87, 111, 955, 1143, 17%
@@ -124,6 +123,7 @@ l10n/po/zh_CN/_guides/rest-client-multipart.adoc.po, 47, 61, 921, 1020, 10%
 l10n/po/zh_CN/_guides/extension-metadata.adoc.po, 50, 81, 915, 1622, 44%
 l10n/po/zh_CN/_guides/tests-with-coverage.adoc.po, 50, 59, 914, 1000, 9%
 l10n/po/zh_CN/_guides/hibernate-orm-panache.adoc.po, 34, 159, 897, 2935, 70%
+l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication-tutorial.adoc.po, 69, 98, 896, 1321, 33%
 l10n/po/zh_CN/_guides/grpc-service-consumption.adoc.po, 65, 69, 892, 1014, 13%
 l10n/po/zh_CN/_guides/ansible.adoc.po, 29, 30, 881, 882, 1%
 l10n/po/zh_CN/_guides/podman.adoc.po, 24, 25, 871, 881, 2%
