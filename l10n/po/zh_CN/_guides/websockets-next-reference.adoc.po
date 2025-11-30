@@ -1326,6 +1326,10 @@ msgid "Set the path param value. Throws `IllegalArgumentException` if the client
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
+msgid "Optionally, customize client and connection options not configurable with the connector API or Quarkus configuration."
+msgstr ""
+
+#: _guides/websockets-next-reference.adoc
 msgid "Use the connection to send messages, if needed."
 msgstr ""
 
@@ -1337,7 +1341,7 @@ msgstr ""
 msgid ""
 "Connectors are not thread-safe and should not be used concurrently.\n"
 "Connectors should also not be reused.\n"
-"If you need to create multiple connections in a row you'll need to obtain a new connetor instance programmatically using `Instance#get()`:"
+"If you need to create multiple connections in a row you'll need to obtain a new connector instance programmatically using `Instance#get()`:"
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
@@ -1375,6 +1379,13 @@ msgid ""
 "The basic connector is closer to a low-level API and is reserved for advanced users.\n"
 "However, unlike others low-level WebSocket clients, it is still a CDI bean and can be injected in other beans.\n"
 "It also provides a way to configure the execution model of the callbacks, ensuring optimal integration with the rest of Quarkus."
+msgstr ""
+
+#: _guides/websockets-next-reference.adoc
+msgid ""
+"Connectors are not thread-safe and should not be used concurrently.\n"
+"Connectors should also not be reused.\n"
+"If you need to create multiple connections in a row you'll need to obtain a new connetor instance programmatically using `Instance#get()`:"
 msgstr ""
 
 #: _guides/websockets-next-reference.adoc
