@@ -64,7 +64,11 @@ msgid "This will allow Quarkus based applications to be observable by tools and 
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
-msgid "Automatic metrics instrumentation in Quarkus is done by the xref:telemetry-micrometer.adoc[Quarkus Micrometer extension]. We plan to provide, in the future, a bridge for those metrics to be available in OpenTelemetry as well."
+msgid "Automatic metrics instrumentation in Quarkus is done by the xref:telemetry-micrometer.adoc[Quarkus Micrometer extension]."
+msgstr ""
+
+#: _versions/main/guides/opentelemetry.adoc
+msgid "The xref:telemetry-micrometer-to-opentelemetry.adoc[quarkus-micrometer-opentelemetry] extension enables the use and export of Micrometer metrics via OpenTelemetry."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
