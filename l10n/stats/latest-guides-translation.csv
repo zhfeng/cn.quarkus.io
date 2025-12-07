@@ -28,8 +28,8 @@ l10n/po/zh_CN/_guides/cache.adoc.po, 152, 171, 2940, 3292, 11%
 l10n/po/zh_CN/_guides/http-reference.adoc.po, 248, 275, 2911, 3300, 12%
 l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 139, 196, 2751, 4108, 34%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3209, 19%
-l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 146, 235, 2583, 4221, 39%
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 150, 201, 2581, 3594, 29%
+l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 145, 235, 2546, 4221, 40%
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 166, 189, 2538, 3159, 20%
 l10n/po/zh_CN/_guides/datasource.adoc.po, 262, 340, 2455, 4178, 42%
 l10n/po/zh_CN/_guides/kafka-streams.adoc.po, 117, 132, 2417, 2606, 8%
@@ -48,7 +48,7 @@ l10n/po/zh_CN/_guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
 l10n/po/zh_CN/_guides/software-transactional-memory.adoc.po, 40, 44, 1950, 1959, 1%
 l10n/po/zh_CN/_guides/reactive-sql-clients.adoc.po, 163, 173, 1878, 1945, 4%
 l10n/po/zh_CN/_guides/jreleaser.adoc.po, 58, 64, 1826, 2019, 10%
-l10n/po/zh_CN/_guides/telemetry-micrometer.adoc.po, 165, 269, 1801, 3366, 47%
+l10n/po/zh_CN/_guides/telemetry-micrometer.adoc.po, 164, 274, 1784, 3453, 49%
 l10n/po/zh_CN/_guides/cli-tooling.adoc.po, 144, 178, 1774, 2275, 23%
 l10n/po/zh_CN/_guides/extension-codestart.adoc.po, 131, 145, 1754, 1939, 10%
 l10n/po/zh_CN/_guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
@@ -228,7 +228,7 @@ l10n/po/zh_CN/_guides/security-identity-providers.adoc.po, 10, 13, 143, 193, 26%
 l10n/po/zh_CN/_guides/funqy-azure-functions-http.adoc.po, 4, 4, 135, 135, 0%
 l10n/po/zh_CN/_guides/spring-scheduled.adoc.po, 3, 57, 132, 726, 82%
 l10n/po/zh_CN/_guides/quarkus-maven-plugin.adoc.po, 6, 6, 116, 116, 0%
-l10n/po/zh_CN/_guides/opentelemetry.adoc.po, 16, 148, 109, 1681, 94%
+l10n/po/zh_CN/_guides/opentelemetry.adoc.po, 16, 149, 109, 1676, 94%
 l10n/po/zh_CN/_guides/_includes/duration-format-note.adoc.po, 7, 7, 108, 108, 0%
 l10n/po/zh_CN/_guides/kubernetes-dev-services.adoc.po, 7, 34, 104, 834, 88%
 l10n/po/zh_CN/_guides/_includes/smallrye-kafka-outgoing.adoc.po, 37, 89, 100, 992, 90%
@@ -292,9 +292,9 @@ l10n/po/zh_CN/_guides/mongodb-dev-services.adoc.po, 0, 12, 0, 282, 100%
 l10n/po/zh_CN/_guides/mongodb-panache-kotlin.adoc.po, 0, 24, 0, 607, 100%
 l10n/po/zh_CN/_guides/observability-devservices-lgtm.adoc.po, 0, 61, 0, 840, 100%
 l10n/po/zh_CN/_guides/observability-devservices.adoc.po, 0, 11, 0, 278, 100%
-l10n/po/zh_CN/_guides/observability.adoc.po, 0, 57, 0, 642, 100%
+l10n/po/zh_CN/_guides/observability.adoc.po, 0, 57, 0, 645, 100%
 l10n/po/zh_CN/_guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589, 100%
-l10n/po/zh_CN/_guides/opentelemetry-metrics.adoc.po, 0, 174, 0, 1763, 100%
+l10n/po/zh_CN/_guides/opentelemetry-metrics.adoc.po, 0, 175, 0, 1783, 100%
 l10n/po/zh_CN/_guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1822, 100%
 l10n/po/zh_CN/_guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
 l10n/po/zh_CN/_guides/security-oidc-expanded-configuration.adoc.po, 0, 728, 0, 13115, 100%

@@ -10,7 +10,7 @@ l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 286, 5240, 5837,
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 255, 408, 4875, 7694, 37%
-l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 260, 316, 4750, 5743, 18%
+l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 260, 323, 4750, 5874, 20%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_versions/main/guides/cdi-reference.adoc.po, 220, 306, 4156, 6055, 32%
 l10n/po/zh_CN/_versions/main/guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
@@ -29,8 +29,8 @@ l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 171, 2940, 3292, 11%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 140, 196, 2767, 4108, 33%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3208, 19%
-l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 146, 235, 2583, 4221, 39%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 200, 2581, 3585, 29%
+l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 145, 235, 2546, 4221, 40%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 262, 340, 2455, 4178, 42%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 117, 132, 2417, 2606, 8%
 l10n/po/zh_CN/_versions/main/guides/smallrye-graphql.adoc.po, 163, 180, 2351, 2455, 5%
@@ -50,7 +50,7 @@ l10n/po/zh_CN/_versions/main/guides/reactive-sql-clients.adoc.po, 163, 173, 1878
 l10n/po/zh_CN/_versions/main/guides/jreleaser.adoc.po, 58, 64, 1826, 2019, 10%
 l10n/po/zh_CN/_versions/main/guides/smallrye-fault-tolerance.adoc.po, 80, 120, 1826, 2248, 19%
 l10n/po/zh_CN/_versions/main/guides/extension-codestart.adoc.po, 132, 145, 1807, 1939, 7%
-l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer.adoc.po, 163, 269, 1798, 3366, 47%
+l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer.adoc.po, 162, 274, 1781, 3453, 49%
 l10n/po/zh_CN/_versions/main/guides/cli-tooling.adoc.po, 144, 178, 1774, 2275, 23%
 l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
 l10n/po/zh_CN/_versions/main/guides/quarkus-reactive-architecture.adoc.po, 65, 66, 1663, 1664, 1%
@@ -96,7 +96,7 @@ l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 64, 
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 71, 126, 1098, 1760, 38%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_versions/main/guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
-l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 68, 82, 1083, 1446, 26%
+l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 68, 83, 1083, 1454, 26%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_versions/main/guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
 l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 47, 67, 1057, 1458, 28%
@@ -141,7 +141,7 @@ l10n/po/zh_CN/_versions/main/guides/smallrye-metrics.adoc.po, 48, 55, 767, 776, 
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive-virtual-threads.adoc.po, 49, 55, 763, 784, 3%
 l10n/po/zh_CN/_versions/main/guides/rest-virtual-threads.adoc.po, 49, 55, 762, 783, 3%
 l10n/po/zh_CN/_versions/main/guides/config-mappings.adoc.po, 54, 62, 757, 882, 15%
-l10n/po/zh_CN/_versions/main/guides/security-csrf-prevention.adoc.po, 37, 52, 757, 919, 18%
+l10n/po/zh_CN/_versions/main/guides/security-csrf-prevention.adoc.po, 37, 52, 757, 924, 19%
 l10n/po/zh_CN/_versions/main/guides/config.adoc.po, 60, 75, 753, 851, 12%
 l10n/po/zh_CN/_versions/main/guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
@@ -233,7 +233,7 @@ l10n/po/zh_CN/_versions/main/guides/spring-scheduled.adoc.po, 3, 57, 132, 726, 8
 l10n/po/zh_CN/_versions/main/guides/observability-devservices-lgtm.adoc.po, 11, 61, 127, 840, 85%
 l10n/po/zh_CN/_versions/main/guides/quarkus-maven-plugin.adoc.po, 6, 6, 116, 116, 0%
 l10n/po/zh_CN/_versions/main/guides/_includes/duration-format-note.adoc.po, 8, 8, 111, 111, 0%
-l10n/po/zh_CN/_versions/main/guides/opentelemetry.adoc.po, 16, 148, 109, 1681, 94%
+l10n/po/zh_CN/_versions/main/guides/opentelemetry.adoc.po, 16, 149, 109, 1676, 94%
 l10n/po/zh_CN/_versions/main/guides/kubernetes-dev-services.adoc.po, 7, 34, 104, 834, 88%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-kafka-outgoing.adoc.po, 38, 90, 103, 995, 90%
 l10n/po/zh_CN/_versions/main/guides/amqp.adoc.po, 6, 69, 97, 1116, 92%
@@ -296,9 +296,9 @@ l10n/po/zh_CN/_versions/main/guides/lra-dev-services.adoc.po, 0, 20, 0, 449, 100
 l10n/po/zh_CN/_versions/main/guides/messaging.adoc.po, 0, 206, 0, 3805, 100%
 l10n/po/zh_CN/_versions/main/guides/mongodb-dev-services.adoc.po, 0, 12, 0, 282, 100%
 l10n/po/zh_CN/_versions/main/guides/mongodb-panache-kotlin.adoc.po, 0, 24, 0, 607, 100%
-l10n/po/zh_CN/_versions/main/guides/observability.adoc.po, 0, 57, 0, 642, 100%
+l10n/po/zh_CN/_versions/main/guides/observability.adoc.po, 0, 57, 0, 645, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-logging.adoc.po, 0, 47, 0, 589, 100%
-l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 174, 0, 1762, 100%
+l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 175, 0, 1782, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-tracing.adoc.po, 0, 143, 0, 1822, 100%
 l10n/po/zh_CN/_versions/main/guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 735, 0, 13252, 100%
