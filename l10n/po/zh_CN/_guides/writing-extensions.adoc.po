@@ -1654,11 +1654,10 @@ msgid "Configuration Example"
 msgstr "配置实例"
 
 #: _guides/writing-extensions.adoc
-#, fuzzy
 msgid ""
 "A configuration property name can be split into segments. For example, a property name like\n"
-"`quarkus.log.file.enable` can be split into the following segments:"
-msgstr "配置属性名可以分割成若干段。例如，像 `quarkus.log.file.enable` 这样的属性名可以分割成以下几个部分："
+"`quarkus.log.file.enabled` can be split into the following segments:"
+msgstr ""
 
 #. type: Plain text
 #: _guides/writing-extensions.adoc
@@ -1678,11 +1677,9 @@ msgstr " `log` - 一个名称段，对应于用 注释的 类。 `@ConfigRoot` `
 msgid "`file` - a name segment which corresponds to the `file` field in this class,"
 msgstr " `file` - 一个名称段，它与该类中的 字段相对应。 `file` "
 
-#. type: Plain text
 #: _guides/writing-extensions.adoc
-#, fuzzy
-msgid "`enable` - a name segment which corresponds to `enable` field in `FileConfig`."
-msgstr " `enabled` - 一个名称段，对应于 类中的 字段，并注有 。 `FileConfig` `enable` `@ConfigGroup` "
+msgid "`enabled` - a name segment which corresponds to `enabled` field in `FileConfig`."
+msgstr ""
 
 #: _guides/writing-extensions.adoc
 #, fuzzy

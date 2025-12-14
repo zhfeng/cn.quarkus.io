@@ -1470,11 +1470,11 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/rest.adoc
-msgid "One solution for this case is to configure the following:"
+msgid "To handle this, you can disable the built-in exception mapper:"
 msgstr ""
 
 #: _versions/main/guides/rest.adoc
-msgid "which essentially makes Quarkus ignore the `ExceptionMapper` for `MismatchedInputException` completely."
+msgid "This allows your custom `ExceptionMapper` for `JsonMappingException` to handle all its subclasses, including `MismatchedInputException`."
 msgstr ""
 
 #: _versions/main/guides/rest.adoc
