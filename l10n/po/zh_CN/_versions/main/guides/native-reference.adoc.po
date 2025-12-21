@@ -656,7 +656,9 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/native-reference.adoc
-msgid "Additionally make sure that the `native-image-agent` goal is present in the `quarkus-maven-plugin` configuration:"
+msgid ""
+"Additionally make sure that the `quarkus:native-image-agent` goal is executed:\n"
+"it is part of the default lifecycle when using the `quarkus` packaging."
 msgstr ""
 
 #: _versions/main/guides/native-reference.adoc
