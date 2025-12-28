@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-12-21 08:48+0000\n"
+"POT-Creation-Date: 2025-12-28 08:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1183,6 +1183,18 @@ msgstr "/guides/hibernate-reactive-panache"
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
+msgid "Simplified Hibernate with Panache"
+msgstr ""
+
+#. type: Hash Value: /guides/transaction sameTopics url
+#: upstream/_data/versioned/main/index/relations.yaml:0
+#, no-wrap
+msgid "/guides/hibernate-panache"
+msgstr ""
+
+#. type: Hash Value: /guides/transaction sameTopics title
+#: upstream/_data/versioned/main/index/relations.yaml:0
+#, no-wrap
 msgid "Simplified MongoDB with Panache"
 msgstr "使用Panache简化MongoDB"
 
@@ -1591,7 +1603,7 @@ msgstr "/guides/smallrye-health"
 #. type: Hash Value: /guides/telemetry-opentracing-to-otel-tutorial sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Using Java Flight Recorder"
+msgid "Using JDK Flight Recorder"
 msgstr ""
 
 #. type: Hash Value: /guides/telemetry-opentracing-to-otel-tutorial sameTopics url
