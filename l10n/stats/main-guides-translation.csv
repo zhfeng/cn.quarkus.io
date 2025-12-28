@@ -23,13 +23,13 @@ l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 152, 165, 3257, 3393, 5%
 l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 211, 3224, 3883, 17%
 l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 205, 252, 3174, 4368, 28%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 201, 3103, 3185, 3%
-l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 293, 2941, 3390, 14%
+l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 250, 303, 2941, 3553, 18%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 152, 171, 2940, 3292, 11%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 136, 149, 2883, 3100, 7%
 l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 171, 189, 2810, 3159, 12%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 140, 196, 2767, 4108, 33%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3208, 19%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 200, 2581, 3585, 29%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 205, 2581, 3657, 30%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 145, 235, 2546, 4221, 40%
 l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 261, 341, 2420, 4255, 44%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 116, 132, 2356, 2603, 10%
@@ -41,7 +41,7 @@ l10n/po/zh_CN/_versions/main/guides/cdi.adoc.po, 126, 132, 2226, 2370, 7%
 l10n/po/zh_CN/_versions/main/guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3249, 36%
 l10n/po/zh_CN/_versions/main/guides/doc-contribute-docs-howto.adoc.po, 139, 142, 2075, 2107, 2%
-l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 239, 335, 2070, 3547, 42%
+l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 239, 337, 2070, 3592, 43%
 l10n/po/zh_CN/_versions/main/guides/rabbitmq-reference.adoc.po, 199, 253, 2065, 2494, 18%
 l10n/po/zh_CN/_versions/main/guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
 l10n/po/zh_CN/_versions/main/guides/software-transactional-memory.adoc.po, 40, 44, 1950, 1959, 1%
@@ -290,7 +290,8 @@ l10n/po/zh_CN/_versions/main/guides/extension-faq.adoc.po, 0, 40, 0, 933, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1428, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-writing-dev-service.adoc.po, 0, 27, 0, 438, 100%
 l10n/po/zh_CN/_versions/main/guides/grpc-cli.adoc.po, 0, 9, 0, 40, 100%
-l10n/po/zh_CN/_versions/main/guides/jfr.adoc.po, 0, 99, 0, 1717, 100%
+l10n/po/zh_CN/_versions/main/guides/hibernate-panache.adoc.po, 0, 170, 0, 2290, 100%
+l10n/po/zh_CN/_versions/main/guides/jfr.adoc.po, 0, 107, 0, 1826, 100%
 l10n/po/zh_CN/_versions/main/guides/load-shedding-reference.adoc.po, 0, 63, 0, 1159, 100%
 l10n/po/zh_CN/_versions/main/guides/lra-dev-services.adoc.po, 0, 20, 0, 449, 100%
 l10n/po/zh_CN/_versions/main/guides/messaging.adoc.po, 0, 205, 0, 3790, 100%

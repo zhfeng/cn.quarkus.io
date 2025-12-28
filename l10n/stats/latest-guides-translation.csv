@@ -17,8 +17,8 @@ l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 216, 306, 4010, 6055, 34%
 l10n/po/zh_CN/_guides/hibernate-search-standalone-elasticsearch.adoc.po, 230, 248, 3905, 4008, 3%
 l10n/po/zh_CN/_guides/security-oidc-bearer-token-authentication.adoc.po, 169, 246, 3843, 5317, 28%
 l10n/po/zh_CN/_guides/config-reference.adoc.po, 208, 254, 3490, 4481, 23%
-l10n/po/zh_CN/_guides/building-my-first-extension.adoc.po, 171, 176, 3327, 3359, 1%
 l10n/po/zh_CN/_guides/kafka.adoc.po, 151, 623, 3326, 12407, 74%
+l10n/po/zh_CN/_guides/building-my-first-extension.adoc.po, 169, 175, 3313, 3358, 2%
 l10n/po/zh_CN/_guides/cassandra.adoc.po, 154, 167, 3277, 3413, 4%
 l10n/po/zh_CN/_guides/gradle-tooling.adoc.po, 160, 211, 3224, 3883, 17%
 l10n/po/zh_CN/_guides/redis-reference.adoc.po, 205, 237, 3174, 4082, 23%
@@ -37,10 +37,10 @@ l10n/po/zh_CN/_guides/smallrye-graphql.adoc.po, 163, 180, 2351, 2455, 5%
 l10n/po/zh_CN/_guides/resteasy.adoc.po, 108, 155, 2333, 2872, 19%
 l10n/po/zh_CN/_guides/security-authentication-mechanisms.adoc.po, 153, 241, 2328, 3800, 39%
 l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
-l10n/po/zh_CN/_guides/logging.adoc.po, 247, 325, 2164, 3478, 38%
 l10n/po/zh_CN/_guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
 l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3249, 36%
+l10n/po/zh_CN/_guides/logging.adoc.po, 239, 335, 2070, 3547, 42%
 l10n/po/zh_CN/_guides/rabbitmq-reference.adoc.po, 199, 253, 2065, 2494, 18%
 l10n/po/zh_CN/_guides/scheduler-reference.adoc.po, 111, 134, 2061, 2568, 20%
 l10n/po/zh_CN/_guides/cdi.adoc.po, 120, 132, 1992, 2372, 17%
