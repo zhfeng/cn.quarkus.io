@@ -10,7 +10,7 @@ l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 260, 286, 5240, 5837, 11%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 254, 408, 4809, 7694, 38%
-l10n/po/zh_CN/_guides/rest-client.adoc.po, 260, 323, 4750, 5874, 20%
+l10n/po/zh_CN/_guides/rest-client.adoc.po, 260, 326, 4750, 5939, 21%
 l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
 l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 216, 306, 4010, 6055, 34%
@@ -40,7 +40,7 @@ l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_guides/doc-contribute-docs-howto.adoc.po, 140, 142, 2106, 2108, 1%
 l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3249, 36%
-l10n/po/zh_CN/_guides/logging.adoc.po, 239, 335, 2070, 3547, 42%
+l10n/po/zh_CN/_guides/logging.adoc.po, 239, 337, 2070, 3592, 43%
 l10n/po/zh_CN/_guides/rabbitmq-reference.adoc.po, 199, 253, 2065, 2494, 18%
 l10n/po/zh_CN/_guides/scheduler-reference.adoc.po, 111, 134, 2061, 2568, 20%
 l10n/po/zh_CN/_guides/cdi.adoc.po, 120, 132, 1992, 2372, 17%
@@ -52,8 +52,8 @@ l10n/po/zh_CN/_guides/telemetry-micrometer.adoc.po, 164, 274, 1784, 3453, 49%
 l10n/po/zh_CN/_guides/cli-tooling.adoc.po, 144, 178, 1774, 2275, 23%
 l10n/po/zh_CN/_guides/extension-codestart.adoc.po, 131, 145, 1754, 1939, 10%
 l10n/po/zh_CN/_guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
-l10n/po/zh_CN/_guides/quarkus-reactive-architecture.adoc.po, 65, 66, 1663, 1664, 1%
 l10n/po/zh_CN/_guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
+l10n/po/zh_CN/_guides/quarkus-reactive-architecture.adoc.po, 64, 66, 1651, 1664, 1%
 l10n/po/zh_CN/_guides/smallrye-health.adoc.po, 81, 98, 1641, 1812, 10%
 l10n/po/zh_CN/_guides/kafka-schema-registry-avro.adoc.po, 77, 91, 1603, 1719, 7%
 l10n/po/zh_CN/_guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
@@ -133,9 +133,9 @@ l10n/po/zh_CN/_guides/deploying-to-heroku.adoc.po, 51, 71, 834, 1092, 24%
 l10n/po/zh_CN/_guides/grpc-getting-started.adoc.po, 49, 56, 822, 872, 6%
 l10n/po/zh_CN/_guides/spring-web.adoc.po, 86, 125, 817, 1228, 34%
 l10n/po/zh_CN/_guides/credentials-provider.adoc.po, 49, 50, 816, 818, 1%
-l10n/po/zh_CN/_guides/kubernetes-config.adoc.po, 39, 43, 815, 830, 2%
 l10n/po/zh_CN/_guides/security-oidc-code-flow-authentication-tutorial.adoc.po, 59, 75, 787, 1110, 30%
 l10n/po/zh_CN/_guides/spring-di.adoc.po, 58, 83, 781, 1094, 29%
+l10n/po/zh_CN/_guides/kubernetes-config.adoc.po, 37, 43, 771, 833, 8%
 l10n/po/zh_CN/_guides/capabilities.adoc.po, 41, 44, 769, 776, 1%
 l10n/po/zh_CN/_guides/smallrye-metrics.adoc.po, 48, 55, 767, 776, 2%
 l10n/po/zh_CN/_guides/resteasy-reactive-virtual-threads.adoc.po, 49, 55, 763, 784, 3%
