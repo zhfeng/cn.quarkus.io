@@ -613,23 +613,32 @@ msgid "Listening on a Random Port"
 msgstr "在一个随机端口上监听"
 
 #: _versions/main/guides/http-reference.adoc
-#, fuzzy
 msgid ""
 "If you don't want to specify a port you can set `quarkus.http.port=0` or `quarkus.http.test-port=0`. A random open port\n"
-"will be picked by the OS, and a log message printed in the console. When the port is bound the `quarkus.http.port` system\n"
-"property will be set to the actual port that was selected, so you can use this to get the actual port number from inside\n"
-"the application. If you are in a test you can inject the URL normally and this will be configured with the actual port,\n"
-"and REST Assured will also be configured appropriately."
-msgstr "如果不想指定端口，可以设置 `quarkus.http.port=0` 或 `quarkus.http.test-port=0` 。操作系统将随机选择一个开放端口，并在控制台中打印日志信息。绑定端口后， `quarkus.http.port` 系统属性将被设置为实际选择的端口，因此您可以使用它从应用程序内部获取实际端口号。如果在测试中，可以正常注入 URL，这样就会配置为实际端口，REST Assured 也会进行适当配置。"
+"will be picked by the OS, and a log message printed in the console."
+msgstr ""
 
 #: _versions/main/guides/http-reference.adoc
-#, fuzzy
 msgid ""
-"As this sets a system property you can access `quarkus.http.port` via MicroProfile Config, however if you use\n"
-"injection the injected value may not always be correct. This port allocation is one of the last things to happen in\n"
-"Quarkus startup, so if your object that is being injected is created eagerly before the port has opened the injected\n"
-"value will not be correct."
-msgstr "由于这将设置一个系统属性，因此您可以通过 MicroProfile Config 访问 `quarkus.http.port` ，但如果您使用注入，注入的值可能并不总是正确的。端口分配是 Quarkus 启动过程中最后发生的事情之一，因此如果被注入的对象是在端口打开之前急于创建的，注入的值就不会正确。"
+"To retrieve the real port, use the `io.quarkus.vertx.http.HttpServer` API, which can be injected into the application\n"
+"code as a CDI Bean:"
+msgstr ""
+
+#: _versions/main/guides/http-reference.adoc
+msgid "Or into any kind of test, either as a field or test parameter:"
+msgstr ""
+
+#: _versions/main/guides/http-reference.adoc
+msgid ""
+"To retrieve the `URI` that Quarkus is serving on, use `HttpServer#getLocalBaseUri()`. In tests, the URI can be\n"
+"directly injected with `@TestHTTPResource`:"
+msgstr ""
+
+#: _versions/main/guides/http-reference.adoc
+msgid ""
+"Every Quarkus component that requires the actual http port, like REST Assured, is automatically updated with the real\n"
+"port."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/http-reference.adoc

@@ -405,10 +405,8 @@ msgid ""
 msgstr "默认情况下，测试将在端口 `8081` 上运行，以便不与正在运行的应用程序冲突。我们自动将RestAssured配置为使用该端口。如果你想使用不同的客户端，你应该使用 `@TestHTTPResource` 注释，直接将测试应用程序的URL注入到测试类的一个字段中。这个字段的类型可以是 `String` , `URL` 或 `URI` 。这个注解也可以给测试路径一个值。例如，如果我想测试一个映射到 `/myservlet` 的Servlet，只需在测试中添加以下内容："
 
 #: _versions/main/guides/getting-started.adoc
-msgid ""
-"The test port can be controlled via the `quarkus.http.test-port` config property. Quarkus also creates a system\n"
-"property called `test.url` that is set to the base test URL for situations where you cannot use injection."
-msgstr "测试端口可以通过 `quarkus.http.test-port` 配置属性来控制。Quarkus还创建了一个名为 `test.url` 的系统属性，在不能使用注入的情况下被设置为基本测试URL。"
+msgid "The test port can be controlled via the `quarkus.http.test-port` config property."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/getting-started.adoc

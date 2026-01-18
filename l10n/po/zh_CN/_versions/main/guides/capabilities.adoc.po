@@ -157,12 +157,6 @@ msgstr "也支持相应的 `requiresIf` 元素。"
 msgid "It is possible to specify `onlyIfNot` conditions as well. Conditions can also be set for required capabilities."
 msgstr "也可以指定 `onlyIfNot` 条件。还可以为所需的能力设置条件。"
 
-#. type: Plain text
-#: _versions/main/guides/capabilities.adoc
-#, fuzzy
-msgid "It is possible to specify `onlyIfNot` conditions as well. . Conditions can also be set for required capabilities."
-msgstr "也可以指定 `onlyIfNot` 条件。.也可以为所需的能力设置条件。"
-
 #. type: delimited block *
 #: _versions/main/guides/capabilities.adoc
 #, fuzzy
@@ -277,8 +271,6 @@ msgstr "`io.quarkus.resteasy.json.jsonb`"
 msgid "`io.quarkus.resteasy.json.jsonb.client`"
 msgstr "`io.quarkus.resteasy.json.jsonb.client`"
 
-#. type: Plain text
 #: _versions/main/guides/capabilities.adoc
-#, fuzzy
-msgid "Including any one of those extensions in an application will enable the RESTEasy JSON serializer. In case a build step needs to check whether the RESTEasy JSON serializer is already enabled in an application, instead of checking whether any of those capabilities is present, it could simply check whether an extension with prefix `io.quarkus.resteasy.json` is present."
-msgstr "在应用程序中包含其中任何一个扩展，都将启用 RESTEasy JSON 序列器。如果构建步骤需要检查应用程序中是否已启用 RESTEasy JSON 序列化器，可以不检查是否存在这些功能，而只检查是否存在前缀为 `io.quarkus.resteasy.json` 的扩展。"
+msgid "Including any one of those extensions in an application will enable the RESTEasy JSON serializer. In case a build step needs to check whether the RESTEasy JSON serializer is already enabled in an application, instead of checking whether any of those capabilities is present, it could simply check whether an extension with the prefix `io.quarkus.resteasy.json` is present."
+msgstr ""

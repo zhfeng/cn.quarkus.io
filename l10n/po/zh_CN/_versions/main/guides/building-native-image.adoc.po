@@ -558,7 +558,7 @@ msgid ""
 msgstr "这些是常规的 Quarkus 配置属性，因此如果你总是想在容器中构建，建议将它们添加到 `application.properties` ，以避免每次都指定它们。"
 
 #: _versions/main/guides/building-native-image.adoc
-msgid "Executable built that way with the container runtime will be a 64-bit Linux executable, so depending on your operating system it may no longer be runnable."
+msgid "Executable built that way with the container runtime will be a 64-bit Linux executable, so depending on your operating system, it may no longer be runnable."
 msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc
@@ -572,7 +572,7 @@ msgstr ""
 #: _versions/main/guides/building-native-image.adoc
 msgid ""
 "You can configure the builder image used for the container build by setting the `quarkus.native.builder-image` property.\n"
-"For example to switch back to an UBI8 _builder image_ you can use:"
+"For example, to switch back to an UBI8 _builder image_ you can use:"
 msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc
@@ -681,8 +681,8 @@ msgstr "手动使用微基础镜像"
 #: _versions/main/guides/building-native-image.adoc
 msgid ""
 "You can run the application in a container using the JAR produced by the Quarkus Maven Plugin.\n"
-"However, in this section we focus on creating a container image using the produced native executable."
-msgstr "你可以使用Quarkus Maven插件生成的JAR在容器中运行该应用程序。然而，在本节中我们将重点讨论使用生成的原生可执行文件创建一个容器镜像。"
+"However, in this section, we focus on creating a container image using the produced native executable."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/building-native-image.adoc
@@ -698,10 +698,10 @@ msgstr "使用本地GraalVM安装时，原生可执行文件的目标是您的�
 
 #: _versions/main/guides/building-native-image.adoc
 msgid ""
-"The produced executable will be a 64-bit Linux executable, so depending on your operating system it may no longer be runnable.\n"
+"The produced executable will be a 64-bit Linux executable, so depending on your operating system, it may no longer be runnable.\n"
 "However, it's not an issue as we are going to copy it to a container.\n"
 "The project generation has provided a `Dockerfile.native-micro` in the `src/main/docker` directory with the following content:"
-msgstr "产生的可执行文件将是一个64位的Linux可执行文件，所以如果您的操作系统不支持，它可能不能运行。但由于我们会把它复制到容器中，所以这不是一个问题。自动生成的项目在 `src/main/docker` 目录中提供了一个 `Dockerfile.native-micro` ，内容如下："
+msgstr ""
 
 #. type: Block title
 #: _versions/main/guides/building-native-image.adoc
@@ -1058,26 +1058,24 @@ msgid ""
 msgstr "要生成调试符号，在生成原生可执行文件时添加 `-Dquarkus.native.debug.enabled=true` 标志。你将在原生可执行文件旁边的 `.debug` 文件中找到原生可执行文件的调试符号。"
 
 #: _versions/main/guides/building-native-image.adoc
-#, fuzzy
 msgid ""
 "The generation of the `.debug` file depends on `objcopy`.\n"
-"As a result, when using a local GraalVM installation on common Linux distributions you will need to install the `binutils` package:"
-msgstr "`.debug` 文件的生成依赖于 `objcopy` 。因此，在普通 Linux 发行版上使用本地 GraalVM 安装时，需要安装 `binutils` 软件包："
+"As a result, when using a local GraalVM installation on common Linux distributions, you will need to install the `binutils` package:"
+msgstr ""
 
-#. type: Plain text
 #: _versions/main/guides/building-native-image.adoc
-msgid "When `objcopy` is not available debug symbols are embedded in the executable."
-msgstr "当被嵌入到可执行文件中的 `objcopy` 调试符号不可用时。"
+msgid "When `objcopy` is not available, debug symbols are embedded in the executable."
+msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc
 msgid ""
 "Aside from debug symbols,\n"
 "setting `-Dquarkus.native.debug.enabled=true` flag generates a cache of source files\n"
-"for any JDK runtime classes, GraalVM classes and application classes resolved during native executable generation.\n"
+"for any JDK runtime classes, GraalVM classes, and application classes resolved during native executable generation.\n"
 "This source cache is useful for native debugging tools,\n"
-"to establish the link between the symbols and matching source code.\n"
+"to establish the link between the symbols and the matching source code.\n"
 "It provides a convenient way of making just the necessary sources available to the debugger/IDE when debugging a native executable."
-msgstr "除了调试符号外，设置 `-Dquarkus.native.debug.enabled=true` 标志会生成一个源文件缓存，用于生成原生可执行文件时解决的任何JDK运行时类、GraalVM类和应用程序类。这个源码缓存对原生调试工具很有用，可以在符号和匹配的源代码之间建立联系。在调试本原生执行文件时，它提供了一种方便的方法，使调试器/IDE仅能获得必要的源文件。"
+msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc
 msgid ""
@@ -1148,6 +1146,18 @@ msgstr "描述"
 #, fuzzy, no-wrap
 msgid "Availability As Of"
 msgstr "可用性截止到"
+
+#: _versions/main/guides/building-native-image.adoc
+msgid "jcmd"
+msgstr ""
+
+#: _versions/main/guides/building-native-image.adoc
+msgid "Include JCMD support"
+msgstr ""
+
+#: _versions/main/guides/building-native-image.adoc
+msgid "GraalVM CE for JDK 24 Mandrel 24.2"
+msgstr ""
 
 #. type: Table
 #: _versions/main/guides/building-native-image.adoc
@@ -1243,6 +1253,18 @@ msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc
 msgid "GraalVM for JDK 23 Mandrel 24.1"
+msgstr ""
+
+#: _versions/main/guides/building-native-image.adoc
+msgid "threaddump"
+msgstr ""
+
+#: _versions/main/guides/building-native-image.adoc
+msgid "Adds support for dumping thread stacks on SIGQUIT/SIGBREAK."
+msgstr ""
+
+#: _versions/main/guides/building-native-image.adoc
+msgid "GraalVM for JDK 22 Mandrel 24.0"
 msgstr ""
 
 #: _versions/main/guides/building-native-image.adoc

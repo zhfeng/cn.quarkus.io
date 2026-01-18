@@ -314,11 +314,10 @@ msgid ""
 msgstr "`fail` - 使应用失败；不再处理AMQP消息（默认）。AMQP消息被标记为拒绝。"
 
 #: _versions/main/guides/amqp-reference.adoc
-#, fuzzy
 msgid ""
-"`accept` - this strategy marks the AMQP message as _accepted_. The processing continues ignoring the failure.\n"
+"`accept` - this strategy marks the AMQP message as _accepted_. The processing continues, ignoring the failure.\n"
 "Refer to the https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-accepted[accepted delivery state documentation]."
-msgstr "`accept` - 该策略将 AMQP 消息标记为已 _接受_ 。处理将继续，不会理会失败。请参阅 link:https://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-accepted[已接受交付状态文档] 。"
+msgstr ""
 
 #: _versions/main/guides/amqp-reference.adoc
 #, fuzzy
@@ -480,10 +479,10 @@ msgstr "为了能够按消息设置地址，连接器使用了一个 _anonymous 
 
 #: _versions/main/guides/amqp-reference.adoc
 msgid ""
-"By default, the Reactive Messaging `Message` is acknowledged when the broker acknowledged the message.\n"
+"By default, the Reactive Messaging `Message` is acknowledged when the broker acknowledges the message.\n"
 "When using routers, this acknowledgement may not be enabled.\n"
 "In this case, configure the `auto-acknowledgement` attribute to acknowledge the message as soon as it has been sent to the router."
-msgstr "默认情况下，当代理确认消息时，响应式消息 `Message` 也会被确认。当使用路由器时，这种确认可能不会被启用。在这种情况下，配置 `auto-acknowledgement` 属性，以便在消息被发送到路由器后立即确认。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/amqp-reference.adoc
@@ -521,7 +520,7 @@ msgstr "如果没有设置 `address` 属性，连接器将使用通道名称。"
 
 #: _versions/main/guides/amqp-reference.adoc
 msgid ""
-"To use an existing queue, you need to configure the `address`, `container-id` and, optionally, the `link-name` attributes.\n"
+"To use an existing queue, you need to configure the `address`, `container-id`, and, optionally, the `link-name` attributes.\n"
 "For example, if you have an Apache ActiveMQ Artemis broker configured with:"
 msgstr ""
 
@@ -554,9 +553,9 @@ msgstr "执行模型和阻塞处理"
 msgid ""
 "Reactive Messaging invokes your method on an I/O thread.\n"
 "See the xref:quarkus-reactive-architecture.adoc[Quarkus Reactive Architecture documentation] for further details on this topic.\n"
-"But, you often need to combine Reactive Messaging with blocking processing such as database interactions.\n"
+"But, you often need to combine Reactive Messaging with blocking processing, such as database interactions.\n"
 "For this, you need to use the `@Blocking` annotation indicating that the processing is _blocking_ and should not be run on the caller thread."
-msgstr "Reactive Messaging会在一个I/O线程中调用您的方法。关于这个话题的更多细节，请看  xref:quarkus-reactive-architecture.adoc[Quarkus Reactive Architecture documentation]  。但是您可能需要经常将Reactive Messaging 与阻塞式处理相结合使用，比如与数据库通信。为此，您需要使用 `@Blocking` 注解来表该明处理是 _阻塞的_ ，并且不在调用者线程中运行。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/amqp-reference.adoc
@@ -1442,17 +1441,12 @@ msgstr ""
 msgid "[.no-hyphens]#*cloud-events-mode*#"
 msgstr "[.no-hyphens]#*cloud-events-mode*#"
 
-#. type: Table
 #: _versions/main/guides/amqp-reference.adoc
-#, no-wrap
 msgid ""
-"The Cloud Event mode (`structured` or `binary` (default)). Indicates how are written the cloud events in the outgoing record\n"
+"The Cloud Event mode (`structured` or `binary` (default)). Indicates how the cloud events are written in the outgoing record\n"
 "\n"
 "Type: _string_"
 msgstr ""
-"云事件模式（ `structured` 或 `binary` （默认））。表示如何在发出的记录中写入云事件\n"
-"\n"
-"类型: _string_"
 
 #. type: Table
 #: _versions/main/guides/amqp-reference.adoc
@@ -1616,17 +1610,12 @@ msgstr "`0`"
 msgid "[.no-hyphens]#*use-anonymous-sender*#"
 msgstr "[.no-hyphens]#*use-anonymous-sender*#"
 
-#. type: Table
 #: _versions/main/guides/amqp-reference.adoc
-#, no-wrap
 msgid ""
-"Whether the connector should use an anonymous sender. Default value is `true` if the broker supports it, `false` otherwise. If not supported, it is not possible to dynamically change the destination address.\n"
+"Whether the connector should use an anonymous sender. The default value is `true` if the broker supports it, `false` otherwise. If not supported, it is not possible to dynamically change the destination address.\n"
 "\n"
 "Type: _boolean_"
 msgstr ""
-"连接器是否应使用匿名发送者。如果代理支持，则默认值为 `true` ，否则为 `false` 。如果不支持，则无法动态更改目的地地址。\n"
-"\n"
-"类型: _boolean_"
 
 #. type: Title ===
 #: _versions/main/guides/amqp-reference.adoc

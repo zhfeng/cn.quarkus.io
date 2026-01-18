@@ -312,11 +312,9 @@ msgstr "如果从 RabbitMQ 消息生成的消息被拦截，则会应用失败�
 msgid "`fail` - fail the application; no more RabbitMQ messages will be processed. The RabbitMQ message is marked as rejected."
 msgstr " `fail` - 使应用程序失败；将不再处理 RabbitMQ 消息。该 RabbitMQ 消息被标记为拒绝。"
 
-#. type: Plain text
 #: _versions/main/guides/rabbitmq-reference.adoc
-#, fuzzy
-msgid "`accept` - this strategy marks the RabbitMQ message as _accepted_. The processing continues ignoring the failure."
-msgstr " `accept` - 此策略将 RabbitMQ 消息标记为 _接受_ 。处理过程继续进行，忽略失败。"
+msgid "`accept` - this strategy marks the RabbitMQ message as _accepted_. The processing continues, ignoring the failure."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/rabbitmq-reference.adoc
@@ -571,12 +569,11 @@ msgid "On the outbound side (sending records to RabbitMQ), the check verifies th
 msgstr "在出站端（向 RabbitMQ 发送记录），该检查验证发件人是否与代理断开了连接；发件人 _可能_ 仍处于初始化状态（尚未尝试连接），但这被认为是实时/就绪的。"
 
 #: _versions/main/guides/rabbitmq-reference.adoc
-#, fuzzy
 msgid ""
-"Note that a message processing failures nacks the message, which is then handled by the `failure-strategy`.\n"
+"Note that a message processing failure nacks the message, which is then handled by the `failure-strategy`.\n"
 "It's the responsibility of the `failure-strategy` to report the failure and influence the outcome of the checks.\n"
 "The `fail` failure strategy reports the failure, and so the check will report the fault."
-msgstr "请注意，消息处理故障会将消息剔除，然后由 `failure-strategy` 处理。报告故障并影响检查结果是 `failure-strategy` 的责任。 `fail` 故障策略会报告故障，因此检查也会报告故障。"
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/rabbitmq-reference.adoc

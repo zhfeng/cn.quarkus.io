@@ -38,11 +38,9 @@ msgstr ""
 msgid "OK. Let's start simple. What is a bean?"
 msgstr "好的。让我们从简单的开始。什么是豆子？"
 
-#. type: Plain text
 #: _versions/main/guides/cdi.adoc
-#, fuzzy
-msgid "Well, a bean is a _container-managed_ object that supports a set of basic services, such as injection of dependencies, lifecycle callbacks and interceptors."
-msgstr "好吧，Bean是一个 _容器管理_ 的对象，它支持一系列的基本服务，如依赖关系的注入、生命周期的回调和拦截器。"
+msgid "Well, a bean is a _container-managed_ object that supports a set of basic services, such as injection of dependencies, lifecycle callbacks, and interceptors."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/cdi.adoc
@@ -169,12 +167,11 @@ msgid "Can I use setter and constructor injection?"
 msgstr "我可以使用设置器和构造器注入吗？"
 
 #: _versions/main/guides/cdi.adoc
-#, fuzzy
 msgid ""
 "Yes, you can.\n"
-"In fact, in CDI the \"setter injection\" is superseded by more powerful https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1.html#initializer_methods[initializer methods, window=\"_blank\"].\n"
+"In fact, in CDI, the \"setter injection\" is superseded by more powerful https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1.html#initializer_methods[initializer methods, window=\"_blank\"].\n"
 "Initializers may accept multiple parameters and don't have to follow the JavaBean naming conventions."
-msgstr "可以。事实上，在 CDI 中，\"setter 注入 \"被功能更强大的 link:https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1.html#initializer_methods[初始化器方法] 所取代。初始化器可以接受多个参数，而且不必遵循 JavaBean 的命名约定。"
+msgstr ""
 
 #. type: Block title
 #: _versions/main/guides/cdi.adoc
@@ -183,13 +180,12 @@ msgid "Initialized and Constructor Injection Example"
 msgstr "初始化和构造函数注入实例"
 
 #: _versions/main/guides/cdi.adoc
-#, fuzzy
 msgid ""
 "This is a constructor injection.\n"
 "In fact, this code would not work in regular CDI implementations where a bean with a normal scope must always declare a no-args constructor and the bean constructor must be annotated with `@Inject`.\n"
-"However, in Quarkus we detect the absence of no-args constructor and \"add\" it directly in the bytecode.\n"
+"However, in Quarkus, we detect the absence of no-args constructor and \"add\" it directly in the bytecode.\n"
 "It's also not necessary to add `@Inject` if there is only one constructor present."
-msgstr "这就是构造函数注入。事实上，这段代码在常规的 CDI 实现中是行不通的，因为在常规的 CDI 实现中，具有正常作用域的 Bean 必须始终声明一个无参数构造函数，而且 Bean 的构造函数必须用 `@Inject` 进行注解。但是，在 Quarkus 中，我们会检测无参数构造函数的缺失，并直接在字节码中 \"添加 \"它。如果只有一个构造函数，也无需添加 `@Inject` 。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cdi.adoc
@@ -210,12 +206,11 @@ msgid "You talked about some qualifiers?"
 msgstr "你谈到了一些限定词？"
 
 #: _versions/main/guides/cdi.adoc
-#, fuzzy
 msgid ""
 "https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1.html#qualifiers[Qualifiers, window=\"_blank\"] are annotations that help the container to distinguish beans that implement the same type.\n"
-"As we already said a bean is assignable to an injection point if it has all the required qualifiers.\n"
-"If you declare no qualifier at an injection point the `@Default` qualifier is assumed."
-msgstr "link:https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1.html#qualifiers[限定符] 是帮助容器区分实现相同类型的 Bean 的注解。我们已经说过，如果一个 Bean 具有所有必需的限定符，那么它就可以分配给注入点。如果您没有在注入点声明限定符， `@Default` 限定符将被假定。"
+"As we already said, a bean is assignable to an injection point if it has all the required qualifiers.\n"
+"If you declare no qualifier at an injection point, the `@Default` qualifier is assumed."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cdi.adoc

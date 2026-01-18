@@ -249,11 +249,10 @@ msgid ""
 msgstr "让我们看看如果我们从未来的某一天开始使用 `http://localhost:8080/weather?city=Raleigh&daysInFuture=1` URL。由于缓存中已经加载了所请求日期中的两天，所以两秒钟后就会得到答案。"
 
 #: _versions/main/guides/cache.adoc
-#, fuzzy
 msgid ""
 "You can also try calling the same URL with a different city and see the cache in action again.\n"
-"The first call will take six seconds and the following ones will be answered immediately."
-msgstr "您还可以尝试用不同的城市调用相同的 URL，再次查看缓存的运行情况。第一次调用需要 6 秒钟，随后的调用将立即响应。"
+"The first call will take six seconds, and the following ones will be answered immediately."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cache.adoc
@@ -300,24 +299,22 @@ msgid "Loads a method result from the cache without executing the method body wh
 msgstr "尽可能地从缓存中加载方法结果，而不执行方法主体。"
 
 #: _versions/main/guides/cache.adoc
-#, fuzzy
 msgid ""
 "When a method annotated with `@CacheResult` is invoked, Quarkus will compute a cache key and use it to check in the cache whether the method has been already invoked.\n"
 "See the <<cache-keys-building-logic>> section of this guide to learn how the cache key is computed.\n"
-"If a value is found in the cache, it is returned and the annotated method is never actually executed.\n"
-"If no value is found, the annotated method is invoked and the returned value is stored in the cache using the computed key."
-msgstr "当一个注释为 `@CacheResult` 的方法被调用时，Quarkus 会计算一个缓存键，并用它在缓存中检查该方法是否已被调用。请参阅本指南的 <<cache-keys-building-logic>> 部分，了解如何计算缓存键。如果在缓存中找到一个值，它就会被返回，而注解的方法不会被实际执行。如果没有找到值，则会调用注释方法，并使用计算出的键将返回值存储到缓存中。"
+"If a value is found in the cache, it is returned, and the annotated method is never actually executed.\n"
+"If no value is found, the annotated method is invoked, and the returned value is stored in the cache using the computed key."
+msgstr ""
 
 #: _versions/main/guides/cache.adoc
-#, fuzzy
 msgid ""
 "A method annotated with `CacheResult` is protected by a lock on cache miss mechanism.\n"
 "If several concurrent invocations try to retrieve a cache value from the same missing key, the method will only be invoked once.\n"
-"The first concurrent invocation will trigger the method invocation while the subsequent concurrent invocations will wait for the end of the method invocation to get the cached result.\n"
+"The first concurrent invocation will trigger the method invocation, while the subsequent concurrent invocations will wait for the end of the method invocation to get the cached result.\n"
 "The `lockTimeout` parameter can be used to interrupt the lock after a given delay.\n"
 "The lock timeout is disabled by default, meaning the lock is never interrupted.\n"
 "See the parameter Javadoc for more details."
-msgstr "注释为 `CacheResult` 的方法受缓存缺失锁定机制的保护。如果多个并发调用试图从同一个缺失键获取缓存值，该方法只会被调用一次。第一次并发调用将触发方法调用，而随后的并发调用将等待方法调用结束后获取缓存结果。 `lockTimeout` 参数可用于在给定延迟后中断锁定。默认情况下锁定超时是禁用的，这意味着锁定永远不会被中断。详情请参见参数 Javadoc。"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cache.adoc
@@ -1073,11 +1070,10 @@ msgid "`PSAMS` is one of the many cache implementation classes of Caffeine so th
 msgstr " `PSAMS` 是Caffeine众多缓存实现类中的一个，所以这部分可能会有所不同。"
 
 #: _versions/main/guides/cache.adoc
-#, fuzzy
 msgid ""
 "When you encounter this error, you can easily fix it by adding the following annotation to any of your application classes\n"
-"(or you can create a new class such as `Reflections` just to host this annotation if you prefer):"
-msgstr "遇到这种错误时，只需在任何应用程序类中添加以下注解，就能轻松解决（如果愿意，也可以创建一个新类，如 `Reflections` ，专门用于托管此注解）："
+"(or you can create a new class, such as `Reflections` just to host this annotation if you prefer):"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cache.adoc
