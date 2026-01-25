@@ -91,9 +91,14 @@ msgid "2) In the maven-surefire-plugin and maven-failsafe-plugin configurations,
 msgstr "2) 在 maven-surefire-plugin 和 maven-failsafe-plugin 配置中，添加以下 `argLine` 参数："
 
 #: _versions/main/guides/rest-virtual-threads.adoc
-#, fuzzy
-msgid "The `-Djdk.tracePinnedThreads` will detect pinned carrier threads while running tests (See xref:./virtual-threads.adoc#pinning[the virtual thread reference guide for details])."
-msgstr "`-Djdk.tracePinnedThreads` 会在运行测试时检测到被钉住的载波线程（ xref:./virtual-threads.adoc#pinning[详情请] 参见 xref:./virtual-threads.adoc#pinning[虚拟线程参考指南] ）。"
+msgid ""
+"The `-Djdk.tracePinnedThreads` system property **only works on Java 21-23**.\n"
+"It has been removed in Java 24+. For Java 24+, use the JFR events or Quarkus testing extensions instead (see the xref:./virtual-threads.adoc#testing-virtual-thread-applications[Testing virtual thread applications] section)."
+msgstr ""
+
+#: _versions/main/guides/rest-virtual-threads.adoc
+msgid "The `-Djdk.tracePinnedThreads` will detect pinned carrier threads while running tests on Java 21-23 (See xref:./virtual-threads.adoc#pinning[the virtual thread reference guide for details])."
+msgstr ""
 
 #: _versions/main/guides/rest-virtual-threads.adoc
 #, fuzzy
@@ -237,14 +242,23 @@ msgid ""
 msgstr "如果虚拟线程无法顺利 _卸载_ （即阻塞了载体线程）， `-Djdk.tracePinnedThreads` 会转储堆栈跟踪。这就是我们所说的 _钉住_ （更多信息请参见 xref:./virtual-threads.adoc#pinning[虚拟线程参考指南] ）。"
 
 #: _versions/main/guides/rest-virtual-threads.adoc
-#, fuzzy
+msgid "This flag **only works on Java 21-23** and has been removed in Java 24+. For Java 24+, use the Quarkus `junit-virtual-threads` extension described in xref:./virtual-threads.adoc#testing-virtual-thread-applications[the virtual thread reference guide], which uses JFR events to detect pinning across all Java versions."
+msgstr ""
+
+#: _versions/main/guides/rest-virtual-threads.adoc
 msgid ""
-"We recommend enabling this flag in tests.\n"
+"Starting with Java 24, thanks to link:https://openjdk.org/jeps/491[JEP 491], `synchronized` blocks no longer cause pinning.\n"
+"This means pinning is much less likely to occur on Java 24+, occurring only when native code calls back to Java code that performs blocking operations."
+msgstr ""
+
+#: _versions/main/guides/rest-virtual-threads.adoc
+msgid ""
+"We recommend enabling pinning detection in tests.\n"
 "Thus, you can check that your application behaves correctly when using virtual threads.\n"
 "Just check your log after having run the test.\n"
-"If you see a stack trace... better check what's wrong.\n"
-"If your code (or one of your dependencies) pins, it might be better to use regular worker thread instead."
-msgstr "我们建议在测试中启用此标记。这样，您就可以检查应用程序在使用虚拟线程时的行为是否正确。只需在运行测试后查看日志即可。如果看到堆栈跟踪......最好检查一下出了什么问题。如果您的代码（或您的某个依赖项）有问题，最好使用普通的工作线程。"
+"If you see a stack trace (on Java 21-23) or pinning events (using the junit-virtual-threads extension), better check what's wrong.\n"
+"If your code (or one of your dependencies) pins, it might be better to use regular worker threads instead."
+msgstr ""
 
 #: _versions/main/guides/rest-virtual-threads.adoc
 #, fuzzy

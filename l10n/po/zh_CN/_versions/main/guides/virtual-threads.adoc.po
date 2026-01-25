@@ -326,11 +326,20 @@ msgid ""
 "The platform thread is blocked in this situation, precisely as it would have been in a typical blocking scenario."
 msgstr "廉价阻塞 \"的承诺可能并不总是有效：虚拟线程可能会在某些情况下 _锁定_ 其载体。在这种情况下，平台线程会被阻塞，就像在典型的阻塞情况下一样。"
 
-#. type: Plain text
 #: _versions/main/guides/virtual-threads.adoc
-#, fuzzy
-msgid "According to link:{vthreadjep}[JEP 425] this can happen in two situations:"
-msgstr "根据 link:{vthreadjep}[JEP425] ，这可能发生在两种情况下。"
+msgid ""
+"**Java 24+ Improvement:** Starting with Java 24, thanks to link:https://openjdk.org/jeps/491[JEP 491: Synchronize Virtual Threads without Pinning], `synchronized` blocks and methods **no longer cause pinning**.\n"
+"This is a major improvement that eliminates one of the most common pinning scenarios.\n"
+"However, native code interactions can still cause pinning (see below)."
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
+msgid "According to link:{vthreadjep}[JEP 425], pinning can happen in the following situations:"
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
+msgid "*On Java 21-23:*"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/virtual-threads.adoc
@@ -345,13 +354,19 @@ msgid "when it executes a blocking operation inside a native method or a foreign
 msgstr "当它在一个本地方法或外国函数中执行一个阻塞操作时"
 
 #: _versions/main/guides/virtual-threads.adoc
-#, fuzzy
+msgid "*On Java 24+:*"
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
+msgid "when a virtual thread calls native code (via JNI or the Foreign Function & Memory API) and that native code calls back to Java code that performs a blocking operation"
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
 msgid ""
 "It can be reasonably easy to avoid these situations in your code, but verifying every dependency you use is hard.\n"
-"Typically, while experimenting with virtual threads, we realized that versions older than 42.6.0 of the link:{pgsql-driver}[postgresql-JDBC driver] result in frequent pinning.\n"
-"Most JDBC drivers still pin the carrier thread.\n"
-"Even worse, many libraries require code changes."
-msgstr "要在代码中避免这些情况并不难，但要验证使用的每个依赖关系却很难。通常情况下，我们在试验虚拟线程时发现， link:{pgsql-driver}[postgresql-JDBC 驱动程序] 的版本比 42.6.0 更早，会导致频繁钉住线程。大多数 JDBC 驱动程序仍然会钉住载体线程。更糟糕的是，许多库都需要修改代码。"
+"Typically, while experimenting with virtual threads, we realized that versions older than 42.6.0 of the link:{pgsql-driver}[postgresql-JDBC driver] result in frequent pinning on Java 21-23.\n"
+"On Java 24+, most JDBC drivers no longer pin the carrier thread due to the synchronized improvements."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/virtual-threads.adoc
@@ -360,12 +375,11 @@ msgid "For more information, see link:https://quarkus.io/blog/virtual-thread-1/[
 msgstr "更多信息，请参阅《 link:https://quarkus.io/blog/virtual-thread-1/[当 Quarkus 遇到虚拟线程] 》。"
 
 #: _versions/main/guides/virtual-threads.adoc
-#, fuzzy
 msgid ""
-"This information about pinning cases applies to PostgreSQL JDBC driver 42.5.4 and earlier.\n"
+"This information about pinning cases applies to PostgreSQL JDBC driver 42.5.4 and earlier on Java 21-23.\n"
 "For PostgreSQL JDBC driver 42.6.0 and later, virtually all synchronized methods have been replaced by reentrant locks.\n"
 "For more information, see the link:https://jdbc.postgresql.org/changelogs/2023-03-17-42.6.0-release/[Notable Changes] for PostgreSQL JDBC driver 42.6.0."
-msgstr "这些有关钉住情况的信息适用于 PostgreSQL JDBC 驱动程序 42.5.4 及更早版本。对于PostgreSQL JDBC驱动程序42.6.0及更高版本，几乎所有同步方法都已被重入锁取代。有关详细信息，请参阅 PostgreSQL JDBC 驱动程序 42.6.0 的 link:https://jdbc.postgresql.org/changelogs/2023-03-17-42.6.0-release/[显著变更] 。"
+msgstr ""
 
 #. type: Title ====
 #: _versions/main/guides/virtual-threads.adoc
@@ -665,11 +679,26 @@ msgid "Detect pinned thread in tests"
 msgstr "在测试中检测钉住的线程"
 
 #: _versions/main/guides/virtual-threads.adoc
-#, fuzzy
+msgid "**Java 24+ Change:** The `-Djdk.tracePinnedThreads` system property is **no longer available starting with Java 24**. This flag has been removed as part of the virtual thread improvements introduced in link:https://openjdk.org/jeps/491[JEP 491]. For Java 24+, use the JFR (Java Flight Recorder) events or the Quarkus testing extensions described below to detect pinning."
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
+msgid "*For Java 21-23 only:*"
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
 msgid ""
-"We recommend to use the following configuration when running tests in application using virtual threads.\n"
-"If would not fail the tests, but at least dump start traces if the code pins the carrier thread:"
-msgstr "在使用虚拟线程的应用程序中运行测试时，我们建议使用以下配置。这样做不会导致测试失败，但至少会在代码引脚指向载体线程时转储启动跟踪："
+"We recommend using the following configuration when running tests in applications using virtual threads.\n"
+"It will not fail the tests, but at least dump stack traces if the code pins the carrier thread:"
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
+msgid "*For all Java versions (21+):*"
+msgstr ""
+
+#: _versions/main/guides/virtual-threads.adoc
+msgid "For a more robust approach that works on all Java versions, use the `junit-virtual-threads` extension described in the xref:testing-virtual-thread-applications[Testing virtual thread applications] section below. This extension uses JFR events to detect pinning and works consistently across Java 21, 24, and later versions."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/virtual-threads.adoc

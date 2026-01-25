@@ -190,6 +190,17 @@ msgid ""
 "the following content:"
 msgstr "在客户端和 Infinispan 服务器端生成和使用的 Protobuf 模式将包含以下内容："
 
+#: _versions/main/guides/infinispan-client.adoc
+msgid ""
+"You must include the Protostream annotations processor in your build file.\n"
+"Starting with Java 24, schema generation will not work unless this annotation processor\n"
+"is explicitly added."
+msgstr ""
+
+#: _versions/main/guides/infinispan-client.adoc
+msgid "Maven"
+msgstr ""
+
 #. type: Title ==
 #: _versions/main/guides/infinispan-client.adoc
 #, fuzzy, no-wrap

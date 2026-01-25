@@ -70,23 +70,26 @@ msgstr "在你的Quarkus项目的基本目录下运行以下命令，添加 `inf
 msgid "This command adds the following dependency to your build file:"
 msgstr "这个命令在你的构建文件中添加了以下依赖关系："
 
-#. type: Block title
 #: _versions/main/guides/infinispan-client-reference.adoc
-#, no-wrap
-msgid "pom.xml"
-msgstr "pom.xml"
+msgid "Maven"
+msgstr ""
 
-#. type: Block title
 #: _versions/main/guides/infinispan-client-reference.adoc
-#, no-wrap
-msgid "build.gradle"
-msgstr "build.gradle"
+msgid "Gradle"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/infinispan-client-reference.adoc
 #, fuzzy
 msgid "Mandatory in the Gradle build to enable the generation of the files in the annotation based serialization"
 msgstr "在gradle构建中是必须的，以便在基于注解的序列化中生成文件"
+
+#: _versions/main/guides/infinispan-client-reference.adoc
+msgid ""
+"You must include the Protostream annotations processor in your build file.\n"
+"Starting with Java 24, schema generation will not work unless this annotation processor\n"
+"is explicitly added."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/infinispan-client-reference.adoc

@@ -2192,7 +2192,7 @@ msgid "Please see the xref:security-oidc-bearer-token-authentication.adoc#mutual
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "See also the <<bearer-token-source-properties>> section for details about enabling a Demonstrating Proof of Posession (DPoP) binding."
+msgid "See also the <<bearer-token-source-properties>> section for details about enabling a Demonstrating Proof of Possession (DPoP) binding."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
@@ -2244,7 +2244,7 @@ msgstr ""
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
 msgid ""
 "For example, you can set `quarkus.oidc.token.authorization-scheme=DPoP` to accept the DPoP access tokens sent as `Authorization: DPoP <token>`.\n"
-"See the xref:security-oidc-bearer-token-authentication#demonstrating-proof-of-possession-dpop[Demonstrating Proof of Posession] section for more information."
+"See the xref:security-oidc-bearer-token-authentication#demonstrating-proof-of-possession-dpop[Demonstrating Proof of Possession] section for more information."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
@@ -2700,7 +2700,7 @@ msgid "Even stricter configuration setup"
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "What constitues a strict bearer access token or authorization code flow support can vary significantly between deployments. For example, one OIDC provider may require MTLS client authentication, another one - DPoP binding or PKCE support. There are too many combinations for us to cover in this document."
+msgid "What constitutes a strict bearer access token or authorization code flow support can vary significantly between deployments. For example, one OIDC provider may require MTLS client authentication, another one - DPoP binding or PKCE support. There are too many combinations for us to cover in this document."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
