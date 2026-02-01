@@ -910,6 +910,26 @@ msgid ""
 msgstr "`@RegisterClientHeaders` 注释也可以在不指定任何自定义工厂的情况下使用。在这种情况下，将使用 `DefaultClientHeadersFactoryImpl` 工厂。如果从 REST 资源调用 REST 客户端，该工厂会将 `org.eclipse.microprofile.rest.client.propagateHeaders` 配置属性中列出的所有头信息从资源请求传播到客户端请求。各个标头名称以逗号分隔。"
 
 #: _guides/rest-client.adoc
+msgid "Multiple `@Consumes` media types"
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "Some REST Client interface methods may have a `@Consumes` annotation with multiple media type values, for example:"
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "REST server accepts OrderReference representations in either JSON or YAML formats."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "REST Client must set a `Content-Type` for the `POST /orders` requests. When it sees `@Consumes` with multiple media type values, it sorts them and chooses the first media type as a `Content-Type` value. It must not impact the client code that makes calls such as `OrderService#addOrderReference` as all the listed `@Consumes` values are expected to be supported by the REST server."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "Register a custom `ClientRequestFiler` as explained in the <<customize-rest-client-request>> section if you prefer to set a different `Content-Type` such as `application/yaml` which is also supported according to the `OrderService` interface definition:"
+msgstr ""
+
+#: _guides/rest-client.adoc
 #, fuzzy
 msgid "Customizing the request"
 msgstr "自定义申请"
@@ -1406,43 +1426,62 @@ msgid "Proxy support"
 msgstr "代理支持"
 
 #: _guides/rest-client.adoc
-#, fuzzy
+msgid "REST Client supports sending requests through a proxy. You can still rely on JVM proxy settings, but REST Client allows you to define a default proxy and any number of named proxy configurations that clients can reference."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "Proxy configuration is centralized in a Proxy Registry; configure proxies under the `quarkus.proxy` configuration root."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "Global proxy configuration"
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "You can define a default proxy configuration that will be used by all REST Clients that do not explicitly reference a named proxy configuration."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "This configuration will cause all REST Clients, including `my-client`, to use the proxy at `localhost:8182` with the provided credentials."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "Named proxy configuration"
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "You can define named proxy configurations and have specific REST Clients use them."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "`client1` is configured to use the `my-proxy` proxy configuration."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "`client2` does not specify a proxy configuration name, so it will not use any proxy unless a default proxy configuration is defined."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "Using Credentials Provider"
+msgstr ""
+
+#: _guides/rest-client.adoc
 msgid ""
-"REST Client supports sending requests through a proxy.\n"
-"It honors the JVM settings for it but also allows to specify both:"
-msgstr "REST 客户端支持通过代理发送请求。它尊重 JVM 对其的设置，但也允许同时指定两种设置："
+"In addition to the `quarkus.proxy` settings, REST Client can obtain proxy credentials from the Quarkus Credentials Provider.\n"
+"See link:https://quarkus.io/guides/credentials-provider[Credentials Provider] for more details."
+msgstr ""
 
 #: _guides/rest-client.adoc
-#, fuzzy
-msgid "global client proxy settings, with `quarkus.rest-client.proxy-address`, `quarkus.rest-client.proxy-user`, `quarkus.rest-client.proxy-password`, `quarkus.rest-client.non-proxy-hosts`"
-msgstr "全局客户端代理设置，包括 `quarkus.rest-client.proxy-address` , `quarkus.rest-client.proxy-user` , `quarkus.rest-client.proxy-password` 、 `quarkus.rest-client.non-proxy-hosts`"
+msgid "Define a named proxy configuration `baby-proxy` without username and password."
+msgstr ""
 
 #: _guides/rest-client.adoc
-#, fuzzy
-msgid "per-client proxy settings, with `quarkus.rest-client.<my-client>.proxy-address`, etc. These are applied only to clients injected with CDI, that is the ones created with `@RegisterRestClient`"
-msgstr "`quarkus.rest-client.<my-client>.proxy-address` 等。这些设置只适用于用 CDI 注入的客户端，即用 `@RegisterRestClient`"
+msgid "Configure the Credentials Provider to obtain the username and password for the proxy."
+msgstr ""
 
 #: _guides/rest-client.adoc
-#, fuzzy
-msgid "If `proxy-address` is set on the client level, the client uses its specific proxy settings. No proxy settings are propagated from the global configuration or JVM properties."
-msgstr "如果 `proxy-address` 设置在客户端级别，客户端将使用其特定的代理设置。全局配置或 JVM 属性不会传播代理设置。"
-
-#: _guides/rest-client.adoc
-#, fuzzy
-msgid ""
-"If `proxy-address` is not set for the client but is set on the global level, the client uses the global settings.\n"
-"Otherwise, the client uses the JVM settings."
-msgstr "如果 `proxy-address` 不是为客户端设置的，而是在全局级别设置的，则客户端使用全局设置。否则，客户端将使用 JVM 设置。"
-
-#: _guides/rest-client.adoc
-#, fuzzy
-msgid "An example configuration for setting proxy:"
-msgstr "设置代理的配置示例："
-
-#: _guides/rest-client.adoc
-#, fuzzy
-msgid "MicroProfile REST Client specification does not allow setting proxy credentials. In order to specify proxy user and proxy password programmatically, you need to cast your `RestClientBuilder` to `RestClientBuilderImpl`."
-msgstr "MicroProfile REST 客户端规范不允许设置代理凭证。为了以编程方式指定代理用户和代理密码，需要将 `RestClientBuilder` 发送至 `RestClientBuilderImpl` 。"
+msgid "The Credentials Provider is not used when `quarkus.proxy.password` (for global) or `quarkus.proxy.<named>.password` (for named) is not set."
+msgstr ""
 
 #: _guides/rest-client.adoc
 msgid "Local proxy for dev mode"
@@ -1560,6 +1599,18 @@ msgstr "当使用 `QuarkusRestClientBuilder` 以编程方式设置客户端时�
 #, fuzzy
 msgid "For declarative clients using `@RegisterRestClient`, simply providing a CDI bean that implements `ClientLogger` is enough for that logger to be used by said clients."
 msgstr "对于使用 `@RegisterRestClient` 的声明式客户机，只需提供一个实现 `ClientLogger` 的 CDI Bean，就足以让上述客户机使用该日志记录器。"
+
+#: _guides/rest-client.adoc
+msgid "Metrics"
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "All declarative REST Client instances produce metrics using the `http.clients` prefix. Furthermore, the metrics contain a tag named `clientName` which corresponds to the config key of the client (as specified by the `configKey` property of the `@RegisterRestClient` annotation)."
+msgstr ""
+
+#: _guides/rest-client.adoc
+msgid "To enable metrics for programmatically created REST Clients, the following snippet can be used:"
+msgstr ""
 
 #: _guides/rest-client.adoc
 #, fuzzy

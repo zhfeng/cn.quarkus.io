@@ -267,10 +267,6 @@ msgid "To start a Keycloak server, you can use Docker and run the following comm
 msgstr "要启动 Keycloak 服务器，可以使用 Docker 并运行以下命令："
 
 #: _guides/security-openid-connect-multitenancy.adoc
-msgid "where `keycloak.version` is set to `{keycloak-server-version}` or higher."
-msgstr ""
-
-#: _guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Access your Keycloak server at http://localhost:8180[localhost:8180]."
 msgstr "通过 link:http://localhost:8180[localhost:8180] 访问 Keycloak 服务器。"
@@ -710,13 +706,17 @@ msgstr "<<configure-tenant-paths>>"
 
 #: _guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
-msgid "<<default-tenant-resolver>>"
-msgstr "<<default-tenant-resolver>>"
+msgid "<<issuer-based-tenant-resolver>>"
+msgstr "<<issuer-based-tenant-resolver>>"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+msgid "<<header-based-tenant-resolver>>"
+msgstr ""
 
 #: _guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
-msgid "<<issuer-based-tenant-resolver>>"
-msgstr "<<issuer-based-tenant-resolver>>"
+msgid "<<default-tenant-resolver>>"
+msgstr "<<default-tenant-resolver>>"
 
 #: _guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
@@ -779,6 +779,66 @@ msgid "Path-matching mechanism works exactly same as in the xref:security-author
 msgstr "路径匹配机制的工作原理与 xref:security-authorize-web-endpoints-reference.adoc#authorization-using-configuration[使用配置的授权] 机制完全相同。"
 
 #: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "Resolve tenants with a token issuer claim"
+msgstr "解决租户与令牌发放者的诉求"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid ""
+"OIDC tenants which support Bearer token authentication can be resolved using the access token's issuer.\n"
+"The following conditions must be met for the issuer-based resolution to work:"
+msgstr "支持 Bearer 令牌身份验证的 OIDC 租户可使用访问令牌的签发人进行解析。必须满足以下条件，基于发行者的解析才能生效："
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "The access token must be in the JWT format and contain an issuer (`iss`) token claim."
+msgstr "访问令牌必须采用 JWT 格式，并包含签发者 ( `iss` ) 令牌声明。"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "Only OIDC tenants with the application type `service` or `hybrid` are considered. These tenants must have a token issuer discovered or configured."
+msgstr "只考虑应用类型为 `service` 或 `hybrid` 的 OIDC 租户。这些租户必须发现或配置了令牌签发器。"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "The issuer-based resolution is enabled with the `quarkus.oidc.resolve-tenants-with-issuer` property. For example:"
+msgstr "使用 `quarkus.oidc.resolve-tenants-with-issuer` 属性可启用基于发行者的解析。例如"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "Tenants `tenant-a` and `tenant-b` are resolved using a JWT access token's issuer `iss` claim value."
+msgstr "租户 `tenant-a` 和 `tenant-b` 使用 JWT 访问令牌的签发者 `iss` 索赔值进行解析。"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "Tenant `tenant-a` discovers the `issuer` from the OIDC provider's well-known configuration endpoint."
+msgstr "租户 `tenant-a` 可从 OIDC 提供商的知名配置端点发现 `issuer` 。"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+#, fuzzy
+msgid "Tenant `tenant-b` configures the `issuer` because its OIDC provider does not support the discovery."
+msgstr "租户 `tenant-b` 配置 `issuer` ，因为其 OIDC 提供商不支持发现。"
+
+#: _guides/security-openid-connect-multitenancy.adoc
+msgid "Resolve tenants with a token header name"
+msgstr ""
+
+#: _guides/security-openid-connect-multitenancy.adoc
+msgid ""
+"OIDC tenants that support Bearer token authentication can be resolved using the custom HTTP header that contains the token.\n"
+"Header-based resolution is enabled when the `quarkus.oidc.token.header` property is set to a value other than `Authorization`. For example:"
+msgstr ""
+
+#: _guides/security-openid-connect-multitenancy.adoc
+msgid "Tenant `tenant-a` is resolved when the incoming HTTP request contains the `Custom-Authorization-1` header."
+msgstr ""
+
+#: _guides/security-openid-connect-multitenancy.adoc
+msgid "Tenant `tenant-b` is resolved if the request contains the `Custom-Authorization-2` header."
+msgstr ""
+
+#: _guides/security-openid-connect-multitenancy.adoc
 msgid "Use request path segments to find tenant id"
 msgstr ""
 
@@ -821,48 +881,6 @@ msgid ""
 "Default resolution can also work for Bearer token authentication.\n"
 "Still, it might be less practical because a tenant identifier must always be set as the last path segment value."
 msgstr "默认解析也可用于承载令牌身份验证。不过，这可能不太实用，因为租户标识符必须始终设置为最后一个路径段值。"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "Resolve tenants with a token issuer claim"
-msgstr "解决租户与令牌发放者的诉求"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid ""
-"OIDC tenants which support Bearer token authentication can be resolved using the access token's issuer.\n"
-"The following conditions must be met for the issuer-based resolution to work:"
-msgstr "支持 Bearer 令牌身份验证的 OIDC 租户可使用访问令牌的签发人进行解析。必须满足以下条件，基于发行者的解析才能生效："
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "The access token must be in the JWT format and contain an issuer (`iss`) token claim."
-msgstr "访问令牌必须采用 JWT 格式，并包含签发者 ( `iss` ) 令牌声明。"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "Only OIDC tenants with the application type `service` or `hybrid` are considered. These tenants must have a token issuer discovered or configured."
-msgstr "只考虑应用类型为 `service` 或 `hybrid` 的 OIDC 租户。这些租户必须发现或配置了令牌签发器。"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "The issuer-based resolution is enabled with the `quarkus.oidc.resolve-tenants-with-issuer` property. For example:"
-msgstr "使用 `quarkus.oidc.resolve-tenants-with-issuer` 属性可启用基于发行者的解析。例如"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "Tenants `tenant-a` and `tenant-b` are resolved using a JWT access token's issuer `iss` claim value."
-msgstr "租户 `tenant-a` 和 `tenant-b` 使用 JWT 访问令牌的签发者 `iss` 索赔值进行解析。"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "Tenant `tenant-a` discovers the `issuer` from the OIDC provider's well-known configuration endpoint."
-msgstr "租户 `tenant-a` 可从 OIDC 提供商的知名配置端点发现 `issuer` 。"
-
-#: _guides/security-openid-connect-multitenancy.adoc
-#, fuzzy
-msgid "Tenant `tenant-b` configures the `issuer` because its OIDC provider does not support the discovery."
-msgstr "租户 `tenant-b` 配置 `issuer` ，因为其 OIDC 提供商不支持发现。"
 
 #: _guides/security-openid-connect-multitenancy.adoc
 msgid "Restricting OIDC request and response filters to specific tenants"

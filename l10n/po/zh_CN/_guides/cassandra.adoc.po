@@ -151,13 +151,12 @@ msgid ""
 msgstr "如上所述，我们正在使用 DataStax 对象映射器。换句话说，我们不打算手动编写 CQL 查询；相反，我们将用一些注释来注解我们的数据模型，然后映射器将在下面生成适当的 CQL 查询。"
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
 "This is why the `Fruit` class is annotated with `@Entity`: this annotation marks it as an _entity\n"
 "class_ that is mapped to a Cassandra table. Its instances are meant to be automatically persisted\n"
-"into, and retrieved from, the Cassandra database. Here, the table name will be inferred from the\n"
+"into, and retrieved from the Cassandra database. Here, the table name will be inferred from the\n"
 "class name: `fruit`."
-msgstr "这就是 `Fruit` 类被注释为 `@Entity` 的原因：该注释将其标记为映射到 Cassandra 表的 _实体类_ 。其实例将自动持久化到 Cassandra 数据库中，并从 Cassandra 数据库中检索。这里，表名将从类名推断出： `fruit` 。"
+msgstr ""
 
 #: _guides/cassandra.adoc
 #, fuzzy
@@ -203,12 +202,11 @@ msgid "Finally, let's create a Mapper interface:"
 msgstr "最后，让我们创建一个Mapper接口。"
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
-"The `@Mapper` annotation is yet another annotation recognized by the DataStax Object Mapper. A\n"
-"mapper is responsible for constructing DAO instances – in this case, out mapper is constructing\n"
+"The `@Mapper` annotation is yet another annotation recognised by the DataStax Object Mapper. A\n"
+"mapper is responsible for constructing DAO instances – in this case, our mapper is constructing\n"
 "an instance of our only DAO, `FruitDao`."
-msgstr "`@Mapper` 注解是 DataStax 对象映射器识别的另一个注解。映射器负责构建 DAO 实例--在本例中，映射器正在构建我们唯一的 DAO `FruitDao` 的实例。"
+msgstr ""
 
 #: _guides/cassandra.adoc
 #, fuzzy
@@ -324,11 +322,9 @@ msgid ""
 "file as follows:"
 msgstr "在项目 `pom.xml` 文件的编译作用域中声明 `java-driver-mapper-runtime` 依赖关系，如下所示："
 
-#. type: Plain text
 #: _guides/cassandra.adoc
-#, fuzzy
-msgid "Although this module is called \"runtime\", it must be declared in compile scope."
-msgstr "尽管这个模块被称为 \"运行时\"，但它必须在编译范围内声明。"
+msgid "Although this module is called \"runtime\", it must be declared in the compile scope."
+msgstr ""
 
 #: _guides/cassandra.adoc
 #, fuzzy
@@ -353,11 +349,10 @@ msgid ""
 msgstr "现在，让我们创建一个 `FruitService` ，作为应用程序的业务层，并从 Cassandra 数据库中存储/加载水果。"
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
-"Note how the service is being injected a `FruitDao` instance. This DAO instance is injected\n"
+"Note how the service is being injected with a `FruitDao` instance. This DAO instance is injected\n"
 "automatically, thanks to the generated implementations."
-msgstr "请注意服务是如何被注入 `FruitDao` 实例的。这个 DAO 实例是自动注入的，这要归功于生成的实现。"
+msgstr ""
 
 #: _guides/cassandra.adoc
 #, fuzzy
@@ -585,11 +580,10 @@ msgid ""
 msgstr "如果想使用 Docker 运行 Cassandra 数据库，可以使用以下命令在后台启动一个数据库："
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
-"Next you need to create the keyspace and table that will be used by your application. If you are\n"
+"Next, you need to create the keyspace and table that will be used by your application. If you are\n"
 "using Docker, run the following commands:"
-msgstr "接下来，您需要创建应用程序将使用的键空间和表。如果使用的是 Docker，请运行以下命令："
+msgstr ""
 
 #. type: Plain text
 #: _guides/cassandra.adoc
@@ -731,16 +725,15 @@ msgid ""
 msgstr "同样，方法 `updateAsync` 返回一个 `Uni` ，它是由驱动程序返回的原始结果集自动转换而来的。"
 
 #: _guides/cassandra.adoc
-#, fuzzy
 msgid ""
 "The Cassandra driver uses the Reactive Streams `Publisher` API for reactive calls. The Quarkus\n"
-"framework however uses Mutiny. Because of that, the `CqlQuarkusSession` interface transparently\n"
+"framework, however uses Mutiny. Because of that, the `CqlQuarkusSession` interface transparently\n"
 "converts the `Publisher` instances returned by the driver into the reactive type `Multi`.\n"
 "`CqlQuarkusSession` is also capable of converting a `Publisher` into a `Uni` – in this case, the\n"
 "publisher is expected to emit at most one row, then complete. This is suitable for write queries\n"
 "(they return no rows), or for read queries guaranteed to return one row at most (count queries, for\n"
 "example)."
-msgstr "Cassandra 驱动程序使用 Reactive Streams `Publisher` API 进行反应式调用。不过，Quarkus 框架使用的是 Mutiny。因此， `CqlQuarkusSession` 接口会将驱动程序返回的 `Publisher` 实例透明地转换为反应式类型 `Multi` 。 `CqlQuarkusSession` 也能将 `Publisher` 转换为 `Uni` --在这种情况下，发布者最多只能发布一条记录，然后完成。这适用于写入查询（不返回记录），或保证最多返回一条记录的读取查询（例如计数查询）。"
+msgstr ""
 
 #. type: Plain text
 #: _guides/cassandra.adoc
@@ -918,18 +911,6 @@ msgstr "为了在你的应用程序中启用Micrometer度量，你需要在你�
 #, fuzzy
 msgid "This guide uses Micrometer, so the above dependencies are already included in this guide's pom.xml."
 msgstr "本指南使用Micrometer，所以上述依赖已经包含在本指南的pom.xml中。"
-
-#. type: Title ===
-#: _guides/cassandra.adoc
-#, fuzzy, no-wrap
-msgid "Enabling Metrics with MicroProfile Metrics"
-msgstr "用MicroProfile度量标准启用度量标准"
-
-#. type: Plain text
-#: _guides/cassandra.adoc
-#, fuzzy
-msgid "Remove any dependency to Micrometer from your pom.xml, then add the following ones instead:"
-msgstr "从你的pom.xml中删除任何对Micrometer的依赖，然后添加以下内容。"
 
 #. type: Title ===
 #: _guides/cassandra.adoc

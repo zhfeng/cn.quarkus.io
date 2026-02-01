@@ -103,7 +103,7 @@ msgid "Enable Metrics"
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "The metrics functionality is experimental and *off* by default. You will need to activate it by setting:"
+msgid "The metrics functionality is tech preview and *off* by default. You will need to activate it by setting:"
 msgstr ""
 
 #: _guides/opentelemetry.adoc
@@ -119,7 +119,7 @@ msgid "Enable Logs"
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "The logging functionality is experimental and *off* by default. You will need to activate it by setting:"
+msgid "The logging functionality is tech preview and *off* by default. You will need to activate it by setting:"
 msgstr ""
 
 #: _guides/opentelemetry.adoc
@@ -285,7 +285,7 @@ msgid "`quarkus.otel.metrics.enabled`"
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "Metrics are disabled by default at *build* time because they are experimental."
+msgid "Metrics are disabled by default at *build* time because they are tech preview."
 msgstr ""
 
 #: _guides/opentelemetry.adoc
@@ -309,7 +309,7 @@ msgid "`quarkus.otel.logs.enabled`"
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "Logs are disabled by default at *build* time because they are experimental."
+msgid "Logs are disabled by default at *build* time because they are tech preview."
 msgstr ""
 
 #: _guides/opentelemetry.adoc

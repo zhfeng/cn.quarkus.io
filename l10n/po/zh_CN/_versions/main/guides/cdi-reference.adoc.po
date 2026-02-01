@@ -944,11 +944,11 @@ msgstr "如果相反，要求 `Tracer` bean也能在开发模式下工作，并�
 msgid "The runtime profile has absolutely no effect on the bean resolution using `@IfBuildProfile` and `@UnlessBuildProfile`."
 msgstr "运行时配置文件对使用 `@IfBuildProfile` 和 `@UnlessBuildProfile` 的bean解析完全没有影响。"
 
-#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
-#, fuzzy
-msgid "It is also possible to use `@IfBuildProfile` and `@UnlessBuildProfile` on stereotypes."
-msgstr "也可以在刻板印象上使用 `@IfBuildProfile` 和 `@UnlessBuildProfile` 。"
+msgid ""
+"`@IfBuildProfile` and `@UnlessBuildProfile` may be put on a stereotype.\n"
+"A bean will only be enabled if **all** the conditions defined by these annotations are satisfied."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
@@ -969,11 +969,11 @@ msgstr ""
 msgid "The scenario we mentioned above with `Tracer` could also be implemented in the following way:"
 msgstr "我们上面提到的用 `Tracer` ，也可以用以下方式实现。"
 
-#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
-#, fuzzy
-msgid "`@IfBuildProperty` and `@UnlessBuildProperty` are repeatable annotations, i.e. a bean will only be enabled if **all** the conditions defined by these annotations are satisfied."
-msgstr " `@IfBuildProperty` 和 是可重复的注解，也就是说，只有当这些注解所定义的 `@UnlessBuildProperty` *所有* 条件得到满足时，Bean才会被启用。"
+msgid ""
+"`@IfBuildProperty` and `@UnlessBuildProperty` are repeatable annotations and may be put on a stereotype.\n"
+"A bean will only be enabled if **all** the conditions defined by these annotations are satisfied."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
@@ -981,17 +981,9 @@ msgstr " `@IfBuildProperty` 和 是可重复的注解，也就是说，只有当
 msgid "If instead, it is required that the `RealTracer` bean is only used if the `some.tracer.enabled` property is not `false`, then `@UnlessBuildProperty` would be ideal. The code would look like:"
 msgstr "相反，如果要求 `RealTracer` Bean只在 `some.tracer.enabled` 属性不是 `false` 的情况下使用，那么 `@UnlessBuildProperty` 将是最理想的。代码将看起来像。"
 
-#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
-#, fuzzy
-msgid "Properties set at runtime have absolutely no effect on the bean resolution using `@IfBuildProperty`."
-msgstr "在运行时设置的属性对使用 `@IfBuildProperty` 的bean解析绝对没有影响。"
-
-#. type: Plain text
-#: _versions/main/guides/cdi-reference.adoc
-#, fuzzy
-msgid "It is also possible to use `@IfBuildProperty` and `@UnlessBuildProperty` on stereotypes."
-msgstr "也可以在刻板印象上使用 `@IfBuildProperty` 和 `@UnlessBuildProperty` 。"
+msgid "Properties set at runtime have absolutely no effect on the bean resolution using `@IfBuildProperty` / `@UnlessBuildProperty`."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
@@ -1272,6 +1264,12 @@ msgstr "想象一下，我们有两个实现接口 `org.acme.Service` 的 Bean�
 #, fuzzy, no-wrap
 msgid "`@LookupIfProperty` Example"
 msgstr " `@LookupIfProperty` 例子"
+
+#: _versions/main/guides/cdi-reference.adoc
+msgid ""
+"`@LookupIfProperty` and `@LookupUnlessProperty` are repeatable annotations and may be put on a stereotype.\n"
+"A bean will only be obtained if **all** the conditions defined by these annotations are satisfied."
+msgstr ""
 
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Sorting beans obtained with programmatic lookup"
@@ -1687,6 +1685,17 @@ msgstr ""
 
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Therefore, it is recommended that observer methods, both synchronous and asynchronous, are always declared `void`."
+msgstr ""
+
+#: _versions/main/guides/cdi-reference.adoc
+msgid "Reactive startup methods"
+msgstr ""
+
+#: _versions/main/guides/cdi-reference.adoc
+msgid ""
+"As documented in xref:lifecycle.adoc#startup_annotation[the `@Startup` method documentation], you may define startup\n"
+"methods that return a `Uni`, in which case they will be invoked on an event thread instead of a blocking thread, and\n"
+"their returned `Uni` will be subscribed to and awaited."
 msgstr ""
 
 #. type: Title ==

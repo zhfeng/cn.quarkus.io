@@ -112,11 +112,10 @@ msgid "How to Generate a Jandex Index"
 msgstr "如何生成一个Jandex索引"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "A dependency with a Jandex index is automatically scanned for beans.\n"
-"To generate the index just add the following plugin to your build file:"
-msgstr "带有 Jandex 索引的依赖关系会自动扫描豆类。要生成索引，只需在构建文件中添加以下插件："
+"To generate the index, just add the following plugin to your build file:"
+msgstr ""
 
 #. type: Block title
 #: _guides/cdi-reference.adoc
@@ -320,7 +319,7 @@ msgstr ""
 #: _guides/cdi-reference.adoc
 msgid ""
 "Only the first producer will get the `@Default` qualifier, the second will not.\n"
-"Hence, there will be no error and everything will work as expected."
+"Hence, there will be no error, and everything will work as expected."
 msgstr ""
 
 #: _guides/cdi-reference.adoc
@@ -359,21 +358,19 @@ msgid "Native Executables and Private Members"
 msgstr "本地可执行文件和私有成员"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "Quarkus is using GraalVM to build a native executable.\n"
 "One of the limitations of GraalVM is the usage of link:https://www.graalvm.org/{graalvm-docs-version}/reference-manual/native-image/Reflection/[Reflection, window=\"_blank\"].\n"
-"Reflective operations are supported but all relevant members must be registered for reflection explicitly.\n"
+"Reflective operations are supported, but all relevant members must be registered for reflection explicitly.\n"
 "Those registrations result in a bigger native executable."
-msgstr "Quarkus 正在使用 GraalVM 构建本地可执行文件。GraalVM 的限制之一是 link:https://www.graalvm.org/{graalvm-docs-version}/reference-manual/native-image/Reflection/[反射] 的使用。虽然支持反射操作，但所有相关成员都必须明确注册为反射。这些注册会导致本地可执行文件体积增大。"
+msgstr ""
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
-"And if Quarkus DI needs to access a private member it *has to use reflection*.\n"
+"And if Quarkus DI needs to access a private member it, *has to use reflection*.\n"
 "That's why Quarkus users are encouraged __not to use private members__ in their beans.\n"
-"This involves injection fields, constructors and initializers, observer methods, producer methods and fields, disposers and interceptor methods."
-msgstr "如果 Quarkus DI 需要访问私有成员，就 *必须使用反射* 。这就是为什么我们鼓励 Quarkus 用户 _不要_ 在他们的 Bean 中 _使用私有成员_ 。这涉及到注入字段、构造函数和初始化器、观察者方法、生产者方法和字段、处置器和拦截器方法。"
+"This involves injection fields, constructors and initializers, observer methods, producer methods and fields, disposers, and interceptor methods."
+msgstr ""
 
 #: _guides/cdi-reference.adoc
 #, fuzzy
@@ -544,11 +541,9 @@ msgstr "对注入的代理的第一次调用触发了 `CoolService` 的实例化
 msgid "Startup Event"
 msgstr "初创企业活动"
 
-#. type: Plain text
 #: _guides/cdi-reference.adoc
-#, fuzzy
-msgid "However, if you really need to instantiate a bean eagerly you can:"
-msgstr "然而，如果你真的需要急切地实例化一个bean，你可以。"
+msgid "However, if you really need to instantiate a bean eagerly, you can:"
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -731,12 +726,11 @@ msgid ""
 msgstr "默认情况下，容器会在构建过程中移除所有未使用的 Bean、拦截器和装饰器。这种优化有助于最大限度地减少生成类的数量，从而节省内存。不过，Quarkus 无法检测通过 `CDI.current()` 静态方法执行的编程查找。因此，删除可能会导致误报，即一个 bean 被删除了，但它实际上还在使用。在这种情况下，您会在日志中注意到一个很大的警告。用户和扩展作者有几种 xref:eliminate_false_positives[消除误报的方法] 。"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "The optimization can be disabled by setting `quarkus.arc.remove-unused-beans` to `none` or `false`.\n"
-"Quarkus also provides a middle ground where application beans are never removed whether or not they are unused, while the optimization proceeds normally for non application classes.\n"
+"Quarkus also provides a middle ground where application beans are never removed, whether or not they are unused, while the optimization proceeds normally for non application classes.\n"
 "To use this mode, set `quarkus.arc.remove-unused-beans` to `fwk` or `framework`."
-msgstr "可以通过将 `quarkus.arc.remove-unused-beans` 设置为 `none` 或 `false` 来禁用优化。Quarkus 还提供了一种中间模式，即无论应用程序 Bean 是否未被使用，它都不会被移除，而对非应用程序类的优化则正常进行。要使用这种模式，可将 `quarkus.arc.remove-unused-beans` 设置为 `fwk` 或 `framework` 。"
+msgstr ""
 
 #. type: Title ====
 #: _guides/cdi-reference.adoc
@@ -888,11 +882,9 @@ msgid ""
 "This is done using the `@io.quarkus.arc.DefaultBean` annotation and is best explained with an example."
 msgstr "Quarkus 增加了一项 CDI 目前不支持的功能，即如果没有其他具有相同类型和限定符的 Bean 通过任何可用的方法（Bean 类、生产者、合成 Bean 等）被声明，则有条件地声明一个 Bean。该功能使用 `@io.quarkus.arc.DefaultBean` 注解实现，最好用一个示例来解释。"
 
-#. type: Plain text
 #: _guides/cdi-reference.adoc
-#, fuzzy
-msgid "Say there is a Quarkus extension that among other things declares a few CDI beans like the following code does:"
-msgstr "假设有一个Quarkus扩展，除此之外还声明了一些CDI Bean，就像下面的代码那样。"
+msgid "Say there is a Quarkus extension that, among other things, declares a few CDI beans like the following code does:"
+msgstr ""
 
 #: _guides/cdi-reference.adoc
 #, fuzzy
@@ -924,19 +916,17 @@ msgid "Enabling Beans for Quarkus Build Profile"
 msgstr "启用Quarkus Build Profile的豆类"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
-"Quarkus adds a capability that CDI currently does not support which is to conditionally enable a bean when a Quarkus build time profile is enabled,\n"
+"Quarkus adds a capability that CDI currently does not support, which is to conditionally enable a bean when a Quarkus build time profile is enabled,\n"
 "via the `@io.quarkus.arc.profile.IfBuildProfile` and `@io.quarkus.arc.profile.UnlessBuildProfile` annotations.\n"
 "When used in conjunction with `@io.quarkus.arc.DefaultBean`, these annotations allow for the creation of different bean configurations for different build profiles."
-msgstr "Quarkus 增加了一项 CDI 目前不支持的功能，即通过 `@io.quarkus.arc.profile.IfBuildProfile` 和 `@io.quarkus.arc.profile.UnlessBuildProfile` 注释，在启用 Quarkus 构建时间配置文件时有条件地启用 Bean。当与 `@io.quarkus.arc.DefaultBean` 结合使用时，这些注解允许为不同的构建配置文件创建不同的 Bean 配置。"
+msgstr ""
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
-"Imagine for instance that an application contains a bean named `Tracer`, which needs to do nothing when in tests or in dev mode, but works in its normal capacity for the production artifact.\n"
+"Imagine, for instance that an application contains a bean named `Tracer`, which needs to do nothing when in tests or in dev mode, but works in its normal capacity for the production artifact.\n"
 "An elegant way to create such beans is the following:"
-msgstr "例如，设想一个应用程序包含一个名为 `Tracer` 的 Bean，它在测试或开发模式下不需要做任何事情，但在生产模式下可以正常工作。创建此类 Bean 的一种简便方法如下："
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -1004,20 +994,18 @@ msgid "Declaring Selected Alternatives"
 msgstr "宣布选定的替代品"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "In CDI, an alternative bean may be selected either globally for an application by means of `@Priority`, or for a bean archive using a `beans.xml` descriptor.\n"
-"Quarkus has a simplified bean discovery and the content of `beans.xml` is ignored."
-msgstr "在 CDI 中，可通过 `@Priority` 或 `beans.xml` 描述符为应用程序全局选择替代 bean，或为 bean 档案选择替代 bean。Quarkus 有一个简化的 Bean 发现功能，而且 `beans.xml` 的内容会被忽略。"
+"Quarkus has a simplified bean discovery, and the content of `beans.xml` is ignored."
+msgstr ""
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "However, it is also possible to select alternatives for an application using the unified configuration.\n"
 "The `quarkus.arc.selected-alternatives` property accepts a list of string values that are used to match alternative beans.\n"
-"If any value matches then the priority of `Integer#MAX_VALUE` is used for the relevant bean.\n"
+"If any value matches, then the priority of `Integer#MAX_VALUE` is used for the relevant bean.\n"
 "The priority declared via `@Priority` or inherited from a stereotype is overridden."
-msgstr "不过，也可以使用统一配置为应用程序选择替代豆。 `quarkus.arc.selected-alternatives` 属性接受一个字符串值列表，用于匹配替代 bean。如果有任何值匹配，则 `Integer#MAX_VALUE` 的优先级将用于相关 Bean。通过 `@Priority` 声明或从定型中继承的优先级会被覆盖。"
+msgstr ""
 
 #. type: Table
 #: _guides/cdi-reference.adoc
@@ -1094,11 +1082,9 @@ msgstr "出于向后兼容的原因，只考虑 *方法级绑定* （否则声�
 msgid "Private static methods are never intercepted"
 msgstr "私有静态方法从不被拦截"
 
-#. type: Plain text
 #: _guides/cdi-reference.adoc
-#, fuzzy
-msgid "`InvocationContext#getTarget()` returns `null` for obvious reasons; therefore not all existing interceptors may behave correctly when intercepting static methods"
-msgstr " `InvocationContext#getTarget()` 返回 ，原因显而易见；因此，并不是所有现有的拦截器在拦截静态方法时都会表现得正确。 `null` "
+msgid "`InvocationContext#getTarget()` returns `null` for obvious reasons; therefore, not all existing interceptors may behave correctly when intercepting static methods"
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -1113,12 +1099,11 @@ msgid "Ability to handle 'final' classes and methods"
 msgstr "有能力处理 \"最终 \"类和方法"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "In normal CDI, classes that are marked as `final` and / or have `final` methods are not eligible for proxy creation,\n"
 "which in turn means that interceptors and normal scoped beans don't work properly.\n"
-"This situation is very common when trying to use CDI with alternative JVM languages like Kotlin where classes and methods are `final` by default."
-msgstr "在普通 CDI 中，被标记为 `final` 和/或具有 `final` 方法的类不符合代理创建条件，这反过来又意味着拦截器和普通作用域 Bean 无法正常工作。在尝试将 CDI 与其他 JVM 语言（如 Kotlin）一起使用时，这种情况非常常见，因为 Kotlin 的类和方法默认为 `final` 。"
+"This situation is very common when trying to use CDI with alternative JVM languages like Kotlin, where classes and methods are `final` by default."
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -1133,15 +1118,14 @@ msgid "Container-managed Concurrency"
 msgstr "容器管理的并发性"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "There is no standard concurrency control mechanism for CDI beans.\n"
 "Nevertheless, a bean instance can be shared and accessed concurrently from multiple threads.\n"
-"In that case it should be thread-safe.\n"
+"In that case, it should be thread-safe.\n"
 "You can use standard Java constructs (`volatile`, `synchronized`, `ReadWriteLock`, etc.) or let the container control the concurrent access.\n"
 "Quarkus provides `@io.quarkus.arc.Lock` and a built-in interceptor for this interceptor binding.\n"
 "Each interceptor instance associated with a contextual instance of an intercepted bean holds a separate `ReadWriteLock` with non-fair ordering policy."
-msgstr "CDI Bean 没有标准的并发控制机制。不过，Bean 实例可以由多个线程共享和并发访问。在这种情况下，它应该是线程安全的。您可以使用标准的 Java 结构（ `volatile` , `synchronized` , `ReadWriteLock` 等），也可以让容器来控制并发访问。Quarkus 为这种拦截器绑定提供了 `@io.quarkus.arc.Lock` 和内置拦截器。与被拦截 Bean 的上下文实例相关联的每个拦截器实例都拥有一个单独的、采用非公平排序策略的 `ReadWriteLock` 。"
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -1236,17 +1220,16 @@ msgid "Caching the Result of Programmatic Lookup"
 msgstr "缓存程序化查询的结果"
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
 "In certain situations, it is practical to obtain a bean instance programmatically via an injected `jakarta.enterprise.inject.Instance` and `Instance.get()`.\n"
-"However, according to the specification the `get()` method must identify the matching bean and obtain a contextual reference.\n"
+"However, according to the specification, the `get()` method must identify the matching bean and obtain a contextual reference.\n"
 "As a consequence, a new instance of a  `@Dependent` bean is returned from each invocation of `get()`.\n"
 "Moreover, this instance is a dependent object of the injected `Instance`.\n"
 "This behavior is well-defined, but it may lead to unexpected errors and memory leaks.\n"
 "Therefore, Quarkus comes with the `io.quarkus.arc.WithCaching` annotation.\n"
 "An injected `Instance` annotated with this annotation will cache the result of the `Instance#get()` operation.\n"
-"The result is computed on the first call and the same value is returned for all subsequent calls, even for `@Dependent` beans."
-msgstr "在某些情况下，通过注入的 `jakarta.enterprise.inject.Instance` 和 `Instance.get()` 以编程方式获取 Bean 实例是可行的。但是，根据规范， `get()` 方法必须识别匹配的 Bean 并获取上下文引用。因此，每次调用 `get()` 时，都会返回一个新的 `@Dependent` Bean 实例。此外，该实例是注入的 `Instance` 的从属对象。这种行为定义明确，但可能会导致意想不到的错误和内存泄漏。因此，Quarkus 附带了 `io.quarkus.arc.WithCaching` 注释。注入了该注解的 `Instance` 将缓存 `Instance#get()` 操作的结果。第一次调用会计算出结果，随后的所有调用都会返回相同的值，即使是 `@Dependent` bean 也不例外。"
+"The result is computed on the first call, and the same value is returned for all subsequent calls, even for `@Dependent` beans."
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -1387,11 +1370,10 @@ msgid ""
 msgstr "现在，如果 `@Traced` 拦截器也执行了所有必要的日志记录，我们希望跳过该方法的 `@Logged` 拦截器，但在所有其他方法中保留它。要做到这一点，可以用 `@NoClassInterceptors` 来注解该方法："
 
 #: _guides/cdi-reference.adoc
-#, fuzzy
 msgid ""
-"The `@NoClassInterceptors` annotation may be put on methods and constructors and means that all class-level interceptors are ignored for these methods and constructors.\n"
+"The `@NoClassInterceptors` annotation may be put on methods and constructors, and means that all class-level interceptors are ignored for these methods and constructors.\n"
 "In other words, if a method/constructor is annotated `@NoClassInterceptors`, then the only interceptors that will apply to this method/constructor are interceptors declared directly on the method/constructor."
-msgstr "`@NoClassInterceptors` 注解可用于方法和构造函数，这意味着这些方法和构造函数将忽略所有类级拦截器。换句话说，如果一个方法/构造函数被注解为 `@NoClassInterceptors` ，那么适用于该方法/构造函数的拦截器只能是直接在该方法/构造函数上声明的拦截器。"
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-reference.adoc
@@ -1554,7 +1536,7 @@ msgid ""
 msgstr ""
 
 #: _guides/cdi-reference.adoc
-msgid "the bindings source class must also use `T` as the name of the type variable:"
+msgid "The bindings source class must also use `T` as the name of the type variable:"
 msgstr ""
 
 #: _guides/cdi-reference.adoc
@@ -1693,7 +1675,7 @@ msgstr ""
 
 #: _guides/cdi-reference.adoc
 msgid ""
-"You may declare an observer method that has a return type of `CompletionStage<>` or `Uni<>`, but neither the return type nor the actual return value affect the result of `Event.fireAsync()`.\n"
+"You may declare an observer method that has a return type of `CompletionStage<>` or `Uni<>`, but neither the return type nor the actual return value affects the result of `Event.fireAsync()`.\n"
 "Further, if the observer declares a return type of `Uni<>`, the returned `Uni` will not be subscribed to, so it is quite possible that part of the observer logic will not even execute."
 msgstr ""
 

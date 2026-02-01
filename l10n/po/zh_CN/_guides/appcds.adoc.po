@@ -44,7 +44,7 @@ msgid ""
 "As these classes\n"
 "are loaded every time the application starts, AppCDS is a conceptually simple way of improving the application startup time,\n"
 "without the application itself having to be coded or configured in a specific way.\n"
-"How much of an improvement depends on many factors, such as the number of classes loaded, the underlying hardware etc."
+"How much of an improvement depends on many factors, such as the number of classes loaded, the underlying hardware, etc."
 msgstr ""
 
 #. type: Title ==
@@ -59,11 +59,9 @@ msgstr "香草型AppCDS的生成"
 msgid "The main downside of creating AppCDS manually for an application is that their generation requires launching the application with special flags and obtaining the archive in a step before the application is deployed to production."
 msgstr "为应用程序手动创建AppCDS的主要缺点是，它们的生成需要用特殊标志启动应用程序，并在应用程序部署到生产之前的一个步骤中获得存档。"
 
-#. type: Plain text
 #: _guides/appcds.adoc
-#, fuzzy
-msgid "The exact process depends on the JVM version being used as newer JVM have incrementally made the process easier."
-msgstr "确切的过程取决于正在使用的JVM版本，因为较新的JVM已经逐步使这一过程变得更容易。"
+msgid "The exact process depends on the JVM version being used, as newer JVM have incrementally made the process easier."
+msgstr ""
 
 #: _guides/appcds.adoc
 msgid "This fact makes AppCDS difficult to use for real world deployments where a CI pipeline is responsible for building and deploying applications."
@@ -156,11 +154,10 @@ msgid ""
 msgstr "答案是，在应用程序构建时，即应用程序存档构建完成后，Quarkus 会启动应用程序，但只运行启动过程中安全的部分。更具体地说，应用程序运行到实际打开套接字或运行应用程序逻辑的步骤为止。"
 
 #: _guides/appcds.adoc
-#, fuzzy
 msgid ""
-"This results in an archive generation process that on one hand is completely safe, but on the other hand is unable to archive every single class that the application might need at boot time.\n"
+"This results in an archive generation process that, on one hand, is completely safe, but on the other hand, is unable to archive every single class that the application might need at boot time.\n"
 "As a result, users are expected to get a slightly more effective archive if they manually go through the hoops of generating the AppCDS archive."
-msgstr "这导致归档生成过程一方面完全安全，另一方面却无法归档应用程序启动时可能需要的每个类。因此，如果用户手动完成 AppCDS 存档的生成过程，就有望获得更有效的存档。"
+msgstr ""
 
 #. type: Plain text
 #: _guides/appcds.adoc

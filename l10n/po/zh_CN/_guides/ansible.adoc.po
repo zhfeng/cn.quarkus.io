@@ -49,11 +49,9 @@ msgstr "先决条件"
 msgid "You'll need to https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html[install Ansible] on your workstation. Once this is done, you can install this extension for Ansible dedicated to Quarkus with the following command:"
 msgstr "你需要在你的工作站上 link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html[安装Ansible] 。一旦完成，你就可以用下面的命令来安装这个Ansible专用于Quarkus的扩展："
 
-#. type: Plain text
 #: _guides/ansible.adoc
-#, fuzzy
-msgid "The Ansible collection we just installed only supports RHEL, Fedora, and other Linux distribution using RPMs. Ansible defines these as \"RedHat family\". Using the content on other platforms (Windows, Debian, Ubuntu, ...), while not impossible, will require a few adjustments."
-msgstr "我们刚刚安装的Ansible集合只支持RHEL、Fedora和其他使用RPM的Linux发行版。Ansible将这些定义为 \"RedHat家族\"。在其他平台（Windows、Debian、Ubuntu......）上使用这些内容，虽然不是不可能，但需要做一些调整。"
+msgid "The Ansible collection we just installed only supports RHEL, Fedora, and other Linux distributions using RPMs. Ansible defines these as \"RedHat family\". Using the content on other platforms (Windows, Debian, Ubuntu, ...), while not impossible, will require a few adjustments."
+msgstr ""
 
 #. type: Title ===
 #: _guides/ansible.adoc
@@ -163,11 +161,9 @@ msgstr "首先，因为集合了，我们可以检查其中一个目标上的服
 msgid "Manually, you can also test if the app is reachable:"
 msgstr "通过手动操作，你也可以测试应用程序是否可以到达："
 
-#. type: Plain text
 #: _guides/ansible.adoc
-#, fuzzy
-msgid "We'll see how to automate those validation in the next and last part of this tutorial."
-msgstr "我们将在本教程的下一部分也是最后一部分看到如何自动进行这些验证。"
+msgid "We'll see how to automate those validations in the next and last part of this tutorial."
+msgstr ""
 
 #. type: Title ===
 #: _guides/ansible.adoc
@@ -187,11 +183,9 @@ msgstr "当然，你很可能需要在此基础上进一步发展，所以你可
 msgid "To run this playbook, you use again the ansible-playbook command, but providing now the path to the playbook:"
 msgstr "要运行这个游戏手册，你要再次使用ansible-playbook命令，但现在要提供游戏手册的路径："
 
-#. type: Plain text
 #: _guides/ansible.adoc
-#, fuzzy
-msgid "You also can automate the validation part we mentioned in the previous section. You can use the https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assert_module.html[ansible.builtin.assert] module and populate the https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_facts_module.html#examples[service facts] to ensure the systemd service of the Quarkus app is running, along with https://docs.ansible.com/ansible/latest/collections/ansible/builtin/uri_module.html[ansible.builtin.uri] to check that the Quarkus app is accessible."
-msgstr "你也可以将我们在上一节提到的验证部分自动化。你可以使用 link:https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assert_module.html[ansible.buildin.assert] 模块并填充 link:https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_facts_module.html#examples[服务事实] ，以确保Quarkus应用的systemd服务正在运行，同时使用 link:https://docs.ansible.com/ansible/latest/collections/ansible/builtin/uri_module.html[ansible.buildin.uri] 来检查Quarkus应用是否可以访问。"
+msgid "You can also automate the validation part we mentioned in the previous section. You can use the https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assert_module.html[ansible.builtin.assert] module and populate the https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_facts_module.html#examples[service facts] to ensure the systemd service of the Quarkus app is running, along with https://docs.ansible.com/ansible/latest/collections/ansible/builtin/uri_module.html[ansible.builtin.uri] to check that the Quarkus app is accessible."
+msgstr ""
 
 #. type: Plain text
 #: _guides/ansible.adoc

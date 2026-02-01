@@ -65,15 +65,14 @@ msgid "Validation"
 msgstr "审定"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
-"In the _initialization_ phase the preparatory work is being carried out and custom contexts are registered.\n"
+"In the _initialization_ phase, the preparatory work is being carried out, and custom contexts are registered.\n"
 "_Bean discovery_ is then the process where the container analyzes all application classes, identifies beans and wires them all together based on the provided metadata.\n"
 "Subsequently, the extensions can register _synthetic components_.\n"
 "Attributes of these components are fully controlled by the extensions, i.e. are not derived from an existing class.\n"
 "Finally, the _deployment is validated_.\n"
 "For example, the container validates every injection point in the application and fails the build if there is no bean that satisfies the given required type and qualifiers."
-msgstr "在 _初始化_ 阶段，将进行准备工作并注册自定义上下文。然后，容器会分析所有应用程序类，识别 _Bean_ ，并根据提供的元数据将它们连接在一起。随后，扩展可以注册 _合成组件_ 。这些组件的属性完全由扩展控制，即不是从现有类派生出来的。最后，对 _部署进行验证_ 。例如，容器会验证应用程序中的每个注入点，如果没有满足给定所需类型和限定条件的 Bean，则构建失败。"
+msgstr ""
 
 #: _guides/cdi-integration.adoc
 #, fuzzy
@@ -81,11 +80,10 @@ msgid "You can see more information about the bootstrap by enabling additional l
 msgstr "通过启用附加日志，您可以看到更多有关引导程序的信息。只需使用 `-X` 或 `--debug` 运行 Maven 构建，然后在包含 `io.quarkus.arc` 的行中搜索即可。在 xref:cdi-reference.adoc#dev_mode[开发模式] 下，您可以使用 `quarkus.log.category.\"io.quarkus.arc.processor\".level=DEBUG` ，两个特殊的端点也会自动注册，以 JSON 格式提供一些基本的调试信息。"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
 "Quarkus build steps can produce and consume various build items and hook into each phase.\n"
-"In the following sections we will describe all the relevant build items and common scenarios."
-msgstr "Quarkus 的构建步骤可以生成和消耗各种构建项，并与每个阶段挂钩。在下面的章节中，我们将介绍所有相关的构建项和常见情况。"
+"In the following sections, we will describe all the relevant build items and common scenarios."
+msgstr ""
 
 #. type: Title ==
 #: _guides/cdi-integration.adoc
@@ -116,13 +114,12 @@ msgid "Use Case - My Class Is Not Recognized as a Bean"
 msgstr "用例 - 我的类不被识别为豆类"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
 "An `UnsatisfiedResolutionException` indicates a problem during <<cdi.adoc#typesafe_resolution,typesafe resolution>>.\n"
 "Sometimes an injection point cannot be satisfied even if there is a class on the classpath that appears to be eligible for injection.\n"
 "There are several reasons why a class is not recognized and also several ways to fix it.\n"
-"In the first step we should identify the _reason_."
-msgstr "`UnsatisfiedResolutionException` 表示 xref:cdi.adoc#typesafe_resolution[类型安全解决] 过程中出现了问题。有时，即使类路径上有一个看起来符合注入条件的类，也无法满足注入点的要求。类无法被识别有几种原因，也有几种解决方法。第一步，我们应找出 _原因_ 。"
+"In the first step, we should identify the _reason_."
+msgstr ""
 
 #. type: Title ===
 #: _guides/cdi-integration.adoc
@@ -173,11 +170,10 @@ msgid ""
 msgstr "通过 `AdditionalBeanBuildItem` 添加的 Bean 类默认是 _可移除_ 的。如果容器认为它们 xref:cdi-reference.adoc#remove_unused_beans[未被使用] ，它们就会被忽略。不过，您可以使用 `AdditionalBeanBuildItem.Builder.setUnremovable()` 方法来指示容器永不删除通过此构建项注册的 Bean 类。另请参阅 xref:cdi-reference.adoc#remove_unused_beans[移除未使用的 Bean] 和 <<unremovable_builditem>> 以了解更多详情。"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
-"It is aso possible to set the default scope via `AdditionalBeanBuildItem.Builder#setDefaultScope()`.\n"
+"It is also possible to set the default scope via `AdditionalBeanBuildItem.Builder#setDefaultScope()`.\n"
 "The default scope is only used if there is no scope declared on the bean class."
-msgstr "也可以通过 `AdditionalBeanBuildItem.Builder#setDefaultScope()` 设置默认作用域。默认作用域只有在 bean 类没有声明作用域时才会使用。"
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-integration.adoc
@@ -222,11 +218,9 @@ msgstr "找到所有用 `@Scheduled` 注释的类。"
 msgid "Add `@Singleton` as default scope. Classes already annotated with a scope are skipped automatically."
 msgstr "添加 `@Singleton` 作为默认作用域。已经用范围注释的类会被自动跳过。"
 
-#. type: Plain text
 #: _guides/cdi-integration.adoc
-#, fuzzy
-msgid "_Solution 2_: If you need to process classes annotated with a specific annotation then it's possible to extend the set of bean defining annotations via the `BeanDefiningAnnotationBuildItem`."
-msgstr " _解决方案2_ ：如果你需要处理带有特定注解的类，那么可以通过 `BeanDefiningAnnotationBuildItem` ，扩展Bean定义的注解集。"
+msgid "_Solution 2_: If you need to process classes annotated with a specific annotation, then it's possible to extend the set of bean defining annotations via the `BeanDefiningAnnotationBuildItem`."
+msgstr ""
 
 #. type: Block title
 #: _guides/cdi-integration.adoc
@@ -241,12 +235,11 @@ msgid "Add `org.eclipse.microprofile.graphql.GraphQLApi` to the set of bean defi
 msgstr "将 `org.eclipse.microprofile.graphql.GraphQLApi` 添加到bean定义注释的集合中。"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
 "Bean classes added via `BeanDefiningAnnotationBuildItem` are _not removable_ by default, i.e. the resulting beans must not be removed even if they are considered unused.\n"
-"However, you can change the default behavior.\n"
+"However, you can change the default behaviour.\n"
 "See also <<cdi-reference.adoc#remove_unused_beans,Removing Unused Beans>> and <<unremovable_builditem>> for more details."
-msgstr "默认情况下，通过 `BeanDefiningAnnotationBuildItem` 添加的 Bean 类是 _不可移除_ 的，也就是说，生成的 Bean 类即使被视为未使用，也不得移除。不过，您可以更改默认行为。更多详情，请参阅 xref:cdi-reference.adoc#remove_unused_beans[移除未使用的 Bean] 和 <<unremovable_builditem>> 。"
+msgstr ""
 
 #: _guides/cdi-integration.adoc
 #, fuzzy
@@ -262,14 +255,13 @@ msgid "_Reason 3_: Class Was Discovered and Has a Bean Defining Annotation but W
 msgstr " _原因3_ ：类被发现并有一个Bean定义的注释，但被删除了"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
 "The container attempts to <<cdi-reference.adoc#remove_unused_beans,remove all unused beans>> during the build by default.\n"
 "This optimization allows for _framework-level dead code elimination_.\n"
-"In few special cases, it's not possible to correctly identify an unused bean.\n"
+"In a few special cases, it's not possible to correctly identify an unused bean.\n"
 "In particular, Quarkus is not able to detect the usage of the `CDI.current()` static method yet.\n"
 "Extensions can eliminate possible false positives by producing an `UnremovableBeanBuildItem`."
-msgstr "默认情况下，容器会在构建过程中 xref:cdi-reference.adoc#remove_unused_beans[移除所有未使用的 Bean] 。这种优化可以 _消除框架级的死代码_ 。在少数特殊情况下，无法正确识别未使用的 Bean。特别是，Quarkus 还不能检测 `CDI.current()` 静态方法的使用情况。扩展程序可以通过生成 `UnremovableBeanBuildItem` .NET 方法来消除可能的误报。"
+msgstr ""
 
 #. type: Block title
 #: _guides/cdi-integration.adoc
@@ -746,12 +738,11 @@ msgid "`ObserverRegistrationPhaseBuildItem` Example"
 msgstr " `ObserverRegistrationPhaseBuildItem` 例子"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
-"The output of a `ObserverConfigurator` is recorded as bytecode.\n"
+"The output of an `ObserverConfigurator` is recorded as bytecode.\n"
 "Therefore, there are some limitations in how a synthetic observer is invoked at runtime.\n"
 "Currently, you must generate the bytecode of the method body directly."
-msgstr "`ObserverConfigurator` 的输出记录为字节码。因此，在运行时如何调用合成观察者存在一些限制。目前，您必须直接生成方法体的字节码。"
+msgstr ""
 
 #. type: Title ==
 #: _guides/cdi-integration.adoc
@@ -760,11 +751,10 @@ msgid "Use Case - I Have a Generated Bean Class"
 msgstr "用例 - 我有一个生成的豆类"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
 "No problem.\n"
-"You can generate the bytecode of a bean class manually and then all you need to do is to produce a `GeneratedBeanBuildItem` instead of `GeneratedClassBuildItem`."
-msgstr "没问题。您可以手动生成 Bean 类的字节码，然后只需生成 `GeneratedBeanBuildItem` 而不是 `GeneratedClassBuildItem` 。"
+"You can generate the bytecode of a bean class manually, and then all you need to do is to produce a `GeneratedBeanBuildItem` instead of `GeneratedClassBuildItem`."
+msgstr ""
 
 #. type: Block title
 #: _guides/cdi-integration.adoc
@@ -796,11 +786,9 @@ msgstr "用例 - 我需要验证部署情况"
 msgid "Sometimes extensions need to inspect the beans, observers and injection points, then perform additional validations and fail the build if something is wrong."
 msgstr "有时，扩展需要检查Bean、观察者和注入点，然后进行额外的验证，如果有问题，就会导致构建失败。"
 
-#. type: Plain text
 #: _guides/cdi-integration.adoc
-#, fuzzy
-msgid "_Solution_: If an extension needs to validate the deployment it should use the `ValidationPhaseBuildItem`."
-msgstr " _解决方案_ 。如果一个扩展需要验证部署，它应该使用 `ValidationPhaseBuildItem` 。"
+msgid "_Solution_: If an extension needs to validate the deployment, it should use the `ValidationPhaseBuildItem`."
+msgstr ""
 
 #. type: Plain text
 #: _guides/cdi-integration.adoc
@@ -875,12 +863,11 @@ msgid "Use Case - Additional Interceptor Bindings"
 msgstr "用例 - 额外的拦截器绑定"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
-"In rare cases it might be handy to programmatically register an existing annotation that is not annotated with `@jakarta.interceptor.InterceptorBinding` as an interceptor binding.\n"
+"In rare cases, it might be handy to programmatically register an existing annotation that is not annotated with `@jakarta.interceptor.InterceptorBinding` as an interceptor binding.\n"
 "This is similar to what CDI achieves through `BeforeBeanDiscovery#addInterceptorBinding()`.\n"
 "We are going to use `InterceptorBindingRegistrarBuildItem` to get it done."
-msgstr "在极少数情况下，以编程方式将未注明 `@jakarta.interceptor.InterceptorBinding` 的现有注解注册为拦截器绑定可能很方便。这与 CDI 通过 `BeforeBeanDiscovery#addInterceptorBinding()` 实现的功能类似。我们将使用 `InterceptorBindingRegistrarBuildItem` 来实现这一目标。"
+msgstr ""
 
 #. type: Block title
 #: _guides/cdi-integration.adoc
@@ -940,12 +927,11 @@ msgid "Use Case - Injection Point Transformation"
 msgstr "用例 - 注射点转换"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
-"Every now and then it is handy to be able to change the qualifiers of an injection point programmatically.\n"
+"Every now and then, it is handy to be able to change the qualifiers of an injection point programmatically.\n"
 "You can do just that with `InjectionPointTransformerBuildItem`.\n"
-"The following sample shows how to apply transformation to injection points with type `Foo` that contain qualifier `MyQualifier`:"
-msgstr "偶尔以编程方式更改注入点的限定符也很方便。您可以使用 `InjectionPointTransformerBuildItem` 来实现这一功能。下面的示例展示了如何对类型为 `Foo` 且包含限定符 `MyQualifier` 的注入点进行转换："
+"The following sample shows how to apply a transformation to injection points with type `Foo` that contain a qualifier `MyQualifier`:"
+msgstr ""
 
 #. type: Block title
 #: _guides/cdi-integration.adoc
@@ -1098,13 +1084,12 @@ msgid "`Map<DotName, StereotypeInfo>` containing all stereotypes"
 msgstr " `Map<DotName, StereotypeInfo>` 包含所有定型的"
 
 #: _guides/cdi-integration.adoc
-#, fuzzy
 msgid ""
 "To get hold of these, simply query the extension context object for given key.\n"
-"Note that these metadata are made available as build proceeds which means that extensions can only leverage metadata that were built before the extensions are invoked.\n"
+"Note that these metadata are made available as build proceeds, which means that extensions can only leverage metadata that were built before the extensions are invoked.\n"
 "If your extension attempts to retrieve metadata that wasn't yet produced, `null` will be returned.\n"
 "Here is a summary of which extensions can access which metadata:"
-msgstr "要获取这些元数据，只需查询扩展上下文对象中的给定键即可。请注意，这些元数据是在构建过程中提供的，这意味着扩展只能利用在调用扩展之前构建的元数据。如果扩展试图检索尚未生成的元数据， `null` 。下面总结了哪些扩展可以访问哪些元数据："
+msgstr ""
 
 #. type: Labeled list
 #: _guides/cdi-integration.adoc

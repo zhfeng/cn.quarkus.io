@@ -340,6 +340,13 @@ msgstr "`@Startup` 注解也可以在非静态非生成器无参数方法上声�
 msgid "The bean is created and the `init()` method is invoked upon the contextual instance when the application starts."
 msgstr "当应用程序启动时，Bean构造函数被调用，产生的上下文实例被存储在应用程序上下文中。"
 
+#: _versions/main/guides/lifecycle.adoc
+msgid ""
+"The bean is created and the `initReactive()` method is invoked upon the contextual instance when the application\n"
+"starts, on a non-blocking thread, which requires the Quarkus Vert.x extension (there will be an error if it is not\n"
+"present)."
+msgstr ""
+
 #. type: Title ===
 #: _versions/main/guides/lifecycle.adoc
 #, fuzzy, no-wrap
