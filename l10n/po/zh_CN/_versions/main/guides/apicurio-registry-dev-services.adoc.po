@@ -130,9 +130,9 @@ msgstr "配置镜像"
 
 #: _versions/main/guides/apicurio-registry-dev-services.adoc
 msgid ""
-"Dev Services for Apicurio Registry uses `apicurio/apicurio-registry-mem` images.\n"
-"You can select any 2.x version from https://hub.docker.com/r/apicurio/apicurio-registry-mem:"
-msgstr "Apicurio注册表的开发服务使用 `apicurio/apicurio-registry-mem` 镜像. 你可以从 https://hub.docker.com/r/apicurio/apicurio-registry-mem 中选择任何一个2.x版本:"
+"Dev Services for Apicurio Registry uses `apicurio/apicurio-registry` images. These images use an in-memory h2 database by default.\n"
+"You can select any 3.x version from https://hub.docker.com/r/apicurio/apicurio-registry:"
+msgstr ""
 
 #: _versions/main/guides/apicurio-registry-dev-services.adoc
 msgid "Compose"

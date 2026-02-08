@@ -452,49 +452,6 @@ msgstr "如果我们不能使用Dev Services，想手动启动Kafka代理和Apic
 #. type: Title ==
 #: _versions/main/guides/kafka-schema-registry-avro.adoc
 #, fuzzy, no-wrap
-msgid "Using compatible versions of the Apicurio Registry"
-msgstr "使用Apicurio注册表的兼容版本"
-
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-#, fuzzy
-msgid ""
-"The `quarkus-apicurio-registry-avro` extension depends on recent versions of Apicurio Registry client,\n"
-"and most versions of Apicurio Registry server and client are backwards compatible.\n"
-"For some you need to make sure that the client used by Serdes is compatible with the server."
-msgstr "`quarkus-apicurio-registry-avro` 扩展依赖于 Apicurio Registry 客户端的最新版本，而 Apicurio Registry 服务器和客户端的大多数版本都向后兼容。对于某些版本，你需要确保 Serdes 使用的客户端与服务器兼容。"
-
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-msgid "For example, with Apicurio Dev Service if you set the image name to use version `2.1.5.Final`:"
-msgstr ""
-
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-#, fuzzy
-msgid ""
-"You need to make sure that `apicurio-registry-serdes-avro-serde` dependency\n"
-"and the REST client `apicurio-common-rest-client-vertx` dependency are set to compatible versions:"
-msgstr "您需要确保 `apicurio-registry-serdes-avro-serde` 依赖项和 REST 客户端 `apicurio-common-rest-client-vertx` 依赖项设置为兼容版本："
-
-#. type: Plain text
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-#, fuzzy
-msgid "Known previous compatible versions for `apicurio-registry-client` and `apicurio-common-rest-client-vertx` are the following"
-msgstr "`apicurio-registry-client` 和 `apicurio-common-rest-client-vertx` 的已知先前兼容版本如下"
-
-#. type: Plain text
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-#, fuzzy
-msgid "`apicurio-registry-client` 2.1.5.Final with `apicurio-common-rest-client-vertx` 0.1.5.Final"
-msgstr "`apicurio-registry-client` 2.1.5.Final 与 0.1.5.Final `apicurio-common-rest-client-vertx` "
-
-#. type: Plain text
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-#, fuzzy
-msgid "`apicurio-registry-client` 2.3.1.Final with `apicurio-common-rest-client-vertx` 0.1.13.Final"
-msgstr "`apicurio-registry-client` 2.3.1.Final 与 0.1.13.Final `apicurio-common-rest-client-vertx` "
-
-#. type: Title ==
-#: _versions/main/guides/kafka-schema-registry-avro.adoc
-#, fuzzy, no-wrap
 msgid "Using the Confluent Schema Registry"
 msgstr "使用Apache Kafka与模式仓库和Avro"
 

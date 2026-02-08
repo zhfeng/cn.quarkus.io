@@ -3479,11 +3479,9 @@ msgstr "例如，使用 `rhoas` CLI，你可以将 `MANAGER` 角色授予服务�
 msgid "Then, you can configure the Quarkus application to connect to the schema registry as follows:"
 msgstr "然后，您可以配置Quarkus应用程序以连接到broker，如下所示："
 
-#. type: Plain text
 #: _versions/main/guides/kafka.adoc
-#, fuzzy
-msgid "The service registry URL, given on the admin console, such as `https://bu98.serviceregistry.rhcloud.com/t/0e95af2c-6e11-475e-82ee-f13bd782df24/apis/registry/v2`"
-msgstr "服务注册表的URL，在管理控制台给出，例如 `<a href=\"https://bu98.serviceregistry.rhcloud.com/t/0e95af2c-6e11-475e-82ee-f13bd782df24/apis/registry/v2\" class=\"bare\">https://bu98.serviceregistry.rhcloud.com/t/0e95af2c-6e11-475e-82ee-f13bd782df24/apis/registry/v2</a>` "
+msgid "The service registry URL, given on the admin console, such as `https://bu98.serviceregistry.rhcloud.com/t/0e95af2c-6e11-475e-82ee-f13bd782df24/apis/registry/v3`"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/kafka.adoc
