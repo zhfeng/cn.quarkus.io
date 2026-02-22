@@ -141,6 +141,18 @@ msgid "OIDC base URL"
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "quarkus.oidc.discovery-path"
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid ".well-known/openid-configuration"
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "Discovery path"
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
 msgid "quarkus.oidc.discovery-enabled"
 msgstr ""
 
@@ -213,7 +225,13 @@ msgid "OIDC client registration path"
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "`quarkus.oidc.auth-server-url` is a key base OIDC URL property. By default, Quarkus OIDC adds a `.well-known/openid-configuration` path segment to this URL and discovers the OIDC provider metadata."
+msgid "`quarkus.oidc.auth-server-url` is a key base OIDC URL property."
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid ""
+"By default, Quarkus OIDC adds a `.well-known/openid-configuration` path segment to this URL and discovers the OIDC provider metadata.\n"
+"The discovery path can be customized with `quarkus.oidc.discovery-path`, for example, it can be set to `.well-known/oauth-authorization-server`."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
@@ -1347,7 +1365,15 @@ msgid "lax"
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "The cookie SameSite status"
+msgid "The session cookie SameSite status"
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "quarkus.oidc.authentication.state-cookie-same-site"
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "The state cookie SameSite status"
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
@@ -1377,7 +1403,15 @@ msgid "`quarkus.oidc.authentication.cookie-path-header` can be used to dynamical
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "`quarkus.oidc.authentication.cookie-same-site` defines a `Same-Site` attribute as `lax` by default, since setting it to `strict` proved to be breaking some deployments. However, setting it to `strict` is RECOMMENDED when it is known to work in your deployment, for example, when the OIDC provider is hosted in the same domain as the application, etc."
+msgid "`quarkus.oidc.authentication.cookie-same-site` defines a `Same-Site` attribute for a session cookie as `lax` by default, since setting it to `strict` proved to be breaking some deployments. However, setting it to `strict` is RECOMMENDED when it is known to work in your deployment, for example, when the OIDC provider is hosted in the same domain as the application, etc."
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "Similarly, `quarkus.oidc.authentication.state-cookie-same-site` defines a `Same-Site` attribute for a state cookie as `lax` by default, but setting it to `strict` is RECOMMENDED when it is known to work in your deployment."
+msgstr ""
+
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "Ideally both the session and state cookies have the same `Same-Site` attribute value, however having the same `Same-Site` `strict` value for both cookies also proved to be problematic in some cases."
 msgstr ""
 
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
