@@ -1317,7 +1317,7 @@ msgstr ""
 
 #: _guides/building-native-image.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: _guides/building-native-image.adoc
 msgid "quarkus.native.bundle.enabled"
@@ -1329,7 +1329,7 @@ msgstr ""
 
 #: _guides/building-native-image.adoc
 msgid "`false`"
-msgstr ""
+msgstr "`false` "
 
 #: _guides/building-native-image.adoc
 msgid "quarkus.native.bundle.dry-run"
