@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc
-msgid "On these page we show the signal independent features of the extension."
+msgid "On this page we show the signal independent features of the extension."
 msgstr ""
 
 #: _versions/main/guides/opentelemetry.adoc

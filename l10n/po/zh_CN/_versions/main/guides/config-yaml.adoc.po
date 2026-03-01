@@ -63,11 +63,11 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Plain text
 #: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "After adding the extension or dependency, to avoid confusion, remove the `src/main/resources/application.properties` file and create a `src/main/resources/application.yaml` file."
-msgstr "删除 `src/main/resources/application.properties` ，并创建一个 `src/main/resources/application.yaml` 文件。"
+msgid ""
+"After adding the extension or dependency, to avoid confusion, remove the `src/main/resources/application.properties`\n"
+"file and create a `src/main/resources/application.yaml` file."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/config-yaml.adoc
@@ -75,11 +75,11 @@ msgstr "删除 `src/main/resources/application.properties` ，并创建一个 `s
 msgid "If both files are present, {project-name} gives precedence to properties in the YAML file."
 msgstr "如果两个文件都存在，{project-name} 优先于 YAML 文件中的属性。"
 
-#. type: Plain text
 #: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "{project-name} recognizes both `.yml` and `.yaml` file extensions."
-msgstr "Quarkus同时支持 `yml` 和 `yaml` 文件扩展名。"
+msgid ""
+"{project-name} recognizes both `.yaml` and `.yml` file extensions. If both files are available, {project-name}\n"
+"gives precedence to the `.yaml` file and then the `.yml` file."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/config-yaml.adoc
@@ -92,6 +92,12 @@ msgstr "启用YAML配置"
 #, fuzzy
 msgid "The following snippets give examples of YAML configurations:"
 msgstr "以下代码段提供了YAML配置的示例:"
+
+#: _versions/main/guides/config-yaml.adoc
+msgid ""
+"You can also use JSON in the YAML file to describe the configuration. Use a single format per file. The file extension\n"
+"is either `yaml` or `yml`."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/config-yaml.adoc
@@ -150,7 +156,7 @@ msgstr "application-staging.yaml"
 msgid ""
 "An `application.yaml` file must exist (even if empty) in the exact location of the profile-aware\n"
 "(`application-{profile}.yaml`) file to be included in the configuration to ensure a consistent order when\n"
-"loading the files."
+"loading the files. All profile files must match the same extension of the main file."
 msgstr ""
 
 #. type: Title ==
@@ -215,33 +221,3 @@ msgstr "这可以通过为任意YAML属性使用 `null` 键（以 `~` 为代表�
 #, fuzzy
 msgid "YAML `null` keys are not included in the assembly of the configuration property name, allowing them to be used at any level for disambiguating configuration properties."
 msgstr "YAML `null` 键不被包含在配置属性名称的程序集中，允许在任意级别使用它们来消除配置键的歧义。"
-
-#. type: Plain text
-#: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "Although Quarkus primarily uses `.properties` file extension for configuration, the snakeyaml library, which is used for parsing YAML in Quarkus, can also parse JSON structures. This means you can use YAML files with JSON content inside."
-msgstr "尽管 Quarkus 主要使用 `.properties` 文件扩展名进行配置，但在 Quarkus 中用于解析 YAML 的 snakeyaml 库也可以解析 JSON 结构。这意味着你可以使用内含 JSON 内容的 YAML 文件。"
-
-#. type: Plain text
-#: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "YAML and JSON structures can be read in an application.yaml file."
-msgstr "可以在 application.yaml 文件中读取 YAML 和 JSON 结构。"
-
-#. type: Plain text
-#: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "Certainly, here's a step-by-step guide on how to use complex configuration structures with Quarkus:"
-msgstr "当然，这里有一份如何使用 Quarkus 复杂配置结构的分步指南："
-
-#. type: Plain text
-#: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "Define Your Configuration Interface."
-msgstr "定义配置界面。"
-
-#. type: Plain text
-#: _versions/main/guides/config-yaml.adoc
-#, fuzzy
-msgid "Create the appropriate JSON structure and store it in a YAML file."
-msgstr "创建适当的 JSON 结构并将其存储在 YAML 文件中。"
