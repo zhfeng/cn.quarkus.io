@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 590, 656, 11855, 13099, 10%
-l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 741, 882, 10689, 13753, 23%
+l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 589, 656, 11752, 13097, 11%
+l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 741, 884, 10689, 13801, 23%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10342, 13%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
 l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 458, 516, 7389, 8590, 14%
@@ -9,8 +9,8 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 317, 342, 5
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 287, 5240, 5862, 11%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_versions/main/guides/rest-client-reactive.adoc.po, 265, 279, 4940, 5039, 2%
-l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 254, 431, 4814, 7979, 40%
-l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 253, 341, 4598, 6183, 26%
+l10n/po/zh_CN/_versions/main/guides/hibernate-orm.adoc.po, 254, 433, 4814, 8000, 40%
+l10n/po/zh_CN/_versions/main/guides/rest-client.adoc.po, 253, 344, 4598, 6244, 27%
 l10n/po/zh_CN/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_versions/main/guides/pulsar.adoc.po, 201, 240, 4074, 4444, 9%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 172, 246, 3916, 5353, 27%
@@ -30,7 +30,6 @@ l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 205, 2581, 3657, 30%
 l10n/po/zh_CN/_versions/main/guides/building-my-first-extension.adoc.po, 149, 175, 2559, 3362, 24%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 145, 235, 2546, 4221, 40%
-l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 261, 341, 2420, 4255, 44%
 l10n/po/zh_CN/_versions/main/guides/kafka-streams.adoc.po, 116, 132, 2356, 2603, 10%
 l10n/po/zh_CN/_versions/main/guides/resteasy.adoc.po, 106, 155, 2317, 2872, 20%
 l10n/po/zh_CN/_versions/main/guides/security-authentication-mechanisms.adoc.po, 152, 278, 2307, 4398, 48%
@@ -51,6 +50,7 @@ l10n/po/zh_CN/_versions/main/guides/jreleaser.adoc.po, 58, 64, 1826, 2019, 10%
 l10n/po/zh_CN/_versions/main/guides/smallrye-fault-tolerance.adoc.po, 80, 120, 1826, 2242, 19%
 l10n/po/zh_CN/_versions/main/guides/extension-codestart.adoc.po, 132, 145, 1807, 1939, 7%
 l10n/po/zh_CN/_versions/main/guides/cli-tooling.adoc.po, 144, 178, 1774, 2275, 23%
+l10n/po/zh_CN/_versions/main/guides/datasource.adoc.po, 235, 340, 1739, 4094, 58%
 l10n/po/zh_CN/_versions/main/guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer.adoc.po, 158, 269, 1696, 3356, 50%
 l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
@@ -148,7 +148,7 @@ l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 52, 719
 l10n/po/zh_CN/_versions/main/guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_versions/main/guides/funqy.adoc.po, 21, 22, 710, 711, 1%
 l10n/po/zh_CN/_versions/main/guides/capabilities.adoc.po, 39, 43, 693, 760, 9%
-l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 27, 250, 692, 5506, 88%
+l10n/po/zh_CN/_versions/main/guides/getting-started-testing.adoc.po, 27, 251, 692, 5576, 88%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client.adoc.po, 47, 71, 684, 915, 26%
 l10n/po/zh_CN/_versions/main/guides/rest-virtual-threads.adoc.po, 47, 58, 683, 917, 26%
 l10n/po/zh_CN/_versions/main/guides/mailer.adoc.po, 51, 61, 681, 750, 10%
@@ -233,7 +233,7 @@ l10n/po/zh_CN/_versions/main/guides/spring-scheduled.adoc.po, 3, 57, 132, 726, 8
 l10n/po/zh_CN/_versions/main/guides/observability-devservices-lgtm.adoc.po, 11, 61, 127, 840, 85%
 l10n/po/zh_CN/_versions/main/guides/quarkus-maven-plugin.adoc.po, 6, 27, 116, 216, 47%
 l10n/po/zh_CN/_versions/main/guides/_includes/duration-format-note.adoc.po, 8, 8, 111, 111, 0%
-l10n/po/zh_CN/_versions/main/guides/opentelemetry.adoc.po, 16, 149, 109, 1680, 94%
+l10n/po/zh_CN/_versions/main/guides/opentelemetry.adoc.po, 16, 149, 109, 1692, 94%
 l10n/po/zh_CN/_versions/main/guides/kubernetes-dev-services.adoc.po, 7, 34, 104, 834, 88%
 l10n/po/zh_CN/_versions/main/guides/amqp.adoc.po, 6, 69, 97, 1116, 92%
 l10n/po/zh_CN/_versions/main/guides/conditional-extension-dependencies.adoc.po, 9, 45, 93, 1013, 91%
@@ -254,7 +254,7 @@ l10n/po/zh_CN/_versions/main/guides/_includes/devtools/create-cli.adoc.po, 3, 6,
 l10n/po/zh_CN/_versions/main/guides/all-config.adoc.po, 1, 2, 20, 23, 14%
 l10n/po/zh_CN/_versions/main/guides/_includes/extension-status.adoc.po, 2, 6, 14, 124, 89%
 l10n/po/zh_CN/_versions/main/guides/ide-tooling.adoc.po, 6, 49, 14, 252, 95%
-l10n/po/zh_CN/_versions/main/guides/security-cors.adoc.po, 3, 32, 14, 549, 98%
+l10n/po/zh_CN/_versions/main/guides/security-cors.adoc.po, 3, 33, 14, 611, 98%
 l10n/po/zh_CN/_versions/main/guides/_attributes.adoc.po, 2, 3, 7, 11, 37%
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/build-native-container-parameters.adoc.po, 2, 4, 5, 7, 29%
 l10n/po/zh_CN/_versions/main/guides/_includes/devtools/build-native-container.adoc.po, 2, 4, 4, 6, 34%
@@ -276,7 +276,7 @@ l10n/po/zh_CN/_versions/main/guides/_includes/opentelemetry-config.adoc.po, 0, 1
 l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-derby.adoc.po, 0, 1, 0, 3, 100%
 l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-encrypted-pem-tech-prev.adoc.po, 0, 1, 0, 6, 100%
 l10n/po/zh_CN/_versions/main/guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
-l10n/po/zh_CN/_versions/main/guides/aot.adoc.po, 0, 70, 0, 774, 100%
+l10n/po/zh_CN/_versions/main/guides/aot.adoc.po, 0, 69, 0, 749, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 425, 100%
 l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 103, 0, 1120, 100%
 l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 175, 0, 2259, 100%
@@ -292,7 +292,7 @@ l10n/po/zh_CN/_versions/main/guides/extension-faq.adoc.po, 0, 40, 0, 933, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1428, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-writing-dev-service.adoc.po, 0, 27, 0, 438, 100%
 l10n/po/zh_CN/_versions/main/guides/grpc-cli.adoc.po, 0, 9, 0, 40, 100%
-l10n/po/zh_CN/_versions/main/guides/hibernate-panache-next.adoc.po, 0, 171, 0, 2253, 100%
+l10n/po/zh_CN/_versions/main/guides/hibernate-panache-next.adoc.po, 0, 171, 0, 2262, 100%
 l10n/po/zh_CN/_versions/main/guides/hibernate-panache.adoc.po, 0, 170, 0, 2290, 100%
 l10n/po/zh_CN/_versions/main/guides/jfr.adoc.po, 0, 107, 0, 1826, 100%
 l10n/po/zh_CN/_versions/main/guides/load-shedding-reference.adoc.po, 0, 64, 0, 1160, 100%
