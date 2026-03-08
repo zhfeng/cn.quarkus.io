@@ -129,11 +129,9 @@ msgstr ""
 msgid "The exact configuration is:"
 msgstr "确切的配置是。"
 
-#. type: Plain text
 #: _guides/container-image.adoc
-#, fuzzy
-msgid "Other base images might provide launch scripts that enable debugging when an environment variable is set, in which case you would set than environment variable when launching the container."
-msgstr "其他的基础镜像可能会提供启动脚本，当环境变量被设置后就可以进行调试，在这种情况下，你会在启动容器时设置比环境变量。"
+msgid "Other base images might provide launch scripts that enable debugging when an environment variable is set, in which case you would set that environment variable when launching the container."
+msgstr ""
 
 #. type: Title ====
 #: _guides/container-image.adoc

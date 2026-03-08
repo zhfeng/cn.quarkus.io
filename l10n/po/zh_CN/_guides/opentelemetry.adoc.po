@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 
 #: _guides/opentelemetry.adoc
-msgid "On these page we show the signal independent features of the extension."
+msgid "On this page we show the signal independent features of the extension."
 msgstr ""
 
 #: _guides/opentelemetry.adoc
@@ -239,9 +239,9 @@ msgstr "`quarkus.otel.exporter.otlp.enabled`"
 
 #: _guides/opentelemetry.adoc
 msgid ""
-"Deprecated for removal.\n"
+"If false, will disable Quarkus default OTLP exporters at *build* time.\n"
 "\n"
-"If false will disable the default OTLP exporter at *build* time."
+"Telemetry will be generated, contexts will be propagated but no telemetry will be sent out."
 msgstr ""
 
 #: _guides/opentelemetry.adoc
