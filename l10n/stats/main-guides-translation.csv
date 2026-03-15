@@ -142,8 +142,8 @@ l10n/po/zh_CN/_versions/main/guides/security-csrf-prevention.adoc.po, 37, 53, 75
 l10n/po/zh_CN/_versions/main/guides/grpc-getting-started.adoc.po, 47, 56, 750, 842, 11%
 l10n/po/zh_CN/_versions/main/guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
-l10n/po/zh_CN/_versions/main/guides/config.adoc.po, 59, 75, 734, 851, 14%
 l10n/po/zh_CN/_versions/main/guides/funqy-http.adoc.po, 37, 40, 726, 739, 2%
+l10n/po/zh_CN/_versions/main/guides/config.adoc.po, 58, 75, 720, 851, 16%
 l10n/po/zh_CN/_versions/main/guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
 l10n/po/zh_CN/_versions/main/guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_versions/main/guides/funqy.adoc.po, 21, 22, 710, 711, 1%
@@ -199,7 +199,7 @@ l10n/po/zh_CN/_versions/main/guides/security-properties.adoc.po, 34, 42, 367, 56
 l10n/po/zh_CN/_versions/main/guides/websockets.adoc.po, 25, 43, 359, 530, 33%
 l10n/po/zh_CN/_versions/main/guides/config-yaml.adoc.po, 22, 33, 357, 556, 36%
 l10n/po/zh_CN/_versions/main/guides/azure-functions-http.adoc.po, 22, 45, 334, 726, 54%
-l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift.adoc.po, 60, 168, 333, 2144, 85%
+l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift.adoc.po, 60, 168, 333, 2140, 85%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-incoming.adoc.po, 42, 52, 332, 368, 10%
 l10n/po/zh_CN/_versions/main/guides/cache-redis-reference.adoc.po, 23, 32, 327, 478, 32%
 l10n/po/zh_CN/_versions/main/guides/grpc-virtual-threads.adoc.po, 14, 16, 326, 330, 2%
@@ -285,7 +285,7 @@ l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-S2I-howto.adoc.po, 0,
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 482, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-native-howto.adoc.po, 0, 30, 0, 395, 100%
-l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 41, 0, 555, 100%
+l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 35, 0, 415, 100%
 l10n/po/zh_CN/_versions/main/guides/dev-mcp.adoc.po, 0, 39, 0, 707, 100%
 l10n/po/zh_CN/_versions/main/guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_versions/main/guides/extension-faq.adoc.po, 0, 40, 0, 933, 100%
@@ -313,4 +313,4 @@ l10n/po/zh_CN/_versions/main/guides/stork-registration.adoc.po, 0, 45, 0, 456, 1
 l10n/po/zh_CN/_versions/main/guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_versions/main/guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 106, 0, 1009, 100%
 l10n/po/zh_CN/_versions/main/guides/testing-components.adoc.po, 0, 81, 0, 1580, 100%
-l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 342, 0, 6188, 100%
+l10n/po/zh_CN/_versions/main/guides/tls-registry-reference.adoc.po, 0, 349, 0, 6110, 100%

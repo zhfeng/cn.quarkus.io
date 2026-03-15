@@ -30,7 +30,6 @@ l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 98, 121, 263
 l10n/po/zh_CN/_guides/security-openid-connect-multitenancy.adoc.po, 150, 205, 2581, 3657, 30%
 l10n/po/zh_CN/_guides/building-my-first-extension.adoc.po, 149, 175, 2559, 3362, 24%
 l10n/po/zh_CN/_guides/security-authorize-web-endpoints-reference.adoc.po, 145, 235, 2546, 4221, 40%
-l10n/po/zh_CN/_guides/datasource.adoc.po, 261, 341, 2420, 4255, 44%
 l10n/po/zh_CN/_guides/kafka-streams.adoc.po, 116, 132, 2356, 2603, 10%
 l10n/po/zh_CN/_guides/resteasy.adoc.po, 106, 155, 2317, 2872, 20%
 l10n/po/zh_CN/_guides/security-authentication-mechanisms.adoc.po, 152, 278, 2307, 4398, 48%
@@ -50,6 +49,7 @@ l10n/po/zh_CN/_guides/cdi.adoc.po, 117, 132, 1867, 2370, 22%
 l10n/po/zh_CN/_guides/jreleaser.adoc.po, 58, 64, 1826, 2019, 10%
 l10n/po/zh_CN/_guides/cli-tooling.adoc.po, 144, 178, 1774, 2275, 23%
 l10n/po/zh_CN/_guides/extension-codestart.adoc.po, 131, 145, 1754, 1939, 10%
+l10n/po/zh_CN/_guides/datasource.adoc.po, 235, 340, 1739, 4094, 58%
 l10n/po/zh_CN/_guides/telemetry-micrometer.adoc.po, 160, 269, 1699, 3356, 50%
 l10n/po/zh_CN/_guides/validation.adoc.po, 98, 120, 1697, 2180, 23%
 l10n/po/zh_CN/_guides/resteasy-client.adoc.po, 84, 100, 1660, 1781, 7%
@@ -142,8 +142,8 @@ l10n/po/zh_CN/_guides/security-csrf-prevention.adoc.po, 37, 53, 757, 977, 23%
 l10n/po/zh_CN/_guides/grpc-getting-started.adoc.po, 47, 56, 750, 842, 11%
 l10n/po/zh_CN/_guides/messaging-virtual-threads.adoc.po, 41, 44, 744, 752, 2%
 l10n/po/zh_CN/_guides/deploying-to-azure-cloud.adoc.po, 46, 49, 735, 744, 2%
-l10n/po/zh_CN/_guides/config.adoc.po, 59, 75, 734, 851, 14%
 l10n/po/zh_CN/_guides/funqy-http.adoc.po, 37, 40, 726, 739, 2%
+l10n/po/zh_CN/_guides/config.adoc.po, 58, 75, 720, 851, 16%
 l10n/po/zh_CN/_guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
 l10n/po/zh_CN/_guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_guides/funqy.adoc.po, 21, 22, 710, 711, 1%
@@ -269,7 +269,7 @@ l10n/po/zh_CN/_guides/_includes/json-provider-note.adoc.po, 0, 3, 0, 68, 100%
 l10n/po/zh_CN/_guides/_includes/opentelemetry-config.adoc.po, 0, 13, 0, 223, 100%
 l10n/po/zh_CN/_guides/_includes/platform-include.adoc.po, 0, 1, 0, 15, 100%
 l10n/po/zh_CN/_guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
-l10n/po/zh_CN/_guides/aot.adoc.po, 0, 70, 0, 774, 100%
+l10n/po/zh_CN/_guides/aot.adoc.po, 0, 69, 0, 749, 100%
 l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 425, 100%
 l10n/po/zh_CN/_guides/assistant.adoc.po, 0, 103, 0, 1120, 100%
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 41, 0, 643, 100%
