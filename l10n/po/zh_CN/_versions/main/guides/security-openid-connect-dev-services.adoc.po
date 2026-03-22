@@ -680,7 +680,19 @@ msgid "Configuration reference"
 msgstr ""
 
 #: _versions/main/guides/security-openid-connect-dev-services.adoc
+msgid "Keycloak Dev Services"
+msgstr ""
+
+#: _versions/main/guides/security-openid-connect-dev-services.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgstr ""
+
+#: _versions/main/guides/security-openid-connect-dev-services.adoc
+msgid "OIDC Dev Services"
+msgstr ""
+
+#: _versions/main/guides/security-openid-connect-dev-services.adoc
+msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
 
 #. type: Title ==
@@ -688,6 +700,10 @@ msgstr ""
 #, no-wrap
 msgid "References"
 msgstr "参考文献"
+
+#: _versions/main/guides/security-openid-connect-dev-services.adoc
+msgid "xref:dev-services.adoc[Dev Services Overview]"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-openid-connect-dev-services.adoc

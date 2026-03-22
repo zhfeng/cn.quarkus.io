@@ -29,7 +29,7 @@ msgstr ""
 #: _guides/deploying-to-openshift.adoc
 msgid ""
 "As an application developer, you can deploy your {project-name} applications to {openshift-long}.\n"
-"This functionality is provided by the `quarkus-openshift` extension, which supports multiple deployment options:"
+"The `quarkus-openshift` extension provides this functionality, which supports multiple deployment options:"
 msgstr ""
 
 #: _guides/deploying-to-openshift.adoc
@@ -89,7 +89,7 @@ msgid "This strategy uses a JAR file as input to the S2I build process, which sp
 msgstr ""
 
 #: _guides/deploying-to-openshift.adoc
-msgid "Build strategies supported by Quarkus"
+msgid "Supported build strategies"
 msgstr ""
 
 #: _guides/deploying-to-openshift.adoc
