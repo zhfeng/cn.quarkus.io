@@ -198,7 +198,7 @@ l10n/po/zh_CN/_guides/flyway.adoc.po, 20, 59, 356, 1002, 65%
 l10n/po/zh_CN/_guides/getting-started.adoc.po, 22, 106, 352, 1689, 80%
 l10n/po/zh_CN/_guides/security-testing.adoc.po, 18, 42, 351, 722, 52%
 l10n/po/zh_CN/_guides/azure-functions-http.adoc.po, 22, 45, 334, 726, 54%
-l10n/po/zh_CN/_guides/deploying-to-openshift.adoc.po, 60, 168, 333, 2144, 85%
+l10n/po/zh_CN/_guides/deploying-to-openshift.adoc.po, 60, 168, 333, 2140, 85%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-incoming.adoc.po, 41, 51, 329, 365, 10%
 l10n/po/zh_CN/_guides/cache-redis-reference.adoc.po, 23, 32, 327, 478, 32%
 l10n/po/zh_CN/_guides/grpc-virtual-threads.adoc.po, 14, 16, 326, 330, 2%
@@ -269,7 +269,7 @@ l10n/po/zh_CN/_guides/_includes/json-provider-note.adoc.po, 0, 3, 0, 68, 100%
 l10n/po/zh_CN/_guides/_includes/opentelemetry-config.adoc.po, 0, 13, 0, 223, 100%
 l10n/po/zh_CN/_guides/_includes/platform-include.adoc.po, 0, 1, 0, 15, 100%
 l10n/po/zh_CN/_guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
-l10n/po/zh_CN/_guides/aot.adoc.po, 0, 69, 0, 749, 100%
+l10n/po/zh_CN/_guides/aot.adoc.po, 0, 75, 0, 847, 100%
 l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 425, 100%
 l10n/po/zh_CN/_guides/assistant.adoc.po, 0, 103, 0, 1120, 100%
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 41, 0, 643, 100%
@@ -279,7 +279,7 @@ l10n/po/zh_CN/_guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 1
 l10n/po/zh_CN/_guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 443, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 482, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-native-howto.adoc.po, 0, 30, 0, 395, 100%
-l10n/po/zh_CN/_guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 41, 0, 555, 100%
+l10n/po/zh_CN/_guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 35, 0, 415, 100%
 l10n/po/zh_CN/_guides/dev-mcp.adoc.po, 0, 39, 0, 707, 100%
 l10n/po/zh_CN/_guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_guides/extension-faq.adoc.po, 0, 40, 0, 933, 100%
@@ -308,5 +308,5 @@ l10n/po/zh_CN/_guides/stork-registration.adoc.po, 0, 45, 0, 456, 100%
 l10n/po/zh_CN/_guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 106, 0, 1009, 100%
 l10n/po/zh_CN/_guides/testing-components.adoc.po, 0, 81, 0, 1580, 100%
-l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 342, 0, 6188, 100%
+l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 349, 0, 6110, 100%
 l10n/po/zh_CN/_guides/web-dependency-locator.adoc.po, 0, 26, 0, 335, 100%

@@ -1,5 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 589, 656, 11752, 13097, 11%
+l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 588, 656, 11730, 13097, 11%
 l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 741, 884, 10689, 13801, 23%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10342, 13%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
@@ -26,7 +26,7 @@ l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 248, 306, 2775, 3501
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 140, 203, 2767, 4210, 35%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 132, 157, 2739, 3297, 17%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 148, 171, 2683, 3292, 19%
-l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 121, 2630, 3208, 19%
+l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 125, 2630, 3238, 19%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 150, 205, 2581, 3657, 30%
 l10n/po/zh_CN/_versions/main/guides/building-my-first-extension.adoc.po, 149, 175, 2559, 3362, 24%
 l10n/po/zh_CN/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 145, 235, 2546, 4221, 40%
@@ -39,7 +39,6 @@ l10n/po/zh_CN/_versions/main/guides/cdi-integration.adoc.po, 158, 189, 2238, 316
 l10n/po/zh_CN/_versions/main/guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3249, 36%
 l10n/po/zh_CN/_versions/main/guides/doc-contribute-docs-howto.adoc.po, 139, 142, 2075, 2107, 2%
-l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 239, 337, 2070, 3591, 43%
 l10n/po/zh_CN/_versions/main/guides/cdi.adoc.po, 122, 132, 2051, 2370, 14%
 l10n/po/zh_CN/_versions/main/guides/rabbitmq-reference.adoc.po, 196, 254, 1959, 2515, 23%
 l10n/po/zh_CN/_versions/main/guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
@@ -64,7 +63,8 @@ l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 117, 1541, 1
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 71, 84, 1515, 1615, 7%
 l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 112, 1512, 1651, 9%
 l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 87, 1494, 1736, 14%
-l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 62, 65, 1452, 1476, 2%
+l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 216, 346, 1466, 3539, 59%
+l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 61, 65, 1447, 1476, 2%
 l10n/po/zh_CN/_versions/main/guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
 l10n/po/zh_CN/_versions/main/guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
 l10n/po/zh_CN/_versions/main/guides/extension-registry-user.adoc.po, 65, 96, 1391, 1712, 19%
@@ -82,13 +82,13 @@ l10n/po/zh_CN/_versions/main/guides/security-webauthn.adoc.po, 65, 140, 1281, 30
 l10n/po/zh_CN/_versions/main/guides/web.adoc.po, 67, 74, 1280, 1406, 9%
 l10n/po/zh_CN/_versions/main/guides/rest-migration.adoc.po, 94, 97, 1244, 1312, 6%
 l10n/po/zh_CN/_versions/main/guides/openapi-swaggerui.adoc.po, 82, 168, 1239, 2510, 51%
-l10n/po/zh_CN/_versions/main/guides/transaction.adoc.po, 47, 104, 1230, 2451, 50%
 l10n/po/zh_CN/_versions/main/guides/funqy-gcp-functions.adoc.po, 68, 78, 1227, 1300, 6%
 l10n/po/zh_CN/_versions/main/guides/stork-kubernetes.adoc.po, 66, 77, 1227, 1322, 8%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive-panache.adoc.po, 46, 161, 1223, 3239, 63%
 l10n/po/zh_CN/_versions/main/guides/native-and-ssl.adoc.po, 86, 96, 1222, 1361, 11%
 l10n/po/zh_CN/_versions/main/guides/container-image.adoc.po, 66, 90, 1221, 1727, 30%
+l10n/po/zh_CN/_versions/main/guides/transaction.adoc.po, 46, 104, 1208, 2478, 52%
 l10n/po/zh_CN/_versions/main/guides/building-native-image.adoc.po, 57, 244, 1203, 4539, 74%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive-panache.adoc.po, 45, 168, 1196, 3303, 64%
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-json-schema.adoc.po, 56, 67, 1187, 1259, 6%
 l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 76, 86, 1174, 1321, 12%
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
@@ -99,16 +99,16 @@ l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 62, 
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 67, 83, 1061, 1454, 28%
 l10n/po/zh_CN/_versions/main/guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
-l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 64, 107, 1053, 1702, 39%
 l10n/po/zh_CN/_versions/main/guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
 l10n/po/zh_CN/_versions/main/guides/lifecycle.adoc.po, 54, 73, 1033, 1255, 18%
 l10n/po/zh_CN/_versions/main/guides/mongodb-panache.adoc.po, 47, 200, 1033, 3902, 74%
 l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 46, 67, 1027, 1458, 30%
 l10n/po/zh_CN/_versions/main/guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_versions/main/guides/quartz.adoc.po, 71, 89, 1027, 1142, 11%
+l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 62, 136, 1012, 2158, 54%
 l10n/po/zh_CN/_versions/main/guides/security-oauth2.adoc.po, 56, 79, 1005, 1226, 19%
 l10n/po/zh_CN/_versions/main/guides/command-mode-reference.adoc.po, 51, 70, 996, 1152, 14%
-l10n/po/zh_CN/_versions/main/guides/dev-services.adoc.po, 49, 60, 960, 1168, 18%
+l10n/po/zh_CN/_versions/main/guides/dev-services.adoc.po, 49, 64, 960, 1250, 24%
 l10n/po/zh_CN/_versions/main/guides/spring-data-rest.adoc.po, 87, 111, 955, 1143, 17%
 l10n/po/zh_CN/_versions/main/guides/stork.adoc.po, 57, 69, 951, 997, 5%
 l10n/po/zh_CN/_versions/main/guides/lra.adoc.po, 18, 22, 946, 960, 2%
@@ -159,7 +159,7 @@ l10n/po/zh_CN/_versions/main/guides/centralized-log-management.adoc.po, 40, 65, 
 l10n/po/zh_CN/_versions/main/guides/continuous-testing.adoc.po, 36, 63, 640, 1232, 49%
 l10n/po/zh_CN/_versions/main/guides/reaugmentation.adoc.po, 19, 21, 639, 703, 10%
 l10n/po/zh_CN/_versions/main/guides/rabbitmq.adoc.po, 29, 79, 619, 1125, 45%
-l10n/po/zh_CN/_versions/main/guides/jms.adoc.po, 36, 54, 609, 726, 17%
+l10n/po/zh_CN/_versions/main/guides/jms.adoc.po, 36, 55, 609, 764, 21%
 l10n/po/zh_CN/_versions/main/guides/security-overview.adoc.po, 40, 48, 609, 722, 16%
 l10n/po/zh_CN/_versions/main/guides/doc-concept.adoc.po, 41, 41, 606, 606, 0%
 l10n/po/zh_CN/_versions/main/guides/security-jdbc.adoc.po, 31, 48, 605, 744, 19%
@@ -177,7 +177,7 @@ l10n/po/zh_CN/_versions/main/guides/aws-lambda-snapstart.adoc.po, 37, 37, 514, 5
 l10n/po/zh_CN/_versions/main/guides/gcp-functions-http.adoc.po, 34, 47, 513, 610, 16%
 l10n/po/zh_CN/_versions/main/guides/blaze-persistence.adoc.po, 40, 41, 509, 511, 1%
 l10n/po/zh_CN/_versions/main/guides/liquibase.adoc.po, 36, 44, 506, 566, 11%
-l10n/po/zh_CN/_versions/main/guides/rest-json.adoc.po, 21, 100, 504, 1667, 70%
+l10n/po/zh_CN/_versions/main/guides/rest-json.adoc.po, 21, 101, 504, 1706, 71%
 l10n/po/zh_CN/_versions/main/guides/build-analytics.adoc.po, 44, 48, 496, 529, 7%
 l10n/po/zh_CN/_versions/main/guides/picocli.adoc.po, 27, 60, 496, 994, 51%
 l10n/po/zh_CN/_versions/main/guides/aws-lambda-http.adoc.po, 26, 112, 495, 2256, 79%
@@ -276,7 +276,7 @@ l10n/po/zh_CN/_versions/main/guides/_includes/opentelemetry-config.adoc.po, 0, 1
 l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-derby.adoc.po, 0, 1, 0, 3, 100%
 l10n/po/zh_CN/_versions/main/guides/_includes/snip-note-encrypted-pem-tech-prev.adoc.po, 0, 1, 0, 6, 100%
 l10n/po/zh_CN/_versions/main/guides/all-builditems.adoc.po, 0, 3, 0, 31, 100%
-l10n/po/zh_CN/_versions/main/guides/aot.adoc.po, 0, 69, 0, 749, 100%
+l10n/po/zh_CN/_versions/main/guides/aot.adoc.po, 0, 75, 0, 847, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 425, 100%
 l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 103, 0, 1120, 100%
 l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 175, 0, 2259, 100%
