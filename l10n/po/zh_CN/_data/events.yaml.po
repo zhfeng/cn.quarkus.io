@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-22 08:57+0000\n"
+"POT-Creation-Date: 2026-04-19 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,43 +25,43 @@ msgstr "选择即将举行的活动"
 #. type: Hash Value: upcomingevents date
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "2026-03-12"
+msgid "2026-04-16"
 msgstr ""
 
 #. type: Hash Value: upcomingevents description
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "Back to the roots and off to the amusement park! JavaLand 2026 welcomes you from March 10 to 12 to Europa-Park! Discover the program with nearly 130 presentations across 13 different topics now!"
+msgid "Join us for one of the most talked-about topics in our industry; AI and Large Language Models (LLMs) — but with a clear focus on what actually works in real-world applications."
 msgstr ""
 
 #. type: Hash Value: upcomingevents displaydate
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "March 10-12, 2026"
+msgid "April 16, 2026"
 msgstr ""
 
 #. type: Hash Value: upcomingevents link
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/50998"
+msgid "https://www.meetup.com/quarkus-user-group-munich-qugm/events/313848514/?eventOrigin=group_upcoming_events"
 msgstr ""
 
 #. type: Hash Value: upcomingevents location
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "Rust, Germany"
+msgid "Munich, Germany"
 msgstr ""
 
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "javaland_logo.png"
+msgid "QUGM_logo.png"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "JavaLand"
+msgid "Quarkus User Group Munich - QUGM"
 msgstr ""
 
 #. type: Hash Value: upcomingevents type
@@ -69,270 +69,6 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "In Person"
 msgstr "亲临现场"
-
-#. type: Hash Value: upcomingevents date
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "2026-03-19"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Our 8th annual virtual event is for thought leaders and creators. IBM can help you activate the agentic enterprise with intelligent, resilient, and asset-smart systems."
-msgstr ""
-
-#. type: Hash Value: upcomingevents displaydate
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "March 17-19, 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/52789"
-msgstr ""
-
-#. type: Hash Value: upcomingevents type
-#: upstream/_data/events.yaml:0
-#, fuzzy, no-wrap
-msgid "Virtual"
-msgstr "虚拟"
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "ibmtechcon_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "IBM TechCon 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "JavaOne is here soon, and you don't want to get caught sitting on the sidelines. You might think you know what JavaOne offers, but skip this one and the next wave of innovation might leave you behind."
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/52795"
-msgstr ""
-
-#. type: Hash Value: upcomingevents location
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Redwood City, CA"
-msgstr ""
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "javaone_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "JavaOne"
-msgstr ""
-
-#. type: Hash Value: upcomingevents date
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "2026-03-22"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "ArgoCon is designed to foster collaboration, discussion, and knowledge sharing on the Argo Project, which consists of four projects Argo CD, Argo Workflows, Argo Rollouts and Argo Events."
-msgstr ""
-
-#. type: Hash Value: upcomingevents displaydate
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "March 22, 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/52499"
-msgstr ""
-
-#. type: Hash Value: upcomingevents location
-#: upstream/_data/events.yaml:0
-#, fuzzy, no-wrap
-msgid "Amsterdam, Netherlands"
-msgstr "荷兰阿姆斯特丹"
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "argocon_eu_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "ArgoCon Europe"
-msgstr ""
-
-#. type: Hash Value: upcomingevents date
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "2026-03-26"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, fuzzy, no-wrap
-msgid "The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities."
-msgstr "云原生计算基金会的旗舰会议聚集了来自领先开源社区和云原生社区的采用者和技术专家。"
-
-#. type: Hash Value: upcomingevents displaydate
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "March 23-26, 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/52363"
-msgstr ""
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "kubecon_eu_2026_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Kubecon Europe"
-msgstr ""
-
-#. type: Hash Value: upcomingevents date
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "2026-03-24"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Voxxed Days Zürich brings together software developers to discuss the most important topics in our industry, featuring expert speakers and opportunities to network with fellow professionals."
-msgstr ""
-
-#. type: Hash Value: upcomingevents displaydate
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "March 24, 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/51427"
-msgstr ""
-
-#. type: Hash Value: upcomingevents location
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Zürich, Switzerland"
-msgstr ""
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "voxxeddays_zurich_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Voxxed Days Zürich"
-msgstr ""
-
-#. type: Hash Value: upcomingevents date
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "2026-04-02"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Accelerate your skills at Voxxed Days Amsterdam, the conference for tomorrow’s developers."
-msgstr ""
-
-#. type: Hash Value: upcomingevents displaydate
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "April 1-2, 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/51429"
-msgstr ""
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "voxxeddays_amsterdam_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Voxxed Days Amsterdam"
-msgstr ""
-
-#. type: Hash Value: upcomingevents date
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "2026-04-09"
-msgstr ""
-
-#. type: Hash Value: upcomingevents description
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "Now in its sixth year, Microsoft JDConf is a global virtual Java developer conference that brings the community together to build and scale modern, intelligent, cloud-native applications for an agentic world."
-msgstr ""
-
-#. type: Hash Value: upcomingevents displaydate
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "April 8-9, 2026"
-msgstr ""
-
-#. type: Hash Value: upcomingevents link
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/52796"
-msgstr ""
-
-#. type: Hash Value: upcomingevents thumbnail
-#: upstream/_data/events.yaml:0
-#, no-wrap
-msgid "microsoftjdnconf_logo.png"
-msgstr ""
-
-#. type: Hash Value: upcomingevents title
-#: upstream/_data/events.yaml:0
-#, fuzzy, no-wrap
-msgid "Microsoft JDConf"
-msgstr "微软 JDConf"
 
 #. type: Hash Value: upcomingevents date
 #: upstream/_data/events.yaml:0
@@ -709,6 +445,84 @@ msgstr ""
 #. type: Hash Value: upcomingevents date
 #: upstream/_data/events.yaml:0
 #, no-wrap
+msgid "2026-05-19"
+msgstr ""
+
+#. type: Hash Value: upcomingevents description
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Cloud Native Days (CND) Italy is a local, community-organized event that gathers adopters and technologists from open source and cloud native communities."
+msgstr ""
+
+#. type: Hash Value: upcomingevents displaydate
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "May 18-19, 2026"
+msgstr ""
+
+#. type: Hash Value: upcomingevents link
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "https://github.com/quarkusio/quarkus/discussions/53640"
+msgstr ""
+
+#. type: Hash Value: upcomingevents location
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Bologna, Italy"
+msgstr ""
+
+#. type: Hash Value: upcomingevents thumbnail
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "cloudnativedaysitaly_logo.png"
+msgstr ""
+
+#. type: Hash Value: upcomingevents title
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Cloud Native Days Italy"
+msgstr ""
+
+#. type: Hash Value: upcomingevents date
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "2026-05-20"
+msgstr ""
+
+#. type: Hash Value: upcomingevents description
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Kafka Summit in London was massive, and this year we’re coming back to do something even bigger as Current London. It’s the data streaming event with a full-day of keynotes, breakout sessions, and an amazing expo hall. It’s the can’t-miss event for the best minds in data."
+msgstr ""
+
+#. type: Hash Value: upcomingevents displaydate
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "May 19-20, 2026"
+msgstr ""
+
+#. type: Hash Value: upcomingevents link
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "https://github.com/quarkusio/quarkus/discussions/53641"
+msgstr ""
+
+#. type: Hash Value: upcomingevents thumbnail
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "currentlondon_logo.png"
+msgstr ""
+
+#. type: Hash Value: upcomingevents title
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Current | London"
+msgstr ""
+
+#. type: Hash Value: upcomingevents date
+#: upstream/_data/events.yaml:0
+#, no-wrap
 msgid "2026-05-29"
 msgstr ""
 
@@ -865,6 +679,42 @@ msgstr ""
 #. type: Hash Value: upcomingevents description
 #: upstream/_data/events.yaml:0
 #, no-wrap
+msgid "During 3 days, 2.700 Devoxxians from 20 different countries attend Devoxx Poland including 100+ speakers and another 600K developers enjoy the presentations online. Making Devoxx the biggest Java conference in Poland."
+msgstr ""
+
+#. type: Hash Value: upcomingevents displaydate
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "June 17-19, 2026"
+msgstr ""
+
+#. type: Hash Value: upcomingevents link
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "https://github.com/quarkusio/quarkus/discussions/53639"
+msgstr ""
+
+#. type: Hash Value: upcomingevents location
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Krakow, Poland"
+msgstr ""
+
+#. type: Hash Value: upcomingevents thumbnail
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "devoxxpoland_logo.png"
+msgstr ""
+
+#. type: Hash Value: upcomingevents title
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Devoxx Poland"
+msgstr ""
+
+#. type: Hash Value: upcomingevents description
+#: upstream/_data/events.yaml:0
+#, no-wrap
 msgid "From June 15-19 2026, the Business Summits at Nord Events Center by Globalworth will bring together global experts and industry pioneers to tackle the biggest challenges and opportunities in tech. Across five specialized events—the Innovation Summit, Future AI Summit, HR Masters Summit, Software Architecture Summit, and AI Coding Summit— attendees will gain insights into Generative AI, AI-Human Collaboration, AI Agents, MultiCloud architectures, workforce transformation, and emerging innovations such as bionic arms that merge human capabilities with advanced technology."
 msgstr ""
 
@@ -891,6 +741,64 @@ msgstr ""
 #, no-wrap
 msgid "Software Architecture Summit"
 msgstr ""
+
+#. type: Hash Value: upcomingevents date
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "2026-07-08"
+msgstr ""
+
+#. type: Hash Value: upcomingevents description
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Riviera DEV is a conference by developers, for developers. It is a fun and relaxed event offered at an affordable price so that every developer can enjoy the experience."
+msgstr ""
+
+#. type: Hash Value: upcomingevents displaydate
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "July 6-8, 2026"
+msgstr ""
+
+#. type: Hash Value: upcomingevents link
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "https://github.com/quarkusio/quarkus/discussions/53642"
+msgstr ""
+
+#. type: Hash Value: upcomingevents location
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Valbonne, France"
+msgstr ""
+
+#. type: Hash Value: upcomingevents thumbnail
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "rivieradev_logo.png"
+msgstr ""
+
+#. type: Hash Value: upcomingevents title
+#: upstream/_data/events.yaml:0
+#, no-wrap
+msgid "Riviera Dev"
+msgstr ""
+
+#, fuzzy, no-wrap
+#~ msgid "Virtual"
+#~ msgstr "虚拟"
+
+#, fuzzy, no-wrap
+#~ msgid "Amsterdam, Netherlands"
+#~ msgstr "荷兰阿姆斯特丹"
+
+#, fuzzy, no-wrap
+#~ msgid "The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities."
+#~ msgstr "云原生计算基金会的旗舰会议聚集了来自领先开源社区和云原生社区的采用者和技术专家。"
+
+#, fuzzy, no-wrap
+#~ msgid "Microsoft JDConf"
+#~ msgstr "微软 JDConf"
 
 #, fuzzy, no-wrap
 #~ msgid "devnexus_logo.png"

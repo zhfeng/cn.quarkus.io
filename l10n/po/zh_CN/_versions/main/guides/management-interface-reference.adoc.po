@@ -401,6 +401,28 @@ msgstr "ǞǞǞ"
 msgid "Until https://github.com/knative/serving/issues/8471[KNative#8471] is resolved, you cannot use the management interface, as KNative does not support containers will multiple exposed ports."
 msgstr "在 link:https://github.com/knative/serving/issues/8471[KNative#8471] 解决之前，你不能使用管理界面，因为KNative不支持容器将多个暴露的端口。"
 
+#: _versions/main/guides/management-interface-reference.adoc
+msgid "CORS filter"
+msgstr ""
+
+#: _versions/main/guides/management-interface-reference.adoc
+msgid ""
+"To make your Quarkus management interface accessible to another application running on a different domain, you need to configure cross-origin resource sharing (CORS).\n"
+"For more information about the CORS filter that Quarkus provides, see the Quarkus xref:security-cors.adoc#cors-filter[CORS filter] section of the \"Cross-origin resource sharing\" guide."
+msgstr ""
+
+#: _versions/main/guides/management-interface-reference.adoc
+msgid "The management interface uses the same CORS filter mechanism as the main HTTP server, but with separate configuration under `quarkus.management.cors.*`."
+msgstr ""
+
+#: _versions/main/guides/management-interface-reference.adoc
+msgid "For example, to allow requests from a specific origin:"
+msgstr ""
+
+#: _versions/main/guides/management-interface-reference.adoc
+msgid "When CORS is enabled without configuring specific origins, only same-origin requests are allowed."
+msgstr ""
+
 #. type: Title ==
 #: _versions/main/guides/management-interface-reference.adoc
 #, no-wrap

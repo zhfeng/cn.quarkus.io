@@ -382,10 +382,9 @@ msgstr "你不能在一个由 `@Transactional` 控制事务启动的方法中使
 msgid "Configuring the transaction timeout"
 msgstr "配置事务超时"
 
-#. type: Plain text
 #: _versions/main/guides/transaction.adoc
-msgid "You can configure the default transaction timeout, the timeout that applies to all transactions managed by the transaction manager, via the property `quarkus.transaction-manager.default-transaction-timeout`, specified as a duration."
-msgstr "你可以通过属性 `quarkus.transaction-manager.default-transaction-timeout` 来配置默认的事务超时，即适用于由事务管理器管理的所有事务的超时，指定为一个持续时间。"
+msgid "You can configure the default transaction timeout, the timeout that applies to all transactions managed by the transaction manager, via the property <<quarkus-narayana-jta_quarkus-transaction-manager-default-transaction-timeout,`quarkus.transaction-manager.default-transaction-timeout`>>, specified as a duration."
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/transaction.adoc
@@ -419,15 +418,14 @@ msgid ""
 "And the node identifier needs to be stable over the transaction manager restarts."
 msgstr "节点名称标识符需要在每个事务管理器部署中是唯一的。而且节点标识符需要在事务管理器重新启动时保持不变。"
 
-#. type: Plain text
 #: _versions/main/guides/transaction.adoc
-msgid "The node name identifier may be configured via the property `quarkus.transaction-manager.node-name`."
-msgstr "节点名称标识符可以通过属性 `quarkus.transaction-manager.node-name` 进行配置。"
+msgid "The node name identifier may be configured via the property <<quarkus-narayana-jta_quarkus-transaction-manager-node-name,`quarkus.transaction-manager.node-name`>>."
+msgstr ""
 
 #: _versions/main/guides/transaction.adoc
 msgid ""
 "The node name cannot be longer than 28 bytes.\n"
-"To automatically shorten names longer than 28 bytes, set `quarkus.transaction-manager.shorten-node-name-if-necessary` to `true`."
+"To automatically shorten names longer than 28 bytes, set <<quarkus-narayana-jta_quarkus-transaction-manager-shorten-node-name-if-necessary,`quarkus.transaction-manager.shorten-node-name-if-necessary`>> to `true`."
 msgstr ""
 
 #: _versions/main/guides/transaction.adoc
@@ -501,39 +499,34 @@ msgid "Quarkus, after you evaluate whether using a database to store transaction
 msgstr "在评估使用数据库存储事务日志是否合适后，Quarkus 允许对对象存储进行以下 JDBC 特定配置，这些配置包含在 `quarkus.transaction-manager.object-store. _<property>_` 属性，其中 _<property>_ 可以是："
 
 #: _versions/main/guides/transaction.adoc
-#, fuzzy
 msgid ""
-"`type` (_string_): Configure this property to `jdbc` to enable usage of a Quarkus JDBC datasource for storing transaction logs.\n"
+"<<quarkus-narayana-jta_quarkus-transaction-manager-object-store-type,`type`>> (_string_): Configure this property to `jdbc` to enable usage of a Quarkus JDBC datasource for storing transaction logs.\n"
 "The default value is `file-system`."
-msgstr "`type` _(字符串_ ）：将此属性配置为 ，以启用使用 Quarkus JDBC 数据源存储事务日志。默认值为 。 `jdbc` `file-system`"
+msgstr ""
 
 #: _versions/main/guides/transaction.adoc
-#, fuzzy
 msgid ""
-"`datasource` (_string_): Specify the name of the datasource for the transaction log storage.\n"
+"<<quarkus-narayana-jta_quarkus-transaction-manager-object-store-datasource,`datasource`>> (_string_): Specify the name of the datasource for the transaction log storage.\n"
 "If no value is provided for the `datasource` property, Quarkus uses the xref:datasource.adoc#configure-datasources[default datasource]."
-msgstr "`datasource` _(字符串_ ）：指定事务日志存储的数据源名称。如果 属性未提供值，Quarkus 将使用 `datasource` xref:datasource.adoc#configure-datasources[默认数据源] 。"
+msgstr ""
 
 #: _versions/main/guides/transaction.adoc
-#, fuzzy
 msgid ""
-"`create-table` (_boolean_): When set to `true`, the transaction log table gets automatically created if it does not already exist.\n"
+"<<quarkus-narayana-jta_quarkus-transaction-manager-object-store-create-table,`create-table`>> (_boolean_): When set to `true`, the transaction log table gets automatically created if it does not already exist.\n"
 "The default value is `false`."
-msgstr "`create-table` _(布尔_ ）：设置为 时，如果事务日志表还不存在，则会自动创建。默认值为 。 `true` `false`"
+msgstr ""
 
 #: _versions/main/guides/transaction.adoc
-#, fuzzy
 msgid ""
-"`drop-table` (_boolean_): When set to `true`, the tables are dropped on startup if they already exist.\n"
+"<<quarkus-narayana-jta_quarkus-transaction-manager-object-store-drop-table,`drop-table`>> (_boolean_): When set to `true`, the tables are dropped on startup if they already exist.\n"
 "The default value is `false`."
-msgstr "`drop-table` _(布尔_ ）：设置为 时，如果表已经存在，则会在启动时丢弃。默认值为 。 `true` `false`"
+msgstr ""
 
 #: _versions/main/guides/transaction.adoc
-#, fuzzy
 msgid ""
-"`table-prefix` (string): Specify the prefix for a related table name.\n"
+"<<quarkus-narayana-jta_quarkus-transaction-manager-object-store-table-prefix,`table-prefix`>> (string): Specify the prefix for a related table name.\n"
 "The default value is `quarkus_`."
-msgstr "`table-prefix` (字符串）：指定相关表名的前缀。默认值为 。 `quarkus_`"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/transaction.adoc
@@ -574,7 +567,7 @@ msgstr "ActiveMQ Artemis 是 `quarkus-pooled-jms` 的一部分，它需要使用
 #: _versions/main/guides/transaction.adoc
 msgid ""
 "The transaction recovery service is automatically enabled when XA JDBC datasources are detected (i.e. `quarkus.datasource.jdbc.transactions=XA`).\n"
-"For other XA resource providers such as `quarkus-pooled-jms`, set `quarkus.transaction-manager.enable-recovery=true` to enable recovery.\n"
+"For other XA resource providers such as `quarkus-pooled-jms`, set <<quarkus-narayana-jta_quarkus-transaction-manager-enable-recovery,`quarkus.transaction-manager.enable-recovery=true`>> to enable recovery.\n"
 "You can also set it to `false` to explicitly disable recovery even when XA datasources are present."
 msgstr ""
 
@@ -682,3 +675,11 @@ msgid ""
 "But Quarkus is both lean and a managed environment, so we can safely always assume we are in JTA mode.\n"
 "The end result is that the difficulties of running Hibernate ORM + CDI + a transaction manager in Java SE mode are solved by Quarkus."
 msgstr "在 Quarkus 中并不是一团糟:)引入资源级是为了在非托管环境中支持 Jakarta Persistence。但 Quarkus 既是精益环境，也是托管环境，因此我们可以放心地假设我们处于 JTA 模式。最终，Quarkus 解决了在 Java SE 模式下运行 Hibernate ORM + CDI + 事务管理器的难题。"
+
+#: _versions/main/guides/transaction.adoc
+msgid "Configuration Reference for Transactions"
+msgstr ""
+
+#: _versions/main/guides/transaction.adoc
+msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
+msgstr ""

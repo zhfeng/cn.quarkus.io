@@ -789,6 +789,10 @@ msgid ""
 "on the classpath that the legacy jar necessitates, when loading a class or resource."
 msgstr "`fast-jar` 打包的结果是，与传统的 Quarkus jar 相比，它的启动速度更快一些，消耗的内存也更少一些，因为它拥有关于哪个依赖 jar 包含类和资源的索引信息。因此，在加载类或资源时，它可以避免传统 jar 在类路径上可能需要查找的所有 jar。"
 
+#: _versions/main/guides/gradle-tooling.adoc
+msgid "You can reduce the size of the produced JAR by enabling experimental tree-shaking, which removes unreachable classes from runtime dependencies. See xref:jar-tree-shaking.adoc[Tree-shaking JAR dependencies] for details."
+msgstr ""
+
 #. type: Title ==
 #: _versions/main/guides/gradle-tooling.adoc
 #, fuzzy, no-wrap
@@ -811,6 +815,10 @@ msgstr "当构建Uber-Jar时，你可以通过使用 `--ignored-entry` 参数指
 #, fuzzy
 msgid "The entries are relative to the root of the generated Uber-Jar. You can specify multiple entries by adding extra `--ignored-entry` arguments."
 msgstr "这些条目是相对于生成的Uber-Jar的根的。你可以通过添加额外的 `--ignored-entry` 参数来指定多个条目。"
+
+#: _versions/main/guides/gradle-tooling.adoc
+msgid "You can reduce the size of the produced Uber-Jar by enabling experimental tree-shaking, which removes unreachable classes from runtime dependencies. See xref:jar-tree-shaking.adoc[Tree-shaking JAR dependencies] for details."
+msgstr ""
 
 #. type: Title ===
 #: _versions/main/guides/gradle-tooling.adoc

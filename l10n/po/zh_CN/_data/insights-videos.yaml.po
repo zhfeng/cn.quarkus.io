@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-22 08:57+0000\n"
+"POT-Creation-Date: 2026-04-19 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,61 +25,79 @@ msgstr "预定播客"
 #. type: Hash Value: nextsessionguest
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "David Lloyd"
+msgid "Holly Cummins, Eric Deandrea, & Francesco Nigro"
 msgstr ""
 
 #. type: Hash Value: futurevideos date
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "March 23, 2026"
+msgid "April 20, 2026"
 msgstr ""
 
 #. type: Hash Value: nextsessiontitle
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Episode #240: Quarkus & Gizmo 2"
+msgid "Episode #244: How We Benchmarked Quarkus"
 msgstr ""
 
 #. type: Hash Value: futurevideos authors
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Guillaume Smet & Sanne Grinovero"
+msgid "Julien Viet"
 msgstr ""
 
 #. type: Hash Value: futurevideos date
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "March 30, 2026"
+msgid "April 27, 2026"
 msgstr ""
 
 #. type: Hash Value: futurevideos title
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Episode #241: What's new with Java 25"
+msgid "Episode #245: HTTP/3 support coming in Vert.x 5.1"
 msgstr ""
 
 #. type: Hash Value: futurevideos authors
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Ricardo Zanini & Matheus Cruz"
+msgid "Jaden Walderich & Austin Mayes"
 msgstr ""
 
 #. type: Hash Value: futurevideos date
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "April 06, 2026"
+msgid "May 4th, 2026"
 msgstr ""
 
 #. type: Hash Value: futurevideos title
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Episode #242: What is Quarkus Flow?"
+msgid "Episode #246: Evolving Minecraft Into a Cloud Native Platform"
+msgstr ""
+
+#. type: Hash Value: futurevideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Jonathan Johnson"
+msgstr ""
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "May 11th, 2026"
+msgstr ""
+
+#. type: Hash Value: futurevideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #247: Agentic Orchestration with Quarkus, LangChain4j, and Kubernetes"
 msgstr ""
 
 #. type: Hash Value: nextsessiondate
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "2026-03-23T14:00Z"
+msgid "2026-04-20T13:00Z"
 msgstr ""
 
 #. type: Hash Value: pastheadline
@@ -87,6 +105,102 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Archived Podcast Videos"
 msgstr "存档播客视频"
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, fuzzy, no-wrap
+msgid "Guillaume Smet"
+msgstr "纪尧姆-斯梅"
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "April 13, 2026"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://www.youtube.com/live/BCs5-Btx_k4"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #243: What's new with the 3.33 LTS update?"
+msgstr ""
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Ricardo Zanini & Matheus Cruz"
+msgstr ""
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "April 06, 2026"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://youtube.com/live/0zwY4lSv3yU"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #242: What is Quarkus Flow?"
+msgstr ""
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Guillaume Smet & Sanne Grinovero"
+msgstr ""
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "March 30, 2026"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://youtube.com/live/UC6E20ZfHPo"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #241: What's new with Java 25"
+msgstr ""
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "David Lloyd"
+msgstr ""
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "March 23, 2026"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://www.youtube.com/watch?v=edIWXParDFw"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #240: Quarkus & Gizmo 2"
+msgstr ""
 
 #. type: Hash Value: pastvideos authors
 #: upstream/_data/insights-videos.yaml:0
@@ -669,12 +783,6 @@ msgstr ""
 #, no-wrap
 msgid "EPISODE #215: Customer stories of Quarkus in the wild"
 msgstr ""
-
-#. type: Hash Value: pastvideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, fuzzy, no-wrap
-msgid "Guillaume Smet"
-msgstr "纪尧姆-斯梅"
 
 #. type: Hash Value: pastvideos date
 #: upstream/_data/insights-videos.yaml:0

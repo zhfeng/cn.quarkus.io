@@ -361,6 +361,12 @@ msgstr "@CacheInvalidateAll"
 msgid "When a method annotated with `@CacheInvalidateAll` is invoked, Quarkus will remove all entries from the cache."
 msgstr "当一个用 `@CacheInvalidateAll` 注解的方法被调用时，Quarkus将从缓存中删除所有条目。"
 
+#: _guides/cache.adoc
+msgid ""
+"Cache invalidation is performed *after* the annotated method completes successfully.\n"
+"If the method throws an exception, the cache will *not* be invalidated."
+msgstr ""
+
 #. type: Title ===
 #: _guides/cache.adoc
 #, fuzzy, no-wrap
