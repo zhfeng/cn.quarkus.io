@@ -32,7 +32,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Run the following command in the base directory of your Quarkus project to add the `infinispan-client` extension:"
@@ -44,11 +44,11 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Gradle"
-msgstr ""
+msgstr "Gradle"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Mandatory in the Gradle build to enable the generation of the files in the annotation based serialization"
@@ -324,7 +324,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Authentication mechanisms"
-msgstr ""
+msgstr "认证机制"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "You can use the following authentication mechanisms with the Infinispan client:"
@@ -601,7 +601,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Mock Support"
-msgstr ""
+msgstr "Mock支持"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid ""
@@ -818,7 +818,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Counters"
-msgstr ""
+msgstr "计数器（Counters）"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid ""
@@ -949,7 +949,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Shared server"
-msgstr ""
+msgstr "服务共享"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid ""
@@ -976,7 +976,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Setting the port"
-msgstr ""
+msgstr "设置端口"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid ""
@@ -986,7 +986,7 @@ msgstr ""
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #: _versions/3.33/guides/infinispan-client-reference.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

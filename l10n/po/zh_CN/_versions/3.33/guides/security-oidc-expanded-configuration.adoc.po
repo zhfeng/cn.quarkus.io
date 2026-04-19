@@ -50,11 +50,11 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "quarkus.oidc.enabled"
@@ -625,7 +625,7 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Whether to keep a trailing slash in the audience value"
@@ -931,7 +931,7 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "' '"
-msgstr ""
+msgstr "' '"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Scope separator"
@@ -2287,7 +2287,7 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Authorization"
-msgstr ""
+msgstr "授权"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Token header"
@@ -2500,7 +2500,7 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Local verification"
-msgstr ""
+msgstr "本地验证"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Local verification properties"
@@ -2607,7 +2607,7 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "Multi-tenancy"
-msgstr ""
+msgstr "多租户"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "As mentioned in the <<tenant-properties>> section, when you configure OIDC tenants in `application.properties`, the tenant name is declared directly in the property name, for example, a `keycloak-realm-a` tenant is a 3rd token in the property name: `quarkus.oidc.keycloak-realm-a.auth-server-url=${keycloak-realm-a.url}`, etc."
@@ -3079,7 +3079,7 @@ msgstr ""
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #: _versions/3.33/guides/security-oidc-expanded-configuration.adoc
 msgid "xref:security-oidc-bearer-token-authentication.adoc[OIDC Bearer token authentication]"

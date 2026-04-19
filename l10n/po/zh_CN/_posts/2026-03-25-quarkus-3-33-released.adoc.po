@@ -152,7 +152,7 @@ msgstr ""
 
 #: _posts/2026-03-25-quarkus-3-33-released.adoc
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 
 #: _posts/2026-03-25-quarkus-3-33-released.adoc
 msgid ""

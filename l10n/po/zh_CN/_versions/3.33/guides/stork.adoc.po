@@ -38,11 +38,11 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Architecture"
-msgstr ""
+msgstr "架构"
 
 #: _versions/3.33/guides/stork.adoc
 msgid "In this guide, we will build an application composed of:"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #: _versions/3.33/guides/stork.adoc
 msgid ""
@@ -86,7 +86,7 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #: _versions/3.33/guides/stork.adoc
 msgid "The solution is located in the `stork-quickstart` link:{quickstarts-tree-url}/stork-quickstart[directory]."
@@ -121,7 +121,7 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Bootstrapping the project"
-msgstr ""
+msgstr "创建项目"
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Create a Quarkus project importing the quarkus-rest-client, quarkus-rest, and quarkus-smallrye-stork extensions using your favorite approach:"
@@ -133,11 +133,11 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #: _versions/3.33/guides/stork.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #: _versions/3.33/guides/stork.adoc
 msgid ""
@@ -272,7 +272,7 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Running the application"
-msgstr ""
+msgstr "运行应用程序"
 
 #: _versions/3.33/guides/stork.adoc
 msgid ""
@@ -298,7 +298,7 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "In another terminal, run:"
-msgstr ""
+msgstr "在另外一个终端中，运行:"
 
 #: _versions/3.33/guides/stork.adoc
 msgid "The responses alternate between `Hello from Red!` and `Hello from Blue!`."
@@ -314,7 +314,7 @@ msgstr ""
 
 #: _versions/3.33/guides/stork.adoc
 msgid "Going further"
-msgstr ""
+msgstr "进一步探索"
 
 #: _versions/3.33/guides/stork.adoc
 msgid ""
