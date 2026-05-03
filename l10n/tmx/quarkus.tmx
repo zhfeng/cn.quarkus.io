@@ -17493,14 +17493,6 @@ Dev Services for Redis implements a _service discovery_ mechanism for your multi
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Multiple ways to connect with others via forum, stack, chat, or email groups.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>通过论坛、Stack、聊天或电子邮件组多种方式同我们保持联系。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Multiplier factor to determine maximum number of records queued for processing, using `max.poll.records` * `max-queue-size-factor`. Defaults to 2. In `batch` mode `max.poll.records` is considered `1`.
 
 Type: _int_</seg>
