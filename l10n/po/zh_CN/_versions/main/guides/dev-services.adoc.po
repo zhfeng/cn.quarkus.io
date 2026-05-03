@@ -16,20 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy, no-wrap
 msgid "Dev Services Overview"
 msgstr "开发服务概述"
 
+#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "What Are Dev Services?"
 msgstr "什么是开发服务？"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -39,16 +41,19 @@ msgid ""
 "application to use this service."
 msgstr "Quarkus 支持在开发和测试模式下自动配置未配置的服务。我们将此功能称为开发服务。如果你包含一个扩展但没有配置它，那么 Quarkus 将自动启动相关服务（通常在幕后使用 link:https://www.testcontainers.org/[Testcontainers] ），并连接你的应用程序以使用该服务。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "For a tutorial showing how to get started writing an application with persistence and Dev Services, see xref:getting-started-dev-services.adoc[Your Second Quarkus Application]."
 msgstr "有关如何开始编写具有持久性和 Dev 服务的应用程序的教程，请参阅《 xref:getting-started-dev-services.adoc[你的第二个 Quarkus 应用程序] 》。"
 
+#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Using Dev Services"
 msgstr "使用开发服务"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -56,6 +61,7 @@ msgid ""
 "Dev Services, as long as you don't configure a connection to an external service."
 msgstr "开发服务的设计是无摩擦的，因此只要您不配置与外部服务的连接，只要您包含支持开发服务的扩展，开发服务就会自动启动。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -63,26 +69,31 @@ msgid ""
 "If you don't have a container environment, such as Docker or Podman, installed you will need to configure your services normally."
 msgstr "要使用大多数开发服务，您需要一个正常运行的容器环境（支持远程环境）。如果没有安装 Docker 或 Podman 等容器环境，则需要正常配置服务。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "The default startup timeout for Dev Services is 60s, if this is not enough you can increase it with the `quarkus.devservices.timeout` property."
 msgstr "开发服务的默认启动超时时间为 60s，如果超时时间不够，可以使用 `quarkus.devservices.timeout` 属性增加超时时间。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "To configure a production service but continue to use Dev Services in development and test modes, use xref:config-reference.adoc#default-profiles[configuration profiles]."
 msgstr "要配置生产服务，但继续在开发和测试模式下使用 Dev 服务，请使用 xref:config-reference.adoc#default-profiles[配置文件] 。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "For example,"
 msgstr "例如"
 
+#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Disabling Dev Services"
 msgstr "禁用开发服务"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -91,19 +102,23 @@ msgid ""
 "in most cases this is not necessary as simply configuring the service will result in the Dev Service being disabled automatically."
 msgstr "所有这些功能都是 Quarkus `deployment` 模块的一部分，因此不会对生产应用程序产生任何影响。如果你想禁用所有开发服务，可以使用 `quarkus.devservices.enabled=false` 配置属性，不过在大多数情况下这并不是必须的，因为只需配置服务就会自动禁用开发服务。"
 
+#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 msgid "Compose Dev Services"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid "xref:compose-dev-services.adoc[Quarkus Compose Dev Services] allows you to define custom dev services using the https://compose-spec.io/[Compose specification]."
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Platform Dev Services"
 msgstr "平台开发服务"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "This section lists all the Dev Services available in the Quarkus Platform."
@@ -115,6 +130,7 @@ msgstr "本节列出了 Quarkus 平台提供的所有开发服务。"
 msgid "AMQP"
 msgstr "AMQP"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -129,6 +145,7 @@ msgstr "当 `quarkus-messaging-amqp` 扩展出现在您的应用程序中，且�
 msgid "Apicurio Registry"
 msgstr "Apicurio注册处"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -143,6 +160,7 @@ msgstr "如果应用程序中存在 `quarkus-apicurio-registry-avro` 扩展名�
 msgid "Databases"
 msgstr "数据库"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -151,12 +169,14 @@ msgid ""
 "xref:databases-dev-services.adoc[Databases Dev Services Guide]."
 msgstr "如果应用程序中存在反应式或 JDBC 数据源扩展，且尚未配置数据库 URL，则将启用数据库开发服务。更多信息请参阅《 xref:databases-dev-services.adoc[数据库开发服务指南] 》。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid ""
 "Quarkus provides Dev Services for all databases it supports. Most of these are run in a container, except\n"
 "H2 which is run in-process. Dev Services are supported for both JDBC and reactive drivers."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -178,6 +198,7 @@ msgstr "注意：如果您选择使用此功能，除非您明确配置，否则
 msgid "Kafka"
 msgstr "卡夫卡"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -192,6 +213,7 @@ msgstr "当 `quarkus-kafka-client` 扩展出现在您的应用程序中，且尚
 msgid "Keycloak"
 msgstr "Keycloak"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -200,10 +222,12 @@ msgid ""
 "xref:security-openid-connect-dev-services.adoc[OIDC Dev Services Guide]."
 msgstr "如果您的应用程序中存在 `quarkus-oidc` 扩展，且服务器地址未明确配置，则将启用 Keycloak Dev 服务。更多信息请参阅《 xref:security-openid-connect-dev-services.adoc[OIDC 开发服务指南] 》。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid "A lightweight <<oidc,OIDC Dev Service>> is also available as an alternative to Keycloak."
 msgstr ""
@@ -214,6 +238,7 @@ msgstr ""
 msgid "Kubernetes"
 msgstr "库伯内特斯"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid ""
 "The Kubernetes Dev Service will be enabled when the `kubernetes-client` extension is present in your application, and\n"
@@ -221,10 +246,12 @@ msgid ""
 "xref:kubernetes-dev-services.adoc[Kubernetes Dev Services Guide]."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/dev-services.adoc
 msgid "LRA"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid ""
 "The Narayana LRA Dev Service will be enabled when the `quarkus-narayana-lra` extension is present in your application, and the coordinator URL has not been explicitly configured. More information can be found in the\n"
@@ -237,6 +264,7 @@ msgstr ""
 msgid "MongoDB"
 msgstr "梦之城_梦之城娱乐_梦之城国际娱乐_梦之城国际娱乐平台"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid ""
 "The MongoDB Dev Service will be enabled when the `quarkus-mongodb-client` extension is present in your application, and\n"
@@ -244,10 +272,12 @@ msgid ""
 "xref:mongodb-dev-services.adoc[MongoDB Guide]."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/dev-services.adoc
 msgid "OIDC"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid ""
 "A standalone OIDC Dev Service is available as a lightweight alternative to <<keycloak,Keycloak>>.\n"
@@ -256,6 +286,7 @@ msgid ""
 "xref:security-openid-connect-dev-services.adoc#dev-services-for-oidc[OIDC Dev Services Guide]."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
@@ -266,6 +297,7 @@ msgstr ""
 msgid "RabbitMQ"
 msgstr "RabbitMQ"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -274,11 +306,13 @@ msgid ""
 "xref:rabbitmq-dev-services.adoc[RabbitMQ Dev Services Guide]."
 msgstr "如果您的应用程序中存在 `quarkus-messaging-rabbitmq` 扩展，且未显式配置代理地址，则将启用 RabbitMQ Dev Service。更多信息请参见 xref:rabbitmq-dev-services.adoc[RabbitMQ Dev Services Guide] 。"
 
+#. type: Title ==
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Pulsar"
 msgstr "脉冲星"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -293,6 +327,7 @@ msgstr "当 `quarkus-messaging-pulsar` 扩展出现在您的应用程序中，�
 msgid "Redis"
 msgstr "睿迪思(Redis)"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -307,6 +342,7 @@ msgstr "如果应用程序中存在 `quarkus-redis-client` 扩展，且未显式
 msgid "Vault"
 msgstr "穹顶"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -321,6 +357,7 @@ msgstr "如果应用程序中存在 `quarkus-vault` 扩展，且未明确配置�
 msgid "Infinispan"
 msgstr "ǞǞǞ"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -335,6 +372,7 @@ msgstr "如果应用程序中存在 `quarkus-infinispan-client` 扩展，且未�
 msgid "Elasticsearch"
 msgstr "Elasticsearch"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -343,10 +381,12 @@ msgid ""
 "More information can be found in the xref:elasticsearch-dev-services.adoc[Elasticsearch Dev Services Guide]."
 msgstr "如果您的应用程序中存在基于 Elasticsearch 的扩展（Elasticsearch 客户端或 Hibernate Search ORM Elasticsearch），而服务器地址尚未显式配置，则 Elasticsearch Dev Service 将被启用。更多信息请参见《 xref:elasticsearch-dev-services.adoc[Elasticsearch Dev Services 指南] 》。"
 
+#. type: Title ==
 #: _versions/main/guides/dev-services.adoc
 msgid "Observability"
 msgstr "可观察性"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -355,20 +395,24 @@ msgid ""
 "xref:observability-devservices.adoc[Observability Dev Services Guide]."
 msgstr "当您的应用程序中存在 `quarkus-observability-devservices` 扩展，且类路径上至少有一个开发资源时，Observability Dev Services 就会启用。更多信息请参阅《 xref:observability-devservices.adoc[Observability Dev Services 指南] 》。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Dev Services beyond the Quarkus Platform"
 msgstr "Quarkus 平台之外的开发服务"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Many Quarkiverse extensions which are not in the Quarkus Platform also offer Dev Services."
 msgstr "许多不在 Quarkus 平台中的 Quarkiverse 扩展程序也提供开发服务。"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Here are some highlights."
@@ -380,6 +424,7 @@ msgstr "以下是一些要点。"
 msgid "Neo4j"
 msgstr "Neo4j"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -388,11 +433,13 @@ msgid ""
 "link:{neo4j-guide}#dev-services[Neo4j Guide]."
 msgstr "当应用程序中存在 `quarkus-neo4j` 扩展且服务器地址未明确配置时，将启用 Neo4j Dev Service。更多信息请参阅《 link:{neo4j-guide}#dev-services[Neo4j 指南] 》。"
 
+#. type: Title ==
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "WireMock"
 msgstr "线模拟"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""
@@ -400,11 +447,13 @@ msgid ""
 "More information can be found in the https://docs.quarkiverse.io/quarkus-wiremock/dev/index.html[WireMock Guide]."
 msgstr "WireMock 扩展将 WireMock 作为开发服务启动。这是一个以测试为中心的扩展，旨在仅在开发和测试模式下运行。更多信息请参阅《 link:https://docs.quarkiverse.io/quarkus-wiremock/dev/index.html[WireMock 指南] 》。"
 
+#. type: Title ==
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid "Microcks"
 msgstr "麦克风"
 
+#. type: Plain text
 #: _versions/main/guides/dev-services.adoc
 #, fuzzy
 msgid ""

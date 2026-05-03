@@ -16,21 +16,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 #, no-wrap
 msgid "Quarkus Base Runtime Image"
 msgstr "Quarkus运行时基础镜像"
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid ""
 "To ease the containerization of native executables, Quarkus provides a base image providing the requirements to run these executables.\n"
 "The `ubi9-quarkus-micro-image:2.0` image is:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid "small (based on `ubi9-micro`)"
 msgstr ""
@@ -50,7 +52,7 @@ msgstr "包含正确的依赖项（glibc、libstdc++、zlib）"
 msgid "support upx-compressed executables (more details on the xref:upx.adoc[enabling compression documentation])"
 msgstr "支持upx压缩的可执行文件（更多相关细节在 link:upx.html[启用压缩文档] 中）"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 #, no-wrap
 msgid "Using the base image"
@@ -61,12 +63,13 @@ msgstr "使用此基础镜像"
 msgid "In your `Dockerfile`, just use:"
 msgstr "在你的 `Dockerfile` 中，只需使用:"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 #, no-wrap
 msgid "Extending the image"
 msgstr "扩展该镜像"
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid ""
 "Your application may have additional requirements.\n"
@@ -74,20 +77,23 @@ msgid ""
 "In this case, you need to use a multi-stage `dockerfile` to copy the required libraries."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid "Copying handpicked libraries makes up for a small container image, yet it is somewhat britte, differs for different base image versions, and it is a subject to change as transitive dependencies of these libraries might change."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid "Headless graphics, PDF documents, QR code images etc. manipulation is natively supported on amd64/aarch64 Linux only. Neither Windows nor MacOS are supported and require running the application in a Linux container."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 #, no-wrap
 msgid "Alternative - Using ubi-minimal"
 msgstr "替代方案 - 使用 ubi-minimal"
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid ""
 "If the micro image does not suit your requirements, you can use https://catalog.redhat.com/software/containers/ubi9-minimal/61832888c0d15aff4912fe0d[ubi9-minimal].\n"
@@ -100,6 +106,7 @@ msgstr ""
 msgid "To use this base image, use the following `Dockerfile`:"
 msgstr "要使用该基础镜像，使用以下 `Dockerfile`:"
 
+#. type: Plain text
 #: _versions/main/guides/quarkus-runtime-base-image.adoc
 msgid "To make documents processing, graphics, PDFs, etc. available for the application, you can install the required libraries using `microdnf` without manually copying anything:"
 msgstr ""

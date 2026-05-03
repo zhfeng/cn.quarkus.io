@@ -46,7 +46,7 @@ msgstr "对于使用Quarkus 1.10的所有人来说，这是一次安全的升级
 msgid "If you are not using 1.10 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.10[1.10 migration guide]."
 msgstr "如果你还没有使用1.10，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.10[1.10迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-12-16-quarkus-1-10-5-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
@@ -70,7 +70,7 @@ msgstr "它修复了Quarkus中的一些重要问题，最明显的是在Hibernat
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/1.10.4.Final[the full changelog of 1.10.4.Final] and the https://github.com/quarkusio/quarkus/releases/tag/1.10.5.Final[full changelog for 1.10.5.Final] on GitHub."
 msgstr "你可以在GitHub上获得 link:https://github.com/quarkusio/quarkus/releases/tag/1.10.4.Final[1.10.4.Final的完整更新日志] 和 link:https://github.com/quarkusio/quarkus/releases/tag/1.10.5.Final[1.10.5.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-12-16-quarkus-1-10-5-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

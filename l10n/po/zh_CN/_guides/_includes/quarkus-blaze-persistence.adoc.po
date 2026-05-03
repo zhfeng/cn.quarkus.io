@@ -70,6 +70,7 @@ msgstr "[锁定] link:[, id=\"quarkus-blaze-persistence_quarkus.blaze-persistenc
 msgid "int"
 msgstr "int"
 
+#. type: Table
 #: _guides/_includes/quarkus-blaze-persistence.adoc
 #, fuzzy
 msgid ""

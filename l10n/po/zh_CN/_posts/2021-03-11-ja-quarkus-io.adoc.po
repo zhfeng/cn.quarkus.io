@@ -34,6 +34,7 @@ msgstr "用日语发现Quarkus世界"
 msgid "Today we're proud to announce our quarkus.io Japanese localization site (https://ja.quarkus.io[https://ja.quarkus.io]) is now open. It is where our valuable guides and blog entries are translated."
 msgstr "今天我们很自豪地宣布，我们的quarkus.io日语本地化网站 link:https://ja.quarkus.io[（https://ja.quarkus.io）] 已经开放。它是我们宝贵的指南和博客条目的翻译地。"
 
+#. type: Plain text
 #: _posts/2021-03-11-ja-quarkus-io.adoc
 #, fuzzy
 msgid ""

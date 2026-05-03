@@ -28,6 +28,7 @@ msgstr "Quarkus 3.0.0.CR2发布"
 msgid "Today, we released Quarkus 3.0.0.CR2, our last step before building the 3.0.0.Final bits."
 msgstr "今天，我们发布了Quarkus 3.0.0.CR2，这是我们在构建3.0.0.最终位之前的最后一步。"
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -53,24 +54,25 @@ msgstr "在大量的错误修复和小的改进中，这个版本的亮点是：
 msgid "Dev UI 2 is the default Dev UI"
 msgstr "开发界面2是默认的开发界面"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Gradle project update"
 msgstr "Gradle项目更新"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new"
 msgstr "最新动态"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Dev UI 2 by default"
 msgstr "默认情况下，Dev UI 2"
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -79,6 +81,7 @@ msgid ""
 "(but it's actually hosted at `/q/dev-ui`)."
 msgstr "Dev UI 2 是我们全新的闪亮 Dev UI。它现在是您访问 `/q/dev` 时获得的默认设置（但它实际上托管在 `/q/dev-ui` ）。"
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -104,7 +107,7 @@ msgstr " `quarkus update` 命令现在支持将Gradle项目更新到Quarkus 3。
 msgid "Have a Gradle project around? Give it a try and tell us https://github.com/quarkusio/quarkus/issues[how it works]."
 msgstr "有一个Gradle项目在身边吗？试一试并告诉我们 link:https://github.com/quarkusio/quarkus/issues[它是如何工作] 的。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Trying out Quarkus 3"
@@ -116,6 +119,7 @@ msgstr "试用Quarkus 3"
 msgid "For now the easiest way to get started is using https://code.quarkus.io/?S=io.quarkus.platform%3A3.0[code.quarkus.io] or use the Quarkus CLI:"
 msgstr "目前，最简单的方法是使用 link:https://code.quarkus.io/?S=io.quarkus.platform%3A3.0[code.quarkus.io] 或使用Quarkus CLI开始："
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -123,18 +127,19 @@ msgid ""
 "Not all extensions have yet migrated to Jakarta packages."
 msgstr "请注意，在现阶段，虽然所有核心扩展都可用，但只有部分 Quarkus 平台可用。并非所有扩展都已迁移到 Jakarta 软件包。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Upgrading to Quarkus 3"
 msgstr "升级到Quarkus 3"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration guide"
 msgstr "迁移指南"
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -142,18 +147,19 @@ msgid ""
 "As expected for a new major, it is more dense than for our usual minors."
 msgstr "像往常一样，我们编写了一份 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0[迁移指南] 。不出所料，对于一个新专业来说，它的内容要比我们通常的辅修专业更加密集。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid "The first step in a migration to Quarkus 3 is to run the migration script presented below."
 msgstr "迁移到Quarkus 3的第一步是运行下面介绍的迁移脚本。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid "It doesn't take care of everything but it should take care of most of the heavy-lifting."
 msgstr "它没有照顾到所有的事情，但它应该照顾到大部分的繁重工作。"
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -161,7 +167,7 @@ msgid ""
 "please make sure you have a look to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration[dedicated migration guide]."
 msgstr "如果您使用的是 Hibernate ORM 或 Hibernate Reactive，请务必查看 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration[专门的迁移指南] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Automated migration"
@@ -173,6 +179,7 @@ msgstr "自动迁移"
 msgid "For existing applications where all extensions are available, we have an OpenRewrite recipe that you can try."
 msgstr "对于所有扩展都可用的现有应用程序，我们有一个OpenRewrite配方，你可以试试。"
 
+#. type: Plain text
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy
 msgid ""
@@ -240,7 +247,7 @@ msgstr "如果它对你不起作用，可能是我们遗漏了什么，或者你
 msgid "https://github.com/quarkusio/quarkus/issues[Let us know] in either case so we can together improve the migration script."
 msgstr "在这两种情况下， link:https://github.com/quarkusio/quarkus/issues[请告诉我们] ，以便我们可以一起改进迁移脚本。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-05-quarkus-3-0-0-cr2-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

@@ -28,6 +28,7 @@ msgstr "将Hibernate查询表达为类型安全的Java流"
 msgid "Writing Hibernate queries using the Criteria API can be anything but intuitive and comes at the expense of wordiness. In this article, you will learn how the JPAStreamer Quarkus extension facilitates type-safe Hibernate queries without unnecessary complexity."
 msgstr "使用Criteria API编写Hibernate查询可能是不直观的，而且是以牺牲文字为代价的。在这篇文章中，你将了解到JPAStreamer Quarkus扩展如何促进类型安全的Hibernate查询，而没有不必要的复杂性。"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "Writing Hibernate queries using the Criteria API can be anything but intuitive and comes at the expense of wordiness. In this article, you will learn how the  Quarkus extension facilitates type-safe Hibernate queries without unnecessary complexity."
@@ -93,6 +94,7 @@ msgstr "尽管看起来好像JPAStreamer对所有 `Person` 对象进行操作，
 msgid "Thus, only the `Person` matching the search criteria is ever materialized."
 msgstr "因此，只有符合搜索标准的 `Person` ，才会被具体化。"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "Next, we can look at a more complex example in which I am searching  for persons with a first name ending with an “A” and a last name that starts with “B”. The matches are sorted primarily by the first name and secondly by last name. I further decide to apply an offset of 5, excluding the first five results, and to limit the total results to 10. Here is the Stream pipeline to achieve this task:"
@@ -134,7 +136,7 @@ msgstr "在查询的背景下，流运算符过滤、排序、限制和跳过都
 msgid "The Stream above is translated by JPAStreamer to the following HQL statement:"
 msgstr "上面的流被JPAStreamer翻译成以下HQL语句。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy, no-wrap
 msgid "How JPAStreamer works"
@@ -152,7 +154,7 @@ msgstr "好吧，它看起来很简单。但它是如何工作的呢？JPAstream
 msgid "It is worth repeating that JPAStreamer does not alter or disturb the existing codebase but merely extends the API to handle Java Stream queries."
 msgstr "值得重申的是，JPAStreamer并没有改变或干扰现有的代码库，而只是扩展了API以处理Java Stream查询。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy, no-wrap
 msgid "Installing the JPAstreamer Extension"
@@ -176,7 +178,7 @@ msgstr "在添加了依赖关系后，重建你的Quarkus应用程序以触发JP
 msgid "JPAStreamer requires an underlying JPA provider, such as Hibernate ORM. For this reason, JPAStreamer needs no additional configuration as the database integration is taken care of by the JPA provider."
 msgstr "JPAStreamer需要一个底层JPA提供者，如Hibernate ORM。出于这个原因，JPAStreamer不需要额外的配置，因为数据库的整合是由JPA提供者负责的。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy, no-wrap
 msgid "JPAStreamer and Panache"
@@ -200,7 +202,7 @@ msgstr "link:https//github.com/speedment/jpa-streamer-demo/tree/master/quarkus-h
 msgid "At the time of writing, JPAStreamer does not have support for Panache’s Active Record Pattern, as it relies on standard JPA Entities to generate its meta model. This will likely change in the near future."
 msgstr "在撰写本文时，JPAStreamer并不支持Panache的Active Record Pattern，因为它依赖于标准的JPA实体来生成其元模型。这可能会在不久的将来改变。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
@@ -212,31 +214,37 @@ msgstr "摘要"
 msgid "JPA in general, and Hibernate ORM in particular, has greatly simplified application database access, but its API sometimes forces unnecessary complexity. With JPAstreamer, you can utilize JPA while keeping your codebase clean and maintainable."
 msgstr "一般来说，JPA，尤其是Hibernate ORM，极大地简化了应用程序的数据库访问，但其API有时会迫使人们产生不必要的复杂性。通过JPAstreamer，你可以利用JPA，同时保持你的代码库的清洁和可维护。"
 
+#. type: Title ==
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "Resources"
 msgstr "资源"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "**GitHub:** link:https://github.com/quarkiverse/quarkus-jpastreamer[github.com/quarkiverse/quarkus-jpastreamer]"
 msgstr "*GitHub：* link:https://github.com/quarkiverse/quarkus-jpastreamer[github.com/quarkiverse/quarkus-jpastreamer]"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "**Homepage:** link:https://jpastreamer.org[jpastreamer.org]"
 msgstr "*主页：* link:https://jpastreamer.org[jpastreamer.org]"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "**JPAStreamer Quarkus Demo:** link:https//github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache[github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache]"
 msgstr "*JPAStreamer Quarkus 演示：* link:https//github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache[github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache]"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "**Documentation:** link:https://speedment.github.io/jpa-streamer[speedment.github.io/jpa-streamer]"
 msgstr "*文档：* link:https://speedment.github.io/jpa-streamer[speedment.github.io/jpa-streamer]"
 
+#. type: Plain text
 #: _posts/2023-02-10-jpastreamer-extension.adoc
 #, fuzzy
 msgid "**Gitter Support Chat:** link:https://gitter.im/jpa-streamer[gitter.im/jpa-streamer]"

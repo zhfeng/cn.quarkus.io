@@ -28,6 +28,7 @@ msgstr "Quarkus 2.7.0.Final发布 - Quarkus CLI成熟，互动终端，Oracle Re
 msgid "Quarkus 2.7.0.Final comes with an even better Quarkus CLI, an interactive terminal for dev mode, SmallRye Stork 1.0.0, an Oracle Reactive SQL Client extension and a ton of other things."
 msgstr "Quarkus 2.7.0.Final带有一个更好的Quarkus CLI，一个用于开发模式的交互式终端，SmallRye Stork 1.0.0，一个Oracle Reactive SQL Client扩展以及其他大量的东西。"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -89,7 +90,7 @@ msgstr " `mongo+srv://` 在本地可执行文件中支持"
 msgid "And much more!"
 msgstr "还有更多!"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -101,13 +102,13 @@ msgstr "迁移指南"
 msgid "To migrate from 2.6, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.7[our migration guide]."
 msgstr "要从2.6迁移，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.7[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus CLI"
@@ -149,6 +150,7 @@ msgstr "更多内容将很快到来。"
 msgid "For all the instructions to install the Quarkus CLI, please refer to the https://quarkus.io/guides/cli-tooling[dedicated guide]."
 msgstr "关于安装Quarkus CLI的所有说明，请参考 link:https://quarkus.io/guides/cli-tooling[专用指南] 。"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -162,6 +164,7 @@ msgstr "我们还开始完善我们的文档，包括 CLI、Maven 和 Gradle 的
 msgid "If you make use of the CLI, please provide us your feedback either in https://github.com/quarkusio/quarkus/issues[our tracker] or in https://github.com/quarkusio/quarkus/issues[the discussions area]."
 msgstr "如果你使用了CLI，请在 link:https://github.com/quarkusio/quarkus/issues[我们的跟踪器] 或 link:https://github.com/quarkusio/quarkus/issues[讨论区] 提供你的反馈。"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -181,12 +184,13 @@ msgstr " `--java=17` 用于CLI"
 msgid "`-DjavaVersion=\"17\"` for Maven"
 msgstr " `-DjavaVersion=\"17\"` 用于Maven"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Interactive terminal"
 msgstr "互动终端"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -200,12 +204,13 @@ msgstr "开发模式现在带有交互式终端。在开发模式下按 `:` 即�
 msgid "This feature is very extensible so if you have ideas to enhance it, don't hesitate to open feature (or pull) requests."
 msgstr "这个功能是非常可扩展的，所以如果你有想法来加强它，不要犹豫，打开功能（或拉动）请求。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Native Reference Guide"
 msgstr "本地参考指南"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -213,12 +218,13 @@ msgid ""
 "If you want to understand better how native executables are built and how you can work with them, read link:/guides/native-reference[our new Native Reference Guide]."
 msgstr "我们通常不会为新指南添加发布说明条目，但这一次非常值得。如果你想更好地了解本地可执行文件是如何构建的，以及如何使用它们，请阅读 link:/guides/native-reference[我们新的本地参考指南] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "SmallRye Stork"
 msgstr "小黑麦鹳"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -238,12 +244,13 @@ msgstr "link:/guides/stork[鹳鸟指南]"
 msgid "link:/guides/stork-reference[The Stork Reference]"
 msgstr "link:/guides/stork-reference[鹳鸟参考]"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "OpenId Connect"
 msgstr "OpenId连接"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -251,7 +258,7 @@ msgid ""
 "More information can be found in link:/guides/security-openid-connect-web-authentication[the guide]."
 msgstr "我们简化了知名 OIDC 提供商的配置，如 GitHub、Google、Apple......更多信息请参阅 link:/guides/security-openid-connect-web-authentication[指南] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate ORM"
@@ -263,7 +270,7 @@ msgstr "Hibernate ORM"
 msgid "`quarkus.hibernate-orm.database.default-catalog` and `quarkus.hibernate-orm.database.default-schema` can now be set at runtime (they were fixed at build time until now)."
 msgstr " `quarkus.hibernate-orm.database.default-catalog` 和 ，现在可以在运行时设置（直到现在它们都是在构建时固定的）。 `quarkus.hibernate-orm.database.default-schema` "
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate Search"
@@ -299,7 +306,7 @@ msgstr "Hibernate Search现在可以将实体变化事件推送到数据库中�
 msgid "Hibernate Search 6.1 also includes many smaller improvements, such as new search predicates or the ability to provide Elasticsearch index settings or mappings as JSON; see https://hibernate.org/search/releases/6.1/[the official Hibernate Search 6.1 webpage] for more details."
 msgstr "Hibernate Search 6.1还包括许多较小的改进，如新的搜索谓词或以JSON形式提供Elasticsearch索引设置或映射的能力；更多细节见 link:https://hibernate.org/search/releases/6.1/[Hibernate Search 6.1官方网页] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "MongoDB"
@@ -311,7 +318,7 @@ msgstr "梦之城_梦之城娱乐_梦之城国际娱乐_梦之城国际娱乐平
 msgid "We added experimental support for `mongo+srv://` in native executables (it was only working in JVM mode pre-2.7)."
 msgstr "我们在本地可执行文件中增加了对 `mongo+srv://` 的实验性支持（它只在2.7之前的JVM模式下工作）。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Reactive REST Client"
@@ -323,12 +330,13 @@ msgstr "反应式REST客户端"
 msgid "The Reactive REST Client now supports proxy authentication and global proxy settings."
 msgstr "Reactive REST客户端现在支持代理认证和全局代理设置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Oracle Reactive SQL Client"
 msgstr "Oracle Reactive SQL Client"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -336,7 +344,7 @@ msgid ""
 "2.7 introduces a new reactive SQL client for Oracle."
 msgstr "到目前为止，我们只支持 Oracle 的 JDBC。2.7 为 Oracle 引入了新的反应式 SQL 客户端。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kotlin serialization"
@@ -348,7 +356,7 @@ msgstr "Kotlin序列化"
 msgid "Support for Kotlin serialization has been added to RESTEasy Reactive."
 msgstr "在RESTEasy Reactive中增加了对Kotlin序列化的支持。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Cache"
@@ -360,7 +368,7 @@ msgstr "缓存"
 msgid "Metrics for the Cache extension are now recorded with Micrometer."
 msgstr "缓存扩展的指标现在用Micrometer记录。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "JNDI disabled by default"
@@ -372,7 +380,7 @@ msgstr "默认情况下禁用JNDI"
 msgid "Except when an extension actually requires it to function properly, we are now disabling JNDI by default."
 msgstr "除了当一个扩展确实需要它来正常运作时，我们现在默认禁用JNDI。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Containers"
@@ -390,12 +398,13 @@ msgstr "现在为JIB选择的图像取决于你的目标Java版本。"
 msgid "We have a new extension for buildpacks: `quarkus-container-image-buildpack`."
 msgstr "我们为buildpacks提供了一个新的扩展： `quarkus-container-image-buildpack` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Where is Kogito?"
 msgstr "科吉托在哪里？"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -403,12 +412,13 @@ msgid ""
 "If you are using Kogito, stay on 2.6.3.Final until we release Quarkus 2.7.1.Final, which will bring back the Kogito extensions."
 msgstr "由于一些内部问题，Kogito 扩展并不是 2.7.0.Final 的一部分。如果你正在使用 Kogito，请继续使用 2.6.3.Final，直到我们发布 Quarkus 2.7.1.Final，它将恢复 Kogito 扩展。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -422,7 +432,7 @@ msgstr "Quarkus 社区正在不断壮大，目前已有 link:https://github.com/
 msgid "In particular for the 2.7 release, thanks to adrien, Alexey Loubyansky, andreaTP, Andres Almiray, Apostolos Samaras, Ashwin S. Nair, BarDweller, Bill Burke, Carles Arnal, Christian Beikov, Christoph Hermann, Clement Escoffier, Daniel Petisme, danielmast, Davide, Dennis Kieselhorst, Digant Bhavsar, Duy Pham, Elias Norrby, Emmanuel Bernard, Erin Schnabel, Falko Modler, Foivos Zakkak, Freeman Fang, Fu Cheng, Galder Zamarreño, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gunnar Morling, Gwenneg Lepage, Hendrik S, Ioannis Canellos, Jacob Middag, Jacopo Rota, James Cobb, James Netherton, Jan Martiška, Jason Porter, Jorge Solórzano, Jose, Josh Purcell, Julien Ponge, Justin Lee, Jérôme TAMA, Katherine Stanley, Katia Aresti, Kevin Wooten, Ladislav Thon, Loïc Mathieu, Marc Nuri, Marc Schlegel, Markus Schwer, Martin Kouba, Martin Panzer, Matej Vasek, Max Rydahl Andersen, Michal Karm Babacek, Michał Szynkiewicz, Mike Weber, Ozan Gunalp, pablo gonzalez granados, Patryk Najda, Paul Robinson, Paulo Casaes, Phillip Kruger, Ricardo Rodrigues, Roberto Cortez, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Stefan Schoeffmann, Stephane Epardaud, Stuart Douglas, Summers Pittman, Sébastien CROCQUESEL, Thomas Segismont, Tomas Hofman, Vincent Sevel, Frank Wippermueller, and Yoann Rodière."
 msgstr "特别是对于2.7版本，感谢adrien、Alexey Loubyansky、andreaTP、Andres Almiray、Apostolos Samaras、Ashwin S。Nair, BarDweller, Bill Burke, Carles Arnal, Christian Beikov, Christoph Hermann, Clement Escoffier, Daniel Petisme, danielmast, Davide, Dennis Kieselhorst, Digant Bhavsar, Duy Pham, Elias Norrby, Emmanuel Bernard, Erin Schnabel, Falko Modler, Foivos Zakkak, Freeman Fang, Fu Cheng, Galder Zamarren?o, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gunnar Morling, Gwenneg Lepage, Hendrik S, Ioannis Canellos, Jacob Middag, Jacopo Rota, James Cobb, James Netherton, Jan Marti?ka, Jason Porter, Jorge Solrzano, Jose, Josh Purcell, Julien Ponge, Justin Lee, Jrme TAMA, Katherine Stanley, Katia Aresti, Kevin Wooten, Ladislav Thon, Loc Mathieu, Marc Nuri, Marc Schlegel, Markus Schwer, Martin Kouba, Martin Panzer, Matej Vasek, Max Rydahl Andersen, Michal Karm Babacek, Micha?Szynkiewicz, Mike Weber, Ozan Gunalp, pablo gonzalez granados, Patryk Najda, Paul Robinson, Paulo Casaes, Phillip Kruger, Ricardo Rodrigues, Roberto Cortez, Rostislav Svoboda, Sanne Grinovero,Sergey Beryozkin, Stefan Schoeffmann, Stephane Epardaud, Stuart Douglas, Summers Pittman, Sbastien CROCQUESEL, Thomas Segismont, Tomas Hofman, Vincent Sevel, Frank Wippermueller, and Yoann Rodire."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-02-quarkus-2-7-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

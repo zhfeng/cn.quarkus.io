@@ -64,7 +64,7 @@ msgstr "引入一种为流式响应设置头信息和状态代码的方法"
 msgid "Introduce a Hibernate Reactive variant of the Security Jakarta Persistence extension"
 msgstr "引入安全雅加达持久性扩展的Hibernate Reactive变体"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Verify OIDC ID token audience by default"
@@ -82,7 +82,7 @@ msgstr "将Kotlin提升至1.8.21"
 msgid "Upgrade Oracle JDBC driver to 23.2.0.0"
 msgstr "升级Oracle JDBC驱动至23.2.0.0"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -94,6 +94,7 @@ msgstr "迁移指南"
 msgid "To migrate from 3.0, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.1[our migration guide]."
 msgstr "要从3.0迁移，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.1[我们的迁移指南] 。"
 
+#. type: Plain text
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -101,18 +102,19 @@ msgid ""
 "You can also refer to https://quarkus.io/blog/quarkus-3-upgrade/[this blog post] for additional details."
 msgstr "如果您尚未使用 3.0，请参阅 link:https://quarkus.io/blog/quarkus-3-0-final-released/[3.0 公告] 了解所有详细信息。您还可以参阅 link:https://quarkus.io/blog/quarkus-3-upgrade/[本博文] 了解更多详情。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Programmatic API to create Reactive REST Clients"
 msgstr "创建反应式REST客户端的程序化API"
 
+#. type: Plain text
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -132,12 +134,13 @@ msgstr "从3.1开始，你可以通过一个新的API以编程方式创建Reacti
 msgid "Please refer to the https://quarkus.io/guides/rest-client-reactive#programmatic-client-creation-with-quarkusrestclientbuilder[documentation] for more details."
 msgstr "更多细节请参考 link:https://quarkus.io/guides/rest-client-reactive#programmatic-client-creation-with-quarkusrestclientbuilder[文件] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "More flexibility for streaming responses"
 msgstr "更加灵活的流式反应"
 
+#. type: Plain text
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -145,12 +148,13 @@ msgid ""
 "you can now https://quarkus.io/guides/resteasy-reactive#customizing-headers-and-status[customize the response headers and status code]."
 msgstr "RESTEasy Reactive 为流式响应提供了更多灵活性：现在可以 link:https://quarkus.io/guides/resteasy-reactive#customizing-headers-and-status[自定义响应头和状态代码] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Reactive variant of Security Jakarta Persistence extension"
 msgstr "安全雅加达持久性扩展的反应性变体"
 
+#. type: Plain text
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -171,7 +175,7 @@ msgstr "从Quarkus 3.1开始，OIDC ID令牌受众现在被默认为验证。"
 msgid "You can use the `quarkus.oidc.token.audience` configuration property to override the default check."
 msgstr "你可以使用 `quarkus.oidc.token.audience` 配置属性来覆盖默认的检查。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kotlin 1.8.21"
@@ -183,7 +187,7 @@ msgstr "Kotlin 1.8.21"
 msgid "We updated Kotlin to 1.8.21."
 msgstr "我们将Kotlin更新至1.8.21。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Oracle JDBC driver update"
@@ -195,7 +199,7 @@ msgstr "Oracle JDBC驱动程序更新"
 msgid "The Oracle JDBC driver has been updated to 23.2.0.0."
 msgstr "Oracle JDBC驱动已经更新到23.2.0.0。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -207,12 +211,13 @@ msgstr "完整的更新日志"
 msgid "You can get the full changelog of https://github.com/quarkusio/quarkus/releases/tag/3.1.0.CR1[3.1.0.CR1] and https://github.com/quarkusio/quarkus/releases/tag/3.1.0.Final[3.1.0.Final] on GitHub."
 msgstr "你可以在GitHub上获得 link:https://github.com/quarkusio/quarkus/releases/tag/3.1.0.CR1[3.1.0.CR1] 和 link:https://github.com/quarkusio/quarkus/releases/tag/3.1.0.Final[3.1.0.Final] 的完整更新日志。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -226,7 +231,7 @@ msgstr "Quarkus 社区正在不断壮大，目前已有 link:https://github.com/
 msgid "In particular for the 3.1 release, thanks to Ales Justin, Alex Martel, Alexey Loubyansky, Andres Almiray, Bill Burke, Bruno Baptista, Bruno Oliveira da Silva, Carles Arnal, Chris Pitman, Clement Escoffier, David Salter, Eric Deandrea, Erin Schnabel, Falko Modler, Felipe Henrique Gross Windmoller, Foivos Zakkak, Fouad Almalki, George Gastaldi, Georgios Andrianakis, Guillaume Smet, Hitesh C, Holly Cummins, humberto, Ioannis Canellos, Jan Martiska, Jose Carvajal, Julien Ponge, Katia Aresti, kdnakt, Kevin Dubois, Konstantin Gribov, Ladislav Thon, Laure Souche, Manyanda Chitimbo, Marc Nuri, Marco Collovati, Marco Zanghì, Marek Skacelik, Marko Bekhta, Martin Kouba, Matej Novotny, Mathias Holzer, Max Rydahl Andersen, Maximilian Zellhofer, Mazen Khalil, Melloware, Michael Edgar, Michael Hamburger, Michael Musgrove, Michal Karm Babacek, Michal Maléř, Michal Vavřík, Michelle Purcell, Moritz Heine, Nelson Osacky, Ozan Gunalp, Pavel.Vervenko, Pavol Liška, pernelkanic, Phillip Krüger, polarctos, Radovan Synek, Robert Stupp, Robert Toyonaga, Roberto Cortez, Rolfe Dlugy-Hegwer, Romain Pelisse, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Severin Gehwolf, Stuart Douglas, Sébastien Crocquesel, xstefank, Yoann Rodière, and Yoshikazu Nojima."
 msgstr "特别是对于3。1版本，感谢Ales Justin, Alex Martel, Alexey Loubyansky, Andres Almiray, Bill Burke, Bruno Baptista, Bruno Oliveira da Silva, Carles Arnal, Chris Pitman, Clement Escoffier, David Salter, Eric Deandrea、Erin Schnabel, Falko Modler, Felipe Henrique Gross Windmoller, Foivos Zakkak, Fouad Almalki, George Gastaldi, Georgios Andrianakis, Guillaume Smet, Hitesh C, Holly Cummins, humberto, Ioannis Canellos、Jan Martiska, Jose Carvajal, Julien Ponge, Katia Aresti, kdnakt, Kevin Dubois, Konstantin Gribov, Ladislav Thon, Laure Souche, Manyanda Chitimbo, Marc Nuri, Marco Collovati, Marco Zangghì, Marek Skacelik、Marko Bekhta, Martin Kouba, Matej Novotny, Mathias Holzer, Max Rydahl Andersen, Maximilian Zellhofer, Mazen Khalil, Melloware, Michael Edgar, Michael Hamburger, Michael Musgrove, Michal Karm Babacek, Michal Malé?,Michal Vav?ík, Michelle Purcell, Moritz Heine, Nelson Osacky, Ozan Gunalp, Pavel. Vervenko, Pavol Li?ka, pernelkanic, Phillip Krüger, polarctos, Radovan Synek, Robert Stupp, Robert Toyonaga, Roberto Cortez, Rolfe Dlugy-Hegwer, Romain Pelisse, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Severin Gehwolf, Stuart Douglas, Sébastien Crocquesel, xstefank, Yoann Rodière, and Yoshikazu Nojima。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-31-quarkus-3-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

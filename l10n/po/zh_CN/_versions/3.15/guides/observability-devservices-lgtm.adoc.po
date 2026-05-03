@@ -6,114 +6,142 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Observability Dev Services with Grafana OTel LGTM"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "https://github.com/grafana/docker-otel-lgtm[OTel-LGTM] is `all-in-one` Docker image containing OpenTelemetry's https://github.com/open-telemetry/opentelemetry-proto/blob/main/docs/README.md[OTLP] as the protocol to transport metrics, tracing and logging data to an https://opentelemetry.io/docs/collector[OpenTelemetry Collector] which then stores signals data into https://prometheus.io/[Prometheus] (metrics), https://github.com/grafana/tempo[Tempo] (traces) and https://github.com/grafana/loki[Loki] (logs), only to have it visualized by https://github.com/grafana/grafana[Grafana]. It's used by Quarkus Observability to provide the Grafana OTel LGTM Dev Resource."
 msgstr ""
 
+#. type: Title =
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Configuring your project"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Add the Quarkus Grafana OTel LGTM sink (where data goes) extension to your build file:"
 msgstr ""
 
+#. type: Block title
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "pom.xml"
 msgstr "pom.xml"
 
+#. type: Block title
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "build.gradle"
 msgstr "build.gradle"
 
+#. type: Title ==
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Metrics"
 msgstr "指标"
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "If you need metrics, add the Micrometer OTLP registry to your build file:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "When using the https://micrometer.io/[MicroMeter's] Quarkiverse OTLP registry to push metrics to Grafana OTel LGTM, the `quarkus.micrometer.export.otlp.url` property is automatically set to OTel collector endpoint as seen from the outside of the docker container."
 msgstr ""
 
+#. type: Title ==
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Tracing"
 msgstr "跟踪"
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "For Tracing add the `quarkus-opentelemetry` extension to your build file:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "The `quarkus.otel.exporter.otlp.endpoint` property is automatically set to OTel collector endpoint as seen from the outside of the docker container."
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "The `quarkus.otel.exporter.otlp.protocol` is set to `http/protobuf`."
 msgstr ""
 
+#. type: Title ==
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Access Grafana"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Once you start your app in dev mode:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "You will see a log entry like this:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Remember that Grafana is accessible in an ephemeral port, so you need to check the logs to see which port is being used. In this example, the grafana endpoint is `grafana.endpoint=http://localhost:42797`."
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "If you miss the message you can always check the port with this Docker command:"
 msgstr ""
 
+#. type: Title ==
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Additional configuration"
 msgstr "其他配置"
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "This extension will configure your `quarkus-opentelemetry` and `quarkus-micrometer-registry-otlp` extensions to send data to the OTel Collector bundled with the Grafana OTel LGTM image."
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "If you don't want all the hassle with Dev Services (e.g. lookup and re-use of existing running containers, etc) you can simply disable Dev Services and enable just Dev Resource usage:"
 msgstr ""
 
+#. type: Title ==
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Tests"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "And for the least 'auto-magical' usage in the tests, simply disable both (Dev Resources are already disabled by default):"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "And then explicitly list LGTM Dev Resource in the test as a `@QuarkusTestResource` resource:"
 msgstr ""
 
+#. type: Title =
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Testing full Grafana OTel LGTM stack - example"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Use existing Quarkus MicroMeter OTLP registry"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Simply inject the Meter registry into your code -- it will periodically push metrics to Grafana LGTM's OTLP HTTP endpoint."
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/observability-devservices-lgtm.adoc
 msgid "Where you can then check Grafana's datasource API for existing metrics data."
 msgstr ""

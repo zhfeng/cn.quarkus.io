@@ -160,11 +160,13 @@ msgstr "所以，我们要把我们的键转化为Uni *（transformToUni* ）。
 msgid "When you have a stream of items and need to invoke an asynchronous action for each item, you must choose how you will merge the results. Mutiny provides two strategies:"
 msgstr "当你有一个项目流并需要为每个项目调用一个异步动作时，你必须选择如何合并结果。Mutiny提供了两种策略。"
 
+#. type: Plain text
 #: _posts/2020-09-02-mutiny-redis.adoc
 #, fuzzy
 msgid "*merge -* as soon as the item produced by the `Uni` is received we send it downstream"
 msgstr "*合并 -* 一旦收到 `Uni` 生产的物品，我们就将其发送到下游"
 
+#. type: Plain text
 #: _posts/2020-09-02-mutiny-redis.adoc
 #, fuzzy
 msgid "*concatenate* - we preserve the order of the input stream to be sure that the items are sent downstream in the same order"

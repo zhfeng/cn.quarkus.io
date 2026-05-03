@@ -34,6 +34,7 @@ msgstr "最新的Quarkus Insights更新。"
 msgid "We got two more Quarkus insights up and ready."
 msgstr "我们又有了两个夸父的见解，并准备好了。"
 
+#. type: Plain text
 #: _posts/2020-05-20-insights-4-5.adoc
 #, fuzzy
 msgid ""
@@ -41,7 +42,7 @@ msgid ""
 "#5 on https://www.youtube.com/watch?v=MJe2giXrbuM[Quarkify with Dmitry Chaban]."
 msgstr "#第 4 期 link:https://www.youtube.com/watch?v=t84sdt9Mnmw[与 Daniel Petisme 讨论 Quarkus 的 JHipster] ，第 5 期 link:https://www.youtube.com/watch?v=MJe2giXrbuM[与 Dmitry Chaban] 讨论 link:https://www.youtube.com/watch?v=MJe2giXrbuM[Quarkify] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-05-20-insights-4-5.adoc
 #, fuzzy, no-wrap
 msgid "Next Episode(s)"

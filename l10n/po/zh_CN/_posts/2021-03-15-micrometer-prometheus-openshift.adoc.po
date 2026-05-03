@@ -76,7 +76,7 @@ msgstr "部署我们的Quarkus应用程序"
 msgid "Create a Service monitor in our project"
 msgstr "在我们的项目中创建一个服务监视器"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-15-micrometer-prometheus-openshift.adoc
 #, fuzzy, no-wrap
 msgid "Requirements"
@@ -94,7 +94,7 @@ msgstr "link:https://docs.openshift.com/container-platform/4.7/cli_reference/ope
 msgid "An Openshift instance"
 msgstr "一个Openshift实例"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-15-micrometer-prometheus-openshift.adoc
 #, fuzzy, no-wrap
 msgid "Step 1 - Enable Monitoring for user-defined projects in OpenShift"
@@ -136,7 +136,7 @@ msgstr "对于4.5或以前版本的OpenShift，你需要使用代替。"
 msgid "Openshift will automatically create the `openshift-user-workload-monitoring` namespace and deploy the required resources for Prometheus to it."
 msgstr "Openshift会自动创建 `openshift-user-workload-monitoring` 命名空间，并将Prometheus所需的资源部署到其中。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-15-micrometer-prometheus-openshift.adoc
 #, fuzzy, no-wrap
 msgid "2. Deploy our Quarkus application"
@@ -196,7 +196,7 @@ msgstr "因此，让我们把我们的应用程序部署到OpenShift中一个新
 msgid "The label `app-with-metrics` will be used in a later step to select the applications to monitor by OpenShift."
 msgstr "标签 `app-with-metrics` 将在后面的步骤中用于选择由OpenShift监控的应用程序。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-15-micrometer-prometheus-openshift.adoc
 #, fuzzy, no-wrap
 msgid "3. Create a Service monitor in our project"
@@ -238,7 +238,7 @@ msgstr "我们可以在 `application.properties` 中配置Prometheus期望的 `/
 msgid "What we have just done is to create a Service Monitor named `prometheus-app-monitor` that will select apps with the label `app-with-metrics: quarkus-app` that was added in the previous step. Then, OpenShift will call the endpoint `/q/metrics` for all the services labeled with `app-with-metrics: quarkus-app` every 30 seconds."
 msgstr "我们刚才做的是创建一个名为 `prometheus-app-monitor` 的服务监控器，它将选择上一步中添加的标签为 `app-with-metrics: quarkus-app` 的应用。然后，OpenShift将每隔30秒为所有标有 `app-with-metrics: quarkus-app` 的服务调用端点 `/q/metrics` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-15-micrometer-prometheus-openshift.adoc
 #, fuzzy, no-wrap
 msgid "Finally, let's start using it!"

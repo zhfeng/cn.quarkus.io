@@ -46,11 +46,13 @@ msgstr "image:/assets/images/posts/reactive-messaging-emitter/architecture.png[a
 msgid "In this post, we are going look at this emitter construct a little bit more closely."
 msgstr "在这篇文章中，我们将更仔细地看一下这个发射器的结构。"
 
+#. type: Title =
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid "Injecting an Emitter"
 msgstr "注入发射器"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -58,6 +60,7 @@ msgid ""
 "You indicate the targeted channel, i.e., where do you send your messages:"
 msgstr "注入发射器非常简单。您只需指明目标频道，即您要向哪里发送信息："
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -65,6 +68,7 @@ msgid ""
 "They can be in-memory channels or mapped to a remote broker."
 msgstr "请记住，反应式消息传递使用 _通道_ 作为主要抽象。它们可以是内存通道，也可以映射到远程代理。"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -74,11 +78,13 @@ msgid ""
 "That lets you send: payloads directly (wrapped automatically in a message) or more detailed messages containing a movie as payload:"
 msgstr "在前面的代码片段中，我们注入了 `Emitter<Movie>` 。这意味着您将发送包含电影作为有效载荷的信息。因此，指定的类型就是有效载荷类型。这样，您就可以直接发送：有效载荷（自动封装在信息中）或包含影片作为有效载荷的更详细的信息："
 
+#. type: Title =
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid "Sending payloads"
 msgstr "发送有效载荷"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -93,6 +99,7 @@ msgstr "发送有效载荷是发送数据的最简单方法。您只需将有效
 msgid "When used with payload, the `send` method returns a `CompletionStage` indicating if the message processing succeeded or failed:"
 msgstr "当与payload一起使用时， `send` 方法返回一个 `CompletionStage` ，表明消息处理是成功还是失败。"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -104,10 +111,12 @@ msgid ""
 "The passed exception gives you an idea of the reason."
 msgstr "处理是异步进行的，稍后我们将看到发送事件。因此，返回的 `CompletionStage` 会让您知道消息何时被处理。当信息被确认时， `CompletionStage` 就成功完成了。大多数情况下，这意味着处理已顺利完成，或消息已成功发送到代理。如果发生错误， `CompletionStage` 会异常完成。通过传递的异常可以了解原因。"
 
+#. type: Title =
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 msgid "Sending messages"
 msgstr "发送信息"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -118,11 +127,13 @@ msgid ""
 "That way, you can dispatch messages to different topics and even decide dynamically:"
 msgstr "虽然发送有效载荷更为直接，但有时您需要为消息附加元数据，例如配置消息在 Kafka 中的写入方式、跟踪信息等。发射器也允许发送消息，因此可以附加你想要的元数据。在下面的示例中，我们配置了向外发送的 Kafka 记录。我们设置了密钥、主题等。这样，你就可以向不同的主题发送消息，甚至可以动态决定："
 
+#. type: Title =
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid "Emissions are asynchronous"
 msgstr "排放不同步"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -146,11 +157,13 @@ msgstr "image:/assets/images/posts/reactive-messaging-emitter/buffer.png[alt=\"b
 msgid "The downstream component receives the messages according to the requests it makes, ensuring its capacity is never exceeded."
 msgstr "下游组件根据其提出的请求接收信息，确保其容量永远不会被超过。"
 
+#. type: Title =
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid "Overflow management"
 msgstr "溢流管理"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -163,10 +176,12 @@ msgid ""
 "By default, it uses a buffer, but depending on your use case, you may want to configure it differently:"
 msgstr "但缓冲区也会......溢出。如果发送的信息过多，下游无法跟上，信息就会存储在缓冲区中，直到达到最大容量。然后，你就不能再发送信息了，而试图发送信息时又会抛出异常。但在这种情况下，我们能做什么呢？在注入发射器时，可以配置溢出策略。例如，可以设置缓冲区大小、使用无界缓冲区、丢弃信息、失败，或者直接忽略反向压力，让下游处理。默认情况下，它会使用缓冲区，但根据您的使用情况，您可能需要进行不同的配置："
 
+#. type: Title =
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 msgid "Conclusion"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""
@@ -174,6 +189,7 @@ msgid ""
 "More information is available on the https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.2/emitter/emitter.html[SmallRye Reactive Messaging documentation]."
 msgstr "这篇文章简要介绍了 Reactive Messaging 的 `Emitter` 结构。更多信息请参见 link:https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.2/emitter/emitter.html[SmallRye Reactive Messaging 文档] 。"
 
+#. type: Plain text
 #: _posts/2020-10-06-reactive-messaging-emitter.adoc
 #, fuzzy
 msgid ""

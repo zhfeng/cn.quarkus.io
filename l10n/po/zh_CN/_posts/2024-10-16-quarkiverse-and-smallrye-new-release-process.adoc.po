@@ -6,14 +6,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Strengthening the Release Process for Quarkiverse and SmallRye"
 msgstr ""
 
+#. type: YAML Front Matter: synopsis
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "A description of the new Quarkiverse and SmallRye release process."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "In May, we were alerted about a potential leak in the https://smallrye.io/[SmallRye] release process.\n"
@@ -21,10 +24,12 @@ msgid ""
 "Even if Quarkiverse has no reported leak, during our investigation, we uncovered a deeper flaw that affected not only SmallRye but also Quarkiverse."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "In this blog post, we’ll explain the vulnerability we discovered and introduce a more secure release pipeline for both Quarkiverse and SmallRye repositories."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "**TL;DR:** We’ve uncovered a security flaw in the release process for Quarkiverse and SmallRye that could have allowed malicious actors to impersonate projects and publish compromised artifacts.\n"
@@ -33,6 +38,7 @@ msgid ""
 "Quarkus itself is not affected by this issue, only SmallRye and Quarkiverse."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Please act immediately, as the old release process will be retired by October 16th, 2024.\n"
@@ -41,14 +47,17 @@ msgid ""
 "Details on this change are <<Call for action: Migrating to the new release process, below>>."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "For more details on the issue, the solution, and how to adapt, read on!"
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The Flaw: A Closer Look at the Release Process"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "To understand the flaw, it’s important to outline the release process Quarkiverse and SmallRye used first.\n"
@@ -56,26 +65,31 @@ msgid ""
 "There is no central supervision of all these repositories; they evolve at their own pace, individually."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Both organizations use GitHub repositories and GitHub Actions as CI and automation framework.\n"
 "Here’s how the release project worked:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "A developer opens a pull request in the repository, updating the version number in the project’s `project.yaml` file (See https://github.com/quarkiverse/quarkus-langchain4j/pull/904[this PR] as an example)."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "The regular build workflow runs to ensure it builds successfully.\n"
 "A specific pre-release flow also runs to verify that the YAML file is correctly formatted."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Once the pull request is merged, a release workflow is triggered."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "The release workflow starts by _preparing_ the release.\n"
@@ -83,6 +97,7 @@ msgid ""
 "It also updates the main branch (or the source branch of the pull request) to the next development version and commits this change to the branch."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Once the preparation step is complete, the tag is checked out, and the release artifacts are created.\n"
@@ -91,18 +106,22 @@ msgid ""
 "The artifacts are signed and pushed to Maven Central."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The last step, the _release perform_, is where the flaw exists. Here’s why:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "To sign the artifacts, the workflow uses an organization-wide GPG key"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "To publish the artifacts, the workflow uses organization-wide credentials"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "The GPG passphrase and the Maven Central credential are stored as secrets in the project’s GitHub repository but shared across the entire organization.\n"
@@ -110,6 +129,7 @@ msgid ""
 "You cannot print them in the log (without a bit of magic), and cannot be accessed from forks."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "At this point, everything seems fine.\n"
@@ -118,10 +138,12 @@ msgid ""
 "And ... here we go...."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The Problem: A Risk of Credential Exposure (and Impersonification)"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "We said that secrets are not freely accessible.\n"
@@ -131,6 +153,7 @@ msgid ""
 "Anything running during the workflow (actions, scripts...) can access these secrets... and leak them."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "When a developer includes an external or third-party GitHub Action, Maven / Gradle plugin, or Junit Extension...  in their workflow, that code gains access to the organization-wide credentials.\n"
@@ -138,36 +161,43 @@ msgid ""
 "The ramifications are severe:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "An attacker could release compromised yet legitimate-looking project versions signed with the organization’s GPG key to Maven Central."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Worse still, they could push malicious artifacts to Maven Central under the Quarkiverse or SmallRye banner, impersonating the entire organization."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "In short, with access to these credentials, an attacker could impersonate Quarkiverse or SmallRye, bypassing typical protections like signed commits or branch protection.\n"
 "The vulnerability arises from the fact that these credentials are shared and available to any code running during the workflow."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Despite quickly mitigating the initial SmallRye leak, discovering this larger flaw prompted us to reevaluate our release process.\n"
 "It became clear that we needed a more secure and resilient approach to prevent such risks in the future."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The Solution: A new release process"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "After careful consideration, we concluded that relying on organization-wide secrets for releases was no longer viable.\n"
 "We needed a more secure approach."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "At first, we explored the idea of using repository-specific credentials.\n"
@@ -176,66 +206,80 @@ msgid ""
 "Therefore, we decided against this solution."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Instead, we devised a more robust and secure solution involving two repositories: one for the code being released and a separate one for executing the release perform phase itself.\n"
 "Crucially, the repository with the source code no longer has access to organization-wide credentials—only the second repository does."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "When the second workflow (red) is complete, it unblocks the first one (blue).\n"
 "Thus, you know when the second workflow is completed and if it was successful."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "How It Works: A Step-by-Step Breakdown"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "With this new approach, the initial stages of the release process remain unchanged.\n"
 "Here’s what happens now:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "A developer opens a pull request, updating the version number in the `project.yaml` file."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The pre-release workflow is triggered within the repository, ensuring the build is correct and the version is appropriately updated."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Once the pull request is merged, the release process diverges from the previous approach:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The first repository executes the preparation steps, such as version updates, tag creation, and setting the next development version."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The release artifacts are generated but not signed or pushed to Maven Central."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "At this point, a second workflow is triggered in a separate repository.\n"
 "This is where the critical actions happen:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The second repository, which contains the necessary credentials (Maven Central credentials and GPG passphrase), downloads the release artifacts."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "It verifies the integrity of the artifacts using attestations."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "The artifacts are then signed and pushed to Maven Central."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "This second repository is crucial for security.\n"
@@ -243,60 +287,72 @@ msgid ""
 "By isolating the sensitive release steps in this secured environment, we’ve significantly reduced the risk of leaks or unauthorized access."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "This new process provides a much-needed layer of separation, ensuring that the credentials remain protected and that the possibility of a leak is greatly diminished."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Balancing Security with Developer Freedom"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "As highlighted earlier, both Quarkiverse and SmallRye strongly emphasize empowering developers by minimizing the overhead of maintaining open-source components.\n"
 "Our new release process maintains this philosophy, ensuring developers still have the flexibility to adjust workflows in their component repositories as needed."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Developers and maintainers can continue to modify workflows, introduce custom CI steps, and tailor their processes to meet specific project needs.\n"
 "The only significant change is that part of the release process—the critical signing and publishing steps—now occurs in a separate, secured repository."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Importantly, maintainers retain the ability to trigger a release at any time, from any branch, just as they could before.\n"
 "The handoff to the second repository happens seamlessly, so the developer experience remains largely the same."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "This flexibility remains intact for projects that have heavily customized their release pipelines (for example, incorporating pre-release validations or automating tasks like website updates, release note generation, or breaking change detection).\n"
 "These projects can still trigger:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Validation workflows when the `project.yaml` file is updated via a pull request."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Post-release workflows, triggered when a new tag is created, allow tasks such as documentation updates or notifications to continue unhindered."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "By preserving this level of freedom, we ensure that developers can adapt their workflows to the needs of their projects while benefiting from a more secure release pipeline."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Resilience: Preparing for the Unexpected"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "The release process, by its nature, is a complex and multi-step operation where things can occasionally go wrong.\n"
 "While the new release pipeline adds another layer of complexity due to its split-repository design, we have built resilience into the system to mitigate potential issues."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "To address this, we’ve ensured that the new process is idempotent, meaning it can be safely retried without causing inconsistencies or errors.\n"
@@ -304,32 +360,38 @@ msgid ""
 "This allows the release to proceed without needing to repeat previous steps unnecessarily."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Additionally, we have built in various checks and verifications at key stages of the release process, such as verifying artifact integrity (using attestation) are completed before moving on to the next stage.\n"
 "These safeguards help reduce the risk of an incomplete or erroneous release."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Should any unexpected issues arise, both the component repository and the secured release repository provide detailed logs, allowing developers to diagnose and resolve problems quickly.\n"
 "This transparency ensures that maintainers remain in control, even when things don’t go as planned."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "These measures aim to provide a more resilient, fault-tolerant release process that doesn’t compromise on security or developer experience."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Call for action: Migrating to the new release process"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "If you are a Quarkiverse or SmallRye project maintainer, you’ve received a pull request that updates your project to the new, more secure release process.\n"
 "For most maintainers, this update will be seamless and require no other changes."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "However, as mentioned earlier, if your project uses a customized or more sophisticated release pipeline, you may need to make a few adjustments to ensure compatibility with the new system.\n"
@@ -337,10 +399,12 @@ msgid ""
 "Please take the time to review and test the changes in your repository to ensure everything works as expected."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Important Timeline: Deprecation of the Old Release Process"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "The previous release process has now been deprecated and will be fully blocked by October 16th, 2024.\n"
@@ -348,40 +412,49 @@ msgid ""
 "Thus, you must adopt the new release process pull request before this deadline to avoid disrupting your project’s release cycle."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "For maintainers with more complex setups, we encourage you to start the migration as soon as possible to ensure a smooth transition.\n"
 "Roberto Cortez, George Gastaldi, and the rest of the Quarkus and SmallRye teams are here to help if you need assistance."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "__Next Steps:__"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Review the Pull Request: Check the automated pull request in your repository and verify that it updates your release process to the new system."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Merge the Changes: Merge the changes before the deprecation date to avoid release interruptions."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Test Your Workflow: If you’ve customized your release process, run tests to ensure everything still functions as expected under the new pipeline."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Reach Out for Support: If you have any questions or need help with the migration, please contact us on https://quarkusio.zulipchat.com/#narrow/stream/187038-dev[Zulip] or https://github.com/quarkusio/quarkus/discussions[GitHub Discussions]."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "This new release process is a vital step in improving the security of Quarkiverse and SmallRye, and your swift action in migrating will help us ensure the integrity of these projects moving forward."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "Summary: Nothing Changes for You — It’s Just More Secure"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "From a Smallrye and Quarkiverse developer’s perspective, the release process for Quarkiverse and SmallRye remains essentially the same.\n"
@@ -389,22 +462,26 @@ msgid ""
 "The flexibility and control you’ve come to rely on haven’t changed."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "The main difference is behind the scenes: a separate, secured repository now handles the critical steps of signing and publishing your release.\n"
 "This means the process is more robust, with sensitive credentials locked down, and the risk of leaks or impersonation significantly reduced."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "In short, while we’ve enhanced the security of the release pipeline, we’ve done so in a way that minimizes disruption.\n"
 "You’ll still enjoy the same developer experience — only now, with the added peace of mind that your releases are more secure than ever."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid "A Special Thank You"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "Redefining a more secure and reliable release process was no small feat, and it certainly wasn’t something we could accomplish without some dedicated and enthusiastic developers.\n"
@@ -412,6 +489,7 @@ msgid ""
 "Your dedication and expertise were invaluable."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-10-16-quarkiverse-and-smallrye-new-release-process.adoc
 msgid ""
 "I’d also like to give a special shoutout to Andres Almiray, whose support with JReleaser was absolutely instrumental.\n"

@@ -34,6 +34,7 @@ msgstr "2.7.2.Final是我们2.7版本列车的第二个维护版本。"
 msgid "It is our pleasure to announce the release of Quarkus 2.7.2.Final, our second maintenance release for our 2.7 release train."
 msgstr "我们很高兴地宣布Quarkus 2.7.2.Final的发布，这是我们2.7版本列车的第二个维护版本。"
 
+#. type: Plain text
 #: _posts/2022-02-23-quarkus-2-7-2-final-released.adoc
 #, fuzzy
 msgid ""
@@ -53,13 +54,13 @@ msgstr "不过对于已经在使用2.7的人来说，这应该是一次安全的
 msgid "If you are not using 2.7 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.7[2.7 migration guide]."
 msgstr "如果你还没有使用2.7，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.7[2.7迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-23-quarkus-2-7-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new"
 msgstr "最新动态"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-23-quarkus-2-7-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kogito and OptaPlanner upgrades"
@@ -71,7 +72,7 @@ msgstr "Kogito和OptaPlanner的升级"
 msgid "Kogito and OptaPlanner have been upgraded respectively to 1.17.0.Final and 8.17.0.Final."
 msgstr "Kogito和OptaPlanner已分别升级到1.17.0.Final和8.17.0.Final。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-23-quarkus-2-7-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -83,7 +84,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.7.2.Final[the full changelog of 2.7.2.Final on GitHub]."
 msgstr "您可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.7.2.Final[在 GitHub 上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/2.7.2.Final[2.7.2.Final 的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-02-23-quarkus-2-7-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

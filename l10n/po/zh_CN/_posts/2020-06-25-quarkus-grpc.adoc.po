@@ -34,6 +34,7 @@ msgstr "发现Quarkus gRPC支持"
 msgid "In Quarkus 1.5, we shipped the first version of the https://quarkus.io/guides/grpc-getting-started[gRPC Quarkus extension]."
 msgstr "在Quarkus 1.5中，我们提供了第一个版本的 link:https://quarkus.io/guides/grpc-getting-started[gRPC Quarkus扩展] 。"
 
+#. type: Plain text
 #: _posts/2020-06-25-quarkus-grpc.adoc
 #, fuzzy
 msgid ""
@@ -80,6 +81,7 @@ msgstr "将quarkus-grpc扩展添加到一个现有项目中"
 msgid "Of course, you can also select `gRPC` from https://code.quarkus.io/[the project generator]."
 msgstr "当然，你也可以从 link:https://code.quarkus.io/[项目生成器] 中选择 `gRPC` 。"
 
+#. type: Plain text
 #: _posts/2020-06-25-quarkus-grpc.adoc
 #, fuzzy
 msgid ""
@@ -135,6 +137,7 @@ msgstr "gRPC \"裸 \"Java API和Mutiny API，它与Quarkus的反应式APIS集成
 msgid "Enough _blabla_, time to see it in action:"
 msgstr " _说得够_ 多了，是时候看看它的行动了。"
 
+#. type: Plain text
 #: _posts/2020-06-25-quarkus-grpc.adoc
 #, fuzzy
 msgid "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/anGcuMJPkQY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
@@ -146,12 +149,13 @@ msgstr "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed
 msgid "The code shown in this video is available from this https://github.com/cescoffier/quarkus-grpc-demo[GitHub project]."
 msgstr "本视频中显示的代码可以从这个 link:https://github.com/cescoffier/quarkus-grpc-demo[GitHub项目] 中获得。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-06-25-quarkus-grpc.adoc
 #, fuzzy, no-wrap
 msgid "More to come!"
 msgstr "更多精彩，敬请期待"
 
+#. type: Plain text
 #: _posts/2020-06-25-quarkus-grpc.adoc
 #, fuzzy
 msgid ""

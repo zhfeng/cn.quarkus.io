@@ -34,7 +34,7 @@ msgstr "斯图尔特讲述了命令模式的奥妙和quarkus:dev的幕后。"
 msgid "This week https://www.youtube.com/watch?v=5UhM_W6zukg[Quarkus Insights #2] was live and recorded with Stuart showing command mode and talking about the inner workings of `quarkus:dev`. Plus a nice surprise just implemented."
 msgstr "本周 link:https://www.youtube.com/watch?v=5UhM_W6zukg[Quarkus Insights #2] 进行了直播和录制，Stuart展示了命令模式，并谈到了 `quarkus:dev` 的内部运作。另外还有一个刚刚实施的惊喜。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-05-15-insights-2.adoc
 #, fuzzy, no-wrap
 msgid "Next Episode"

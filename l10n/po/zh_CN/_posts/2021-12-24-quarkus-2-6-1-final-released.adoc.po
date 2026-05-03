@@ -28,6 +28,7 @@ msgstr "Quarkus 2.6.1.Final发布 - 维护性发布"
 msgid "2.6.1.Final is the first maintenance release for our 2.6 release train and the last Quarkus release of the year!"
 msgstr "2.6.1.Final是我们2.6版本列车的第一个维护版本，也是今年的最后一个Quarkus版本!"
 
+#. type: Plain text
 #: _posts/2021-12-24-quarkus-2-6-1-final-released.adoc
 #, fuzzy
 msgid ""
@@ -53,7 +54,7 @@ msgstr "感谢大家花时间报告问题，建立复制者......这对使Quarku
 msgid "Have a nice holiday break if you take one, and happy coding/experimenting if you don't, and see you all next year."
 msgstr "如果你有假期的话，祝你假期愉快，如果你没有的话，祝你编码/实验愉快，明年再见吧。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-24-quarkus-2-6-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -71,7 +72,7 @@ msgstr "如果你还没有使用2.6，请参考 link:https://github.com/quarkusi
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.6.1.Final[the full changelog of 2.6.1.Final on GitHub]."
 msgstr "您可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.6.1.Final[在 GitHub 上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/2.6.1.Final[2.6.1.Final 的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-24-quarkus-2-6-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

@@ -46,7 +46,7 @@ msgstr "对于已经使用2.8的人来说，这是一次安全的升级。"
 msgid "If you are not using 2.8 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.8[2.8 migration guide]."
 msgstr "如果你还没有使用2.8，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.8[2.8迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-26-quarkus-2-8-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -58,7 +58,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.8.2.Final[the full changelog of 2.8.2.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.8.2.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/2.8.2.Final[2.8.2.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-26-quarkus-2-8-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

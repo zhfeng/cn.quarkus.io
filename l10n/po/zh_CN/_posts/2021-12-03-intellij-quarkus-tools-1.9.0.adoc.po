@@ -28,6 +28,7 @@ msgstr "Quarkus Tools for IntelliJ 1.9.0发布!"
 msgid "This release adds support for Quarkus streams in the new project/module wizard"
 msgstr "这个版本在新的项目/模块向导中增加了对Quarkus流的支持"
 
+#. type: Plain text
 #: _posts/2021-12-03-intellij-quarkus-tools-1.9.0.adoc
 #, fuzzy
 msgid ""
@@ -35,7 +36,7 @@ msgid ""
 "This release adds support for Quarkus streams in the new project/module Quarkus wizard and fixes compatibilities with just released IntelliJ 2021.3."
 msgstr "我们非常高兴地宣布 Quarkus Tools for IntelliJ 1.9.0 正式版发布。该版本在新的项目/模块 Quarkus 向导中添加了对 Quarkus 流的支持，并修复了与刚刚发布的 IntelliJ 2021.3 的兼容性问题。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-03-intellij-quarkus-tools-1.9.0.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus streams"
@@ -53,12 +54,13 @@ msgstr "当一个新的Quarkus项目/模块要被生成时，现在可以选择Q
 msgid "By default, the recommended (latest release) will be selected but you can choose another one:"
 msgstr "默认情况下，将选择推荐的（最新版本），但你可以选择另一个。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-03-intellij-quarkus-tools-1.9.0.adoc
 #, fuzzy, no-wrap
 msgid "Moving Forward"
 msgstr "向前迈进"
 
+#. type: Plain text
 #: _posts/2021-12-03-intellij-quarkus-tools-1.9.0.adoc
 #, fuzzy
 msgid ""
@@ -72,7 +74,7 @@ msgstr "如果您有任何问题、建议或反馈，请随时 link:https://gith
 msgid "Thank you for reading and stay tuned for the next release!"
 msgstr "谢谢您的阅读，请继续关注下一次发布。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-03-intellij-quarkus-tools-1.9.0.adoc
 #, fuzzy, no-wrap
 msgid "Links"

@@ -6,14 +6,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Quarkus and Infinispan: winner combo"
 msgstr ""
 
+#. type: YAML Front Matter: synopsis
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Infinispan extension updates from Quarkus 3.9, 3.10 and 3.11"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Infinispan 15.0 has been recently released, bringing along a wave of enhancements that\n"
@@ -21,10 +24,12 @@ msgid ""
 "updates and improvements for both Infinispan and Quarkus."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Serialization API improvements"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Infinispan can handle various serialization formats, but Protobuf stands out as the most\n"
@@ -33,10 +38,12 @@ msgid ""
 "a more straightforward and user-friendly API."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "@Proto"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Using the `@Proto` annotation alone is sufficient to serialize a class, enum, or record with\n"
@@ -46,10 +53,12 @@ msgid ""
 "schema undergoes frequent changes, and you need to refresh data frequently."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "@ProtoSchema"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "The annotation used to define the schema has been renamed to `@ProtoSchema`.\n"
@@ -57,26 +66,31 @@ msgid ""
 "This helps clarify its purpose and usage."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Programmatic definition of schemas"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "If you need to define the schema programmatically, Protostream 5 now offers an API for\n"
 "that purpose. This allows you to define the schema dynamically in your code as needed."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Moreover, the `MessageMarshaller` class, which was previously planned for deprecation and removal,\n"
 "has been reinstated and can continue to be safely used for implementing custom marshalling."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Support for mocks"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Before Quarkus 3.9, because of the Search API, it wasn't possible to mock\n"
@@ -85,34 +99,41 @@ msgid ""
 "enabling full mocking for tests."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Additionally, there have been enhancements in the Search API.\n"
 "Now, we can directly perform searches using methods exposed in the `RemoteCache` interface."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Books cache is injected"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Use `query` method directly on the books cache"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Retrieve the list as usual"
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Infinispan Cache extension"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Starting from Quarkus 3.11, the caching annotations in the Infinispan Cache\n"
 "extension have been deprecated. Infinispan now offers a new cache extension."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "By swapping out the `quarkus-cache` dependency with `quarkus-infinispan-cache`,\n"
@@ -120,14 +141,17 @@ msgid ""
 "from the `quarkus-cache` extension, while storing the data in the Infinispan Server."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Read all about it in the https://quarkus.io/guides/cache-infinispan-reference[Infinispan Cache Extension Guide]"
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Infinispan and Quarkus LangChain4j Integration"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid ""
 "Now, you can use Infinispan as an Embedding Store in the Quarkus LangChain4j extension.\n"
@@ -137,30 +161,37 @@ msgid ""
 "Read all about it in the https://docs.quarkiverse.io/quarkus-langchain4j/dev/infinispan-store.html[documentation]."
 msgstr ""
 
+#. type: Title =
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "Come Join Us"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "We value your feedback a lot so please report bugs, ask for improvements... Let's build something great together!"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "If you are a Quarkus user or just curious, don't be shy and join our welcoming community:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "provide feedback on https://github.com/quarkusio/quarkus/issues[GitHub];"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "craft some code and https://github.com/quarkusio/quarkus/pulls[push a PR];"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "discuss with us on https://quarkusio.zulipchat.com/[Zulip] and on the https://groups.google.com/d/forum/quarkus-dev[mailing list];"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2024-06-06-quarkus-infinispan-new.adoc
 msgid "ask your questions on https://stackoverflow.com/questions/tagged/quarkus[Stack Overflow]."
 msgstr ""

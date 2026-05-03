@@ -40,13 +40,13 @@ msgstr "这个版本是一个错误修复/可用性改进版本，所以从0.27.
 msgid "One new item is that we now have a notion of platform to refer to a set of extensions in the Quarkus ecosystem. Details below on how to use/try it out."
 msgstr "一个新的项目是，我们现在有一个平台的概念，指的是Quarkus生态系统中的一组扩展。下面将详细介绍如何使用/试用它。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy, no-wrap
 msgid "New website theme"
@@ -58,7 +58,7 @@ msgstr "新的网站主题"
 msgid "We just pushed a new theme for the website. We are still working on polishing it but, if you see something weird, please report it in https://github.com/quarkusio/quarkusio.github.io/issues[our tracker]."
 msgstr "我们刚刚为网站推送了一个新的主题。我们仍在努力完善它，但是，如果你看到一些奇怪的东西，请在 link:https://github.com/quarkusio/quarkusio.github.io/issues[我们的跟踪器] 中报告。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy, no-wrap
 msgid "Guides and quickstarts URLs changes"
@@ -82,7 +82,7 @@ msgstr "我们为指南设置了重定向，但我们无法对快速启动目录
 msgid "Thanks!"
 msgstr "谢谢!"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy, no-wrap
 msgid "Enablement of platform in new and existing projects"
@@ -118,7 +118,7 @@ msgstr "如果你创建新的项目，你通过向项目创建传递 `platformAr
 msgid "In existing projects, you for now have to manually update your Quarkus version as usual and then update the BOM reference from `<artifactId>quarkus-bom</artifactid>` to `<artifactId>quarkus-universe-bom></artifactId>`."
 msgstr "在现有的项目中，你现在必须像往常一样手动更新你的Quarkus版本，然后将BOM参考从 `<artifactId>quarkus-bom</artifactid>` 更新到 `<artifactId>quarkus-universe-bom></artifactId>` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -130,12 +130,13 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/0.28.0[the full changelog of 0.28.0 on GitHub] and https://github.com/quarkusio/quarkus/releases/tag/0.28.1[the one from 0.28.1]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/0.28.0[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/0.28.0[0.28.0的完整更新日志] 以及 link:https://github.com/quarkusio/quarkus/releases/tag/0.28.1[0.28.1的] link:https://github.com/quarkusio/quarkus/releases/tag/0.28.0[更新] 日志。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy
 msgid ""
@@ -149,7 +150,7 @@ msgstr "Quarkus 现在有 link:https://github.com/quarkusio/quarkus/graphs/contr
 msgid "In particular for this release, thanks to Alex Soto, Alexey Loubyansky, Aurea Munoz, Bill Burke, Clement Escoffier, Deven Phillips, Emmanuel Bernard, Georgios Andrianakis, Guillaume Smet, Gwenneg Lepage, Hector Ventura, Ioannis Canellos, Jaikiran Pai, Jan Martiska, Jason T. Greene, Ken Finnigan, Luca Burgazzoli, Logan Hauspie, Loïc Mathieu, Maciej Swiderski, Manyanda Chitimbo, Martin Kouba, Martin Stefanko, Matej Novotny, Max Rydahl Andersen, Michael Edgar, Pedro Igor, Ronak Patel, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Stuart Douglas, Syed M Shaaf, Tako Schotanus and Timothy Power."
 msgstr "在此特别感谢Alex Soto, Alexey Loubyansky, Aurea Munoz, Bill Burke, Clement Escoffier, Deven Phillips, Emmanuel Bernard, Georgios Andrianakis, Guillaume Smet, Gwenneg Lepage, Hector Ventura, Ioannis Canellos, Jaikiran Pai, Jan Martiska, Jason T。Greene, Ken Finnigan, Luca Burgazzoli, Logan Hauspie, Loïc Mathieu, Maciej Swiderski, Manyanda Chitimbo, Martin Kouba, Martin Stefanko, Matej Novotny, Max Rydahl Andersen, Michael Edgar, Pedro Igor, Ronak Patel, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Stuart Douglas, Syed M Shaaf, Tako Schotanus and Timothy Power."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-11-04-quarkus-0-28-1-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

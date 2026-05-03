@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "About Quarkus documentation"
@@ -28,7 +28,7 @@ msgstr "关于 Quarkus 文档"
 msgid "A detailed reference for the structure and composition of Quarkus documentation."
 msgstr "有关 Quarkus 文档结构和组成的详细参考资料。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Source locations"
@@ -58,7 +58,7 @@ msgstr "Quarkiverse 或其他第三方扩展的文档将直接从这些资源库
 msgid "The Asciidoc files can be found in the `src/main/asciidoc` directory within the docs module."
 msgstr "Asciidoc 文件可在 docs 模块内的 `src/main/asciidoc` 目录中找到。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Templates"
@@ -70,7 +70,7 @@ msgstr "模板"
 msgid "Create new documentation files using the appropriate template for the content type:"
 msgstr "使用适合内容类型的模板创建新文档文件："
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Concepts"
@@ -82,7 +82,7 @@ msgstr "概念"
 msgid "Use `docs/src/main/asciidoc/_templates/template-concepts.adoc`"
 msgstr "使用 `docs/src/main/asciidoc/_templates/template-concepts.adoc`"
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "How-To Guides"
@@ -106,7 +106,7 @@ msgstr "参考资料"
 msgid "Use `docs/src/main/asciidoc/_templates/template-reference.adoc`"
 msgstr "使用 `src/main/asciidoc/_templates/template-reference.adoc` "
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Tutorials"
@@ -118,18 +118,19 @@ msgstr "教程"
 msgid "Use `docs/src/main/asciidoc/_templates/template-tutorial.adoc`"
 msgstr "使用 `src/main/asciidoc/_templates/template-tutorial.adoc` "
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Output locations"
 msgstr "输出地点"
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Configuration references"
 msgstr "配置参考"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -137,7 +138,7 @@ msgid ""
 "These generated files are found in `target/asciidoc/generated/config/` (from the project root)."
 msgstr "在 MicroProfile Config 源文件中发现的 Javadoc 注释可用于生成配置参考文档。这些生成的文件可在 `target/asciidoc/generated/config/` （从项目根目录）中找到。"
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Asciidoc output as HTML"
@@ -149,7 +150,7 @@ msgstr "Asciidoc 输出为 HTML"
 msgid "A locally-rendered result of asciidoc processing (which is similar, but not identical, to that used to generate website documentation) is found in `docs/target/generated-docs/`"
 msgstr "本地渲染的 asciidoc 处理结果（与用于生成网站文档的结果类似，但不完全相同）见 `docs/target/generated-docs/`"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Titles and headings"
@@ -209,6 +210,7 @@ msgstr "内容类型"
 msgid "Should ..."
 msgstr "应..."
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "Good example"
@@ -226,6 +228,7 @@ msgstr "糟糕的例子"
 msgid "Concept"
 msgstr "概念"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -258,6 +261,7 @@ msgstr "在Quarkus中发现反应式SQL客户端"
 msgid "How-To Guide"
 msgstr "操作指南"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -284,6 +288,7 @@ msgstr "用WebAuthn认证保护你的Quarkus应用程序"
 msgid "Applying WebAuthn Authentication In Quarkus"
 msgstr "在Quarkus中应用WebAuthn认证"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -316,6 +321,7 @@ msgstr "配置Hibernate Reactive API配置属性的参考指南"
 msgid "Tutorial"
 msgstr "教程"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -348,12 +354,13 @@ msgstr "通过使用快速启动实例，在JVM模式下创建一个Quarkus应�
 msgid "Creating an App"
 msgstr "创建一个应用程序"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "File naming conventions"
 msgstr "文件命名约定"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -362,7 +369,7 @@ msgid ""
 "Use all lowercase letters, separate words with hyphens, and don't use symbols or special characters."
 msgstr "Quarkus 文档以相当扁平的结构存储，以便更容易发现。文件名的主要部分应该是文件的标题。全部使用小写字母，用连字符分隔单词，不要使用符号或特殊字符。"
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Prefix"
@@ -374,7 +381,7 @@ msgstr "前缀"
 msgid "Use a common prefix to group related documents, e.g. all of the documents related to writing Quarkus docs are prefixed with `doc-`."
 msgstr "使用通用前缀对相关文档进行分组，例如，所有与编写 Quarkus 文档相关的文档都以 `doc-` 为前缀。"
 
-#. type: Labeled list
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Suffix"
@@ -410,12 +417,13 @@ msgstr "参考文献应以 `-reference.adoc`"
 msgid "Tutorials should end in `-tutorial.adoc`"
 msgstr "教程应以 `-tutorial.adoc`"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Asciidoc syntax"
 msgstr "Asciidoc 语法"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -441,12 +449,13 @@ msgstr "link:https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor 用户手
 msgid "https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[AsciiDoc Syntax Quick Reference]"
 msgstr "上述来源产生了这个链接。 link:https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Asciidoc语法快速参考, target=\"_blank\", rel=\"nofollow noopener\"] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Semantic line breaks"
 msgstr "语义换行"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -454,12 +463,13 @@ msgid ""
 "Start a new line at the end of each sentence, and split sentences themselves at natural breaks between clauses."
 msgstr "段落、列表和表格中的文字应分割成便于复习的片段{语义分行}。在每个句子的末尾换一行，并在分句之间的自然分隔处拆分句子。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Abstracts (preamble)"
 msgstr "摘要（序言）"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -468,18 +478,19 @@ msgid ""
 "Mentioning the benefits users gain from reading the content is also helpful."
 msgstr "为了达到最佳的可查找性，请使用面向用户的关键字添加简短描述，用不超过三句话的篇幅概括文档的目的、任务和意图。避免使用 \"本文档......\"、\"本教程...... \"和 \"以下...... \"等自述式表达和填充词。提及用户从阅读内容中获得的益处也很有帮助。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "The first sentence of the abstract must explain the value and some benefit of the content in less than 26 words because this automatically displays on the link:https://quarkus.io/guides/[Quarkus guides homepage]."
 msgstr "摘要的第一句话必须在 26 个字以内解释内容的价值和好处，因为这将自动显示在 link:https://quarkus.io/guides/[Quarkus 指南的主页上] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Automatic Table of Contents (TOC)"
 msgstr "自动目录 (TOC)"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -487,7 +498,7 @@ msgid ""
 "For example, this document has the following in its header:"
 msgstr "在文档标题中使用 `:toc: preamble` ，可在文档摘要（或序言）后插入自动生成的 TOC。例如，本文档的标题如下："
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Using sections"
@@ -499,6 +510,7 @@ msgstr "使用章节"
 msgid "Section titles should be written in sentence case, rather than title case."
 msgstr "章节标题应使用句子大小写，而不是标题大小写。"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -508,6 +520,7 @@ msgid ""
 "without skipping any levels."
 msgstr "所有文件均应以标题（ `= Level 0` 标题）开始，并根据情况分成若干小节（ `== Level 1` 至 `====== Level 5` ），不得跳级。"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -516,6 +529,7 @@ msgid ""
 "If you end up with deeply nested sections, think about the following:"
 msgstr "应尽可能避免深嵌套（ `====== Level 4` , `====== Level 5` ）。如果最终出现深度嵌套的部分，请考虑以下几点："
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -523,24 +537,25 @@ msgid ""
 "For example, if this is a reference, should some of this content be moved to a concept doc or how-to guide instead?"
 msgstr "这些信息放在合适的位置吗？例如，如果这是一份参考资料，是否应将其中一些内容移至概念文档或操作指南中？"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "Can the content be re-organized to make it simpler to consume?"
 msgstr "能否对内容进行重新组织，使其更易于阅读？"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "See xref:{doc-guides}/doc-concepts.adoc[Quarkus documentation concepts] for more information about content types and organization."
 msgstr "有关内容类型和组织的更多信息，请参阅 xref:{doc-guides}/doc-concepts.adoc[Quarkus 文档概念] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Links"
 msgstr "链接"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -554,7 +569,7 @@ msgstr "一般来说，最好使用 link:https://docs.asciidoctor.org/asciidoc/l
 msgid "A URL Macro link with attributes"
 msgstr "一个带有属性的URL宏观链接"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "The URL macro also supports https://docs.asciidoctor.org/asciidoc/latest/macros/link-macro-ref/[additional attributes] that may be relevant, like opening a link in a different window."
@@ -566,12 +581,13 @@ msgstr "URL 宏还支持可能相关的 link:https://docs.asciidoctor.org/asciid
 msgid "The above source produces this link: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Asciidoc Syntax Quick Reference,window=_blank,opts=nofollow]."
 msgstr "上述来源产生了这个链接： link:https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Asciidoc 语法快速参考] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Cross-references"
 msgstr "相互参照"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -585,6 +601,7 @@ msgstr "Quarkus 文档是在几个不同的环境中从源代码构建的。我�
 msgid "Cross-reference source attributes"
 msgstr "交叉引用源属性"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "Attribute"
@@ -686,6 +703,7 @@ msgstr "相互参照的例子"
 msgid "The cross reference starts with `xref:`, uses a cross-reference source attribute(`\\{doc-guides}`), and provides a readable description: `[Quarkus Documentation concepts]`."
 msgstr "交叉引用以 `xref:` 开始，使用交叉引用源属性( `{doc-guides}` )，并提供可读描述： `[Quarkus Documentation concepts]` 。"
 
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "Reference source code"
@@ -703,6 +721,7 @@ msgstr "在文档中包含源代码和示例的方法有很多。"
 msgid "The simplest is to write it directly in the file, like this:"
 msgstr "最简单的是直接写在文件中，像这样。"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -782,6 +801,7 @@ msgstr " `{code-examples}/telemetry-micrometer-tutorial-example-resource.java` .
 msgid "The source file contains the following comment:"
 msgstr "源文件包含以下注释。"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "// Source: {{source}}"
@@ -793,17 +813,19 @@ msgstr "// 来源：{{source}}"
 msgid "The copied file contains this comment instead:"
 msgstr "复制的文件包含这个注释。"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "// Source: integration-tests/micrometer-prometheus/src/main/java/io/quarkus/doc/micrometer/ExampleResource.java"
 msgstr "// 源： integration-tests/micrometer-prometheus/src/main/java/io/quarkus/doc/micrometer/ExampleResource.java"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus documentation variables"
 msgstr "Quarkus文档参考"
 
+#. type: Plain text
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid ""
@@ -823,11 +845,13 @@ msgstr "下表是供使用的外部化变量的完整列表："
 msgid "Variables"
 msgstr "变量"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "Property Name"
 msgstr "物业名称"
 
+#. type: Table
 #: _versions/2.13/guides/doc-reference.adoc
 #, fuzzy
 msgid "Value"

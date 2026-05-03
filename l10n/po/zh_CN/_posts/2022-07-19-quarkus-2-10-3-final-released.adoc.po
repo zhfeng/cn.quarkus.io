@@ -28,6 +28,7 @@ msgstr "Quarkus 2.10.3.Final发布 - 修复CVE-2022-2466"
 msgid "2.10.3.Final fixes CVE-2022-2466 and is a mandatory upgrade for anyone exposing GraphQL services with Quarkus 2.10.x."
 msgstr "2.10.3.Final修复了CVE-2022-2466，对于使用Quarkus 2.10.x暴露GraphQL服务的人来说，这是一次强制性升级。"
 
+#. type: Plain text
 #: _posts/2022-07-19-quarkus-2-10-3-final-released.adoc
 #, fuzzy
 msgid ""
@@ -36,6 +37,7 @@ msgid ""
 "You are only affected by this issue if you are exposing GraphQL services."
 msgstr "2.10.0.CR1 在 SmallRye GraphQL 服务器扩展中引入了一个名为 CVE-2022-2466 的重大安全问题，所有 2.10.x 版本（连同 2.11.0.CR1）都受到了影响。2.10.3.Final 修正了这一问题，即将发布的 2.11.0.Final 也将包含这一修正。只有在公开 GraphQL 服务时才会受此问题影响。"
 
+#. type: Plain text
 #: _posts/2022-07-19-quarkus-2-10-3-final-released.adoc
 #, fuzzy
 msgid ""
@@ -67,7 +69,7 @@ msgstr "该版本还包含一些小的额外修复。"
 msgid "If you are not using 2.10 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.10[2.10 migration guide]."
 msgstr "如果你还没有使用2.10，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.10[2.10迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-19-quarkus-2-10-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -79,7 +81,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.10.3.Final[the full changelog of 2.10.3.Final on GitHub]."
 msgstr "您可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.10.3.Final[在 GitHub 上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/2.10.3.Final[2.10.3.Final 的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-19-quarkus-2-10-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

@@ -16,39 +16,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Using Security with WebAuthn"
 msgstr "使用WebAuthn的安全性"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "<a class=\"status-label status-experimental\" title=\"This extension requests early feedback to mature the idea\" href=\"#extension-status-note\">experimental</a>"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "This guide demonstrates how your Quarkus application can use WebAuthn authentication instead of\n"
 "passwords."
 msgstr "本指南演示了你的Quarkus应用程序如何使用WebAuthn认证来代替密码。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Prerequisites"
 msgstr "先决条件"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid "A WebAuthn or PassKeys-capable device, or https://developer.chrome.com/docs/devtools/webauthn/[an emulator of those]."
 msgstr "支持 WebAuthn 或 PassKeys 的设备，或 link:https://developer.chrome.com/docs/devtools/webauthn/[这些设备的模拟器] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Introduction to WebAuthn"
 msgstr "WebAuthn简介"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -57,6 +61,7 @@ msgid ""
 "use WebAuthn, which will replace the password."
 msgstr "link:https://webauthn.guide/[WebAuthn] 是一种旨在取代密码的身份验证机制。简而言之，每次编写用于注册新用户或登录用户的服务时，都可以使用 WebAuthn 来代替要求输入密码。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -66,6 +71,7 @@ msgid ""
 "on a https://www.yubico.com[YubiKey] on a computer."
 msgstr "WebAuthn 以身份证明取代密码。在实践中，用户不必再编造密码、存储密码或记住密码，而是使用一个硬件令牌，该令牌会专门为您的服务或网站生成一个身份证明。这可以通过要求用户按下手机上的拇指或按下电脑上 link:https://www.yubico.com[YubiKey] 的按钮来实现。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -75,6 +81,7 @@ msgid ""
 "a proof of identity which you can send to your service instead of a password."
 msgstr "因此，当您注册用户时，您可以使用浏览器输入您的用户信息（用户名、姓名等......），然后点击一个按钮来调用 WebAuthn 浏览器 API，该 API 会要求您做一些事情（按下按钮、使用指纹），而不是输入密码来表明您的身份。然后，浏览器会生成一个身份证明，您可以将其发送到您的服务，而不是密码。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -86,6 +93,7 @@ msgid ""
 "and it will keep generating the same private/public keys for the same target service."
 msgstr "注册时的身份证明主要包括一个公钥。其实里面有很多东西，但最有趣的还是公钥。这个公钥不会存储在你的设备或浏览器中。它是专门为目标服务生成的（与其 URI 绑定），并从硬件验证器中导出。因此，硬件验证器和目标服务的关联将始终产生相同的私钥和公钥对，它们都不会存储在任何地方。例如，你可以把 YubiKey 带到另一台电脑上，它将继续为相同的目标服务生成相同的私钥/公钥。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -93,6 +101,7 @@ msgid ""
 "as WebAuthn credentials for your new user account, and this is what will identify you later."
 msgstr "因此，当你注册时，你发送的（主要是）公钥而不是密码，服务会将该信息作为 WebAuthn 凭据存储到你的新用户账户中，这就是以后识别你身份的依据。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -103,6 +112,7 @@ msgid ""
 "corresponds to the signature of the public key you stored as credentials."
 msgstr "然后，当你需要登录该服务时，你不用输入密码（密码不存在，还记得吗？），而是按下登录表单上的一个按钮，浏览器会要求你做一些事情，然后它会向你的服务发送一个签名，而不是密码。该签名需要从你的验证器硬件和目标服务中提取的私钥，因此当你的服务收到该签名时，可以验证它是否与你作为凭证存储的公钥的签名一致。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -110,6 +120,7 @@ msgid ""
 "that public key, allowing you to verify that the user is who they were when they registered."
 msgstr "因此，概括地说：注册时发送的是生成的公钥而不是密码，登录时发送的是该公钥的签名，这样就可以验证用户是否就是注册时的用户。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -125,6 +136,7 @@ msgstr "在实际操作中，情况会稍微复杂一些，因为在使用硬件
 msgid "And also there are a lot more fields to store than just a public key, but we will help you with that."
 msgstr "还有，除了公钥，还有很多字段需要存储，但我们会帮助你解决这个问题。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -133,6 +145,7 @@ msgid ""
 "their credentials, which you can then use with our WebAuthn authentication."
 msgstr "万一你想知道 link:https://fidoalliance.org/passkeys/[PassKeys] 和我们是否支持它有什么关系：当然，是的，PassKeys 是一种让你的验证器设备共享和同步凭据的方式，然后你就可以使用我们的 WebAuthn 验证。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "The WebAuthn specification requires HTTPS to be used for communication with the server, though\n"
@@ -140,7 +153,7 @@ msgid ""
 "https://docs.quarkiverse.io/quarkus-ngrok/dev/index.html[quarkus-ngrok] extension."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Architecture"
@@ -176,6 +189,7 @@ msgstr " `/api/users/me` "
 msgid "`/api/admin`"
 msgstr " `/api/admin` "
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -185,12 +199,13 @@ msgid ""
 "The `/api/users/me` endpoint is also protected with RBAC (Role-Based Access Control) where only users granted with the `user` role can access. As a response, it returns a JSON document with details about the user."
 msgstr "`/api/public` 端点可以匿名访问。 `/api/public/me` 端点可以匿名访问，如果有用户名，则返回当前用户名；如果没有用户名，则返回 `<not logged in>` 。 `/api/admin` 端点受 RBAC（基于角色的访问控制）保护，只有被授予 `admin` 角色的用户才能访问。在该端点，我们使用 `@RolesAllowed` 注释来声明执行访问限制。 `/api/users/me` 端点也受 RBAC（基于角色的访问控制）保护，只有被授予 `user` 角色的用户才能访问。作为响应，它会返回一个包含用户详细信息的 JSON 文档。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
@@ -208,7 +223,7 @@ msgstr "克隆 Git 仓库: `git clone {quickstarts-clone-url}` ，或下载一�
 msgid "The solution is located in the `security-webauthn-quickstart` link:{quickstarts-tree-url}/security-webauthn-quickstart[directory]."
 msgstr "该解决方案位于 `security-webauthn-quickstart` {quickstarts-tree-url}/security-webauthn-quickstart[目录]中。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Creating the Maven Project"
@@ -219,12 +234,13 @@ msgstr "创建Maven项目"
 msgid "First, we need a new project. Create a new project with the following command:"
 msgstr "首先，我们需要一个新的项目。使用以下命令创建一个新的项目:"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid "Don't forget to add the database connector library of choice. Here we are using PostgreSQL as identity store."
 msgstr "不要忘记添加选择的数据库连接器库。这里我们使用PostgreSQL作为身份存储。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -232,6 +248,7 @@ msgid ""
 "which allows you to use WebAuthn to authenticate users."
 msgstr "该命令将生成一个 Maven 项目，并导入 `security-webauthn` 扩展，以便使用 WebAuthn 对用户进行身份验证。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -256,7 +273,7 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Writing the application"
@@ -273,6 +290,7 @@ msgstr "让我们从实现 `/api/public` 端点开始。正如你从下面的源
 msgid "The source code for the `/api/admin` endpoint is also very simple. The main difference here is that we are using a `@RolesAllowed` annotation to make sure that only users granted with the `admin` role can access the endpoint:"
 msgstr "端点 `/api/admin` 的源代码也非常简单。这里的主要区别是，我们使用 `@RolesAllowed` 注解来确保只有被授予 `admin` 角色的用户才能访问该端点："
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -280,12 +298,13 @@ msgid ""
 "We are using `SecurityContext` to get access to the current authenticated Principal and we return the user's name. This information is loaded from the database."
 msgstr "最后，让我们来看看 `/api/users/me` 端点。从下面的源代码中可以看到，我们只信任 `user` 角色的用户。我们使用 `SecurityContext` 访问当前通过身份验证的 Principal，并返回用户名。这些信息是从数据库中加载的。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Storing our WebAuthn credentials"
 msgstr "储存我们的WebAuthn凭证"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "We can now describe how our WebAuthn credentials are stored in our database with two entities. Note that we've\n"
@@ -293,32 +312,36 @@ msgid ""
 "and other data such as roles):"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "And our user entity:"
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "A note about usernames and credential IDs"
 msgstr "关于用户名和凭证ID的说明"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Usernames are unique and to your users. Every created WebAuthn credential record has a unique ID."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "You can allow (if you want, but you don't have to) your users to have more than one authenticator device,\n"
 "which means a single username can map to multiple credential IDs, all of which identify the same user."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Exposing your entities to Quarkus WebAuthn"
 msgstr "将你的实体暴露给Quarkus WebAuthn"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "You need to define a bean implementing the link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnUserProvider.html[`WebAuthnUserProvider`] in order to allow the Quarkus WebAuthn\n"
@@ -326,6 +349,7 @@ msgid ""
 "WebAuthn security model:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Warning: When implementing your own `WebAuthnUserProvider.store` method, make sure that you never allow creating\n"
@@ -337,22 +361,25 @@ msgid ""
 "will cause the transaction to fail if the user already exists."
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Configuration"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Because we want to delegate login and registration to the default Quarkus WebAuthn endpoints, we need to enable them\n"
 "in configuration (`src/main/resources/application.properties`):"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Writing the HTML application"
 msgstr "编写HTML应用程序"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -360,6 +387,7 @@ msgid ""
 "in `src/main/resources/META-INF/resources/index.html`:"
 msgstr "现在，我们需要在 `src/main/resources/META-INF/resources/index.html` 中编写一个网页，其中包含指向所有 API 的链接，以及注册新用户、登录和注销的方法："
 
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Trying the application"
 msgstr ""
@@ -376,6 +404,7 @@ msgstr "现在，该应用程序受到保护，身份由我们的数据库提供
 msgid "Run your application in dev mode with:"
 msgstr "在开发模式下运行你的应用程序。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -389,6 +418,7 @@ msgstr "这将启动 PostgreSQL Dev Service 容器，并在浏览器中打开 ht
 msgid "Initially, you will have no credentials registered, and no current user:"
 msgstr "最初，你将没有注册的凭证，也没有当前用户。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -396,6 +426,7 @@ msgid ""
 "should work, while the user and admin APIs will fail and redirect you to the current page."
 msgstr "当前用户显示在左侧，您可以使用顶部菜单尝试访问公共 API，这应该可以正常工作，而用户和管理员 API 则会失败并重定向到当前页面。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -403,6 +434,7 @@ msgid ""
 "form on the right, then pressing the `Register` button:"
 msgstr "首先在右侧的 `Register` 表单中输入用户名、姓和名，然后按 `Register` 按钮注册 WebAuthn 凭据："
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -416,6 +448,7 @@ msgstr "浏览器会要求您激活 WebAuthn 身份验证器（您需要一个�
 msgid "You will then be logged in, and can check that the user API is now accessible:"
 msgstr "然后你将被登录，并可以检查用户API现在是否可以访问。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "At this stage you can `Logout`:"
 msgstr ""
@@ -432,20 +465,24 @@ msgstr "然后按 `Login` 按钮，你就可以登录了。"
 msgid "The admin API is only accessible if you register with the `admin` user name."
 msgstr "只有当你用 `admin` 用户名注册时，才能访问管理API。"
 
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Explanation of the flow for WebAuthn authentication."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "There are two modes of operation for how you want to handle user and credential creation:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "By default, the solution we have seen handles user and credential creation and logins automatically\n"
 "via the <<WebAuthn endpoints>> provided out of the box by this extension."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "In this scenario, all you have to to is provide a link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnUserProvider.html[`WebAuthnUserProvider`] to\n"
@@ -453,6 +490,7 @@ msgid ""
 "<<Exposing your entities to Quarkus WebAuthn>>)."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Thus, triggering a registration on the client requires obtaining a challenge from the server (see\n"
@@ -461,6 +499,7 @@ msgid ""
 "<<Trigger a registration>>) which will store the credentials and log you in:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Later, triggering a login on the client requires obtaining a challenge from the server (see\n"
@@ -469,13 +508,14 @@ msgid ""
 "<<Trigger a login>>) which will update the credentials and log you in:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "If you want to customise the registration and login flow, you can also handle user and credential\n"
 "creation and logins yourself via your own logic (see <<Handling login and registration endpoints yourself>>)."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "WebAuthn endpoints"
@@ -487,28 +527,33 @@ msgstr "WebAuthn端点"
 msgid "The Quarkus WebAuthn extension comes out of the box with these REST endpoints pre-defined:"
 msgstr "Quarkus WebAuthn扩展开箱即预设了这些REST端点。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Obtain a registration challenge"
 msgstr "获得登记挑战"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`GET /q/webauthn/register-options-challenge?username=<username>&displayName=<displayName>`: Set up and obtain a registration challenge"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Query parameters:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`username` is a username. Required."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`displayName` is a human-palatable name for the user account. Optional."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "This causes a cookie to be set for the challenge, it will be used by the registration step later."
 msgstr ""
@@ -519,16 +564,18 @@ msgstr ""
 msgid "Response"
 msgstr "响应"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Trigger a registration"
 msgstr "触发注册"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`POST /q/webauthn/register?username=<username>`: Trigger a registration"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "This uses the challenge cookie set by the registration challenge and clears it. It\n"
@@ -536,6 +583,7 @@ msgid ""
 "the <<configuration-reference,session cookie>> to log you in."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "This is only enabled if the `quarkus.webauthn.enable-registration-endpoint` configuration is set to `true`."
 msgstr ""
@@ -552,30 +600,34 @@ msgstr "要求"
 msgid "This returns a 204 with no body."
 msgstr "这将返回一个没有主体的204。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Obtain a login challenge"
 msgstr "获得一个登录挑战"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`GET /q/webauthn/login-options-challenge?username=<username>`: Set up and obtain a login challenge"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`username` is a username. Optional in the case of https://www.w3.org/TR/webauthn-3/#discoverable-credential[Discoverable Credentials] (with PassKeys)."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "This causes a cookie to be set for the challenge, it will be used by the login step later."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Trigger a login"
 msgstr "触发一次登录"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "This uses the challenge cookie set by the login challenge and clears it. It\n"
@@ -583,11 +635,12 @@ msgid ""
 "the <<configuration-reference,session cookie>> to log you in."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "This is only enabled if the `quarkus.webauthn.enable-login-endpoint` configuration is set to `true`."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Logout"
@@ -599,6 +652,7 @@ msgstr "登出"
 msgid "`GET /q/webauthn/logout`: Logs you out"
 msgstr " `GET /q/webauthn/logout` :将你的信息记录下来"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "This will clear the <<configuration-reference,session cookie>> to log you out."
 msgstr ""
@@ -609,24 +663,28 @@ msgstr ""
 msgid "This returns a 302 redirect to the root URI of your application."
 msgstr "这将返回一个302重定向到你的应用程序的根URI。"
 
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Related Origins"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "`GET /.well-known/webauthn`: Retreives the list of https://passkeys.dev/docs/advanced/related-origins/[related origins]."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "This defaults to the current origin on which Quarkus is deployed, but can be <<quarkus-security-webauthn_quarkus-webauthn-origins,configured>>."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "WebAuthn JavaScript library"
 msgstr "WebAuthn JavaScript库"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -634,54 +692,61 @@ msgid ""
 "a JavaScript library to help you talk to the WebAuthn endpoints, at `/q/webauthn/webauthn.js`. You can set it up like this:"
 msgstr "由于在浏览器中设置 WebAuthn 需要大量 JavaScript，Quarkus WebAuthn 扩展随附了一个 JavaScript 库，以帮助你与 WebAuthn 端点对话，网址是 `/q/webauthn/webauthn.js` 。你可以这样设置"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "Or, if you need to customise the endpoints:"
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 msgid "CSRF considerations"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "If you use the endpoints provided by Quarkus, they will not be protected by xdoc:security-csrf-prevention.adoc[CSRF], but\n"
 "if you define your own endpoints and use this JavaScript library to access them you will need to configure CSRF via headers:"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Invoke registration"
 msgstr "调用注册"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "The `webAuthn.register` method invokes the registration challenge endpoint, then calls the authenticator and invokes the registration endpoint\n"
 "for that registration, and returns a https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise[Promise object]:"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Invoke login"
 msgstr "调用登录"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "The `webAuthn.login` method invokes the login challenge endpoint, then calls the authenticator and invokes the login endpoint\n"
 "for that login, and returns a https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise[Promise object]:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid "The username is optional, in the case of https://www.w3.org/TR/webauthn-3/#discoverable-credential[Discoverable Credentials] (with PassKeys)"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Only invoke the registration challenge and authenticator"
 msgstr "只调用注册挑战和认证器"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "The `webAuthn.registerClientSteps` method invokes the registration challenge endpoint, then calls the authenticator and returns\n"
@@ -690,12 +755,13 @@ msgid ""
 "in hidden form `input` elements, for example, and send it as part of a regular HTML form:"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Only invoke the login challenge and authenticator"
 msgstr "只调用注册挑战和认证器"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "The `webAuthn.loginClientSteps` method invokes the login challenge endpoint, then calls the authenticator and returns\n"
@@ -704,12 +770,13 @@ msgid ""
 "in hidden form `input` elements, for example, and send it as part of a regular HTML form:"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Handling login and registration endpoints yourself"
 msgstr "自己处理登录和注册端点"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Sometimes, you will want to ask for more data than just a username in order to register a user,\n"
@@ -717,6 +784,7 @@ msgid ""
 "and registration endpoints are not enough."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "In this case, you can use the `WebAuthn.loginClientSteps` and `WebAuthn.registerClientSteps` methods from the JavaScript\n"
@@ -724,6 +792,7 @@ msgid ""
 "to the server to your custom login or registration endpoints."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "If you are storing them in form input elements, you can then use the link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnLoginResponse.html[`WebAuthnLoginResponse`] and\n"
@@ -734,24 +803,28 @@ msgid ""
 "methods to replace the `/q/webauthn/login` and `/q/webauthn/register` endpoints."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "In most cases you can keep using the `/q/webauthn/login-options-challenge` and `/q/webauthn/register-options-challenge` challenge-initiating\n"
 "endpoints, because this is not where custom logic is required."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "In this case, the registration flow is a little different because you will write your own registration endpoint\n"
 "which will handle storing of the credentials and setting up the session cookie:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Similarly, the login flow is a little different because you will write your own login endpoint\n"
 "which will handle updating the credentials and setting up the session cookie:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "If you handle user and credential creation and logins yourself in your endpoints, you only need\n"
@@ -759,18 +832,21 @@ msgid ""
 "the `store` and `update` methods:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "When setting up your own login and registration endpoints, you don't need to enable the default endpoints, so you can\n"
 "remove the `quarkus.webauthn.enable-login-endpoint` and `quarkus.webauthn.enable-registration-endpoint` configuration."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "Thankfully, you can use the link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnSecurity.html[`WebAuthnSecurity`] bean to handle the WebAuthn-specific part of\n"
 "your registration and login endpoints, and focus on your own logic:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "The link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnSecurity.html[`WebAuthnSecurity`]\n"
@@ -781,12 +857,13 @@ msgid ""
 " methods on the same link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnSecurity.html[`WebAuthnSecurity`] class if you want to manually set up login cookies."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Blocking version"
 msgstr "封锁版本"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "If you're using a blocking data access to the database, you can safely block on the\n"
@@ -795,29 +872,33 @@ msgid ""
 "data access with your link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnUserProvider.html[`WebAuthnUserProvider`]."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "You will have to add the `@Blocking` annotation on your link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnUserProvider.html[`WebAuthnUserProvider`] class in order for the\n"
 "Quarkus WebAuthn endpoints to defer those calls to the worker pool."
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid "Virtual-Threads version"
 msgstr "虚拟线程版本"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "You will have to add the `@RunOnVirtualThread` annotation on your link:{webauthn-api}/io/quarkus/security/webauthn/WebAuthnUserProvider.html[`WebAuthnUserProvider`] class in order to tell the\n"
 "Quarkus WebAuthn endpoints to defer those calls to the worker pool."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy, no-wrap
 msgid "Testing WebAuthn"
 msgstr "测试WebAuthn"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -825,6 +906,7 @@ msgid ""
 "`quarkus-test-security-webauthn` helper library:"
 msgstr "测试 WebAuthn 可能比较复杂，因为通常需要硬件令牌，这也是我们开发 `quarkus-test-security-webauthn` 辅助库的原因："
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "With this, you can use link:{webauthn-test-api}/io/quarkus/test/security/webauthn/WebAuthnHardware.html[`WebAuthnHardware`]\n"
@@ -834,6 +916,7 @@ msgid ""
 "data for custom endpoints:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 msgid ""
 "For this test, since we're testing both the provided callback endpoint, which updates users\n"
@@ -842,12 +925,13 @@ msgid ""
 "`scooby` user:"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "Configuration Reference"
 msgstr "配置参考"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid ""
@@ -856,12 +940,13 @@ msgid ""
 "configuration option, as described in the link:security-authentication-mechanisms#form-auth[security guide]."
 msgstr "安全加密密钥可通过 link:all-config#quarkus-vertx-http_quarkus.http.auth.session.encryption-key[quarkus.http.auth.session.encryption-key] 配置选项设置安全加密密钥，详见 link:security-authentication-mechanisms#form-auth[安全指南] 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-webauthn.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-webauthn.adoc
 #, no-wrap
 msgid "References"

@@ -64,6 +64,7 @@ msgstr "这意味着 Quarkus 3.7 将需要 Java 17 来构建和运行所有 Quar
 msgid "Below are some of the reasons for this decision and what it means for you as a Quarkus user."
 msgstr "以下是做出这一决定的部分原因，以及它对 Quarkus 用户的意义。"
 
+#. type: Title =
 #: _posts/2023-11-30-java-17.adoc
 #, fuzzy
 msgid "Everyone is using Java 11 - you cannot do this!"
@@ -93,6 +94,7 @@ msgstr "我们预计 Java 11 的生产数量会更高，但趋势很明显--Java
 msgid "If you like to help us get more accurate data for future, then please consider contributring anonymous build time data - see https://quarkus.io/usage/[quarkus.io/usage] for details."
 msgstr "如果您希望帮助我们为未来获取更准确的数据，请考虑提供匿名构建时间数据--详情请参见 link:https://quarkus.io/usage/[quarkus.io/usage] 。"
 
+#. type: Title =
 #: _posts/2023-11-30-java-17.adoc
 #, fuzzy
 msgid "I cannot move to Java 17 yet, what should I do?"
@@ -110,6 +112,7 @@ msgstr "如果您还不能迁移到 Java 17，那么您可以继续使用 Quarku
 msgid "Be mindful though that Java 11 itself is rapidly heading towards going out of full support. Example Red Hat's full https://access.redhat.com/articles/1299013#OpenJDK_Life_Cycle[Java 11 support ends in October 2024] and https://www.oracle.com/java/technologies/java-se-support-roadmap.html[Oracle ended Premier support in September 2023]. Thus we highly recommend you start planning your migration to Java 17 or even Java 21 as soon as possible."
 msgstr "不过要注意的是，Java 11 本身正迅速走向全面支持的终结。例如，Red Hat 对 Java link:https://access.redhat.com/articles/1299013#OpenJDK_Life_Cycle[11] 的全面支持将 link:https://access.redhat.com/articles/1299013#OpenJDK_Life_Cycle[于 2024 年 10 月结束] ，而 link:https://www.oracle.com/java/technologies/java-se-support-roadmap.html[Oracle 则将于 2023 年 9 月结束 Premier 支持] 。因此，我们强烈建议您尽快开始计划迁移到 Java 17 甚至 Java 21。"
 
+#. type: Title =
 #: _posts/2023-11-30-java-17.adoc
 #, fuzzy
 msgid "I'm already using Java 17, what does this mean for me?"
@@ -121,6 +124,7 @@ msgstr "我已经在使用 Java 17，这对我意味着什么？"
 msgid "If you are already using Java 17 then this change will not affect you. You can continue to use Quarkus using records, multiline strings, faster runtime performance and all the other cool stuff in Java 17."
 msgstr "如果您已经在使用 Java 17，那么这一变更不会对您产生影响。您可以继续使用 Quarkus，在 Java 17 中使用记录、多行字符串、更快的运行时性能和所有其他很酷的东西。"
 
+#. type: Title =
 #: _posts/2023-11-30-java-17.adoc
 #, fuzzy
 msgid "Why Java 17 and not Java 21?"
@@ -144,6 +148,7 @@ msgstr "但现实情况是，现在的公司和组织仍在向 Java 17 迁移的
 msgid "But please do use Quarkus with Java 21 if you can, it is awesome!"
 msgstr "但是，如果可以的话，请使用带有 Java 21 的 Quarkus，它非常棒！"
 
+#. type: Title =
 #: _posts/2023-11-30-java-17.adoc
 #, fuzzy
 msgid "I'm a Quarkus extension developer, what does this mean for me?"
@@ -185,6 +190,7 @@ msgstr "某些扩展可能仍能在 Java 11 上发布，但它们将以 Quarkus 
 msgid "There are things like Quarkus ecosystem CI which we will want to update to target multiple branches - if interested in that and especially helping out on making that work, then please follow and/or post on the https://groups.google.com/g/quarkus-dev[quarkus-dev mailing list] or in the dev channel on https://quarkusio.zulipchat.com/[Zulip]."
 msgstr "我们将对 Quarkus 生态系统 CI 等进行更新，以实现多分支目标--如果对此感兴趣，尤其是希望帮助实现这一目标，请在 link:https://groups.google.com/g/quarkus-dev[quarkus-dev 邮件列表] 或 link:https://quarkusio.zulipchat.com/[Zulip] 上的开发频道中关注和/或发帖。"
 
+#. type: Title =
 #: _posts/2023-11-30-java-17.adoc
 #, fuzzy
 msgid "Quarkus does not need to be built with Java 17, thus why require it?"

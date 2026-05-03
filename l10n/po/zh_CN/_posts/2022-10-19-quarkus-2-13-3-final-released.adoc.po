@@ -34,6 +34,7 @@ msgstr "Quarkus 2.13.3.Final是我们2.13版本列车的第三个维护版本。
 msgid "Today, we released Quarkus 2.13.3.Final with a new round of bugfixes and documentation improvements."
 msgstr "今天，我们发布了Quarkus 2.13.3.Final，并进行了新一轮的错误修复和文档改进。"
 
+#. type: Plain text
 #: _posts/2022-10-19-quarkus-2-13-3-final-released.adoc
 #, fuzzy
 msgid ""
@@ -47,7 +48,7 @@ msgstr "建议已在使用 2.13 的用户安全升级。特别是因为它修复
 msgid "If you are not already using 2.13, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.13[our migration guide]."
 msgstr "如果你还没有使用2.13，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.13[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-10-19-quarkus-2-13-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -59,7 +60,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.13.3.Final[the full changelog of 2.13.3.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.13.3.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/2.13.3.Final[2.13.3.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-10-19-quarkus-2-13-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

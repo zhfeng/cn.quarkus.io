@@ -46,6 +46,7 @@ msgstr "像往常一样，它包含错误修复和文档改进。"
 msgid "It should be a safe upgrade for anyone already using 2.16."
 msgstr "对于已经使用2.16的人来说，这应该是一次安全的升级。"
 
+#. type: Plain text
 #: _posts/2023-02-01-quarkus-2-16-1-final-released.adoc
 #, fuzzy
 msgid ""
@@ -60,7 +61,7 @@ msgstr "对于使用 Micrometer 的用户，用于导出度量的格式在 2.16 
 msgid "If you are not already using 2.16, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.16[our migration guide]."
 msgstr "如果你还没有使用2.16，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.16[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-02-01-quarkus-2-16-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -72,7 +73,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.16.1.Final[the full changelog of 2.16.1.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.16.1.Final[在 GitHub 上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/2.16.1.Final[2.16.1.Final 的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-02-01-quarkus-2-16-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

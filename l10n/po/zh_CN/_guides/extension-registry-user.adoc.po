@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus Extension Registry"
@@ -55,7 +55,7 @@ msgstr "可用的Quarkus平台，指出哪些平台目前被推荐用于新项�
 msgid "available non-platform extensions, indicating which Quarkus versions they are compatible with."
 msgstr "可用的非平台扩展，表明它们与哪些Quarkus版本兼容。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "registry.quarkus.io"
@@ -67,7 +67,7 @@ msgstr "registry.quarkus.io"
 msgid "The registry hosted at https://registry.quarkus.io[registry.quarkus.io] is the default Quarkus community extension registry. It is updated on every release of the https://github.com/quarkusio/quarkus-platform[Quarkus community platform] and includes extensions hosted on the https://github.com/quarkiverse[Quarkiverse Hub]."
 msgstr "位于 link:https://registry.quarkus.io[registry.quarkus.io] 的注册表是默认的Quarkus社区扩展注册表。它在 link:https://github.com/quarkusio/quarkus-platform[Quarkus社区平台] 的每个版本中都会更新，并包括 link:https://github.com/quarkiverse[Quarkiverse Hub] 上的扩展。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Maven repository"
@@ -85,7 +85,7 @@ msgstr "位于 link:https://registry.quarkus.io[registry.quarkus.io] 的注册�
 msgid "The extension catalog artifacts cached locally will be regularly checked for updates and updated if newer versions of those catalogs are available in the registry. The default interval to check for updates is *daily*, which matches the default Maven repository `updatePolicy` for SNAPSHOT artifacts."
 msgstr "缓存在本地的扩展目录工件将被定期检查更新，如果注册表中有这些目录的较新版本，则进行更新。检查更新的默认时间间隔是 *每天* ，这与SNAPSHOT工件的默认Maven仓库 `updatePolicy` 。"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Maven repository configuration"
@@ -97,55 +97,61 @@ msgstr "Maven 仓库配置"
 msgid "The repository configuration below is shown only for illustrative purposes and does *NOT* have to be added to the user `settings.xml` or the application's `pom.xml`. The Quarkus dev tools come with this repository pre-configured."
 msgstr "下面显示的版本库配置只是为了说明问题， *不需要* 添加到用户 `settings.xml` 或应用程序的 `pom.xml` 。Quarkus开发工具已经预先配置了这个资源库。"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "The complete https://maven.apache.org/settings.html#repositories[Maven repository configuration] of <<registry.quarkus.io,registry.quarkus.io>> is"
 msgstr "xref:registry.quarkus.io[registry.quarkus.io] 的完整 link:https://maven.apache.org/settings.html#repositories[Maven 仓库配置] 为"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "When the Quarkus dev tools are initialized, this repository configuration is automatically added to the Maven resolver which will be used to resolve the platform and extension catalogs from <<registry.quarkus.io,registry.quarkus.io>>."
 msgstr "在初始化 Quarkus 开发工具时，该版本库配置会自动添加到 Maven 解析器中，用于解析 xref:registry.quarkus.io[registry.quarkus.io] 中的平台和扩展目录。"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Maven repository mirrors and proxies"
 msgstr "Maven仓库的镜像和代理服务器"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "When the Quarkus dev tools Maven resolver is initialized, the relevant Maven mirrors and proxies found in the user `settings.xml` are automatically applied to the <<registry.quarkus.io.maven.repo,registry.quarkus.io>> Maven repository configuration, as if the <<registry.quarkus.io.maven.repo,registry.quarkus.io>> Maven repository was configured in the user `settings.xml`."
 msgstr "当初始化 Quarkus dev tools Maven 解析器时，用户 `settings.xml` 中找到的相关 Maven 镜像和代理会自动应用到 xref:registry.quarkus.io.maven.repo[registry.quarkus.io] Maven 资源库配置，就像在用户 `settings.xml` 中配置了 xref:registry.quarkus.io.maven.repo[registry.quarkus.io] Maven 资源库一样。"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "That means, if, for example, a matching Maven repository mirror was applied to the <<registry.quarkus.io.maven.repo,registry.quarkus.io>> Maven repository, the <<registry.quarkus.io.maven.repo,registry.quarkus.io>> Maven repository would have to be added to the mirror repository group in the corresponding Maven server instance (e.g. Nexus)."
 msgstr "这意味着，举例来说，如果在 xref:registry.quarkus.io.maven.repo[registry.quarkus.io] Maven 资源库中应用了匹配的 Maven 资源库镜像，那么 xref:registry.quarkus.io.maven.repo[registry.quarkus.io] Maven 资源库就必须添加到相应 Maven 服务器实例（如 Nexus）的镜像资源库组中。"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Overriding the default registry Maven repository configuration"
 msgstr "覆盖注册处Maven仓库的默认配置"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "The default registry Maven repository configuration can actually be overridden in the user `settings.xml` by simply adding the desired `<repository>` configuration with the `registry.quarkus.io` as its `<id>` value. If such a repository configuration is found in the user `settings.xml`, the dev tools will use it in place of the default <<registry.quarkus.io.maven.repo,registry.quarkus.io>> Maven repository configuration shown above."
 msgstr "在用户 `settings.xml` 中，只需添加所需的 `<repository>` 配置，并将 `registry.quarkus.io` 作为其 `<id>` 值，即可覆盖默认的注册表 Maven 资源库配置。如果在用户 `settings.xml` 中找到这样的版本库配置，开发工具就会使用它来替代上图所示的默认 xref:registry.quarkus.io.maven.repo[registry.quarkus.io] Maven 版本库配置。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus Extension Registry Client Configuration"
 msgstr "Quarkus扩展注册表客户端配置"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "Typically, Quarkus community users will not need to have any registry-related configuration in their environment. The registry hosted at <<registry.quarkus.io,registry.quarkus.io>> is enabled in all the Quarkus dev tools by default. However, there could be a few situations where a custom registry client configuration could help. For example, to change the local registry cache update policy or to configure additional (non-default) Quarkus extension registries."
 msgstr "通常情况下，Quarkus 社区用户不需要在其环境中进行任何与注册表相关的配置。所有 Quarkus 开发工具都默认启用了寄存在 xref:registry.quarkus.io[registry.quarkus.io] 的注册表。不过，在某些情况下，自定义注册表客户端配置可能会有所帮助。例如，更改本地注册表缓存更新策略或配置其他（非默认）Quarkus 扩展注册表。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Registry client configuration location"
@@ -175,17 +181,19 @@ msgstr "检查当前目录是否包含 `.quarkus/config.yaml` 文件，如果该
 msgid "the user home directory is checked to contain the `~/.quarkus/config.yaml` file, if the file exists, it will be used to configure the registry client;"
 msgstr "检查用户主目录是否包含 `~/.quarkus/config.yaml` 文件，如果该文件存在，它将被用来配置注册表客户端。"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "if none of the above steps located a configuration file, the default <<registry.quarkus.io.maven.repo,registry.quarkus.io>> configuration will be used."
 msgstr "如果上述步骤均未找到配置文件，则将使用默认的 xref:registry.quarkus.io.maven.repo[registry.quarkus.io] 配置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Configuring multiple registries"
 msgstr "配置多个登记处"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "The <<registry.quarkus.io,registry.quarkus.io>> is the default Quarkus community extension registry, but it is not meant to be always the only registry. Other organizations may find it useful to create their own Quarkus extension registries to provide their own xref:platform.adoc[Quarkus platforms] and/or individual (non-platform) Quarkus extensions. Users wishing to enable custom Quarkus extension registries in their environment would need to add them to the registry client configuration file."
@@ -203,45 +211,54 @@ msgstr "注册表客户端的配置文件是一个简单的YAML文件，其中�
 msgid "The configuration above enables two registries: `registry.acme.org` and `registry.quarkus.io`. The order of the registries is actually significant. When the Quarkus dev tools are looking for extensions on user's request, the registries will be searched in the order they are configured, i.e. from the top to the bottom of the list. Extensions and platforms found first will appear as the preferred ones to the user."
 msgstr "上面的配置启用了两个注册表： `registry.acme.org` 和 `registry.quarkus.io` 。注册表的顺序实际上是很重要的。当Quarkus开发工具根据用户的要求寻找扩展时，注册表将按照配置的顺序进行搜索，也就是说，从列表的顶部到底部。首先找到的扩展和平台将作为首选出现在用户面前。"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "<<registry.quarkus.io,registry.quarkus.io>> is the default registry which normally does not have to be configured explicitly, however if a user provides a custom registry list and `registry.quarkus.io` is not in it, <<registry.quarkus.io,registry.quarkus.io>> will *not* be enabled."
 msgstr "xref:registry.quarkus.io[registry.quarkus.io] 是默认注册表，通常无需明确配置，但如果用户提供了自定义注册表列表，而 `registry.quarkus.io` 不在其中，则 *不会* 启用 registry. xref:registry.quarkus.io[quarkus] .io。"
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 #, fuzzy
 msgid "For example, here is a registry client configuration that replaces the default <<registry.quarkus.io,registry.quarkus.io>> registry with a custom one:"
 msgstr "例如，这里的注册表客户端配置用自定义注册表替换了默认的 xref:registry.quarkus.io[registry.quarkus.io] ："
 
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 msgid "Limiting extension catalog to an offering"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "This feature was introduced in Quarkus 3.26.0 and will be evolving in the upcoming versions."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "As described in link:{quarkus-home-url}/guides/extension-metadata#extension-offerings[Extension offering metadata], extensions may be associated with a one or more offerings delivered and supported by a dedicated team or an organization."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "A Quarkus extension registry client may be configured to limit the extension catalog provided by the registry to a specific offering. For example, with the following configuration, assuming `registry.acme.org` provides extensions associated with multiple offerings, only those extensions associated with `acme-cloud` offering will be returned by the registry client:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "limits the extension catalog provided by `registry.acme.org` to the extensions that make up the `acme-cloud` offering."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "If an offering is not configured, the complete catalog of extensions returned by the registry will be provided to the user."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Only one offering can be configured per registry at this point."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Adjusting the registry cache update policy"
@@ -289,7 +306,7 @@ msgstr " _interval:X_ （其中X是以分钟为单位的整数）--以分钟为�
 msgid "_never_ - resolve the catalogs once and never check for updates."
 msgstr " _从不_ --一次解决目录，从不检查更新。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Disabling a registry in the configuration"
@@ -307,7 +324,7 @@ msgstr "配置文件中列出的所有注册表都是默认启用的。不过，
 msgid "In the configuration above, only the `registry.acme.org` is enabled. The configuration above is equivalent to:"
 msgstr "在上述配置中，只有 `registry.acme.org` 被启用。上面的配置相当于。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Enabling the debug mode"
@@ -319,7 +336,7 @@ msgstr "启用调试模式"
 msgid "The registry client is not logging much information by default. However, it does resolve various artifacts from Maven repositories behind the scenes. If you would like to see artifact transfer and other debugging related messages in the logs, you can enable the debug mode in the configuration. For example:"
 msgstr "注册表客户端默认不会记录很多信息。不过，它确实在幕后解决了来自Maven仓库的各种工件。如果您想在日志中看到工件传输和其他调试相关信息，您可以在配置中启用调试模式。比如说。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "Overriding a registry URL"
@@ -331,7 +348,7 @@ msgstr "覆盖一个注册表的URL"
 msgid "There may be situations where the URL of the registry changes, however the ID needs to be the same (because the Maven coordinates are queried). To override the registry URL, add the following:"
 msgstr "在某些情况下，注册表的URL会发生变化，但ID需要保持不变（因为要查询Maven的坐标）。要覆盖注册表的URL，请添加以下内容。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "[[how-to-register-as-nexus-repository]] How to register as a Nexus Repository proxy"
@@ -343,7 +360,7 @@ msgstr "link:[, id=\"how-to-register-as-nexus-repository\"] 如何注册成为Ne
 msgid "You can register a Quarkus extension registry as a Nexus repository proxy.You need to be an administrator to perform these operations."
 msgstr "你可以注册一个Quarkus扩展注册表作为Nexus资源库的代理。你需要成为一个管理员来执行这些操作。"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "[[how-to-register-as-nexus-2-repository]] Nexus 2.x"
@@ -397,7 +414,7 @@ msgstr "Nexus 资源库管理器：添加代理版本库"
 msgid "image:registry-nexus-repository.png[Nexus Repository Proxy]"
 msgstr "image:registry-nexus-repository.png[alt=\"Nexus Repository Proxy\"]"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/extension-registry-user.adoc
 #, fuzzy, no-wrap
 msgid "[[how-to-register-as-nexus-3-repository]] Nexus 3.x"
@@ -427,100 +444,124 @@ msgstr "将 `Remote Storage` URL 设置为 `https://registry.quarkus.io/maven`"
 msgid "image:registry-nexus3-repository.png[Nexus Repository Proxy]"
 msgstr "image:registry-nexus3-repository.png[alt=\"Nexus Repository Proxy\"]"
 
+#. type: Title ===
 #: _guides/extension-registry-user.adoc
 msgid "Environment Variables"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Applications using a registry client can be configured using environment variables."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid ""
 "`QUARKUS_REGISTRIES` environment variable can be used to specify which registries should be enabled as a comma-separated list of registry IDs.\n"
 "For example"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "QUARKUS_REGISTRIES=registry.acme.org,registry.quarkus.io"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "That alone will be enough to initialize a registry client to pull extension catalogs from two registries using their default configurations."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Certain registry options could be initialized with their specific environment variables. Each such option will have the following environment variable prefix:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "QUARKUS_REGISTRY_<UPPERCASED_AND_UNDERSCORED_REGISTRY_ID>_"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "where `<UPPERCASED_AND_UNDERSCORED_REGISTRY_ID>` is a registry ID with each character converted to uppercase and a `.` replaced with `_`. For example, `REGISTRY_ACME_ORG`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Below are examples of various options that can be configured following this approach."
 msgstr ""
 
+#. type: Title ====
 #: _guides/extension-registry-user.adoc
 msgid "Repository URL"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "`QUARKUS_REGISTRY_<UPPERCASED_AND_UNDERSCORED_REGISTRY_ID>_REPO_URL=<REPO_URL>`"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Example:"
 msgstr "例如："
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "QUARKUS_REGISTRY_REGISTRY_ACME_ORG_REPO_URL=https://internal.registry.acme.org/maven"
 msgstr ""
 
+#. type: Title ====
 #: _guides/extension-registry-user.adoc
 msgid "Update policy"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "`QUARKUS_REGISTRY_<UPPERCASED_AND_UNDERSCORED_REGISTRY_ID>_UPDATE_POLICY=<UPDATE_POLICY>`"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "QUARKUS_REGISTRY_REGISTRY_ACME_ORG_UPDATE_POLICY=always"
 msgstr ""
 
+#. type: Title ====
 #: _guides/extension-registry-user.adoc
 msgid "Offering"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "`QUARKUS_REGISTRY_<UPPERCASED_AND_UNDERSCORED_REGISTRY_ID>_OFFERING=<OFFERING>`"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "QUARKUS_REGISTRY_REGISTRY_ACME_ORG_OFFERING=acme-magic"
 msgstr ""
 
+#. type: Title ====
 #: _guides/extension-registry-user.adoc
 msgid "Recommend Streams From"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Set the oldest acceptable stream value per platform. Streams older than the configured values will be ignored by the client."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "`QUARKUS_REGISTRY_<UPPERCASED_AND_UNDERSCORED_REGISTRY_ID>_RECOMMEND_STREAMS_FROM_<UPPERCASED_AND_UNDERSCORED_PLATFORM_KEY>=<STREAM_ID>`"
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "Where `UPPERCASED_AND_UNDERSCORED_PLATFORM_KEY` is a platform key with each character converted to uppercase and a `.` replaced with `_`. For example, `IO_QUARKUS_PLATFORM`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/extension-registry-user.adoc
 msgid "QUARKUS_REGISTRY_REGISTRY_ACME_ORG_RECOMMEND_STREAMS_FROM_IO_QUARKUS_PLATFORM=3.27"
 msgstr ""

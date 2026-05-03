@@ -40,7 +40,7 @@ msgstr "上周， link:https://www.youtube.com/watch?v=l3mLKU3wR2A[Quarkus Insig
 msgid "This post has been updated to use the `quarkus.` prefix when configuring stork properties. This prefix is required since Quarkus 2.8."
 msgstr "这篇文章已经更新，在配置stork属性时使用 `quarkus.` 前缀。从Quarkus 2.8开始，这个前缀是必须的。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-11-23-smallrye-stork-intro.adoc
 #, fuzzy, no-wrap
 msgid "What's the problem?"
@@ -82,7 +82,7 @@ msgstr "服务发现 - 它让你找到你需要调用的服务。"
 msgid "service selection - it lets you select the right one when there is more than one instance"
 msgstr "服务选择--当有多个实例时，它让你选择正确的实例。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-11-23-smallrye-stork-intro.adoc
 #, fuzzy, no-wrap
 msgid "What is Stork?"
@@ -100,7 +100,7 @@ msgstr "SmallRye Stork是一个 _服务发现和客户端负载平衡框架_ 。
 msgid "Out of the box, it provides integrations with Hashicorp Consul, Eureka, and Kubernetes and brings in a couple of load-balancer (handling the service selection) implementations, such as round-robin. But the most significant strength of Stork is its extensibility. You can plug your own service discovery mechanism or implement your own, maybe business-related, service selection strategy."
 msgstr "开箱即用，它提供了与Hashicorp Consul、Eureka和Kubernetes的集成，并带来了一些负载平衡器（处理服务选择）的实现，如轮回。但Stork最重要的优势是其可扩展性。你可以插入你自己的服务发现机制，或者实现你自己的，也许与业务有关的服务选择策略。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-11-23-smallrye-stork-intro.adoc
 #, fuzzy, no-wrap
 msgid "Stork and Quarkus"
@@ -148,7 +148,7 @@ msgstr "服务选择可以相当先进。例如，最小响应时间策略监测
 msgid "In Quarkus 2.5, the gRPC extension does not propagate statistics of the calls, such as response time or encountered errors. Therefore, a load balancer that relies on this data, such as least-response-time, will not work correctly. We are working on it and hope to have it in Quarkus 2.6."
 msgstr "在Quarkus 2.5中，gRPC扩展并不传播调用的统计数据，如响应时间或遇到的错误。因此，依赖这些数据的负载均衡器，如最小响应时间，将不能正常工作。我们正在努力解决这个问题，并希望在Quarkus 2.6中实现。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-11-23-smallrye-stork-intro.adoc
 #, fuzzy, no-wrap
 msgid "A demo and a lot more!"
@@ -166,12 +166,13 @@ msgstr "请看 link:https://www.youtube.com/watch?v=l3mLKU3wR2A[第70集《Quark
 msgid "The demo used https://github.com/michalszynkiewicz/rest-client-reactive-stork[this project] as the client-side, each of the steps has a corresponding commit in the `main` branch. The backend services were instances of https://github.com/michalszynkiewicz/configurable-rest-service[this project], and the custom service discovery server implementation can be found https://github.com/michalszynkiewicz/simple-service-discovery-server[here]."
 msgstr "该演示使用 link:https://github.com/michalszynkiewicz/rest-client-reactive-stork[这个项目] 作为客户端，每个步骤在 `main` 分支都有相应的提交。后台服务是 link:https://github.com/michalszynkiewicz/configurable-rest-service[这个项目] 的实例，自定义服务发现服务器的实现可以 link:https://github.com/michalszynkiewicz/simple-service-discovery-server[在这里] 找到。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-11-23-smallrye-stork-intro.adoc
 #, no-wrap
 msgid "Conclusion"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _posts/2021-11-23-smallrye-stork-intro.adoc
 #, fuzzy
 msgid ""

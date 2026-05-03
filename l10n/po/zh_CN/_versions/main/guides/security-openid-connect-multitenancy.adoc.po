@@ -16,11 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Using OpenID Connect (OIDC) multitenancy"
 msgstr "使用 OpenID Connect (OIDC) 多租户功能"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -28,6 +30,7 @@ msgid ""
 "These tenants can be distinct realms or security domains within the same OIDC provider or even distinct OIDC providers."
 msgstr "本指南演示了 OpenID Connect (OIDC) 应用程序如何支持多租户，以便从单个应用程序为多个租户提供服务。这些租户可以是同一 OIDC 提供商内的不同领域或安全域，甚至是不同的 OIDC 提供商。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -35,22 +38,25 @@ msgid ""
 "By enabling multitenancy support to your applications, you can support distinct authentication policies for each tenant, even authenticating against different OIDC providers, such as Keycloak and Google."
 msgstr "在 SaaS 环境等同一应用程序为多个客户提供服务时，每个客户都是一个不同的租户。通过为应用程序启用多租户支持，您可以为每个租户支持不同的身份验证策略，甚至可以针对不同的 OIDC 提供商（如 Keycloak 和 Google）进行身份验证。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To authorize a tenant by using Bearer Token Authorization, see the xref:security-oidc-bearer-token-authentication.adoc[OpenID Connect (OIDC) Bearer token authentication] guide."
 msgstr "要使用承载令牌授权对租户进行授权，请参阅 xref:security-oidc-bearer-token-authentication.adoc[OpenID Connect (OIDC) 承载令牌身份验证] 指南。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To authenticate and authorize a tenant by using the OIDC authorization code flow, read the xref:security-oidc-code-flow-authentication.adoc[OpenID Connect authorization code flow mechanism for protecting web applications] guide."
 msgstr "要使用 OIDC 授权代码流对租户进行验证和授权，请阅读 xref:security-oidc-code-flow-authentication.adoc[OpenID Connect 授权代码流机制保护网络应用程序] 指南。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Also, see the xref:security-oidc-configuration-properties-reference.adoc[OpenID Connect (OIDC) configuration properties] reference guide."
 msgstr "此外，请参阅 xref:security-oidc-configuration-properties-reference.adoc[OpenID Connect (OIDC) 配置属性] 参考指南。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, no-wrap
 msgid "Prerequisites"
@@ -61,12 +67,13 @@ msgstr "先决条件"
 msgid "https://stedolan.github.io/jq/[jq tool]"
 msgstr "link:https://stedolan.github.io/jq/[jq工具]"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, no-wrap
 msgid "Architecture"
 msgstr "应用结构"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "In this example, we build a very simple application that supports two resource methods:"
@@ -78,32 +85,37 @@ msgstr "在本例中，我们构建了一个非常简单的应用程序，支持
 msgid "`/{tenant}`"
 msgstr " `/{tenant}` "
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "This resource returns information obtained from the ID token issued by the OIDC provider about the authenticated user and the current tenant."
 msgstr "该资源返回从 OIDC 提供商签发的 ID 令牌中获取的有关已验证用户和当前租户的信息。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "`/{tenant}/bearer`"
 msgstr "`/{tenant}/bearer`"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "This resource returns information obtained from the Access Token issued by the OIDC provider about the authenticated user and the current tenant."
 msgstr "该资源返回从 OIDC 提供商签发的访问令牌中获取的有关已验证用户和当前租户的信息。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "For a thorough understanding, we recommend you build the application by following the upcoming step-by-step instructions."
 msgstr "为了全面了解，我们建议您按照接下来的步骤说明来构建应用程序。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Alternatively, if you prefer to start with the completed example, clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
@@ -115,21 +127,25 @@ msgstr "或者，如果您想从已完成的示例开始，请克隆 Git 仓库�
 msgid "The solution is located in the `security-openid-connect-multi-tenancy-quickstart` link:{quickstarts-tree-url}/security-openid-connect-multi-tenancy-quickstart[directory]."
 msgstr "该解决方案位于 `security-openid-connect-multi-tenancy-quickstart` {quickstarts-tree-url}/security-openid-connect-multi-tenancy-quickstart[目录]中。"
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Creating the Maven project"
 msgstr "创建Maven项目"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "First, we need a new project.\n"
 "Create a new project with the following command:"
 msgstr "首先，我们需要一个新的项目。使用以下命令创建一个新的项目:"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "If you already have your Quarkus project configured, add the `oidc` extension to your project by running the following command in your project base directory:"
 msgstr "如果已经配置了 Quarkus 项目，请在项目基本目录下运行以下命令，将 `oidc` 扩展添加到项目中："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "This adds the following to your build file:"
@@ -147,12 +163,13 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, no-wrap
 msgid "Writing the application"
 msgstr "编写应用程序"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -160,11 +177,13 @@ msgid ""
 "As you can see from the source code below, it is just a regular Jakarta REST resource:"
 msgstr "首先实施 `/{tenant}` 端点。从下面的源代码中可以看到，这只是一个普通的 Jakarta REST 资源："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To resolve the tenant from incoming requests and map it to a specific `quarkus-oidc` tenant configuration in `application.properties`, create an implementation for the `io.quarkus.oidc.TenantConfigResolver` interface, which can dynamically resolve tenant configurations:"
 msgstr "要从传入请求中解析租户并将其映射到 `application.properties` 中的特定 `quarkus-oidc` 租户配置，请为 `io.quarkus.oidc.TenantConfigResolver` 接口创建一个实现，它可以动态解析租户配置："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -172,6 +191,7 @@ msgid ""
 "If no tenant can be inferred, `null` is returned to indicate that the default tenant configuration should be used."
 msgstr "在前面的实现中，租户是从请求路径中解析出来的。如果无法推断出租户，则返回 `null` ，表示应使用默认租户配置。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -179,12 +199,13 @@ msgid ""
 "Otherwise, it initiates an authorization code flow when authentication is required."
 msgstr "`tenant-a` 应用程序类型为 `hybrid` ；如果提供 HTTP 承载令牌，它可以接受 HTTP 承载令牌。否则，在需要进行身份验证时，它会启动授权代码流。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, no-wrap
 msgid "Configuring the application"
 msgstr "配置该应用程序"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -193,26 +214,31 @@ msgid ""
 "This configuration uses a Keycloak instance to authenticate users."
 msgstr "第一个配置是默认租户配置，当无法从请求中推断出租户时应使用该配置。请注意， `%prod` 配置文件前缀与 `quarkus.oidc.auth-server-url` 一起使用，以支持使用 Dev Services For Keycloak 测试多租户应用程序。此配置使用 Keycloak 实例对用户进行身份验证。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The second configuration, provided by `TenantConfigResolver`, is used when an incoming request is mapped to the `tenant-a` tenant."
 msgstr "第二个配置由 `TenantConfigResolver` 提供，当传入请求映射到 `tenant-a` 租户时使用。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Both configurations map to the same Keycloak server instance while using distinct `realms`."
 msgstr "这两种配置映射到同一个 Keycloak 服务器实例，但使用不同的 `realms` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Alternatively, you can configure the tenant `tenant-a` directly in `application.properties`:"
 msgstr "或者，也可以直接在 `application.properties` 中配置租户 `tenant-a` ："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "In that case, also use a custom `TenantConfigResolver` to resolve it:"
 msgstr "在这种情况下，也可以使用自定义 `TenantConfigResolver` 来解决："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -220,11 +246,13 @@ msgid ""
 "To map them correctly when resolving a tenant from your `TenantResolver` implementation, ensure each has a unique alias."
 msgstr "您可以在配置文件中定义多个租户。要在 `TenantResolver` 实现中解析租户时正确映射它们，请确保每个租户都有唯一的别名。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "However, using a static tenant resolution, which involves configuring tenants in `application.properties` and resolving them with `TenantResolver`, does not work for testing endpoints with Dev Services for Keycloak because it does not know how the requests are be mapped to individual tenants, and cannot dynamically provide tenant-specific `quarkus.oidc.<tenant-id>.auth-server-url` values. Therefore, using `%prod` prefixes with tenant-specific URLs within `application.properties` does not work in both test and development modes."
 msgstr "不过，使用静态租户解析（即在 `application.properties` 中配置租户并用 `TenantResolver` 解析）并不适用于使用 Dev Services for Keycloak 测试端点，因为它不知道如何将请求映射到各个租户，也无法动态提供特定于租户的 `quarkus.oidc.<tenant-id>.auth-server-url` 值。因此，在 `application.properties` 中使用 `%prod` 前缀和特定于租户的 URL 在测试和开发模式下都不起作用。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -232,45 +260,54 @@ msgid ""
 "Therefore, when working with multiple OIDC providers, you only need a path-specific check to resolve a tenant id if the `RoutingContext` does not have the `tenant-id` attribute set, for example:"
 msgstr "当当前租户代表一个 OIDC `web-app` 应用程序时，自定义租户解析器在调用完成代码验证流程的所有请求和已验证请求时，当前 `io.vertx.ext.web.RoutingContext` 包含 `tenant-id` 属性，此时租户特定状态或会话 cookie 已经存在。因此，在使用多个 OIDC 提供商时，如果 `RoutingContext` 没有设置 `tenant-id` 属性，则只需进行特定路径检查即可解析租户 ID："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "This is how Quarkus OIDC resolves static custom tenants if no custom `TenantResolver` is registered."
 msgstr "如果未注册自定义 `TenantResolver` ，Quarkus OIDC 将以此方式解析静态自定义租户。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "A similar technique can be used with `TenantConfigResolver`, where a `tenant-id` provided in the context can return `OidcTenantConfig` already prepared with the previous request."
 msgstr "类似的技术也可用于 `TenantConfigResolver` ，上下文中提供的 `tenant-id` 可以返回上一个请求已经准备好的 `OidcTenantConfig` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "If you also use Hibernate ORM multitenancy or MongoDB with Panache multitenancy and both tenant ids are the same,\n"
 "you can get the tenant id from the `RoutingContext` attribute with `tenant-id`. You can find more information here:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "xref:hibernate-orm.adoc#multitenancy[Hibernate ORM multitenancy]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "xref:mongodb-panache.adoc#multitenancy[MongoDB with Panache multitenancy]"
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Starting and configuring the Keycloak server"
 msgstr "启动和配置 Keycloak 服务器"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To start a Keycloak server, you can use Docker and run the following command:"
 msgstr "要启动 Keycloak 服务器，可以使用 Docker 并运行以下命令："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Access your Keycloak server at http://localhost:8180[localhost:8180]."
 msgstr "通过 link:http://localhost:8180[localhost:8180] 访问 Keycloak 服务器。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -278,11 +315,13 @@ msgid ""
 "The username and password are both `admin`."
 msgstr "以 `admin` 用户身份登录，访问 Keycloak 管理控制台。用户名和密码都是 `admin` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Now, import the realms for the two tenants:"
 msgstr "现在，为两个租户导入域："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Import the link:{quickstarts-tree-url}/security-openid-connect-multi-tenancy-quickstart/config/default-tenant-realm.json[default-tenant-realm.json] to create the default realm."
@@ -294,16 +333,19 @@ msgstr "导入 link:{quickstarts-tree-url}/security-openid-connect-multi-tenancy
 msgid "Import the link:{quickstarts-tree-url}/security-openid-connect-multi-tenancy-quickstart/config/tenant-a-realm.json[tenant-a-realm.json] to create the realm for the tenant `tenant-a`."
 msgstr "导入{quickstarts-tree-url}/security-openid-connect-multi-tenancy-quickstart/config/tenant-a-realm.json[tenant-a-realm.json]，为租户创建境界 `tenant-a` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "For more information, see the Keycloak documentation about how to https://www.keycloak.org/docs/latest/server_admin/index.html#_create-realm[create a new realm]."
 msgstr "更多信息，请参阅 Keycloak 文档，了解如何 link:https://www.keycloak.org/docs/latest/server_admin/index.html#_create-realm[创建新领域] 。"
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Running and using the application"
 msgstr "运行和使用应用程序"
 
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Running in developer mode"
@@ -315,16 +357,19 @@ msgstr "以开发者模式运行"
 msgid "To run the microservice in dev mode, use:"
 msgstr "要在开发模式下运行微服务，请使用。"
 
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Running in JVM mode"
 msgstr "以 JVM 模式运行"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "After exploring the application in dev mode, you can run it as a standard Java application."
 msgstr "在开发模式下探索应用程序后，您可以将其作为标准 Java 应用程序运行。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "First, compile it:"
@@ -335,16 +380,19 @@ msgstr "首先，编译它："
 msgid "Then run it:"
 msgstr "然后运行："
 
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Running in native mode"
 msgstr "以本地模式运行"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "This same demo can be compiled into native code; no modifications are required."
 msgstr "同样的演示可以编译成本地代码，无需任何修改。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -353,6 +401,7 @@ msgid ""
 "the produced binary, and optimized to run with minimal resources."
 msgstr "这意味着您不再需要在生产环境中安装 JVM，因为运行时技术已包含在生成的二进制文件中，并经过优化，只需最少的资源即可运行。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -360,22 +409,25 @@ msgid ""
 "let's build again by enabling the native build:"
 msgstr "编译需要较长的时间，因此默认情况下这一步是关闭的；让我们再次启用本地编译进行编译："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "After a little while, you can run this binary directly:"
 msgstr "过一会儿，您就可以直接运行该二进制文件了："
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Test the application"
 msgstr "测试应用程序"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy, no-wrap
 msgid "Use Dev Services for Keycloak"
 msgstr "为Keycloak使用开发服务"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -383,11 +435,13 @@ msgid ""
 "Dev Services for Keycloak launches and initializes a test container: it imports configured realms and sets a base Keycloak URL for the `CustomTenantResolver` to calculate a realm-specific URL."
 msgstr "建议使用针对 Keyc xref:security-openid-connect-dev-services.adoc[loak 的 Dev Services] 进行集成测试。Keycloak 的 Dev Services 会启动并初始化测试容器：它会导入已配置的领域，并为 `CustomTenantResolver` 设置 Keycloak 基本 URL，以计算特定领域的 URL。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "First, add the following dependencies:"
 msgstr "首先，添加以下依赖项："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -401,26 +455,31 @@ msgstr "`quarkus-test-keycloak-server` `io.quarkus.test.keycloak.client.Keycloak
 msgid "Next, configure the required realms:"
 msgstr "接下来，配置所需的境界。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Finally, write your test, which runs in JVM mode:"
 msgstr "最后，编写在 JVM 模式下运行的测试："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "In native mode:"
 msgstr "在本地模式下："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "For more information about how it is initialized and configured, see xref:security-openid-connect-dev-services.adoc[Dev Services for Keycloak]."
 msgstr "有关如何初始化和配置的详细信息，请参阅 xref:security-openid-connect-dev-services.adoc[Dev Services for Keycloak] 。"
 
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Use the browser"
 msgstr "使用浏览器"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To test the application, open your browser and access the following URL:"
@@ -432,6 +491,7 @@ msgstr "要测试应用程序，请打开浏览器并访问以下 URL："
 msgid "http://localhost:8080/default[http://localhost:8080/default]"
 msgstr "link:http://localhost:8080/default[http://localhost:8080/default]"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -440,21 +500,25 @@ msgid ""
 "In this case, the default configuration is used."
 msgstr "如果一切正常，您将被重定向到 Keycloak 服务器进行身份验证。请注意，请求的路径定义了 `default` 租户，而我们的配置文件中没有映射该租户。在这种情况下，将使用默认配置。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To authenticate to the application, enter the following credentials in the Keycloak login page:"
 msgstr "要验证应用程序，请在 Keycloak 登录页面输入以下凭据："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Username: `alice`"
 msgstr "用户名 `alice`"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Password: `alice`"
 msgstr "密码 `alice`"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "After clicking the *Login* button, you are redirected back to the application."
@@ -472,6 +536,7 @@ msgstr "如果你现在尝试在以下网址访问该应用程序。"
 msgid "http://localhost:8080/tenant-a[http://localhost:8080/tenant-a]"
 msgstr "link:http://localhost:8080/tenant-a[http://localhost:8080/tenant-a]"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -479,6 +544,7 @@ msgid ""
 "However, this time, you are going to authenticate by using a different realm."
 msgstr "您将再次被重定向到 Keycloak 登录页面。不过，这次你要使用不同的域来进行身份验证。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -486,66 +552,78 @@ msgid ""
 "Although `alice` exists in both tenants, the application treats them as distinct users in separate realms."
 msgstr "在这两种情况下，如果用户身份验证成功，登陆页面都会显示用户的姓名和电子邮件。虽然 `alice` 同时存在于两个租户中，但应用程序将它们视为不同领域中的不同用户。"
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenant resolution"
 msgstr "解决租户问题"
 
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenant resolution order"
 msgstr "租户解决令"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "OIDC tenants are resolved in the following order:"
 msgstr "OIDC 租户按以下顺序解决："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "`io.quarkus.oidc.Tenant` annotation is checked first if the proactive authentication is disabled."
 msgstr "`io.quarkus.oidc.Tenant` 如果禁用了主动身份验证，则首先检查\"...... \"注释。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Dynamic tenant resolution using a custom `TenantConfigResolver`."
 msgstr "使用自定义 `TenantConfigResolver` 动态解决租户问题。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Static tenant resolution using one of these options: custom `TenantResolver`, configured tenant paths, and defaulting to the last request path segment as a tenant id."
 msgstr "使用以下选项之一进行静态租户解析：自定义 `TenantResolver` 、配置租户路径，以及默认将最后一个请求路径段作为租户 ID。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Finally, the default OIDC tenant is selected if a tenant id has not been resolved after the preceding steps."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "See the following sections for more information:"
 msgstr "更多信息请参见以下章节："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<annotations-tenant-resolver>>"
 msgstr "<<annotations-tenant-resolver>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<tenant-config-resolver>>"
 msgstr "<<tenant-config-resolver>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<static-tenant-resolution>>"
 msgstr "<<static-tenant-resolution>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Additionally, for the OIDC `web-app` applications, the state and session cookies also provide a hint about the tenant resolved with one of the above mentioned options at the time when the authorization code flow started. See the <<tenant-resolution-for-web-app>> section for more information."
 msgstr "此外，对于 OIDC `web-app` 应用程序，状态和会话 cookie 还提供了一个提示，说明在授权代码流开始时，租户是否已使用上述选项之一进行了解析。更多信息，请参阅 <<tenant-resolution-for-web-app>> 部分。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy, no-wrap
 msgid "Resolve with annotations"
@@ -557,6 +635,7 @@ msgstr "用注释解决租户标识符的问题"
 msgid "You can use the `io.quarkus.oidc.Tenant` annotation for resolving the tenant identifiers as an alternative to using `io.quarkus.oidc.TenantResolver`."
 msgstr "您可以使用 `io.quarkus.oidc.Tenant` 注释来解析租户标识符，而不是使用 `io.quarkus.oidc.TenantResolver` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -564,6 +643,7 @@ msgid ""
 "For more information, see the xref:security-proactive-authentication.adoc[Proactive authentication] guide."
 msgstr "必须禁用主动 HTTP 身份验证 ( `quarkus.http.auth.proactive=false` ) 才能正常工作。有关详细信息，请参阅 xref:security-proactive-authentication.adoc[主动身份验证] 指南。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -571,26 +651,31 @@ msgid ""
 "In contrast, all other classes and methods are still authenticated by using the default OIDC provider."
 msgstr "假设您的应用程序支持两个 OIDC 租户（ `hr` 和默认租户），则所有携带 `@Tenant(\"hr\")` 的资源方法和类都将使用 `quarkus.oidc.hr.auth-server-url` 配置的 OIDC 提供程序进行身份验证。相反，所有其他类和方法仍使用默认 OIDC 提供程序进行验证。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The `io.quarkus.oidc.Tenant` annotation must be placed on either the resource class or resource method."
 msgstr "`io.quarkus.oidc.Tenant` 注解必须放在资源类或资源方法上。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "In the example above, authentication of the `sayHello` endpoint is enforced with the `@Authenticated` annotation."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "Alternatively, if you use an the xref:security-authorize-web-endpoints-reference.adoc#authorization-using-configuration[HTTP Security policy]\n"
 "to secure the endpoint, then, for the `@Tenant` annotation be effective, you must delay this policy's permission check as shown in the following example:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tell Quarkus to run the HTTP permission check after the tenant has been selected with the `@Tenant` annotation."
 msgstr "使用 `@Tenant` 注释选择租户后，告诉 Quarkus 运行 HTTP 权限检查。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "The `io.quarkus.oidc.Tenant` annotation can be used to select tenant for a WebSockets Next server endpoint.\n"
@@ -604,6 +689,7 @@ msgstr ""
 msgid "Dynamic tenant configuration resolution"
 msgstr "禁用租户配置"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -617,6 +703,7 @@ msgstr "如果需要为不同租户提供更动态的配置，又不想在配置
 msgid "This interface allows you to dynamically create tenant configurations at runtime:"
 msgstr "这个接口允许你在运行时动态地创建租户配置。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -624,59 +711,72 @@ msgid ""
 "You can populate it by using any settings supported by the `quarkus-oidc` extension."
 msgstr "该方法返回的 `OidcTenantConfig` 与用于从 `application.properties` 解析 `oidc` 命名空间配置的 相同。您可以使用 `quarkus-oidc` 扩展支持的任何设置来填充它。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "If the dynamic tenant resolver returns `null`, a <<static-tenant-resolution>> is attempted next."
 msgstr "如果动态租户解析器返回 `null` ，则接下来尝试 <<static-tenant-resolution>> 。"
 
+#. type: Title ===
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Update resolved dynamic tenant configuration"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "It may be necessary to update the already resolved tenant configuration.\n"
 "For example, a client secret may have to be updated following a client secret update in the registered OIDC application."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "To update the configuration, use `OidcTenantConfigBuilder` to create a new instance of `OidcTenantConfig` and modify it as required before returning it:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Use `io.quarkus.oidc.runtime.TenantConfigBean` to get the already resolved tenant configuration. Alternatively, you can use the tenant `OidcTenantConfig` cached in your resolver."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "You may want to check if this configuration has already been updated, to avoid multiple redundant updates, for example, due to multliple redirects."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Use the resolved configuration to create a builder and update it as required."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Create an initial configuration if no configuration already exists."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "This is all you have to do update the already resolved dynamic tenantr configuration, without having to reconnect to the provider."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "If reconnecting is necessary, for example, the `UserInfo` endpoint address may have changed for the tenant to rediscover it,\n"
 "then simply set a `RoutingContext` `replace-tenant-configuration-context` property to `true`:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Replace the resolved tenant configuration and re-connect to the provider"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Finally, if you decide to update the resoved configuration while the existing OIDC session is still active, you may to have the session cookie removed and the user re-authenticated to align with the latest tenant configuration requirements. Set a `RoutingContext` `remove-session-cookie` property to `true` if it is necessary:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Update the tenant configuration, remove the session cookie and triger the user re-authentication. If possible, prefer to get the user log-out first, instead of triggering the re-authentication at the tenant resolution time."
 msgstr ""
@@ -687,6 +787,7 @@ msgstr ""
 msgid "Static tenant configuration resolution"
 msgstr "禁用租户配置"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -694,30 +795,36 @@ msgid ""
 "To configure the resolution of the tenant identifier, use one of the following options:"
 msgstr "在 `application.properties` 文件中设置多个租户配置时，只需指定租户标识符的解析方式。要配置租户标识符的解析，请使用以下选项之一："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<tenant-resolver>>"
 msgstr "<<tenant-resolver>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<configure-tenant-paths>>"
 msgstr "<<configure-tenant-paths>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<issuer-based-tenant-resolver>>"
 msgstr "<<issuer-based-tenant-resolver>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "<<header-based-tenant-resolver>>"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "<<default-tenant-resolver>>"
 msgstr "<<default-tenant-resolver>>"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -737,20 +844,24 @@ msgstr "用以下方式解决 `TenantResolver`"
 msgid "The following `application.properties` example shows how you can resolve the tenant identifier of two tenants named `a` and `b` by using the `TenantResolver` method:"
 msgstr "下面的 `application.properties` 示例展示了如何使用 `TenantResolver` 方法解析名为 `a` 和 `b` 的两个租户的租户标识符："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "You can return the tenant id of either `a` or `b` from `io.quarkus.oidc.TenantResolver`:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "In this example, the value of the last request path segment is a tenant id, but if required, you can implement a more complex tenant identifier resolution logic."
 msgstr "在本例中，最后一个请求路径段的值是租户 ID，但如果需要，可以实施更复杂的租户标识符解析逻辑。"
 
+#. type: Title ===
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Configure tenant paths"
 msgstr "配置租户路径"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -758,31 +869,37 @@ msgid ""
 "Here is how you can select the `hr` tenant for the `sayHello` endpoint of the `HelloResource` resource used in the previous example:"
 msgstr "您可以使用 `quarkus.oidc.tenant-paths` 配置属性来解析租户标识符，而不是使用 `io.quarkus.oidc.TenantResolver` 。下面是如何为上一个示例中使用的 `HelloResource` 资源的 `sayHello` 端点选择 `hr` 租户："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Same path-matching rules apply as for the `quarkus.http.auth.permission.authenticated.paths=/api/hello` configuration property from the previous example."
 msgstr "路径匹配规则与上一示例中的 `quarkus.http.auth.permission.authenticated.paths=/api/hello` 配置属性相同。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The wildcard placed at the end of the path represents any number of path segments. However the path is less specific than the `/api/hello`, therefore the `hr` tenant will be used to secure the `sayHello` endpoint."
 msgstr "路径末尾的通配符代表任意数量的路径段。不过，该路径不如 `/api/hello` 具体，因此将使用 `hr` 租户来确保 `sayHello` 端点的安全。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The wildcard in the `/*/hello` represents exactly one path segment. Nevertheless, the wildcard is less specific than the `api`, therefore the `hr` tenant will be used."
 msgstr "`/*/hello` 中的通配符正好代表一个路径段。不过，通配符不如 `api` 具体，因此将使用 `hr` 租户。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Path-matching mechanism works exactly same as in the xref:security-authorize-web-endpoints-reference.adoc#authorization-using-configuration[Authorization using configuration]."
 msgstr "路径匹配机制的工作原理与 xref:security-authorize-web-endpoints-reference.adoc#authorization-using-configuration[使用配置的授权] 机制完全相同。"
 
+#. type: Title ===
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Resolve tenants with a token issuer claim"
 msgstr "解决租户与令牌发放者的诉求"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -790,58 +907,70 @@ msgid ""
 "The following conditions must be met for the issuer-based resolution to work:"
 msgstr "支持 Bearer 令牌身份验证的 OIDC 租户可使用访问令牌的签发人进行解析。必须满足以下条件，基于发行者的解析才能生效："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The access token must be in the JWT format and contain an issuer (`iss`) token claim."
 msgstr "访问令牌必须采用 JWT 格式，并包含签发者 ( `iss` ) 令牌声明。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Only OIDC tenants with the application type `service` or `hybrid` are considered. These tenants must have a token issuer discovered or configured."
 msgstr "只考虑应用类型为 `service` 或 `hybrid` 的 OIDC 租户。这些租户必须发现或配置了令牌签发器。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The issuer-based resolution is enabled with the `quarkus.oidc.resolve-tenants-with-issuer` property. For example:"
 msgstr "使用 `quarkus.oidc.resolve-tenants-with-issuer` 属性可启用基于发行者的解析。例如"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenants `tenant-a` and `tenant-b` are resolved using a JWT access token's issuer `iss` claim value."
 msgstr "租户 `tenant-a` 和 `tenant-b` 使用 JWT 访问令牌的签发者 `iss` 索赔值进行解析。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenant `tenant-a` discovers the `issuer` from the OIDC provider's well-known configuration endpoint."
 msgstr "租户 `tenant-a` 可从 OIDC 提供商的知名配置端点发现 `issuer` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenant `tenant-b` configures the `issuer` because its OIDC provider does not support the discovery."
 msgstr "租户 `tenant-b` 配置 `issuer` ，因为其 OIDC 提供商不支持发现。"
 
+#. type: Title ===
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Resolve tenants with a token header name"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "OIDC tenants that support Bearer token authentication can be resolved using the custom HTTP header that contains the token.\n"
 "Header-based resolution is enabled when the `quarkus.oidc.token.header` property is set to a value other than `Authorization`. For example:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Tenant `tenant-a` is resolved when the incoming HTTP request contains the `Custom-Authorization-1` header."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Tenant `tenant-b` is resolved if the request contains the `Custom-Authorization-2` header."
 msgstr ""
 
+#. type: Title ===
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Use request path segments to find tenant id"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "The default resolution for a tenant identifier is convention based, whereby the authentication request must include the tenant identifier in one of the path segments of the request path."
 msgstr ""
@@ -852,6 +981,7 @@ msgstr ""
 msgid "The following `application.properties` example shows how you can configure two tenants named `google` and `github`:"
 msgstr "下面的 `application.properties` 示例显示了如何配置名为 `google` 和 `github` 的两个租户："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -865,16 +995,19 @@ msgstr "在提供的示例中，两个租户都将 OIDC `web-app` 应用程序�
 msgid "Finally, to complete the default tenant resolution, set the following configuration property:"
 msgstr "最后，要完成默认租户解析，请设置以下配置属性："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "If the endpoint is running on `http://localhost:8080`, you can also provide UI options for users to log in to either `http://localhost:8080/google` or `http://localhost:8080/github`, without having to add specific `/google` or `/github` JAX-RS resource paths."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "Tenant identifiers are also recorded in the session cookie names after the authentication is completed.\n"
 "Therefore, authenticated users can access the secured application area without requiring either the `google` or `github` path values to be included in the secured URL."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -882,94 +1015,114 @@ msgid ""
 "Still, it might be less practical because a tenant identifier must always be set as the last path segment value."
 msgstr "默认解析也可用于承载令牌身份验证。不过，这可能不太实用，因为租户标识符必须始终设置为最后一个路径段值。"
 
+#. type: Title ===
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Restricting OIDC request and response filters to specific tenants"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Both the `io.quarkus.oidc.common.OidcRequestFilter` and the `io.quarkus.oidc.common.OidcResponseFilter` filters can be restricted to specific tenants like in the example below:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Restrict the `CustomOidcRequestFilter` filter to OIDC tenants `tenant-one` and `tenant-two`."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "An OIDC response filter can be restricted to the specific OIDC endpoint or endpoints with the `quarkus.oidc.common.OidcEndpoint` annotation."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenant resolution for OIDC web-app applications"
 msgstr "为 OIDC 网络应用程序解决租户问题"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Tenant resolution for the OIDC `web-app` applications must be done at least 3 times during an authorization code flow, when the OIDC tenant-specific configuration affects how each of the following steps is run."
 msgstr "OIDC `web-app` 应用程序的租户解析必须在授权代码流程中至少进行 3 次，此时 OIDC 租户特定配置会影响以下每个步骤的运行方式。"
 
+#. type: Block title
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Step 1: Unauthenticated user accesses an endpoint and is redirected to OIDC provider"
 msgstr "步骤 1：未经身份验证的用户访问端点并被重定向到 OIDC 提供商"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "When an unauthenticated user accesses a secured path, the user is redirected to the OIDC provider to authenticate and the tenant configuration is used to build the redirect URI."
 msgstr "当未经身份验证的用户访问安全路径时，用户会被重定向到 OIDC 提供商处进行身份验证，并使用租户配置来构建重定向 URI。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "All the static and dynamic tenant resolution options listed in the <<static-tenant-resolution>> and <<tenant-config-resolver>> sections can be used to resolve a tenant."
 msgstr "<<static-tenant-resolution>> 和 <<tenant-config-resolver>> 部分列出的所有静态和动态租户解析选项都可用于解析租户。"
 
+#. type: Block title
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Step 2: The user is redirected back to the endpoint"
 msgstr "步骤 2：将用户重定向回终端"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "After the provider authentication, the user is redirected back to the Quarkus endpoint and the tenant configuration is used to complete the authorization code flow."
 msgstr "提供商认证后，用户会被重定向回 Quarkus 端点，并使用租户配置来完成授权代码流。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "All the static and dynamic tenant resolution options listed in the <<static-tenant-resolution>> and <<tenant-config-resolver>> sections can be used to resolve a tenant. Before the tenant resolution begins, the authorization code flow `state cookie` is used to set the already resolved tenant configuration id as a RoutingContext `tenant-id` attribute: both custom dynamic `TenantConfigResolver` and static `TenantResolver` tenant resolvers can check it."
 msgstr "<<static-tenant-resolution>> 和 <<tenant-config-resolver>> 部分列出的所有静态和动态租户解析选项都可用于解析租户。在租户解析开始前，授权代码流 `state cookie` 用于将已解析的租户配置 id 设置为 RoutingContext `tenant-id` 属性：自定义动态 `TenantConfigResolver` 和静态 `TenantResolver` 租户解析器都可以检查它。"
 
+#. type: Block title
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Step 3: Authenticated user accesses the secured path using the session cookie"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "The tenant configuration determines how the session cookie is verified and refreshed. Before the tenant resolution begins, the authorization code flow `session cookie` is used to set the already resolved tenant configuration id as a RoutingContext `tenant-id` attribute: both custom dynamic `TenantConfigResolver` and static `TenantResolver` tenant resolvers can check it."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "For example, here is how a custom `TenantConfigResolver` can avoid creating the already resolved tenant configuration, that may otherwise require blocking reads from the database or other remote sources:"
 msgstr "例如，以下是自定义 `TenantConfigResolver` 如何避免创建已解析的租户配置，否则可能需要阻止从数据库或其他远程源读取数据："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Let Quarkus use the already resolved tenant configuration if it has been resolved earlier."
 msgstr "如果先前已解决租户配置问题，则让 Quarkus 使用已解决的租户配置。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Check the request path to create tenant configurations."
 msgstr "检查创建租户配置的请求路径。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The default configuration may look like this:"
 msgstr "默认配置如下："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "The preceding example assumes that the `tenant-a`, `tenant-b` and default tenants are all used to protect the same endpoint paths. In other words, after the user has authenticated with the `tenant-a` configuration, this user will not be able to choose to authenticate with the `tenant-b` or default configuration before this user logs out and has a session cookie cleared or expired."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid ""
 "The situation where multiple OIDC `web-app` tenants protect the tenant-specific paths is less typical and also requires an extra care.\n"
@@ -978,16 +1131,19 @@ msgid ""
 "An easy, recommended way to avoid multiple `web-app` tenants conflicting with each other is to set the tenant specific session path as shown in the following example:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Set the tenant-specific cookie paths which makes sure the session cookie is only visible to the tenant which created it."
 msgstr "设置租户专用 cookie 路径，确保会话 cookie 仅对创建它的租户可见。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The default tenant configuration should be adjusted like this:"
 msgstr "默认租户配置应该这样调整："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid ""
@@ -995,76 +1151,91 @@ msgid ""
 "as it requires even more care from the custom resolvers, for example:"
 msgstr "在多个 OIDC `web-app` 租户保护特定租户路径的情况下，不建议使用相同的会话 cookie 路径，应避免使用，因为这需要自定义解析器等更加小心："
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Let Quarkus use the already resolved tenant configuration if the already resolved tenant is expected for the current path."
 msgstr "如果当前路径需要已解析的租户配置，则让 Quarkus 使用已解析的租户配置。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Remove the `tenant-id` attribute if the already resolved tenant configuration is not expected for the current path."
 msgstr "如果已解析的租户配置不符合当前路径的预期，则移除 `tenant-id` 属性。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Use the default tenant for all other paths. It is equivalent to removing the `tenant-id` attribute."
 msgstr "对所有其他路径使用默认租户。这相当于删除 `tenant-id` 属性。"
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Disabling tenant configurations"
 msgstr "禁用租户配置"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Custom `TenantResolver` and `TenantConfigResolver` implementations might return `null` if no tenant can be inferred from the current request and a fallback to the default tenant configuration is required."
 msgstr "如果无法从当前请求中推断出租户，并且需要回退到默认租户配置，则自定义 `TenantResolver` 和 `TenantConfigResolver` 实现可能会返回 `null` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "If you expect the custom resolvers always to resolve a tenant, you do not need to configure the default tenant resolution."
 msgstr "如果希望自定义解析器始终解析租户，则无需配置默认租户解析。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "To turn off the default tenant configuration, set  `quarkus.oidc.tenant-enabled=false`."
 msgstr "要关闭默认租户配置，请设置 `quarkus.oidc.tenant-enabled=false` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "The default tenant configuration is automatically disabled when `quarkus.oidc.auth-server-url` is not configured, but either custom tenant configurations are available or `TenantConfigResolver` is registered."
 msgstr "`quarkus.oidc.auth-server-url` 时，默认租户配置会自动禁用，但可以使用自定义租户配置或注册 `TenantConfigResolver` 。"
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, fuzzy
 msgid "Be aware that tenant-specific configurations can also be disabled, for example: `quarkus.oidc.tenant-a.tenant-enabled=false`."
 msgstr "请注意，特定租户的配置也可以被禁用，例如： `quarkus.oidc.tenant-a.tenant-enabled=false` 。"
 
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Programmatic OIDC start-up for multiple tenants"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Static OIDC tenants can be created programmatically like in the example below:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Observe OIDC event."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Create OIDC tenant 'tenant-one'."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "Create OIDC tenant 'tenant-two'."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 msgid "The code above is a programmatic equivalent to the following configuration in the `application.properties` file:"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/security-openid-connect-multitenancy.adoc
 #, no-wrap
 msgid "References"

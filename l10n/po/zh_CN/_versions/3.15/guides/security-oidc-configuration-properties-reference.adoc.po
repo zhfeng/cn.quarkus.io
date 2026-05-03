@@ -6,58 +6,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "OpenID Connect (OIDC) configuration properties"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "As a Quarkus developer, you configure the Quarkus OpenID Connect (OIDC) extension by setting the following properties in the `src/main/resources/application.properties` file."
 msgstr ""
 
+#. type: Title =
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "OIDC configuration"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
 
+#. type: Title =
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "Keycloak Dev Services configuration"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""
 
+#. type: Title =
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "References"
 msgstr "参考文献"
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "xref:security-oidc-bearer-token-authentication.adoc[OIDC Bearer token authentication]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "xref:security-oidc-bearer-token-authentication-tutorial.adoc[Protect a service application by using OpenID Connect (OIDC) Bearer token authentication]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "https://openid.net/connect/[OpenID Connect]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "xref:security-openid-connect-client-reference.adoc[OpenID Connect and OAuth2 Client and Filters Reference Guide]"
 msgstr "link:security-openid-connect-client.html[Quarkus - 使用OpenID Connect，OAuth2客户端和过滤器的参考指南]"
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "xref:security-authentication-mechanisms.adoc#oidc-jwt-oauth2-comparison[Choosing between OpenID Connect, SmallRye JWT, and OAuth2 authentication mechanisms]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "xref:security-authentication-mechanisms.adoc#combining-authentication-mechanisms[Combining authentication mechanisms]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/3.15/guides/security-oidc-configuration-properties-reference.adoc
 msgid "xref:security-overview.adoc[Quarkus Security]"
 msgstr ""

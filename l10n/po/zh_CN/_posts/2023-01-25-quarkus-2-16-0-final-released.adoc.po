@@ -64,7 +64,7 @@ msgstr "缓存扩展配置更灵活"
 msgid "Several security-related improvements focused on improving the developer experience"
 msgstr "几项与安全有关的改进侧重于改善开发者的体验"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -76,13 +76,13 @@ msgstr "迁移指南"
 msgid "To migrate from 2.15, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.16[our migration guide]."
 msgstr "要从2.15迁移，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.16[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Redis"
@@ -94,6 +94,7 @@ msgstr "睿迪思(Redis)"
 msgid "We continue to extend the set of operations supported by the Redis extension, this time with time series operations."
 msgstr "我们继续扩展Redis扩展所支持的操作集，这次是时间序列操作。"
 
+#. type: Plain text
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -102,7 +103,7 @@ msgid ""
 "More information about this feature is available in the link:/guides/redis-reference#preload-data-into-redis[Redis reference guide]."
 msgstr "与 Hibernate ORM 和 `import.sql` 文件类似，你也可以使用 `import.redis` 文件在启动时将数据导入 Redis 实例。有关此功能的更多信息，请参阅 link:/guides/redis-reference#preload-data-into-redis[Redis 参考指南] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, no-wrap
 msgid "gRPC"
@@ -114,12 +115,13 @@ msgstr "gRPC"
 msgid "The gRPC extension now offers custom exception handling and support for XDS."
 msgstr "gRPC扩展现在提供自定义异常处理和对XDS的支持。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Cache"
 msgstr "缓存"
 
+#. type: Plain text
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -127,12 +129,13 @@ msgid ""
 "allowing you to define the cache configuration at runtime."
 msgstr "大部分缓存扩展配置都是运行时配置，允许您在运行时定义缓存配置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, no-wrap
 msgid "Security"
 msgstr "安全"
 
+#. type: Plain text
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -152,12 +155,13 @@ msgstr "配置属性现在在 `@RolesAllowed` 注释的值中被展开。"
 msgid "The `OidcClientFilter` has been improved to be able to select named OIDC clients."
 msgstr " `OidcClientFilter` 已经得到改进，能够选择命名的OIDC客户。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Improvements to @IfBuildProfile and @UnlessBuildProfile"
 msgstr "对@IfBuildProfile和@UnlessBuildProfile的改进"
 
+#. type: Plain text
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -165,7 +169,7 @@ msgid ""
 "giving you more flexibility."
 msgstr "`@IfBuildProfile` 和 `@UnlessBuildProfile` 中增加了对 `allOf` 和 `anyOf` 的支持，为您提供了更大的灵活性。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -177,12 +181,13 @@ msgstr "完整的更新日志"
 msgid "You can get the full changelog of https://github.com/quarkusio/quarkus/releases/tag/2.16.0.CR1[2.16.0.CR1] and https://github.com/quarkusio/quarkus/releases/tag/2.16.0.Final[2.16.0.Final] on GitHub."
 msgstr "你可以在GitHub上获得 link:https://github.com/quarkusio/quarkus/releases/tag/2.16.0.CR1[2.16.0.CR1] 和 link:https://github.com/quarkusio/quarkus/releases/tag/2.16.0.Final[2.16.0.Final] 的完整更新日志。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -190,12 +195,13 @@ msgid ""
 "Many many thanks to each and everyone of them."
 msgstr "Quarkus 社区正在不断壮大，目前已有 link:https://github.com/quarkusio/quarkus/graphs/contributors[746 名贡献者] 。非常感谢他们中的每一个人。"
 
+#. type: Plain text
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy
 msgid "In particular for the 2.16 release, thanks to Ales Justin, Alexandre Dutra, Alexei Bratuhin, Alexey Loubyansky, Andy Damevin, Àngel Ollé Blázquez, Antonio Costa, Antonio Goncalves, Antonio Jacob Costa, arik-dig, Ashish Ranjan, benstone, Bill Burke, Brad Hards, Bruno Leonardo Gonçalves, brunobat, Chexpir, Chris Laprun, Christian von Atzigen, Clement Escoffier, Damon Sutherland, David Arnold, David M. Lloyd, Eric Deandrea, Erin Schnabel, Falko Modler, Fikru  Mengesha, Foivos Zakkak, franz1981, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gwenneg Lepage, Holly Cummins, imperatorx, Ioannis Canellos, Jan Martiska, Jose Carvajal, Josef Andersson, jtama, Julien Ponge, Katia Aresti, Kevin Dubois, Ladislav Thon, Loïc Mathieu, Manyanda Chitimbo, Marc Nuri, Marcel Lohmann, Marco Bungart, Marco Schaub, Martin Kouba, Matej Novotny, Max Rydahl Andersen, Michael Edgar, Michal Vavřík, Michelle Purcell, Mihai.Poenaru, oliv37, Orbifoldt, Ozan Gunalp, pablo gonzalez granados, Pedro Igor, Roberto Cortez, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Severin Gehwolf, Stuart Douglas, sturdy5, Stéphane Épardaud, Vaclav Svejcar, Yoann Rodière, Yubao Liu, and zedbeit."
 msgstr "特别是 2.16 版本的发布，要感谢 Ales Justin、Alexandre Dutra、Alexei Bratuhin、Alexey Loubyansky、Andy Damevin、Àngel Ollé Blázque 安东16 版本，感谢 Ales Justin、Alexandre Dutra、Alexei Bratuhin、Alexey Loubyansky、Andy Damevin、Àngel Ollé Blázquez、Antonio Costa、Antonio Goncalves、Antonio Jacob Costa、arik-dig、Ashish Ranjan、benstone、Bill Burke、Brad Hards、Bruno Leonardo Gonçalves、brunobat、Chexpir、Chris Laprun、Christian von Atzigen、Clement Escoffier、Damon Sutherland、David Arnold、David M．Lloyd, Eric Deandrea, Erin Schnabel, Falko Modler, Fikru Mengesha, Foivos Zakkak, franz1981, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gwenneg Lepage, Holly Cummins, imperatorx, Ioannis Canellos, Jan Martiska, Jose Carvajal, Josef Andersson、jtama, Julien Ponge, Katia Aresti, Kevin Dubois, Ladislav Thon, Loïc Mathieu, Manyanda Chitimbo, Marc Nuri, Marcel Lohmann, Marco Bungart, Marco Schaub, Martin Kouba, Matej Novotny, Max Rydahl Andersen, Michael Edgar, Michal Vavřík, Michelle Purcell, Mihai.Poenaru, oliv37, Orbifoldt, Ozan Gunalp, pablo gonzalez granados, Pedro Igor, Roberto Cortez, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Severin Gehwolf, Stuart Douglas, sturdy5, Stéphane Épardaud, Vaclav Svejcar, Yoann Rodière, Yubao Liu, and zedbeit."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-25-quarkus-2-16-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

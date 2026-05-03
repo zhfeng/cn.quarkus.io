@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/main/guides/picocli.adoc
 #, fuzzy, no-wrap
 msgid "Command Mode with Picocli"
@@ -43,12 +43,13 @@ msgstr "Quarkus提供对使用Picocli的支持。本指南包含 `picocli` 扩�
 msgid "If you are not familiar with the Quarkus Command Mode, consider reading the xref:command-mode-reference.adoc[Command Mode reference guide] first."
 msgstr "如果你不熟悉Quarkus命令模式，可以考虑先阅读 link:command-mode-reference.html[命令模式参考指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/picocli.adoc
 #, no-wrap
 msgid "Extension"
 msgstr "扩展"
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 #, fuzzy
 msgid ""
@@ -73,18 +74,22 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
+#. type: Title =
 #: _versions/main/guides/picocli.adoc
 msgid "Building a command line application"
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/picocli.adoc
 msgid "Simple application"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "A simple Picocli application with only one `Command` can be created as follows:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "If there is only one class annotated with `picocli.CommandLine.Command`, it will be used automatically as the entry point of the command line application."
 msgstr ""
@@ -95,6 +100,7 @@ msgstr ""
 msgid "All classes annotated with `picocli.CommandLine.Command` are registered as CDI beans."
 msgstr "所有用 `picocli.CommandLine.Command` 注释的类都被注册为CDI Bean。"
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid ""
 "Beans annotated with `@CommandLine.Command` should not use proxied scopes (e.g. do not use `@ApplicationScoped`)\n"
@@ -109,6 +115,7 @@ msgstr ""
 msgid "Command line application with multiple Commands"
 msgstr "具有多条命令的命令行应用程序"
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 #, fuzzy
 msgid ""
@@ -158,6 +165,7 @@ msgstr "你可以在这里返回 `java.lang.Class` 的实例。在这种情况�
 msgid "Configure CDI Beans with parsed arguments"
 msgstr "用解析的参数配置CDI Bean"
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 #, fuzzy
 msgid ""
@@ -172,6 +180,7 @@ msgstr "您可以使用 `Event<CommandLine.ParseResult>` 或 `CommandLine.ParseR
 msgid "`@ApplicationScoped` used for lazy initialization"
 msgstr " `@ApplicationScoped` 用于懒惰的初始化"
 
+#. type: Title ==
 #: _versions/main/guides/picocli.adoc
 msgid "Providing your own QuarkusMain"
 msgstr ""
@@ -188,97 +197,117 @@ msgstr "你也可以提供你自己的应用程序入口点，用 `QuarkusMain` 
 msgid "Quarkus-compatible `CommandLine.IFactory` bean created by `picocli` extension."
 msgstr "Quarkus兼容的 `CommandLine.IFactory` bean，由 `picocli` extension创建。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/picocli.adoc
 #, no-wrap
 msgid "Development Mode"
 msgstr "开发模式"
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid ""
 "In the development mode, i.e. when running `mvn quarkus:dev`, the application is executed and restarted every time the `Space bar` key is pressed. You can also pass arguments to your command line app via the `quarkus.args` system property, e.g. `mvn quarkus:dev -Dquarkus.args='--help'` and `mvn quarkus:dev -Dquarkus.args='-c -w --val 1'`.\n"
 "For Gradle projects, arguments can be passed using `--quarkus-args`."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "If you're creating a typical Quarkus application (e.g., HTTP-based services) that includes command-line functionality, you'll need to handle the application's lifecycle differently. In the `Runnable.run()` method of your command, make sure to use `Quarkus.waitForExit()` or `Quarkus.asyncExit()`. This will prevent the application from shutting down prematurely and ensure a proper shutdown process."
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/picocli.adoc
 msgid "Packaging your application"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "A Picocli command line application can be packaged in multiple formats (e.g. a JAR, a native executable) and can be published to various repositories (e.g. Homebrew, Chocolatey, SDKMAN!)."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/picocli.adoc
 msgid "As a jar"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "A Picocli command line application is a standard Quarkus application and as such can be published as a JAR in various packaging formats (e.g. fast-jar, uber-jar)."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "In the context of a command line application, building an uber-jar is more practical if you plan on publishing the JAR as is."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "For more information about how to build an uber-jar, see our documentation:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "For https://quarkus.io/guides/maven-tooling#uber-jar-maven[Maven]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "For https://quarkus.io/guides/gradle-tooling#building-uber-jars[Gradle]"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "You can then execute the application by using the standard `java -jar your-application.jar` command."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "Using plugins such as the https://github.com/brianm/really-executable-jars-maven-plugin[really-executable-jar-maven-plugin] can be handy to simplify the execution of your command line application."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/picocli.adoc
 msgid "As a native executable"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "You can also build a https://quarkus.io/guides/building-native-image[native executable] but keep in mind that native executables are not portable and that you need one binary per supported platform."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/picocli.adoc
 msgid "Publishing the application"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid ""
 "Publishing your command line application to a repository makes it a lot easier to consume.\n"
 "Various application repositories are available depending on your requirements such as https://sdkman.io/[SDKMAN!], https://brew.sh/[Homebrew] for macOS, or https://chocolatey.org/[Chocolatey] for Windows."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "To publish to these repositories, we recommend the usage of https://jreleaser.org/[JReleaser]."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "JReleaser adds executable wrappers around your JAR for your application to be easily executable."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/picocli.adoc
 msgid "More information"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 msgid "You can also consult the https://picocli.info/#_packaging_your_application[Picocli official documentation] for more general information about how to package Picocli applications."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/picocli.adoc
 #, fuzzy, no-wrap
 msgid "Kubernetes support"
@@ -325,12 +354,13 @@ msgstr "此外，你可以通过属性 `quarkus.kubernetes.arguments` ，提供�
 msgid "Finally, the Kubernetes job will be launched every time it is installed in Kubernetes. You can know more about how to run Kubernetes jobs in this https://kubernetes.io/docs/concepts/workloads/controllers/job/#running-an-example-job[document]."
 msgstr "最后，Kubernetes 作业将在每次安装到 Kubernetes 时启动。有关如何运行 Kubernetes 作业的更多信息，请参阅本 link:https://kubernetes.io/docs/concepts/workloads/controllers/job/#running-an-example-job[文档] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/picocli.adoc
 #, no-wrap
 msgid "Configuration Reference"
 msgstr "配置参考"
 
+#. type: Plain text
 #: _versions/main/guides/picocli.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

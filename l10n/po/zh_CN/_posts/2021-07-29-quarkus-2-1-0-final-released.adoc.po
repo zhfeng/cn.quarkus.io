@@ -34,13 +34,13 @@ msgstr "在2.0的肩膀之上，2.1包括了大量的完善和改进，到处都
 msgid "Today, we release Quarkus 2.1.0.Final which includes a lot of refinements and improvements and a couple of new features:"
 msgstr "今天，我们发布了Quarkus 2.1.0.Final，其中包括大量的完善和改进以及一些新的功能。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Dev Service for Keycloak"
 msgstr "为Keycloak提供开发服务"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Reactive Microsoft SQL Server extension"
@@ -52,7 +52,7 @@ msgstr "反应性的微软SQL服务器扩展"
 msgid "Upgrade to Kotlin 1.5"
 msgstr "升级到Kotlin 1.5"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -64,7 +64,7 @@ msgstr "迁移指南"
 msgid "To migrate from 2.0, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.1[our migration guide]."
 msgstr "要从2.0迁移，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.1[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
@@ -88,7 +88,7 @@ msgstr "很多Quarkus扩展已经被覆盖，在2.1中，我们 link:/guides/sec
 msgid "2.1 adds a reactive driver extension for Microsoft SQL Server - `quarkus-reactive-mssql-client`."
 msgstr "2.1增加了一个针对Microsoft SQL Server的反应式驱动扩展 - `quarkus-reactive-mssql-client` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kotlin 1.5"
@@ -100,7 +100,7 @@ msgstr "Kotlin 1.5"
 msgid "We upgraded our Kotlin extension and tooling to 1.5, namely 1.5.21."
 msgstr "我们将Kotlin扩展和工具升级到1.5，即1.5.21。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full Changelog"
@@ -112,12 +112,13 @@ msgstr "完整的修改日志"
 msgid "You can get the full changelogs of https://github.com/quarkusio/quarkus/releases/tag/2.1.0.CR1[2.1.0.CR1] and https://github.com/quarkusio/quarkus/releases/tag/2.1.0.Final[2.1.0.Final] on GitHub."
 msgstr "你可以在GitHub上获得 link:https://github.com/quarkusio/quarkus/releases/tag/2.1.0.CR1[2.1.0.CR1] 和 link:https://github.com/quarkusio/quarkus/releases/tag/2.1.0.Final[2.1.0.Final] 的完整更新日志。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -131,7 +132,7 @@ msgstr "Quarkus 社区正在不断壮大，目前已有 link:https://github.com/
 msgid "In particular for the 2.1 release, thanks to Alexey Loubyansky, Amos Feng, André Gonçalves, Andy Damevin, Andy Fedotov, antoniodvr, axblu, Bernhard Lutzmann, Bill Burke, Bobby Alex Philip, Bryan Varner, chetankokil, Chris Laprun, Christian Morin, Christopher, Clement Escoffier, Cyrille Le Clerc, Dan Heidinga, Davide, Dirk Van Haerenborgh, Dominika Vagnerova, Eric Deandrea, Erin Schnabel, essobedo, Falko Modler, Foivos Zakkak, GavinRay97, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gustavo Luszczynski, Gytis Trikleris, Heiko W. Rupp, Ilya Leoshkevich, Ioannis Canellos, Ivan Greguric Ortolan, James R. Perkins, Jan Martiška, Janez Pintar, JiriOndrusek, Jose, Joshua Roys, Julien Ponge, Justin Lee, Katia Aresti, Kay Ulbrich, Ken Finnigan, Kjetil Nygård, Knut Wannheden, Kyrylo Shpak, Ladislav Thon, Leonardo, Loïc Mathieu, luneo7, Maciej Swiderski, Maciej Walkowiak, manusa, Manyanda Chitimbo, Marc Nuri, Marcel Hanser, Marco Bungart, Martin Kouba, Martin Panzer, Matej Novotny, Michał Szynkiewicz, Mingyuan Wu, Nicolas Filotto, Ozan Gunalp, Patryk Najda, Paul Carter-Brown, Paul Robinson, Phillip Krüger, Renato Pereira Back, Roberto Cortez, Ron Sigal, Rostislav Svoboda, Sanne Grinovero, Sebastien Dionne, Sergey Beryozkin, Stephane Epardaud, Stuart Douglas, Sven Kattelans, Thomas Segismont, Tomas Hofman, xstefank and Yoann Rodière."
 msgstr "特别是对于2.1版本，感谢Alexey Loubyansky、Amos Feng、Andre?Gonc?alves, Andy Damevin, Andy Fedotov, antoniodvr, axblu, Bernhard Lutzmann, Bill Burke, Bobby Alex Philip, Bryan Varner, chetankokil, Chris Laprun, Christian Morin, Christopher, Clement Escoffier, Cyrille Le Clerc, Dan Heidinga, Davide。Dirk Van Haerenborgh, Dominika Vagnerova, Eric Deandrea, Erin Schnabel, essobedo, Falko Modler, Foivos Zakkak, GavinRay97, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gustavo Luszczynski, Gytis Trikleris, Heiko W。Rupp, Ilya Leoshkevich, Ioannis Canellos, Ivan Greguric Ortolan, James R. Perkins, Jan Marti?ka, Janez Pintar, JiriOndrusek, Jose, Joshua Roys, Julien Ponge, Justin Lee, Katia Aresti, Kay Ulbrich, Ken Finnigan, Kjetil Nygrd, Knut Wannheden, Kyrylo Shpak, Ladislav Thon,Leonardo, Loc Mathieu, luneo7, Maciej Swiderski, Maciej Walkowiak, manusa, Manyanda Chitimbo, Marc Nuri, Marcel Hanser, Marco Bungart, Martin Kouba, Martin Panzer, Matej Novotny, Micha?Szynkiewicz, Mingyuan Wu, Nicolas Filotto, Ozan Gunalp, Patryk Najda, Paul Carter-Brown, Paul Robinson, Phillip Krger, Renato Pereira Back, Roberto Cortez, Ron Sigal,Rostislav Svoboda, Sanne Grinovero, Sebastien Dionne, Sergey Beryozkin, Stephane Epardaud, Stuart Douglas, Sven Kattelans, Thomas Segismont, Tomas Hofman, xstefank and Yoann Rodire."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-07-29-quarkus-2-1-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

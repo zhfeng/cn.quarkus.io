@@ -28,6 +28,7 @@ msgstr "使用Pact和Quarkus来驯服微服务测试"
 msgid "With Quarkus 3 and the Quarkiverse Pact extensions, Quarkus can run continuous tests continuously."
 msgstr "通过Quarkus 3和Quarkiverse Pact扩展，Quarkus可以连续运行连续测试。"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -36,6 +37,7 @@ msgid ""
 "But how do you make sure the microservices work together? How do you know if the system as a whole works?"
 msgstr "在微服务架构中，确保每个微服务都能正常运行（相对）容易。微服务通常规模较小，易于测试。但如何确保微服务协同工作？如何知道系统作为一个整体是否能正常运行？"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -43,12 +45,13 @@ msgid ""
 "Contract testing gives more confidence than testing individual services, but the cost is far lower than end-to-end testing."
 msgstr "答案之一就是合同测试。合同测试比测试单项服务更有把握，但成本却远远低于端到端测试。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "What's wrong with end-to-end testing?"
 msgstr "端到端测试有什么问题？"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -58,6 +61,7 @@ msgid ""
 "(If this sounds familiar, Quarkus can help https://www.redhat.com/en/resources/greener-java-applications-detail#section-7[lower the resource consumption of the stack], but that's a different topic!)"
 msgstr "即使在开发过程中，为单个微服务建立所有依赖关系和消费者也是一项艰巨的工作。最近，我们的咨询同事收到了一家初创科技公司首席技术官的求助，他无法在配备 64 GB 内存的全新笔记本电脑上运行他的开发堆栈，因为应用程序涉及数十个微服务，而且它们消耗了太多资源。(如果这听起来很熟悉，Quarkus 可以帮助 link:https://www.redhat.com/en/resources/greener-java-applications-detail#section-7[降低堆栈的资源消耗] ，但这是另一个话题了！）。"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -72,12 +76,13 @@ msgstr "团队有时会通过提供可注入本地代码的远程环境来应对
 msgid "While these environments can be useful, they can also be fragile, and managing them often needs a dedicated platform team."
 msgstr "虽然这些环境可能是有用的，但它们也可能是脆弱的，而且管理它们往往需要一个专门的平台团队。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "What's wrong with mocks?"
 msgstr "嘲讽有什么不好？"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -95,12 +100,13 @@ msgstr "当系统其他部分的 \"真实 \"测试版本过于繁重时，团队
 msgid "Sometimes, the first time these assumptions are tested is in production."
 msgstr "有时，这些假设第一次被测试是在生产中。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "Contract tests"
 msgstr "合同测试"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -120,6 +126,7 @@ msgstr "一个生成的模拟，消费者使用它来验证消费者代码的行
 msgid "Generated functional tests, which is validates the provider behaves as expected. These tests are generated from the same contract and examples as the consumer's mock."
 msgstr "生成的功能测试，即验证提供者的行为是否符合预期。这些测试是由与消费者模拟相同的合同和实例生成的。"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -129,12 +136,13 @@ msgid ""
 "My colleagues in Red Hat App Dev Consulting have written some great articles about https://appdev.consulting.redhat.com/tracks/contract-first/[how they use contract-first development]."
 msgstr "在 link:https://en.wikipedia.org/wiki/Test-driven_development[测试驱动开发（TDD）] 中，您可以从测试（对所需行为的描述）开始，然后倒推到实现。合同测试也是如此；您可以从合同开始，合同描述了服务需要做的事情，然后倒推到实现。这就是所谓的 \"合约优先\"，它是一种非常有效的开发技术。我在 Red Hat App Dev Consulting 的同事写了几篇很棒的文章，介绍了 link:https://appdev.consulting.redhat.com/tracks/contract-first/[他们如何使用 \"契约优先 \"开发方法] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "Contract test options"
 msgstr "合同测试选项"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -168,6 +176,7 @@ msgstr "它是独立的，可以在不建立任何额外服务的情况下运行
 msgid "Although Pact started as a REST-only solution, it is now https://docs.pact.io/blog/2022/11/11/pact-plugin-framework-launch[pluggable], which allows it to support a range of protocols and transports"
 msgstr "尽管Pact一开始只是一个REST解决方案，但它现在是 link:https://docs.pact.io/blog/2022/11/11/pact-plugin-framework-launch[可插拔的] ，这使它能够支持一系列的协议和传输。"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -175,12 +184,13 @@ msgid ""
 "(such as validation based on an OpenAPI spec) and contract testing."
 msgstr "Pact 团队很 link:https://pactflow.io/blog/contract-testing-using-json-schemas-and-open-api-part-1/[好地概述] 了基于模式的测试（如基于 OpenAPI 规范的验证）和合同测试的优缺点。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "What's new with Pact and Quarkus"
 msgstr "契约》和《夸克》的新内容"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -188,6 +198,7 @@ msgid ""
 "but this support was limited. In particular, Pact tests couldn't run in continuous testing mode."
 msgstr "在 Quarkus 中使用 Pact 并不是什么新鲜事；Quarkus 的贡献者在 Quarkus 2.0 中对 Quarkus 核心进行了 link:https://github.com/quarkusio/quarkus/commit/70902a005842a083814aea13567b8bc82574a021[一些] link:https://github.com/quarkusio/quarkus/commit/910227622e0e4c51c111872962cfd5364674673a#diff-40752b74da493b2aa06facf4b1ebd7a81736f6318dcfe76ddae90deafa57fad7[类负载调整] ，以支持 Pact 测试，但这种支持是有限的。尤其是，Pact 测试无法在连续测试模式下运行。"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -203,6 +214,7 @@ msgstr "Quarkus 3.0 将对 Pact 的支持从 Quarkus core 移到了自己的 Qua
 msgid "To install the consumer extensions, run"
 msgstr "要安装消费者扩展，运行"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid "quarkus ext add io.quarkiverse.pact:quarkus-pact-consumer"
@@ -214,6 +226,7 @@ msgstr "quarkus ext add io.quarkiverse.pact:quarkus-pact-consumer"
 msgid "The provider extension can be installed with"
 msgstr "提供者扩展可以通过以下方式安装"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid "quarkus ext add io.quarkiverse.pact:quarkus-pact-provider"
@@ -225,12 +238,13 @@ msgstr "quarkus ext add io.quarkiverse.pact:quarkus-pact-provider"
 msgid "For a deeper dive into contract testing, check out https://www.youtube.com/watch?v=d9CSY8HuZ9U[Quarkus Insights #117]."
 msgstr "关于合同测试的更深入研究，请查看 link:https://www.youtube.com/watch?v=d9CSY8HuZ9U[Quarkus Insights #117] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
 msgstr "摘要"
 
+#. type: Plain text
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy
 msgid ""
@@ -239,7 +253,7 @@ msgid ""
 "great workflow as other tests."
 msgstr "如果您正在使用微服务，就应该认真考虑合约测试。通过新的 Pact 扩展，Quarkus 3 允许使用与其他测试相同的出色工作流程来开发合约测试。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-15-pact-and-quarkus-3.adoc
 #, fuzzy, no-wrap
 msgid "More resources"

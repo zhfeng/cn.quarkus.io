@@ -16,15 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Title =
 #: _guides/_attributes.adoc
 msgid "Dev Services for Kafka"
 msgstr "Kafka开发服务（Dev Services）"
 
+#. type: Title =
 #: _guides/_attributes.adoc
 #, fuzzy
 msgid "Kafka Dev UI"
 msgstr "Kafka开发用户界面"
 
+#. type: Title =
 #: _guides/_attributes.adoc
 #, fuzzy
 msgid "Dev Services for Pulsar"

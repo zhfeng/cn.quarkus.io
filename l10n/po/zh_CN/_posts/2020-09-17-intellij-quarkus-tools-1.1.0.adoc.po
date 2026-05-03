@@ -22,6 +22,7 @@ msgstr ""
 msgid "Quarkus Tools for IntelliJ 1.1.0 released!"
 msgstr "Quarkus Tools for IntelliJ 1.1.0 已发布！"
 
+#. type: Plain text
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy
 msgid ""
@@ -29,19 +30,19 @@ msgid ""
 "This release brings support for YAML configuration files and bug fixes."
 msgstr "我们非常高兴地宣布 Quarkus Tools for IntelliJ 1.1.0 正式版发布。该版本带来了对 YAML 配置文件的支持和错误修复。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy, no-wrap
 msgid "application.yaml support"
 msgstr "支持 application.yaml"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy, no-wrap
 msgid "Code completion (Ctrl + ENTER)"
 msgstr "代码完成（Ctrl + ENTER）。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy, no-wrap
 msgid "Property documentation"
@@ -53,7 +54,7 @@ msgstr "财产文件"
 msgid "Select a property and press Ctrl+Q"
 msgstr "选择一个属性并按Ctrl+Q"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy, no-wrap
 msgid "Syntax validation"
@@ -65,12 +66,13 @@ msgstr "语法验证"
 msgid "Wrong property key names or values are reported"
 msgstr "报告错误的属性键名或值"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy, no-wrap
 msgid "Moving Forward"
 msgstr "向前迈进"
 
+#. type: Plain text
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy
 msgid ""
@@ -84,7 +86,7 @@ msgstr "如果您有任何问题、建议或反馈，请随时 link:https://gith
 msgid "Thank you for reading and stay tuned for the next release!"
 msgstr "谢谢您的阅读，请继续关注下一次发布。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-09-17-intellij-quarkus-tools-1.1.0.adoc
 #, fuzzy, no-wrap
 msgid "Links"

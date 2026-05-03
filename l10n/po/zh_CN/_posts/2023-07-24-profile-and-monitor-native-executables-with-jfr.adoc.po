@@ -28,6 +28,7 @@ msgstr "使用 JFR 配置和监控本地可执行文件"
 msgid "Learn more about how you can profile and monitor Quarkus native executables with JFR."
 msgstr "进一步了解如何使用 JFR 配置和监控 Quarkus 本机可执行文件。"
 
+#. type: Plain text
 #: _posts/2023-07-24-profile-and-monitor-native-executables-with-jfr.adoc
 #, fuzzy
 msgid ""
@@ -36,6 +37,7 @@ msgid ""
 "The good news is that you can still use JDK Flight Recorder (JFR) when running your Quarkus applications as native executables."
 msgstr "Quarkus 本地可执行文件有很多优点，比如启动时间更快，占用空间更小。不过，一个主要缺点是这种本地二进制文件的可观察性可能较差。好消息是，在将 Quarkus 应用程序作为本地可执行文件运行时，您仍然可以使用 JDK Flight Recorder (JFR)。"
 
+#. type: Plain text
 #: _posts/2023-07-24-profile-and-monitor-native-executables-with-jfr.adoc
 #, fuzzy
 msgid ""

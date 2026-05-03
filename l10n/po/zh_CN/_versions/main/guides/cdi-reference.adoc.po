@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Contexts and Dependency Injection"
 msgstr "上下文和依赖性注入"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Quarkus DI solution (also called ArC) is based on the https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1.html[Jakarta Contexts and Dependency Injection 4.1, window=\"_blank\"] specification.\n"
@@ -34,20 +35,23 @@ msgid ""
 "Most of the existing CDI code should work just fine but there are some small differences which follow from the Quarkus architecture and goals."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "If you're new to CDI we recommend you to read the xref:cdi.adoc[Introduction to CDI] first."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "The xref:cdi-integration.adoc[CDI integration guide] has more detail on common CDI-related integration use cases, and example code for solutions."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Bean Discovery"
 msgstr "豆类的发现"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -92,6 +96,7 @@ msgstr " `quarkus.index-dependency` 中引用的依赖性， `application.proper
 msgid "and Quarkus integration code."
 msgstr "和Quarkus集成代码。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -107,12 +112,13 @@ msgstr "没有 bean link:https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-s
 msgid "Quarkus extensions may declare additional discovery rules. For example, `@Scheduled` business methods are registered even if the declaring class is not annotated with a bean defining annotation."
 msgstr "Quarkus扩展可以声明额外的发现规则。例如， `@Scheduled` 业务方法被注册，即使声明的类没有用Bean定义注解。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "How to Generate a Jandex Index"
 msgstr "如何生成一个Jandex索引"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "A dependency with a Jandex index is automatically scanned for beans.\n"
@@ -143,12 +149,13 @@ msgstr "您可以在 link:https://plugins.gradle.org/plugin/org.kordamp.gradle.j
 msgid "Gradle (Kotlin DSL)"
 msgstr "或者，如果您使用Gradle Kotlin DSL。"
 
-#. type: delimited block *
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "If you can't modify the dependency, you can still index it by adding `quarkus.index-dependency` entries to your `application.properties`:"
 msgstr "如果你不能修改依赖关系，你仍然可以通过在你的 `application.properties` ，添加 `quarkus.index-dependency` 条目来索引它。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "If no `artifact-id` is specified then all dependencies with the specified `group-id` are indexed."
 msgstr ""
@@ -177,12 +184,13 @@ msgstr "值是由名称 `acme` 确定的依赖关系的组ID。"
 msgid "Value is an artifact id for a dependency identified by name `acme`."
 msgstr "值是由名称识别的依赖关系的工件ID `acme` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "How To Exclude Types and Dependencies from Discovery"
 msgstr "如何从发现中排除类型和依赖关系"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -198,6 +206,7 @@ msgstr "第三方库中的某些 Bean 可能无法在 Quarkus 中正常工作。
 msgid "Value Examples"
 msgstr "价值实例"
 
+#. type: Table
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "Value"
@@ -275,6 +284,7 @@ msgstr "从 `org.acme` 包中排除所有类型。"
 msgid "Exclude all types whose simple name is `Bar`"
 msgstr "排除所有类型，其简单名称为 `Bar` "
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -282,10 +292,12 @@ msgid ""
 "For example, because it contains a `beans.xml` descriptor."
 msgstr "也可以排除在其他情况下扫描豆类的依赖工件。例如，因为它包含 `beans.xml` 描述符。"
 
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 msgid "String-Based Qualifiers"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The `@Named` qualifier, which you might be familiar with, is a _string-based qualifier_.\n"
@@ -294,12 +306,14 @@ msgid ""
 "Specific qualifier types should be preferred."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "However, sometimes string-based qualifiers are necessary.\n"
 "In that case, avoid the `@Named` qualifier, because in CDI, it works differently to all other qualifiers."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Specifically: if the only qualifier a bean has is `@Named`, it also automatically gets `@Default`.\n"
@@ -307,10 +321,12 @@ msgid ""
 "For example:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "In this case, the `Consumer#bean` injection point will cause ambiguity error, because both `MyBean` producers will have the `@Default` qualifier."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Instead of `@Named`, use `@io.smallrye.common.annotation.Identifier`.\n"
@@ -318,30 +334,36 @@ msgid ""
 "So if we rewrite the example to use `@Identifier`:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Only the first producer will get the `@Default` qualifier, the second will not.\n"
 "Hence, there will be no error, and everything will work as expected."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "When To Use `@Named`?"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "There is one case where `@Named` is the right thing to use: specifying an external identifier for a different language that doesn't support dependency injection directly."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "For example:"
 msgstr "例如："
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "As you can see, in the application code, the bean is injected without a qualifier.\n"
 "The bean name is only used to refer to the bean in the other language."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Historically, the most common external language that used bean names was JSF.\n"
@@ -349,16 +371,18 @@ msgid ""
 "In a Qute template, one would refer to the bean using its name:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Outside of this use-case, just use `@Identifier`."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Native Executables and Private Members"
 msgstr "本地可执行文件和私有成员"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Quarkus is using GraalVM to build a native executable.\n"
@@ -367,6 +391,7 @@ msgid ""
 "Those registrations result in a bigger native executable."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "And if Quarkus DI needs to access a private member it, *has to use reflection*.\n"
@@ -374,6 +399,7 @@ msgid ""
 "This involves injection fields, constructors and initializers, observer methods, producer methods and fields, disposers, and interceptor methods."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -405,12 +431,13 @@ msgstr "或构造器注入。"
 msgid "A package-private constructor injection. `@Inject` is optional in this particular case."
 msgstr " `@Inject` ，在这种特殊情况下是可选的。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "[[supported_features]][[limitations]] Supported Features and Limitations"
 msgstr "  支持的功能和限制"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -454,6 +481,7 @@ msgstr "`@SessionScoped`"
 msgid "Only with the Undertow extension; see xref:cdi.adoc#bean-scope-available[here] for details"
 msgstr "范围和背景；详见 link:cdi.html#bean-scope-available[这里]"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -461,6 +489,7 @@ msgid ""
 "The following methods are considered asynchronous and `@Dependent` instances are only destroyed when the asynchronous action completes:"
 msgstr "_方法调用者_ 实现支持异步方法。以下方法被视为异步方法， `@Dependent` 实例只有在异步操作完成时才会被销毁："
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "methods that declare a return type of `CompletionStage`, `Uni`, or `Multi`"
@@ -472,24 +501,25 @@ msgstr "声明返回类型为 `CompletionStage` , `Uni` , 或 `Multi`"
 msgid "These additional features are not covered by the CDI Lite TCK."
 msgstr "CDI Lite TCK 不包括这些附加功能。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, no-wrap
 msgid "Non-standard Features"
 msgstr "非标准功能"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Eager Instantiation of Beans"
 msgstr "豆类的急切实例化"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Lazy By Default"
 msgstr "默认的懒惰"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -539,12 +569,13 @@ msgstr "注入本身并不导致 `CoolService` 。一个客户代理被注入了
 msgid "The first invocation upon the injected proxy triggers the instantiation of `CoolService`."
 msgstr "对注入的代理的第一次调用触发了 `CoolService` 的实例化。"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Startup Event"
 msgstr "初创企业活动"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "However, if you really need to instantiate a bean eagerly, you can:"
 msgstr ""
@@ -561,6 +592,7 @@ msgstr "声明一个 `StartupEvent` 的观察者--在这种情况下，bean的�
 msgid "A `CoolService` is created during startup to service the observer method invocation."
 msgstr "在启动过程中会创建一个 `CoolService` ，以服务于观察者方法的调用。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "Use the bean in an observer of the `StartupEvent` - normal scoped beans must be used as described in <<lazy_by_default>>:"
@@ -602,7 +634,7 @@ msgstr "当应用程序启动时，Bean构造函数被调用，产生的上下�
 msgid "Quarkus users are encouraged to always prefer the `@Observes StartupEvent` to `@Initialized(ApplicationScoped.class)` as explained in the xref:lifecycle.adoc[Application Initialization and Termination] guide."
 msgstr "我们鼓励Quarkus用户总是首选 `@Observes StartupEvent` ，而不是 `@Initialized(ApplicationScoped.class)` ，这在 link:lifecycle.html[应用程序初始化和终止] 指南中有所解释。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Request Context Lifecycle"
@@ -638,7 +670,7 @@ msgstr "在事件的观察者通知完成后，如果通知开始时它还没有
 msgid "An event with qualifier `@Initialized(RequestScoped.class)` is fired when the request context is initialized for an observer notification. Moreover, the events with qualifiers `@BeforeDestroyed(RequestScoped.class)` and `@Destroyed(RequestScoped.class)` are fired when the request context is destroyed."
 msgstr "当请求上下文被初始化为观察者通知时，带有限定词 `@Initialized(RequestScoped.class)` 的事件被触发。此外，当请求上下文被销毁时，带有限定词 `@BeforeDestroyed(RequestScoped.class)` 和 `@Destroyed(RequestScoped.class)` 的事件被触发。"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "How to Enable Trace Logging for Request Context Activation"
@@ -662,7 +694,7 @@ msgstr " `application.properties` 例子"
 msgid "You also need to adjust the minimum log level for the relevant category."
 msgstr "你还需要调整相关类别的最小日志级别。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Qualified Injected Fields"
@@ -686,12 +718,13 @@ msgstr "在Quarkus中，如果注入的字段至少声明了一个限定词，�
 msgid "With the notable exception of one special case discussed below, `@Inject` is still required for constructor and method injection."
 msgstr "除了下面讨论的一种特殊情况外， `@Inject` ，构造函数和方法注入仍然需要。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Simplified Constructor Injection"
 msgstr "简化的构造函数注入"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -699,6 +732,7 @@ msgid ""
 "However, this requirement complicates constructor injection - you need to provide a dummy no-args constructor to make things work in CDI."
 msgstr "在 CDI 中，正常作用域的 Bean 必须始终声明一个无参数构造函数（该构造函数通常由编译器生成，除非您声明任何其他构造函数）。然而，这一要求使构造函数注入变得复杂--您需要提供一个虚假的无参数构造函数，才能在 CDI 中正常工作。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -712,12 +746,13 @@ msgstr "在 Quarkus 中，无需为普通作用域 Bean 声明虚拟构造函数
 msgid "We don't generate a no-args constructor automatically if a bean class extends a class that does not declare a no-args constructor."
 msgstr "如果一个Bean类扩展了一个没有声明no-args构造函数的类，我们不会自动生成一个no-args构造函数。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Removing Unused Beans"
 msgstr "移除未使用的豆子"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -729,6 +764,7 @@ msgid ""
 "Users and extension authors have several options <<eliminate_false_positives,how to eliminate false positives>>."
 msgstr "默认情况下，容器会在构建过程中移除所有未使用的 Bean、拦截器和装饰器。这种优化有助于最大限度地减少生成类的数量，从而节省内存。不过，Quarkus 无法检测通过 `CDI.current()` 静态方法执行的编程查找。因此，删除可能会导致误报，即一个 bean 被删除了，但它实际上还在使用。在这种情况下，您会在日志中注意到一个很大的警告。用户和扩展作者有几种 xref:eliminate_false_positives[消除误报的方法] 。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The optimization can be disabled by setting `quarkus.arc.remove-unused-beans` to `none` or `false`.\n"
@@ -736,12 +772,13 @@ msgid ""
 "To use this mode, set `quarkus.arc.remove-unused-beans` to `fwk` or `framework`."
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "What's Removed?"
 msgstr "移除的是什么？"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -755,6 +792,7 @@ msgstr "Quarkus 首先会识别所谓的 _不可移除_ Bean，这些 Bean 构�
 msgid "An _unremovable_ bean:"
 msgstr "一颗 _不_ 可拆卸的豆子。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "is <<eliminate_false_positives,excluded from removal>>, or"
 msgstr ""
@@ -783,6 +821,7 @@ msgstr "一个 _未使用的_ 豆子。"
 msgid "is not _unremovable_, and"
 msgstr "并非 _不可移除_ ，而且"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "is not eligible for injection to any injection point in the dependency tree of _unremovable_ beans, and"
 msgstr ""
@@ -793,10 +832,12 @@ msgstr ""
 msgid "does not declare any producer which is eligible for injection to any injection point in the dependency tree, and"
 msgstr "没有声明任何有资格被注入到依赖树中任何注入点的生产者，并且"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "is not eligible for injection into any `jakarta.enterprise.inject.Instance` or `jakarta.inject.Provider` injection point, and"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "is not eligible for injection into any <<injecting-multiple-bean-instances-intuitively,`@Inject @All List<>`>> injection point."
 msgstr ""
@@ -807,28 +848,30 @@ msgstr ""
 msgid "Unused interceptors and decorators are not associated with any bean."
 msgstr "未使用的拦截器和装饰器不与任何Bean关联。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "When using the dev mode (running `./mvnw quarkus:dev`), you can see more information about which beans are being removed:"
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "In the console - just enable the DEBUG level in your `application.properties`, i.e. `quarkus.log.category.\"io.quarkus.arc.processor\".level=DEBUG`"
 msgstr "在控制台--只要在你的 `application.properties` ，启用DEBUG级别，即 `quarkus.log.category.\"io.quarkus.arc.processor\".level=DEBUG` "
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "In the relevant Dev UI page"
 msgstr "在相关的开发用户界面页面中"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "How To Eliminate False Positives"
 msgstr "如何消除假阳性反应"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -836,6 +879,7 @@ msgid ""
 "This annotation can be declared on a class, a producer method or field."
 msgstr "用户可以用 `@io.quarkus.arc.Unremovable` 注释容器，指示容器不删除任何特定的 Bean（即使这些 Bean 符合上述规定的所有规则）。这种注解可以在类、生产者方法或字段上声明。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -873,12 +917,13 @@ msgstr "匹配豆类的简单名称"
 msgid "Furthermore, extensions can eliminate false positives by producing an `UnremovableBeanBuildItem`."
 msgstr "此外，扩展可以消除假阳性，产生一个 `UnremovableBeanBuildItem` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Default Beans"
 msgstr "默认豆类"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -886,10 +931,12 @@ msgid ""
 "This is done using the `@io.quarkus.arc.DefaultBean` annotation and is best explained with an example."
 msgstr "Quarkus 增加了一项 CDI 目前不支持的功能，即如果没有其他具有相同类型和限定符的 Bean 通过任何可用的方法（Bean 类、生产者、合成 Bean 等）被声明，则有条件地声明一个 Bean。该功能使用 `@io.quarkus.arc.DefaultBean` 注解实现，最好用一个示例来解释。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Say there is a Quarkus extension that, among other things, declares a few CDI beans like the following code does:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -898,6 +945,7 @@ msgid ""
 "The only thing that would be needed in our application would be something like the following:"
 msgstr "这样做的目的是让扩展为用户自动配置，省去大量的模板--我们只需在需要的地方 `@Inject` `Tracer` 。现在设想一下，在我们的应用程序中，我们希望使用配置好的 `Tracer` ，但我们需要对其进行一些定制，例如提供一个自定义的 `Reporter` 。在我们的应用程序中，唯一需要的就是类似下面这样的内容："
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -905,6 +953,7 @@ msgid ""
 "way Quarkus supports."
 msgstr "`@DefaultBean` 允许扩展程序（或任何其他代码）提供默认值，同时在以任何 Quarkus 支持的方式提供该类型的 bean 时退出。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -913,12 +962,13 @@ msgid ""
 "Priority value is used for bean ordering and during typesafe resolution to disambiguate multiple matching default beans."
 msgstr "默认 Bean 可以选择声明 `@jakarta.annotation.Priority` 。如果没有定义优先级，则假定为 `@Priority(0)` 。优先级值用于豆排序和类型安全解析，以消除多个匹配默认豆的歧义。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Enabling Beans for Quarkus Build Profile"
 msgstr "启用Quarkus Build Profile的豆类"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Quarkus adds a capability that CDI currently does not support, which is to conditionally enable a bean when a Quarkus build time profile is enabled,\n"
@@ -926,6 +976,7 @@ msgid ""
 "When used in conjunction with `@io.quarkus.arc.DefaultBean`, these annotations allow for the creation of different bean configurations for different build profiles."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Imagine, for instance that an application contains a bean named `Tracer`, which needs to do nothing when in tests or in dev mode, but works in its normal capacity for the production artifact.\n"
@@ -944,18 +995,20 @@ msgstr "如果相反，要求 `Tracer` bean也能在开发模式下工作，并�
 msgid "The runtime profile has absolutely no effect on the bean resolution using `@IfBuildProfile` and `@UnlessBuildProfile`."
 msgstr "运行时配置文件对使用 `@IfBuildProfile` 和 `@UnlessBuildProfile` 的bean解析完全没有影响。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "`@IfBuildProfile` and `@UnlessBuildProfile` may be put on a stereotype.\n"
 "A bean will only be enabled if **all** the conditions defined by these annotations are satisfied."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Enabling Beans for Quarkus Build Properties"
 msgstr "为Quarkus构建属性启用豆类"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Quarkus adds a capability that CDI currently does not support which is to conditionally enable a bean when a Quarkus build time property has or does not have a specific value,\n"
@@ -969,6 +1022,7 @@ msgstr ""
 msgid "The scenario we mentioned above with `Tracer` could also be implemented in the following way:"
 msgstr "我们上面提到的用 `Tracer` ，也可以用以下方式实现。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "`@IfBuildProperty` and `@UnlessBuildProperty` are repeatable annotations and may be put on a stereotype.\n"
@@ -981,22 +1035,25 @@ msgstr ""
 msgid "If instead, it is required that the `RealTracer` bean is only used if the `some.tracer.enabled` property is not `false`, then `@UnlessBuildProperty` would be ideal. The code would look like:"
 msgstr "相反，如果要求 `RealTracer` Bean只在 `some.tracer.enabled` 属性不是 `false` 的情况下使用，那么 `@UnlessBuildProperty` 将是最理想的。代码将看起来像。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Properties set at runtime have absolutely no effect on the bean resolution using `@IfBuildProperty` / `@UnlessBuildProperty`."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Declaring Selected Alternatives"
 msgstr "宣布选定的替代品"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "In CDI, an alternative bean may be selected either globally for an application by means of `@Priority`, or for a bean archive using a `beans.xml` descriptor.\n"
 "Quarkus has a simplified bean discovery, and the content of `beans.xml` is ignored."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "However, it is also possible to select alternatives for an application using the unified configuration.\n"
@@ -1017,7 +1074,7 @@ msgstr "匹配Bean类的完全合格名称或声明生产者的Bean类"
 msgid "Match the simple name of the bean class or the bean class of the bean that declares the producer"
 msgstr "匹配豆类的简单名称或声明生产者的豆类的豆类"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Simplified Producer Method Declaration"
@@ -1035,12 +1092,13 @@ msgstr "在CDI中，生产者方法必须总是被注解为 `@Produces` 。"
 msgid "In Quarkus, you can skip the `@Produces` annotation completely if the producer method is annotated with a scope annotation, a stereotype or a qualifier."
 msgstr "在Quarkus中，如果生产者方法被注解了范围注解、定型或限定符，你可以完全跳过 `@Produces` 注解。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Interception of Static Methods"
 msgstr "静态方法的拦截"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1062,7 +1120,7 @@ msgstr " `Logged` 是一个拦截器绑定。"
 msgid "Each method invocation is intercepted if there is an interceptor associated with `Logged`."
 msgstr "如果有一个与 `Logged` 相关的拦截器，每个方法的调用都会被拦截。"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Limitations"
@@ -1080,6 +1138,7 @@ msgstr "出于向后兼容的原因，只考虑 *方法级绑定* （否则声�
 msgid "Private static methods are never intercepted"
 msgstr "私有静态方法从不被拦截"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "`InvocationContext#getTarget()` returns `null` for obvious reasons; therefore, not all existing interceptors may behave correctly when intercepting static methods"
 msgstr ""
@@ -1090,12 +1149,13 @@ msgstr ""
 msgid "Interceptors can use `InvocationContext.getMethod()` to detect static methods and adjust the behavior accordingly."
 msgstr "拦截器可以使用 `InvocationContext.getMethod()` 来检测静态方法并相应地调整行为。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Ability to handle 'final' classes and methods"
 msgstr "有能力处理 \"最终 \"类和方法"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "In normal CDI, classes that are marked as `final` and / or have `final` methods are not eligible for proxy creation,\n"
@@ -1109,12 +1169,13 @@ msgstr ""
 msgid "Quarkus however, can overcome these limitations when `quarkus.arc.transform-unproxyable-classes` is set to `true` (which is the default value)."
 msgstr " `true` 然而，当 `quarkus.arc.transform-unproxyable-classes` （这是默认值）时，Quarkus可以克服这些限制。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Container-managed Concurrency"
 msgstr "容器管理的并发性"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "There is no standard concurrency control mechanism for CDI beans.\n"
@@ -1155,7 +1216,7 @@ msgstr " `@Lock(Lock.Type.READ)` 覆盖了在类级别指定的值。这意味�
 msgid "You can also specify the \"wait time\". If it's not possible to acquire the lock in the given time a `LockException` is thrown."
 msgstr "你也可以指定 \"等待时间\"。如果在给定的时间内不可能获得锁，就会抛出一个 `LockException` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Repeatable interceptor bindings"
@@ -1167,6 +1228,7 @@ msgstr "可重复的拦截器绑定"
 msgid "Quarkus has limited support for `@Repeatable` interceptor binding annotations."
 msgstr "Quarkus对 `@Repeatable` 拦截器绑定注释的支持有限。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1175,6 +1237,7 @@ msgid ""
 "This might be added in the future."
 msgstr "将拦截器绑定到组件时，可以在方法上声明多个 `@Repeatable` 注释。由于与拦截器规范的交互还存在一些未决问题，因此不支持在类和定型上声明可重复的拦截器绑定。将来可能会添加。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1183,6 +1246,7 @@ msgid ""
 "If we wanted to clear two caches at the same time, we would add `@CacheInvalidateAll` twice:"
 msgstr "举例来说，假设我们有一个拦截器可以清除缓存。相应的拦截器绑定将被称为 `@CacheInvalidateAll` ，并声明为 `@Repeatable` 。如果我们想同时清除两个缓存，就需要添加两次 `@CacheInvalidateAll` ："
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1190,6 +1254,7 @@ msgid ""
 "What about creating an interceptor?"
 msgstr "这就是拦截器的使用方法。如何创建拦截器？"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1197,6 +1262,7 @@ msgid ""
 "This is useless when the annotation members are `@Nonbinding`, as would be the case for the `@Cached` annotation, but is important otherwise."
 msgstr "在声明拦截器的拦截器绑定时，可以像往常一样向拦截器类添加多个 `@Repeatable` 注释。当注解成员为 `@Nonbinding` 时，这一点毫无用处，如 `@Cached` 注解的情况，但在其他情况下，这一点非常重要。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1211,12 +1277,13 @@ msgstr "例如，假设我们有一个拦截器，可以自动记录对某些目
 msgid "Other interceptors could be provided to log method invocations to different targets."
 msgstr "可以提供其他拦截器来记录对不同目标的方法调用。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Caching the Result of Programmatic Lookup"
 msgstr "缓存程序化查询的结果"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "In certain situations, it is practical to obtain a bean instance programmatically via an injected `jakarta.enterprise.inject.Instance` and `Instance.get()`.\n"
@@ -1235,12 +1302,13 @@ msgstr ""
 msgid "It is also possible to clear the cached value via `io.quarkus.arc.InjectableInstance.clearCache()`. In this case, you'll need to inject the Quarkus-specific `io.quarkus.arc.InjectableInstance` instead of `jakarta.enterprise.inject.Instance`."
 msgstr "也可以通过 `io.quarkus.arc.InjectableInstance.clearCache()` 来清除缓存的值。在这种情况下，你需要注入Quarkus专用的 `io.quarkus.arc.InjectableInstance` ，而不是 `javax.enterprise.inject.Instance` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Declaratively Choose Beans That Can Be Obtained by Programmatic Lookup"
 msgstr "声明性地选择可通过程序化查询获得的豆类"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1248,6 +1316,7 @@ msgid ""
 "Typically, a user needs to choose the appropriate implementation of an interface based on a runtime configuration property."
 msgstr "有时，通过 `jakarta.enterprise.inject.Instance` 缩小可通过编程查找获得的 Bean 集范围是非常有用的。通常情况下，用户需要根据运行时配置属性来选择合适的接口实现。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1265,16 +1334,19 @@ msgstr "想象一下，我们有两个实现接口 `org.acme.Service` 的 Bean�
 msgid "`@LookupIfProperty` Example"
 msgstr " `@LookupIfProperty` 例子"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "`@LookupIfProperty` and `@LookupUnlessProperty` are repeatable annotations and may be put on a stereotype.\n"
 "A bean will only be obtained if **all** the conditions defined by these annotations are satisfied."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Sorting beans obtained with programmatic lookup"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "If there is more than one bean that matches the required type and qualifiers and is eligible for injection, it is possible to iterate (or stream) available bean instances.\n"
@@ -1282,12 +1354,13 @@ msgid ""
 "If no priority is explicitly declared, 0 is assumed."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Injecting Multiple Bean Instances Intuitively"
 msgstr "直观地注入多个Bean实例"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1321,6 +1394,7 @@ msgstr "列表按照 `io.quarkus.arc.InjectableBean#getPriority()` 所定义的�
 msgid "If an injection point declares no other qualifier than `@All` then `@Any` is used, i.e. the behavior is equivalent to `@Inject @Any Instance<Service>`."
 msgstr "如果一个注入点除了 `@All` ，没有声明其他限定词，那么就使用 `@Any` ，即行为等同于 `@Inject @Any Instance<Service>` 。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1340,12 +1414,13 @@ msgstr "类型变量和通配符都不是 `@All List<>` 注入点的合法类型
 msgid "It is also possible to obtain the list of all bean instance handles programmatically via the `Arc.container().listAll()` methods."
 msgstr "也可以通过 `Arc.container().listAll()` 方法以编程方式获得所有bean实例柄的列表。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Ignoring Class-Level Interceptor Bindings for Methods and Constructors"
 msgstr "忽略方法和构造器的类级拦截器绑定"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1359,6 +1434,7 @@ msgstr "如果托管 bean 在类级别声明了拦截器绑定注解，则相应
 msgid "For example, suppose we have a logging interceptor with the `@Logged` binding annotation and a tracing interceptor with the `@Traced` binding annotation:"
 msgstr "例如，假设我们有一个带有 `@Logged` 绑定注释的日志拦截器和一个带有 `@Traced` 绑定注释的追踪拦截器。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1366,6 +1442,7 @@ msgid ""
 "Additionally, the `doSomethingElse` method will be intercepted by the hypothetical tracing interceptor."
 msgstr "在本例中，假定日志拦截器将拦截 `doSomething` 和 `doSomethingElse` 。此外， `doSomethingElse` 方法也将被假设的跟踪拦截器拦截。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1373,6 +1450,7 @@ msgid ""
 "To achieve that, you can annotate the method with `@NoClassInterceptors`:"
 msgstr "现在，如果 `@Traced` 拦截器也执行了所有必要的日志记录，我们希望跳过该方法的 `@Logged` 拦截器，但在所有其他方法中保留它。要做到这一点，可以用 `@NoClassInterceptors` 来注解该方法："
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The `@NoClassInterceptors` annotation may be put on methods and constructors, and means that all class-level interceptors are ignored for these methods and constructors.\n"
@@ -1385,12 +1463,13 @@ msgstr ""
 msgid "This annotation affects only business method interceptors (`@AroundInvoke`) and constructor lifecycle callback interceptors (`@AroundConstruct`)."
 msgstr "这个注解只影响业务方法拦截器 ( `@AroundInvoke` ) 和构造函数生命周期回调拦截器 ( `@AroundConstruct` )。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Exceptions Thrown By An Asynchronous Observer Method"
 msgstr "异步观察者方法抛出的异常情况"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1407,44 +1486,53 @@ msgstr "如果异步观察者抛出异常，那么 `fireAsync()` 方法返回的
 msgid "`NoopAsyncObserverExceptionHandler`"
 msgstr " `NoopAsyncObserverExceptionHandler` "
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Intercepted self-invocation"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Quarkus supports what is known as intercepted self-invocation or just self-interception - a scenario where CDI bean invokes its own intercepted method from within another method while triggering any associated interceptors.\n"
 "This is a non-standard feature as CDI specification doesn't define whether self-interception should work or not."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Suppose we have a CDI bean with two methods, one of which has the `@Transactional` interceptor binding associated with it:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "One or more interceptor bindings; `@Transactional` is just an example."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Non-intercepted method invoking another method from the same bean that has associated binding(s); this will trigger interception."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "In the above example, any code calling the `doSomething()` method triggers interception - in this case, the method becomes transactional.\n"
 "This is regardless of whether the invocation originated directly from the `MyService` bean (such as `MyService#doSomethingElse`) or from some other bean."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Intercepting Producer Methods and Synthetic Beans"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "By default, interception is only supported for managed beans (also known as class-based beans).\n"
 "To support interception of producer methods and synthetic beans, the CDI specification includes an `InterceptionFactory`, which is a runtime oriented concept and therefore cannot be supported in Quarkus."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Instead, Quarkus has its own API: `InterceptionProxy` and `@BindingsSource`.\n"
@@ -1452,6 +1540,7 @@ msgid ""
 "The `@BindingsSource` annotation allows setting interceptor bindings in case the intercepted class is external and cannot be changed."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Declares an injection point of type `InterceptionProxy<MyClass>`.\n"
@@ -1459,90 +1548,108 @@ msgid ""
 "Note that the type argument must be identical to the return type of the producer method."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Creates an instance of the interception proxy for the given instance of `MyClass`.\n"
 "The method calls will be forwarded to this target instance after all interceptors run."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "In this example, interceptor bindings are read from the `MyClass` class."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Note that `InterceptionProxy` only supports `@AroundInvoke` interceptors declared on interceptor classes.\n"
 "Other kinds of interception, as well as `@AroundInvoke` interceptors declared on the target class and its superclasses, are not supported."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The intercepted class should be https://jakarta.ee/specifications/cdi/4.1/jakarta-cdi-spec-4.1#unproxyable[proxyable] and therefore should not be `final`, should not have non-private `final` methods, and should have a non-private zero-parameter constructor.\n"
 "If it isn't, a bytecode transformation will attempt to fix it if <<unproxyable_classes_transformation,enabled>>, but note that adding a zero-parameter constructor is not always possible."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "It is often the case that the produced classes come from external libraries and don't contain interceptor binding annotations at all.\n"
 "To support such cases, the `@BindingsSource` annotation may be declared on the `InterceptionProxy` parameter:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "A class that mirrors the `MyClass` structure and contains interceptor bindings."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "The `@BindingsSource` annotation says that interceptor bindings for `MyClass` should be read from `MyClassBindings`."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "The concept of _bindings source_ is a build-time friendly equivalent of `InterceptionFactory.configure()`."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Producer method interception and synthetic bean interception only works for instance methods.\n"
 "<<interception_of_static_methods>> is not supported for producer methods and synthetic beans."
 msgstr ""
 
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Declaring `@BindingsSource`"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The `@BindingsSource` annotation specifies a class that mirrors the structure of the intercepted class.\n"
 "Interceptor bindings are then read from that class and treated as if they were declared on the intercepted class."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Specifically: class-level interceptor bindings declared on the bindings source class are treated as class-level bindings of the intercepted class.\n"
 "Method-level interceptor bindings declared on the bindings source class are treated as method-level bindings of a method with the same name, return type, parameter types and `static` flag of the intercepted class."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "It is common to make the bindings source class and methods `abstract` so that you don't have to write method bodies:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Since this class is never instantiated and its method are never invoked, this is okay, but it's also possible to create a non-`abstract` class:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "The method body does not matter."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Note that for generic classes, the type variable names must also be identical.\n"
 "For example, for the following class:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "The bindings source class must also use `T` as the name of the type variable:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "You don't need to declare methods that are not annotated simply because they exist on the intercepted class.\n"
@@ -1550,92 +1657,112 @@ msgid ""
 "If you only want to add class-level bindings, you don't have to declare any methods at all."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "These annotations can be present on a bindings source class:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "_interceptor bindings_: on the class and on the methods"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "_stereotypes_: on the class"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "`@NoClassInterceptors`: on the methods"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Any other annotation present on a bindings source class is ignored."
 msgstr ""
 
+#. type: Title ===
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Synthetic Beans"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Using `InterceptionProxy` in synthetic beans is similar."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "First, you have to declare that your synthetic bean injects the `InterceptionProxy`:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Once again, this means that at build time, a subclass of `MyClass` is generated that does the interception and forwarding."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Second, you have to obtain the `InterceptionProxy` from the `SyntheticCreationalContext` in the `BeanCreator` and use it:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Obtains the `InterceptionProxy` for `MyClass`, as declared above.\n"
 "It would also be possible to use the `getInjectedReference()` method, passing a `TypeLiteral`, but `getInterceptionProxy()` is easier."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "There's also an equivalent of `@BindingsSource`.\n"
 "The `injectInterceptionProxy()` method has an overload with a parameter:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "The argument is the bindings source class."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "`Instance.Handle.close()` Behavior"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "Per the CDI specification, the `Instance.Handle.close()` method always delegates to `destroy()`.\n"
 "In ArC, this is only true in the <<strict_mode>>."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "In the default mode, the `close()` method only delegates to `destroy()` when the bean is `@Dependent` (or when the instance handle does not represent a CDI contextual object).\n"
 "When the instance handle represents a bean of any other scope, the `close()` method does nothing; the bean is left as is and will be destroyed whenever its context is destroyed."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "This is to make the following code behave as one would naively expect:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The `@Dependent` beans are destroyed immediately, while other beans are not destroyed at all.\n"
 "This is important when multiple beans of different scopes might be returned by the `Instance`."
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Pitfalls with Reactive Programming"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "CDI is a purely synchronous framework.\n"
@@ -1643,10 +1770,12 @@ msgid ""
 "Therefore, there is a number of pitfalls when using CDI together with reactive programming."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Detecting When Blocking Is Allowed"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The `io.quarkus.runtime.BlockingOperationControl#isBlockingAllowed()` method can be used to detect whether blocking is allowed on the current thread.\n"
@@ -1654,16 +1783,19 @@ msgid ""
 "The easiest way is to use the `Vertx.executeBlocking()` method:"
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Asynchronous Observers"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "CDI asynchronous observers (`@ObservesAsync`) are not aware of reactive programming and are not meant to be used as part of reactive pipelines.\n"
 "The observer methods are meant to be synchronous, they are just offloaded to a thread pool."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The `Event.fireAsync()` method returns a `CompletionStage` that completes when all observers are notified.\n"
@@ -1671,26 +1803,31 @@ msgid ""
 "If some observers have thrown an exception, the `CompletionStage` completes exceptionally with a `CompletionException`."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "The return type of the observer _does not matter_.\n"
 "The return value of the observer is _ignored_."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "You may declare an observer method that has a return type of `CompletionStage<>` or `Uni<>`, but neither the return type nor the actual return value affects the result of `Event.fireAsync()`.\n"
 "Further, if the observer declares a return type of `Uni<>`, the returned `Uni` will not be subscribed to, so it is quite possible that part of the observer logic will not even execute."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Therefore, it is recommended that observer methods, both synchronous and asynchronous, are always declared `void`."
 msgstr ""
 
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 msgid "Reactive startup methods"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 msgid ""
 "As documented in xref:lifecycle.adoc#startup_annotation[the `@Startup` method documentation], you may define startup\n"
@@ -1698,12 +1835,13 @@ msgid ""
 "their returned `Uni` will be subscribed to and awaited."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Build Time Extensions"
 msgstr "延长建造时间"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1713,11 +1851,13 @@ msgid ""
 "See the xref:cdi-integration.adoc[integration guide] for more information."
 msgstr "Quarkus 在构建时进行了优化，以提供即时启动和低内存占用。这种方法的缺点是无法支持 CDI 可移植扩展。不过，大部分功能都可以通过 Quarkus xref:writing-extensions.adoc[扩展] 实现。更多信息，请参阅 xref:cdi-integration.adoc[集成指南] 。"
 
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "[[development-mode]] Dev mode"
 msgstr " 开发模式"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "In dev mode, two special endpoints are registered automatically to provide some basic debug info in the JSON format:"
@@ -1771,17 +1911,19 @@ msgstr "HTTP GET `/q/arc/removed-beans` - 返回在构建过程中移除的未�
 msgid "HTTP GET `/q/arc/observers` - returns the list of all observer methods"
 msgstr "HTTP GET `/q/arc/observers` - 返回所有观察者方法的列表"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "These endpoints are only available in dev mode, i.e. when you run your application via `mvn quarkus:dev` (or `./gradlew quarkusDev`)."
 msgstr "这些端点仅在开发模式下可用，即通过 `mvn quarkus:dev` （或 `./gradlew quarkusDev` ）运行应用程序时可用。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Monitoring Business Method Invocations and Events"
 msgstr "监测业务方法调用和事件"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1789,12 +1931,13 @@ msgid ""
 "Simply set the `quarkus.arc.dev-mode.monitoring-enabled` configuration property to `true` and explore the relevant Dev UI pages."
 msgstr "在开发模式下，还可以启用对业务方法调用和触发事件的监控。只需将 `quarkus.arc.dev-mode.monitoring-enabled` 配置属性设置为 `true` ，然后访问相关的开发用户界面页面即可。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "Strict Mode"
 msgstr "严格的模式"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1802,6 +1945,7 @@ msgid ""
 "It also improves CDI usability in many ways, some of them being directly against the specification."
 msgstr "默认情况下，ArC 不会执行 CDI 规范要求的所有验证。ArC 还能以多种方式提高 CDI 的可用性，其中一些方式直接与规范相对应。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1821,11 +1965,13 @@ msgstr "要启用严格模式，请使用以下配置："
 msgid "Some other features affect specification compatibility as well:"
 msgstr "其他一些特征也会影响规范的兼容性："
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "<<unproxyable_classes_transformation,Transformation of unproxyable classes>>"
 msgstr "xref:unproxyable_classes_transformation[不可代理类的转换]"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "<<remove_unused_beans,Unused beans removal>>"
@@ -1837,6 +1983,7 @@ msgstr "xref:remove_unused_beans[清除未使用的豆子]"
 msgid "To get a behavior closer to the specification, these features should be disabled."
 msgstr "为了获得更接近规范的行为，应该禁用这些功能。"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid ""
@@ -1844,12 +1991,13 @@ msgid ""
 "The \"strictness\" of the strict mode (the set of additional validations and the set of disabled improvements on top of the CDI specification) may change over time."
 msgstr "建议应用程序使用默认的非严格模式，这样可以更方便地使用 CDI。严格模式的 \"严格程度\"（附加验证集和 CDI 规范基础上的禁用改进集）可能会随着时间的推移而改变。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy, no-wrap
 msgid "ArC Configuration Reference"
 msgstr "ArC 配置参考"
 
+#. type: Plain text
 #: _versions/main/guides/cdi-reference.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

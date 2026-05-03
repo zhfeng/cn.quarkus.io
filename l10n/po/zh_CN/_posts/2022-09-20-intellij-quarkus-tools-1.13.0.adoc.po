@@ -28,6 +28,7 @@ msgstr "Quarkus Tools for IntelliJ 1.13.0发布!"
 msgid "This release improves the Qute developer experience"
 msgstr "这个版本改进了Qute的开发者体验"
 
+#. type: Plain text
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy
 msgid ""
@@ -35,13 +36,13 @@ msgid ""
 "This release improves the Qute developer experience."
 msgstr "我们非常高兴地宣布 Quarkus Tools for IntelliJ 1.13.0 正式版发布。该版本改善了 Qute 开发人员的体验。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy, no-wrap
 msgid "Improved Qute developer experience"
 msgstr "改进的Qute开发者体验"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy, no-wrap
 msgid "InlayHint support"
@@ -53,7 +54,7 @@ msgstr "支持InlayHint"
 msgid "InlayHint is a new feature. It allows to add inline information about parameters and variables. This is very useful for Qute templates to get type information. InlayHints may also be clickable."
 msgstr "InlayHint是一个新功能。它允许添加参数和变量的内联信息。这对于Qute模板获取类型信息非常有用。InlayHints也可以是可点击的。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy, no-wrap
 msgid "DocumentHighlight"
@@ -65,12 +66,13 @@ msgstr "文档高亮"
 msgid "DocumentHightlight allows to hightlight parts of the document that are related to the current selection. This is useful for Qute templates to highlight matching part of a Qute section."
 msgstr "DocumentHightlight允许高亮显示文档中与当前选择相关的部分。这对Qute模板来说很有用，可以突出Qute部分的匹配部分。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy, no-wrap
 msgid "Moving Forward"
 msgstr "向前迈进"
 
+#. type: Plain text
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy
 msgid ""
@@ -84,7 +86,7 @@ msgstr "如果您有任何问题、建议或反馈，请随时 link:https://gith
 msgid "Thank you for reading and stay tuned for the next release!"
 msgstr "谢谢您的阅读，请继续关注下一次发布。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-09-20-intellij-quarkus-tools-1.13.0.adoc
 #, fuzzy, no-wrap
 msgid "Links"

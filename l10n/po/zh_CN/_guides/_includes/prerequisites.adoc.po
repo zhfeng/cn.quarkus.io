@@ -31,6 +31,7 @@ msgstr "大概15分钟"
 msgid "An IDE"
 msgstr "编辑器"
 
+#. type: Plain text
 #: _guides/_includes/prerequisites.adoc
 #, fuzzy
 msgid "JDK 17+ installed with `JAVA_HOME` configured appropriately"

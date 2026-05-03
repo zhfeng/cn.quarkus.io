@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 #, fuzzy
 msgid "Smallrye Kafka Outgoing"
@@ -138,6 +139,7 @@ msgstr " `33554432` "
 msgid "[.no-hyphens]#*client-id-prefix*#"
 msgstr "[.no-hyphens]#*cloud-events-mode*#"
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Prefix for Kafka client `client.id` attribute. If defined configured or generated `client.id` will be prefixed with the given value.\n"
@@ -253,6 +255,7 @@ msgstr ""
 "\n"
 "[.no-hyphens]#_(cloud-events-default-timestamp)_#"
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Whether or not the connector should insert automatically the `time` attribute into the outgoing Cloud Event. Requires `cloud-events` to be set to `true`. This value is used if the message does not configure the `time` attribute itself\n"
@@ -456,10 +459,12 @@ msgstr ""
 msgid "`false`"
 msgstr "`false` "
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "[.no-hyphens]#*health-topic-verification-readiness-disabled*#"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Whether the topic verification is disabled for the readiness health check.\n"
@@ -467,10 +472,12 @@ msgid ""
 "Type: _boolean_"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "[.no-hyphens]#*health-topic-verification-startup-disabled*#"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Whether the topic verification is disabled for the startup health check.\n"
@@ -502,10 +509,12 @@ msgstr ""
 msgid "`2000`"
 msgstr "`2000` "
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "[.no-hyphens]#*interceptor-bean*#"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "The name set in `@Identifier` of a bean that implements `org.apache.kafka.clients.producer.ProducerInterceptor`. If set, the identified bean will be used as the producer interceptor.\n"
@@ -675,10 +684,12 @@ msgstr ""
 msgid "`-1`"
 msgstr " `-1` "
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "[.no-hyphens]#*pooled-producer*#"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Whether to use a pool of Kafka producers for concurrent transactions. Each transaction scope acquires a producer from the pool, enabling concurrent exactly-once processing. Requires transactional.id to be set.\n"
@@ -686,10 +697,12 @@ msgid ""
 "Type: _boolean_"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "[.no-hyphens]#*pooled-producer.initial-pool-size*#"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Number of Kafka producers to pre-create in the pool at startup. Respects the lazy-client setting. Defaults to 0 (lazy creation).\n"
@@ -697,14 +710,17 @@ msgid ""
 "Type: _int_"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "`0`"
 msgstr "`0`"
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "[.no-hyphens]#*pooled-producer.max-pool-size*#"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "Maximum number of Kafka producers in the pool. When all producers are in use and the pool is exhausted, an exception is thrown. Defaults to 10.\n"
@@ -712,6 +728,7 @@ msgid ""
 "Type: _int_"
 msgstr ""
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid "`10`"
 msgstr "`10` "
@@ -722,6 +739,7 @@ msgstr "`10` "
 msgid "[.no-hyphens]#*propagate-headers*#"
 msgstr " *传播-标题* "
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-kafka-outgoing.adoc
 msgid ""
 "A comma-separating list of incoming record headers to be propagated to the outgoing record\n"

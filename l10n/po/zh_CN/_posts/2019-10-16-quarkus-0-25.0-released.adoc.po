@@ -40,13 +40,13 @@ msgstr "就在0.24.0之后的几天，为了与我们的计划保持一致，我
 msgid "This release fixes a couple of issues, mostly related to the new HTTP layer and brings some updates to the currently being rewritten security layer."
 msgstr "这个版本修复了一些问题，主要与新的HTTP层有关，并为目前正在重写的安全层带来一些更新。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Security layer changes"
@@ -64,7 +64,7 @@ msgstr "基于HTTP的权限现在可以在 `application.properties` 。"
 msgid "This new feature is fully documented in the link:/guides/security#securing-web-endpoints[Security guide]."
 msgstr "这项新功能在 link:/guides/security#securing-web-endpoints[安全指南] 中得到了充分的记录。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Windows and dev mode issue"
@@ -82,7 +82,7 @@ msgstr "我们在Windows上的开发模式有一个 link:https://github.com/quar
 msgid "Please give it another chance and report back if it still does not work."
 msgstr "请再给它一次机会，如果它仍然不工作，请报告。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate Search 6.0.0.Beta1"
@@ -124,7 +124,7 @@ msgstr " `quarkus.hibernate-search.elasticsearch.analysis-configurer` 成为 `qu
 msgid "link:/guides/hibernate-search-elasticsearch[The documentation] has been updated to reflect these changes."
 msgstr "link:/guides/hibernate-search-elasticsearch[文件] 已被更新以反映这些变化。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Debugging, suspend and dev mode"
@@ -136,7 +136,7 @@ msgstr "调试、暂停和开发模式"
 msgid "Dev mode doesn't suspend the execution by default anymore when you use `-Ddebug=true` or `-Ddebug=<port>`. You need to explicitly use `-Dsuspend=true`."
 msgstr "当你使用 `-Ddebug=true` 或 `-Ddebug=<port>` ，开发模式不再默认暂停执行。你需要明确使用 `-Dsuspend=true` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Apache Derby driver"
@@ -148,7 +148,7 @@ msgstr "阿帕奇德比驱动程序"
 msgid "We now have an extension for the Apache Derby JDBC driver: it will work out of the box even with a native executable."
 msgstr "我们现在有一个Apache Derby JDBC驱动的扩展：即使是使用本地可执行文件，它也能开箱工作。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "REST Client multipart guide"
@@ -160,7 +160,7 @@ msgstr "REST客户端多部分指南"
 msgid "We now have link:/guides/rest-client-multipart[a guide explaining how to do multipart with our REST client]. This allows you for instance to upload documents to a REST endpoint."
 msgstr "我们现在有 link:/guides/rest-client-multipart[一个指南，解释如何用我们的REST客户端做多部分] 。例如，这允许你将文件上传到REST端点。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -172,12 +172,13 @@ msgstr "完整的更新日志"
 msgid "We also fixed a few bugs and usability issues: get https://github.com/quarkusio/quarkus/releases/tag/0.25.0[the full changelog of 0.25.0 on GitHub]."
 msgstr "我们还修复了一些错误和可用性问题： link:https://github.com/quarkusio/quarkus/releases/tag/0.25.0[在GitHub上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/0.25.0[0.25.0的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy
 msgid ""
@@ -191,7 +192,7 @@ msgstr "Quarkus 现在有 link:https://github.com/quarkusio/quarkus/graphs/contr
 msgid "In particular for this release, thanks to Alexey Loubyansky, Andrew Guibert, Aurea Munoz, Clement Escoffier, Daniel Petisme, Don Naro, Dusan Odalovic, George Gastaldi, Georgios Andrianakis, Guillaume Smet, Gwenneg Lepage, Harald Reinmüller, Jaikiran Pai, Jan Martiska, John O'Hara, Ken Finnigan, Luca Burgazzoli, Maciej Swiderski, Manyanda Chitimbo, Martin Kouba, Matej Novotny, Matthias Andreas Benkard, Peter Palaga, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Simon Bengtsson, Stéphane Epardaud, Stuart Douglas, Timothy Power, William Burns and Yoann Rodière."
 msgstr "特别是这次发行，感谢Alexey Loubyansky, Andrew Guibert, Aurea Munoz, Clement Escoffier, Daniel Petisme, Don Naro, Dusan Odalovic, George Gastaldi, Georgios Andrianakis, Guillaume Smet, Gwenneg Lepage, Harald Reinmüller, Jaikiran Pai, Jan Martiska, John O'Hara。Ken Finnigan, Luca Burgazzoli, Maciej Swiderski, Manyanda Chitimbo, Martin Kouba, Matej Novotny, Matthias Andreas Benkard, Peter Palaga, Rostislav Svoboda, Sanne Grinovero, Sergey Beryozkin, Simon Bengtsson, Stéphane Epardaud, Stuart Douglas, Timothy Power, William Burns and Yoann Rodière."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-10-16-quarkus-0-25.0-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

@@ -28,6 +28,7 @@ msgstr "2022年Quarkus世界巡回赛--路途无止境"
 msgid "The Quarkus World Tour of Java User Groups continues in 2022."
 msgstr "2022年，Quarkus的Java用户群世界之旅将继续进行。"
 
+#. type: Title =
 #: _posts/2022-02-04-quarkusworldtour-2022.adoc
 #, fuzzy
 msgid "For true rock stars, the road never ends."
@@ -75,7 +76,7 @@ msgstr "是的，我们还有很酷的演唱会衬衫和纪念品。"
 msgid "Keep rocking the Java world!"
 msgstr "继续震撼 Java 世界！"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-04-quarkusworldtour-2022.adoc
 #, fuzzy, no-wrap
 msgid "Want a tour stop at your JUG?"
@@ -93,7 +94,7 @@ msgstr "有兴趣让 Quarkus 巡演通过您当地的 Java 用户组进行吗？
 msgid "https://github.com/quarkusio/quarkus/discussions/23453[Sign up for a tour stop!]"
 msgstr "link:https://github.com/quarkusio/quarkus/discussions/23453[报名参加巡演！]"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-02-04-quarkusworldtour-2022.adoc
 #, fuzzy, no-wrap
 msgid "Want to help present?"

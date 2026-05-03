@@ -52,7 +52,7 @@ msgstr "如果你还没有使用1.11，请参考 link:https://github.com/quarkus
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/1.11.3.Final[the full changelog of 1.11.3.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/1.11.3.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/1.11.3.Final[1.11.3.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-02-11-quarkus-1-11-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

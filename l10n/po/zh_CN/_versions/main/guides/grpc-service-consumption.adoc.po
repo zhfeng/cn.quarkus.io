@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Consuming a gRPC Service"
@@ -31,6 +31,7 @@ msgstr "消耗一个gRPC服务"
 msgid "gRPC clients can be injected in your application code."
 msgstr "gRPC客户端可以被注入到你的应用代码中。"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -38,12 +39,13 @@ msgid ""
 "Place your `proto` files in `src/main/proto` and run `mvn compile`."
 msgstr "使用 gRPC 服务需要生成 gRPC 类。将 `proto` 文件放入 `src/main/proto` ，然后运行 `mvn compile` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Stubs and Injection"
 msgstr "存根和注入"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -87,6 +89,7 @@ msgstr "一个gRPC客户端注入点必须用 `@GrpcClient` 修饰语来注释�
 msgid "If the name is not specified via the `GrpcClient#value()` then the field name is used instead, e.g. `helloService` in this particular case."
 msgstr "如果名称没有通过 `GrpcClient#value()` ，那么将使用字段名代替，例如在这个特定情况下， `helloService` 。"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -100,13 +103,13 @@ msgstr "存根类名称源自 `proto` 文件中使用的服务名称。例如，
 msgid "Then the service interface name is: `hello.Greeter`, the Mutiny stub name is: `hello.MutinyGreeterGrpc.MutinyGreeterStub` and the blocking stub name is: `hello.GreeterGrpc.GreeterBlockingStub`."
 msgstr "那么服务接口的名称是。 `hello.Greeter` ，Mutiny存根的名字是： `hello.MutinyGreeterGrpc.MutinyGreeterStub` ，阻塞存根的名字是： `hello.GreeterGrpc.GreeterBlockingStub` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Examples"
 msgstr "实例"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Service Interface"
@@ -118,7 +121,7 @@ msgstr "服务接口"
 msgid "The service name is derived from the injection point - the field name is used. The `quarkus.grpc.clients.hello.host` property must be set."
 msgstr "服务名称来自于注入点--使用的是字段名。 `quarkus.grpc.clients.hello.host` 属性必须被设置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Blocking Stub"
@@ -130,7 +133,7 @@ msgstr "封锁存根"
 msgid "The `quarkus.grpc.clients.hello.host` property must be set."
 msgstr " `quarkus.grpc.clients.hello.host` 属性必须被设置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, no-wrap
 msgid "Handling streams"
@@ -148,7 +151,7 @@ msgstr "gRPC允许发送和接收流。"
 msgid "Using the Mutiny stub, you can interact with these as follows:"
 msgstr "使用Mutiny存根，你可以与这些互动，如下所示。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Client configuration"
@@ -166,6 +169,7 @@ msgstr "对于你在应用程序中注入的每个gRPC服务，你可以配置�
 msgid "The `client-name` is the name set in the `@GrpcClient` or derived from the injection point if not explicitly defined."
 msgstr " `client-name` 是在 `@GrpcClient` 中设置的名称，如果没有明确定义，则从注入点派生。"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -179,24 +183,28 @@ msgstr "以下示例使用 _hello_ 作为客户端名称。不要忘记将其替
 msgid "When you enable `quarkus.grpc.clients.\"client-name\".xds.enabled`, it's the xDS that should handle most of the configuration above."
 msgstr "当你启用 `quarkus.grpc.clients.\"client-name\".xds.enabled` ，是xDS应该处理上面的大部分配置。"
 
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 msgid "Custom Channel building"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 msgid "When Quarkus builds a gRPC Channel instance (the way gRPC clients communicate with gRPC services on a lower network level), users can apply their own Channel(Builder) customizers. The customizers are applied by `priority`, the higher the number the later customizer is applied. The customizers are applied before Quarkus applies user's client configuration; e.g. ideal for some initial defaults per all clients."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 msgid "There are two `customize` methods, the first one uses gRPC's `ManagedChannelBuilder` as a parameter - to be used with Quarkus' legacy gRPC support, where the other uses `GrpcClientOptions` - to be used with the new Vert.x gRPC support. User should implement the right `customize` method per gRPC support type usage, or both if the customizer is gRPC type neutral."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Enabling TLS"
 msgstr "启用TLS"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -211,7 +219,7 @@ msgstr "要启用 TLS，请使用以下配置。请注意，配置中的所有�
 msgid "When SSL/TLS is configured, `plain-text` is automatically disabled."
 msgstr "当配置了SSL/TLS时， `plain-text` 自动被禁用。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "TLS with Mutual Auth"
@@ -223,12 +231,13 @@ msgstr "带有相互授权的TLS"
 msgid "To use TLS with mutual authentication, use the following configuration:"
 msgstr "要使用相互认证的TLS，请使用以下配置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Client Stub Deadlines"
 msgstr "客户的最后期限"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -236,11 +245,13 @@ msgid ""
 "You can specify the deadline via the `quarkus.grpc.clients.\"service-name\".deadline` configuration property, e.g.:"
 msgstr "如果需要为 gRPC 存根配置一个截止日期，即指定一个持续时间，在该时间之后，存根将始终返回状态错误 `DEADLINE_EXCEEDED` 。您可以通过 `quarkus.grpc.clients.\"service-name\".deadline` 配置属性指定截止时间，例如"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid "Set the  deadline for all injected stubs."
 msgstr "设置所有注入存根的截止时间。"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -248,12 +259,13 @@ msgid ""
 "To implement an RPC timeout, either use Mutiny `call.ifNoItem().after(...)` or Fault Tolerance `@Timeout`."
 msgstr "请勿使用此功能实现 RPC 超时。要实施 RPC 超时，请使用 Mutiny `call.ifNoItem().after(…​)` 或容错 `@Timeout` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "gRPC Headers"
 msgstr "gRPC头文件"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -285,12 +297,13 @@ msgstr "用改变后的客户端进行呼叫。原先的客户端保持未修改
 msgid "`GrpcClientUtils` work with all flavors of clients."
 msgstr " `GrpcClientUtils` 与各种类型的客户合作。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Client Interceptors"
 msgstr "客户端拦截器"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -342,6 +355,7 @@ msgstr "为这个特定的客户注册 `MySpecialInterceptor` 。"
 msgid "When you have multiple client interceptors, you can order them by implementing the `jakarta.enterprise.inject.spi.Prioritized` interface:"
 msgstr "当你有多个客户端拦截器时，你可以通过实现 `javax.enterprise.inject.spi.Prioritized` 接口对它们进行排序。"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -349,18 +363,19 @@ msgid ""
 "The default priority, used if the interceptor does not implement the `Prioritized` interface, is `0`."
 msgstr "优先级最高的拦截器会被优先调用。如果拦截器没有实现 `Prioritized` 接口，默认的优先级是 `0` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "gRPC Client metrics"
 msgstr "gRPC客户端度量"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Enabling metrics collection"
 msgstr "启用指标收集"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -380,7 +395,7 @@ msgstr "举例来说，如果你把指标导出到Prometheus，你会得到。"
 msgid "The service name, method and type can be found in the _tags_."
 msgstr "服务名称、方法和类型可以在 _标签_ 中找到。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Disabling metrics collection"
@@ -392,12 +407,13 @@ msgstr "禁用指标收集"
 msgid "To disable the gRPC client metrics when `quarkus-micrometer` is used, add the following property to the application configuration:"
 msgstr "要在使用 `quarkus-micrometer` 时禁用gRPC客户端度量，请在应用程序配置中添加以下属性。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Custom exception handling"
 msgstr "自定义异常处理"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -411,12 +427,13 @@ msgstr "如果有任何 gRPC 服务或服务器拦截器抛出（自定义）异
 msgid "e.g."
 msgstr "比如说"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Dev Mode"
 msgstr "开发模式"
 
+#. type: Plain text
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy
 msgid ""
@@ -424,7 +441,7 @@ msgid ""
 "You can configure the gRPC extension's dev mode behavior using the following properties."
 msgstr "默认情况下，以开发模式启动应用程序时，即使未配置任何服务，也会启动 gRPC 服务器。可以使用以下属性配置 gRPC 扩展的开发模式行为。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/grpc-service-consumption.adoc
 #, fuzzy, no-wrap
 msgid "Inject mock clients"

@@ -70,6 +70,7 @@ msgstr "它将Quarkus升级到 link:https://smallrye.io/smallrye-mutiny/2.0.0/re
 msgid "It simplifies how Kotlin is handled by our classloader, which should ease the work on Kotlin-based Quarkus extensions."
 msgstr "它简化了Kotlin被我们的classloader处理的方式，这应该会减轻基于Kotlin的Quarkus扩展的工作。"
 
+#. type: Plain text
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy
 msgid ""
@@ -77,7 +78,7 @@ msgid ""
 "Until then, we encourage you to test it and report your feedback."
 msgstr "我们计划在一个月内发布下一个 Alpha 版本。在此之前，我们鼓励您进行测试并报告您的反馈意见。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy, no-wrap
 msgid "Trying out Quarkus 3"
@@ -95,7 +96,7 @@ msgstr "目前，最简单的方法是使用 link:https://code.quarkus.io/?S=io.
 msgid "Mind you that at this stage, while all the core extensions are available, only parts of the Quarkus platform is present. Not all extensions have yet migrated to Jakarta packages (e.g. Camel Quarkus or Kogito are not yet available)."
 msgstr "请注意，在这个阶段，虽然所有的核心扩展都是可用的，但只有Quarkus平台的一部分是存在的。并非所有的扩展都已迁移到Jakarta包中（例如，Camel Quarkus或Kogito还不能使用）。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy, no-wrap
 msgid "Upgrading to Quarkus 3"
@@ -125,13 +126,13 @@ msgstr "对于Linux。"
 msgid "For Windows:"
 msgstr "对于Windows。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy
 msgid "Using the JBang script also migrates the documentation (in Markdown on AsciiDoc)."
 msgstr "使用 JBang 脚本还可以迁移文档（在 AsciiDoc 上使用 Markdown 格式）。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy
 msgid "It is the preferred method as the one presented below will only migrate the source code."
@@ -143,6 +144,7 @@ msgstr "这是首选方法，因为下面介绍的方法只会迁移源代码。
 msgid "You can also do it manually by downloading the https://raw.githubusercontent.com/quarkusio/quarkus/main/jakarta/quarkus3.yml[OpenRewrite recipe] and apply it manually with the following Maven command:"
 msgstr "你也可以通过下载 link:https://raw.githubusercontent.com/quarkusio/quarkus/main/jakarta/quarkus3.yml[OpenRewrite配方] ，并通过以下Maven命令手动应用它。"
 
+#. type: Plain text
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy
 msgid ""
@@ -168,7 +170,7 @@ msgstr "如果它对你不起作用，可能是我们遗漏了什么，或者你
 msgid "Let us know in either case so we can together improve the migration script."
 msgstr "在这两种情况下，请告诉我们，以便我们可以一起改进迁移脚本。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-23-quarkus-3-0-0-alpha3-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

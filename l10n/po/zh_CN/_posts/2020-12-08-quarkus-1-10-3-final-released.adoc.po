@@ -34,6 +34,7 @@ msgstr "1.10.3.Final修复了一些问题，并带有文档改进。"
 msgid "1.10.3.Final is a maintenance release fixing bugs and improving the documentation."
 msgstr "1.10.3.Final是一个修复错误和改进文档的维护版本。"
 
+#. type: Plain text
 #: _posts/2020-12-08-quarkus-1-10-3-final-released.adoc
 #, fuzzy
 msgid ""
@@ -53,7 +54,7 @@ msgstr "对于使用Quarkus 1.10的所有人来说，这是一次安全的升级
 msgid "If you are not using 1.10 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.10[1.10 migration guide]."
 msgstr "如果你还没有使用1.10，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.10[1.10迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-12-08-quarkus-1-10-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
@@ -71,7 +72,7 @@ msgstr "这个版本是一个维护版本。"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/1.10.3.Final[the full changelog of 1.10.3.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/1.10.3.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/1.10.3.Final[1.10.3.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-12-08-quarkus-1-10-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

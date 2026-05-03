@@ -28,6 +28,7 @@ msgstr "Quarkus 2 即将发布--请随时向我们提问！"
 msgid "Next Wednesday (Jun 2.), we will do Quarkus Insights based on your questions."
 msgstr "下周三（6 月 2 日），我们将根据您的问题进行 Quarkus 洞察。"
 
+#. type: Plain text
 #: _posts/2021-05-27-quarkus-insights-qanda2.adoc
 #, fuzzy
 msgid ""
@@ -35,6 +36,7 @@ msgid ""
 "Q&A episode similar to what we did earlier in the year."
 msgstr "Quarkus 2》即将上映，《Quarkus Insights》也已播出 50 集，我们想做一集与年初类似的问答节目。"
 
+#. type: Plain text
 #: _posts/2021-05-27-quarkus-insights-qanda2.adoc
 #, fuzzy
 msgid ""

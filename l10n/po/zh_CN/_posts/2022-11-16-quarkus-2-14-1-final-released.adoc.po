@@ -46,7 +46,7 @@ msgstr "对于已经在使用2.14的人来说，这是一个推荐的升级。"
 msgid "If you are not already using 2.14, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.14[our migration guide]."
 msgstr "如果你还没有使用2.14，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.14[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-11-16-quarkus-2-14-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "GraalVM/Mandrel upgrade"
@@ -58,6 +58,7 @@ msgstr "GraalVM/Mandrel升级"
 msgid "We don't usually upgrade GraalVM/Mandrel in a micro release but GraalVM/Mandrel 22.3 is a LTS release and we decided to move to it early, rather than wait for Quarkus 2.15."
 msgstr "我们通常不会在微型版本中升级GraalVM/Mandrel，但GraalVM/Mandrel 22.3是一个LTS版本，我们决定提前转移到它，而不是等待Quarkus 2.15。"
 
+#. type: Plain text
 #: _posts/2022-11-16-quarkus-2-14-1-final-released.adoc
 #, fuzzy
 msgid ""
@@ -71,7 +72,7 @@ msgstr "我们认为这不会给应用程序带来问题，但如果您使用 Gr
 msgid "Also, GraalVM/Mandrel 22.2 is now the minimal version to use to build native executables."
 msgstr "此外，GraalVM/Mandrel 22.2 现在是用于构建本地可执行文件的最小版本。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-11-16-quarkus-2-14-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Mandrel by default"
@@ -83,7 +84,7 @@ msgstr "默认心轴"
 msgid "For in-container builds, Quarkus now uses Mandrel by default to build native executables."
 msgstr "对于容器内构建，Quarkus 现在默认使用 Mandrel 来构建本地可执行文件。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-11-16-quarkus-2-14-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -95,7 +96,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.14.1.Final[the full changelog of 2.14.1.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.14.1.Final[在 GitHub 上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/2.14.1.Final[2.14.1.Final 的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-11-16-quarkus-2-14-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

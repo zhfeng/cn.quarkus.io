@@ -6,16 +6,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Ship.Cars leverages Quarkus to reach its goals"
 msgstr "Ship.Cars 利用 Quarkus 实现其目标"
 
+#. type: YAML Front Matter: synopsis
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Ship.Cars utilizes the Quarkus framework to increase efficiency and reduce costs in their auto transport logistics, despite initial challenges, the result is improved productivity and future scalability."
 msgstr "Ship.Cars 利用 Quarkus 框架提高了汽车运输物流的效率并降低了成本，尽管最初面临挑战，但结果是提高了生产率和未来的可扩展性。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -23,6 +26,7 @@ msgid ""
 "Our tools are impeccably designed to amplify your business's ability to streamline, automate, and organize the entire car hauling process, from start to finish."
 msgstr "link:https://ship.cars/[Ship.Cars] 是汽车运输物流领域的革命性合作伙伴，提供专门为满足您所有汽车运输要求而定制的软件解决方案。我们的工具设计无懈可击，可提高您的业务能力，使整个汽车运输流程从头到尾都实现简化、自动化和组织化。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -31,11 +35,13 @@ msgid ""
 "Meanwhile, innovations like our SmartHaul TMS and SmartHaul APP have become indispensable tools for our car haulers to book and manage their loads."
 msgstr "通过开发各种产品，Ship.Cars 已帮助汽车物流行业过渡到现代时代。我们的行业解决方案，如 LoadMate 和 LoadMate Pro，满足了经销商、租车公司和其他托运人的各种需求。同时，我们的 SmartHaul TMS 和 SmartHaul APP 等创新产品已成为汽车运输商预订和管理货物不可或缺的工具。"
 
+#. type: Title =
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Contending with challenges"
 msgstr "应对挑战"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -45,6 +51,7 @@ msgid ""
 "These specifications ensure seamless provisioning of services, consistent performance under load, and easy identification and resolution of any arising issues."
 msgstr "作为一个以产品为中心的组织，我们利用微服务范式，通过众多不同的软件产品提供各种功能。迄今为止，我们已经开发了 *50* 多个微服务。每个微服务不仅能满足必要的功能要求，还能遵守严格的技术规范。这些规范确保了服务的无缝调配、负载下的一致性能，以及轻松识别和解决任何出现的问题。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -54,6 +61,7 @@ msgid ""
 "This explains our current shift from Django to Quarkus for a significant portion of our development."
 msgstr "在很长一段时间里，这些服务的构建依赖于各种框架，包括 _Quarkus_ 、 _Spring Boot_ 和 _Django_ 。每个框架都有其独特的优缺点，这些优缺点来自于细微的特征。然而，随着时间的推移，我们发现 Quarkus 能以最佳方式满足我们的大部分需求。这也是我们目前将大部分开发工作从 Django 转向 Quarkus 的原因。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -61,11 +69,13 @@ msgid ""
 "With cloud resource consumption costs always being a priority, we strive to find effective ways to optimize memory and processor use in the cloud."
 msgstr "随着 Ship.Cars 在谷歌云平台的 Kubernetes 上部署其微服务，我们不断寻求有效的方法来扩展我们的开发能力，同时节省云资源消耗。云资源消耗成本一直是我们优先考虑的问题，因此我们努力寻找有效的方法来优化云中内存和处理器的使用。"
 
+#. type: Block title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Common challenges often arise when deploying microservices in the cloud, including:"
 msgstr "在云中部署微服务时经常会遇到一些常见挑战，其中包括"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -73,6 +83,7 @@ msgid ""
 "Hence, effective management of cloud resources is crucial."
 msgstr "*降低云资源消耗* ：多个活跃的微服务会消耗大量内存和 CPU，导致成本迅速上升。因此，有效管理云资源至关重要。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -80,11 +91,13 @@ msgid ""
 "Slow boot-up times can have a severe impact on system performance and responsiveness."
 msgstr "*更快的启动时间* ：在微服务架构中，迅速停止、启动和扩展服务非常重要。缓慢的启动时间会严重影响系统性能和响应速度。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Streamlined microservices development**: Building and ensuring interoperability within microservices can be complex, requiring deft management and specialized tooling."
 msgstr "*简化微服务开发* ：在微服务内构建并确保互操作性可能很复杂，需要灵巧的管理和专门的工具。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -92,6 +105,7 @@ msgid ""
 "Implementing such fault tolerance mechanisms, however, can be challenging."
 msgstr "*弹性和容错* ：微服务必须具有弹性，能够从意外故障中快速恢复。然而，实施这种容错机制可能具有挑战性。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -99,6 +113,7 @@ msgid ""
 "Traditional hard-coded endpoints do not scale well in these scenarios."
 msgstr "*服务发现* ：随着服务数量的增加，服务之间的发现和通信能力变得至关重要。在这些情况下，传统的硬编码端点无法很好地扩展。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -106,16 +121,19 @@ msgid ""
 "Yet, orchestrating this can be difficult."
 msgstr "*事件驱动的微服务* ：在微服务中实施事件驱动架构模型可以让不同的服务进行异步通信。然而，协调这一点却很困难。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Reactive and imperative programming**: The selection of an appropriate programming model for the cloud, especially one that supports scalability and system responsiveness, can be daunting."
 msgstr "*反应式和命令式编程* ：为云计算选择合适的编程模型，尤其是支持可扩展性和系统响应性的编程模型，可能会让人望而生畏。"
 
+#. type: Block title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Quarkus could beautifully address these challenges as follows:"
 msgstr "Quarkus 可以很好地解决这些挑战，具体如下："
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -123,6 +141,7 @@ msgid ""
 "Quarkus significantly reduces the memory footprint of applications, leading to more efficient cloud resource management."
 msgstr "*降低云资源消耗* ：传统的 Java 应用程序以内存使用量大而著称，在资源昂贵的云环境中会变得非常昂贵。Quarkus 可大幅减少应用程序的内存占用，从而提高云资源管理效率。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -130,11 +149,13 @@ msgid ""
 "Quarkus drastically improves start-up performances, with applications often starting in sub-second times."
 msgstr "*更快的启动时间* ：在传统的 Java 应用程序中，启动时间较慢是一个很常见的问题，在云计算中，这个问题尤其突出，因为在云计算中，应用程序需要快速扩展和缩减。Quarkus 大幅提高了启动性能，应用程序通常能在亚秒级的时间内启动。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Streamlined microservices development**: Quarkus has been designed to work with popular Java standards and technologies such as `Eclipse MicroProfile`, `Jakarta EE`, `OpenTelemetry`, `Hibernate`, etc., simplifying the development process and reducing the time and complexity involved."
 msgstr "*简化微服务开发* ：Quarkus 可与 `Eclipse MicroProfile` , `Jakarta EE` , `OpenTelemetry` , `Hibernate` 等流行的 Java 标准和技术协同工作，从而简化了开发流程，减少了开发时间和复杂性。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -142,26 +163,31 @@ msgid ""
 "These features render your microservices more resilient and fault-tolerant."
 msgstr "*弹性和容错* ：Quarkus 采用 `MicroProfile Fault Tolerance` 规范，提供超时、重试、隔板、断路器和回退等功能。这些功能可提高微服务的弹性和容错性。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Service discovery**: Quarkus supports Kubernetes service discovery natively, allowing services to discover and communicate with each other in a reliable manner."
 msgstr "*服务发现* ：Quarkus 原生支持 Kubernetes 服务发现，允许服务以可靠的方式相互发现和通信。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Event-driven microservices**: Quarkus supports event-driven architecture, enabling services to communicate through events, thereby reducing the complexity and coupling between the services."
 msgstr "*事件驱动的微服务* ：Quarkus 支持事件驱动架构，使服务能够通过事件进行通信，从而降低了服务之间的复杂性和耦合性。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Reactive and imperative programming**: Quarkus gives developers the freedom to use reactive or imperative programming models or even combine both in the same application, creating a perfect solution for scalability and system responsiveness."
 msgstr "反应式 *和命令式编程* ：Quarkus 允许开发人员自由使用反应式或命令式编程模型，甚至在同一应用程序中将两者结合起来，从而为可扩展性和系统响应性提供完美的解决方案。"
 
+#. type: Title =
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Tackling cloud resource consumption"
 msgstr "解决云资源消耗问题"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -170,6 +196,7 @@ msgid ""
 "These problems not only impact technical aspects but also have financial implications, significantly affecting the overall cost of running and maintaining software solutions."
 msgstr "对于像我们这样的企业，我们的组织目标之一是降低成本，同时不牺牲平台性能，以确保优质的用户体验。然而，传统的 *基于 JVM* 的服务通常会面临大量内存占用、启动时间延长和 CPU 使用率高等挑战。这些问题不仅会影响技术方面，还会产生财务影响，严重影响运行和维护软件解决方案的总体成本。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -177,11 +204,13 @@ msgid ""
 "With the advent of GraalVM, a high-performance, polyglot virtual machine able to run applications written in different programming languages, the concept of native images has gained popularity."
 msgstr "本地镜像是独立的可执行文件，其中包括应用程序代码和必要的运行时组件。GraalVM 是一种能运行用不同编程语言编写的应用程序的高性能多语言虚拟机，随着 GraalVM 的问世，原生映像的概念逐渐流行起来。"
 
+#. type: Block title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Native images offer several advantages, such as:"
 msgstr "原生图像具有多种优势，例如"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -190,6 +219,7 @@ msgid ""
 "For instance, one of our microservices, `native powered by Quarkus 3.2.7.Final`, starts in just 0.677s."
 msgstr "*更快的启动时间* ：作为预编译实体，本地映像的启动速度快得惊人，通常只需几毫秒。当应用程序需要几乎即时启动和停止时，比如在无服务器功能或基于云的微服务架构中，这方面的优势就非常明显。例如，我们的一个微服务 `native powered by Quarkus 3.2.7.Final` 启动时间仅为 0.677 秒。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -197,21 +227,25 @@ msgid ""
 "This efficiency is important in cloud environments where resource usage directly affects costs."
 msgstr "*内存占用更少* ：使用本地镜像可显著减少应用程序的内存占用，因为它们只包含应用程序实际使用的运行时组件。在资源使用直接影响成本的云环境中，这种效率非常重要。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "*Real service memory usage*"
 msgstr "*实际服务内存使用量*"
 
+#. type: Block title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Memory usage of a Quarkus native image"
 msgstr "Quarkus 本地图像的内存使用情况"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Easier distribution: As standalone executables, native images can be easily distributed and run on any environment without requiring the installation of a separate runtime."
 msgstr "更易于分发：作为独立的可执行文件，本地镜像可在任何环境下轻松分发和运行，无需安装单独的运行时。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -220,56 +254,67 @@ msgid ""
 "For example, the size comparison between `Quarkus Native (85.1 MB)`, `Quarkus Non-Native (648.4 MB)` and `Spring Boot (861.9 MB)` provides a clear picture of the difference in resource efficiency between them."
 msgstr "缩小容器尺寸：原生映像的容器映像是完全独立的，由于尺寸更小，分发起来更有效率。这使得在 Kubernetes 等容器化环境中启动时间更快。例如，通过 `Quarkus Native (85.1 MB)` 、 `Quarkus Non-Native (648.4 MB)` 和 `Spring Boot (861.9 MB)` 之间的大小比较，可以清楚地看出它们在资源效率方面的差异。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "With Quarkus, you can compile your application into a native image by leveraging the GraalVM native-image compiler, allowing your Java applications to experience these advantages in cloud platforms, containerization, and serverless architectures due to their swift startup times and lower resource consumption."
 msgstr "使用 Quarkus，您可以利用 GraalVM 本机镜像编译器将应用程序编译成本机镜像，从而让您的 Java 应用程序在云平台、容器化和无服务器架构中体验到这些优势，因为它们启动时间短、资源消耗低。"
 
+#. type: Title =
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Optimizing developer productivity"
 msgstr "优化开发人员的工作效率"
 
+#. type: Block title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Quarkus brings several benefits which enhance developer productivity, such as:"
 msgstr "Quarkus 具有多种优势，可提高开发人员的工作效率，例如"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Live Coding**: With no build time and deploy time, developers can test changes to the code instantaneously."
 msgstr "*实时编码* ：没有构建时间和部署时间，开发人员可以即时测试对代码的修改。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Zero configuration with Dev Services**: Quarkus can automatically configure some services for development and testing purposes, enhancing efficiency."
 msgstr "*开发服务零配置* ：Quarkus 可为开发和测试目的自动配置某些服务，从而提高效率。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Continuous testing**: Continuous testing is implemented via the command line and the Dev UI, enhancing the quality of the end product without depending on third-party tools and processes."
 msgstr "*持续测试* ：通过命令行和开发用户界面实施持续测试，无需依赖第三方工具和流程即可提高最终产品的质量。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Dev UI**: Developers can configure extensions, monitor the application, and test components with great ease."
 msgstr "*开发 UI* ：开发人员可以轻松配置扩展、监控应用程序和测试组件。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Unified config**: All of the application's configurations are consolidated in one place, improving accessibility."
 msgstr "*统一配置* ：所有应用程序的配置都整合在一处，提高了可访问性。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "**Standards-based**"
 msgstr "*基于标准*"
 
+#. type: Title =
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Embracing Quarkus extensions"
 msgstr "拥抱夸库丝扩展"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -277,6 +322,7 @@ msgid ""
 "They offer an efficient way to imbibe new capabilities or direct integrations in your project with minimum effort."
 msgstr "Quarkus Extensions 是预配置的功能集，旨在简化应用程序开发过程中的一些常见任务。它们提供了一种高效的方式，让您以最小的工作量在项目中引入新功能或直接集成。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -284,26 +330,31 @@ msgid ""
 "Today, we benefit from an extension hub that quells all previous concerns and enhances our productivity."
 msgstr "在我们的组织中，我们设法迅速实施了内部扩展，有效解决了之前在尝试创建本机图像时遇到的维护问题和配置不兼容问题。如今，我们受益于扩展中心，消除了之前所有的顾虑，提高了工作效率。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "While Quarkus extensions are powerful tools offering deep integration, optimization, and enhanced developer experience, it's essential to weigh the trade-offs and consider if simpler solutions like standard JAR libraries might suit the need better."
 msgstr "虽然 Quarkus 扩展是功能强大的工具，可以提供深度集成、优化和增强的开发人员体验，但权衡利弊并考虑标准 JAR 库等更简单的解决方案是否更适合需求也很重要。"
 
+#. type: Title =
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Looking ahead"
 msgstr "展望未来"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "In the graphical representation below, I want to illustrate the inherent relationship between the process of adopting Quarkus and the subsequent outcomes over time."
 msgstr "在下面的图表中，我想说明采用 Quarkus 的过程与随之而来的结果之间的内在关系。"
 
+#. type: Block title
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid "Comparison of Difficulty/Cost and Ease of Ease-of-Use/Returns Over Time in Adopting Quarkus Features"
 msgstr "采用 Quarkus 功能的难度/成本与易用性/长期回报比较"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""
@@ -316,6 +367,7 @@ msgid ""
 "These escalate gradually as we advance along the timeline towards _\"Middle\"_ and _\"Future\"_, showing a tangible increase in productivity and other gains from adopting and integrating Quarkus features into our practices."
 msgstr "在 _\"Y 轴 \"_ 上，我们用每个冲刺的故事点数来定义难度或成本，这反映了实施功能所需的相对精力。这也代表了采用 Quarkus 功能所花费的时间和资源成本。同时，易用性/回报还考虑了调试时间的减少、功能开发速度的加快以及成功实施后团队生产力的提高等指标。该图清楚地表明，在开始阶段（在 _\"X 轴_ \"上标记为 _\"开始_ \"），难度（以较高的故事点表示）和成本都达到了顶峰，意味着初始阶段充满挑战。然而，当我们沿着时间轴从 _\"开始_ \"到 _\"中间_ \"再到 _\"未来_ \"时，我们会发现每个冲刺的故事点数明显下降，这表明难度和成本都有所降低。与此同时，图表中的易用性和回报率在开始时也相对较低。随着我们沿着时间轴向 _\"中期_ \"和 _\"未来_ \"推进，易用性和回报率逐渐上升，这表明通过采用 Quarkus 功能并将其集成到我们的实践中，生产率和其他收益都得到了显著提高。"
 
+#. type: Plain text
 #: _posts/2024-04-22-ship-cars-leverages-quarkus-to-reach-its-goals.adoc
 #, fuzzy
 msgid ""

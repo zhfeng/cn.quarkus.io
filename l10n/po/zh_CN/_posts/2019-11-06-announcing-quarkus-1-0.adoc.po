@@ -52,6 +52,7 @@ msgstr "忠实于我们的开源根基，我们已经提前发布，经常发布
 msgid "Recent updates include:"
 msgstr "最近的更新包括。"
 
+#. type: Plain text
 #: _posts/2019-11-06-announcing-quarkus-1-0.adoc
 #, fuzzy
 msgid "A reactive core with great support for imperative -  the core networking model of Quarkus supports both reactive and imperative programming models from a single network engine based on Vert.x. Quarkus handles the execution model switch for you."

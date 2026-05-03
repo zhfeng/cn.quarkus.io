@@ -16,12 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _versions/main/guides/security-identity-providers.adoc
 #, no-wrap
 msgid "Identity providers"
 msgstr "身份提供者（Identity Providers）"
 
+#. type: Plain text
 #: _versions/main/guides/security-identity-providers.adoc
 #, fuzzy
 msgid ""
@@ -34,6 +35,7 @@ msgstr "在 Quarkus 安全框架中，身份供应商通过验证用户身份，
 msgid "`IdentityProvider` converts the authentication credentials provided by `HttpAuthenticationMechanism` to a `SecurityIdentity` instance."
 msgstr "`IdentityProvider` 将 `HttpAuthenticationMechanism` 提供的认证凭证转换为 `SecurityIdentity` 实例。"
 
+#. type: Plain text
 #: _versions/main/guides/security-identity-providers.adoc
 msgid ""
 "Some extensions, such as the ones for OIDC and SmallRye JWT, include inline `IdentityProvider` implementations specific to the supported authentication flow.\n"
@@ -64,6 +66,7 @@ msgstr "有关基本身份验证、其机制和相关身份供应商的更多信
 msgid "xref:security-jpa.adoc[Quarkus Security with Jakarta Persistence]"
 msgstr "xref:security-jpa.adoc[使用 Jakarta Persistence 的 Quarkus 安全系统]"
 
+#. type: Plain text
 #: _versions/main/guides/security-identity-providers.adoc
 #, fuzzy
 msgid "xref:security-getting-started-tutorial.adoc[Getting started with Security by using Basic authentication and Jakarta Persistence]"

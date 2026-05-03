@@ -64,7 +64,7 @@ msgstr "你在等待这篇文章 🤓"
 msgid "Now that you are teased, aren't you? Let's dive in."
 msgstr "现在，你被戏弄了，不是吗？让我们深入了解一下。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-20-sentry-the-guardian-of-your-quarkus-app.adoc
 #, fuzzy, no-wrap
 msgid "Sentry, the guardian has arrived on Quarkus"
@@ -124,12 +124,13 @@ msgstr "添加扩展名。"
 msgid "Set it up:"
 msgstr "设置它。"
 
+#. type: Plain text
 #: _posts/2020-01-20-sentry-the-guardian-of-your-quarkus-app.adoc
 #, fuzzy
 msgid "More details about the configuration can be found in the https://quarkus.io/guides/logging-sentry[Logging with Sentry guide]"
 msgstr "有关配置的更多详情，请参阅 link:https://quarkus.io/guides/logging-sentry[使用 Sentry 记录指南]"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-20-sentry-the-guardian-of-your-quarkus-app.adoc
 #, fuzzy, no-wrap
 msgid "Happily ever after"

@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/upx.adoc
 #, fuzzy, no-wrap
 msgid "Compressing native executables using UPX"
 msgstr "使用UPX压缩本地可执行文件"
 
+#. type: Plain text
 #: _guides/upx.adoc
 #, fuzzy
 msgid ""
@@ -63,7 +64,7 @@ msgstr "增加你的构建时间，主要是如果你使用高压缩量的话"
 msgid "increases the startup RSS usage of the application"
 msgstr "增加了应用程序的启动RSS使用量"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/upx.adoc
 #, fuzzy, no-wrap
 msgid "System vs. Container"
@@ -81,6 +82,7 @@ msgstr "UPX压缩需要。"
 msgid "the `upx` command to be available in the system `PATH`;"
 msgstr " `upx` 命令在系统中可用 `PATH` 。"
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid "an explicitly defined `quarkus.native.compression.container-image`;"
 msgstr ""
@@ -91,16 +93,19 @@ msgstr ""
 msgid "or to have built the native executable using an in-container build."
 msgstr "或使用容器内构建的本地可执行文件。"
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid "If `quarkus.native.compression.container-image` is not set explicitly, it will implicitly default to `quarkus.native.builder-image`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid ""
 "If you have the `upx` command available on your path, Quarkus uses it.\n"
 "Otherwise, if you built the native image using an in-container build (using `quarkus.native.container-build=true`) and if the compression image provides the `upx` command, Quarkus compresses the executable from inside the container."
 msgstr ""
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid "If you want to force compression to take place in a container, you can set `quarkus.native.compression.container-build` to `true` (or `false` to explicitly not run compression in a container)."
 msgstr ""
@@ -111,22 +116,26 @@ msgstr ""
 msgid "If you are not in one of these cases, the compression fails."
 msgstr "如果你不在这些情况中，压缩就会失败。"
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid ""
 "Setting `quarkus.native.compression.container-image` results in the compression to run in a container.\n"
 "If you want to set the variable, but not run the compression in a container, set `quarkus.native.compression.container-build` explicitly to `false`."
 msgstr ""
 
+#. type: Block title
 #: _guides/upx.adoc
 msgid "`WORKDIR` for the image used for compression"
 msgstr ""
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid ""
 "The executable to compress is mounted in directory `/project`.\n"
 "Since the container runs `upx` in the current working directory, the `WORKDIR` of the image used for compression must be `/project`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/upx.adoc
 msgid "Compression can be explicitly en-/disabled by setting `quarkus.native.compression.enabled`."
 msgstr ""
@@ -137,13 +146,13 @@ msgstr ""
 msgid "upx is cross-platform."
 msgstr "upx是跨平台的。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/upx.adoc
 #, fuzzy
 msgid "`upx` can compress executables using a different architecture and OS than your host machine. For example, `upx` on a macOS machine can compress a Linux 64-bits executables."
 msgstr " `upx` 可以压缩使用与你的主机不同的架构和操作系统的可执行文件。例如，MacOS X机器上的 ，可以压缩Linux 64bits的可执行文件。 `upx` "
 
-#. type: Title ==
+#. type: Title =
 #: _guides/upx.adoc
 #, fuzzy, no-wrap
 msgid "Configuring the UPX compression"
@@ -155,6 +164,7 @@ msgstr "配置UPX压缩"
 msgid "Then, in your application configuration, enable the compression by configuring the _compression level_ you want:"
 msgstr "然后，在你的应用程序配置中，通过配置你想要的 _压缩级别_ 来启用压缩。"
 
+#. type: Plain text
 #: _guides/upx.adoc
 #, fuzzy
 msgid ""
@@ -162,7 +172,7 @@ msgid ""
 "The compression will happen once the native executable is built and will replace the executable."
 msgstr "如果未设置压缩级别，则会禁用压缩。压缩将在本地可执行文件生成后进行，并取代可执行文件。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/upx.adoc
 #, fuzzy, no-wrap
 msgid "Compression level"
@@ -192,12 +202,13 @@ msgstr " `9` : 更好的压缩"
 msgid "`10`: best compression (can be slow for big files)"
 msgstr " `10` ：最好的压缩（对大文件来说可能很慢）。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/upx.adoc
 #, fuzzy, no-wrap
 msgid "Extra parameters"
 msgstr "额外参数"
 
+#. type: Plain text
 #: _guides/upx.adoc
 #, fuzzy
 msgid ""

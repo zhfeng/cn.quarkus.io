@@ -16,19 +16,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/hibernate-reactive.adoc
 #, no-wrap
 msgid "Using Hibernate Reactive"
 msgstr "使用Hibernate响应式"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "<a class=\"status-label status-preview\" title=\"This extension's backward compatibility and presence in the ecosystem is not guaranteed\" href=\"#extension-status-note\">preview</a>"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -36,6 +38,7 @@ msgid ""
 "and a reactive style of interaction with the database."
 msgstr "link:https://hibernate.org/reactive/[Hibernate Reactive] 是 Hibernate ORM 的反应式 API，支持非阻塞数据库驱动程序和与数据库交互的反应式风格。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -43,6 +46,7 @@ msgid ""
 "It is a different stack tailored for reactive use cases where you need high-concurrency."
 msgstr "Hibernate Reactive 不是 xref:hibernate-orm.adoc[Hibernate ORM] 的替代品，也不是 Hibernate ORM 的未来。它是为需要高并发性的反应式用例定制的不同堆栈。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -51,6 +55,7 @@ msgid ""
 "and if you do not need high-concurrency, or are not accustomed to the reactive paradigm, it is recommended to use Hibernate ORM."
 msgstr "此外，使用我们的默认 REST 层 Quarkus REST（前身为 RESTEasy Reactive）并不需要使用 Hibernate Reactive。将 Quarkus REST 与 Hibernate ORM 结合使用是完全正确的，如果你不需要高并发性，或者不习惯反应式范例，建议使用 Hibernate ORM。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -59,12 +64,13 @@ msgid ""
 "for Hibernate Reactive."
 msgstr "Hibernate Reactive 与 xref:hibernate-orm.adoc[Hibernate ORM 指南] 中描述的注解和大部分配置相同。本指南将只关注 Hibernate Reactive 的具体内容。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
@@ -82,7 +88,7 @@ msgstr "克隆 Git 仓库: `git clone {quickstarts-clone-url}` ，或下载一�
 msgid "The solution is located in the `hibernate-reactive-quickstart` link:{quickstarts-tree-url}/hibernate-reactive-quickstart[directory]."
 msgstr "该解决方案位于 `hibernate-reactive-quickstart` {quickstarts-tree-url}/hibernate-reactive-quickstart[目录]中。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 #, fuzzy, no-wrap
 msgid "Setting up and configuring Hibernate Reactive"
@@ -177,6 +183,7 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -196,6 +203,7 @@ msgstr "例子 `{config-file}` "
 msgid "The only different property from a Hibernate ORM configuration"
 msgstr "与Hibernate ORM配置唯一不同的属性是"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -203,6 +211,7 @@ msgid ""
 "They will often map to Hibernate Reactive configuration properties but could have different names and don't necessarily map 1:1 to each other."
 msgstr "请注意，这些配置属性与典型的 Hibernate Reactive 配置文件中的属性不同。它们通常会映射到 Hibernate Reactive 配置属性，但名称可能不同，也不一定 1:1 地相互映射。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Blocking (non-reactive) and reactive configuration xref:orm-and-reactive-extension-simultaneously[can be mixed together in the same project]."
 msgstr ""
@@ -213,6 +222,7 @@ msgstr ""
 msgid "Configuring Hibernate Reactive using the standard `persistence.xml` configuration file is not supported."
 msgstr "不支持使用标准的 `persistence.xml` 配置文件来配置 Hibernate Reactive。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "See section <<configuration-reference>> for the list of properties you can set in `{config-file}`."
 msgstr ""
@@ -229,6 +239,7 @@ msgstr "只要Hibernate Reactive扩展被列在你的项目依赖中，就会根
 msgid "The dialect will be selected based on the Reactive SQL client - unless you set one explicitly."
 msgstr "方言将根据Reactive SQL客户端来选择--除非你明确设置了一个方言。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "For more information on dialect selection and database versions,\n"
@@ -271,6 +282,7 @@ msgstr "请确保将修改数据库的方法（如 `session.persist(entity)` ）
 msgid "Example of an Entity"
 msgstr "实体的例子"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -285,7 +297,89 @@ msgstr "要在 Hibernate Reactive 启动时加载 SQL 语句，请在 `src/main/
 msgid "This is useful to have a data set ready for your tests or demos."
 msgstr "这对于为你的测试或演示准备一个数据集是很有用的。"
 
-#. type: Title ===
+#. type: Title ==
+#: _guides/hibernate-reactive.adoc
+msgid "Using `@Transactional` with Hibernate Reactive"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid ""
+"You can use the standard `jakarta.transaction.Transactional` annotation with Hibernate Reactive.\n"
+"This provides a more familiar programming model for developers coming from Hibernate ORM."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "While defining transaction handling using the annotation, you should inject `Mutiny.Session` or `Mutiny.StatelessSession` using CDI and use them in methods annotated with `@Transactional`."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Here's an example showing how to use `@Transactional` in a REST resource:"
+msgstr ""
+
+#. type: Block title
+#: _guides/hibernate-reactive.adoc
+msgid "Example REST resource using @Transactional"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Inject the reactive session directly"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Use `@Transactional` for persist operations - creates new entities in the database"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Use `@Transactional` for update operations - modifies existing entities"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "The `@Transactional` interceptor will:"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Lazily open a Hibernate Reactive session when first accessed"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Begin a transaction automatically"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Commit the transaction when the `Uni` completes successfully"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Roll back the transaction if an exception is thrown or the `Uni` is cancelled"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Close the session and release the database connection when the reactive chain completes"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "There are some limitations when using `@Transactional` with Hibernate Reactive, in particular not being able to use a specific `TxType`, not being able to use multiple persistence units / datasources, or non-functional `Uni.combine()`/`Uni.joining()`."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "See <<hr-limitations>> for more information."
+msgstr ""
+
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate Reactive configuration properties"
@@ -297,6 +391,7 @@ msgstr "Hibernate Reactive配置属性"
 msgid "There are various optional properties useful to refine your session factory or guide Quarkus' guesses."
 msgstr "有各种可选的属性，对完善你的会话工厂或指导Quarkus的猜测很有用。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -310,59 +405,70 @@ msgstr "如果没有设置任何属性，Quarkus 通常可以推断出设置 Hib
 msgid "The configuration properties listed here allow you to override such defaults, and customize and tune various aspects."
 msgstr "这里列出的配置属性允许你覆盖这些默认值，并自定义和调整各方面。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Hibernate Reactive uses the same properties you would use for Hibernate ORM: see <<configuration-reference>>."
 msgstr ""
 
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
 msgid "Hibernate ORM and Reactive extensions simultaneously"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "If you add both Hibernate ORM and Hibernate Reactive extensions to your Quarkus app, they can be mixed together in the same project."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "This is useful if your app normally uses Hibernate ORM (which is blocking), but you want to try Hibernate Reactive to see if it works better for your case."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "By adding the second extension, you can use the reactive API in another part of your code - without needing to create a separate app."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Hibernate ORM and Hibernate Reactive won't share the same persistence context, so it's recommended you stick to one or the other in a given method. For example use Hibernate ORM in blocking REST endpoints, and use Hibernate Reactive in reactive REST endpoints."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "To use the both extension simultaneously, add both extension to the `pom.xml` file:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Also update the `applications.properties` file:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "%prod.quarkus.datasource.reactive.url=postgresql:///your_database\n"
 "%prod.quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/hibernate_orm_test"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "The presence of the JDBC driver will enable Hibernate ORM. If you want to disable it, and only use Hibernate Reactive, you can use:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Quarkus will set many Hibernate Reactive configuration settings automatically, and will often use more modern defaults."
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/hibernate-reactive.adoc
 #, fuzzy, no-wrap
 msgid "CDI integration"
 msgstr "CDI整合"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid "If you are familiar with using Hibernate Reactive in Quarkus, you probably already have injected the `Mutiny.SessionFactory` using CDI:"
@@ -380,20 +486,24 @@ msgstr "这将注入默认持久化单元的 `Mutiny.SessionFactory` 。"
 msgid "Prior to Quarkus 3.0 it was also possible to inject a `@RequestScoped` bean for `Mutiny.Session`. However, the lifecycle of a reactive session does not fit the lifecycle of the CDI request context. Therefore, this bean is removed in Quarkus 3.0."
 msgstr "在 Quarkus 3.0 之前，还可以为 `Mutiny.Session` 注入一个 `@RequestScoped` Bean。但是，反应会话的生命周期与 CDI 请求上下文的生命周期不符。因此，Quarkus 3.0 删除了这个 Bean。"
 
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
 msgid "Activate/deactivate persistence units"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "When a persistence unit is configured at build time, and it is assigned entity types or an xref:datasource.adoc#datasource-active[active datasource], the persistence unit is active by default.\n"
 "Quarkus starts the corresponding Hibernate Reactive `SessionFactory` when the application starts."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "To deactivate a persistence unit at runtime, see xref:hibernate-orm.adoc#persistence-unit-active[the corresponding section of the Hibernate ORM guide]."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "If you decide to follow the example from the Hibernate ORM guide to declare a custom CDI bean for the active persistence unit,\n"
@@ -402,14 +512,17 @@ msgid ""
 "this is one way Hibernate Reactive's API entrypoint differs from Hibernate ORM's."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "See <<hr-cdi-integration>> for details."
 msgstr ""
 
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 msgid "Automatically transitioning to Flyway to Manage Schemas"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "Hibernate Reactive can be used in the same application as Flyway.\n"
@@ -417,6 +530,7 @@ msgid ""
 "for details regarding configuration of Flyway in a reactive application."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "If you have the xref:flyway.adoc[Flyway extension] installed when running in development mode,\n"
@@ -424,11 +538,12 @@ msgid ""
 "using the schema generated automatically by Hibernate Reactive."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "See xref:hibernate-orm.adoc#flyway[the Hibernate ORM guide] for more details."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
 #, no-wrap
 msgid "Testing"
@@ -476,56 +591,66 @@ msgstr "一个非常简单的使用例子看起来像。"
 msgid "See the Javadoc of `UniAsserter` for a full description of the various methods that can be used for creating assertions."
 msgstr "关于可用于创建断言的各种方法的完整描述，见 `UniAsserter` 的Javadoc。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid "You can also extend the `io.quarkus.test.vertx.UniAsserterInterceptor` to wrap the injected `UniAsserter` and customize the default behavior. For example, the interceptor can be used to execute the assert methods within a separate database transaction.:"
 msgstr "您还可以扩展 `io.quarkus.test.vertx.UniAsserterInterceptor` ，以封装注入的 `UniAsserter` 并自定义默认行为。例如，拦截器可用于在单独的数据库事务中执行断言方法："
 
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
 msgid "Multiple persistence units"
 msgstr ""
 
+#. type: Title ===
 #: _guides/hibernate-reactive.adoc
 msgid "Setting up multiple persistence units"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "In a similar fashion to Hibernate ORM, Hibernate Reactive supports multiple persistence units."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "You can define multiple persistence units and datasources, and they can mix blocking and reactive datasources.\n"
 "To ensure that a datasource supports reactive, you need to set the `reactive` property to `true`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Define a reactive datasource named `users`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Define a reactive datasource named `inventory`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Define a persistence unit named `users` and specify the datasource."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Define a persistence unit named `inventory` and specify the datasource."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "When using named persistence units, you must set the `datasource` property to the name of the corresponding datasource."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 #, fuzzy, no-wrap
 msgid "Limitations and other things you should know"
 msgstr "限制和其他你应该知道的事情"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -533,6 +658,7 @@ msgid ""
 "this extension you will mostly have the same experience as using the original library."
 msgstr "Quarkus 不会修改它所使用的库；这一规则也适用于 Hibernate Reactive：在使用该扩展时，你将获得与使用原始库相同的体验。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -541,18 +667,18 @@ msgid ""
 "know what is being done."
 msgstr "虽然它们共享相同的代码，但 Quarkus 会自动配置某些组件，并为某些扩展点注入自定义实现；这应该是透明和有用的，但如果你是 Hibernate Reactive 的专家，你可能想知道正在做什么。"
 
-#. type: delimited block =
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
-#, fuzzy
-msgid "Here's a list of things to pay attention when using Hibernate Reactive in Quarkus:"
-msgstr "这里列出了在Quarkus中使用Hibernate Reactive时需要注意的事项。"
+msgid "General limitations"
+msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid "Hibernate Reactive is not configurable via a `persistence.xml` file."
 msgstr "它不能通过 `persistence.xml` 文件进行配置。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -561,6 +687,7 @@ msgid ""
 "or even a single named persistence unit."
 msgstr "该扩展目前只考虑默认的持久化单元：无法配置多个持久化单元，甚至无法配置单个命名的持久化单元。"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "This extension does not support xref:hibernate-orm.adoc#database-approach[database-based multitenancy]\n"
@@ -569,26 +696,96 @@ msgid ""
 "See https://github.com/quarkusio/quarkus/issues/15959."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid "Integration with the Envers extension is not supported."
 msgstr "不支持与 Envers 扩展集成。"
 
+#. type: Title ==
 #: _guides/hibernate-reactive.adoc
-#, fuzzy
+msgid "Transaction management: choosing between `@Transactional` and Panache annotations"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "With the introduction of the `quarkus-reactive-transactions` extension, you now have two options for managing transactions in Hibernate Reactive applications:"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Use `jakarta.transaction.Transactional` for declarative transaction management"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Use Panache's transaction annotations (`@WithTransaction`, `@WithSession`, `@WithSessionOnDemand`, or the programmatic `Panache.withTransaction()`)"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
 msgid ""
-"Transaction demarcation cannot be done using `jakarta.transaction.Transactional` or `QuarkusTransaction`;\n"
-"if you use xref:hibernate-reactive-panache.adoc[Hibernate Reactive with Panache],\n"
-"consider xref:hibernate-reactive-panache.adoc#transactions[using `@WithTransaction` or `Panache.withTransaction()`] instead."
-msgstr "使用 `jakarta.transaction.Transactional` 或 `QuarkusTransaction` 无法完成事务分界；如果使用 xref:hibernate-reactive-panache.adoc[带有 Panache 的 Hibernate Reactive] ，请考虑 xref:hibernate-reactive-panache.adoc#transactions[使用@WithTransaction 或Panache.withTransaction()] 代替。"
+"You must choose one approach and use it consistently throughout your application.\n"
+"Mixing both transaction management styles in the same reactive pipeline is not supported and will result in an `UnsupportedOperationException`.\n"
+"In the future, we'll deprecate the previous annotations provided by Panache and and support only `@Transactional`."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid ""
+"You can inject either `Mutiny.Session` or `Mutiny.StatelessSession`.\n"
+"Mixing both session types in the same transaction should work, but should be reserved for exotic use cases implemented by advanced users, as the (stateful) session will not be aware of changes operated through the stateless session, which could thus conflict or be silently erased by (stateful) session writes."
+msgstr ""
 
 #. type: Title ==
+#: _guides/hibernate-reactive.adoc
+msgid "Using Declarative Transaction Management in different reactive pipelines"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "When using declarative transaction management with Vert.x context-based interceptors (`@Transactional`, `@WithTransaction`, `@WithSession`, `@WithSessionOnDemand`) in multiple methods and combining such methods with either `Uni.combine().all().unis()` or `Uni.join().all()` the same transaction might be shared by different reactive pipelines causing unpredictable behavior."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "For this reason, **avoid using declarative transactional management with those methods**."
+msgstr ""
+
+#. type: Title ==
+#: _guides/hibernate-reactive.adoc
+msgid "Other Declarative Transactional Management limitations"
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Reactive transactions does not use `TransactionManager`, thus they are local only and do not support XA transactions. Every parameter defined on the `TransactionManager` (such as `quarkus.transaction-manager.default-transaction-timeout`) will be ignored. Only a single datasource can participate in a transaction."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid ""
+"Reactive transactions also work exclusively within the reactive pipeline.\n"
+"If blocking code is executed (for example on a worker thread) as part of that pipeline, it will not be able to participate in the transaction."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Declarative reactive transactions with `@Transactional` can only be applied to methods returning `Uni`, not `Multi`, `CompletionStage`, or `CompletableFuture`."
+msgstr ""
+
+#. type: Plain text
+#: _guides/hibernate-reactive.adoc
+msgid "Currently, only `Transactional.TxType.REQUIRED` is supported with reactive transactions. Other transaction types (`REQUIRES_NEW`, `MANDATORY`, etc.) will throw an `UnsupportedOperationException`."
+msgstr ""
+
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 #, fuzzy, no-wrap
 msgid "Simplifying Hibernate Reactive with Panache"
 msgstr "简化 Hibernate Reactive，让它充满活力"
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid ""
@@ -596,10 +793,12 @@ msgid ""
 "by providing active record style entities (and repositories) and focuses on making your entities trivial and fun to write in Quarkus."
 msgstr "xref:hibernate-reactive-panache.adoc[Hibernate Reactive with Panache] 扩展通过提供活动记录风格的实体（和存储库）来促进 Hibernate Reactive 的使用，其重点是让你的实体在 Quarkus 中编写起来既简单又有趣。"
 
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 msgid "Validation modes and Hibernate Validator integration"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "To find out more on how the <<quarkus-hibernate-orm_quarkus-hibernate-orm-validation-mode,`quarkus.hibernate-orm.validation.mode` configuration property>>.\n"
@@ -607,20 +806,24 @@ msgid ""
 "as these modes work the same in both cases."
 msgstr ""
 
+#. type: Title =
 #: _guides/hibernate-reactive.adoc
 msgid "Configuration Reference for Hibernate Reactive"
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid ""
 "You will notice that some properties\n"
 "contain \"jdbc\" in their name: this is because Hibernate ORM refers to its \"data access\" layer as \"JDBC\" for historical reasons. Hibernate Reactive uses Vert.x Reactive SQL clients for its data access layer rather than JDBC."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 msgid "Regardless of their name, these properties still make sense for Hibernate Reactive."
 msgstr ""
 
+#. type: Plain text
 #: _guides/hibernate-reactive.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

@@ -76,6 +76,7 @@ msgstr "如果你想了解 Quarkus 及其开发过程，绝对值得一看。"
 msgid "This Monday is also start of \"Season 3\" - see you there!"
 msgstr "本周一也是 \"第三季 \"的开始--到时见！"
 
+#. type: Plain text
 #: _posts/2021-08-20-60th-quarkus-insights.adoc
 #, fuzzy
 msgid ""

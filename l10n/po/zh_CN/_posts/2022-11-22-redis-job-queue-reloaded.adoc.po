@@ -28,6 +28,7 @@ msgstr "Redis作业队列--重装上阵"
 msgid "How to implement a more reliable job queue with Redis, including fault tolerance, de-duplication, and poison pill."
 msgstr "如何用Redis实现一个更可靠的作业队列，包括容错、去重和毒丸。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -41,6 +42,7 @@ msgstr "在《 link:https://quarkus.io/blog/redis-job-queue/[如何使用 Redis 
 msgid "In this post, we explain how to improve the reliability of the job queue to handle failures, enable retry and use a _dead-letter queue_ to avoid poison pills."
 msgstr "在这篇文章中，我们解释了如何提高作业队列的可靠性来处理故障，启用重试，并使用 _死字队列_ 来避免毒丸。"
 
+#. type: Title =
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid "Recap & Problem"
@@ -52,6 +54,7 @@ msgstr "回顾与问题"
 msgid "In the https://quarkus.io/blog/redis-job-queue/[previous blog post], we implemented the following system."
 msgstr "在 link:https://quarkus.io/blog/redis-job-queue/[上一篇博文] 中，我们实现了以下系统。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -60,6 +63,7 @@ msgid ""
 "The outcomes of the _fights_ were communicated using Redis Pub/Sub."
 msgstr "应用程序接收 _战斗请求_ ，并将这些请求写入 Redis 列表。多个模拟器对该列表进行处理。 _战斗_ 结果通过 Redis Pub/Sub 进行通信。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -67,6 +71,7 @@ msgid ""
 "This command pops the item from the queue in an atomic manner and ensure that the other simulators can't process it too."
 msgstr "由于模拟器代码使用了 `brpop` 命令，该架构可以确保战斗只能执行一次。该命令以原子方式从队列中弹出项目，确保其他模拟器无法同时处理。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -75,11 +80,13 @@ msgid ""
 "No other simulator would be able to process it, and if the simulator that failed restarts, it will not reprocess the same request."
 msgstr "不过，这种架构也有缺点。如果处理弹出战斗请求失败，请求就会丢失。任何其他模拟器都无法处理它，而且如果处理失败的模拟器重新启动，它也不会重新处理相同的请求。"
 
+#. type: Title =
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid "Introducing more queues"
 msgstr "引入更多队列"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -100,6 +107,7 @@ msgstr "这些私人队列形成了一个安全网。"
 msgid "So, the simulator does use not only the _main queue_ but also its private queue:"
 msgstr "因此，模拟器不仅使用 _主队列_ ，而且还使用其私有队列。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -121,6 +129,7 @@ msgstr "因此，我们使用下面的代码将请求从主队列转移到私有
 msgid "Now, the simulator does not simulate the requests from the main queue but needs to process the ones added to its private queue."
 msgstr "现在，模拟器不模拟主队列中的请求，而是需要处理添加到其私有队列中的请求。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -130,6 +139,7 @@ msgid ""
 "We do this until the queue is empty."
 msgstr "这段代码与上一篇博客中的代码略有不同。这次，我们不弹出。我们从队列中获取最后一个项目（索引 `-1` 是最后一个），对其进行处理，然后将其从队列中移除。直到队列清空为止。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -138,11 +148,13 @@ msgid ""
 "2. once the private queue is empty, it gets new requests from the main queue. It will not process them directly but re-trigger the processing of the private queue until the queue is empty."
 msgstr "让我们把所有东西放在一起：1. 当模拟器启动时，它应该处理其私有队列中的项目。因此，如果模拟器崩溃，它会重新尝试处理项目。2. 一旦私有队列为空，它就会从主队列中获取新的请求。它不会直接处理这些请求，而是重新触发私有队列的处理，直到队列清空为止。"
 
+#. type: Title =
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid "New architecture, new problems"
 msgstr "新架构，新问题"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -169,11 +181,13 @@ msgstr " _重复_ ：如果处理成功，但 `lrem` ，由于任何原因（如
 msgid "_Poison pill_: if a request cannot be processed successfully, it will retry to process it forever."
 msgstr " _毒丸_ ：如果一个请求不能被成功处理，它将永远重试处理它。"
 
+#. type: Title ==
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid "De-duplication"
 msgstr "重复数据删除"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -181,11 +195,13 @@ msgid ""
 "In other words, if all our requests have a unique id, we can check if that id has already been processed (for example, by storing the processed ids in another list or a hash). If the item has already been processed, ignore it (remove it from the queue) and process it to the next one:"
 msgstr "处理 _重复_ 请求需要有一种方法来唯一识别请求并手动重复。换句话说，如果我们的所有请求都有一个唯一的 id，我们就可以检查该 id 是否已被处理过（例如，将已处理过的 id 储存在另一个列表或哈希值中）。如果该项目已被处理，则忽略它（从队列中删除），然后处理下一个项目："
 
+#. type: Title ==
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid "Avoiding swallowing the poison pill"
 msgstr "避免吞下毒药"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -195,6 +211,7 @@ msgid ""
 "Retrying, in this case, will not help; we are not facing a transient issue."
 msgstr "处理 _毒丸_ 则更为复杂。 _毒丸_ 是一种总是会导致处理失败的请求。可能是因为处理代码中的错误，也可能是其他意想不到的原因，但它总是会失败。在这种情况下，重试不会有任何帮助；我们面对的不是一个短暂的问题。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -209,6 +226,7 @@ msgstr "那么，我们能做些什么呢？我们需要跟踪该请求的处理
 msgid "The counter is a specific Redis integer value that we increment and reset once we succeed or give up."
 msgstr "该计数器是一个特定的Redis整数值，一旦我们成功或放弃，我们就会递增并重置。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -217,11 +235,13 @@ msgid ""
 "Another approach requires that a human administrator looks at these requests before re-injecting them into the system; maybe it was just a formatting issue..."
 msgstr "DLQ 中的项目不会丢失；它们会被保存起来，以备将来处理。这些项目可以重新添加到主队列中（以验证这是否不是一个短暂的问题，或者错误是否已被修复）。另一种方法是，在将这些请求重新注入系统之前，需要人工管理员查看这些请求；也许这只是一个格式问题......"
 
+#. type: Title =
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid "Summary"
 msgstr "摘要"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""
@@ -231,6 +251,7 @@ msgid ""
 "But, nothing comes for free, and the resulting code is slightly more complex."
 msgstr "本篇文章将探讨如何改进我们在《 link:https://quarkus.io/blog/redis-job-queue/[如何使用 Redis 实现] 作业队列》一文中实现的作业队列。最初的实现虽然简单，但会在处理失败时丢失请求。本篇文章提出了另一种更复杂的架构，不仅能处理这种情况，还能处理重复请求和毒丸。不过，没有什么东西是免费的，因此代码也略显复杂。"
 
+#. type: Plain text
 #: _posts/2022-11-22-redis-job-queue-reloaded.adoc
 #, fuzzy
 msgid ""

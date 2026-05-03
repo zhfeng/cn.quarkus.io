@@ -28,6 +28,7 @@ msgstr "Quarkus 1.13.6.Final发布 - 维护性发布"
 msgid "1.13.6.Final is a maintenance release for our 1.13 release train."
 msgstr "1.13.6.Final是我们1.13版本列车的一个维护版本。"
 
+#. type: Plain text
 #: _posts/2021-05-27-quarkus-1-13-6-final-released.adoc
 #, fuzzy
 msgid ""
@@ -59,7 +60,7 @@ msgstr "也请查看 link:https://quarkus.io/blog/quarkus-1-13-5-final-released/
 msgid "If you are not using 1.13 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.13[1.13 migration guide]."
 msgstr "如果你还没有使用1.13，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.13[1.13迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-05-27-quarkus-1-13-6-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -71,7 +72,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/1.13.6.Final[the full changelog of 1.13.6.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/1.13.6.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/1.13.6.Final[1.13.6.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-05-27-quarkus-1-13-6-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

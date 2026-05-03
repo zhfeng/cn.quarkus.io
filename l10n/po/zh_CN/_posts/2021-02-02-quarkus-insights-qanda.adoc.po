@@ -34,6 +34,7 @@ msgstr "下周一（21 年 2 月 8 日），我们将根据您的问题撰写 Qu
 msgid "On the next Quarkus Insights episode, we are trying something new."
 msgstr "在下一集《夸克洞察》中，我们将尝试一些新东西。"
 
+#. type: Plain text
 #: _posts/2021-02-02-quarkus-insights-qanda.adoc
 #, fuzzy
 msgid ""

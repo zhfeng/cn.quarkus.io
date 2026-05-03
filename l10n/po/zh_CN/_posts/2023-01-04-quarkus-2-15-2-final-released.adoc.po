@@ -28,6 +28,7 @@ msgstr "Quarkus 2.15.2.Final发布 - 维护性发布"
 msgid "Quarkus 2.15.2.Final is the second maintenance release of our 2.15 release train."
 msgstr "Quarkus 2.15.2.Final是我们2.15版本列车的第二个维护版本。"
 
+#. type: Plain text
 #: _posts/2023-01-04-quarkus-2-15-2-final-released.adoc
 #, fuzzy
 msgid ""
@@ -35,6 +36,7 @@ msgid ""
 "and with the new year comes a new Quarkus release, 2.15.2.Final."
 msgstr "Quarkus 团队祝您新年快乐！新年之际，Quarkus 发布了新版本 2.15.2.Final。"
 
+#. type: Plain text
 #: _posts/2023-01-04-quarkus-2-15-2-final-released.adoc
 #, fuzzy
 msgid ""
@@ -48,7 +50,7 @@ msgstr "该版本包含针对 2.15 版本列车的错误修正和文档改进。
 msgid "If you are not already using 2.15, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.15[our migration guide]."
 msgstr "如果你还没有使用2.15，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.15[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-04-quarkus-2-15-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -60,7 +62,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/2.15.2.Final[the full changelog of 2.15.2.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/2.15.2.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/2.15.2.Final[2.15.2.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-01-04-quarkus-2-15-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

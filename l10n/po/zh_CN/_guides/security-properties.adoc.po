@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/security-properties.adoc
 #, no-wrap
 msgid "Using Security with .properties File"
 msgstr "使用.properties文件的安全性"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid ""
@@ -50,12 +51,13 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Configuration"
 msgstr "配置"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid ""
@@ -69,21 +71,24 @@ msgstr "elytron-security-properties-file 扩展目前支持两种不同的认证
 msgid "The following sections detail the specific configuration properties."
 msgstr "下文将详细介绍具体的配置属性。"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 msgid "Basic authentication must be explicitly enabled with `quarkus.http.auth.basic=true`, if more than one authentication mechanism is used."
 msgstr ""
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Properties Files Realm Configuration"
 msgstr "属性文件 境界配置"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid ""
@@ -98,7 +103,7 @@ msgstr "属性文件境界支持用户与密码的映射，以及用户与角色
 msgid "Example of the `application.properties` file section for property files realm"
 msgstr "例子application.properties文件部分的属性文件境界"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Users.properties"
@@ -110,6 +115,7 @@ msgstr "用户.属性"
 msgid "The `quarkus.security.users.file.users` configuration property specifies a classpath resource which is a properties file with a user-to-password mapping, one per line."
 msgstr " `quarkus.security.users.file.users` 配置属性指定了一个classpath资源，它是一个带有用户到密码映射的属性文件，每行一个。下面的 link:#test-users-example[[test-users-example]] 说明了这个格式。"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid "The following <<test-users-example>> illustrates the format:"
@@ -133,6 +139,7 @@ msgstr "用户 `scott` ，其密码定义为 `jb0ss` "
 msgid "User `jdoe` has password defined as `p4ssw0rd`"
 msgstr "用户 `jdoe` ，其密码定义为 `p4ssw0rd` "
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 msgid ""
 "This file has usernames and passwords stored in plain text, which is not recommended.\n"
@@ -140,7 +147,7 @@ msgid ""
 "This can be generated for the first example above by running the command `echo -n scott:MyRealm:jb0ss | md5` from the command line."
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Roles.properties"
@@ -170,12 +177,13 @@ msgstr "用户 `jdoe` 已经被分配了角色 `NoRolesUser` "
 msgid "User `stuart` has been assigned the roles `admin` and `user`."
 msgstr "用户 `stuart` 已经被分配了角色 `admin` 和 `user` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Embedded Realm Configuration"
 msgstr "嵌入式境界配置"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 msgid ""
 "The embedded realm also supports the mapping of users to passwords and users to roles.\n"
@@ -195,6 +203,7 @@ msgstr "下面是一个说明嵌入式境界配置的application.properties文�
 msgid "Example of the `application.properties` file section for embedded realm"
 msgstr "嵌入境界的application.properties文件示例部分"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 msgid ""
 "As with the first example, this file has usernames and passwords stored in plain text, which is not recommended.\n"
@@ -202,12 +211,13 @@ msgid ""
 "This can be generated for the first example above by running the command `echo -n scott:MyRealm:jb0ss | md5` from the command line."
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Embedded Users"
 msgstr "嵌入式用户"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid ""
@@ -233,12 +243,13 @@ msgstr "用户 `scott` 有密码 `jb0ss` "
 msgid "User `stuart` has password `test`"
 msgstr "用户 `stuart` 有密码 `test` "
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/security-properties.adoc
 #, fuzzy, no-wrap
 msgid "Embedded Roles"
 msgstr "嵌入式角色"
 
+#. type: Plain text
 #: _guides/security-properties.adoc
 #, fuzzy
 msgid ""
@@ -264,7 +275,7 @@ msgstr "用户 `scott` 的角色是 `Admin` , `admin` , `Tester` , 和 `user`"
 msgid "User `stuart` has roles `admin` and `user`"
 msgstr "用户 `stuart` 的角色是 `admin` 和 `user`"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-properties.adoc
 #, no-wrap
 msgid "References"

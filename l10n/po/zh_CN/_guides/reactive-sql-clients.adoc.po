@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, no-wrap
 msgid "Reactive SQL Clients"
 msgstr "响应式SQL客户端"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -32,49 +33,35 @@ msgid ""
 "Currently, the following database servers are supported:"
 msgstr "反应式 SQL 客户端的应用程序接口简单明了，注重可扩展性和低开销。目前支持以下数据库服务器："
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "IBM Db2"
 msgstr "IBM Db2"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "PostgreSQL"
 msgstr "PostgreSQL"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "MariaDB/MySQL"
 msgstr "玛丽亚数据库/MySQL"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Microsoft SQL Server"
 msgstr "微软SQL服务器"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Oracle"
 msgstr "甲骨文"
-
-#. type: delimited block =
-#: _guides/reactive-sql-clients.adoc
-#, fuzzy
-msgid "The Reactive SQL Client for Oracle is considered _tech preview_."
-msgstr "用于Oracle的Reactive SQL客户端被认为是 _技术预览_ 。"
-
-#: _guides/reactive-sql-clients.adoc
-#, fuzzy
-msgid ""
-"In _tech preview_ mode, early feedback is requested to mature the idea.\n"
-"There is no guarantee of stability in the platform until the solution matures.\n"
-"Feedback is welcome on our https://groups.google.com/d/forum/quarkus-dev[mailing list] or as issues in our https://github.com/quarkusio/quarkus/issues[GitHub issue tracker]."
-msgstr "在 _技术预览_ 模式下，我们需要获得早期反馈，以便使想法成熟。在解决方案成熟之前，不能保证平台的稳定性。欢迎通过我们的 link:https://groups.google.com/d/forum/quarkus-dev[邮件列表] 或 link:https://github.com/quarkusio/quarkus/issues[GitHub 问题跟踪器] 中的问题提出反馈意见。"
 
 #. type: Plain text
 #: _guides/reactive-sql-clients.adoc
@@ -100,56 +87,65 @@ msgstr "如果你对Quarkus Vert.x扩展不熟悉，可以考虑先阅读 link:v
 msgid "The application shall manage fruit entities:"
 msgstr "该应用程序应管理水果实体。"
 
+#. type: Block title
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "src/main/java/org/acme/reactive/crud/Fruit.java"
 msgstr "src/main/java/org/acme/reactive/crud/Fruit.java"
 
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 msgid "Prerequisites"
 msgstr "先决条件"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "If you start the application in dev mode, Quarkus provides you with a https://quarkus.io/guides/databases-dev-services[zero-config database] out of the box."
 msgstr "如果在开发模式下启动应用程序，Quarkus 会提供 link:https://quarkus.io/guides/databases-dev-services[一个零配置数据库] 。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "You might also start a database up front:"
 msgstr "您还可以先建立一个数据库："
 
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
 "However, you can go right to the completed example."
 msgstr "我们建议您按照下一节的说明逐步创建应用程序。然而，您可以直接转到已完成的示例。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
 msgstr "克隆 Git 仓库。 `git clone {quickstarts-clone-url}` ，或者下载一个 {quickstarts-archive-url}[存档] 。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "The solution is located in the `getting-started-reactive-crud` link:{quickstarts-tree-url}/getting-started-reactive-crud[directory]."
 msgstr "解决方案位于 `getting-started-reactive-crud` link:{quickstarts-tree-url}/getting-started-reactive-crud[目录] 中。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Installing"
 msgstr "安装"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Reactive PostgreSQL Client extension"
 msgstr "反应式PostgreSQL客户端扩展"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -157,13 +153,13 @@ msgid ""
 "If you are creating a new project, use the following command:"
 msgstr "首先，确保您的项目已启用 `quarkus-reactive-pg-client` 扩展。如果您正在创建一个新项目，请使用以下命令："
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "If you have an already created project, the `reactive-pg-client` extension can be added to an existing Quarkus project with the `add-extension` command:"
 msgstr "如果你有一个已经创建的项目， `reactive-pg-client` 扩展可以通过 `add-extension` 命令添加到现有的Quarkus项目中。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Otherwise, you can manually add the dependency to your build file:"
@@ -181,17 +177,19 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Mutiny"
 msgstr "叛变"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Quarkus REST (formerly RESTEasy Reactive) includes supports for Mutiny types (e.g. `Uni` and `Multi`) out of the box."
 msgstr "Quarkus REST（前身为 RESTEasy Reactive）开箱即支持 Mutiny 类型（如 `Uni` 和 `Multi` ）。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -199,12 +197,13 @@ msgid ""
 "If you are not familiar with Mutiny, check xref:mutiny-primer.adoc[Mutiny - an intuitive reactive programming library]."
 msgstr "在本指南中，我们将使用反应式 PostgreSQL 客户端的 Mutiny API。如果你不熟悉 Mutiny，请查看 xref:mutiny-primer.adoc[Mutiny - 一个直观的反应式编程库] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "JSON Binding"
 msgstr "JSON绑定"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -224,7 +223,7 @@ msgstr "如果你不喜欢使用命令行，可以手动添加依赖关系到你
 msgid "Of course, this is only a requirement for this guide, not any application using the Reactive PostgreSQL Client."
 msgstr "当然，这只是本指南的要求，而不是任何使用Reactive PostgreSQL客户端的应用。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Configuring"
@@ -242,6 +241,7 @@ msgstr "反应式PostgreSQL客户端可以用标准的Quarkus数据源属性和�
 msgid "src/main/resources/application.properties"
 msgstr "src/main/resources/application.properties"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 msgid "With that you can create your `FruitResource` skeleton and inject a `io.vertx.mutiny.sqlclient.Pool` instance:"
 msgstr ""
@@ -252,12 +252,13 @@ msgstr ""
 msgid "src/main/java/org/acme/vertx/FruitResource.java"
 msgstr "src/main/java/org/acme/vertx/FruitResource.java"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Database schema and seed data"
 msgstr "数据库模式和种子数据"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -265,6 +266,7 @@ msgid ""
 "It would also be convenient to have some data inserted up front."
 msgstr "在实现 REST 端点和数据管理代码之前，我们必须设置数据库模式。此外，预先插入一些数据也会很方便。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -272,16 +274,19 @@ msgid ""
 "But for development we can simply drop and create the tables on startup, and then insert a few fruits."
 msgstr "对于生产，我们建议使用类似 xref:flyway.adoc[Flyway 的数据库迁移工具] 。但在开发过程中，我们只需在启动时删除并创建表格，然后插入一些水果即可。"
 
+#. type: Block title
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "/src/main/java/org/acme/reactive/crud/DBInit.java"
 msgstr "/src/main/java/org/acme/reactive/crud/DBInit.java"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "You might override the default value of the `myapp.schema.create` property in the `application.properties` file."
 msgstr "您可以在 `application.properties` 文件中覆盖 `myapp.schema.create` 属性的默认值。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -290,6 +295,7 @@ msgid ""
 "It returns a `Uni` and thus can be composed to execute queries sequentially:"
 msgstr "几乎准备就绪！为了在开发模式下初始化数据库，我们将使用客户端简单的 `query` 方法。该方法返回一个 `Uni` ，因此可以按顺序执行查询："
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -298,6 +304,7 @@ msgid ""
 "As a consequence, returning prematurely could lead to serving requests while the database is not ready yet."
 msgstr "想知道为什么我们必须阻塞直到最新查询完成吗？这段代码是 `@Observes` `StartupEvent` 方法的一部分，Quarkus 会同步调用它。因此，过早返回可能会导致在数据库尚未准备好的情况下为请求提供服务。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -306,18 +313,19 @@ msgid ""
 "We are now ready to develop the data management code and implement our RESTful endpoint."
 msgstr "就是这样！到目前为止，我们已经了解了如何配置池化客户端和执行简单查询。现在，我们可以开发数据管理代码并实现 RESTful 端点了。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Using"
 msgstr "使用"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Query results traversal"
 msgstr "查询结果遍历"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -325,21 +333,25 @@ msgid ""
 "To retrieve all the data, we will use the `query` method again:"
 msgstr "在开发模式下，数据库在 `fruits` 表中设置了几行。要检索所有数据，我们将再次使用 `query` 方法："
 
+#. type: Block title
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "/src/main/java/org/acme/reactive/crud/Fruit.java"
 msgstr "/src/main/java/org/acme/reactive/crud/Fruit.java"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Transform the `io.vertx.mutiny.sqlclient.RowSet` to a `Multi<Row>`."
 msgstr "将 `io.vertx.mutiny.sqlclient.RowSet` 转换为 `Multi<Row>` 。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Convert each `io.vertx.mutiny.sqlclient.Row` to a `Fruit`."
 msgstr "将每个 `io.vertx.mutiny.sqlclient.Row` 转换为 `Fruit` 。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -347,6 +359,7 @@ msgid ""
 "It is extracted as a convenience for the implementation of the other data management methods."
 msgstr "`Fruit#from` 方法将 `Row` 实例转换为 `Fruit` 实例。提取该方法是为了方便执行其他数据管理方法。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Then, add the endpoint to get all fruits from the backend:"
@@ -364,7 +377,7 @@ msgstr "现在以开发模式启动Quarkus。"
 msgid "Lastly, open your browser and navigate to http://localhost:8080/fruits, you should see:"
 msgstr "最后，打开你的浏览器，导航到 http://localhost:8080/fruits 你应该看到。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Prepared queries"
@@ -376,6 +389,7 @@ msgstr "准备好的查询"
 msgid "The Reactive PostgreSQL Client can also prepare queries and take parameters that are replaced in the SQL statement at execution time:"
 msgstr "反应式PostgreSQL客户端也可以准备查询，并采取在执行时在SQL语句中替换的参数。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -383,6 +397,7 @@ msgid ""
 "Please refer to the <<reactive-sql-clients-details>> section for other databases."
 msgstr "对于 PostgreSQL，SQL 字符串可按位置引用参数，使用 `$1` , `$2` , ...等。有关其他数据库，请参阅 <<reactive-sql-clients-details>> 部分。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -420,6 +435,7 @@ msgstr "如果找到一个实体，从 `Row` ，创建一个 `Fruit` 实例。"
 msgid "And in the Jakarta REST resource:"
 msgstr "而在JAX-RS资源中。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Prepare a Jakarta REST response with  either the `Fruit` instance if found or the `404` status code."
@@ -443,7 +459,7 @@ msgstr "同样的逻辑也适用于保存一个 `Fruit` 。"
 msgid "And in the web resource we handle the `POST` request:"
 msgstr "而在网络资源中，我们处理 `POST` 的请求。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Result metadata"
@@ -485,6 +501,7 @@ msgstr "检查元数据以确定一个水果是否真的被删除。"
 msgid "And to handle the HTTP `DELETE` method in the web resource:"
 msgstr "并处理网络资源中的HTTP `DELETE` 方法。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -492,11 +509,13 @@ msgid ""
 "We will use https://jquery.com/[jQuery] to simplify interactions with the backend:"
 msgstr "随着 `GET` 、 `POST` 和 `DELETE` 方法的实现，我们现在可以创建一个最小的网页来试用 RESTful 应用程序。我们将使用 link:https://jquery.com/[jQuery] 来简化与后台的交互："
 
+#. type: Block title
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "/src/main/resources/META-INF/resources/fruits.html"
 msgstr "/src/main/resources/META-INF/resources/fruits.html"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "Quarkus automatically serves static resources located under the `META-INF/resources` directory."
@@ -526,6 +545,7 @@ msgstr "加入一个水果，或"
 msgid "a fruit is deleted."
 msgstr "删掉一个水果。"
 
+#. type: Block title
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "/src/main/resources/META-INF/resources/fruits.js"
@@ -537,6 +557,7 @@ msgstr "/src/main/resources/META-INF/resources/fruits.js"
 msgid "The `fruits` parameter is not defined when the database is empty."
 msgstr "当数据库为空时， `fruits` 参数未被定义。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -544,7 +565,7 @@ msgid ""
 "Navigate to http://localhost:8080/fruits.html and read/create/delete some fruits."
 msgstr "全部完成！导航至 http://localhost:8080/fruits.html ，阅读/创建/删除一些水果。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Database Clients details"
@@ -616,12 +637,13 @@ msgstr " `quarkus-reactive-pg-client` "
 msgid "`$1`, `$2`, etc."
 msgstr " `$1` , `$2` , 等。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, no-wrap
 msgid "Transactions"
 msgstr "事务"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -642,6 +664,7 @@ msgstr " `connection.begin()` 返回一个 `Uni<Transaction>` "
 msgid "`transaction.commit()` and `transaction.rollback()` return `Uni<Void>`"
 msgstr " `transaction.commit()` 和 返回 `transaction.rollback()` `Uni<Void>` "
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -667,12 +690,13 @@ msgstr "在这个例子中，交易在成功时自动提交，失败时自动回
 msgid "You can also create dependent actions as follows:"
 msgstr "你也可以按以下方式创建从属行动。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Working with batch query results"
 msgstr "处理批量查询结果"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -680,6 +704,7 @@ msgid ""
 "To get the results of the following batch elements, you must invoke the `RowSet#next` method until it returns `null`."
 msgstr "执行批处理查询时，反应式 SQL 客户端会返回一个与批处理中第一个元素的结果相对应的 `RowSet` 。要获取后面批次元素的结果，必须调用 `RowSet#next` 方法，直到它返回 `null` 。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -705,7 +730,7 @@ msgstr "调用 `RowSet#next` ，直到它返回 `null` 。"
 msgid "As another example, if you want to load all the rows you just inserted, you must concatenate the contents of each `RowSet`:"
 msgstr "再举个例子，如果你想加载你刚刚插入的所有行，你必须把每个 `RowSet` 的内容连接起来。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Multiple Datasources"
@@ -759,7 +784,7 @@ msgstr "注入默认数据源的客户端不需要任何特殊的东西。"
 msgid "For a named datasource, you use the `@ReactiveDataSource` CDI qualifier with the datasource name as its value."
 msgstr "对于一个命名的数据源，你使用 `@ReactiveDataSource` CDI限定符，以数据源名称作为其值。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "UNIX Domain Socket connections"
@@ -777,6 +802,7 @@ msgstr "PostgreSQL和MariaDB/MySQL客户端可以被配置为通过UNIX域套接
 msgid "First make sure that xref:vertx-reference.adoc#native-transport[native transport support] is enabled."
 msgstr "首先要确保启用 link:vertx-reference.html#native-transport[本地传输支持] 。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -832,7 +858,7 @@ msgstr "数据库连接的网址必须被配置为： `host` ，以使其成为�
 msgid "Consider the following socket path: `/var/run/mysqld/mysqld.sock`."
 msgstr "考虑以下套接字路径： `/var/run/mysqld/mysqld.sock` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Load-balancing connections"
@@ -856,12 +882,13 @@ msgstr "一个有几个数据源的典型配置是这样的。"
 msgid "This can also be written with indexed property syntax:"
 msgstr "这也可以用索引属性的语法来写："
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Pooled connection `idle-timeout`"
 msgstr "集合式连接 `idle-timeout` "
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -881,12 +908,13 @@ msgstr " `idle-timeout` ，默认情况下是禁用的。"
 msgid "For example, you could expire idle connections after 60 minutes:"
 msgstr "例如，你可以在60分钟后使空闲的连接过期："
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Pooled Connection `max-lifetime`"
 msgstr "集合式连接 `idle-timeout` "
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -895,6 +923,7 @@ msgid ""
 "The `max-lifetime` allows ensuring the pool has fresh connections with up-to-date configuration."
 msgstr "除 `idle-timeout` 外，反应式数据源还可配置 `max-lifetime` 。这是连接在池中停留的最长时间，然后根据需要关闭并替换。 `max-lifetime` 允许确保池中有最新配置的新连接。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -908,7 +937,7 @@ msgstr "`max-lifetime` 默认为禁用，但在使用提供有时间限制凭证
 msgid "For example, you could ensure connections are recycled after 60 minutes:"
 msgstr "例如，你可以在60分钟后使空闲的连接过期："
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Customizing pool creation"
@@ -920,6 +949,7 @@ msgstr "定制水池的创建"
 msgid "Sometimes, the database connection pool cannot be configured only by declaration."
 msgstr "必须对数据库连接网址进行配置，以使其能够。"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "For example, you might have to read a specific file only present in production, or retrieve configuration data from a proprietary configuration server."
@@ -973,12 +1003,13 @@ msgstr " `quarkus-reactive-pg-client` "
 msgid "Here's an example for PostgreSQL:"
 msgstr "这里有一个PostgreSQL的例子："
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Pipelining"
 msgstr "Pipelining"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid ""
@@ -1004,54 +1035,61 @@ msgstr "流水线查询的最大次数通过 `pipelining-limit` 属性进行配�
 msgid "By default, `pipelining-limit` is set to 256."
 msgstr "默认情况下， `pipelining-limit` 设置为 256。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/reactive-sql-clients.adoc
 #, no-wrap
 msgid "Configuration Reference"
 msgstr "配置参考"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Common Datasource"
 msgstr "通用数据源"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy, no-wrap
 msgid "Reactive Datasource"
 msgstr "反应式数据源"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-3\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-3\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-4\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时重写 <input type=\"search\" id=\"config-search-4\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-5\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"在构建时固定\"></i></span>在构建时固定的配置属性 - 所有其他配置属性都可在运行时覆盖 <input type=\"search\" id=\"config-search-5\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. type: Plain text
 #: _guides/reactive-sql-clients.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-6\" placeholder=\"FILTER CONFIGURATION\" disabled>"

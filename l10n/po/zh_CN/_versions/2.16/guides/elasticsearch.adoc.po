@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Connecting to an Elasticsearch cluster"
@@ -37,6 +37,7 @@ msgstr "Elasticsearch是一个知名的全文搜索引擎和NoSQL数据存储。
 msgid "In this guide, we will see how you can get your REST services to use an Elasticsearch cluster."
 msgstr "在本指南中，我们将介绍如何让 REST 服务使用 Elasticsearch 集群。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -44,7 +45,7 @@ msgid ""
 "the low level and the high level clients."
 msgstr "Quarkus 提供了两种访问 Elasticsearch 的方式：通过低级 `RestClient` 或通过 `RestHighLevelClient` ，我们称它们为低级和高级客户端。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Prerequisites"
@@ -56,7 +57,7 @@ msgstr "先决条件"
 msgid "Elasticsearch installed or Docker installed"
 msgstr "安装了Elasticsearch或安装了Docker"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Architecture"
@@ -78,7 +79,7 @@ msgstr "浏览器和服务器之间的所有信息都被格式化为JSON。"
 msgid "The elements are stored in Elasticsearch."
 msgstr "这些元素被存储在Elasticsearch中。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Creating the Maven project"
@@ -89,6 +90,7 @@ msgstr "创建Maven项目"
 msgid "First, we need a new project. Create a new project with the following command:"
 msgstr "首先，我们需要一个新的项目。使用以下命令创建一个新的项目:"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -102,6 +104,7 @@ msgstr "该命令生成一个 Maven 结构，导入 RESTEasy Reactive/JAX-RS、J
 msgid "If you want to use the high level client instead, replace the `elasticsearch-rest-client` extension by the `elasticsearch-rest-high-level-client` extension."
 msgstr "如果要使用高级客户端，请将 `elasticsearch-rest-client` 扩展名替换为 `elasticsearch-rest-high-level-client` 扩展名。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -139,7 +142,7 @@ msgstr "build.gradle"
 msgid "For the Elasticsearch high level client, add:"
 msgstr "为 Elasticsearch 高级客户端添加"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Creating your first JSON REST service"
@@ -160,6 +163,7 @@ msgstr "首先，让我们创建 `Fruit` 实体类，如下所示："
 msgid "Nothing fancy. One important thing to note is that having a default constructor is required by the JSON serialization layer."
 msgstr "这非常的简单。需要注意的一件事是， JSON 序列化层需要具有默认构造函数。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -214,7 +218,7 @@ msgstr "现在，创建 `org.acme.elasticsearch.FruitResource` 类，如下所�
 msgid "The implementation is pretty straightforward and you just need to define your endpoints using the JAX-RS annotations and use the `FruitService` to list/add new fruits."
 msgstr "实现起来非常简单，你只需要使用JAX-RS注解来定义你的端点，并使用 `FruitService` 来list/add新的fruits。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Configuring Elasticsearch"
@@ -242,12 +246,13 @@ msgstr "在此示例中，我们在 localhost 上运行的单个实例："
 msgid "If you need a more advanced configuration, you can find the comprehensive list of supported configuration properties at the end of this guide."
 msgstr "如果你需要更高级的配置，你可以在本指南的最后找到支持的配置属性的全面清单。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Dev Services (Configuration Free Databases)"
 msgstr "开发服务（免配置数据库）。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -257,6 +262,7 @@ msgid ""
 "start an Elasticsearch container when running tests or dev mode, and automatically configure the connection."
 msgstr "Quarkus 支持一项名为 \"开发服务\"（Dev Services）的功能，允许你在不进行任何配置的情况下启动各种容器。就 Elasticsearch 而言，这一支持扩展到了默认的 Elasticsearch 连接。这实际上意味着，如果你没有配置 `quarkus.elasticsearch.hosts` ，Quarkus 会在运行测试或开发模式时自动启动 Elasticsearch 容器，并自动配置连接。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -271,7 +277,7 @@ msgstr "因此，如果您想在 `application.properties` 中包含生产数据�
 msgid "For more information you can read the xref:elasticsearch-dev-services.adoc[Dev Services for Elasticsearch guide]."
 msgstr "欲了解更多信息，你可以阅读 link:elasticsearch-dev-services.html[Elasticsearch的开发服务指南] 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Programmatically Configuring Elasticsearch"
@@ -295,6 +301,7 @@ msgstr "例如，当访问一个在HTTP层设置了TLS的Elasticsearch集群时�
 msgid "See https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/_encrypted_communication.html[Elasticsearch documentation] for more details on this particular example."
 msgstr "关于这个特定例子的更多细节，请参见 link:https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/_encrypted_communication.html[Elasticsearch文档] 。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -302,12 +309,13 @@ msgid ""
 "You can override the scope at the class level if you prefer a different scope."
 msgstr "标有 `@ElasticsearchClientConfig` 的类默认是应用范围 CDI Bean。如果您希望使用不同的作用域，可以在类级别覆盖该作用域。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Running an Elasticsearch cluster"
 msgstr "运行一个Elasticsearch集群"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -321,7 +329,7 @@ msgstr "默认情况下，Elasticsearch 客户端被配置为通过 9200 端口�
 msgid "If you want to use Docker to run an Elasticsearch instance, you can use the following command to launch one:"
 msgstr "如果你想使用Docker来运行Elasticsearch实例，你可以使用以下命令来启动一个实例。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Running the application"
@@ -345,7 +353,7 @@ msgstr "你可以通过以下curl命令将新的水果添加到列表中。"
 msgid "And search for fruits by name or color via the flowing curl command:"
 msgstr "还可以通过流动的 curl 命令按名称或颜色搜索水果："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Using the High Level REST Client"
@@ -369,6 +377,7 @@ msgstr "它拖累了很多依赖项，尤其是 Lucene，这与 Quarkus 的理�
 msgid "It is tied to a certain version of the Elasticsearch server: you cannot use a High Level REST Client version 7 to access a server version 6."
 msgstr "它与特定版本的 Elasticsearch 服务器绑定：您不能使用版本 7 的高级 REST 客户端访问版本 6 的服务器。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -377,6 +386,7 @@ msgid ""
 "and it won't be upgraded to newer versions."
 msgstr "由于 Elastic 更改了 Elasticsearch 高级 REST 客户端的许可证，我们将在 Quarkus 中保留该特定客户端的最后一个开源版本，即 7.10，并且不会升级到更新的版本。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -384,6 +394,7 @@ msgid ""
 "the Elasticsearch High Level REST Client extension is considered deprecated and will be removed from the Quarkus codebase at some point in the future."
 msgstr "鉴于该客户端已被 Elastic 弃用，取而代之的是一个新的开源 Java 客户端，Elasticsearch 高级 REST 客户端扩展被认为已被弃用，并将在未来某个时间从 Quarkus 代码库中移除。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -394,6 +405,7 @@ msgid ""
 "it is not Open Source and has several usage restrictions."
 msgstr "请注意，与高级 REST 客户端相反，我们使用的是最新版本的低级 REST 客户端（仍然是开源的），虽然我们相信它应该可以工作，但情况并不理想，可能会导致一些问题。您可以根据自己的需求在应用程序中覆盖客户端的版本，但要注意 7.11+ 版本的 link:https://www.elastic.co/blog/elastic-license-v2[高级 REST 客户端的新许可证] ：它不是开源的，而且有一些使用限制。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -425,7 +437,7 @@ msgstr "我们创建一个 Elasticsearch 索引请求。"
 msgid "We send the request to Elasticsearch."
 msgstr "我们将请求发送到Elasticsearch。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate Search Elasticsearch"
@@ -449,12 +461,13 @@ msgstr "Hibernate Search Elasticsearch 允许将 JPA 实体同步到 Elasticsear
 msgid "If you're interested in it, you can read the xref:hibernate-search-orm-elasticsearch.adoc[Hibernate Search with Elasticsearch guide]."
 msgstr "如果你对此感兴趣，可以阅读 xref:hibernate-search-orm-elasticsearch.adoc[Hibernate Search with Elasticsearch 指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy, no-wrap
 msgid "Cluster Health Check"
 msgstr "集群健康检查"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -462,6 +475,7 @@ msgid ""
 "to validate the health of the cluster."
 msgstr "如果使用 `quarkus-smallrye-health` 扩展，扩展将自动添加准备就绪健康检查，以验证群集的健康状况。"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid ""
@@ -475,7 +489,7 @@ msgstr "因此，当您访问应用程序的 `/q/health/ready` 端点时，就�
 msgid "This behavior can be disabled by setting the `quarkus.elasticsearch.health.enabled` property to `false` in your `application.properties`."
 msgstr " `false` 这种行为可以通过在你的 `application.properties` 中设置 `quarkus.elasticsearch.health.enabled` 属性来禁用。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Building a native executable"
@@ -503,7 +517,7 @@ msgstr "运行它就像执行 `./target/elasticsearch-low-level-client-quickstar
 msgid "You can then point your browser to `http://localhost:8080/fruits.html` and use your application."
 msgstr "然后你可以使用的浏览器访问 `<a href=\"http://localhost:8080/fruits.html\" class=\"bare\">http://localhost:8080/fruits.html</a>` 来使用你的应用程序。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Conclusion"
@@ -515,12 +529,13 @@ msgstr "解决方案"
 msgid "Accessing an Elasticsearch cluster from a low level or a high level client is easy with Quarkus as it provides easy configuration, CDI integration and native support for it."
 msgstr "使用 Quarkus，从底层或高层客户端访问 Elasticsearch 集群都很容易，因为它提供了简便的配置、CDI 集成和本机支持。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/elasticsearch.adoc
 #, no-wrap
 msgid "Configuration Reference"
 msgstr "配置参考"
 
+#. type: Plain text
 #: _versions/2.16/guides/elasticsearch.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

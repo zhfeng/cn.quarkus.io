@@ -64,11 +64,13 @@ msgstr "要做到这一点，请在你的应用程序性能测试中尝试以下
 msgid "Run your Quarkus application performance tests as you normally would with the following command line flags on Java 11 (jdk11u) and if feasible Java 15 (jdk15):"
 msgstr "在Java 11(jdk11u)上运行Quarkus应用程序的性能测试，如果可行的话，在Java 15(jdk15)上使用以下命令行标志。"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid "*enabled*: -XX:+UseBiasedLocking -XX:BiasedLockingStartupDelay=0"
 msgstr "已 *启用* ：-XX:+UseBiasedLocking -XX:BiasedLockingStartupDelay=0"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid "*disabled*: -XX:-UseBiasedLocking"
@@ -110,7 +112,7 @@ msgstr "线程数 ~= N * 硬件核心数，其中 8 < N < 16"
 msgid "The intent of these are to see how the level of concurrency affects the result."
 msgstr "这些的目的是要看看并发程度如何影响结果。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy, no-wrap
 msgid "Reporting the result"
@@ -128,7 +130,7 @@ msgstr "请在标题中用 `[jep374]` +你的项目 link:https://github.com/quar
 msgid "This will help us immensely. Thank you!"
 msgstr "这将对我们有极大的帮助。谢谢你！\"。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy, no-wrap
 msgid "Background"
@@ -140,7 +142,7 @@ msgstr "背景介绍"
 msgid "Below is some background context on biased locking - all optional reading - you don't need to understand the details to help us by running your performance tests and let us know if anything changes."
 msgstr "下面是关于偏置锁的一些背景情况--所有的阅读都是可选的--你不需要了解这些细节，通过运行你的性能测试来帮助我们，如果有什么变化，请让我们知道。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy, no-wrap
 msgid "What is biased locking?"
@@ -152,6 +154,7 @@ msgstr "什么是偏向性锁定？"
 msgid "Biased locking lowers the cost of /uncontended/ synchronization."
 msgstr "有偏见的锁定降低了/不和谐/同步的成本。"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid ""
@@ -159,11 +162,13 @@ msgid ""
 "when it performs repeated synchronizations on the same object. It also needs to wait for those set/clear writes to be drained to local cache before proceeding to execute further memory operations."
 msgstr "*无偏置锁* ：线程对同一对象执行重复同步操作时，需要设置和清除锁位。它还需要等待这些设置/清除写入的数据被排入本地缓存，然后才能继续执行其他内存操作。"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid "*With biased locking*: the first time a thread synchronizes on an object it does a bit more work to acquire synchronized ('bias' it to the thread). Subsequent syncrhonizations proceed via a simple read test with no need to  drain to cache."
 msgstr "*使用偏置锁定* ：线程第一次同步对象时，需要做更多的工作来获得同步（\"偏置 \"给线程）。随后的同步将通过简单的读取测试进行，无需耗费缓存。"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid ""
@@ -171,6 +176,7 @@ msgid ""
 "there is more work to do to bias and unbias the lock. However, it is known that many synchronized operations are uncontended."
 msgstr "代价是什么？如果有偏置的锁是有争议的，那么偏置和解除锁就需要做更多的工作。然而，众所周知，许多同步操作都是无竞争的。"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid ""
@@ -186,12 +192,13 @@ msgstr "当一个潜在的并发数据结构实际上是按顺序使用时，偏
 msgid "A similar case occurs with class ByteOutput Stream. Method putByte is synchronized. So writing a single byte involves a lock and unlock. n.b. method putInt calls putByte 4 times, requiring 4 locks and unlocks. Method putLong calls it 8 times!"
 msgstr "类似的情况发生在ByteOutput Stream类中。方法putByte是同步的。因此，写一个字节需要锁和解锁。方法putLong调用了8次!"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy, no-wrap
 msgid "Why is biased locking being removed?"
 msgstr "为什么有偏见的锁定被删除？"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid ""
@@ -199,7 +206,7 @@ msgid ""
 "right away in jdk15 others argue for a slower deprecation route in order to check that we could really dispense with it."
 msgstr "偏置锁定的实现为 JVM 增加了大量复杂性，只有一小部分最有经验的工程师才能理解。维护它和围绕它进行设计的成本大大降低了新功能的开发进度。如果可能的话，将其移除一直是我们的长期目标。一些 OpenJDK 的贡献者希望在 jdk15 中立即删除它，而另一些贡献者则主张采用较慢的弃用路线，以便检查我们是否真的可以弃用它。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy, no-wrap
 msgid "What happens next?"
@@ -217,6 +224,7 @@ msgstr "我们正在收集红帽多个团队的内部性能测试结果，并将
 msgid "Once processed we might reach out to those reporting scenarios with unexpected results and get more details."
 msgstr "一旦处理完毕，我们可能会联系那些报告结果出乎意料的情况的用户，了解更多细节。"
 
+#. type: Plain text
 #: _posts/2020-09-30-biased-locking-help.adoc
 #, fuzzy
 msgid ""

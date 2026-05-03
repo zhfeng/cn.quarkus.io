@@ -28,6 +28,7 @@ msgstr "如何实现Kafka序列化器和反序列化器？"
 msgid "JSON, Avro and Custom Kafka Serializers and Deserializers with Quarkus"
 msgstr "使用Quarkus的JSON、Avro和自定义Kafka序列化器和反序列化器"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -43,12 +44,13 @@ msgstr "当您的应用程序向 Kafka 主题写入 _记录_ 或从 Kafka 主题
 msgid "This blog post explores different approaches for this serialization and deserialization and explains how you can implement a custom serializer and deserializer. It also highlights facilities provided by the Kafka connector from Quarkus."
 msgstr "这篇博文探讨了这种序列化和反序列化的不同方法，并解释了你如何实现一个自定义的序列化器和反序列化器。它还强调了Quarkus的Kafka连接器所提供的设施。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy, no-wrap
 msgid "Why do I need a custom serializer and deserializer?"
 msgstr "为什么我需要一个自定义的序列化器和反序列化器？"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -56,6 +58,7 @@ msgid ""
 "But that's rarely enough for business objects, even for objects are simple as:"
 msgstr "link:https://javadoc.io/static/org.apache.kafka/kafka-clients/3.2.1/org/apache/kafka/common/serialization/package-summary.html[Kafka] 为常见类型提供了一系列序列化器和反序列化器： `String` , `Double` , `Integer` , `Bytes` ......但对于业务对象来说，这还远远不够，即使是对于简单的对象也是如此："
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -75,6 +78,7 @@ msgstr "串行器接口"
 msgid "The Deserializer interface"
 msgstr "反序列化器接口"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -94,6 +98,7 @@ msgstr "但是，不用担心，夸库斯为你准备了一些神奇的技巧。
 msgid "In the rest of this post, we will use the following application:"
 msgstr "在这篇文章的其余部分，我们将使用以下应用程序。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -119,12 +124,13 @@ msgstr "第二个版本使用阿夫罗。"
 msgid "The third version uses custom (and dumb) serializer and deserializer."
 msgstr "第三个版本使用自定义的（也是愚蠢的）序列化器和解序列化器。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy, no-wrap
 msgid "Using JSON"
 msgstr "使用JSON"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -132,6 +138,7 @@ msgid ""
 "As most web applications use JSON to exchange messages, using it with Kafka sounds like a natural extension."
 msgstr "将 JSON 与 Kafka 结合使用非常流行。由于大多数网络应用都使用 JSON 来交换信息，因此在 Kafka 中使用 JSON 听起来像是一种自然的扩展。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -140,6 +147,7 @@ msgid ""
 "To do that with Quarkus, you have *nothing* to do: Quarkus generates the custom JSON serializer and deserializer for you."
 msgstr "在我们的例子中，这意味着将 link:https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/json-serde/json-serde-publisher/src/main/java/me/escoffier/quarkus/json/publisher/Hero.java[Hero] 实例转换为 JSON 文档，然后使用字符串序列化器。至于反序列化过程，我们将做相反的处理。使用 Quarkus 时，你无需做 *任何* 事情：Quarkus 会为你生成自定义的 JSON 序列化器和反序列化器。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -150,6 +158,7 @@ msgid ""
 "Of course, you can override the configuration, but it's what you want most of the time."
 msgstr "在 link:https://github.com/cescoffier/quarkus-kafka-serde-demo/tree/main/json-serde[json-serde 目录] 中，您可以找到使用 JSON 对记录进行序列化和反序列化的应用程序版本。它不包含任何自定义代码或配置。Quarkus 会自动检测到你需要写入和消耗 Heroes，并为你生成序列化器和反序列化器。它还会为你配置通道。当然，你可以覆盖配置，但这是你大多数时候想要的。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -160,12 +169,13 @@ msgid ""
 "Every 5 seconds, a new picture of a hero is displayed."
 msgstr "要运行此应用程序，请打开两个终端。在第一个终端，导航到 `json-serde/json-serde-publisher` ，然后运行 `mvn quarkus:dev` 。在第二个终端，导航到 `json-serde/json-serde-consumer` ，然后运行 `mvn quarkus:dev` 。然后，打开浏览器 link:http://localhost:8080[http://localhost:8080。] 每隔 5 秒钟就会显示一张新的英雄图片。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy, no-wrap
 msgid "Using Avro"
 msgstr "使用Avro"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -191,6 +201,7 @@ msgstr "序列化和反序列化过程要快得多（避免了反射）。"
 msgid "The format of the message is defined using a schema stored on a schema registry which enables versioning and enforces the structure."
 msgstr "消息的格式是使用存储在模式注册表上的模式来定义的，该模式可以进行版本管理并强制执行结构。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -200,6 +211,7 @@ msgid ""
 "Quarkus provides a dev service for Apicurio, so you have nothing to do (as soon as you can run containers on your machine)."
 msgstr "最后一点至关重要。要使用 Avro，您需要一个模式注册表。在这篇文章中，我们使用的是 link:https://www.apicur.io/registry/[Apicurio] ，但你也可以使用 link:https://docs.confluent.io/platform/current/schema-registry/index.html[Confluent Schema Registry] 或 link:https://github.com/aiven/karapace[Karapace] 。Quarkus 为 Apicurio 提供了开发服务，因此你无需做任何事情（只要你能在机器上运行容器即可）。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -207,6 +219,7 @@ msgid ""
 "In https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/avro-serde/avro-serde-consumer/src/main/avro/hero.avsc[hero.avsc], you can find the schema representing our heroes:"
 msgstr "要使用 Avro，我们需要一个模式。在 link:https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/avro-serde/avro-serde-consumer/src/main/avro/hero.avsc[hero.avsc] 中，您可以找到代表我们英雄的模式："
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -214,6 +227,7 @@ msgid ""
 "It processes the schema to generate Java classes with the defined fields and serialization and deserialization methods."
 msgstr "Avro 依靠代码生成。它处理模式，生成带有已定义字段、序列化和反序列化方法的 Java 类。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -221,6 +235,7 @@ msgid ""
 "Once you have a schema in `src/main/avro`, it generates the code for you, and you are ready to use the produced classes."
 msgstr "一般来说，使用代码生成是一个额外的步骤，但对于 Quarkus 来说，它是内置的！一旦你在 `src/main/avro` 中创建了模式，它就会为你生成代码，然后你就可以使用生成的类了。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -228,6 +243,7 @@ msgid ""
 "As an example, the consumer application looks like this:"
 msgstr "在 link:https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/avro-serde/avro-serde-publisher/src/main/java/me/escoffier/quarkus/json/publisher/AvroPublisherApp.java[AvroPublisherApp] 和 link:https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/avro-serde/avro-serde-consumer/src/main/java/me/escoffier/quarkus/AvroConsumerResource.java[AvroConsumerResource] 中，我们使用从模式生成的 `Hero` 类。举例来说，消费者应用程序如下所示："
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -236,6 +252,7 @@ msgid ""
 "In general, it's a manual operation, but for development, you can use the following property:"
 msgstr "Quarkus 会自动找到序列化器和反序列化器，并配置通道，所以还是那句话： *无需配置* 。不过，你仍然需要指示 Apicurio 注册模式。一般来说，这是一项手动操作，但在开发过程中，你可以使用以下属性："
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -247,12 +264,13 @@ msgid ""
 "This time the Kafka records are serialized using Avro"
 msgstr "要运行此应用程序，请打开两个终端。在第一个终端，导航到 `avro-serde/avro-serde-publisher` ，然后运行 `mvn quarkus:dev` 。在第二个终端，导航到 `avro-serde/avro-serde-consumer` ，然后运行 `mvn quarkus:dev` 。然后，打开浏览器 link:http://localhost:8080[http://localhost:8080。] 至于 JSON 变体，每 5 秒钟就会显示一张新的英雄图片。这次的 Kafka 记录使用 Avro 进行序列化"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy, no-wrap
 msgid "Writing a custom serializer and deserializer"
 msgstr "编写一个自定义的序列化器和反序列化器"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -260,6 +278,7 @@ msgid ""
 "As mentioned above, you need to implement the `Serializer` and `Deserializer` interfaces."
 msgstr "当然，您仍然可以编写自定义的序列化器和反序列化器。如上所述，您需要实现 `Serializer` 和 `Deserializer` 接口。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid "For example, the  https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/custom-serde/custom-serde-publisher/src/main/java/me/escoffier/quarkus/json/publisher/HeroSerializer.java[HeroSerializer class] contains a straightforward (and inefficient) approach to serializing our heroes:"
@@ -271,6 +290,7 @@ msgstr "例如， link:https://github.com/cescoffier/quarkus-kafka-serde-demo/bl
 msgid "The https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/custom-serde/custom-serde-consumer/src/main/java/me/escoffier/quarkus/HeroDeserializer.java[HeroDeserializer class] contains the deserialization counterpart."
 msgstr "link:https://github.com/cescoffier/quarkus-kafka-serde-demo/blob/main/custom-serde/custom-serde-consumer/src/main/java/me/escoffier/quarkus/HeroDeserializer.java[HeroDeserializer类] 包含了反序列化的对应部分。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -278,6 +298,7 @@ msgid ""
 "So you do not have to configure anything."
 msgstr "和以前一样，Quarkus 会发现这些实现，并为你配置通道。因此，你无需配置任何东西。"
 
+#. type: Plain text
 #: _posts/2022-08-30-kafka-serde.adoc
 #, fuzzy
 msgid ""
@@ -291,7 +312,7 @@ msgstr "自定义序列化器和反序列化器可以接收配置属性。它们
 msgid "Custom serializers and deserializers cannot be CDI beans. Kafka instantiates them directly using reflection."
 msgstr "自定义序列化器和反序列化器不能是CDI beans。Kafka使用反射直接将它们实例化。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-30-kafka-serde.adoc
 #, no-wrap
 msgid "Conclusion"

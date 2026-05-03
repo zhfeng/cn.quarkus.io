@@ -28,6 +28,7 @@ msgstr "Quarkus洞察力#3: 潇洒的休眠"
 msgid "Stéphane talks us through how to do Hibernate with Panache."
 msgstr "Stéphane向我们讲述了如何用Panache进行Hibernate。"
 
+#. type: Plain text
 #: _posts/2020-05-20-insights-3.adoc
 #, fuzzy
 msgid ""
@@ -35,7 +36,7 @@ msgid ""
 "with Stéphane through what Panache is, why it is awesome and how you get the most out of it."
 msgstr "周一，我们与 Stéphane 一起制作了 link:https://www.youtube.com/watch?v=t84sdt9Mnmw[Quarkus Insights 第 3 集：Hibernate Panache] ，介绍了 Panache 是什么、为什么它这么棒以及如何充分利用它。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-05-20-insights-3.adoc
 #, fuzzy, no-wrap
 msgid "Podcast feed"
@@ -47,7 +48,7 @@ msgstr "播客饲料"
 msgid "If you prefer to listen to these in podcast format they are now available from https://podcasts.apple.com/ch/podcast/quarkus-insights/id1513810337[Apple Podcasts] and should shouw up in Spotify podcasts shortly too."
 msgstr "如果你喜欢听播客格式的节目，现在可以从 link:https://podcasts.apple.com/ch/podcast/quarkus-insights/id1513810337[苹果播客] 中获得，不久也会在Spotify播客中出现。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-05-20-insights-3.adoc
 #, fuzzy, no-wrap
 msgid "Next Episode(s)"

@@ -28,6 +28,7 @@ msgstr "用Mutiny处理分页的API"
 msgid "How to use API using pagination with Mutiny"
 msgstr "如何利用Mutiny的分页功能来使用API"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -40,6 +41,7 @@ msgid ""
 "You need to invoke the service for every page, extract the items and feed the stream."
 msgstr "在 Mutiny 冒险之初，我的朋友亚历克斯（Alex）向我提出了一个有趣的问题。亚历克斯想以反应方式从 REST 服务中获取数据。到目前为止，没问题，我们的工具箱里有这方面的所有工具。但是，这个服务和许多服务一样，使用了分页。这让事情变得更加棘手。艾利克斯想检索所有项目并以流的形式使用它们，但你不能一次性检索所有项目。你需要调用每一页的服务，提取项目并将其输入流。"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -47,11 +49,13 @@ msgid ""
 "Let's have a look!"
 msgstr "那么，如何以被动的方式实现这一目标，并在不丧失理智的情况下建立适当的项目流呢？让我们一起来看看！"
 
+#. type: Title =
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid "The Punk API"
 msgstr "朋克 API"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -67,6 +71,7 @@ msgstr "首先，我们需要一个应用程序接口。亚历克斯向我介绍
 msgid "If you call `https://api.punkapi.com/v2/beers?page=1`, you get a JSON array like:"
 msgstr "如果你调用 `<a href=\"https://api.punkapi.com/v2/beers?page=1\" class=\"bare\">https://api.punkapi.com/v2/beers?page=1</a>` ，你会得到一个JSON数组，比如。"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -101,11 +106,13 @@ msgstr "image:/assets/images/posts/mutiny-pagination/mutiny-pagination.png[alt=\
 msgid "Let's proceed step by step."
 msgstr "让我们一步一步地进行。"
 
+#. type: Title =
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid "Retrieving a single page"
 msgstr "检索单个页面"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -113,6 +120,7 @@ msgid ""
 "I'm going to use the Vert.x Web Client, but you can use any reactive HTTP clients providing a Mutiny API."
 msgstr "首先，我们需要了解如何检索单个页面。我将使用 Vert.x Web Client，但你也可以使用任何提供 Mutiny API 的反应式 HTTP 客户端。"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -138,11 +146,13 @@ msgstr "让我们在一个方法中提取这段代码，并把页码作为参数
 msgid "So far, so good."
 msgstr "到目前为止，一切都很好。"
 
+#. type: Title =
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid "Retrieving multiple page"
 msgstr "检索多个页面"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -150,6 +160,7 @@ msgid ""
 "We just need to repeat this operation for every page, and provide a stream."
 msgstr "现在，我们知道如何检索单个页面并从中提取项目了。我们只需对每一页重复这一操作，并提供一个数据流。"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -159,6 +170,7 @@ msgid ""
 "Mutiny offers the possibility to store a state in order to let the method creating the `Uni` increments the page number:"
 msgstr "Mutiny 提供了一种通过多次重复 `Uni` 来创建 `Multi` 的方法。在引擎盖下，它调用一个返回 `Uni` 的方法并对其进行订阅。但我们需要取得 _进展_ ，并传递当前页面。Mutiny 提供了存储状态的可能性，以便让创建 `Uni` 的方法增加页码："
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -167,6 +179,7 @@ msgid ""
 "So, it retrieves the page 1, 2, 3 ... and every time emits the received `List<Beer>` downstream."
 msgstr "上面的代码创建了一个流，其中包含由 `getPage` 方法返回的 `Unis` 发送的项目。我们每次都会递增页码（存储在 `AtomicInteger` 中）。因此，它会检索第 1、2、3 页......，并每次向下游发送接收到的 `List<Beer>` 。"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -174,6 +187,7 @@ msgid ""
 "As we said earlier, we can stop when the returned list is empty:"
 msgstr "不过，到了某个时候，我们必须停止。如前所述，我们可以在返回的列表为空时停止："
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -182,11 +196,13 @@ msgid ""
 "If the list still contains beers, it retrieves the next page."
 msgstr "`until` 子句表示何时必须停止迭代。它接收检索到的列表（由 `getPage` 生成），当该列表为空时，停止重复。如果列表中仍有啤酒，则检索下一页。"
 
+#. type: Title =
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid "Unpacking the beers"
 msgstr "拆开啤酒包装"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -225,11 +241,13 @@ msgstr "因为这是一个常见的操作，Mutiny提供了 `disjoint` 方法，
 msgid "And we are done!"
 msgstr "我们已经完成了!"
 
+#. type: Title =
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid "The benefits of reactive"
 msgstr "被动反应的好处"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -237,6 +255,7 @@ msgid ""
 "Let's, for example, retrieve the first 10 beers with \"IPA\" (let's be trendy) in their description:"
 msgstr "我们有了数据流，是时候使用它了！举例来说，让我们检索前 10 种在描述中带有 \"IPA\"（时髦点）的啤酒："
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""
@@ -246,11 +265,13 @@ msgid ""
 "So, retrieving items from paginated APIs this way can reduce the number of requests and, as a consequence the load on the remote service."
 msgstr "我们的数据流的优势在于，我们不会检索每一页。只要有足够的啤酒，我们就会停止重复。怎么停止？因为它会通知上游不再需要更多项目 *（取消* ），从而停止重复。因此，以这种方式从分页 API 中检索项目可以减少请求数量，从而减轻远程服务的负担。"
 
+#. type: Title =
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid "Feel thirsty?"
 msgstr "口渴吗？"
 
+#. type: Plain text
 #: _posts/2020-09-15-mutiny-pagination.adoc
 #, fuzzy
 msgid ""

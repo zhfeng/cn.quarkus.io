@@ -6,30 +6,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Optimizing Java for the Cloud-Native Era with Quarkus"
 msgstr ""
 
+#. type: YAML Front Matter: synopsis
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "This blog post invites you to discover how Quarkus can help your company cut costs, streamline development, and modernize your Java stack for today’s cloud-native world."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Intro"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "This post explores how Quarkus can help organizations reduce costs, streamline development, and modernize their Java applications for today’s cloud-native environments.\n"
 "It outlines the real-world benefits of adopting Quarkus and highlights how its core features address the performance and scalability challenges commonly associated with traditional Java frameworks."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Quarkus is already being adopted across industries.\n"
 "One example is Orange, a global telecom provider that selected Quarkus to support its 5G API initiative, and benefited from fast startup times, a lightweight footprint, and seamless integration with Kubernetes."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "After evaluating multiple frameworks, Orange chose Quarkus as the optimal solution for exposing 5G APIs, thanks to its fast startup, lightweight footprint, modularity, and seamless Kubernetes deployment.\n"
@@ -37,32 +43,39 @@ msgid ""
 "This solidified Quarkus as a key technology for telecom innovation."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "For a collection of user stories from the community, see the link:https://quarkus.io/userstories/[Quarkus user stories blog] series.\n"
 "These stories highlight how different teams and organizations are using Quarkus in the real world."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "What does Quarkus have to offer?"
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Developer joy with live coding and dev mode"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Quarkus streamlines the traditional write-compile-deploy-refresh cycle by offering live coding support out of the box. As developers make changes, Quarkus automatically detects, recompiles, and redeploys the application, which eliminates the need for manual restarts."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "While similar functionality has existed through third-party tools, Quarkus integrates it natively and without licensing overhead. This significantly boosts productivity and enhances the developer experience."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Cost efficiency and performance"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "By optimizing for low memory usage and fast startup times, Quarkus enables higher-density deployments and rapid scaling.\n"
@@ -70,10 +83,12 @@ msgid ""
 "However, organizations considering the switch should always measure and evaluate their specific workloads to validate these benefits in practice."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Reactive at its core"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "At its core, Quarkus is built on Eclipse Vert.x, a high-performance reactive toolkit.\n"
@@ -84,38 +99,46 @@ msgid ""
 "Quarkus's reactive model makes it ideal for event-driven architectures and microservices."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "A basic example of reactive messaging in Quarkus:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "In this example, prices are received from one channel (`prices`), converted, and sent to another channel (`converted-prices`).\n"
 "This pattern supports high-throughput, event-driven processing with clean and efficient logic."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "An example of a reactive HTTP endpoint using reactive routes in Quarkus:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "This route handles HTTP GET requests reactively using `Uni` from Mutiny, making it easy to build non-blocking, low-latency APIs."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Which of your current development pains could Quarkus solve?"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "One often-overlooked benefit of Quarkus is how it improves onboarding and standardization across teams.\n"
 "With built-in conventions, automatic service provisioning, and curated extension defaults, Quarkus helps developers get up to speed quickly and encourages consistent patterns across projects."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Dev Services"
 msgstr "开发服务"
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Quarkus Dev Services reduce friction during development and testing by automatically provisioning required services such as databases, message brokers, or identity providers.\n"
@@ -123,10 +146,12 @@ msgid ""
 "This allows you to focus on coding instead of configuring infrastructure, accelerating your local development workflow."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Vast extension ecosystem"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Quarkus offers a rich extension ecosystem that simplifies integration with essential technologies such as databases, messaging systems, authentication providers, and cloud services.\n"
@@ -134,6 +159,7 @@ msgid ""
 "This broadens the range of supported technologies and enables developers to benefit from shared solutions and community expertise."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Popular extensions include:\n"
@@ -144,20 +170,24 @@ msgid ""
 "* `quarkus-container-image-docker` and `quarkus-kubernetes` for containerization and deployment to Kubernetes platforms."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "These extensions are widely adopted because they reduce boilerplate, provide reliable default configurations out of the box, and follow cloud-native best practices—making it easy to plug Quarkus into real-world architectures."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "“OK, I would like to try it, but is it easy enough to migrate my workflow to Quarkus?”"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Migrating to a new framework can feel daunting, even when it promises better performance, lower costs, and an improved developer experience.\n"
 "It’s like being offered a better house in a better neighborhood, but hesitating because of the hassle of packing, moving, and settling in."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "With Quarkus, the transition doesn’t have to be disruptive.\n"
@@ -168,6 +198,7 @@ msgid ""
 "See the link:https://quarkus.io/guides/spring-di[Spring DI guide] to learn more."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Need assistance getting started?\n"
@@ -176,16 +207,19 @@ msgid ""
 "Whether you're evaluating the framework or planning a full transition, support is available to help ensure a smooth and successful adoption."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "All it takes is a decision to move forward.\n"
 "Your team deserves a faster, leaner, and cloud-native future."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "Concluding note"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid ""
 "Quarkus is redefining Java development by combining modern features with the robustness of the Java ecosystem.\n"
@@ -193,6 +227,7 @@ msgid ""
 "Whether you're looking to optimize costs, enhance development speed, or adopt a reactive approach, Quarkus is a game-changer for Java developers."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-03-31-mmaler-blogpost-1-intro.adoc
 msgid "The end."
 msgstr ""

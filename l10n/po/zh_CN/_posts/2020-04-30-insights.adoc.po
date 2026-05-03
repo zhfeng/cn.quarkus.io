@@ -58,7 +58,7 @@ msgstr "感谢 link:https://twitter.com/myfear[Markus Eisele] ，我们将为每
 msgid "It was super-fun and looking forward to do it again."
 msgstr "这是一个超级有趣的活动，并期待着再做一次。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-30-insights.adoc
 #, fuzzy, no-wrap
 msgid "Format"
@@ -70,7 +70,7 @@ msgstr "格式"
 msgid "Our main format will be focused on a guest talking around a topic/area related to development or usage of Quarkus. We'll also have some dedicated Q&A / StackOverflow episodes."
 msgstr "我们的主要形式是围绕一个与Quarkus的开发或使用有关的话题/领域，由嘉宾进行讨论。我们也会有一些专门的问答/StackOverflow的节目。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-30-insights.adoc
 #, fuzzy, no-wrap
 msgid "Next Episode"
@@ -100,7 +100,7 @@ msgstr "我们将谈论用Quarkus做测试，特别是涵盖Quarkus 1.4的新嘲
 msgid "To join current live show or see the next one scheduled bookmark this link: https://youtube.com/quarkusio/live"
 msgstr "要加入当前的直播节目或查看下一个节目安排，请将此链接加入书签 https://youtube.com/quarkusio/live "
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-30-insights.adoc
 #, fuzzy, no-wrap
 msgid "Transcript"
@@ -118,6 +118,7 @@ msgstr "下面是这一集的转录，其中的时间戳给出了视频中的大
 msgid "Kudos to Markus Eisele for making this happen!"
 msgstr "感谢 Markus Eisele 实现了这一目标！"
 
+#. type: Plain text
 #: _posts/2020-04-30-insights.adoc
 #, fuzzy
 msgid "Good bye everyone, but it... Now I need to find out how to stop it. Or there is the finish button."

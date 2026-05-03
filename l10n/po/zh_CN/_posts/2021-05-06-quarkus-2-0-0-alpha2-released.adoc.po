@@ -52,7 +52,7 @@ msgstr "请继续提供反馈意见!"
 msgid "If you have missed our Alpha1 announcement: here are link:/blog/quarkus-2-0-0-alpha1-released/[the main new features of Quarkus 2.0]."
 msgstr "如果你错过了我们的Alpha1公告：以下是 link:/blog/quarkus-2-0-0-alpha1-released/[Quarkus 2.0的主要新功能] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -64,12 +64,13 @@ msgstr "迁移指南"
 msgid "We will keep the Migration Guide up to date here: https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.0."
 msgstr "我们将在这里保持最新的《移民指南》 https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.0 "
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, no-wrap
 msgid "Documentation"
 msgstr "文档"
 
+#. type: Plain text
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, fuzzy
 msgid ""
@@ -77,13 +78,13 @@ msgid ""
 "It will be available soon."
 msgstr "目前，网站上还没有 `main` 分支的文档。很快就会提供。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, no-wrap
 msgid "Continuous Testing"
@@ -101,7 +102,7 @@ msgstr "最明显的是在Dev UI中的整合有了很大的改进。"
 msgid "Another notable one is the addition of `quarkus.test.type` which can be used to define which tests are run in continuous testing, `unit`, `quarkus-test` or `all`."
 msgstr "另一个值得注意的地方是增加了 `quarkus.test.type` ，可用于定义在连续测试中运行哪些测试，即 `unit` 、 `quarkus-test` 或 `all` 。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, fuzzy, no-wrap
 msgid "Full Changelog"
@@ -113,7 +114,7 @@ msgstr "完整的修改日志"
 msgid "You can get the full changelogs of https://github.com/quarkusio/quarkus/releases/tag/2.0.0.Alpha2[2.0.0.Alpha2] on GitHub."
 msgstr "您可以在 GitHub 上获取 link:https://github.com/quarkusio/quarkus/releases/tag/2.0.0.Alpha2[2.0.0.Alpha2] 的完整更新日志。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-05-06-quarkus-2-0-0-alpha2-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

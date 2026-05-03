@@ -76,7 +76,7 @@ msgstr "关于目前支持的所有Qute功能的列表，请参考 link:https://
 msgid "Now let's dive deeper into the great Qute features introduced in the 1.10.0 release."
 msgstr "现在让我们深入了解1.10.0版本中引入的Qute伟大功能。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "New Qute Features"
@@ -88,61 +88,61 @@ msgstr "新的Qute功能"
 msgid "Notable Qute features included in Quarkus Tools for Visual Studio Code 1.10.0 include:"
 msgstr "Quarkus Tools for Visual Studio Code 1.10.0中包含的值得注意的Qute功能包括。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Getting Started with Quarkus Qute Templating Extension"
 msgstr "开始使用Quarkus Qute模板化扩展"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Integration Between Java and Qute Template Files"
 msgstr "Java和Qute模板文件之间的整合"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Method Parameter Support in Qute Templates"
 msgstr "Qute模板中的方法参数支持"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Java Type Hover Support for Qute Templates"
 msgstr "Qute模板的Java类型悬停支持"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Linked Editing Range Support in Qute Templates"
 msgstr "Qute模板中的链接编辑范围支持"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Qute Section Completion"
 msgstr "Qute部分完成"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Support for Qute Validation"
 msgstr "支持Qute验证"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Completion for Qute Value Resolvers"
 msgstr "完成Qute值解析器的工作"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Support for @TemplateExtension Methods"
 msgstr "支持@TemplateExtension方法"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Support for Directly Injecting Beans into Qute Templates"
@@ -370,7 +370,7 @@ msgstr "图16：使用 `@Named` 注解允许Beans对Qute模板进行注入支持
 msgid "Learn more about injecting Beans https://quarkus.io/guides/qute-reference#injecting-beans-directly-in-templates[here]."
 msgstr "link:https://quarkus.io/guides/qute-reference#injecting-beans-directly-in-templates[在这里] 了解更多关于注射豆子的信息。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "What's Next?"
@@ -394,7 +394,7 @@ msgstr "有建议或反馈吗？请随时在 link:https://github.com/redhat-deve
 msgid "With many experimental features being added to the Qute templating engine, we aim to continue updating Qute language support to encourage current and aspiring Quarkus developers everywhere to give Qute a try!"
 msgstr "随着 Qute 模板引擎中添加了许多试验性功能，我们将继续更新 Qute 语言支持，以鼓励世界各地现有的和有抱负的 Quarkus 开发人员试用 Qute！"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-04-04-vscode-quarkus-1.10.0-qute.adoc
 #, fuzzy, no-wrap
 msgid "Links"

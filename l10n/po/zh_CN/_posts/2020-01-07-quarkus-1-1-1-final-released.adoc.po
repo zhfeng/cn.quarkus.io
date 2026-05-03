@@ -28,6 +28,7 @@ msgstr "Quarkus 1.1.1.Final发布--仅修正错误"
 msgid "1.1.1.Final fixes several issues mostly in our Kotlin and Gradle support."
 msgstr "1.1.1.Final主要修复了我们的Kotlin和Gradle支持中的几个问题。"
 
+#. type: Plain text
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy
 msgid ""
@@ -41,18 +42,19 @@ msgstr "我们刚刚发布了 1.1.1.Final，提前推送了一系列错误修复
 msgid "This is a safe upgrade for everyone using 1.1.0.Final."
 msgstr "这对使用1.1.0.Final的所有人来说是一次安全的升级。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Bugfixes and documentation improvements"
 msgstr "错误修复和文档改进"
 
+#. type: Plain text
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy
 msgid ""
@@ -72,7 +74,7 @@ msgstr "我们还在我们的Kotlin支持中打磨了一些东西。"
 msgid "Apart from that, we fixed minor issues here and there and polished the documentation."
 msgstr "除此之外，我们还修复了一些小问题，并完善了文档。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -84,12 +86,13 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/1.1.1.Final[the full changelog of 1.1.1.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/1.1.1.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/1.1.1.Final[1.1.1.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy
 msgid ""
@@ -103,7 +106,7 @@ msgstr "Quarkus 现在有 link:https://github.com/quarkusio/quarkus/graphs/contr
 msgid "In particular for the 1.1.0 release, thanks to Akito Kidani, Alex Soto, Andreas Paschwitz, Andy Damevin, Arne Mejlholm, Bruno Devaux, George Gastaldi, Georgios Andrianakis, Grzegorz Piwowarek, Guillaume Smet, Gunnar Morling, Ian Wormsbecker, Jaikiran Pai, Loïc Mathieu, Manyanda Chitimbo, Mark Little, Matej Novotny, Max Rydahl Andersen, Michael J. Simons, Romain Quinio and Vinícius Ferraz Campos Florentino."
 msgstr "特别是1.1.0版本，感谢Akito Kidani, Alex Soto, Andreas Paschwitz, Andy Damevin, Arne Mejlholm, Bruno Devaux, George Gastaldi, Georgios Andrianakis, Grzegorz Piwowarek, Guillaume Smet, Gunnar Morling, Ian Wormsbecker, Jaikiran Pai, Loïc Mathieu, Manyanda Chitimbo, Mark Little, Matej Novotny, Max Rydahl Andersen, Michael J．Simons, Romain Quinio and Vinícius Ferraz Campos Florentino."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-07-quarkus-1-1-1-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

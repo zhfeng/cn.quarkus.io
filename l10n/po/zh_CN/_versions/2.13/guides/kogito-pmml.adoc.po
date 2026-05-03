@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Using Kogito to add prediction capabilities to an application"
 msgstr "使用Kogito为应用程序添加预测功能"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -32,6 +33,7 @@ msgid ""
 "to power it up with predictions."
 msgstr "本指南演示了 Quarkus 应用程序如何使用 Kogito 添加业务自动化，从而通过预测为其提供动力。"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -41,13 +43,13 @@ msgid ""
 "in a domain specific way."
 msgstr "Kogito 是下一代业务自动化工具包，源自著名的开源项目 Drools（用于预测）。Kogito 旨在为业务自动化提供另一种方法，其主旨是以特定领域的方式公开业务知识（流程、规则、决策、预测）。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Prerequisites"
 msgstr "先决条件"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Architecture"
@@ -65,6 +67,7 @@ msgstr "在本例中，我们构建了一个非常简单的微服务，提供一
 msgid "`/LogisticRegressionIrisData`"
 msgstr "`/LogisticRegressionIrisData`"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -72,12 +75,13 @@ msgid ""
 "make use of generated code to make certain predictions based on the data being processed."
 msgstr "该端点将根据给定的 PMML 文件自动生成，反过来，该文件将利用生成的代码，根据正在处理的数据进行某些预测。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy, no-wrap
 msgid "PMML file"
 msgstr "PMML 文件"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -85,7 +89,7 @@ msgid ""
 "It should provide the actual model (Regression, Tree, Scorecard, Clustering, etc.) needed to make the prediction."
 msgstr "PMML 文件描述了我们微服务的预测逻辑。它应提供进行预测所需的实际模型（回归、树、记分卡、聚类等）。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy, no-wrap
 msgid "Prediction endpoints"
@@ -97,12 +101,13 @@ msgstr "预测终点"
 msgid "Those are the entry points to the service that can be consumed by clients."
 msgstr "这些都是客户可以使用服务的入口。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -121,7 +126,7 @@ msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载
 msgid "The solution is located in the `kogito-pmml-quickstart` {quickstarts-tree-url}/kogito-pmml-quickstart[directory]."
 msgstr "解决方案位于 `kogito-pmml-quickstart` {quickstarts-tree-url}/kogito-pmml-quickstart[目录]。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Creating the Maven Project"
@@ -132,6 +137,7 @@ msgstr "创建Maven项目"
 msgid "First, we need a new project. Create a new project with the following command:"
 msgstr "首先，我们需要一个新的项目。使用以下命令创建一个新的项目:"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -141,6 +147,7 @@ msgid ""
 "It also imports the `resteasy-reactive-jackson` extension that is needed for Kogito to expose REST services."
 msgstr "该命令生成一个 Maven 项目，导入 `kogito` 扩展，该扩展包含所有必要的依赖项和配置，可为您的应用程序配备业务自动化功能。它还会导入 `resteasy-reactive-jackson` 扩展，这是 Kogito 公开 REST 服务所必需的。"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -165,12 +172,13 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Writing the application"
 msgstr "编写应用程序"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -184,6 +192,7 @@ msgstr "预测是基于 PMML 模型进行评估的，其标准和规范可 link:
 msgid "During project compilation, Kogito will read the file and generate the classes needed for the evaluation, together with a couple of REST endpoints."
 msgstr "在项目编译过程中，Kogito 会读取文件并生成评估所需的类以及一些 REST 端点。"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -191,13 +200,13 @@ msgid ""
 "{quickstarts-tree-url}/kogito-pmml-quickstart/src/main/resources/LogisticRegressionIrisData.pmml[quickstart]."
 msgstr "要快速开始，请从 {quickstarts-tree-url}/kogito-pmml-quickstart/src/main/resources/LogisticRegressionIrisData.pmml[quickstart] 复制 PMML 文件。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy, no-wrap
 msgid "Running and Using the Application"
 msgstr "运行和使用应用程序"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy, no-wrap
 msgid "Running in Dev Mode"
@@ -209,7 +218,7 @@ msgstr "在开发模式下运行"
 msgid "To run the microservice in dev mode, use:"
 msgstr "要在开发模式下运行微服务，请使用。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy, no-wrap
 msgid "Running in JVM Mode"
@@ -231,7 +240,7 @@ msgstr "首先编译它："
 msgid "Then run it:"
 msgstr "然后运行："
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy, no-wrap
 msgid "Running in Native Mode"
@@ -242,6 +251,7 @@ msgstr "在本地模式下运行"
 msgid "This same demo can be compiled into native code: no modifications required."
 msgstr "这个同样的演示可以被编译成本地代码：不需要任何修改。"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 msgid ""
 "This implies that you no longer need to install a JVM on your\n"
@@ -249,6 +259,7 @@ msgid ""
 "the produced binary, and optimized to run with minimal resource overhead."
 msgstr "这意味着您不再需要在您的生产环境中安装JVM，因为运行时技术包含在生产的二进制文件中，并以最小的资源开销优化运行。"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -261,12 +272,13 @@ msgstr "编译需要较长的时间，因此默认情况下这一步骤是禁用
 msgid "After getting a cup of coffee, you'll be able to run this binary directly:"
 msgstr "一杯咖啡的时间后，您就可以直接运行该二进制文件了："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "Testing the Application"
 msgstr "测试应用程序"
 
+#. type: Plain text
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, fuzzy
 msgid ""
@@ -286,7 +298,7 @@ msgstr "在回复中，你应该看到预测，那应该是 _virginica_ ："
 msgid "You can also invoke the _descriptive_ endpoint, that will provide also the _OutputField_ evaluated:"
 msgstr "您还可以调用 _描述性_ 端点，该端点也会提供已评估的 _OutputField_ ："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/kogito-pmml.adoc
 #, no-wrap
 msgid "References"

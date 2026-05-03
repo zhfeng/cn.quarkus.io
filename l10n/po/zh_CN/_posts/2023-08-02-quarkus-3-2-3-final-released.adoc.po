@@ -28,6 +28,7 @@ msgstr "Quarkus 3.2.3.Final 发布 - 维护版本"
 msgid "Quarkus 3.2.3.Final is the third maintenance release of our 3.2 release train."
 msgstr "Quarkus 3.2.3.Final 是我们 3.2 版本系列的第三个维护版本。"
 
+#. type: Plain text
 #: _posts/2023-08-02-quarkus-3-2-3-final-released.adoc
 #, fuzzy
 msgid ""
@@ -41,6 +42,7 @@ msgstr "八月已经来临，但我们仍在稳步发布新的 Quarkus 版本。
 msgid "It should be a safe upgrade for anyone already using 3.2."
 msgstr "对于已经在使用 3.2 版的用户来说，这应该是一次安全的升级。"
 
+#. type: Plain text
 #: _posts/2023-08-02-quarkus-3-2-3-final-released.adoc
 #, fuzzy
 msgid ""
@@ -61,7 +63,7 @@ msgstr "如果您尚未使用 3.2，请参阅 link:https://github.com/quarkusio/
 msgid "And if you are not already using 3.0, please refer to https://quarkus.io/blog/quarkus-3-0-final-released/[the Quarkus 3.0 announcement] and in particular the section about the https://quarkus.io/blog/quarkus-3-0-final-released/#upgrading[upgrade path to 3.0] together with the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.1[3.1 migration guide] and https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.2[Quarkus 3.2 migration guide]."
 msgstr "如果您尚未使用 3.0，请参阅 link:https://quarkus.io/blog/quarkus-3-0-final-released/[Quarkus 3.0 公告] ，特别是有关 3. link:https://quarkus.io/blog/quarkus-3-0-final-released/#upgrading[0 升级路径] 的部分，以及 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.1[3.1 迁移指南] 和 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.2[Quarkus 3.2 迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-08-02-quarkus-3-2-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -73,7 +75,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/3.2.3.Final[the full changelog of 3.2.3.Final] and https://github.com/quarkusio/quarkus/releases/tag/3.2.3.Final[the full changelog of 3.2.3.Final] on GitHub."
 msgstr "你可以在 GitHub 上获取 link:https://github.com/quarkusio/quarkus/releases/tag/3.2.3.Final[3.2.3.Final 的完整更新日志] 和 link:https://github.com/quarkusio/quarkus/releases/tag/3.2.3.Final[3.2.3.Final 的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-08-02-quarkus-3-2-3-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

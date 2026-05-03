@@ -6,10 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: synopsis
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Agentic AI with Quarkus - part 2"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "The https://quarkus.io/blog/agentic-ai-with-quarkus/[first part] of this blog post series briefly introduced agentic AI and discussed workflow patterns.\n"
@@ -18,10 +20,12 @@ msgid ""
 "With agents, the LLM orchestrates the sequence of steps instead of being externally orchestrated programmatically, thus reaching a higher level of autonomy and flexibility."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Agents"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "Agents differ from the workflow patterns because the control flow is entirely delegated to LLMs instead of being implemented programmatically.\n"
@@ -30,30 +34,37 @@ msgid ""
 "From an external point of view, invoking an agent can be seen as invoking a function that opportunistically invokes tools to complete determinate subtasks."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The agent's toolbox can be composed of:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "External services (like HTTP endpoints)"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Other LLM / agents"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Methods providing data from a data store"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Methods provided by the application code itself"
 msgstr ""
 
+#. type: Block title
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Agents can invoke tools"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "In Quarkus, agents are represented by interfaces annotated with `@RegisterAiService.`\n"
@@ -62,18 +73,22 @@ msgid ""
 "The main difference is that the methods of an agent interface are annotated with `@ToolBox` to declare the tools that the LLM can use to complete the task:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Alternatively, the `@RegisterAiService` annotation can receive the set of tools in its `tools` parameter."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Let's look at some examples of agents to understand better how they work and what they can achieve."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The weather forecast agent"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "This https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/aiastool[first example] of agentic AI implements the following https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/aiastool/WeatherForecastAgent.java[weather forecast agent].\n"
@@ -81,36 +96,44 @@ msgid ""
 "To achieve this goal, the agent has a toolbox containing:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "An AI service specialized in extracting the name of a city from the user's prompt - which can be another _agent_;"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "A web service returning the geographic coordinates of a given city - this is a remote call;"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "A second web service providing the weather forecast for the given latitude and longitude - another remote call."
 msgstr ""
 
+#. type: Block title
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Weather agent architecture"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "We do not indicate when and how these tools are used; we just add them to the toolbox.\n"
 "The LLM decides when to call them and with which parameters."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Let's see how are defined the tools used by this agent:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "1 . https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/aiastool/CityExtractorAgent.java[Another AI Service] specialized in extracting the name of a city from the user's prompt (thus also demonstrating how easily an _agent_ can be configured to become a tool for another AI service/agent)."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "2 . A https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/aiastool/geo/GeoCodingService.java[web service] returning the geographic coordinates of a given city.\n"
@@ -118,18 +141,22 @@ msgid ""
 "It can be combined with fault tolerance, metrics, and other Quarkus features."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "3 . Another https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/aiastool/weather/WeatherForecastService.java[web service] providing the weather forecast for the given latitude and longitude."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "It's possible to invoke the https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/aiastool/WeatherResource.java[HTTP endpoint] exposing this agent-based weather service:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The response will be something like:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "The weather in Rome today will have a maximum temperature of 14.3°C, minimum temperature of 2.0°C.\n"
@@ -137,24 +164,29 @@ msgid ""
 "The overall weather condition is expected to be cloudy."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "In essence, this control flow is quite similar to the prompt chaining workflow (introduced in the https://quarkus.io/blog/agentic-ai-with-quarkus/#prompt-chaining[previous post]), where the user input is sequentially transformed in steps (in this case, going from the prompt to the name of the city contained in that prompt to the geographical coordinates of that city, to the weather forecasts at those coordinates).\n"
 "The significant difference is that the LLM directly orchestrates the sequence of steps instead of being externally orchestrated programmatically."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The observability automatically provided by Quarkus (in the GitHub project, observability is disabled by default, but it can be turned on with the `-Dobservability` flag) allows one to visually trace the sequence of tasks accomplished by the agent in order to execute its task."
 msgstr ""
 
+#. type: Block title
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Tracing weather agent execution"
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "A more general-purpose AI agent"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "In the previous example, the agent has access to very specific tools.\n"
@@ -164,44 +196,54 @@ msgid ""
 "It extends the agent's capabilities by allowing the LLM to search online for information not part of its original training set."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "In general, these scenarios require a bigger model, so this example has been configured to use `qwen2.5-14b` and a longer timeout to give it a chance to complete its task:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/searchastool/IntelligentAgent.java[intelligent agent] of this example can be configured to use this bigger model passing its name to the `@RegisterAiService` annotation."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/searchastool/WebSearchService.java[tool] can perform a web search on _DuckDuckGo_ and returns the result in plain text:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "It is possible to use more advanced search engines or APIs, like https://docs.quarkiverse.io/quarkus-langchain4j/dev/web-search.html[Tavily]."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The AI service uses this tool to retrieve online information for everything it ignores and arrange that data together to provide an answer to a generic user question."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "For instance, consider the following question: _How many seconds would it take for a leopard at full speed to run through the Pont des Arts?_\n"
 "Using this https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/searchastool/AgenticChatbotResource.java[HTTP endpoint], it would be executed using:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "To reply to this question, the agent invokes the web search tool twice: once to find the length of Pont des Arts and once to retrieve a leopard's speed."
 msgstr ""
 
+#. type: Block title
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "An agent using an external web search tool"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Then, the agent puts this information together and generates an output like:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "The length of Pont des Arts is approximately 155 meters. A leopard can run at speeds up to about 58 kilometers per hour (36 miles per hour). To calculate how many seconds it would take for a leopard running at full speed to cross the bridge, we need to convert its speed into meters per second and then divide the length of the bridge by this speed.\n"
@@ -218,6 +260,7 @@ msgid ""
 "So, it would take approximately 9.62 seconds for a leopard running at full speed to run through Pont des Arts."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "This example illustrates how an agent can use _tools_ to retrieve data.\n"
@@ -225,10 +268,12 @@ msgid ""
 "You can check https://github.com/quarkusio/quarkus-workshop-langchain4j/blob/main/step-08/src/main/java/dev/langchain4j/quarkus/workshop/BookingRepository.java[this example] to see how to implement a tool that queries a database using a Quarkus Panache repository."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Agents and Conversational AI"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "The flexibility of AI agents can become even more relevant when used in services that are not intended to fulfill a single request but need to have a more extended conversation with the user to achieve their goal.\n"
@@ -236,10 +281,12 @@ msgid ""
 "It requires managing the state of each conversation, often referred to as memories (the set of messages already exchanged with the LLM)."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "A https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/restaurant/RestaurantAgent.java[chatbot of a restaurant booking system], designed to chat with customers and collect their data and requirements, represents an interesting practical application of this pattern."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "Note that the user message conveys not only the customer's request but also includes the current date.\n"
@@ -248,22 +295,27 @@ msgid ""
 "Moving it to the user message empirically proved to work much better, possibly because this way, it is passed not only once but in every message in the chat memory."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "When the agent completes that information-gathering process, the chatbot uses a https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/restaurant/booking/BookingService.java[tool accessing the database] of existing reservations to both check if there is still a table available for the customer's needs and to book that table if so."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "To assist the customer in deciding whether to eat outside, the agent can also reuse, as a second tool, the https://github.com/mariofusco/quarkus-agentic-ai/blob/main/src/main/java/org/agenticai/restaurant/weather/WeatherService.java[weather forecast service] implemented in one of the former examples, passing to it the geographic coordinates of the restaurant."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The final architectural design of the chatbot is the following:"
 msgstr ""
 
+#. type: Block title
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The restaurant chatbot agent"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "Once the customer provides all necessary details, the chatbot confirms the booking and presents a reservation summary.\n"
@@ -271,26 +323,32 @@ msgid ""
 "It is possible to give this a try by accessing the URL:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "http://localhost:8080/restaurant.html"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "A typical example of user interaction could be something like this:"
 msgstr ""
 
+#. type: Block title
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "An example of interaction with the restaurant chatbot agent"
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Conclusions and next steps"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "This blog post series illustrates how you can use agentic patterns to implement AI-infused applications with Quarkus and its LangChain4j extension."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid ""
 "We have covered _workflow patterns in a previous post_ and _agents in this post_.\n"
@@ -298,30 +356,37 @@ msgid ""
 "The workflow patterns are more suitable for tasks that can be easily defined programmatically, while agents are more flexible and can handle a broader range of tasks."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Nevertheless, the examples discussed in this series can be improved and further generalized with other techniques that will be introduced in future works, such as:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Memory management across LLM calls"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "State management for long-running processes"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Improved observability"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "Dynamic tools and tool discovery"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "The relation with the MCP protocol and how agentic architecture can be implemented with MCP clients and servers"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-02-20-agentic-ai-with-quarkus-p2.adoc
 msgid "How can the RAG pattern be revisited in light of the agentic architecture, both with workflow patterns and agents?"
 msgstr ""

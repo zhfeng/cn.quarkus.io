@@ -6,14 +6,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: jekyll-l10n\n"
 
+#. type: YAML Front Matter: title
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Using the Model Context Protocol with Quarkus+LangChain4j"
 msgstr ""
 
+#. type: YAML Front Matter: synopsis
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Executing tools via the Model Context Protocol with Quarkus+LangChain4j"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "We are thrilled to announce that starting with version 0.23.0, the Quarkus\n"
@@ -21,10 +24,12 @@ msgid ""
 "https://modelcontextprotocol.io[Model Context Protocol (MCP)]."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "What is the Model Context Protocol?"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "MCP is an open protocol that standardizes how applications provide context\n"
@@ -41,6 +46,7 @@ msgid ""
 "side. More on creating MCP servers later."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "In version 0.23.x,\n"
@@ -49,6 +55,7 @@ msgid ""
 "Support for resources and prompts is planned for future releases."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "In this article, we will show you how to use Quarkus and LangChain4j to\n"
@@ -58,6 +65,7 @@ msgid ""
 "instructed by the user."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "There is no need to set up an MCP server separately, we will configure\n"
@@ -65,6 +73,7 @@ msgid ""
 "Quarkus is extremely easy."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "To download the final project, visit the\n"
@@ -76,22 +85,27 @@ msgid ""
 "of the box."
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Prerequisites"
 msgstr "先决条件"
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Apache Maven 3.9+"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "The `npm` package manager installed on your machine"
 msgstr ""
 
+#. type: Title =
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Creating a Filesystem assistant project"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "We will assume that you are using OpenAI as the LLM provider. If you are\n"
@@ -99,16 +113,19 @@ msgid ""
 "`quarkus-langchain4j-openai` extension and use something else."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Start by generating a Quarkus project. If you are using the Quarkus CLI, you can do it like this:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "If you prefer to use the web-based project generator, go to\n"
 "https://code.quarkus.io/[code.quarkus.io] and select the same extensions."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Whenever you run the application, make sure the\n"
@@ -116,16 +133,19 @@ msgid ""
 "OpenAI API key."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Create the directory to be used by the agent"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Under the root directory of the Maven project, create a directory named `playground`.\n"
 "This will be the only directory that the agent will be allowed to interact with."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Inside that directory, create any files that you want for testing. For\n"
@@ -133,30 +153,36 @@ msgid ""
 "contents:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Hello, world!"
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Create the AI service"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Next, we need to define an AI service that will define how the bot should\n"
 "behave. The interface will look like this:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Feel free to adjust the system message to your liking, but this one should\n"
 "be suitable to get the application working as expected."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Configure the MCP server and the connection to it"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "We will use\n"
@@ -167,6 +193,7 @@ msgid ""
 "sees)."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Starting the server and configuring the connection to it is extremely easy.\n"
@@ -175,6 +202,7 @@ msgid ""
 "you need to do is to add two lines into your `application.properties`:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "With this configuration, Quarkus will know that it should create a MCP\n"
@@ -185,6 +213,7 @@ msgid ""
 "the client will communicate with the server over standard input and output."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "When you configure one or more MCP connections this way, Quarkus also\n"
@@ -194,6 +223,7 @@ msgid ""
 "functionality available to the AI service."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Optionally, if you want to see the actual traffic between the application\n"
@@ -201,14 +231,17 @@ msgid ""
 "`application.properties`:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "And that's all! Now, let's test it."
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Try it out"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "Since we didn't create any UI for our application that a user could use,\n"
@@ -220,36 +253,44 @@ msgid ""
 "directly)."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Try a prompt to ask the agent to read a file that you created previously, such as:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Read the contents of the file hello.txt."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "If all is set up correctly, the agent will respond with the contents of the\n"
 "file, like in this screenshot:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "The bot can also write files, so try a prompt such as:"
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Write a Python script that prints \"Hello, world!\" and save it as hello.py."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Then have a look into your `playground` directory, and you should see the new Python file there!"
 msgstr ""
 
+#. type: Title ==
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid "Conclusion"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "The Model Context Protocol allows you to easily integrate reusable sets of\n"
@@ -259,6 +300,7 @@ msgid ""
 "matter of adding a few configuration properties."
 msgstr ""
 
+#. type: Plain text
 #: _posts/2025-01-08-quarkus-langchain4j-mcp.adoc
 msgid ""
 "And that's not all. Stay tuned, because Quarkus also has an extension that\n"

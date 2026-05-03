@@ -28,6 +28,7 @@ msgstr "使用Hibernate ORM与Quarkus配置文件和实时编码模式的技巧"
 msgid "Hibernate ORM lets you generate or update the database schema. Let's explore when to use such option in combination with live coding."
 msgstr "Hibernate ORM允许你生成或更新数据库模式。让我们探讨一下何时结合现场编码使用这种选项。"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""
@@ -35,6 +36,7 @@ msgid ""
 "There are a few common approaches to make the best of it."
 msgstr "Quarkus 实时编码（又称开发模式）对于混合前端或服务和数据库访问的应用程序非常有用。有几种常见的方法可以充分利用它。"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""
@@ -45,6 +47,7 @@ msgid ""
 "your entity changes or any change to your `import.sql` is immediately picked up and the schema updated without restarting the application!"
 msgstr "第一种选择是将 `quarkus.hibernate-orm.database.generation=drop-and-create` 与 `import.sql` 结合使用。这样，您的应用程序，特别是您的实体，每发生一次变化，数据库模式就会正确地重新创建，您的数据夹具（存储在 `import.sql` ）就会被用来从头开始重新填充。这是对环境进行完美控制的最佳方式，而且与 Quarkus 实时编码模式配合使用时效果奇佳：您的实体更改或对 `import.sql` 的任何更改都会立即被接收并更新模式，而无需重启应用程序！"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""
@@ -52,6 +55,7 @@ msgid ""
 "You can change the file name by changing the property `quarkus.hibernate-orm.sql-load-script` in `application.properties`."
 msgstr "默认情况下，Hibernate ORM 启动时将读取并执行 `/import.sql` 文件（如果存在）中的 SQL 语句。你可以通过修改 `application.properties` 中的属性 `quarkus.hibernate-orm.sql-load-script` 来更改文件名。"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""
@@ -65,6 +69,7 @@ msgid ""
 "But for development, these limitations are acceptable."
 msgstr "第二种方法是使用 `quarkus.hibernate-orm.database.generation=update` 。 `update` 是 Hibernate ORM 做出的最大努力，在特定情况下会失效，包括更改数据库结构可能导致数据丢失。例如，如果你改变了与外键相关的结构，Hibernate ORM 可能不得不退出。但对于开发而言，这些限制是可以接受的。"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""
@@ -80,12 +85,13 @@ msgstr "第三种方法是使用 `quarkus.hibernate-orm.database.generation=none
 msgid "Do not use `quarkus.hibernate-orm.database.generation` `drop-and-create` and `update` in your production environment. You have been warned :)"
 msgstr "不要在你的生产环境中使用 `quarkus.hibernate-orm.database.generation` `drop-and-create` 和 `update` 。你已经被警告了 :)"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy, no-wrap
 msgid "Now with Quarkus profiles"
 msgstr "现在有了Quarkus配置文件"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""
@@ -101,6 +107,7 @@ msgstr "当与 Quarkus 配置文件相结合时，它将变得非常强大。你
 msgid "application.properties"
 msgstr "应用程序属性"
 
+#. type: Plain text
 #: _posts/2019-08-01-hibernate-orm-config-profiles.adoc
 #, fuzzy
 msgid ""

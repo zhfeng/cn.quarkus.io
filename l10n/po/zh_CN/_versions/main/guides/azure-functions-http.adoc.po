@@ -16,15 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid "Azure Functions with Quarkus REST, Undertow, or Reactive Routes"
 msgstr "使用 Quarkus REST、Undertow 或 Reactive Routes 的 Azure 函数"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "<a class=\"status-label status-preview\" title=\"This extension's backward compatibility and presence in the ecosystem is not guaranteed\" href=\"#extension-status-note\">preview</a>"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid ""
@@ -41,7 +44,7 @@ msgstr "通过 `quarkus-azure-functions-http` 扩展，您可以使用 Quarkus R
 msgid "Only text based media types are supported at the moment as Azure Functions HTTP Trigger for Java does not support a binary format"
 msgstr "目前只支持基于文本的媒体类型，因为Azure Functions HTTP Trigger for Java不支持二进制格式。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, no-wrap
 msgid "Prerequisites"
@@ -65,12 +68,13 @@ msgstr "link:https://learn.microsoft.com/en-us/azure/azure-functions/functions-r
 msgid "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli[Azure CLI Installed]"
 msgstr "link:https://docs.microsoft.com/en-us/cli/azure/install-azure-cli[安装了Azure CLI]"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid ""
@@ -78,28 +82,31 @@ msgid ""
 "While only Jakarta REST is provided as an example, you can easily replace it with the HTTP framework of your choice."
 msgstr "本指南将指导您运行一个 maven 项目，将 Quarkus REST 端点部署到 Azure Functions。虽然仅提供了 Jakarta REST 作为示例，但您可以轻松地用自己选择的 HTTP 框架来替代它。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Creating the Maven/Gradle Project"
 msgstr "创建Maven部署项目"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "First, we need a new project. Create a new project with the following command:"
 msgstr "首先，我们需要一个新的工程项目。用以下命令创建一个新项目："
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "This command generates a project structure importing the Quarkus Azure Functions HTTP extension.\n"
 "It includes an example."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Examining the project"
 msgstr "检查项目"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid ""
@@ -109,6 +116,7 @@ msgid ""
 "Quarkus and Azure Functions."
 msgstr "如果打开生成项目的 `pom.xml` 或 `build.gradle` 构建文件，你会发现该项目与其他任何 Quarkus 项目都很相似。 `quarkus-azure-functions-http` 扩展是 Quarkus 和 Azure Functions 之间的集成点。"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "The current implementation of the `quarkus-azure-functions-http` extension no longer requires the\n"
@@ -116,18 +124,20 @@ msgid ""
 "deployment is now all done by Quarkus."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "Build configuration is all within `application.properties`. The only required configuration switch\n"
 "is `quarkus.azure-functions.app-name`."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Azure Deployment Descriptors"
 msgstr "Azure 部署描述符"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid ""
@@ -136,12 +146,13 @@ msgid ""
 "rerun the build when you are ready."
 msgstr "Azure Functions `host.json` 部署描述符是自动生成的，但如果需要覆盖它，请在项目根目录中声明，并在准备就绪时重新运行构建。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Configuring Root Paths"
 msgstr "配置根路径"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "The default route prefix for an Azure Function is `/api`.  All of your Jakarta REST, Servlet, Reactive Routes, and xref:funqy-http.adoc[Funqy HTTP] endpoints must\n"
@@ -149,30 +160,33 @@ msgid ""
 "`quarkus.http.root-path` switch in `application.properties`"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus dev mode"
 msgstr "Quarkus开发模式"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "Quarkus dev mode works by just running your application as an HTTP endpoint.  In dev mode,\n"
 "there is no special interaction with the Azure Functions local runtime."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Run locally in Azure Functions local environment"
 msgstr "在Azure Functions的模拟环境中本地运行"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "If you want to try this example within the local Azure Functions environment, you can\n"
 "use this command:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid ""
@@ -180,6 +194,7 @@ msgid ""
 "destroy the process cleanly and you'll have open ports."
 msgstr "Gradle 在进程管理方面有点古怪，因此需要使用 `--no-daemon` 开关，否则 control-c 无法干净利落地销毁进程，而且还会打开端口。"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "You must have the https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2[Azure Functions Core Tools]\n"
@@ -198,12 +213,13 @@ msgstr "访问该服务的URL将是"
 msgid "http://localhost:8081/api/hello"
 msgstr " http://localhost:8081/api/hello "
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus Integration Testing"
 msgstr "Quarkus集成测试"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy
 msgid ""
@@ -211,42 +227,48 @@ msgid ""
 "integration tests run, the local Azure Functions environment will be spun up for the duration of integration testing."
 msgstr "您可以使用 `@QuarkusIntegrationTest` 功能实施集成测试。运行这些集成测试时，本地 Azure Functions 环境将在集成测试期间启动。"
 
+#. type: Block title
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "Maven"
 msgstr "Maven"
 
+#. type: Block title
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "Gradle"
 msgstr "Gradle"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "Make sure any integration tests you execute with Maven use the `*IT.java` file pattern so that regular builds do not execute\n"
 "the test."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "Make sure any integration tests you execute with Gradle are located within `src/integrationTest/java`. Integration\n"
 "tests that exist in `src/test` will run with normal build and fail."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Login to Azure"
 msgstr "登录到Azure"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "To be able to deploy your application to Azure, log in to Azure:"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 #, fuzzy, no-wrap
 msgid "Deploy to Azure"
 msgstr "构建和部署到Azure"
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid ""
 "The `quarkus-azure-functions-http` extension handles all the work to deploy to Azure. By default,\n"
@@ -256,26 +278,32 @@ msgid ""
 "For other authentication mechanisms and deployment options, see <<#configuration-reference>>."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "To deploy your application, after you built your project, execute:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "For Gradle, you must use the `--info` switch to see this output."
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "If deployment is a success, Quarkus will output the endpoint URL of the example function to the console:"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "The URL to access the service would be something like: `https://{appName}.azurewebsites.net/api/hello`."
 msgstr ""
 
+#. type: Title =
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "Azure Functions Configuration Reference"
 msgstr ""
 
+#. type: Plain text
 #: _versions/main/guides/azure-functions-http.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""

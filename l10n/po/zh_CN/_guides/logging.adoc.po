@@ -16,99 +16,112 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Logging configuration"
 msgstr "YAML配置"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Read about the use of logging API in {project-name}, configuring logging output, and using logging adapters to unify the output from other logging APIs."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "This document is part of the xref:observability.adoc[Observability in Quarkus reference guide] which features this and other observability related components."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Quarkus uses the JBoss Log Manager logging backend for publishing application and framework logs.\n"
 "Quarkus supports the JBoss Logging API and multiple other logging APIs, seamlessly integrated with JBoss Log Manager."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "This means you can use your favorite logging API with Quarkus, providing you add the <<logging-apis,appropriate adapter>> to your application:"
 msgstr ""
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "Logging API"
 msgstr ""
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "Adapter"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "link:https://github.com/jboss-logging/jboss-logging[JBoss Logging]"
 msgstr "link:https://github.com/jboss-logging/jboss-logging[JBoss日志]"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "Built-in"
 msgstr ""
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.logging/java/util/logging/package-summary.html[JDK `java.util.logging` (JUL)]"
 msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.logging/java/util/logging/package-summary.html[JDKjava.util.logging (JUL)]"
 
-#. type: Plain text
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "link:https://www.slf4j.org/[SLF4J]"
 msgstr "link:https://www.slf4j.org/[SLF4J]"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "<<logging-adapters-slf4j,SLF4J adapter>>"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "link:https://commons.apache.org/proper/commons-logging/[Apache Commons Logging]"
 msgstr "link:https://commons.apache.org/proper/commons-logging/[阿帕奇公社日志]"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "<<logging-adapters-commons-logging,Commons Logging adapter>>"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "link:https://logging.apache.org/log4j/2.x/[Apache Log4j 2]"
 msgstr "link:https://commons.apache.org/proper/commons-logging/[阿帕奇公社日志]"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "<<logging-adapters-log4j2,Log4j 2 adapter>>"
 msgstr ""
 
-#. type: Plain text
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "link:https://logging.apache.org/log4j/1.2/[Apache Log4j 1]"
 msgstr "link:https://commons.apache.org/proper/commons-logging/[阿帕奇公社日志]"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "<<logging-adapters-log4j,Log4j 1 adapter>>"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Use JBoss Logging for application logging"
 msgstr "使用 JBoss 日志记录应用程序日志"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "When using the JBoss Logging API, your application requires no additional dependencies, as {project-name} provides it automatically."
 msgstr ""
@@ -119,38 +132,43 @@ msgstr ""
 msgid "An example of using the JBoss Logging API to log a message:"
 msgstr "使用 JBoss Logging API 记录信息的示例："
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "While JBoss Logging routes log messages directly to the JBoss Log Manager, one of your libraries might rely on a different logging API.\n"
 "In such cases, you need to use a <<logging-apis,logging adapter>> to ensure that its log messages are routed to JBoss Log Manager as well."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Get an application logger"
 msgstr "获取应用程序日志记录器"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "To get an application logger in {project-name}, select one of the following approaches."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "<<declaring-a-logger-field>>"
 msgstr "<<declaring-a-logger-field>>"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "<<simplified-logging>>"
 msgstr "<<simplified-logging>>"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "<<injection-of-a-configured-logger>>"
 msgstr "<<injection-of-a-configured-logger>>"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Declaring a logger field"
@@ -162,6 +180,7 @@ msgstr "注入一个记录器"
 msgid "With this classic approach, you use a specific API to obtain a logger instance, store it in a static field of a class, and call logging operations upon this instance."
 msgstr "使用这种经典方法时，您需要使用特定的 API 获取日志记录器实例，将其存储在类的静态字段中，并对该实例调用日志记录操作。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "The same flow can be applied with any of the <<logging-apis,supported logging APIs>>."
@@ -185,34 +204,40 @@ msgstr "定义记录仪字段。"
 msgid "Invoke the desired logging methods on the `log` object."
 msgstr "在 `log` 对象上调用所需的日志记录方法。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "When you create a `Logger` instance, Quarkus keeps metadata associated with the `Logger` name in memory for the full lifecycle of the application."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Do not use an unbounded dynamic name for loggers, for example, `for (int i ...) { Logger.getLogger(\"logger-name.\" + i).info(\"my log\") }`."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Simplified logging"
 msgstr "支持的日志API"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Quarkus simplifies logging by automatically adding logger fields to classes that use `io.quarkus.logging.Log`.\n"
 "This eliminates the need for repetitive boilerplate code and enhances the convenience of logging setup."
 msgstr ""
 
+#. type: Block title
 #: _guides/logging.adoc
 msgid "An example of simplified logging with static method calls:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The io.quarkus.logging.Log class provides the same methods as JBoss Logging, but as static methods."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "The class does not declare a logger field.\n"
@@ -221,70 +246,84 @@ msgid ""
 "In this example, the logger name is `com.example.MyService`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "During the application build, Quarkus rewrites calls to `Log` methods into JBoss Logging calls on the generated logger field."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Use the `Log` API only in application classes, not in external dependencies.\n"
 "`Log` method calls not processed by Quarkus at build time will result in an exception."
 msgstr ""
 
+#. type: Block title
 #: _guides/logging.adoc
 msgid "Using `io.quarkus.logging.Log` in extensions:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "While the `Log` API simplifies logging in application classes, it is not recommended for use in extension modules or external dependencies."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The following considerations apply:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "`io.quarkus.logging.Log` depends on Quarkus bytecode transformations that occur at build time."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "In extension modules, `Log` works only if the module includes a Jandex index.\n"
 "However, this behavior is unsupported and can lead to unreliable logging."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For extension development, use `org.jboss.logging.Logger.getLogger(String)` instead of `io.quarkus.logging.Log`."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Injecting a configured logger"
 msgstr "注入一个记录器"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Instead of declaring a logger field, you can use an alternative approach and inject a configured `org.jboss.logging.Logger` instance by using `@Inject`.\n"
 "This approach applies only to CDI beans."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "To control the logger name, choose one of the following injection patterns:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Use `@Inject Logger log` when you want Quarkus to name the logger after the class it is injected into."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Use `@LoggerName(\"...\") Logger log` when you want to set the logger name explicitly."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "`@Inject` is not required if you already annotated your `Logger` with `@LoggerName(\"...\")`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Once injected, you can use the `log` object to invoke logging methods."
 msgstr ""
@@ -295,42 +334,48 @@ msgstr ""
 msgid "An example of two different types of logger injection:"
 msgstr "两种不同类型记录仪注入的示例："
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The logger is created with `org.jboss.logging.Logger.getLogger(SimpleBean.class)`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "In this case, the name \"foo\" is used as a logger name.\n"
 "The logger is created with `org.jboss.logging.Logger.getLogger(\"foo\")`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Quarkus caches logger instances internally.\n"
 "When you inject a logger into a `@RequestScoped` bean, Quarkus shares that logger across bean instances to avoid performance penalties from repeated logger instantiation."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Use log levels"
 msgstr "日志水平"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "{project-name} provides multiple log levels to control the amount of information logged based on event severity."
 msgstr ""
 
+#. type: Block title
 #: _guides/logging.adoc
 msgid "Available log levels:"
 msgstr ""
 
-#. type: Labeled list
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "OFF"
 msgstr "关闭"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "A special level used in configuration to turn off logging."
 msgstr ""
@@ -341,6 +386,7 @@ msgstr ""
 msgid "FATAL"
 msgstr "死亡"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "A critical service failure or total inability to handle any requests."
 msgstr ""
@@ -351,6 +397,7 @@ msgstr ""
 msgid "ERROR"
 msgstr "错误"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "A major issue in processing or an inability to complete a request."
 msgstr ""
@@ -361,6 +408,7 @@ msgstr ""
 msgid "WARN"
 msgstr "警告"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "A non-critical service error or problem that might not require immediate correction."
 msgstr ""
@@ -371,6 +419,7 @@ msgstr ""
 msgid "INFO"
 msgstr "信息"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Service lifecycle events or other important infrequent information."
 msgstr ""
@@ -381,6 +430,7 @@ msgstr ""
 msgid "DEBUG"
 msgstr "DEBUG"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Additional information about lifecycle events or events not tied to specific requests, useful for debugging."
 msgstr ""
@@ -391,16 +441,18 @@ msgstr ""
 msgid "TRACE"
 msgstr "追踪"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Detailed per-request debugging information, potentially at a very high frequency."
 msgstr ""
 
-#. type: Labeled list
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "ALL"
 msgstr "所有"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "A special level to turn on logging for all messages, including custom levels."
 msgstr ""
@@ -561,16 +613,18 @@ msgstr "400"
 msgid "300"
 msgstr "300"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Configure the log level, category, and format"
 msgstr "配置日志级别、类别和格式"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "JBoss Logging, integrated into {project-name}, provides a unified configuration for all <<logging-apis,supported logging APIs>> through a single configuration file that sets up all available extensions."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "To adjust runtime logging, modify the `application.properties` file."
 msgstr ""
@@ -581,59 +635,69 @@ msgstr ""
 msgid "An example of how you can set the default log level to `INFO` logging and include Hibernate `DEBUG` logs:"
 msgstr "运行时日志是在 `application.properties` 文件中配置的，例如，将默认日志级别设置为 `INFO` 日志，并包括Hibernate `DEBUG` 日志。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Assuming the link:https://quarkus.io/guides/config-yaml[Quarkus YAML extension] is included, the equivalent YAML configuration is:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "When you set the log level to below `DEBUG`, for example `TRACE`, you must also adjust the minimum log level."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Set the minimum log level globally with the `quarkus.log.min-level` configuration property, or set it per category:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "The minimum log level is a build-time configuration option that sets the floor level for which Quarkus generates supporting code.\n"
 "This enables further build-time optimizations, such as dead code elimination when building a native image."
 msgstr ""
 
+#. type: Block title
 #: _guides/logging.adoc
 msgid "An example from a native executable:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Setting `INFO` as the minimum log level forces checks for lower levels, such as `isTraceEnabled()`, always to return `false`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "In turn, code such as `if (logger.isDebugEnabled()) callMethod();` is identified as never executed, also known as dead code."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "If you add these properties on the command line, ensure the `\"` character is escaped properly:"
 msgstr "如果你是通过命令行添加这些属性，请确保 `\"` 是转义的。例如， `-Dquarkus.log.category.\\\"org.hibernate\\\".level=TRACE` 。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "All potential properties are listed in the <<loggingConfigurationReference,logging configuration reference>> section."
 msgstr "所有潜在属性均列于 xref:loggingConfigurationReference[日志配置参考] 部分。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Logging categories"
 msgstr "记录类别"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Logging is configured per category.\n"
 "Configuration for a category applies recursively to all subcategories unless a more specific subcategory configuration exists."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid ""
@@ -648,6 +712,7 @@ msgstr "所有日志类别的父类别称为 \"根类别\"。作为最终的父�
 msgid "An example of a global configuration that applies to all categories:"
 msgstr "然后，所有的日志配置将在你的 `application.properties` 。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "In this example, the root category is configured to use two named handlers: `con` and `mylog`."
 msgstr ""
@@ -658,32 +723,36 @@ msgstr ""
 msgid "An example of a per-category configuration:"
 msgstr "文件TRACE日志配置"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "This example shows how to configure the minimal log level for the categories `org.apache.kafka.clients` and `org.apache.kafka.common.utils`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "For more information, see <<loggingConfigurationReference>>."
 msgstr "更多信息，请参见 <<loggingConfigurationReference>> 。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "If you want to configure something extra for a specific category, create a named handler like `quarkus.log.handler.[console|file|syslog].<your-handler-name>.*` and set it up for that category by using `quarkus.log.category.<my-category>.handlers`."
 msgstr "如果您想为特定类别配置额外内容，可创建一个命名处理程序（如 `quarkus.log.handler.[console|file|syslog].<your-handler-name>.*` ），然后使用 `quarkus.log.category.<my-category>.handlers` 为该类别进行设置。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "An example use case can be a desire to use a different timestamp format for log messages which are saved to a file than the format used for other handlers."
 msgstr "例如，如果日志信息被保存到文件中，就需要使用与其他处理程序不同的时间戳格式。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "For further demonstration, see the outputs of the <<category-named-handlers-example,Attaching named handlers to a category>> example."
 msgstr "有关进一步演示，请参阅 xref:category-named-handlers-example[将命名的处理程序附加到类别] 示例的输出结果。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Property Name"
@@ -701,39 +770,46 @@ msgstr "默认"
 msgid "Description"
 msgstr "描述"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "quarkus.log.category.\"<category-name>\".level"
 msgstr "quarkus.log.category.\"<category-name>\".level"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid ""
 "INFO footnote:[Some extensions might define customized default log levels for certain categories to reduce log noise by default.\n"
 "Setting the log level in configuration will override any extension-defined log levels.]"
 msgstr ""
 
+#. type: Table
 #: _guides/logging.adoc
 msgid ""
 "The level to use to configure the category named `<category-name>`.\n"
 "The quotes are necessary."
 msgstr ""
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "quarkus.log.category.\"<category-name>\".min-level"
 msgstr "quarkus.log.category.\"<category-name>\".min-level"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid ""
 "The minimum logging level to use to configure the category named `<category-name>`.\n"
 "The quotes are necessary."
 msgstr ""
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "quarkus.log.category.\"<category-name>\".use-parent-handlers"
 msgstr "quarkus.log.category.\"<category-name>\".use-parent-handlers"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "true"
@@ -763,6 +839,7 @@ msgstr "空[ link:#_footnotedef_1[1, id=\"_footnoteref_1\", class=\"footnote\", 
 msgid "The names of the handlers that you want to attach to a specific category."
 msgstr "你想附加到一个特定类别的处理程序的名称。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid ""
@@ -770,7 +847,7 @@ msgid ""
 "The quotes in the property name are used as a required escape to keep category specifications, such as `quarkus.log.category.\"io.quarkus.smallrye.jwt\".level=TRACE`, intact."
 msgstr "`.` 符号分隔了配置属性中的特定部分。属性名称中的引号是必要的转义符，以保持类别规范（如 `quarkus.log.category.\"io.quarkus.smallrye.jwt\".level=TRACE` ）的完整性。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Root logger configuration"
@@ -782,6 +859,7 @@ msgstr "根记录仪配置"
 msgid "The root logger category is handled separately, and is configured by using the following properties:"
 msgstr "根记录器类别被单独处理，并通过以下属性进行配置。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "quarkus.log.level"
@@ -793,6 +871,7 @@ msgstr "quarkus.log.level"
 msgid "The default log level for every log category."
 msgstr "每个日志类别的默认日志级别。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "quarkus.log.min-level"
@@ -816,22 +895,24 @@ msgstr "如果给定记录仪类别不存在级别配置，则检查父类别。
 msgid "The root logger configuration is used if no specific configurations are provided for the category and any of its parent categories."
 msgstr "如果未为类别及其任何父类别提供特定配置，则使用根记录仪配置。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Although the root logger's handlers are usually configured directly via `quarkus.log.console`, `quarkus.log.file` and `quarkus.log.syslog`, it can nonetheless have additional named handlers attached to it using the `quarkus.log.handlers` property."
 msgstr "虽然根日志记录器的处理程序通常通过 `quarkus.log.console` 、 `quarkus.log.file` 和 `quarkus.log.syslog` 直接配置，但它也可以使用 `quarkus.log.handlers` 属性附加其他已命名的处理程序。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Logging format"
 msgstr "记录格式"
 
+#. type: Title ==
 #: _guides/logging.adoc
 msgid "Human-readable text"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "{project-name} uses a pattern-based logging formatter that generates human-readable text logs by default, but you can also configure the format for each log handler by using a dedicated property."
 msgstr ""
@@ -848,6 +929,7 @@ msgstr "你可以通过一个专门的属性为每个日志处理程序配置格
 msgid "The logging format string supports the following symbols:"
 msgstr "日志格式字符串支持以下符号。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Symbol"
@@ -901,11 +983,13 @@ msgstr "渲染类别名称。"
 msgid "%C"
 msgstr "%C"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Source class"
 msgstr "来源类别"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "Renders the source class name.footnote:calc[Format sequences which examine caller information might affect performance]"
 msgstr ""
@@ -916,6 +1000,7 @@ msgstr ""
 msgid "%d{xxx}"
 msgstr "%d{xxx}"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Date"
@@ -927,6 +1012,7 @@ msgstr "日期"
 msgid "Renders a date with the given date format string, which uses the syntax defined by `java.text.SimpleDateFormat`."
 msgstr "用给定的日期格式字符串渲染一个日期，它使用了 `java.text.SimpleDateFormat` 定义的语法。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "%e"
@@ -950,6 +1036,7 @@ msgstr "呈现被抛出的异常，如果有的话。"
 msgid "%F"
 msgstr "%F"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Source file"
@@ -961,11 +1048,13 @@ msgstr "源文件"
 msgid "Renders the source file name.footnote:calc[]"
 msgstr "渲染源文件名。[计算]"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "%h"
 msgstr "%h"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Host name"
@@ -983,11 +1072,13 @@ msgstr "渲染系统的简单主机名。"
 msgid "%H"
 msgstr "%H"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Qualified host name"
 msgstr "合格的主机名"
 
+#. type: Table
 #: _guides/logging.adoc
 msgid "Renders the system's fully qualified host name, which might be the same as the simple host name, depending on operating system configuration."
 msgstr ""
@@ -1010,6 +1101,7 @@ msgstr "过程标识"
 msgid "Render the current process PID."
 msgstr "渲染当前进程的PID。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "%l"
@@ -1033,6 +1125,7 @@ msgstr "渲染源码位置信息，包括源码文件名、行数、类名和方
 msgid "%L"
 msgstr "%L"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Source line"
@@ -1044,11 +1137,13 @@ msgstr "资料来源"
 msgid "Renders the source line number.footnote:calc[]"
 msgstr "渲染源的行数。[计算]"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "%m"
 msgstr "%m"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Full Message"
@@ -1066,6 +1161,7 @@ msgstr "渲染日志信息和异常（如果有的话）。"
 msgid "%M"
 msgstr "%M"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Source method"
@@ -1083,6 +1179,7 @@ msgstr "渲染源方法名称。[计算]"
 msgid "%n"
 msgstr "%n"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Newline"
@@ -1100,6 +1197,7 @@ msgstr "渲染平台特定的行分隔符字符串。"
 msgid "%N"
 msgstr "%N"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Process name"
@@ -1117,6 +1215,7 @@ msgstr "渲染当前进程的名称。"
 msgid "%p"
 msgstr "%p"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Level"
@@ -1134,6 +1233,7 @@ msgstr "渲染消息的日志级别。"
 msgid "%r"
 msgstr "%r"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Relative time"
@@ -1145,11 +1245,13 @@ msgstr "相对时间"
 msgid "Render the time in milliseconds since the start of the application log."
 msgstr "渲染自应用程序日志开始以来的时间，单位为毫秒。"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "%s"
 msgstr "%s"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Simple message"
@@ -1167,6 +1269,7 @@ msgstr "只显示日志信息，没有异常跟踪。"
 msgid "%t"
 msgstr "%t"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Thread name"
@@ -1202,6 +1305,7 @@ msgstr "渲染线程ID。"
 msgid "%z{<zone name>}"
 msgstr "%z{<区名>}"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Time zone"
@@ -1225,6 +1329,7 @@ msgstr "%X{<<MDC属性名称>>}。"
 msgid "Mapped Diagnostic Context Value"
 msgstr "映射的诊断语境值"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Renders the value from Mapped Diagnostic Context."
@@ -1236,11 +1341,13 @@ msgstr "显示映射诊断上下文中的值。"
 msgid "%X"
 msgstr "%X"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Mapped Diagnostic Context Values"
 msgstr "映射诊断上下文值"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Renders all the values from Mapped Diagnostic Context in format `{property.key=property.value}`."
@@ -1252,22 +1359,25 @@ msgstr "以 `{property.key=property.value}` 格式显示映射诊断上下文中
 msgid "%x"
 msgstr "%x"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Nested Diagnostics context values"
 msgstr "嵌套诊断上下文值"
 
+#. type: Table
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Renders all the values from Nested Diagnostics Context in format `{value1.value2}`."
 msgstr "以 `{value1.value2}` 格式显示嵌套诊断上下文中的所有值。"
 
-#. type: Title ====
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "JSON logging format"
 msgstr "JSON日志格式"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The `quarkus-logging-json` extension might be employed to add support for the JSON logging format and its related configuration."
 msgstr ""
@@ -1290,66 +1400,78 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "By default, this extension overrides the console output format configuration, and any format string or color settings are ignored.\n"
 "Other console configuration items continue to apply, including items that control asynchronous logging and the log level."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "If you prefer human-readable, unstructured logging in dev mode and JSON-structured logging in production mode, configure this by using profiles, as shown in the following configuration."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "Disable JSON logging in application.properties for dev and test mode:"
 msgstr "在开发和测试模式的 application.properties 中禁用 JSON 日志记录："
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Choose the JSON console log format by setting the configuration property:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "This property sets the JSON log format for the console."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The possible values are:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "*default*: Generates structured logs based on the `key,values` present in the log record.\n"
 "Mapped Diagnostic Context (MDC) and Nested Diagnostic Context (NDC) data are included under the `mdc` and `ndc` fields."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "*ecs*: Uses the link:https://www.elastic.co/docs/reference/ecs/ecs-field-reference[Elastic Common Schema (ECS)] format.\n"
 "This format modifies some default field names and adds other fields to align with ECS."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Fields include `@timestamp`, `log.logger`, `log.level`, `process.pid`, `process.name`, `process.thread.name`, `process.thread.id`, `host.hostname`, `event.sequence`, `error.message`, `error.stack_trace`, `ecs.version`, `data_stream.type`, `service.name`, `service.version`, and `service.environment`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "*gcp*: Uses the link:https://cloud.google.com/logging/docs/structured-logging#structured_logging_special_fields[Google Cloud] format.\n"
 "This format follows the *default* format."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "When you use xref:opentelemetry-tracing.adoc[OpenTelemetry], Quarkus flattens tracing data present in the `mdc` field and copies it to `spanId`, `traceSampled`, and `trace`, with the `trace` value including a prefix."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Google Cloud requires the `trace` field to follow the `\"projects/<my-trace-project>/traces/12345\"` format.\n"
 "`<my-trace-project>` uses the value of the `quarkus.application.name` configuration property."
 msgstr ""
 
-#. type: Title =====
+#. type: Title ===
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Configuration"
@@ -1361,6 +1483,7 @@ msgstr "配置"
 msgid "Configure the JSON logging extension using supported properties to customize its behavior."
 msgstr "使用支持的属性配置 JSON 日志扩展，自定义其行为。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
@@ -1372,6 +1495,7 @@ msgstr "<span class=\"icicon\"><i class=\"fa fa-lock\" title=\"在构建时固�
 msgid "Enabling pretty printing might cause certain processors and JSON parsers to fail."
 msgstr "启用漂亮打印可能会导致某些处理器和JSON分析器失败。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid ""
@@ -1379,12 +1503,13 @@ msgid ""
 "The details include the source class name, source file name, source method name, and source line number."
 msgstr "打印详细信息的成本可能很高，因为这些值是从调用者处获取的。详细信息包括源类名、源文件名、源方法名和源行号。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Log handlers"
 msgstr "日志处理程序"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "A log handler is a logging component that emits log events to a recipient.\n"
@@ -1397,7 +1522,7 @@ msgstr ""
 msgid "The featured examples use `com.example` as a logging category."
 msgstr "特色示例使用 `com.example` 作为日志类别。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Console log handler"
@@ -1421,47 +1546,54 @@ msgstr "文件TRACE日志配置"
 msgid "A per-category configuration example:"
 msgstr "文件TRACE日志配置"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For details about its configuration, see the xref:#quarkus-core_section_quarkus-log-console[console logging configuration] reference."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "File log handler"
 msgstr "文件日志处理程序"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "To log events to a file on the application's host, use the Quarkus file log handler.\n"
 "The file log handler is disabled by default, so you must enable it first."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid "The Quarkus file log handler supports log file rotation."
 msgstr "Quarkus 文件日志处理程序支持日志文件轮换。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Log file rotation ensures efficient log management by preserving a specified number of backup files while keeping the primary log file up to date and manageable in size."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For details about its configuration, see the xref:#quarkus-core_section_quarkus-log-file[file logging configuration] reference."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Syslog log handler"
 msgstr "Syslog日志处理程序"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "The syslog handler in Quarkus follows the link:https://en.wikipedia.org/wiki/Syslog[Syslog] protocol, which is used to send log messages on UNIX-like systems.\n"
 "It uses the protocol defined in link:https://tools.ietf.org/html/rfc5424[RFC 5424]."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid ""
@@ -1469,14 +1601,17 @@ msgid ""
 "When enabled, it sends all log events to a syslog server, typically the local syslog server for the application."
 msgstr "默认情况下，系统日志处理程序是禁用的。启用后，它会将所有日志事件发送到 syslog 服务器，通常是应用程序的本地 syslog 服务器。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For details about its configuration, see the xref:#quarkus-core_section_quarkus-log-syslog[Syslog logging configuration] reference."
 msgstr ""
 
+#. type: Title ==
 #: _guides/logging.adoc
 msgid "Socket log handler"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "This handler sends logs to a socket.\n"
@@ -1484,18 +1619,20 @@ msgid ""
 "When enabled, it sends all log events to a socket, such as a Logstash server."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "Typically, this handler is used with the `quarkus-logging-json` extension to send logs in ECS format to an Elasticsearch instance.\n"
 "For an example configuration, see the xref:centralized-log-management.adoc[Centralized log management] guide."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Add a logging filter to your log handler"
 msgstr "在日志处理程序中添加日志过滤器"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "You can attach a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.logging/java/util/logging/Filter.html[filter] to a log handler such as the console handler.\n"
@@ -1520,6 +1657,7 @@ msgstr "用 `@io.quarkus.logging.LoggingFilter` 注释一个实现 `java.util.lo
 msgid "An example of writing a filter:"
 msgstr "编写过滤器的示例"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid ""
@@ -1539,12 +1677,13 @@ msgstr "然后，所有的日志配置将在你的 `application.properties` 。"
 msgid "Attach the filter to the corresponding handler using the `filter` configuration property, located in `application.properties`:"
 msgstr "最后，使用适当处理程序的 `filter` 配置属性附加过滤器。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Examples of logging configurations"
 msgstr "文件TRACE日志配置"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The following examples show how to configure logging in {project-name}:"
 msgstr ""
@@ -1555,6 +1694,7 @@ msgstr ""
 msgid "Console DEBUG logging except for Quarkus logs (INFO), no color, shortened time, shortened category prefixes"
 msgstr "控制台DEBUG日志，除了Quarkus日志（INFO），没有颜色，缩短时间，缩短类别前缀"
 
+#. type: Plain text
 #: _guides/logging.adoc
 #, fuzzy
 msgid ""
@@ -1568,6 +1708,7 @@ msgstr "如果在命令行中添加这些属性，请确保 `\"` 已转义。例
 msgid "File TRACE logging configuration"
 msgstr "文件TRACE日志配置"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "As we do not change the root logger, the console log contains only `INFO` or higher level logs."
 msgstr ""
@@ -1584,12 +1725,13 @@ msgstr "隶属于一个类别的命名处理程序"
 msgid "Named handlers attached to the root logger"
 msgstr "隶属于一个类别的命名处理程序"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Centralized log management"
 msgstr "集中的日志管理"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Use a centralized location to efficiently collect, store, and analyze log data from various components and application instances."
 msgstr ""
@@ -1600,40 +1742,48 @@ msgstr ""
 msgid "To send logs to a centralized tool such as Graylog, Logstash, or Fluentd, see the Quarkus xref:centralized-log-management.adoc[Centralized log management] guide."
 msgstr "如果你想把你的日志发送到一个集中的工具，如Graylog、Logstash或Fluentd，你可以按照 link:centralized-log-management.html[集中的日志管理指南] 。"
 
+#. type: Title ==
 #: _guides/logging.adoc
 msgid "OpenTelemetry logging"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "You can enable sending log entries from all appenders to OpenTelemetry Logging."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For details, see the Quarkus xref:opentelemetry-logging.adoc[OpenTelemetry Logging] guide."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Configure logging for `@QuarkusTest`"
 msgstr "如何配置日志记录 `@QuarkusTest` "
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "To enable logging for `@QuarkusTest`, it is necessary to set the `java.util.logging.manager` system property to `org.jboss.logmanager.LogManager` early in the startup process, or logging will not work as expected."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Configure it in your build tool as follows:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For Maven:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Set the property in the Maven Surefire plugin configuration."
 msgstr ""
 
+#. type: Block title
 #: _guides/logging.adoc
 msgid "Setting `java.util.logging.manager` in the Maven Surefire plugin configuration:"
 msgstr ""
@@ -1650,24 +1800,28 @@ msgstr "确保使用 `org.jboss.logmanager.LogManager` 。"
 msgid "Enable debug logging for all logging categories."
 msgstr "启用所有日志类别的调试日志。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For Gradle:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Set the property in the `build.gradle` file."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "For more information, see the xref:getting-started-testing.adoc#test-from-ide[Running `@QuarkusTest` from an IDE] section of the Testing your Application guide."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Use other logging APIs"
 msgstr "支持的日志API"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "{project-name} relies on the JBoss Logging library for logging.\n"
@@ -1675,22 +1829,25 @@ msgid ""
 "This step is especially important for native executables, because the native build can fail with errors such as the following:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "The native executable does not include the logging implementation for those APIs.\n"
 "Use JBoss Logging adapters to resolve this issue."
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The next section describes adapters for common open-source logging APIs."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Add a logging adapter to your application"
 msgstr "为应用程序添加日志适配器"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid ""
 "For each logging API that is not JBoss Logging, add a logging adapter library to ensure that messages logged through these APIs are routed to the JBoss Log Manager backend.\n"
@@ -1703,53 +1860,63 @@ msgstr ""
 msgid "This step is unnecessary for libraries that are dependencies of a Quarkus extension where the extension handles it automatically."
 msgstr "对于依赖Quarkus扩展的库来说，这一点是不需要的，因为扩展将为你处理这个问题。"
 
+#. type: Title ===
 #: _guides/logging.adoc
 msgid "SLF4J"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The SLF4J adapter is provided by the following dependency:"
 msgstr ""
 
+#. type: Title ===
 #: _guides/logging.adoc
 msgid "Apache Commons Logging"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The Commons Logging adapter is provided by the following dependency:"
 msgstr ""
 
+#. type: Title ===
 #: _guides/logging.adoc
 msgid "Log4j 2"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The Log4j 2 adapter is provided by the following dependency:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Do not include any Log4j dependencies, as the `log4j2-jboss-logmanager` library contains everything needed to use Log4j as a logging implementation."
 msgstr ""
 
+#. type: Title ===
 #: _guides/logging.adoc
 msgid "Log4j"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Log4j 1.x is no longer supported by Quarkus."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Use MDC to add contextual log information"
 msgstr "使用 MDC 添加上下文日志信息"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Quarkus overrides the logging Mapped Diagnostic Context (MDC) to improve compatibility with its reactive core."
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Add and read MDC data"
@@ -1767,32 +1934,38 @@ msgstr "向 MDC 添加数据并在日志输出中提取："
 msgid "Use the `MDC` class to set the data."
 msgstr "使用 `MDC` 类设置数据。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Add `import org.jboss.logmanager.MDC;`"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Set `MDC.put(...)` as shown in the example below:"
 msgstr ""
 
+#. type: Block title
 #: _guides/logging.adoc
 msgid "An example with JBoss Logging and `io.quarkus.logging.Log`"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Configure the log format to use `%X\\{mdc-key\\}`:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "The resulting message contains the MDC data:"
 msgstr ""
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "MDC and supported logging APIs"
 msgstr "支持的日志API"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "Based on your logging API, use one of the following MDC classes:"
 msgstr ""
@@ -1815,7 +1988,7 @@ msgstr "Log4j 2 - `org.apache.logging.log4j.ThreadContext.put(key, value)`"
 msgid "SLF4J - `org.slf4j.MDC.put(key, value)`"
 msgstr "SLF4J - `org.slf4j.MDC.put(key, value)`"
 
-#. type: Title ====
+#. type: Title ===
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "MDC propagation"
@@ -1851,16 +2024,18 @@ msgstr "在提交给 `org.eclipse.microprofile.context.ManagedExecutor` 的代�
 msgid "In code executed with `vertx.executeBlocking()`."
 msgstr "在使用 `vertx.executeBlocking()` 执行的代码中。"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "If applicable, Quarkus stores MDC data in a Vert.x duplicated context, which isolates processing for a single task or request."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/logging.adoc
 #, fuzzy, no-wrap
 msgid "Logging configuration reference"
 msgstr "日志配置参考"
 
+#. type: Plain text
 #: _guides/logging.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr ""

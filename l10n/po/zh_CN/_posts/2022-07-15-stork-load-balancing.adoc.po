@@ -28,6 +28,7 @@ msgstr "如何用Stork选择 \"正确 \"的服务？"
 msgid "How Stork selects the best service instance and the various built-in stategies."
 msgstr "Stork如何选择最佳服务实例和各种内置策略。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -35,6 +36,7 @@ msgid ""
 "In modern architectures, you often have multiple instances of your service to share the load or improve the resilience by redundancy."
 msgstr "分布式系统的精髓在于 _服务_ 之间的交互。在现代架构中，服务通常有多个实例，以分担负载或通过冗余提高弹性。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -43,12 +45,13 @@ msgid ""
 "In this post, we will look into some of the load-balancing strategies offered by Stork, so you can decide which one is the best for you."
 msgstr "但是，当你遇到所有这些情况时，如何选择 _最好的_ 一个呢？这正是 Stork 可以提供帮助的地方。Stork 是一个服务发现和负载平衡框架。Stork 会为每次调用找到并选择最合适的实例。在本篇文章中，我们将介绍 Stork 提供的一些负载平衡策略，这样你就可以决定哪种策略最适合你。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "Playground"
 msgstr "游乐场"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -58,6 +61,7 @@ msgid ""
 "That's where Stork load balancing capability comes and selects the instance (4)."
 msgstr "当应用程序需要调用远程服务（2）时，它会要求 Stork 找到该服务（3）。服务发现步骤会检索服务实例。你可能只有一个实例，这就简化了选择过程，但你也可能有多个可用实例。然后，你需要选择一个。这就是 Stork 负载均衡功能的作用，它可以选择实例 (4)。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -107,6 +111,7 @@ msgstr "主应用程序包含一个配置为使用stork的REST客户端。"
 msgid "The main endpoint delegates the invocation to the client:"
 msgstr "主端点将调用委托给客户端。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -132,12 +137,13 @@ msgstr "并发调用：它同时发出十个请求。你不能控制这些请求
 msgid "Let's now look at the various load-balancing strategies offered by Stork."
 msgstr "现在我们来看看Stork提供的各种负载平衡策略。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "The round-robin strategy"
 msgstr "循环战略"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -145,6 +151,7 @@ msgid ""
 "When you call the service (either sequentially or concurrently), you get something like:"
 msgstr "如果不设置任何负载平衡策略，Stork 会使用轮循方式。当你调用服务时（无论是顺序调用还是并发调用），你会得到类似下面的信息"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -153,6 +160,7 @@ msgid ""
 "When the green instance fails (❌), it does not evict the instance, continues the iteration, and picks the blue instance, then the yellow instance, and then the green one again."
 msgstr "Stork 对可用实例进行迭代。因此，我们可以看到 🔵 🟡 🟢 🔵 🟡 🟢 🔵 🟡 🟢 序列。当调用失败时，它不会改变策略。当绿色实例调用失败时 (❌)，它不会驱逐该实例，而是继续迭代，先选择蓝色实例，再选择黄色实例，然后再次选择绿色实例。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -160,12 +168,13 @@ msgid ""
 "When there is a failure, and when a retry is possible, you can use `@Retry` to use the next service instance."
 msgstr "轮循策略便于在一组服务实例之间平均分配负载。当出现故障且可以重试时，可以使用 `@Retry` 来使用下一个服务实例。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "The random strategy"
 msgstr "随机策略"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -185,6 +194,7 @@ msgstr "要使用这种负载平衡策略，你必须配置你的服务的负载
 msgid "As you can see in the picture below, it does not follow a pattern. So, the same service instance can be called multiple times consecutively."
 msgstr "正如你在下图中看到的，它并不遵循一个模式。所以，同一个服务实例可以被连续调用多次。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -194,12 +204,13 @@ msgid ""
 "In that case, it can be convenient to share the load and avoid overloading a specific instance globally."
 msgstr "这种策略不会在实例之间平均分担负载。在最坏的情况下，它会选择一个繁忙的实例。不过，假设被调用的服务也被其他应用程序使用（也使用随机负载平衡）。在这种情况下，就可以方便地分担负载，避免特定实例全局超载。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "Least-Requests"
 msgstr "最少的请求"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -227,6 +238,7 @@ msgstr "你还需要配置你的服务的负载平衡器。"
 msgid "If you call the service sequentially, it always picks the same instance:"
 msgstr "如果你连续调用该服务，它总是挑选同一个实例。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -234,6 +246,7 @@ msgid ""
 "However, when you call the service concurrently, this strategy becomes a lot more relevant:"
 msgstr "事实上，该服务的空中请求数始终为 0，因为它会等待响应，然后再调用一次。然而，当您同时调用服务时，这一策略就变得更加重要了："
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -241,6 +254,7 @@ msgid ""
 "Thus, while the blue and yellow services still have inflight calls, the green service is back to 0 and selected."
 msgstr "由于绿色服务速度最快，随着航班请求的迅速减少，绿色服务被呼叫的频率也会增加。因此，当蓝色和黄色服务仍有航班呼叫时，绿色服务就会恢复为 0 并被选中。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -248,6 +262,7 @@ msgid ""
 "For example, you can have endpoints answering quickly and endpoints doing a lot more work, thus taking more time."
 msgstr "这种策略在使用具有不同响应时间的 API 服务时非常方便。例如，您可以让端点快速响应，也可以让端点做更多工作，从而花费更多时间。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -255,12 +270,13 @@ msgid ""
 "If you have many service instances, you need to iterate over the whole set to find the one to pick."
 msgstr "这种策略有一个缺点。如果有很多服务实例，就需要遍历整个服务实例集才能找到要选取的服务实例。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "The power of two random choices"
 msgstr "两个随机选择的力量"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -280,6 +296,7 @@ msgstr "你还需要为该服务配置负载平衡器。"
 msgid "The results are similar to the _least-request_ as we have only three instances:"
 msgstr "结果与 _最小请求_ 相似，因为我们只有三个实例。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -287,12 +304,13 @@ msgid ""
 "In the worst case, it would pick the two most busy instances and select the one with fewer requests."
 msgstr "不过，当实例数量较多、迭代耗时过长时，这种策略的成本较低。在最糟糕的情况下，它会选择两个最繁忙的实例，然后选择请求较少的那个。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "Least response time"
 msgstr "最短的响应时间"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -307,6 +325,7 @@ msgstr "最短响应时间跟踪响应时间和故障情况。因此，它会选
 msgid "You also need to configure the load-balancer for the service:"
 msgstr "你还需要为服务配置负载平衡器。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -314,12 +333,13 @@ msgid ""
 "However, due to the chance of failure, it will also pick the other ones once in a while."
 msgstr "这种策略会更多地选择绿色实例。不过，由于存在失败的可能性，它偶尔也会选择其他实例。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
 msgstr "摘要"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""
@@ -327,6 +347,7 @@ msgid ""
 "You can find the full list on http://smallrye.io/smallrye-stork/latest[the Stork web site]."
 msgstr "本博文介绍了 Stork 提供的负载平衡策略。你可以在 link:http://smallrye.io/smallrye-stork/latest[Stork 网站] 上找到完整的列表。"
 
+#. type: Plain text
 #: _posts/2022-07-15-stork-load-balancing.adoc
 #, fuzzy
 msgid ""

@@ -40,13 +40,13 @@ msgstr "我们刚刚发布了Quarkus 0.22.0，包括改进的Spring API支持。
 msgid "We also officially launch https://code.quarkus.io/[code.quarkus.io]: it has never been easier to create a Quarkus application."
 msgstr "我们还正式推出了 link:https://code.quarkus.io/[code.quarkus.io] ：创建Quarkus应用程序从未如此简单。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy, no-wrap
 msgid "Improved Spring API support"
@@ -64,7 +64,7 @@ msgstr "Quarkus从最初发布时就有 link:https://quarkus.io/guides/spring-di
 msgid "Spring developers can now feel at home with Quarkus while benefiting from features like out-of-the-box support for live coding and native compilation."
 msgstr "Spring开发者现在可以对Quarkus有宾至如归的感觉，同时受益于开箱即用的实时编码支持和本地编译等功能。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy, no-wrap
 msgid "code.quarkus.io"
@@ -76,12 +76,13 @@ msgstr "code.quarkus.io"
 msgid "It has been in the works for a while and we are proud to officially launch https://code.quarkus.io/[code.quarkus.io], a user-friendly web interface to create your Quarkus applications. It also constitutes a great tool to explore the full breadth of our extension ecosystem."
 msgstr "它已经进行了一段时间，我们很自豪地正式推出 link:https://code.quarkus.io/[code.quarkus.io] ，这是一个用户友好的网络界面，可以创建你的Quarkus应用程序。它也构成了一个探索我们的扩展生态系统的全部范围的伟大工具。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy, no-wrap
 msgid "New extensions"
 msgstr "新的扩展"
 
+#. type: Plain text
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy
 msgid ""
@@ -90,7 +91,7 @@ msgid ""
 "In the mean time we have seen community members wanting to collaborate on extensions, we have created a https://github.com/quarkusio/quarkus/issues/new?assignees=&labels=extension-proposal&template=extension_proposal.md&title=[new issue template] and https://github.com/quarkusio/quarkus/labels/extension-proposal[GitHub tag] to capture these."
 msgstr "推广生态系统发展势头良好。我们正在开发一种简化推广出版物的模式。我们将这项工作称为 Quarkus 平台。与此同时，我们发现社区成员希望在扩展方面开展合作，因此我们创建了一个 link:https://github.com/quarkusio/quarkus/issues/new?assignees=&labels=extension-proposal&template=extension_proposal.md&title=[新的问题模板] 和 link:https://github.com/quarkusio/quarkus/labels/extension-proposal[GitHub 标签] 来捕捉这些合作。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -102,12 +103,13 @@ msgstr "完整的更新日志"
 msgid "We also fixed a few bugs and usability issues: get https://github.com/quarkusio/quarkus/releases/tag/0.22.0[the full changelog of 0.22.0 on GitHub]."
 msgstr "我们还修复了一些错误和可用性问题： link:https://github.com/quarkusio/quarkus/releases/tag/0.22.0[在GitHub上] 获取 link:https://github.com/quarkusio/quarkus/releases/tag/0.22.0[0.22.0的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy
 msgid ""
@@ -121,7 +123,7 @@ msgstr "Quarkus 目前有 link:https://github.com/quarkusio/quarkus/graphs/contr
 msgid "In particular for this release, thanks to Aurea Munoz, Clement Escoffier, David M. Lloyd, George Gastaldi, Georgios Andrianakis, Guillaume Smet, Gwenneg Lepage, Manyanda Chitimbo, mejlholm, Stephane Epardaud and Stuart Douglas."
 msgstr "特别是为这个版本，感谢Aurea Munoz, Clement Escoffier, David M. Lloyd, George Gastaldi, Georgios Andrianakis, Guillaume Smet, Gwenneg Lepage, Manyanda Chitimbo, mejlholm, Stephane Epardaud 和 Stuart Douglas。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-09-16-quarkus-0-22-0-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

@@ -40,6 +40,7 @@ msgstr "如果你还没有听说，下周的 link:https://www.redhat.com/en/summ
 msgid "Here is a handy session guide for the <<keynote>>, <<technical>>, and <<stories>>, where Quarkus is either covered or is the central topic. Registration starts Monday."
 msgstr "这里有一个关于 link:#keynote[[主题演讲]] 、 link:#technical[[技术]] 和 link:#stories[[故事]] 的方便的会议指南，其中Quarkus被涵盖或成为中心议题。注册从周一开始。"
 
+#. type: Title =
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid "Keynote"
@@ -83,6 +84,7 @@ msgid ""
 "< ---- https://www.redhat.com/en/summit/agenda/agenda-at-a-glance[link] ---- >"
 msgstr "美国东部时间周三上午9:00< ---- link:https://www.redhat.com/en/summit/agenda/agenda-at-a-glance[链接] ---- >"
 
+#. type: Title =
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid "Technical Sessions"
@@ -365,6 +367,7 @@ msgid ""
 "https://summit.redhat.com/conference/sessions/details/bb5d9ab5-214d-4a10-8299-aa113ad9c958?sb=false[link]"
 msgstr "4月29日星期三下午5:00 SGT"
 
+#. type: Title =
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid "Quarkus in Production Customer Sessions"
@@ -376,6 +379,7 @@ msgstr "生产中的 Quarkus 客户会议"
 msgid "Vodafone Greece's exciting migration journey from SpringBoot to Quarkus"
 msgstr "沃达丰希腊公司从SpringBoot到Quarkus的精彩迁移之旅"
 
+#. type: Table
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid ""

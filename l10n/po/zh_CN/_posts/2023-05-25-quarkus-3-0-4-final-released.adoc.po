@@ -52,7 +52,7 @@ msgstr "对于已经使用3.0的人来说，这应该是一次安全的升级。
 msgid "If you are not already using 3.0, please refer to https://quarkus.io/blog/quarkus-3-0-final-released/[the Quarkus 3.0 announcement] and in particular the section about the https://quarkus.io/blog/quarkus-3-0-final-released/#upgrading[upgrade path to 3.0]."
 msgstr "如果你还没有使用3.0，请参考 link:https://quarkus.io/blog/quarkus-3-0-final-released/[Quarkus 3.0公告] ，特别是关于 link:https://quarkus.io/blog/quarkus-3-0-final-released/#upgrading[升级到3.0的路径] 部分。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-25-quarkus-3-0-4-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -64,7 +64,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/3.0.4.Final[the full changelog of 3.0.4.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/3.0.4.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/3.0.4.Final[3.0.4.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-05-25-quarkus-3-0-4-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

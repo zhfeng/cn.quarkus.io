@@ -22,6 +22,7 @@ msgstr ""
 msgid "Quarkus Tools for Visual Studio Code - 1.4.0 release"
 msgstr "Quarkus Tools for Visual Studio Code - 1.4.0版本"
 
+#. type: Plain text
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy
 msgid ""
@@ -29,6 +30,7 @@ msgid ""
 "https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[VS Code Marketplace]."
 msgstr "Quarkus Tools for Visual Studio Code 1.4.0 已在 link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[VS Code Marketplace] 上发布。"
 
+#. type: Plain text
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy
 msgid ""
@@ -66,7 +68,7 @@ msgstr "这次合作的结果是 link:https://projects.eclipse.org/proposals/ecl
 msgid "And now for an overview of the new features in vscode-quarkus 1.4.0:"
 msgstr "现在来看看vscode-quarkus 1.4.0中的新功能概述。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile Fault Tolerance support"
@@ -78,7 +80,7 @@ msgstr "支持MicroProfile容错"
 msgid "https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance] properties are now managed in *.properties and yaml files, by providing the correct properties, according to classes and methods annotated with Fault Tolerance annotations:"
 msgstr "link:https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile的容错] 属性现在在*.properties和yaml文件中管理，通过提供正确的属性，根据带有容错注释的类和方法。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile Health support"
@@ -90,7 +92,7 @@ msgstr "微配置文件健康支持"
 msgid "Validation and quick fixes for https://github.com/eclipse/microprofile-health[MicroProfile Health] in Java files are now available:"
 msgstr "现在可以对Java文件中的 link:https://github.com/eclipse/microprofile-health[MicroProfile Health] 进行验证和快速修复。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile LRA support"
@@ -102,7 +104,7 @@ msgstr "支持MicroProfile LRA"
 msgid "https://github.com/eclipse/microprofile-lra[MicroProfile LRA] (Long Running Actions) properties are now supported in the *.properties and yaml files:"
 msgstr "link:https://github.com/eclipse/microprofile-lra[MicroProfile的LRA] （Long Running Actions）属性现在在*.properties和yaml文件中被支持。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile Metrics support"
@@ -126,7 +128,7 @@ msgstr "在Java文件中，你可以从片段中受益，快速生成部分Metri
 msgid "These Metrics snippets only appear if the Java project has MicroProfile Metrics as a dependency."
 msgstr "只有当Java项目把MicroProfile Metrics作为依赖项时，这些Metrics片段才会出现。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile Open API support"
@@ -162,7 +164,7 @@ msgstr "代码动作 `Sources…​ / Generate OpenAPI Annotations` ，提供了
 msgid "The code action generates an Open API `@Operation` annotation for each method that returns a response:"
 msgstr "该代码动作为每个返回响应的方法生成一个Open API `@Operation` 注释。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile Open Tracing support"
@@ -174,7 +176,7 @@ msgstr "支持MicroProfile开放追踪"
 msgid "https://github.com/eclipse/microprofile-opentracing[MicroProfile Open Tracing] properties are now managed in *.properties and yaml files:"
 msgstr "link:https://github.com/eclipse/microprofile-opentracing[MicroProfile Open Tracing] 属性现在在*.properties和yaml文件中管理。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "MicroProfile Rest Client support"
@@ -192,12 +194,13 @@ msgstr "现在可以对Java文件中的 link:https://github.com/eclipse/micropro
 msgid "CodeLens for Rest Client are now available:"
 msgstr "用于Rest Client的CodeLens现在可用。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "Moving Forward"
 msgstr "向前迈进"
 
+#. type: Plain text
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy
 msgid ""
@@ -217,7 +220,7 @@ msgstr "在未来的版本中，我们的目标是改善对其他MicroProfile模
 msgid "Thank you for reading and stay tuned for the next release!"
 msgstr "谢谢您的阅读，请继续关注下一次发布。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-04-15-vscode-quarkus-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "Links"

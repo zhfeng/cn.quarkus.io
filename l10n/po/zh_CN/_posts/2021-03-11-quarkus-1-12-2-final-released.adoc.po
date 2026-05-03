@@ -46,13 +46,13 @@ msgstr "这是一个推荐给所有使用Quarkus 1.12的人的升级。"
 msgid "If you are not using 1.12 already, please refer to the https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.12[1.12 migration guide]."
 msgstr "如果你还没有使用1.12，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-1.12[1.12迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-11-quarkus-1-12-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-03-11-quarkus-1-12-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Two important regressions fixed"
@@ -64,6 +64,7 @@ msgstr "两个重要的回归固定"
 msgid "1.12.2.Final fixes two important regressions that were introduced in 1.12.1.Final:"
 msgstr "1.12.2.Final修复了1.12.1.Final中引入的两个重要的回归问题。"
 
+#. type: Plain text
 #: _posts/2021-03-11-quarkus-1-12-2-final-released.adoc
 #, fuzzy
 msgid ""
@@ -77,7 +78,7 @@ msgstr "在 Windows 上构建原生镜像时出现故障。我们添加了一个
 msgid "Deploying to OpenShift was also not working properly in 1.12.1.Final."
 msgstr "在1.12.1.Final中，部署到OpenShift也不能正常工作。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2021-03-11-quarkus-1-12-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -89,7 +90,7 @@ msgstr "完整的更新日志"
 msgid "You can get https://github.com/quarkusio/quarkus/releases/tag/1.12.2.Final[the full changelog of 1.12.2.Final on GitHub]."
 msgstr "你可以 link:https://github.com/quarkusio/quarkus/releases/tag/1.12.2.Final[在GitHub上] 获得 link:https://github.com/quarkusio/quarkus/releases/tag/1.12.2.Final[1.12.2.Final的完整更新日志] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-03-11-quarkus-1-12-2-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

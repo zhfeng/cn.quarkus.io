@@ -40,12 +40,13 @@ msgstr "周一我们上线了 link:https://www.youtube.com/watch?v=OCPFdpvL1Q0[Q
 msgid "The code he shows are at https://github.com/geoand/quarkus-test-demo and below are a transcript (Thanks Markus!)."
 msgstr "他展示的代码在 https://github.com/geoand/quarkus-test-demo ，下面是一份记录（感谢Markus！）。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-05-08-insights-1.adoc
 #, fuzzy, no-wrap
 msgid "Next Episode"
 msgstr "下一集"
 
+#. type: Plain text
 #: _posts/2020-05-08-insights-1.adoc
 #, fuzzy
 msgid "On Tusday May 12th 11:15 CEST / 14:45 IST / 05:15 EST  we will do https://www.youtube.com/watch?v=5UhM_W6zukg[Quarkus Insights episode #2: quarkus:dev & command mode] with https://twitter.com/stuartwdouglas[Stuart Douglas]!"
@@ -75,7 +76,7 @@ msgstr "请将问题添加到youtube视频中，或在现场节目中提问--我
 msgid "To join current live show or see the next one scheduled bookmark this link: https://youtube.com/quarkusio/live"
 msgstr "要加入当前的直播节目或查看下一个节目安排，请将此链接加入书签 https://youtube.com/quarkusio/live "
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-05-08-insights-1.adoc
 #, fuzzy, no-wrap
 msgid "Transcript"
@@ -93,6 +94,7 @@ msgstr "以下是这期节目的文字记录。"
 msgid "Kudos to Markus Eisele for making this happen!"
 msgstr "感谢 Markus Eisele 实现了这一目标！"
 
+#. type: Plain text
 #: _posts/2020-05-08-insights-1.adoc
 #, fuzzy
 msgid "**Georgios**: Thank you everybody!"

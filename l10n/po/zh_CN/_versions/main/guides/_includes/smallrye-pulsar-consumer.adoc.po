@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #: _versions/main/guides/_includes/smallrye-pulsar-consumer.adoc
 #, fuzzy
 msgid "Smallrye Pulsar Consumer"
@@ -557,6 +558,7 @@ msgstr "消息加密"
 msgid "*cryptoFailureAction*"
 msgstr "*cryptoFailureAction*"
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-pulsar-consumer.adoc
 msgid ""
 "Consumer should take action when it receives a message that can not be decrypted. +\n"
@@ -756,6 +758,7 @@ msgstr "批量接收策略"
 msgid "*autoUpdatePartitions*"
 msgstr "*自动更新分区*"
 
+#. type: Table
 #: _versions/main/guides/_includes/smallrye-pulsar-consumer.adoc
 msgid ""
 "If `autoUpdatePartitions` is enabled, a consumer subscribes to partition increase automatically.\n"

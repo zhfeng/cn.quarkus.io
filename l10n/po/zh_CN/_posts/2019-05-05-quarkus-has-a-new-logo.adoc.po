@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _posts/2019-05-05-quarkus-has-a-new-logo.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus has a logo"
@@ -28,13 +28,13 @@ msgstr "夸库斯有一个标志"
 msgid "The Quarkus project team leadership worked with the Middleware Engineering Services (MWES) Design team to create the visual identity of the Quarkus brand. To design the brand the MWES team looked to the project name and took into consideration the project's unique features; its small size, its ultra-fast scaling speed, and its Kubernetes roots. The logo also had to live up to the project tagline: \"Supersonic Subatomic Java.\""
 msgstr "Quarkus项目组的领导层与中间件工程服务（MWES）设计团队合作，创建Quarkus品牌的视觉识别。在设计品牌时，MWES团队参考了项目名称，并考虑了项目的独特功能；它的小规模、超快的扩展速度和它的Kubernetes根基。该标志还必须符合项目的标语。\"超音速的亚原子Java\"。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-05-05-quarkus-has-a-new-logo.adoc
 #, fuzzy, no-wrap
 msgid "The Quarkus Logo"
 msgstr "夸库斯标志"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-05-05-quarkus-has-a-new-logo.adoc
 #, fuzzy, no-wrap
 msgid "Breaking down the logo's elements"
@@ -46,7 +46,7 @@ msgstr "分解标志的要素"
 msgid "Just as atoms are comprised of three elements (protons, neutrons, and electrons), the logomark is comprised of three elements: the Subatomic Quark, the Cube, and the Q Tracer Path. Each of these elements serves as visual metaphors for the core drivers of the Quarkus brand."
 msgstr "正如原子由三种元素（质子、中子和电子）组成一样，logomark由三种元素组成：亚原子夸克、立方体和Q追踪路径。这些元素中的每一个都是Quarkus品牌核心驱动力的视觉隐喻。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-05-05-quarkus-has-a-new-logo.adoc
 #, fuzzy, no-wrap
 msgid "The Subatomic Quark Element"
@@ -64,7 +64,7 @@ msgstr "质子、中子和电子是亚原子世界中原子的组成部分，就
 msgid "The quark itself is formed by two overlapping triangles (again alluding to the three elements of an atom). The transparent overlay of the two triangles (One red and one blue) creates a hexagon in the at the center of the quark."
 msgstr "夸克本身是由两个重叠的三角形组成的（再次暗指原子的三个元素）。两个三角形的透明叠加（一个红色和一个蓝色）在夸克的中心形成了一个六边形。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-05-05-quarkus-has-a-new-logo.adoc
 #, fuzzy, no-wrap
 msgid "The Internal Cube Element"
@@ -76,7 +76,7 @@ msgstr "内部立方体元素"
 msgid "The internal hexagon is separated into three distinct sections to further define the three-dimensional cube element. The Cube is the heart of Quarkus... cloud-native Java. At its very core, Quarkus allows developers to run higher density workloads on existing infrastructures."
 msgstr "内部的六边形被分离成三个不同的部分，以进一步定义三维立方体元素。Cube是Quarkus的核心...云原生Java。就其核心而言，Quarkus允许开发者在现有基础设施上运行更高密度的工作负载。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-05-05-quarkus-has-a-new-logo.adoc
 #, fuzzy, no-wrap
 msgid "The \"Q Tracer Path\" Element"

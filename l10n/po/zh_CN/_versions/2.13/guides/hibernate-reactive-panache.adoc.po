@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Simplified Hibernate Reactive with Panache"
 msgstr "使用Panache简化Hibernate Reactive"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid ""
@@ -34,7 +35,7 @@ msgid ""
 "Hibernate Reactive with Panache focuses on making your entities trivial and fun to write in Quarkus."
 msgstr "link:https://hibernate.org/reactive/[Hibernate Reactive] 是唯一的反应式 JPA 实现，可为您提供对象关系映射器的全部功能，允许您通过反应式驱动程序访问数据库。它使复杂的映射成为可能，但并没有使简单和普通的映射变得微不足道。Hibernate Reactive with Panache 的重点是让你的实体变得琐碎，并能在 Quarkus 中轻松编写。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "First: an example"
@@ -46,6 +47,7 @@ msgstr "首先看一个例子"
 msgid "What we're doing in Panache allows you to write your Hibernate Reactive entities like this:"
 msgstr "Panache允许这样编写Hibernate Reactive实体："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "You have noticed how much more compact and readable the code is?\n"
@@ -57,18 +59,20 @@ msgstr "你有注意到代码的紧凑性和可读性大大提高了吗？看起
 msgid "the `list()` method might be surprising at first. It takes fragments of HQL (JP-QL) queries and contextualizes the rest. That makes for very concise but yet readable code."
 msgstr "`list()` 方法一开始可能会让人吃惊。它只需要接收HQL（JP-QL）查询语句的片段，并对查询语句其余部分进行上下文推断处理。这使得代码非常简明，但也不失可读性。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "what was described above is essentially the link:https://www.martinfowler.com/eaaCatalog/activeRecord.html[active record pattern], sometimes just called the entity pattern.\n"
 "Hibernate with Panache also allows for the use of the more classical link:https://martinfowler.com/eaaCatalog/repository.html[repository pattern] via `PanacheRepository`."
 msgstr "上面所描述的编码模式本质上是 link:https://www.martinfowler.com/eaaCatalog/activeRecord.html[Active Record模式] ，有时也称为实体模式。Panache也支持通过 `PanacheRepository` 使用更经典的 link:https://martinfowler.com/eaaCatalog/repository.html[Repository模式] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "解决方案"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
@@ -85,7 +89,7 @@ msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载
 msgid "The solution is located in the `hibernate-reactive-panache-quickstart` {quickstarts-tree-url}/hibernate-reactive-panache-quickstart[directory]."
 msgstr "该解决方案位于 `hibernate-reactive-panache-quickstart` {quickstarts-tree-url}/hibernate-reactive-panache-quickstart[目录] 中。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid "If your project is already configured to use other annotation processors, you will need to additionally add the Panache annotation processor:"
@@ -103,53 +107,53 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Setting up and configuring Hibernate Reactive with Panache"
 msgstr "在Hibernate Reactive中配置Panache"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "To get started:"
 msgstr "按以下步骤开始："
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "add your settings in `{config-file}`"
 msgstr "在 `{config-file}` 中添加你的设置。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "annotate your entities with `@Entity`"
 msgstr "给实体类增加 `@Entity` 注解"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "make your entities extend `PanacheEntity` (optional if you are using the repository pattern)"
 msgstr "实体类改为继承 `PanacheEntity` 类（使用Repository模式时为可选操作）。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "Follow the xref:hibernate-orm.adoc#setting-up-and-configuring-hibernate-orm[Hibernate set-up guide for all configuration]."
 msgstr "按照 link:hibernate-orm.html#setting-up-and-configuring-hibernate-orm[Hibernate 设置指南] 进行其他配置。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "In your `pom.xml`, add the following dependencies:"
 msgstr "在你的 `pom.xml` 文件中添加以下依赖项："
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "the Hibernate Reactive with Panache extension"
 msgstr "Hibernate Reactive with Panache扩展"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "your reactive driver extension (`quarkus-reactive-pg-client`, `quarkus-reactive-mysql-client`, `quarkus-reactive-db2-client`, ...)"
 msgstr "响应式驱动扩展 ( `quarkus-reactive-pg-client` , `quarkus-reactive-mysql-client` , `quarkus-reactive-db2-client` , ...)"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "For instance:"
 msgstr "比如："
@@ -159,30 +163,33 @@ msgstr "比如："
 msgid "Then add the relevant configuration properties in `{config-file}`."
 msgstr "然后在 `{config-file}` 添加相关配置。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Solution 1: using the active record pattern"
 msgstr "解决方案1：使用Active Record模式"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Defining your entity"
 msgstr "定义实体类"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "To define a Panache entity, simply extend `PanacheEntity`, annotate it with `@Entity` and add your\n"
 "columns as public fields:"
 msgstr "要定义一个Panache实体类，只需继承 `PanacheEntity` ，增加 `@Entity` 注解，并将数据库列作为公共字段添加到实体类："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "You can put all your JPA column annotations on the public fields. If you need a field to not be persisted, use the\n"
 "`@Transient` annotation on it. If you need to write accessors, you can:"
 msgstr "这些公共字段可以添加任何JPA列注解。如果你不想持久化某个字段，给它增加 `@Transient` 注解即可。如果你需要编写访问器，可以："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "And thanks to our field access rewrite, when your users read `person.name` they will actually call your `getName()` accessor,\n"
@@ -190,7 +197,7 @@ msgid ""
 "This allows for proper encapsulation at runtime as all fields calls will be replaced by the corresponding getter/setter calls."
 msgstr "而且由于我们的字段访问重写，当你的用户读取 `person.name` ，他们实际上会调用你的 `getName()` 方法，类似的还有字段写入和设置器。这允许在运行时进行适当的封装，因为所有字段的调用都将被相应的getter/setter调用所取代。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Most useful operations"
@@ -201,12 +208,13 @@ msgstr "常用操作"
 msgid "Once you have written your entity, here are the most common operations you will be able to perform:"
 msgstr "写好了实体类之后，你可以执行以下一些最常见的操作："
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Adding entity methods"
 msgstr "添加实体方法"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Add custom queries on your entities inside the entities themselves.\n"
@@ -214,7 +222,7 @@ msgid ""
 "Adding them as static methods in your entity class is the Panache Active Record way."
 msgstr "在实体本身内部的实体上添加自定义查询。这样，您和您的同事可以轻松找到它们，并且查询与他们操作的对象位于同一位置。将它们作为静态方法添加到实体类中是 Panache Active Record 方式。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Solution 2: using the repository pattern"
@@ -225,24 +233,27 @@ msgstr "解决方案2：使用Repository模式"
 msgid "When using the repository pattern, you can define your entities as regular JPA entities."
 msgstr "使用Repository模式时，可以将实体类定义为普通的JPA实体。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "If you don't want to bother defining getters/setters for your entities, you can make them extend `PanacheEntityBase` and\n"
 "Quarkus will generate them for you. You can even extend `PanacheEntity` and take advantage of the default ID it provides."
 msgstr "如果你不想自己定义实体的getter和setter方法，可以让实体类继承 `PanacheEntityBase` ，Quarkus将自动生成getter和setter方法。你也可以继承 `PanacheEntity` ，相比 `PanacheEntityBase` ，其优势是它还提供默认的ID字段。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Defining your repository"
 msgstr "定义Repository"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "When using Repositories, you get the exact same convenient methods as with the active record pattern, injected in your Repository,\n"
 "by making them implements `PanacheRepository`:"
 msgstr "使用 Repository 模式时，通过实现 `PanacheRepository` 接口，你可以使用与Active Record模式下完全相同的便捷方法："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "All the operations that are defined on `PanacheEntityBase` are available on your repository, so using it\n"
@@ -254,6 +265,7 @@ msgstr "`PanacheEntityBase` 中定义的所有方法都可以在你的Repository
 msgid "Once you have written your repository, here are the most common operations you will be able to perform:"
 msgstr "写好了Repository类之后，你可以执行以下一些最常见的操作："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "The rest of the documentation show usages based on the active record pattern only,\n"
@@ -261,18 +273,19 @@ msgid ""
 "The repository pattern examples have been omitted for brevity."
 msgstr "其余的文档只展示了基于活动记录模式的用法，但请记住，这些用法也可以用资源库模式来执行。为了简洁起见，已省略存储库模式示例。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Advanced Query"
 msgstr "高级查询"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Paging"
 msgstr "分页"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "You should only use the `list` methods if your table contains small enough data sets. For larger data\n"
@@ -284,7 +297,7 @@ msgstr "如果你的表数据量很小，你应该只用到 `list` 方法。对�
 msgid "The `PanacheQuery` type has many other methods to deal with paging and returning streams."
 msgstr "`PanacheQuery` 类还有很多其他方法来做分页查询、返回流。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Using a range instead of pages"
@@ -295,13 +308,14 @@ msgstr "使用范围查询而替代分页查询"
 msgid "`PanacheQuery` also allows range-based queries."
 msgstr "`PanacheQuery` 也支持基于范围的查询。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "You cannot mix ranges and pages: if you use a range, all methods that depend on having a current page will throw an `UnsupportedOperationException`;\n"
 "you can switch back to paging using `page(Page)` or `page(int, int)`."
 msgstr "你不能混合使用ranges和pages：如果你使用range，所有依赖于拥有当前页面的方法将抛出一个 `UnsupportedOperationException` ；你可以使用 `page(Page)` 或 `page(int, int)` 切换回分页。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Sorting"
@@ -324,12 +338,13 @@ msgstr "这些方法也可以接收一个 `Sort` 参数，它是对排序的抽�
 msgid "The `Sort` class has plenty of methods for adding columns and specifying sort direction or the null precedence."
 msgstr "`Sort` 类有很多方法用于添加列和指定排序方向。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Simplified queries"
 msgstr "简化查询"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Normally, HQL queries are of this form: `from EntityName [where ...] [order by ...]`, with optional elements\n"
@@ -396,13 +411,14 @@ msgstr "`<singleColumnName>` (带单个参数）语句会被扩展为： `delete
 msgid "`<query>` will expand to `delete from EntityName where <query>`"
 msgstr "`<query>` 语句会被扩展为： `delete from EntityName where <query>` "
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "You can also write your queries in plain\n"
 "link:https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#hql[HQL]:"
 msgstr "你也可以用普通的 link:https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#hql[HQL] 编写查询语句："
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Named queries"
@@ -413,13 +429,14 @@ msgstr "命名查询"
 msgid "You can reference a named query instead of a (simplified) HQL query by prefixing its name with the '#' character. You can also use named queries for count, update and delete queries."
 msgstr "除了上述的简化HQL查询以外，你还可以定义一个命名查询，然后通过'#'字符加命名来（在HQL中）引用它。在计数、更新和删除查询中也可以使用命名查询。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Named queries can only be defined inside your JPA entity classes (being the Panache entity class, or the repository parameterized type),\n"
 "or on one of its super classes."
 msgstr "命名查询只能在JPA实体类（必须是Panache实体类，或Repository类的参数化类型）内定义，或在它的父类中定义。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Query parameters"
@@ -445,7 +462,7 @@ msgstr "或者使用 `Parameters` 类，也可以方便地构造一个 `Map` ：
 msgid "Every query operation accepts passing parameters by index (`Object...`), or by name (`Map<String,Object>` or `Parameters`)."
 msgstr "所有查询操作都可以接收按索引（ `Object...​` ）或按名称（ `Map<String,Object>` 或 `Parameters` ）传递的参数。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Query projection"
@@ -461,6 +478,7 @@ msgstr "对 `find()` 方法返回的 `PanacheQuery` 对象，可以使用 `proje
 msgid "You can use it to restrict which fields will be returned by the database."
 msgstr "你可以用投影限制数据库返回哪些字段。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Hibernate will use **DTO projection** and generate a SELECT clause with the attributes from the projection class.\n"
@@ -468,12 +486,14 @@ msgid ""
 "link:https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#hql-select-clause[hql select clause]"
 msgstr "Hibernate会使用 *DTO投影* ，并根据投影的类的属性生成SELECT子句。这也被称为 *动态实例化* 或 *构造器表达* ，更多信息可以在Hibernate指南中找到： link:https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#hql-select-clause[HQL select子句]"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "The projection class needs to be a valid Java Bean and have a constructor that contains all its attributes, this constructor will be used to\n"
 "instantiate the projection DTO instead of using the entity class. This must be the only constructor of the class."
 msgstr "投影类必须是有效的Java Bean，并且拥有一个包含所有属性的构造方法，这个构造方法用于实例化投影DTO，而不是使用实体类。这个构造方法必须是唯一的构造方法。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "The `@RegisterForReflection` annotation instructs Quarkus to keep the class and its members during the native compilation. More details about the `@RegisterForReflection` annotation can be found on  the xref:writing-native-applications-tips.adoc#registerForReflection[native application tips] page."
 msgstr "`@RegisterForReflection` 注解用于指导Quarkus在native编译过程中保留该类和其成员。关于 `@RegisterForReflection` 注解的更多细节可以在 link:writing-native-applications-tips.html#registerForReflection[native应用程序提示] 页面找到。"
@@ -488,6 +508,7 @@ msgstr "在这里我们使用public的字段，你也可以使用private字段�
 msgid "This constructor will be used by Hibernate, and it must have a matching constructor with all the class attributes as parameters."
 msgstr "Hibernate会用到这个构造方法，它必须有一个匹配的构造函数，所有的类属性都是参数。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "The implementation of the `project(Class)` method uses the constructor's parameter names to build the select clause of the query,\n"
@@ -505,6 +526,7 @@ msgstr "如果DTO投影对象中有来自引用的实体字段，可以使用 `@
 msgid "The `ownerName` DTO constructor's parameter will be loaded from the `owner.name` HQL property."
 msgstr "DTO构造器的 `ownerName` 参数将从 `owner.name` HQL属性加载。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid ""
@@ -518,35 +540,36 @@ msgstr "也可以使用选择子句指定 HQL 查询。在这种情况下，投�
 msgid "Hibernate Reactive will use this constructor. When the query has a select clause, it is possible to have multiple constructors."
 msgstr "Hibernate Reactive将使用这个构造器。当查询有一个选择子句时，有可能会有多个构造函数。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid "It is not possible to have a HQL `select new` query and `.project(Class)` at the same time - you need to pick one approach."
 msgstr "不可能同时使用 HQL `select new` 查询和 `.project(Class)` - 您需要选择一种方法。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid "For example, this will fail:"
 msgstr "例如，这样做就会失败："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Multiple Persistence Units"
 msgstr "多个持久化单元"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "Hibernate Reactive in Quarkus currently does not support multiple persistence units."
 msgstr "Quarkus中的Hibernate Reactive目前不支持多个持久化单元。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Transactions"
 msgstr "事务"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Make sure to wrap methods modifying your database (e.g. `entity.persist()`) within a transaction. Marking a\n"
@@ -555,6 +578,7 @@ msgid ""
 "so at your application entry point boundaries like your REST endpoint controllers."
 msgstr "请确保修改数据库的方法（例如： `entity.persist()` ）处于同一个事务中。给一个CDI bean方法增加 `@ReactiveTransactional` 注解，可以确保该方法即事务边界。另外，你也可以使用 `Panache.withTransaction()` 来达到同样的效果。我们建议在应用端点的边界这样做，比如REST端点的Controller。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid ""
@@ -563,6 +587,7 @@ msgid ""
 "and will become blocking."
 msgstr "您不能在 Hibernate Reactive 中使用 `@Transactional` 来处理事务：您必须使用 `@ReactiveTransactional` ，并且您的注解方法必须返回 `Uni` ，这样才是非阻塞的。否则，该方法需要从非 `VertxThread` 线程调用，并将变成阻塞方法。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid ""
@@ -573,11 +598,12 @@ msgid ""
 "And your transaction still has to be committed."
 msgstr "JPA 会对您对实体所做的更改进行批处理，并在事务结束时或查询之前发送更改（称为 flush）。这通常是件好事，因为效率更高。但是，如果您想检查乐观锁定失败、立即进行对象验证或通常想获得即时反馈，您可以通过调用 `entity.flush()` 或甚至使用 `entity.persistAndFlush()` 来强制 flush 操作，使其成为单个方法调用。这将允许您在 JPA 将这些更改发送到数据库时捕获任何可能发生的 `PersistenceException` 。请记住，这样做的效率较低，所以不要滥用。而且您的事务仍然必须提交。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid "Here is an example of the usage of the flush method to allow making a specific action in case of `PersistenceException`:"
 msgstr "下面是一个使用 flush 方法的例子，它在捕获到 `PersistenceException` 异常时执行指定操作："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "The `@ReactiveTransactional` annotation will also work for testing.\n"
@@ -588,7 +614,7 @@ msgid ""
 "complete to revert any database changes."
 msgstr "`@ReactiveTransactional` 注解也可用于测试。这意味着在测试期间所做数据变更将被持久化到数据库中。如果你想在测试结束时回滚所有数据库变更，可以使用 `io.quarkus.test.TestReactiveTransaction` 注解。加入这个注解后将在一个事务中运行测试方法，当测试方法完成，就会回滚事务，以恢复所有数据库的变更。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Lock management"
@@ -604,13 +630,13 @@ msgstr "Panache支持在实体类/Repository类中直接使用数据库的锁，
 msgid "The following examples are for the active record pattern, but the same can be used with repositories."
 msgstr "下面的例子是针对Active Record模式的，但同样可以应用于Repository模式。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "First: Locking using findById()."
 msgstr "第一：通过findById()方法使用数据库锁。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Second: Locking in a find()."
@@ -621,42 +647,46 @@ msgstr "第二：通过find()方法使用数据库锁。"
 msgid "Be careful that locks are released when the transaction ends, so the method that invokes the lock query must be called within a transaction."
 msgstr "请注意，事务结束时锁会被释放，所以带锁查询的方法必须在事务中调用。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Custom IDs"
 msgstr "自定义ID"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "IDs are often a touchy subject, and not everyone's up for letting them handled by the framework, once again we\n"
 "have you covered."
 msgstr "ID往往是一个敏感的话题，并不是所有人都愿意让框架来处理，因此我们提供了相应的配置。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "You can specify your own ID strategy by extending `PanacheEntityBase` instead of `PanacheEntity`. Then\n"
 "you just declare whatever ID you want as a public field:"
 msgstr "你可以通过继承 `PanacheEntityBase` ，而非 `PanacheEntity` ，来指定你自己的ID策略。然后只要把你想要的ID字段声明为public字段："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "If you're using repositories, then you will want to extend `PanacheRepositoryBase` instead of `PanacheRepository`\n"
 "and specify your ID type as an extra type parameter:"
 msgstr "如果你使用Repository模式，那么要继承 `PanacheRepositoryBase` ，而非 `PanacheRepository` ，并将ID字段类型作为额外的类型参数："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Mocking"
 msgstr "Mock模拟测试"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Using the active record pattern"
 msgstr "使用Active Record模式"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "If you are using the active record pattern you cannot use Mockito directly as it does not support mocking static methods,\n"
@@ -679,13 +709,14 @@ msgstr "编写一个简单的实体类："
 msgid "You can write your mocking test like this:"
 msgstr "你可以这样编写模拟测试："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Be sure to call your `verify` and `do*` methods on `PanacheMock` rather than `Mockito`, otherwise you won't know\n"
 "what mock object to pass."
 msgstr "请确保是在 `PanacheMock` 上调用 `verify` 和 `do*` 方法，而不是在 `Mockito` 上调用，否则无法传递mock对象。"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Mocking `Mutiny.Session` and entity instance methods"
@@ -696,12 +727,13 @@ msgstr "模拟 `Mutiny.Session` , 及实体类的实例方法"
 msgid "If you need to mock entity instance methods, such as `persist()` you can do it by mocking the Hibernate Reactive `Mutiny.Session` object:"
 msgstr "如果你需要模拟实体类的实例方法，比如 `persist()` ，可以通过模拟Hibernate Reactive的 `Mutiny.Session` 对象来实现："
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Using the repository pattern"
 msgstr "使用Repository模式"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "If you are using the repository pattern you can use Mockito directly, using the `quarkus-junit5-mockito` module,\n"
@@ -713,18 +745,20 @@ msgstr "如果你使用存储库模式，你可以直接使用Mockito，使用 `
 msgid "And this repository:"
 msgstr "以及这个Repository类："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "How and why we simplify Hibernate Reactive mappings"
 msgstr "我们为什么简化Hibernate Reactive映射？怎么做到的？"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "When it comes to writing Hibernate Reactive entities, there are a number of annoying things that users have grown used to\n"
 "reluctantly deal with, such as:"
 msgstr "在编写Hibernate Reactive实体类时，用户已经习惯了被迫处理许多烦人的事情，例如："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid ""
@@ -732,6 +766,7 @@ msgid ""
 "relevant to your model."
 msgstr "重复 ID 逻辑：大多数实体都需要一个 ID，但大多数人并不关心它是如何设置的，因为它与你的模型并不相关。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Dumb getters and setters: since Java lacks support for properties in the language, we have to create fields,\n"
@@ -739,6 +774,7 @@ msgid ""
 "the fields."
 msgstr "繁琐的 getters 和 setters：由于Java语言中缺乏对属性的支持，我们必须创建字段，然后为这些字段getters 和 setters，即使它们除了read/write字段外实际上没有做任何事情。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, fuzzy
 msgid ""
@@ -750,12 +786,14 @@ msgid ""
 "writing to set up an injection point before coming back to use it."
 msgstr "传统的 EE 模式建议将实体定义（模型）与对实体的操作（DAO、Repositories）分割开来，但实际上，这需要将状态与其操作非自然地分割开来，尽管在面向对象架构中，状态和方法都在同一个类中，我们绝不会对普通对象做这样的事情。此外，这还要求每个实体有两个类，并且需要在需要进行实体操作的地方注入 DAO 或 Repository，这就破坏了编辑流程，需要你从正在编写的代码中抽身出来设置注入点，然后再回来使用。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Hibernate queries are super powerful, but overly verbose for common operations, requiring you to write queries even\n"
 "when you don't need all the parts."
 msgstr "Hibernate查询功能很强大，但对于普通操作来说过于冗长，即使是简单操作也要求写完整的HQL语句。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Hibernate is very general-purpose, but does not make it trivial to do trivial operations that make up 90% of our\n"
@@ -767,12 +805,14 @@ msgstr "Hibernate很通用，但对于模型里90%的琐碎操作，编写起来
 msgid "With Panache, we took an opinionated approach to tackle all these problems:"
 msgstr "我们通过Panache采取了一种有主见的方案来解决以上这些问题："
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Make your entities extend `PanacheEntity`: it has an ID field that is auto-generated. If you require\n"
 "a custom ID strategy, you can extend `PanacheEntityBase` instead and handle the ID yourself."
 msgstr "让你的实体类继承 `PanacheEntity` ：它有一个自动生成的ID字段。如果你需要自定义ID策略，可以继承 `PanacheEntityBase` ，而不用自己处理ID。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Use public fields. Get rid of dumb getter and setters. Under the hood, we will generate all getters and setters\n"
@@ -780,6 +820,7 @@ msgid ""
 "write _useful_ accessors when you need them, which will be used even though your entity users still use field accesses."
 msgstr "使用公共字段。摆脱繁琐的getter和setters。在后台，我们将生成所有缺失的getter和setter，并重写对这些字段的每个访问，以使用访问器方法。这样，当你需要时，你仍然可以写出 _有用的_ 访问器，即使你的实体用户仍然使用字段访问，也会被使用。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "With the active record pattern: put all your entity logic in static methods in your entity class and don't create DAOs.\n"
@@ -787,6 +828,7 @@ msgid ""
 "Users can just start using your entity `Person` by typing `Person.` and getting completion for all the operations in a single place."
 msgstr "使用活动记录模式：把你所有的实体逻辑放在实体类的静态方法中，不要创建DAO。你的实体超类带有很多超级有用的静态方法，你也可以在你的实体类中添加你自己的静态方法。用户可以通过输入 `Person.` ，开始使用你的实体 `Person` ，并在一个地方获得所有操作的完成。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "Don't write parts of the query that you don't need: write `Person.find(\"order by name\")` or\n"
@@ -799,7 +841,7 @@ msgstr "不要写多余的查询语句：可以写 `Person.find(\"order by name\
 msgid "That's all there is to it: with Panache, Hibernate Reactive has never looked so trim and neat."
 msgstr "以上就是它的全部内容：有了Panache，Hibernate Reactive看起来变得如此轻量和整洁。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 #, no-wrap
 msgid "Defining entities in external projects or jars"
@@ -810,6 +852,7 @@ msgstr "在外部项目或jar包中定义实体"
 msgid "Hibernate Reactive with Panache relies on compile-time bytecode enhancements to your entities."
 msgstr "Hibernate Reactive Panache依赖于编译时对实体类的字节码增强。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "It attempts to identify archives with Panache entities (and consumers of Panache entities)\n"
@@ -819,6 +862,7 @@ msgid ""
 "this file manually in some cases."
 msgstr "Panache通过判断是否存在标记文件 `META-INF/panache-archive.marker` 来识别jar包是否包含 Panache 实体类（及 Panache 实体类的调用方）。Panache 包含一个注解处理器，它会自动在依赖 Panache（包括间接依赖Panache）的jar包中创建此文件。如果在某些情况下你禁用了注解处理器，可能需要手动创建此文件。"
 
+#. type: Plain text
 #: _versions/2.13/guides/hibernate-reactive-panache.adoc
 msgid ""
 "If you include the jpa-modelgen annotation processor this will exclude the Panache\n"

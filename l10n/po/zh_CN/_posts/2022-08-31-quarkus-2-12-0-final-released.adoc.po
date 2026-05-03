@@ -58,13 +58,13 @@ msgstr "升级到Kotlin 1.7"
 msgid "SmallRye Config SecretKeys support"
 msgstr "支持SmallRye配置密匙"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Microsoft SQL Server JDBC driver update"
 msgstr "Microsoft SQL Server JDBC驱动程序更新"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -76,18 +76,19 @@ msgstr "迁移指南"
 msgid "To migrate from 2.11, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.12[our migration guide]."
 msgstr "要从2.11迁移，请参考 link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.12[我们的迁移指南] 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "有什么新鲜事？"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "GraalVM/Mandrel 22.2"
 msgstr "GraalVM/Mandrel 22.2"
 
+#. type: Plain text
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -95,7 +96,7 @@ msgid ""
 "GraalVM/Mandrel 22.2 is now the default version for building native executables."
 msgstr "在 Quarkus 2.11 中已经可以使用它，但 GraalVM/Mandrel 22.2 现在是构建本地可执行文件的默认版本。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kotlin 1.7"
@@ -107,7 +108,7 @@ msgstr "Kotlin 1.7"
 msgid "Our Kotlin extensions got upgraded to Kotlin 1.7."
 msgstr "我们的Kotlin扩展已经升级到了Kotlin 1.7。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "SmallRye Config SecretKeys"
@@ -119,6 +120,7 @@ msgstr "小黑麦配置密匙"
 msgid "Support for https://smallrye.io/docs/smallrye-config/config/config.html#secret-keys[SmallRye Config SecretKeys] has been added."
 msgstr "增加了对 link:https://smallrye.io/docs/smallrye-config/config/config.html#secret-keys[SmallRye配置密匙] 的支持。"
 
+#. type: Plain text
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -126,7 +128,7 @@ msgid ""
 "We were finally able to upgrade to version 11.2.0.jre11 in Quarkus 2.12.0.Final."
 msgstr "由于在编译为本地可执行文件时存在一些问题，我们使用的是非常旧版本的 Microsoft SQL Server JDBC 驱动程序。最终，我们在 Quarkus 2.12.0.Final 中升级到了 11.2.0.jre11 版本。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -138,12 +140,13 @@ msgstr "完整的更新日志"
 msgid "You can get the full changelog of https://github.com/quarkusio/quarkus/releases/tag/2.12.0.CR1[2.12.0.CR1] and https://github.com/quarkusio/quarkus/releases/tag/2.12.0.Final[2.12.0.Final] on GitHub."
 msgstr "你可以在GitHub上获得 link:https://github.com/quarkusio/quarkus/releases/tag/2.12.0.CR1[2.12.0.CR1] 和 link:https://github.com/quarkusio/quarkus/releases/tag/2.12.0.Final[2.12.0.Final] 的完整更新日志。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
+#. type: Plain text
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -157,7 +160,7 @@ msgstr "Quarkus 社区正在不断壮大，目前已有 link:https://github.com/
 msgid "In particular for the 2.12 release, thanks to Alexander Schwartz, Alexey Loubyansky, Andy Damevin, Baiju Muthukadan, Bernhard Wolkerstorfer, Christopher Chianelli, Clement Escoffier, Craig Day, Davide D'Alto, Dheeraj Nalluri, DiogoCarleto, Erin Schnabel, Falko Modler, Florin Botis, Foivos Zakkak, Fouad Almalki, Galder Zamarreño, Gavin Ray, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gwenneg Lepage, Heiko W. Rupp, hmanwani-rh, Holly Cummins, Ignasi Camacho Redó, Ioannis Canellos, Ivan Senic, James Netherton, Jan Martiska, Jose, Julien Ponge, Justin Lee, Katia Aresti, Kevin Wooten, Knut Wannheden, Konstantin Gribov, Ladislav Thon, Loïc Mathieu, Luc Thuot, Lukas Lowinger, Manyanda Chitimbo, Marc Nuri, Marc Wrobel, Marcelo Pereira, Martin Kouba, Matej Novotny, Michael Edgar, Michael Musgrove, Michal Maléř, Michal Vavřík, Michał Szynkiewicz, Michelle Purcell, Mike Weber, mun711, Ola Sæter Heitmann, Ozan Gunalp, Pablo Gonzalez Granados, Pavol Liška, Phillip Krüger, Richard Gomez, Rinaldo Pitzer Júnior, Robert Stupp, Roberto Cortez, robp94, Rostislav Svoboda, Sanne Grinovero, Sebastian Schuster, Sergey Beryozkin, Severin Gehwolf, Stefan Sitani, Stuart Douglas, Theodor Mihalache, xstefank, Yoann Rodière and Yoshikazu Nojima."
 msgstr "特别是2.12版本，感谢Alexander Schwartz, Alexey Loubyansky, Andy Damevin, Baiju Muthukadan, Bernhard Wolkerstorfer, Christopher Chianelli, Clement Escoffier, Craig Day, Davide D?Alto, Dheeraj Nalluri, DiogoCarleto, Erin Schnabel, Falko Modler, Florin Botis, Foivos Zakkak, Fouad Almalki, Galder Zamarren?o, Gavin Ray, George Gastaldi, Georgios Andrianakis, Guillaume Le Floch, Guillaume Smet, Gwenneg Lepage, Heiko W。Rupp, hmanwani-rh, Holly Cummins, Ignasi Camacho Redó, Ioannis Canellos, Ivan Senic, James Netherton, Jan Martiska, Jose, Julien Ponge, Justin Lee, Katia Aresti, Kevin Wooten, Knut Wannheden, Konstantin Gribov。Ladislav Thon, Loïc Mathieu, Luc Thuot, Lukas Lowinger, Manyanda Chitimbo, Marc Nuri, Marc Wrobel, Marcelo Pereira, Martin Kouba, Matej Novotny, Michael Edgar, Michael Musgrove, Michal Malé?,米哈尔-瓦夫里克, 米哈?Szynkiewicz, Michelle Purcell, Mike Weber, mun711, Ola Sæter Heitmann, Ozan Gunalp, Pablo Gonzalez Granados, Pavol Li?ka, Phillip Krüger, Richard Gomez, Rinaldo Pitzer Júnior, Robert Stupp, Roberto Cortez, robp94, Rostislav Svoboda, Sanne Grinovero, Sebastian Schuster, Sergey Beryozkin, Severin Gehwolf, Stefan Sitani, Stuart Douglas, Theodor Mihalache, xstefank, Yoann Rodière and Yoshikazu Nojima。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-08-31-quarkus-2-12-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

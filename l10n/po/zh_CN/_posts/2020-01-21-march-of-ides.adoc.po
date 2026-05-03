@@ -28,6 +28,7 @@ msgstr "在IDE中支持Quarkus"
 msgid "An overview on currently available IDE integrations for Quarkus."
 msgstr "关于目前可用于Quarkus的IDE整合的概述。"
 
+#. type: Plain text
 #: _posts/2020-01-21-march-of-ides.adoc
 #, fuzzy
 msgid ""
@@ -35,6 +36,7 @@ msgid ""
 "support in most of the various IDE's."
 msgstr "Quarkus 还很年轻，因此可能会让一些人感到惊讶，实际上在大多数集成开发环境中已经有大量的 Quarkus 支持。"
 
+#. type: Plain text
 #: _posts/2020-01-21-march-of-ides.adoc
 #, fuzzy
 msgid ""
@@ -363,11 +365,13 @@ msgstr "Quarkus代码片段"
 msgid "Injection Discovery/Navigation"
 msgstr "注入发现/导航跳转"
 
+#. type: Title =
 #: _posts/2020-01-21-march-of-ides.adoc
 #, fuzzy
 msgid "What about Quarkus Tools in <my favorite IDE/editor> ?"
 msgstr "我最喜欢的集成开发环境/编辑器>中的 Quarkus 工具怎么样？"
 
+#. type: Plain text
 #: _posts/2020-01-21-march-of-ides.adoc
 #, fuzzy
 msgid ""
@@ -382,6 +386,7 @@ msgstr "令人惊叹的是，前三者几乎都具有相同的功能，因为它
 msgid "I can't wait to add emacs and vi to this list :)"
 msgstr "我迫不及待地想把 emacs 和 vi 加入这个列表 :)"
 
+#. type: Plain text
 #: _posts/2020-01-21-march-of-ides.adoc
 #, fuzzy
 msgid ""

@@ -28,6 +28,7 @@ msgstr "Quarkus Tools for IntelliJ 1.10.0发布!"
 msgid "This release adds support for Quarkus run/debug configurations"
 msgstr "这个版本增加了对Quarkus运行/调试配置的支持"
 
+#. type: Plain text
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy
 msgid ""
@@ -35,12 +36,13 @@ msgid ""
 "This release adds support for Quarkus run/debug configurations and provides several fixes (including security fixes)."
 msgstr "我们非常高兴地宣布 Quarkus Tools for IntelliJ 1.10.0 正式版发布。该版本新增了对 Quarkus 运行/调试配置的支持，并提供了若干修复（包括安全修复）。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus configurations"
 msgstr "夸库斯配置"
 
+#. type: Plain text
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy
 msgid ""
@@ -54,6 +56,7 @@ msgstr "可以从集成开发环境配置运行或调试 Quarkus 应用程序。
 msgid "Select the `Quarkus` configuration type:"
 msgstr "选择 `Quarkus` 配置类型。"
 
+#. type: Plain text
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy
 msgid ""
@@ -73,12 +76,13 @@ msgstr "然后点击 `OK` 按钮。现在，配置将出现在窗口的右上方
 msgid "If you click the Run icon, it will start the Quarkus application in dev mode. If you click the Debug button, it will start the Quarkus application in dev mode and connect a local Java debugger to the running application."
 msgstr "如果点击运行图标，它将以开发模式启动 Quarkus 应用程序。如果点击调试按钮，它将以开发模式启动 Quarkus 应用程序，并将本地 Java 调试器连接到运行中的应用程序。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy, no-wrap
 msgid "Moving Forward"
 msgstr "向前迈进"
 
+#. type: Plain text
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy
 msgid ""
@@ -92,7 +96,7 @@ msgstr "如果您有任何问题、建议或反馈，请随时 link:https://gith
 msgid "Thank you for reading and stay tuned for the next release!"
 msgstr "谢谢您的阅读，请继续关注下一次发布。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-03-08-intellij-quarkus-tools-1.10.0.adoc
 #, fuzzy, no-wrap
 msgid "Links"

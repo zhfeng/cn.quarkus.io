@@ -552,6 +552,7 @@ msgstr "消息加密"
 msgid "*cryptoFailureAction*"
 msgstr "*cryptoFailureAction*"
 
+#. type: Table
 #: _guides/_includes/smallrye-pulsar-consumer.adoc
 msgid ""
 "Consumer should take action when it receives a message that can not be decrypted. +\n"
@@ -751,6 +752,7 @@ msgstr "批量接收策略"
 msgid "*autoUpdatePartitions*"
 msgstr "*自动更新分区*"
 
+#. type: Table
 #: _guides/_includes/smallrye-pulsar-consumer.adoc
 msgid ""
 "If `autoUpdatePartitions` is enabled, a consumer subscribes to partition increase automatically.\n"

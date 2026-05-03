@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Mailer Reference Guide"
 msgstr "邮递员参考指南"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -32,7 +33,7 @@ msgid ""
 "It explains in more details the configuration and usage of the Quarkus Mailer."
 msgstr "本指南是《 xref:mailer.adoc[邮件程序入门指南] 》的配套 xref:mailer.adoc[指南] 。它更详细地解释了 Quarkus 邮件发送器的配置和使用。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Mailer extension"
@@ -54,7 +55,7 @@ msgstr "你可以用以下方法将扩展添加到你的项目中："
 msgid "Or just add the following dependency to your project:"
 msgstr "或者只需在你的项目中添加以下依赖项："
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Accessing the mailer"
@@ -96,7 +97,7 @@ msgstr "这两个API在功能上是等同的。实际上， `Mailer` 的实现�
 msgid "Deprecation"
 msgstr "弃用"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid "`io.quarkus.mailer.ReactiveMailer` is deprecated in favor of `io.quarkus.mailer.reactive.ReactiveMailer`."
@@ -114,12 +115,13 @@ msgstr "发送简单电子邮件的步骤如下。"
 msgid "For example, you can use the `Mailer` in an HTTP endpoint as follows:"
 msgstr "例如，你可以在一个HTTP端点中使用 `Mailer` ，如下所示。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Creating Mail objects"
 msgstr "创建邮件对象"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -135,7 +137,7 @@ msgstr "邮件发送器可让您发送 `io.quarkus.mailer.Mail` 对象。您可�
 msgid "You can also send several `Mail` objects in one call:"
 msgstr "你也可以在一次调用中发送几个 `Mail` 对象。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Sending attachments"
@@ -147,6 +149,7 @@ msgstr "发送附件"
 msgid "To send attachments, just use the `addAttachment` methods on the `io.quarkus.mailer.Mail` instance:"
 msgstr "要发送附件，只需使用 `io.quarkus.mailer.Mail` 实例上的 `addAttachment` 方法。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -154,12 +157,13 @@ msgid ""
 "Note that files are resolved from the working directory of the application."
 msgstr "附件可以通过原始字节（如代码段所示）或文件创建。请注意，文件是从应用程序的工作目录中解析出来的。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Sending HTML emails with inlined attachments"
 msgstr "发送带内嵌附件的HTML邮件"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -168,6 +172,7 @@ msgid ""
 "If you put the image file into the `META-INF/resources` folder, you should specify the full path to the file, _e.g._ `META-INF/resources/quarkus-logo.png` otherwise Quarkus will look for the file in the root directory."
 msgstr "发送 HTML 电子邮件时，您可以添加内嵌附件。例如，你可以在发送邮件时附上一张图片，这张图片就会显示在邮件内容中。如果将图片文件放入 `META-INF/resources` 文件夹，则应指定文件的完整路径， _如_ `META-INF/resources/quarkus-logo.png` ，否则 Quarkus 将在根目录下查找文件。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -177,7 +182,7 @@ msgid ""
 "When you want to reference your attachment, for instance in the `src` attribute, use `cid:id@domain` (without the `<` and `>`)."
 msgstr "注意 _content-id_ 格式和引用。根据规范，创建内联附件时，content-id 的结构必须如下： `<id@domain>` .如果您没有在 `<>` 之间封装内容-id，系统会自动为您封装。当您想引用您的附件时，例如在 `src` 属性中，请使用 `cid:id@domain` （去掉 `<` 和 `>` ）。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Message Body Based on Qute Templates"
@@ -189,6 +194,7 @@ msgstr "基于Qute模板的邮件正文"
 msgid "It's possible to inject a mail template, where the message body is created automatically using xref:qute.adoc[Qute templates]."
 msgstr "可以注入邮件模板，使用 xref:qute.adoc[Qute] 模板自动创建邮件正文。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -214,6 +220,7 @@ msgstr "创建一个邮件模板实例并设置收件人。"
 msgid "`MailTemplate.send()` triggers the rendering and, once finished, sends the e-mail via a `Mailer` instance."
 msgstr " `MailTemplate.send()` 触发渲染，一旦完成，就通过一个 实例发送电子邮件。 `Mailer` "
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -227,6 +234,7 @@ msgstr "注入的邮件模板会在构建过程中进行验证。如果 `src/mai
 msgid "You can also do this without type-safe templates:"
 msgstr "你也可以在没有类型安全模板的情况下这样做。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -234,12 +242,13 @@ msgid ""
 "Otherwise, search for the template as the specified location. In this particular case, we will use the `src/main/resources/templates/hello.html` and `src/main/resources/templates/hello.txt` templates to create the message body."
 msgstr "如果未提供 `@Location` 限定符，则使用字段名称查找模板。否则，按指定位置搜索模板。在本例中，我们将使用 `src/main/resources/templates/hello.html` 和 `src/main/resources/templates/hello.txt` 模板创建邮件正文。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, no-wrap
 msgid "Execution model"
 msgstr "执行模型"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -247,6 +256,7 @@ msgid ""
 "See the xref:quarkus-reactive-architecture.adoc[Quarkus Reactive Architecture documentation] for further details on this topic."
 msgstr "反应式邮件发送器是非阻塞的，结果由 I/O 线程提供。有关此主题的更多详情，请参阅 xref:quarkus-reactive-architecture.adoc[Quarkus Reactive Architecture 文档] 。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -254,12 +264,13 @@ msgid ""
 "Note that does not mean that the message is delivered, just that it's been sent successfully to the SMTP server, which will be responsible for the delivery."
 msgstr "非反应式邮件程序会阻塞，直到邮件发送到 SMTP 服务器。请注意，这并不意味着邮件已送达，只是说邮件已成功发送到 SMTP 服务器，而 SMTP 服务器将负责送达。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Testing email sending"
 msgstr "测试电子邮件发送"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -274,12 +285,13 @@ msgstr "由于在开发和测试过程中发送电子邮件非常不方便，因
 msgid "You can then write tests to verify that your emails were sent, for example, by a REST endpoint:"
 msgstr "然后，你可以编写测试来验证你的电子邮件是否被发送，例如，通过REST端点。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Using the underlying Vert.x Mail Client"
 msgstr "使用底层的Vert.x邮件客户端"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -311,6 +323,7 @@ msgstr "裸客户 ( `io.vertx.ext.mail.MailClient` )"
 msgid "Check the xref:vertx.adoc[Using Vert.x guide] for further details about these different APIs and how to select the most suitable for you."
 msgstr "请查看 link:vertx.html[使用Vert.x指南] ，了解关于这些不同API的进一步细节，以及如何选择最适合你的API。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -318,12 +331,13 @@ msgid ""
 "You can also create your own instance, and pass your own configuration."
 msgstr "检索到的 `MailClient` 使用上述配置密钥进行配置。您也可以创建自己的实例，并传递自己的配置。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Using SSL with native executables"
 msgstr "在本地可执行文件中使用SSL"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -331,12 +345,13 @@ msgid ""
 "Please refer to the xref:native-and-ssl.adoc[Using SSL With Native Executables] guide for more information."
 msgstr "请注意，如果您为邮件程序启用了 SSL，并希望构建本地可执行文件，则需要启用 SSL 支持。更多信息，请参阅 \" xref:native-and-ssl.adoc[使用 SSL 与本地可执行文件] \"指南。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Configuring the SMTP credentials"
 msgstr "配置SMTP凭证"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -346,6 +361,7 @@ msgid ""
 "extension can be simply configured as:"
 msgstr "建议对任何敏感数据（如 `quarkus.mailer.password` ）进行加密。一种方法是将该值保存到安全存储区（如 HashiCorp Vault），并在配置中进行引用。例如，假设 Vault 包含密钥 `mail-password` ，路径为 `myapps/myapp/myconfig` ，那么邮件扩展名可以简单配置为"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -353,6 +369,7 @@ msgid ""
 "the only way to get the new value would be to restart the application."
 msgstr "请注意，密码值只在启动时评估一次。如果在 Vault 中更改了 `mail-password` ，获得新值的唯一方法就是重新启动应用程序。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -366,7 +383,7 @@ msgstr "要使用 Vault，您需要使用 link:https://github.com/quarkiverse/qu
 msgid "For more information about the Mailer configuration please refer to the <<configuration-reference, Configuration Reference>>."
 msgstr "有关 Mailer 配置的更多信息，请参阅《 xref:configuration-reference[配置参考] 》。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Configuring a trust store"
@@ -378,6 +395,7 @@ msgstr "配置一个信任商店"
 msgid "If your SMTP requires a trust store, you can configure the trust store as follows:"
 msgstr "如果你的SMTP需要一个信任存储，你可以按以下方式配置信任存储。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -386,6 +404,7 @@ msgid ""
 "For JKS and PKCS#12, you can configure the password if any."
 msgstr "Quarkus 邮件程序支持 JKS、PKCS#12 和 PEM 信任存储。对于 PEM，您可以配置多个文件。对于 JKS 和 PKCS#12，您可以配置密码（如果有的话）。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -399,7 +418,7 @@ msgstr "`quarkus.mailer.trust-store.type` 是可选项，用于配置信任存�
 msgid "You can also configure `quarkus.mailer.trust-all=true` to bypass the verification."
 msgstr "你也可以配置 `quarkus.mailer.trust-all=true` ，绕过验证。"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Mailer configuration for popular email services"
@@ -411,7 +430,7 @@ msgstr "流行的电子邮件服务的邮件配置"
 msgid "This section provides the configurations to use with popular mail services."
 msgstr "本节提供了与流行的邮件服务一起使用的配置。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Gmail specific configuration"
@@ -423,7 +442,7 @@ msgstr "Gmail的具体配置"
 msgid "If you want to use the Gmail SMTP server, first create a dedicated password in `Google Account > Security > App passwords` or go to https://myaccount.google.com/apppasswords."
 msgstr "如果你想使用Gmail的SMTP服务器，首先在 `Google Account > Security > App passwords` ，或者到 https://myaccount.google.com/apppasswords ，创建一个专用密码。"
 
-#. type: delimited block =
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid "You need to switch on 2-Step Verification at https://myaccount.google.com/security in order to access the App passwords page."
@@ -447,6 +466,7 @@ msgstr "有TLS。"
 msgid "Or with SSL:"
 msgstr "或者用SSL。"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -454,13 +474,13 @@ msgid ""
 "By default, both the mailer and Gmail default to `XOAUTH2` which requires registering an application, getting tokens, etc."
 msgstr "要让 Quarkus 邮件程序支持 Gmail 的密码验证，需要使用 `quarkus.mailer.auth-methods` 配置选项。默认情况下，邮件程序和 Gmail 都默认使用 `XOAUTH2` ，这需要注册应用程序、获取令牌等。"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "AWS SES - Simple Email Service"
 msgstr "AWS SES - 简单电子邮件服务"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.16/guides/mailer-reference.adoc
 #, no-wrap
 msgid "Prerequisites"
@@ -490,18 +510,19 @@ msgstr "配置SMTP凭证"
 msgid "If you are in a sandbox, also verify the recipients (using email verification)"
 msgstr "如果你是在沙盒中，也要验证收件人（使用电子邮件验证）。"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Configuration"
 msgstr "配置"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "MailJet"
 msgstr "郵件噴霧"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid ""
@@ -521,7 +542,7 @@ msgstr "创建 mailJet 账户和 API 密钥/秘钥"
 msgid "The sender address must be verified (SPF + DKIM) and the email explicitly added to the verified list"
 msgstr "必须验证发件人地址（SPF + DKIM），并将电子邮件明确添加到验证列表中"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Sendgrid"
@@ -533,12 +554,13 @@ msgstr "Sendgrid"
 msgid "Follow the instruction to verify the sender domain using DKIM"
 msgstr "按照说明使用 DKIM 验证发件人域名"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy, no-wrap
 msgid "Mailer Configuration Reference"
 msgstr "邮件发送器配置参考"
 
+#. type: Plain text
 #: _versions/2.16/guides/mailer-reference.adoc
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy, no-wrap
 msgid "Using CircleCI to Build a Native Quarkus Application"
@@ -28,6 +28,7 @@ msgstr "使用CircleCI建立一个本地Quarkus应用程序"
 msgid "With a little bit of config mojo, it is possible (and useful) to build a native Quarkus application in CircleCI."
 msgstr "有了一点配置的魔力，在CircleCI中建立一个原生的Quarkus应用程序是可能的（而且很有用）。"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -43,12 +44,13 @@ msgstr "任何软件项目（包括 Quarkus 应用程序）的一个重要组成
 msgid "If you're in a hurry, just scroll down to the full (and annotated) example at the bottom of this post."
 msgstr "如果你很着急，只需向下滚动到本帖底部的完整（和注释）的例子。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy, no-wrap
 msgid "Anatomy of a CircleCI Job"
 msgstr "剖析CircleCI的工作"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -81,6 +83,7 @@ msgstr "构建"
 msgid "Test"
 msgstr "测试"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -88,12 +91,13 @@ msgid ""
 "and then performing (and verifying) the native image build."
 msgstr "不过，对于原生 Quarkus 构建而言，额外的配置主要是安装 link:https://www.graalvm.org/[GraalVM] ，然后执行（并验证）原生镜像的构建。"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy, no-wrap
 msgid "Docker vs. Machine"
 msgstr "Docker vs. Machine"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -119,6 +123,7 @@ msgstr "机器"
 msgid "macos"
 msgstr "macos"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -156,12 +161,13 @@ msgstr "PhantomJS"
 msgid "The only build tool you will need that is not pre-installed is GraalVM..."
 msgstr "你将需要的唯一没有预装的构建工具是GraalVM..."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy, no-wrap
 msgid "GraalVM and native-image"
 msgstr "GraalVM和native-image"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -172,6 +178,7 @@ msgid ""
 "might be something like this:"
 msgstr "要使用 `mvnw package -Pnative` 命令成功构建 Quarkus 本机应用程序，GraalVM 必须已安装，且 `GRAALVM_HOME` 环境变量可用。这意味着你的构建配置必须包含下载、解压和安装 GraalVM 所需的相应命令。您还必须适当配置 `GRAALVM_HOME` 环境变量。安装 GraalVM 的方法有很多种，举例如下"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -180,6 +187,7 @@ msgid ""
 "look something like this:"
 msgstr "安装 GraalVM 后，还需要安装 GraalVM 的附加组件 link:https://www.graalvm.org/docs/reference-manual/aot-compilation/[native-image] 。这是通过使用 GraalVM 附带的 `gu` 工具完成的。在 CircleCI 配置中，它可能看起来像这样："
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -187,12 +195,13 @@ msgid ""
 "section of the config, or you can set it separately for each **run** command. It's usually easiest to do the former:"
 msgstr "如前所述，您需要设置 `GRAALVM_HOME` 环境变量。你可以在配置的 `environment` 部分进行全局设置，也可以为每个 *运行* 命令单独设置。通常前者最简单："
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy, no-wrap
 msgid "Native Build and Verify"
 msgstr "本地构建和验证"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -200,6 +209,7 @@ msgid ""
 "native Quarkus app. It will look like this:"
 msgstr "安装 GraalVM 和 native-image 后，只需创建一条或多条 *运行* 命令，即可构建并验证原生 Quarkus 应用程序。它看起来像这样"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""
@@ -210,12 +220,13 @@ msgid ""
 "to work well."
 msgstr "您会注意到，这两个命令都有一个额外的 `no_output_timeout` 设置。 *本机镜像* 工具似乎并不总是能及时完成。有时完成得很快，但有时也需要一些时间--超过 CircleCI 默认的 10 分钟超时时间。我相信随着 GraalVM 原生镜像工具的成熟，这个问题会得到改善（包括运行的总时间和可变性）。在此之前，简单地增加超时时间似乎效果不错。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy, no-wrap
 msgid "Full Example (Annotated)"
 msgstr "完整示例（注释）"
 
+#. type: Plain text
 #: _posts/2019-08-01-quarkus-app-circleci-build.adoc
 #, fuzzy
 msgid ""

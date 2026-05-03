@@ -16,12 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _guides/security-architecture.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus Security architecture"
 msgstr "Quarkus安全架构"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -29,12 +30,13 @@ msgid ""
 "The primary mechanism for securing HTTP applications in Quarkus is the `HttpAuthenticationMechanism` interface."
 msgstr "Quarkus 安全架构提供了多种内置认证机制，并可高度自定义。Quarkus 保护 HTTP 应用程序安全的主要机制是 `HttpAuthenticationMechanism` 接口。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-architecture.adoc
 #, fuzzy, no-wrap
 msgid "Overview of the Quarkus Security architecture"
 msgstr "Quarkus安全架构概述"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 msgid "When a client sends a HTTP request, Quarkus Security orchestrates security authentication and authorization by interacting with several built-in core components, including `HttpAuthenticationMechanism`, `IdentityProvider`, and `SecurityIdentityAugmentor`."
 msgstr ""
@@ -45,11 +47,13 @@ msgstr ""
 msgid "The sequential security validation process results in one of three outcomes:"
 msgstr "顺序的安全验证过程会产生三种结果之一："
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid "The HTTP request gets authenticated and authorized, and access to the Quarkus application gets granted."
 msgstr "HTTP 请求会得到验证和授权，Quarkus 应用程序的访问权限也会被授予。"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -57,6 +61,7 @@ msgid ""
 "For practical examples of challenge responses, see the Quarkus xref:security-customization.adoc[Security Tips and Tricks] guide."
 msgstr "HTTP 请求身份验证失败，请求者会收到与身份验证机制相关的特定挑战，例如 `401` 错误、重新身份验证的 URL 重定向或其他自定义身份验证挑战响应。有关挑战响应的实用示例，请参阅《Quarkus xref:security-customization.adoc[安全技巧和窍门] 》指南。"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid "The HTTP request authorization fails, and the requester gets denied access to the Quarkus application."
@@ -74,7 +79,7 @@ msgstr "下图是Quarkus安全架构的详细流程步骤："
 msgid "The Quarkus Security architecture and process flow"
 msgstr "Quarkus安全架构和流程"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-architecture.adoc
 #, fuzzy, no-wrap
 msgid "Core components of the Quarkus Security architecture"
@@ -86,12 +91,14 @@ msgstr "Quarkus安全架构的核心组成部分"
 msgid "`HttpAuthenticationMechanism`"
 msgstr " `HttpAuthenticationMechanism` "
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 msgid ""
 "Quarkus Security uses `HttpAuthenticationMechanism` to extract the authentication credentials from the HTTP request and delegates them to `IdentityProvider` to convert the credentials to `SecurityIdentity`.\n"
 "For example, the credentials can come from the `Authorization` header, client HTTPS certificates, or cookies."
 msgstr "Quarkus Security使用 `HttpAuthenticationMechanism` 从HTTP请求中提取认证凭证，并委托给 `IdentityProvider` 来完成这些凭证到 `SecurityIdentity` 的转换。例如，凭证可能来自于HTTP `Authorization` 头、客户端HTTPS证书或cookies。"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -129,17 +136,19 @@ msgstr "在其他情况下，有可能对相同的信息或部分信息有其他
 msgid "For more information, see the Quarkus xref:security-identity-providers.adoc[Identity providers] guide."
 msgstr "更多信息，请参阅Quarkus link:security-identity-providers.html[身份提供者] 指南。"
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/security-architecture.adoc
 #, fuzzy, no-wrap
 msgid "`SecurityIdentityAugmentor`"
 msgstr " `SecurityIdentityAugmentor` "
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid "Because Quarkus Security is customizable, you can, for example, add authorization roles to `SecurityIdentity` and register and prioritize one or more `SecurityAugmentor` implementations."
 msgstr "由于 Quarkus Security 是可定制的，因此您可以在 `SecurityIdentity` 中添加授权角色，并注册和优先实施一个或多个 `SecurityAugmentor` 。"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -147,12 +156,13 @@ msgid ""
 "For more information, see the xref:security-customization.adoc#security-identity-customization[Security Identity Customization] section of the \"Security Tips and Tricks\" guide."
 msgstr "`SecurityIdentityAugmentor` 的注册实例会在安全身份验证流程的最后阶段被调用。如需了解更多信息，请参阅 \"安全提示和技巧 \"指南中的 xref:security-customization.adoc#security-identity-customization[安全身份定制] 部分。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-architecture.adoc
 #, fuzzy, no-wrap
 msgid "Supported authentication mechanisms"
 msgstr "支持的认证机制"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -160,17 +170,19 @@ msgid ""
 "Some supported authentication mechanisms are built into Quarkus, while others require you to add an extension."
 msgstr "Quarkus 安全框架支持多种身份验证机制，这些机制还可以组合使用。一些受支持的身份验证机制内置于 Quarkus 中，而另一些则需要添加扩展。"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid "To learn about security authentication in Quarkus and the supported mechanisms and protocols, see the Quarkus xref:security-authentication-mechanisms.adoc[Authentication mechanisms in Quarkus] guide."
 msgstr "要了解 Quarkus 中的安全身份验证以及支持的机制和协议，请参阅 Quarkus xref:security-authentication-mechanisms.adoc[中的] Quarkus xref:security-authentication-mechanisms.adoc[身份验证机制] 指南。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-architecture.adoc
 #, no-wrap
 msgid "Proactive authentication"
 msgstr "主动认证"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -179,12 +191,13 @@ msgid ""
 "For more information, see the Quarkus xref:security-proactive-authentication.adoc[Proactive authentication] guide."
 msgstr "Quarkus 默认启用了主动身份验证。如果传入的请求有凭证，即使目标页面不需要身份验证，也会始终对请求进行身份验证。更多信息，请参阅 Quarkus xref:security-proactive-authentication.adoc[主动验证] 指南。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-architecture.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus Security customization"
 msgstr "Quarkus安全定制"
 
+#. type: Plain text
 #: _guides/security-architecture.adoc
 #, fuzzy
 msgid ""
@@ -204,7 +217,7 @@ msgstr " `SecurityidentityAugmentor` "
 msgid "For more information about customizing Quarkus Security, including reactive security and how to register a security provider, see the Quarkus xref:security-customization.adoc[Security tips and tricks] guide."
 msgstr "关于定制Quarkus Security的更多信息，包括反应式安全和如何注册一个安全提供者，请看Quarkus link:{url-quarkusio-guides}security-customization[Security技巧和窍门] 指南。"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/security-architecture.adoc
 #, no-wrap
 msgid "References"

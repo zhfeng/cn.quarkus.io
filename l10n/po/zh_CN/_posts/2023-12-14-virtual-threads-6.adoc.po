@@ -28,6 +28,7 @@ msgstr "虚拟线程应用程序容器化"
 msgid "Learn how to containerized applications using virtual threads."
 msgstr "了解如何使用虚拟线程对应用程序进行容器化。"
 
+#. type: Plain text
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy
 msgid ""
@@ -37,6 +38,7 @@ msgid ""
 "Quarkus offers other extensions for containerization, such as `quarkus-container-image-docker`, so choose the one that suits your preference."
 msgstr "在另一篇 link:https://quarkus.io/blog/virtual-threads-2/[博文] 中，我们探讨了如何使用 Quarkus 实现 CRUD 应用程序，以利用虚拟线程的强大功能。本篇博文将继续介绍如何将应用程序容器化。容器化包括将应用程序打包到容器镜像中，我们将为此使用 `quarkus-container-image-jib` 扩展。Quarkus 还提供其他用于容器化的扩展，如 `quarkus-container-image-docker` ，请根据自己的喜好选择。"
 
+#. type: Plain text
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy
 msgid ""
@@ -50,7 +52,7 @@ msgstr "打包使用虚拟线程的应用程序与打包普通应用程序并无
 msgid "The full code for this blog post is available in the `crud-example` directory of the https://github.com/quarkusio/virtual-threads-demos[virtual-threads-demos GitHub repository]."
 msgstr "本博文的完整代码可在 link:https://github.com/quarkusio/virtual-threads-demos[virtual-threads-demos GitHub 代码库] 的 `crud-example` 目录中找到。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy, no-wrap
 msgid "Adding Jib to the Project"
@@ -80,7 +82,7 @@ msgstr "启用容器镜像构建；每次运行 `mvn package` 都会构建一个
 msgid "Define the name of the container image. The `${quarkus.application.name}` placeholder is replaced by the application name, which is `crud-example` in our case."
 msgstr "定义容器映像的名称。 `${quarkus.application.name}` 占位符由应用程序名称代替，在我们的例子中就是 `crud-example` 。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy, no-wrap
 msgid "Building the Container Image for the JVM"
@@ -92,6 +94,7 @@ msgstr "为 JVM 构建容器映像"
 msgid "To create the container image for the Java application, run the following command:"
 msgstr "要为 Java 应用程序创建容器映像，请运行以下命令："
 
+#. type: Plain text
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy
 msgid ""
@@ -117,6 +120,7 @@ msgstr "您可以使用"
 msgid "Ensure to replace `clement` with your username."
 msgstr "确保将 `clement` 替换为您的用户名。"
 
+#. type: Plain text
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy
 msgid ""
@@ -124,7 +128,7 @@ msgid ""
 "You can override this using: `$ mvn clean package -DskipTests -Dquarkus.jib.platforms=linuxarm64`."
 msgstr "如果在 ARM64 上运行，可能会遇到关于映像平台不匹配的警告。您可以使用： `$ mvn clean package -DskipTests -Dquarkus.jib.platforms=linuxarm64` ."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy, no-wrap
 msgid "Building the Container Image for the Native Executable"
@@ -160,12 +164,13 @@ msgstr "运行容器映像："
 msgid "Use the same configuration trick for the database connection, and replace `clement` with your username."
 msgstr "对数据库连接使用相同的配置技巧，并将 `clement` 替换为您的用户名。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy, no-wrap
 msgid "Pushing the Container Image"
 msgstr "推送容器映像"
 
+#. type: Plain text
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy
 msgid ""
@@ -197,7 +202,7 @@ msgstr "多体系结构容器映像可通过以下方法创建："
 msgid "This option is not applicable for native executables, howver, it is very convenient for JVM applications as you can then use the same container image on different platforms."
 msgstr "该选项不适用于本地可执行文件，但对 JVM 应用程序来说非常方便，因为您可以在不同平台上使用相同的容器映像。"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
@@ -209,6 +214,7 @@ msgstr "摘要"
 msgid "This blog post demonstrated how to containerize a virtual thread application using Quarkus and the Jib container image extension. Both JVM applications and native executables were covered."
 msgstr "这篇博文演示了如何使用 Quarkus 和 Jib 容器镜像扩展对虚拟线程应用程序进行容器化。其中涵盖了 JVM 应用程序和本地可执行文件。"
 
+#. type: Plain text
 #: _posts/2023-12-14-virtual-threads-6.adoc
 #, fuzzy
 msgid ""
