@@ -39,7 +39,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-basic-authentication.adoc
 msgid "Example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-basic-authentication.adoc
@@ -82,7 +82,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/security-basic-authentication.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/security-basic-authentication.adoc
@@ -175,7 +175,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-basic-authentication.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-basic-authentication.adoc

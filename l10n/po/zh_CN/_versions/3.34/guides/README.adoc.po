@@ -49,7 +49,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/README.adoc
 msgid "Glossary"
-msgstr ""
+msgstr "词汇表"
 
 #. type: Plain text
 #: _versions/3.34/guides/README.adoc

@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/all-builditems.adoc
 msgid "Build Items"
-msgstr ""
+msgstr "构建项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/all-builditems.adoc

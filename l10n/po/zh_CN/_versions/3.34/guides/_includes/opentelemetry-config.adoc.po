@@ -34,7 +34,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/_includes/opentelemetry-config.adoc
 msgid "Optional gRPC headers commonly used for authentication"
-msgstr ""
+msgstr "可选的gRPC消息头，通常用于认证"
 
 #. type: Plain text
 #: _versions/3.34/guides/_includes/opentelemetry-config.adoc

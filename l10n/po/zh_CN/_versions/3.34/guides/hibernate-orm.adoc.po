@@ -21,19 +21,19 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
 "However, you can go right to the completed example."
-msgstr ""
+msgstr "我们建议您按照下一节的说明逐步创建应用程序。然而，您可以直接转到已完成的示例。"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
@@ -130,17 +130,17 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "For instance:"
-msgstr ""
+msgstr "比如："
 
 #. type: Block title
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
@@ -237,7 +237,7 @@ msgid ""
 "Make sure to wrap methods modifying your database (e.g. `entity.persist()`) within a transaction. Marking a\n"
 "CDI bean method `@Transactional` will do that for you and make that method a transaction boundary. We recommend doing\n"
 "so at your application entry point boundaries like your REST endpoint controllers."
-msgstr ""
+msgstr "请确保修改数据库的方法（例如： `entity.persist()` ）处于同一个事务中。给一个CDI bean方法增加 `@Transactional` 注解，可以确保该方法即事务边界。我们建议在应用端点的边界这样做，比如REST端点的Controller。"
 
 #. type: Title ==
 #: _versions/3.34/guides/hibernate-orm.adoc
@@ -1055,7 +1055,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "Defining entities in external projects or jars"
-msgstr ""
+msgstr "在外部项目或jar包中定义实体"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
@@ -1587,7 +1587,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "Metrics"
-msgstr ""
+msgstr "指标"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
@@ -1839,7 +1839,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "Writing the application"
-msgstr ""
+msgstr "编写应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc
@@ -1891,7 +1891,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/hibernate-orm.adoc
 msgid "Configuring the application"
-msgstr ""
+msgstr "配置该应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-orm.adoc

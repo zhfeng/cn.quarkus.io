@@ -9,12 +9,12 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/performance-measure.adoc
 msgid "Measuring Performance"
-msgstr ""
+msgstr "衡量性能"
 
 #. type: Plain text
 #: _versions/3.34/guides/performance-measure.adoc
 msgid "This guide covers:"
-msgstr ""
+msgstr "本指南包括："
 
 #. type: Plain text
 #: _versions/3.34/guides/performance-measure.adoc
@@ -159,7 +159,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/performance-measure.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/performance-measure.adoc

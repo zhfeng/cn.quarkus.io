@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Using OpenTelemetry"
-msgstr ""
+msgstr "使用OpenTelemetry"
 
 #. type: Plain text
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -41,7 +41,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #. type: Plain text
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -146,22 +146,22 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "This will add the following to your build file:"
-msgstr ""
+msgstr "这会将以下内容添加到你的构建文件中:"
 
 #. type: Block title
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title ==
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Create the configuration"
-msgstr ""
+msgstr "创建配置"
 
 #. type: Title ==
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -191,7 +191,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -221,7 +221,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Table
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -284,7 +284,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Metrics"
-msgstr ""
+msgstr "指标"
 
 #. type: Table
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -364,7 +364,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Resource"
-msgstr ""
+msgstr "资源"
 
 #. type: Plain text
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -376,7 +376,7 @@ msgstr ""
 #. type: Title ===
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Plain text
 #: _versions/3.34/guides/opentelemetry.adoc
@@ -753,7 +753,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/opentelemetry.adoc
 msgid "OpenTelemetry Configuration Reference"
-msgstr ""
+msgstr "OpenTelemetry参考配置"
 
 #. type: Plain text
 #: _versions/3.34/guides/opentelemetry.adoc

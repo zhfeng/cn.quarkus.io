@@ -458,7 +458,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/grpc-service-implementation.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Plain text
 #: _versions/3.34/guides/grpc-service-implementation.adoc

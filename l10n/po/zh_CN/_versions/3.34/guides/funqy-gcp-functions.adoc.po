@@ -24,7 +24,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
@@ -54,7 +54,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
@@ -64,7 +64,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "Creating the Maven Deployment Project"
-msgstr ""
+msgstr "创建Maven部署项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
@@ -106,17 +106,17 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "Build and Deploy"
-msgstr ""
+msgstr "构建和部署"
 
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "Build the project:"
-msgstr ""
+msgstr "构建项目。"
 
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "This will compile and package your code."
-msgstr ""
+msgstr "这将对你的代码进行编译和打包。"
 
 #. type: Title =
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
@@ -421,7 +421,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/funqy-gcp-functions.adoc
 msgid "What's next?"
-msgstr ""
+msgstr "下一步做什么？"
 
 #. type: Plain text
 #: _versions/3.34/guides/funqy-gcp-functions.adoc

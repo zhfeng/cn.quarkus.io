@@ -114,12 +114,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/websockets-next-reference.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/websockets-next-reference.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/websockets-next-reference.adoc
@@ -1152,7 +1152,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/websockets-next-reference.adoc
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #. type: Plain text
 #: _versions/3.34/guides/websockets-next-reference.adoc
@@ -1280,7 +1280,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/websockets-next-reference.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/websockets-next-reference.adoc

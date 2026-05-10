@@ -29,7 +29,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/config-yaml.adoc
 msgid "To enable YAML configuration, add the `quarkus-config-yaml` extension:"
-msgstr ""
+msgstr "要启用YAML配置，添加以下 `quarkus-config-yaml` 扩展:"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-yaml.adoc
@@ -39,12 +39,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/config-yaml.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/config-yaml.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-yaml.adoc
@@ -85,7 +85,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/config-yaml.adoc
 msgid "Profiles"
-msgstr ""
+msgstr "环境配置(Profiles)"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-yaml.adoc
@@ -142,7 +142,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/config-yaml.adoc
 msgid "Expressions"
-msgstr ""
+msgstr "表达式"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-yaml.adoc
@@ -157,7 +157,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/config-yaml.adoc
 msgid "External application.yaml file"
-msgstr ""
+msgstr "外部application.yaml 文件"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-yaml.adoc

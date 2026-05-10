@@ -173,7 +173,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/dev-services.adoc
 msgid "Keycloak"
-msgstr ""
+msgstr "Keycloak"
 
 #. type: Plain text
 #: _versions/3.34/guides/dev-services.adoc
@@ -307,7 +307,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/dev-services.adoc
 msgid "Observability"
-msgstr ""
+msgstr "可观察性"
 
 #. type: Plain text
 #: _versions/3.34/guides/dev-services.adoc

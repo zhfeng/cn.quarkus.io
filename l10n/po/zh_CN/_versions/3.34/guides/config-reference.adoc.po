@@ -643,7 +643,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/config-reference.adoc
 msgid "Profiles"
-msgstr ""
+msgstr "环境配置(Profiles)"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-reference.adoc
@@ -1485,7 +1485,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/config-reference.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-reference.adoc

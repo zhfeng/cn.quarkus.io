@@ -259,7 +259,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/cdi.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/cdi.adoc
@@ -720,7 +720,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/cdi.adoc
 msgid "Conclusion"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/cdi.adoc

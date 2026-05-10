@@ -34,7 +34,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Title =
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
@@ -54,7 +54,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
@@ -177,12 +177,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Block title
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "Gradle"
-msgstr ""
+msgstr "Gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
@@ -207,12 +207,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
@@ -466,7 +466,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "Start by adding the following dependencies to your test project:"
-msgstr ""
+msgstr "首先在你的测试项目中添加以下依赖项："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
@@ -649,7 +649,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-getting-started-tutorial.adoc

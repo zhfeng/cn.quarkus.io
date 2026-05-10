@@ -19,12 +19,12 @@ msgstr ""
 #. type: Table
 #: _generated-doc/3.34/config/quarkus-core_quarkus.compose.devservices.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _generated-doc/3.34/config/quarkus-core_quarkus.compose.devservices.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _generated-doc/3.34/config/quarkus-core_quarkus.compose.devservices.adoc

@@ -156,7 +156,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-openshift.adoc
 msgid "Bootstrapping the project"
-msgstr ""
+msgstr "创建项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-openshift.adoc
@@ -195,7 +195,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/deploying-to-openshift.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-openshift.adoc
@@ -220,7 +220,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/deploying-to-openshift.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-openshift.adoc
@@ -901,7 +901,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-openshift.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-openshift.adoc

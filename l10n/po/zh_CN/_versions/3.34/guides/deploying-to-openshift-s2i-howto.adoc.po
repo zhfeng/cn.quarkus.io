@@ -26,7 +26,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-openshift-s2i-howto.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-openshift-s2i-howto.adoc
@@ -180,7 +180,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-openshift-s2i-howto.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-openshift-s2i-howto.adoc

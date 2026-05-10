@@ -328,7 +328,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/quarkus-reactive-architecture.adoc
 msgid "Data"
-msgstr ""
+msgstr "数据"
 
 #. type: Plain text
 #: _versions/3.34/guides/quarkus-reactive-architecture.adoc

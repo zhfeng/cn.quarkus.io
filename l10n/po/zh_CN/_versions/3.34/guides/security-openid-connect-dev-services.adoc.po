@@ -21,7 +21,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
 msgid "Dev Services for Keycloak"
-msgstr ""
+msgstr "为Keycloak提供的开发服务"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
@@ -420,7 +420,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
@@ -727,7 +727,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-dev-services.adoc

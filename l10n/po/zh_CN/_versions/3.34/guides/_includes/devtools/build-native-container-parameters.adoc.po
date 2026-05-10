@@ -19,9 +19,9 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/_includes/devtools/build-native-container-parameters.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Block title
 #: _versions/3.34/guides/_includes/devtools/build-native-container-parameters.adoc
 msgid "Gradle"
-msgstr ""
+msgstr "Gradle"

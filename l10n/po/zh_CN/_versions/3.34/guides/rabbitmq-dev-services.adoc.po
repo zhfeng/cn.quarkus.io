@@ -55,7 +55,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rabbitmq-dev-services.adoc
 msgid "Shared broker"
-msgstr ""
+msgstr "共享的broker"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-dev-services.adoc
@@ -87,7 +87,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rabbitmq-dev-services.adoc
 msgid "Setting the port"
-msgstr ""
+msgstr "设置端口"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-dev-services.adoc
@@ -99,7 +99,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rabbitmq-dev-services.adoc
 msgid "Configuring the image"
-msgstr ""
+msgstr "配置镜像"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-dev-services.adoc

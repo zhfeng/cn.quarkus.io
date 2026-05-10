@@ -97,7 +97,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/extension-maturity-matrix.adoc
 msgid "Developer Joy"
-msgstr ""
+msgstr "开发者的乐趣"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-maturity-matrix.adoc
@@ -315,7 +315,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/extension-maturity-matrix.adoc
 msgid "Logging"
-msgstr ""
+msgstr "日志"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-maturity-matrix.adoc
@@ -365,7 +365,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/extension-maturity-matrix.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-maturity-matrix.adoc

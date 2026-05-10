@@ -101,7 +101,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-overview.adoc
 msgid "Getting started with Quarkus Security"
-msgstr ""
+msgstr "开始使用Quarkus Security"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-overview.adoc
@@ -149,7 +149,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-overview.adoc
 msgid "Cross-origin resource sharing"
-msgstr ""
+msgstr "Cross-Origin 资源共享"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-overview.adoc
@@ -173,7 +173,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-overview.adoc
 msgid "SameSite cookies"
-msgstr ""
+msgstr "SameSite cookies"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-overview.adoc
@@ -212,7 +212,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-overview.adoc
 msgid "Secure serialization"
-msgstr ""
+msgstr "安全序列化"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-overview.adoc
@@ -248,7 +248,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-overview.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-overview.adoc

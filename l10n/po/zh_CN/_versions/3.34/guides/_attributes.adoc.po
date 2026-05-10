@@ -9,7 +9,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/_attributes.adoc
 msgid "Dev Services for Kafka"
-msgstr ""
+msgstr "Kafka开发服务（Dev Services）"
 
 #. type: Title =
 #: _versions/3.34/guides/_attributes.adoc

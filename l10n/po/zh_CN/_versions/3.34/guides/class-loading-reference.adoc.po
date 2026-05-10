@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/class-loading-reference.adoc
 msgid "Class Loading Reference"
-msgstr ""
+msgstr "类加载参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/class-loading-reference.adoc
@@ -404,4 +404,4 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/class-loading-reference.adoc
 msgid "Example:"
-msgstr ""
+msgstr "例如："

@@ -183,7 +183,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/extension-metadata.adoc
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. type: Table
 #: _versions/3.34/guides/extension-metadata.adoc
@@ -193,7 +193,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/extension-metadata.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/extension-metadata.adoc

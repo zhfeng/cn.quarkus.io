@@ -33,7 +33,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/centralized-log-management.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Title =
 #: _versions/3.34/guides/centralized-log-management.adoc
@@ -80,12 +80,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/centralized-log-management.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/centralized-log-management.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/centralized-log-management.adoc
@@ -338,7 +338,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/centralized-log-management.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/centralized-log-management.adoc

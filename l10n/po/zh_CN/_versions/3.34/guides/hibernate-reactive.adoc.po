@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "Using Hibernate Reactive"
-msgstr ""
+msgstr "使用Hibernate响应式"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc
@@ -49,19 +49,19 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
 "However, you can go right to the completed example."
-msgstr ""
+msgstr "我们建议您按照下一节的说明逐步创建应用程序。然而，您可以直接转到已完成的示例。"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc
@@ -136,17 +136,17 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "For instance:"
-msgstr ""
+msgstr "比如："
 
 #. type: Block title
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc
@@ -406,7 +406,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/hibernate-reactive.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/hibernate-reactive.adoc

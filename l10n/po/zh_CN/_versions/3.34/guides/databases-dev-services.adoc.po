@@ -477,7 +477,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/databases-dev-services.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/databases-dev-services.adoc

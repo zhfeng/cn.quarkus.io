@@ -89,22 +89,22 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/observability.adoc
 msgid "Extension"
-msgstr ""
+msgstr "扩展"
 
 #. type: Table
 #: _versions/3.34/guides/observability.adoc
 msgid "Logging"
-msgstr ""
+msgstr "日志"
 
 #. type: Title ==
 #: _versions/3.34/guides/observability.adoc
 msgid "Metrics"
-msgstr ""
+msgstr "指标"
 
 #. type: Title ==
 #: _versions/3.34/guides/observability.adoc
 msgid "Tracing"
-msgstr ""
+msgstr "跟踪"
 
 #. type: Title ==
 #: _versions/3.34/guides/observability.adoc
@@ -119,7 +119,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/observability.adoc
 msgid "Events"
-msgstr ""
+msgstr "活动"
 
 #. type: Table
 #: _versions/3.34/guides/observability.adoc

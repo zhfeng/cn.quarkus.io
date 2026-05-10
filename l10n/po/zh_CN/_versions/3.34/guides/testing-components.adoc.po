@@ -343,12 +343,12 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/testing-components.adoc
 msgid "Add this dependency to your `pom.xml`:"
-msgstr ""
+msgstr "将以下依赖性添加到你的 `pom.xml` ："
 
 #. type: Plain text
 #: _versions/3.34/guides/testing-components.adoc
 msgid "Given this simple entity:"
-msgstr ""
+msgstr "提供这个简单的实体："
 
 #. type: Plain text
 #: _versions/3.34/guides/testing-components.adoc

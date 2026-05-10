@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "Measuring the coverage of your tests"
-msgstr ""
+msgstr "测量你的测试的覆盖率"
 
 #. type: Plain text
 #: _versions/3.34/guides/tests-with-coverage.adoc
@@ -44,7 +44,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/tests-with-coverage.adoc
@@ -54,7 +54,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "Architecture"
-msgstr ""
+msgstr "架构"
 
 #. type: Plain text
 #: _versions/3.34/guides/tests-with-coverage.adoc
@@ -66,7 +66,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/tests-with-coverage.adoc
@@ -123,12 +123,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/tests-with-coverage.adoc
@@ -315,7 +315,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/tests-with-coverage.adoc
 msgid "Conclusion"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/tests-with-coverage.adoc

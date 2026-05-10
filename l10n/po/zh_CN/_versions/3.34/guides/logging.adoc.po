@@ -681,12 +681,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/logging.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/logging.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/logging.adoc
@@ -859,7 +859,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/logging.adoc
 msgid "Category"
-msgstr ""
+msgstr "分类"
 
 #. type: Table
 #: _versions/3.34/guides/logging.adoc
@@ -1214,12 +1214,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/logging.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/logging.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/logging.adoc

@@ -104,7 +104,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/lra-dev-services.adoc
 msgid "Setting the port"
-msgstr ""
+msgstr "设置端口"
 
 #. type: Plain text
 #: _versions/3.34/guides/lra-dev-services.adoc
@@ -118,7 +118,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/lra-dev-services.adoc
 msgid "Configuring the image"
-msgstr ""
+msgstr "配置镜像"
 
 #. type: Plain text
 #: _versions/3.34/guides/lra-dev-services.adoc

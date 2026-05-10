@@ -196,12 +196,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/build-analytics.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/build-analytics.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/build-analytics.adoc
@@ -221,7 +221,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/build-analytics.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Table
 #: _versions/3.34/guides/build-analytics.adoc

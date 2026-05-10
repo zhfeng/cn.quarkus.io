@@ -49,7 +49,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "Add the following dependency:"
-msgstr ""
+msgstr "添加以下依赖关系："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
@@ -91,7 +91,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
@@ -729,22 +729,22 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "Start by adding the following dependencies to your test project:"
-msgstr ""
+msgstr "首先在你的测试项目中添加以下依赖项："
 
 #. type: Title ===
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "Wiremock"
-msgstr ""
+msgstr "Wiremock"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "Add the following dependencies to your test project:"
-msgstr ""
+msgstr "在你的测试项目中添加以下依赖项："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
@@ -792,7 +792,7 @@ msgstr ""
 #. type: Title ===
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "Keycloak"
-msgstr ""
+msgstr "Keycloak"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
@@ -802,7 +802,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "How to check the errors in the logs"
-msgstr ""
+msgstr "如何检查日志中的错误"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
@@ -1197,7 +1197,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-reference.adoc

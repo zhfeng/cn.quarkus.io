@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/reaugmentation.adoc
 msgid "Re-augment a Quarkus Application"
-msgstr ""
+msgstr "重新增强Quarkus应用程序"
 
 #. type: Title =
 #: _versions/3.34/guides/reaugmentation.adoc

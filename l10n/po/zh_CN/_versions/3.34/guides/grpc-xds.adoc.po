@@ -36,12 +36,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/grpc-xds.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/grpc-xds.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/grpc-xds.adoc

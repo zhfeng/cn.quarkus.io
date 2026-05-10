@@ -323,12 +323,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/container-image.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Block title
 #: _versions/3.34/guides/container-image.adoc
 msgid "Gradle"
-msgstr ""
+msgstr "Gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/container-image.adoc

@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/security-proactive-authentication.adoc
 msgid "Proactive authentication"
-msgstr ""
+msgstr "主动认证"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-proactive-authentication.adoc
@@ -144,7 +144,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-proactive-authentication.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-proactive-authentication.adoc

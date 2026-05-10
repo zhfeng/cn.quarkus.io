@@ -31,7 +31,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/gcp-functions-http.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/gcp-functions-http.adoc
@@ -46,7 +46,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/gcp-functions-http.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/gcp-functions-http.adoc
@@ -64,7 +64,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/gcp-functions-http.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #. type: Plain text
 #: _versions/3.34/guides/gcp-functions-http.adoc
@@ -74,7 +74,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/gcp-functions-http.adoc
 msgid "Creating the Maven Deployment Project"
-msgstr ""
+msgstr "创建Maven部署项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/gcp-functions-http.adoc
@@ -247,7 +247,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/gcp-functions-http.adoc
 msgid "What's next?"
-msgstr ""
+msgstr "下一步做什么？"
 
 #. type: Plain text
 #: _versions/3.34/guides/gcp-functions-http.adoc

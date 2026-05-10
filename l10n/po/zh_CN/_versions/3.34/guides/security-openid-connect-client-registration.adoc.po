@@ -56,7 +56,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-registration.adoc
 msgid "Add the following dependency:"
-msgstr ""
+msgstr "添加以下依赖关系："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-registration.adoc
@@ -106,7 +106,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-registration.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Title ==
 #: _versions/3.34/guides/security-openid-connect-client-registration.adoc
@@ -283,7 +283,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-openid-connect-client-registration.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-openid-connect-client-registration.adoc

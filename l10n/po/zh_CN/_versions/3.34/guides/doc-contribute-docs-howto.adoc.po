@@ -24,7 +24,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/doc-contribute-docs-howto.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/doc-contribute-docs-howto.adoc
@@ -333,7 +333,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/doc-contribute-docs-howto.adoc
 msgid "Example"
-msgstr ""
+msgstr "例子"
 
 #. type: Table
 #: _versions/3.34/guides/doc-contribute-docs-howto.adoc

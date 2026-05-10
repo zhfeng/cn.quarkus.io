@@ -14,7 +14,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-google-cloud.adoc
 msgid "This guide covers:"
-msgstr ""
+msgstr "本指南包括："
 
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-google-cloud.adoc
@@ -49,7 +49,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-google-cloud.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-google-cloud.adoc
@@ -474,7 +474,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-google-cloud.adoc
 msgid "Going further"
-msgstr ""
+msgstr "进一步探索"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-google-cloud.adoc

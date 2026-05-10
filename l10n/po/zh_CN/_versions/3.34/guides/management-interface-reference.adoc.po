@@ -361,7 +361,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/management-interface-reference.adoc
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #. type: Plain text
 #: _versions/3.34/guides/management-interface-reference.adoc
@@ -383,7 +383,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/management-interface-reference.adoc
 msgid "The following configuration example demonstrates how you can enforce a single selectable authentication mechanism for a given request path:"
-msgstr ""
+msgstr "以下配置示例演示了如何强制要求对一个给定的请求路径选择一个认证机制："
 
 #. type: Plain text
 #: _versions/3.34/guides/management-interface-reference.adoc

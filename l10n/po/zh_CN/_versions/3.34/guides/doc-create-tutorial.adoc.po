@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/doc-create-tutorial.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/doc-create-tutorial.adoc
 msgid "Roughly 15 minutes"
-msgstr ""
+msgstr "大概15分钟"
 
 #. type: Plain text
 #: _versions/3.34/guides/doc-create-tutorial.adoc

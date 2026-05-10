@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/proxy-registry.adoc
 msgid "This guide covers:"
-msgstr ""
+msgstr "本指南包括："
 
 #. type: Plain text
 #: _versions/3.34/guides/proxy-registry.adoc
@@ -39,7 +39,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/proxy-registry.adoc
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #. type: Plain text
 #: _versions/3.34/guides/proxy-registry.adoc
@@ -302,7 +302,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/proxy-registry.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/proxy-registry.adoc

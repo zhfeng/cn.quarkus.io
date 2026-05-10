@@ -82,7 +82,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/scheduler-reference.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/scheduler-reference.adoc
@@ -541,7 +541,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/scheduler-reference.adoc
 msgid "Scheduler"
-msgstr ""
+msgstr "调度器"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler-reference.adoc
@@ -704,7 +704,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/scheduler-reference.adoc
 msgid "Metrics"
-msgstr ""
+msgstr "指标"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler-reference.adoc
@@ -780,7 +780,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/scheduler-reference.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler-reference.adoc

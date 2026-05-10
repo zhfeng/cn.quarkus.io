@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/writing-extensions.adoc
 msgid "Writing Your Own Extension"
-msgstr ""
+msgstr "编写您自己的扩展"
 
 #. type: Plain text
 #: _versions/3.34/guides/writing-extensions.adoc
@@ -2612,7 +2612,7 @@ msgstr ""
 #. type: Title ===
 #: _versions/3.34/guides/writing-extensions.adoc
 msgid "Dev Services"
-msgstr ""
+msgstr "开发服务"
 
 #. type: Plain text
 #: _versions/3.34/guides/writing-extensions.adoc
@@ -3150,7 +3150,7 @@ msgstr ""
 #. type: Title ====
 #: _versions/3.34/guides/writing-extensions.adoc
 msgid "Capabilities"
-msgstr ""
+msgstr "功能"
 
 #. type: Plain text
 #: _versions/3.34/guides/writing-extensions.adoc

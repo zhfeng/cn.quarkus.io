@@ -28,7 +28,7 @@ msgstr ""
 msgid ""
 "This documentation does not cover all the details of the connector.\n"
 "Refer to the https://smallrye.io/smallrye-reactive-messaging[SmallRye Reactive Messaging website] for further details."
-msgstr ""
+msgstr "本文档并没有涵盖连接器的所有细节。请参考 link:https://smallrye.io/smallrye-reactive-messaging[SmallRye 响应式消息网站] ，来了解更多细节。"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -59,12 +59,12 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "You can add the extension to your project using:"
-msgstr ""
+msgstr "你可以用以下方法将扩展添加到你的项目中："
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Or just add the following dependency to your project:"
-msgstr ""
+msgstr "或者只需在你的项目中添加以下依赖项："
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -130,17 +130,17 @@ msgstr ""
 msgid ""
 "Let's imagine your application receives `Message<Double>`.\n"
 "You can consume the payload directly:"
-msgstr ""
+msgstr "让我们想象一下你的应用程序接收 `Message<Double>` 。你可以直接消费该有效载荷："
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Or, you can retrieve the Message<Double>:"
-msgstr ""
+msgstr "或者，你可以检索Message<Double>。"
 
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Inbound Metadata"
-msgstr ""
+msgstr "入站元数据"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -150,7 +150,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Deserialization"
-msgstr ""
+msgstr "反序列化"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -185,7 +185,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`byte[]`"
-msgstr ""
+msgstr "`byte[]`"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -225,27 +225,27 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "The `Price` instances are automatically encoded to JSON by the connector"
-msgstr ""
+msgstr "`Price` 实例被连接器自动编码为JSON。"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "You can receive it using a `JsonObject`"
-msgstr ""
+msgstr "你可以使用 `JsonObject` 接收它"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Then, you can reconstruct the instance using the `mapTo` method"
-msgstr ""
+msgstr "然后，你可以使用 `mapTo` 方法重新构建该实例"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "The `mapTo` method uses the Quarkus Jackson mapper. Check xref:rest-json.adoc#json[this guide] to learn more about the mapper configuration."
-msgstr ""
+msgstr "`mapTo` 方法使用Quarkus Jackson 映射器。请查看 link:rest-json.html#json[本指南] 以了解更多关于映射器的配置。"
 
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Acknowledgement"
-msgstr ""
+msgstr "消息确认"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -260,7 +260,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Failure Management"
-msgstr ""
+msgstr "失败管理"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -292,7 +292,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Serialization"
-msgstr ""
+msgstr "序列化"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -317,7 +317,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "https://vertx.io/docs/apidocs/io/vertx/core/json/JsonObject.html[`JsonObject`] or https://vertx.io/docs/apidocs/io/vertx/core/json/JsonArray.html[`JsonArray`]"
-msgstr ""
+msgstr "link:https://vertx.io/docs/apidocs/io/vertx/core/json/JsonObject.html[`JsonObject`] 或 link:https://vertx.io/docs/apidocs/io/vertx/core/json/JsonArray.html[`JsonArray`]"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -327,7 +327,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`io.vertx.mutiny.core.buffer.Buffer`"
-msgstr ""
+msgstr "`io.vertx.mutiny.core.buffer.Buffer` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -337,7 +337,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Any other class"
-msgstr ""
+msgstr "任何其他类"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -347,12 +347,12 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "If the message payload cannot be serialized to JSON, the message is _nacked_."
-msgstr ""
+msgstr "如果消息的有效载荷不能被序列化为JSON，那么该消息是 _nacked_ 。"
 
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Outbound Metadata"
-msgstr ""
+msgstr "出站元数据"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -395,7 +395,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Execution model and Blocking processing"
-msgstr ""
+msgstr "执行模型和阻塞处理"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -404,27 +404,27 @@ msgid ""
 "See the xref:quarkus-reactive-architecture.adoc[Quarkus Reactive Architecture documentation] for further details on this topic.\n"
 "But, you often need to combine Reactive Messaging with blocking processing such as database interactions.\n"
 "For this, you need to use the `@Blocking` annotation indicating that the processing is _blocking_ and should not be run on the caller thread."
-msgstr ""
+msgstr "Reactive Messaging会在一个I/O线程中调用您的方法。关于这个话题的更多细节，请看  xref:quarkus-reactive-architecture.adoc[Quarkus Reactive Architecture documentation]  。但是您可能需要经常将Reactive Messaging 与阻塞式处理相结合使用，比如与数据库通信。为此，您需要使用 `@Blocking` 注解来表该明处理是 _阻塞的_ ，并且不在调用者线程中运行。"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "For example, The following code illustrates how you can store incoming payloads to a database using Hibernate with Panache:"
-msgstr ""
+msgstr "例如，下面的代码演示了如何使用Hibernate与Panache将接收到的payload存储到数据库："
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "There are 2 `@Blocking` annotations:"
-msgstr ""
+msgstr "有2种 `@Blocking` 注解："
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`io.smallrye.reactive.messaging.annotations.Blocking`"
-msgstr ""
+msgstr "`io.smallrye.reactive.messaging.annotations.Blocking`"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`io.smallrye.common.annotation.Blocking`"
-msgstr ""
+msgstr "`io.smallrye.common.annotation.Blocking`"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -433,7 +433,7 @@ msgid ""
 "Thus, you can use both.\n"
 "The first one provides more fine-grained tuning such as the worker pool to use and whether it preserves the order.\n"
 "The second one, used also with other reactive features of Quarkus, uses the default worker pool and preserves the order."
-msgstr ""
+msgstr "它们效果相同。因此，您可以随意使用。第一个提供了更精细的配置，比如worker pool以及是否保留顺序。第二种，同其他的Quarkus Reactive功能类似，使用默认的worker pool并且保留了顺序。"
 
 #. type: Block title
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -467,7 +467,7 @@ msgstr ""
 msgid ""
 "This instance is retrieved and used to configure the client used by the connector.\n"
 "You need to indicate the name of the client using the `client-options-name` attribute:"
-msgstr ""
+msgstr "这个实例被检索，并用于配置连接器使用的客户端。你需要使用 `client-options-name` 属性指定客户端的名称。"
 
 #. type: Title =
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -487,7 +487,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Health reporting"
-msgstr ""
+msgstr "健康报告"
 
 #. type: Plain text
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -591,27 +591,27 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Incoming channel configuration"
-msgstr ""
+msgstr "传入通道配置"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Attribute (_alias_)"
-msgstr ""
+msgstr "属性 _（别名）_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Mandatory"
-msgstr ""
+msgstr "是否强制"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -628,11 +628,14 @@ msgid ""
 "\n"
 "Type: _string_"
 msgstr ""
+"用于对代理进行身份验证的用户名\n"
+"\n"
+"类型: _string_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -649,6 +652,9 @@ msgid ""
 "\n"
 "Type: _string_"
 msgstr ""
+"用于对代理进行身份验证的密码\n"
+"\n"
+"类型: _string_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -665,11 +671,14 @@ msgid ""
 "\n"
 "Type: _string_"
 msgstr ""
+"代理的主机名\n"
+"\n"
+"类型: _string_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`localhost`"
-msgstr ""
+msgstr "`localhost` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -686,11 +695,14 @@ msgid ""
 "\n"
 "Type: _int_"
 msgstr ""
+"代理端口\n"
+"\n"
+"类型: _int_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`5672`"
-msgstr ""
+msgstr "`5672` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -711,7 +723,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`false`"
-msgstr ""
+msgstr "`false` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -842,7 +854,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`true`"
-msgstr ""
+msgstr "`true` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -859,11 +871,14 @@ msgid ""
 "\n"
 "Type: _int_"
 msgstr ""
+"尝试重新连接的次数\n"
+"\n"
+"类型: _int_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`100`"
-msgstr ""
+msgstr "`100` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -884,7 +899,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "`10`"
-msgstr ""
+msgstr "`10` "
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -1087,6 +1102,9 @@ msgid ""
 "\n"
 "Type: _boolean_"
 msgstr ""
+"是否启用（默认启用）或禁用tracing\n"
+"\n"
+"类型: _boolean_"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -1386,7 +1404,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "[.no-hyphens]#*failure-strategy*#"
-msgstr ""
+msgstr "[.no-hyphens]#*failure-strategy*#"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -1404,7 +1422,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "[.no-hyphens]#*broadcast*#"
-msgstr ""
+msgstr "[.no-hyphens]#*broadcast*#"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -1417,7 +1435,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "[.no-hyphens]#*auto-acknowledgement*#"
-msgstr ""
+msgstr "[.no-hyphens]#*auto-acknowledgement*#"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc
@@ -1487,7 +1505,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/rabbitmq-reference.adoc
 msgid "Outgoing channel configuration"
-msgstr ""
+msgstr "传出通道配置"
 
 #. type: Table
 #: _versions/3.34/guides/rabbitmq-reference.adoc

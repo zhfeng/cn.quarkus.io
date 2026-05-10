@@ -401,7 +401,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/mutiny-primer.adoc
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #. type: Table
 #: _versions/3.34/guides/mutiny-primer.adoc

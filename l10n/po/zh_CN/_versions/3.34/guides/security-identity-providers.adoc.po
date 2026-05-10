@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/security-identity-providers.adoc
 msgid "Identity providers"
-msgstr ""
+msgstr "身份提供者（Identity Providers）"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-identity-providers.adoc
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-identity-providers.adoc
 msgid "`IdentityProvider` converts the authentication credentials provided by `HttpAuthenticationMechanism` to a `SecurityIdentity` instance."
-msgstr ""
+msgstr "`IdentityProvider` 将 `HttpAuthenticationMechanism` 提供的认证凭证转换为 `SecurityIdentity` 实例。"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-identity-providers.adoc

@@ -19,4 +19,4 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/_includes/devtools/maven-opts.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"

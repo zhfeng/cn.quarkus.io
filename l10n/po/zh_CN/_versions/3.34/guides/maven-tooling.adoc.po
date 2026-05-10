@@ -49,7 +49,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -209,7 +209,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "`true`"
-msgstr ""
+msgstr "`true` "
 
 #. type: Table
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -311,7 +311,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -356,7 +356,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "Hit `CTRL+C` to stop the application."
-msgstr ""
+msgstr "使用 `CTRL+C` 来停止应用程序。"
 
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -764,7 +764,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "Building a native executable"
-msgstr ""
+msgstr "构建一个本地可执行文件"
 
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -781,7 +781,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "Create a native executable using:"
-msgstr ""
+msgstr "使用以下方法创建一个原生可执行文件："
 
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -1216,7 +1216,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "The properties are shown below:"
-msgstr ""
+msgstr "这些属性显示如下："
 
 #. type: Plain text
 #: _versions/3.34/guides/maven-tooling.adoc
@@ -1349,7 +1349,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/maven-tooling.adoc
 msgid "`false`"
-msgstr ""
+msgstr "`false` "
 
 #. type: Table
 #: _versions/3.34/guides/maven-tooling.adoc

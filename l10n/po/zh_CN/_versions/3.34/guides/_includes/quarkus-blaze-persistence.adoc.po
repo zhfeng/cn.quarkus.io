@@ -24,12 +24,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/quarkus-blaze-persistence.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/quarkus-blaze-persistence.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/quarkus-blaze-persistence.adoc

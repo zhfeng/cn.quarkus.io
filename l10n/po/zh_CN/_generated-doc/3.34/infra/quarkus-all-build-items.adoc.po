@@ -9,7 +9,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Core"
-msgstr ""
+msgstr "核心"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -4075,7 +4075,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Amazon Lambda"
-msgstr ""
+msgstr "Amazon Lambda"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -5659,7 +5659,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Dev UI"
-msgstr ""
+msgstr "开发用户界面"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -6487,7 +6487,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "gRPC"
-msgstr ""
+msgstr "gRPC"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -8541,7 +8541,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Messaging"
-msgstr ""
+msgstr "消息传递"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -9989,7 +9989,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Redis Client"
-msgstr ""
+msgstr "Redis客户端"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -11599,7 +11599,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Scheduler"
-msgstr ""
+msgstr "调度器"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
@@ -11668,7 +11668,7 @@ msgstr ""
 #. type: Title =
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #. type: Table
 #: _generated-doc/3.34/infra/quarkus-all-build-items.adoc

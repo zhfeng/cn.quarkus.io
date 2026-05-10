@@ -29,7 +29,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/picocli.adoc
 msgid "Extension"
-msgstr ""
+msgstr "扩展"
 
 #. type: Plain text
 #: _versions/3.34/guides/picocli.adoc
@@ -41,17 +41,17 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/picocli.adoc
 msgid "This will add the following to your build file:"
-msgstr ""
+msgstr "这会将以下内容添加到你的构建文件中:"
 
 #. type: Block title
 #: _versions/3.34/guides/picocli.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/picocli.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/picocli.adoc
@@ -165,7 +165,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/picocli.adoc
 msgid "Development Mode"
-msgstr ""
+msgstr "开发模式"
 
 #. type: Plain text
 #: _versions/3.34/guides/picocli.adoc
@@ -284,7 +284,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/picocli.adoc
 msgid "This will add the following to your `pom.xml`:"
-msgstr ""
+msgstr "这将在你的 `pom.xml` 中添加以下内容："
 
 #. type: Plain text
 #: _versions/3.34/guides/picocli.adoc
@@ -314,7 +314,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/picocli.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/picocli.adoc

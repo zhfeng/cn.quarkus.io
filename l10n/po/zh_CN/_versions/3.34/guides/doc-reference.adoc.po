@@ -673,7 +673,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -989,12 +989,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Category"
-msgstr ""
+msgstr "分类"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "alt-languages"
-msgstr ""
+msgstr "alt-languages"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1004,7 +1004,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "architecture"
-msgstr ""
+msgstr "architecture"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1014,7 +1014,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "business-automation"
-msgstr ""
+msgstr "business-automation"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1024,7 +1024,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "cloud"
-msgstr ""
+msgstr "cloud"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1034,17 +1034,17 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "command-line"
-msgstr ""
+msgstr "command-line"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Command Line Applications"
-msgstr ""
+msgstr "命令行应用"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "compatibility"
-msgstr ""
+msgstr "compatibility"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1054,7 +1054,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "contributing"
-msgstr ""
+msgstr "contributing"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1064,7 +1064,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "core"
-msgstr ""
+msgstr "core"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1074,7 +1074,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "data"
-msgstr ""
+msgstr "data"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1084,7 +1084,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "getting-started"
-msgstr ""
+msgstr "getting-started"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1094,7 +1094,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "integration"
-msgstr ""
+msgstr "integration"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1104,7 +1104,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "messaging"
-msgstr ""
+msgstr "messaging"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1114,17 +1114,17 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "miscellaneous"
-msgstr ""
+msgstr "miscellaneous"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Miscellaneous"
-msgstr ""
+msgstr "杂项"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "native"
-msgstr ""
+msgstr "native"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1134,7 +1134,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "observability"
-msgstr ""
+msgstr "observability"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1144,52 +1144,52 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "security"
-msgstr ""
+msgstr "security"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "serialization"
-msgstr ""
+msgstr "serialization"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Serialization"
-msgstr ""
+msgstr "序列化"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "tooling"
-msgstr ""
+msgstr "tooling"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Tooling"
-msgstr ""
+msgstr "工具"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "web"
-msgstr ""
+msgstr "web"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Web"
-msgstr ""
+msgstr "网络"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "writing-extensions"
-msgstr ""
+msgstr "writing-extensions"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Writing Extensions"
-msgstr ""
+msgstr "编写扩展"
 
 #. type: Plain text
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1216,7 +1216,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Variables"
-msgstr ""
+msgstr "变量"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1231,72 +1231,72 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-version}"
-msgstr ""
+msgstr "\\{quarkus-version}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-version}"
-msgstr ""
+msgstr "{quarkus-version}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "The current version of the project."
-msgstr ""
+msgstr "项目的当前版本。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-home-url}"
-msgstr ""
+msgstr "\\{quarkus-hom-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-home-url}"
-msgstr ""
+msgstr "{quarkus-hom-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "The location of the project home page."
-msgstr ""
+msgstr "项目主页的位置。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-org-url}"
-msgstr ""
+msgstr "\\{quarkus-org-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-org-url}"
-msgstr ""
+msgstr "{quarkus-org-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "The location of the project GitHub organization."
-msgstr ""
+msgstr "项目github组织的位置。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-base-url}"
-msgstr ""
+msgstr "\\{quarkus-base-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-base-url}"
-msgstr ""
+msgstr "{quarkus-base-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quarkus GitHub URL common base prefix."
-msgstr ""
+msgstr "Quarkus GitHub URL的通用基础前缀。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-clone-url}"
-msgstr ""
+msgstr "\\{quarkus-clone-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-clone-url}"
-msgstr ""
+msgstr "{quarkus-clone-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1306,147 +1306,147 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-archive-url}"
-msgstr ""
+msgstr "\\{quarkus-archive-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-archive-url}"
-msgstr ""
+msgstr "{quarkus-archive-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quarkus URL to main source archive."
-msgstr ""
+msgstr "指向主源存档的Quarkus URL。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-blob-url}"
-msgstr ""
+msgstr "\\{quarkus-blob-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-blob-url}"
-msgstr ""
+msgstr "{quarkus-blob-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quarkus URL to main blob source tree; used for referencing source files."
-msgstr ""
+msgstr "指向主blob源树的Quarkus URL；用于引用源文件。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-tree-url}"
-msgstr ""
+msgstr "\\{quarkus-tree-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-tree-url}"
-msgstr ""
+msgstr "{quarkus-tree-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quarkus URL to main source tree root; used for referencing directories."
-msgstr ""
+msgstr "指向主源树根的Quarkus URL；用于引用目录。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-issues-url}"
-msgstr ""
+msgstr "\\{quarkus-issues-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-issues-url}"
-msgstr ""
+msgstr "{quarkus-issues-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quarkus URL to the issues page."
-msgstr ""
+msgstr "指向问题页的Quarkus URL。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-images-url}"
-msgstr ""
+msgstr "\\{quarkus-images-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-images-url}"
-msgstr ""
+msgstr "{quarkus-images-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quarkus URL to set of container images delivered for Quarkus."
-msgstr ""
+msgstr "指向提供给Quarkus的容器镜像集的Quarkus URL。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-chat-url}"
-msgstr ""
+msgstr "\\{quarkus-chat-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-chat-url}"
-msgstr ""
+msgstr "{quarkus-chat-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "URL of our chat."
-msgstr ""
+msgstr "我们聊天的URL。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-mailing-list-subscription-email}"
-msgstr ""
+msgstr "\\{quarkus-mailing-list-subscription-email}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-mailing-list-subscription-email}"
-msgstr ""
+msgstr "{quarkus-mailing-list-subscription-email}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Email used to subscribe to our mailing list."
-msgstr ""
+msgstr "用于订阅我们邮件列表的电子邮件。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quarkus-mailing-list-index}"
-msgstr ""
+msgstr "\\{quarkus-mailing-list-index}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quarkus-mailing-list-index}"
-msgstr ""
+msgstr "{quarkus-mailing-list-index}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Mailing list index page."
-msgstr ""
+msgstr "邮件列表索引页。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quickstarts-base-url}"
-msgstr ""
+msgstr "\\{quickstarts-base-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quickstarts-base-url}"
-msgstr ""
+msgstr "{quickstarts-base-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quickstarts URL common base prefix."
-msgstr ""
+msgstr "Quickstarts URL 通用基础前缀。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quickstarts-clone-url}"
-msgstr ""
+msgstr "\\{quickstarts-clone-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quickstarts-clone-url}"
-msgstr ""
+msgstr "{quickstarts-clone-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
@@ -1456,72 +1456,72 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quickstarts-archive-url}"
-msgstr ""
+msgstr "\\{quickstarts-archive-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quickstarts-archive-url}"
-msgstr ""
+msgstr "{quickstarts-archive-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quickstarts URL to main source archive."
-msgstr ""
+msgstr "指向主源存档的Quickstarts URL"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quickstarts-blob-url}"
-msgstr ""
+msgstr "\\{quickstarts-blob-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quickstarts-blob-url}"
-msgstr ""
+msgstr "{quickstarts-blob-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quickstarts URL to main blob source tree; used for referencing source files."
-msgstr ""
+msgstr "指向主blob源树的Quickstarts URL；用于引用源文件。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{quickstarts-tree-url}"
-msgstr ""
+msgstr "\\{quickstarts-tree-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{quickstarts-tree-url}"
-msgstr ""
+msgstr "{quickstarts-tree-url}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Quickstarts URL to main source tree root; used for referencing directories."
-msgstr ""
+msgstr "指向主源树根的Quickstarts URL；用于引用目录。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{graalvm-version}"
-msgstr ""
+msgstr "\\{graalvm-version}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{graalvm-version}"
-msgstr ""
+msgstr "{graalvm-version}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "Recommended GraalVM version to use."
-msgstr ""
+msgstr "推荐使用的GraalVM版本。"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "\\{graalvm-flavor}"
-msgstr ""
+msgstr "\\{graalvm-flavor}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc
 msgid "{graalvm-flavor}"
-msgstr ""
+msgstr "{graalvm-flavor}"
 
 #. type: Table
 #: _versions/3.34/guides/doc-reference.adoc

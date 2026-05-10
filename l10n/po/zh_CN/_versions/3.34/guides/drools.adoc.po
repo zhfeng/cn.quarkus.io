@@ -21,12 +21,12 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/drools.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Title =
 #: _versions/3.34/guides/drools.adoc
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
@@ -211,7 +211,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
 msgid "To complete this guide, you need:"
-msgstr ""
+msgstr "完成这个指南，你需要:"
 
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
@@ -221,7 +221,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
 msgid "an IDE"
-msgstr ""
+msgstr "一个编辑器"
 
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
@@ -246,7 +246,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/drools.adoc
 msgid "Creating the Maven Project"
-msgstr ""
+msgstr "创建Maven项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
@@ -263,7 +263,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/drools.adoc
 msgid "Writing the application"
-msgstr ""
+msgstr "编写应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc
@@ -318,7 +318,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/drools.adoc
 msgid "Testing the Application"
-msgstr ""
+msgstr "测试应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/drools.adoc

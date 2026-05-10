@@ -24,12 +24,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
@@ -39,7 +39,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
@@ -115,7 +115,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
@@ -403,7 +403,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc
 msgid "60"
-msgstr ""
+msgstr "60"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-producer.adoc

@@ -169,7 +169,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/web.adoc
 msgid "Single Page Applications"
-msgstr ""
+msgstr "单页应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/web.adoc

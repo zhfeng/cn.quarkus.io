@@ -125,7 +125,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "Accessing JWT claims"
-msgstr ""
+msgstr "访问JWT声明"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -181,7 +181,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "The default tenant's `OidcConfigurationMetadata` is injected if the endpoint is public."
-msgstr ""
+msgstr "如果端点是公开的，则默认租户的 `OidcConfigurationMetadata` 会被注入。"
 
 #. type: Title ==
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -496,7 +496,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "Cross-origin resource sharing"
-msgstr ""
+msgstr "Cross-Origin 资源共享"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -518,7 +518,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "By default, they are discovered by adding a `/.well-known/openid-configuration` path to the configured `quarkus.oidc.auth-server-url`."
-msgstr ""
+msgstr "默认情况下，它们是通过在配置的 `quarkus.oidc.auth-server-url` 中，添加一个 `/.well-known/openid-configuration` 路径来发现的。"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -611,7 +611,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -626,17 +626,17 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title ===
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "Dev Services for Keycloak"
-msgstr ""
+msgstr "为Keycloak提供的开发服务"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -696,7 +696,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "Add the following dependencies to your test project:"
-msgstr ""
+msgstr "在你的测试项目中添加以下依赖项："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -861,7 +861,7 @@ msgstr ""
 #. type: Title ===
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "TestSecurity annotation"
-msgstr ""
+msgstr "TestSecurity注解"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -1029,7 +1029,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -1303,7 +1303,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -1333,7 +1333,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "xref:security-jwt-build.adoc[Sign and encrypt JWT tokens with SmallRye JWT Build]"
-msgstr ""
+msgstr "xref:security-jwt-build.adoc[使用 SmallRye JWT Build 对 JWT 令牌进行签名和加密]"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
@@ -1373,4 +1373,4 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-bearer-token-authentication.adoc
 msgid "link:https://tools.ietf.org/html/rfc7519[JSON Web Token]"
-msgstr ""
+msgstr "link:https://tools.ietf.org/html/rfc7519[JSON网络令牌]"

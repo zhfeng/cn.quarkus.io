@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/security-testing.adoc
 msgid "Security Testing"
-msgstr ""
+msgstr "安全测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-testing.adoc
@@ -46,12 +46,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-testing.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/security-testing.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-testing.adoc
@@ -235,7 +235,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-testing.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-testing.adoc

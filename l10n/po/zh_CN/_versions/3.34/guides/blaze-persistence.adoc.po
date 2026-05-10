@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/blaze-persistence.adoc
 msgid "Using Blaze-Persistence"
-msgstr ""
+msgstr "使用Blaze-Persistence"
 
 #. type: Plain text
 #: _versions/3.34/guides/blaze-persistence.adoc

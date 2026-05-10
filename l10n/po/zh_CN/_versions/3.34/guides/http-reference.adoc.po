@@ -1314,7 +1314,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/http-reference.adoc
 msgid "SameSite cookies"
-msgstr ""
+msgstr "SameSite cookies"
 
 #. type: Plain text
 #: _versions/3.34/guides/http-reference.adoc
@@ -1339,12 +1339,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/http-reference.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/http-reference.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title ==
 #: _versions/3.34/guides/http-reference.adoc
@@ -1505,7 +1505,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
 msgid "`0`"
-msgstr ""
+msgstr "`0`"
 
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
@@ -1520,7 +1520,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
 msgid "`1000`"
-msgstr ""
+msgstr "`1000` "
 
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
@@ -1580,17 +1580,17 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
@@ -1632,7 +1632,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Table
 #: _versions/3.34/guides/http-reference.adoc

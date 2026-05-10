@@ -128,7 +128,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rest-migration.adoc
 msgid "Comments"
-msgstr ""
+msgstr "备注"
 
 #. type: Table
 #: _versions/3.34/guides/rest-migration.adoc

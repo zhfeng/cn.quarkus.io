@@ -42,17 +42,17 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/kubernetes-client.adoc
 msgid "This will add the following to your build file:"
-msgstr ""
+msgstr "这会将以下内容添加到你的构建文件中:"
 
 #. type: Block title
 #: _versions/3.34/guides/kubernetes-client.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/kubernetes-client.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/kubernetes-client.adoc
@@ -150,7 +150,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/kubernetes-client.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/kubernetes-client.adoc
@@ -388,7 +388,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/kubernetes-client.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/kubernetes-client.adoc

@@ -19,27 +19,27 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "Attribute (_alias_)"
-msgstr ""
+msgstr "属性 _（别名）_"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "Mandatory"
-msgstr ""
+msgstr "是否强制"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
@@ -59,7 +59,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
@@ -79,7 +79,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "`true`"
-msgstr ""
+msgstr "`true` "
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
@@ -99,7 +99,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc
 msgid "`1000`"
-msgstr ""
+msgstr "`1000` "
 
 #. type: Table
 #: _versions/3.34/guides/_includes/smallrye-pulsar-outgoing.adoc

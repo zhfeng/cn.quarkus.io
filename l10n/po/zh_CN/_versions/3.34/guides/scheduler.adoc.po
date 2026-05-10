@@ -9,14 +9,14 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Scheduling Periodic Tasks"
-msgstr ""
+msgstr "安排周期性任务"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid ""
 "Modern applications often need to run specific tasks periodically.\n"
 "In this guide, you learn how to schedule periodic tasks."
-msgstr ""
+msgstr "现代应用程序经常需要定期运行特定的任务。在本指南中，你将学习如何安排定期任务。"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -26,12 +26,12 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Architecture"
-msgstr ""
+msgstr "架构"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -43,19 +43,19 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
 "However, you can go right to the completed example."
-msgstr ""
+msgstr "我们建议您按照下一节的说明逐步创建应用程序。然而，您可以直接转到已完成的示例。"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -65,12 +65,12 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Creating the Maven project"
-msgstr ""
+msgstr "创建Maven项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "First, we need a new project. Create a new project with the following command:"
-msgstr ""
+msgstr "首先，我们需要一个新的工程项目。用以下命令创建一个新项目："
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -90,7 +90,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "the application configuration file"
-msgstr ""
+msgstr "应用程序的配置文件"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -107,22 +107,22 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "This will add the following to your build file:"
-msgstr ""
+msgstr "这会将以下内容添加到你的构建文件中:"
 
 #. type: Block title
 #: _versions/3.34/guides/scheduler.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/scheduler.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Creating a scheduled job"
-msgstr ""
+msgstr "创建一个计划作业"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -137,7 +137,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "The `get()` method allows retrieving the current value."
-msgstr ""
+msgstr "`get()` 方法允许检索当前值。"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -160,12 +160,12 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Define a job with a cron-like expression `cron.expr` which is configurable in `application.properties`."
-msgstr ""
+msgstr "在 `application.properties` 中使用类似于cron表达式的方式定义一个名为 `cron.expr` 的作业。"
 
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Updating the application configuration file"
-msgstr ""
+msgstr "更新该应用程序的配置文件"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -185,29 +185,29 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Inject the `CounterBean`"
-msgstr ""
+msgstr "注入 `CounterBean` "
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Send back the current counter value"
-msgstr ""
+msgstr "返回当前计数器的值"
 
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Package and run the application"
-msgstr ""
+msgstr "打包并运行该应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "Run the application with:"
-msgstr ""
+msgstr "使用以下命令运行该应用程序:"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid ""
 "In another terminal, run `curl localhost:8080/count` to check the counter value.\n"
 "After a few seconds, re-run `curl localhost:8080/count` to verify the counter has been incremented."
-msgstr ""
+msgstr "在另一个终端，运行 `curl localhost:8080/count` 检查计数器的值。几秒钟后，重新运行 `curl localhost:8080/count` ，以验证计数器已被递增。"
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -219,7 +219,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "As usual, the application can be packaged using:"
-msgstr ""
+msgstr "像往常一样，该应用程序可以用以下方式打包："
 
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
@@ -229,7 +229,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/scheduler.adoc
 msgid "You can also generate the native executable with:"
-msgstr ""
+msgstr "你也可以使用以下方式生成本地可执行文件:"
 
 #. type: Title =
 #: _versions/3.34/guides/scheduler.adoc

@@ -204,7 +204,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Comments"
-msgstr ""
+msgstr "备注"
 
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc
@@ -217,7 +217,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Expressions"
-msgstr ""
+msgstr "表达式"
 
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc
@@ -644,12 +644,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. type: Table
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/qute-reference.adoc
@@ -1343,7 +1343,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Example"
-msgstr ""
+msgstr "例子"
 
 #. type: Table
 #: _versions/3.34/guides/qute-reference.adoc
@@ -4187,12 +4187,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc
@@ -4217,7 +4217,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Development Mode"
-msgstr ""
+msgstr "开发模式"
 
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc
@@ -4238,7 +4238,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc
@@ -4671,7 +4671,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/qute-reference.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/qute-reference.adoc

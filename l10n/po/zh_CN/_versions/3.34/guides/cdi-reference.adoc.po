@@ -103,12 +103,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/cdi-reference.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Block title
 #: _versions/3.34/guides/cdi-reference.adoc
 msgid "Gradle (Groovy DSL)"
-msgstr ""
+msgstr "Gradle (Groovy DSL)"
 
 #. type: Plain text
 #: _versions/3.34/guides/cdi-reference.adoc
@@ -118,7 +118,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/cdi-reference.adoc
 msgid "Gradle (Kotlin DSL)"
-msgstr ""
+msgstr "或者，如果您使用Gradle Kotlin DSL。"
 
 #. type: Plain text
 #: _versions/3.34/guides/cdi-reference.adoc
@@ -177,7 +177,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/cdi-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/cdi-reference.adoc
@@ -303,7 +303,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/cdi-reference.adoc
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #. type: Plain text
 #: _versions/3.34/guides/cdi-reference.adoc
@@ -436,7 +436,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/cdi-reference.adoc
 msgid "Non-standard Features"
-msgstr ""
+msgstr "非标准功能"
 
 #. type: Title ==
 #: _versions/3.34/guides/cdi-reference.adoc

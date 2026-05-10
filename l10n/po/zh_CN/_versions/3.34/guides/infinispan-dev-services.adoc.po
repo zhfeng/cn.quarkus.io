@@ -266,7 +266,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/infinispan-dev-services.adoc
 msgid "Shared server"
-msgstr ""
+msgstr "服务共享"
 
 #. type: Plain text
 #: _versions/3.34/guides/infinispan-dev-services.adoc

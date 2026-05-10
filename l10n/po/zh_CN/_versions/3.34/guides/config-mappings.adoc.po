@@ -75,7 +75,7 @@ msgstr ""
 #. type: Title ====
 #: _versions/3.34/guides/config-mappings.adoc
 msgid "Example"
-msgstr ""
+msgstr "例子"
 
 #. type: Title ===
 #: _versions/3.34/guides/config-mappings.adoc
@@ -326,7 +326,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/config-mappings.adoc
 msgid "Mocking"
-msgstr ""
+msgstr "Mock模拟测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/config-mappings.adoc

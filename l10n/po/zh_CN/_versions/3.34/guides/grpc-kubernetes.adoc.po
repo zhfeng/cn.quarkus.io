@@ -31,12 +31,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/grpc-kubernetes.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/grpc-kubernetes.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/grpc-kubernetes.adoc

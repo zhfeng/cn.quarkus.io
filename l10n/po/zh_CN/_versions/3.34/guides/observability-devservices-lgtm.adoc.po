@@ -51,12 +51,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/observability-devservices-lgtm.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/observability-devservices-lgtm.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title ==
 #: _versions/3.34/guides/observability-devservices-lgtm.adoc
@@ -258,7 +258,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/observability-devservices-lgtm.adoc
 msgid "Additional configuration"
-msgstr ""
+msgstr "其他配置"
 
 #. type: Plain text
 #: _versions/3.34/guides/observability-devservices-lgtm.adoc

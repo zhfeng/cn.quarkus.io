@@ -54,7 +54,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/capabilities.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Plain text
 #: _versions/3.34/guides/capabilities.adoc
@@ -69,7 +69,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/capabilities.adoc
 msgid "Gradle (Groovy DSL)"
-msgstr ""
+msgstr "Gradle (Groovy DSL)"
 
 #. type: Plain text
 #: _versions/3.34/guides/capabilities.adoc
@@ -79,7 +79,7 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/capabilities.adoc
 msgid "Gradle (Kotlin DSL)"
-msgstr ""
+msgstr "或者，如果您使用Gradle Kotlin DSL。"
 
 #. type: Title ==
 #: _versions/3.34/guides/capabilities.adoc

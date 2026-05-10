@@ -49,12 +49,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc
@@ -383,12 +383,12 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
@@ -443,7 +443,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "`false`"
-msgstr ""
+msgstr "`false` "
 
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
@@ -488,7 +488,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "`RS256`"
-msgstr ""
+msgstr "`RS256`"
 
 #. type: Table
 #: _versions/3.34/guides/security-jwt-build.adoc
@@ -653,32 +653,32 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "link:https://github.com/smallrye/smallrye-jwt[SmallRye JWT]"
-msgstr ""
+msgstr "link:https://github.com/smallrye/smallrye-jwt[SmallRye JWT]"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "link:https://tools.ietf.org/html/rfc7519[JSON Web Token]"
-msgstr ""
+msgstr "link:https://tools.ietf.org/html/rfc7519[JSON网络令牌]"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "link:https://tools.ietf.org/html/rfc7515[JSON Web Signature]"
-msgstr ""
+msgstr "link:https://tools.ietf.org/html/rfc7515[JSON网络签名]"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "link:https://tools.ietf.org/html/rfc7516[JSON Web Encryption]"
-msgstr ""
+msgstr "link:https://tools.ietf.org/html/rfc7516[JSON网络加密]"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc
 msgid "link:https://tools.ietf.org/html/rfc7518[JSON Web Algorithms]"
-msgstr ""
+msgstr "link:https://tools.ietf.org/html/rfc7518[JSON网络算法]"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-jwt-build.adoc

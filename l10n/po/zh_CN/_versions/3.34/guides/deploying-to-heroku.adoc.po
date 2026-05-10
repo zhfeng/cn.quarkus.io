@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/deploying-to-heroku.adoc
 msgid "Deploying to Heroku"
-msgstr ""
+msgstr "部署到Heroku"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-heroku.adoc
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-heroku.adoc
 msgid "This guide covers:"
-msgstr ""
+msgstr "本指南包括："
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-heroku.adoc
@@ -59,7 +59,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-heroku.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-heroku.adoc
@@ -74,7 +74,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/deploying-to-heroku.adoc
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #. type: Plain text
 #: _versions/3.34/guides/deploying-to-heroku.adoc

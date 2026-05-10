@@ -9,7 +9,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: _versions/3.34/guides/security-properties.adoc
 msgid "Using Security with .properties File"
-msgstr ""
+msgstr "使用.properties文件的安全性"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-properties.adoc
@@ -26,12 +26,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/security-properties.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/security-properties.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/security-properties.adoc
@@ -229,7 +229,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-properties.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-properties.adoc

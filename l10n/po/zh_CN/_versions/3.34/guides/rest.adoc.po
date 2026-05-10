@@ -63,12 +63,12 @@ msgstr ""
 #. type: Block title
 #: _versions/3.34/guides/rest.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/rest.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest.adoc
@@ -113,7 +113,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rest.adoc
 msgid "Resource"
-msgstr ""
+msgstr "资源"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest.adoc
@@ -615,7 +615,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rest.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/3.34/guides/rest.adoc
@@ -630,7 +630,7 @@ msgstr ""
 #. type: Table
 #: _versions/3.34/guides/rest.adoc
 msgid "`byte[]`"
-msgstr ""
+msgstr "`byte[]`"
 
 #. type: Table
 #: _versions/3.34/guides/rest.adoc
@@ -1499,7 +1499,7 @@ msgstr ""
 #. type: Title ====
 #: _versions/3.34/guides/rest.adoc
 msgid "Secure serialization"
-msgstr ""
+msgstr "安全序列化"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest.adoc
@@ -1821,7 +1821,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rest.adoc
 msgid "An example where a custom module needs to be registered would look like so:"
-msgstr ""
+msgstr "需要注册自定义模块的示例如下所示："
 
 #. type: Plain text
 #: _versions/3.34/guides/rest.adoc

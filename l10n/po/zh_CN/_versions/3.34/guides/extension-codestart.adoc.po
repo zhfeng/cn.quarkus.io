@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/extension-codestart.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-codestart.adoc
@@ -176,12 +176,12 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/extension-codestart.adoc
 msgid "_For more information about how to install the Quarkus CLI and use it, please refer to xref:cli-tooling.adoc[the Quarkus CLI guide]._"
-msgstr ""
+msgstr "_关于如何安装并使用Quarkus CLI的更多信息，请参考xref:cli-tooling.adoc[Quarkus CLI指南]。_"
 
 #. type: Block title
 #: _versions/3.34/guides/extension-codestart.adoc
 msgid "Maven"
-msgstr ""
+msgstr "Maven"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-codestart.adoc
@@ -296,7 +296,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/extension-codestart.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-codestart.adoc
@@ -311,7 +311,7 @@ msgstr ""
 #. type: Title ==
 #: _versions/3.34/guides/extension-codestart.adoc
 msgid "Going further"
-msgstr ""
+msgstr "进一步探索"
 
 #. type: Plain text
 #: _versions/3.34/guides/extension-codestart.adoc

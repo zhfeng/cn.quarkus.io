@@ -28,24 +28,24 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Solution"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
 "However, you can go right to the completed example."
-msgstr ""
+msgstr "我们建议您按照下一节的说明逐步创建应用程序。然而，您可以直接转到已完成的示例。"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive]."
-msgstr ""
+msgstr "克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
@@ -55,12 +55,12 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Creating the Maven project"
-msgstr ""
+msgstr "创建Maven项目"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid "First, we need a new project. Create a new project with the following command:"
-msgstr ""
+msgstr "首先，我们需要一个新的工程项目。用以下命令创建一个新项目："
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
@@ -87,17 +87,17 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid "This will add the following to your build file:"
-msgstr ""
+msgstr "这会将以下内容添加到你的构建文件中:"
 
 #. type: Block title
 #: _versions/3.34/guides/rest-client.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/3.34/guides/rest-client.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
@@ -403,7 +403,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Create the configuration"
-msgstr ""
+msgstr "创建配置"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
@@ -1528,12 +1528,12 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Package and run the application"
-msgstr ""
+msgstr "打包并运行该应用程序"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Run the application with:"
-msgstr ""
+msgstr "使用以下命令运行该应用程序:"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
@@ -1548,7 +1548,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid "As usual, the application can be packaged using:"
-msgstr ""
+msgstr "像往常一样，该应用程序可以用以下方式打包："
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
@@ -1558,7 +1558,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
 msgid "You can also generate the native executable with:"
-msgstr ""
+msgstr "你也可以使用以下方式生成本地可执行文件:"
 
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
@@ -1634,7 +1634,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Metrics"
-msgstr ""
+msgstr "指标"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc
@@ -1860,7 +1860,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/rest-client.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _versions/3.34/guides/rest-client.adoc

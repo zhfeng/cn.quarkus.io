@@ -44,7 +44,7 @@ msgstr ""
 #. type: Title =
 #: _versions/3.34/guides/security-oidc-configuration-properties-reference.adoc
 msgid "References"
-msgstr ""
+msgstr "参考文献"
 
 #. type: Plain text
 #: _versions/3.34/guides/security-oidc-configuration-properties-reference.adoc
