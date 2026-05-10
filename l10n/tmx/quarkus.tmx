@@ -53,18 +53,6 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>**Important:** the guides are maintained in the main Quarkus repository and pull requests should be submitted there:
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>**重要：** 指南保存在主Quarkus仓库中，合并请求应该提交到那里：
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>*Experimental*: early feedback is requested to mature the idea. There is no guarantee of stability nor long term presence in the platform until the solution matures. Such extensions are at the beginning of their maturation process.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -2792,16 +2780,6 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>&lt;code&gt;scheduler&lt;/code&gt; - 调度一个作业，每10秒运行一次</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>&gt; If you encounter any unexpected errors during the above, please refer to the [troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) page or the [requirements](https://jekyllrb.com/docs/installation/#requirements) page, as you might be missing development headers or other prerequisites.
-</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>&gt; 如果您在上述过程中遇到任何意外错误，请参阅 [排错](https://jekyllrb.com/docs/troubleshooting/#configuration-problems) 页面或者 [需求](https://jekyllrb.com/docs/installation/#requirements) 页面，因为您可能会错过开发headers或其他先决条件。
-</seg>
       </tuv>
     </tu>
     <tu>
