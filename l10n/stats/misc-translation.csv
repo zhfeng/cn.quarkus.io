@@ -36,7 +36,7 @@ l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 629, 1594, 3251, 6672,
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
 l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 611, 1594, 3186, 6668, 53%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 925, 2376, 3684, 36%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 926, 2376, 3686, 36%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 78, 87, 886, 950, 7%
@@ -51,7 +51,7 @@ l10n/po/zh_CN/_data/newsletter.yaml.po, 130, 202, 326, 518, 38%
 l10n/po/zh_CN/_data/guides-2-13.yaml.po, 59, 707, 259, 4448, 95%
 l10n/po/zh_CN/_data/guides-2-7.yaml.po, 44, 666, 215, 4223, 95%
 l10n/po/zh_CN/_data/katakodalist.yaml.po, 17, 17, 141, 141, 0%
-l10n/po/zh_CN/_data/projectfooter.yaml.po, 77, 99, 122, 214, 43%
+l10n/po/zh_CN/_data/projectfooter.yaml.po, 77, 103, 122, 222, 46%
 l10n/po/zh_CN/_data/getstarted-guides.yaml.po, 14, 15, 104, 108, 4%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkiverse.yaml.po, 7, 102, 98, 690, 86%
 l10n/po/zh_CN/_data/versioned/latest/index/quarkiverse.yaml.po, 7, 102, 98, 690, 86%
@@ -75,4 +75,6 @@ l10n/po/zh_CN/_data/versioned/3-27/index/quarkus.yaml.po, 0, 1563, 0, 6530, 100%
 l10n/po/zh_CN/_data/versioned/3-27/index/relations.yaml.po, 0, 509, 0, 1380, 100%
 l10n/po/zh_CN/_data/versioned/3-33/index/quarkus.yaml.po, 0, 1581, 0, 6610, 100%
 l10n/po/zh_CN/_data/versioned/3-33/index/relations.yaml.po, 0, 515, 0, 1403, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 245, 0, 12962, 100%
+l10n/po/zh_CN/_data/versioned/3-34/index/quarkus.yaml.po, 0, 1581, 0, 6610, 100%
+l10n/po/zh_CN/_data/versioned/3-34/index/relations.yaml.po, 0, 515, 0, 1403, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 247, 0, 12971, 100%
