@@ -364,7 +364,7 @@ msgstr "在生成的构建文件中，你可以看到2个测试依赖项："
 
 #. type: Plain text
 #: _guides/getting-started.adoc
-msgid "Quarkus supports https://docs.junit.org/current/user-guide/[JUnit] tests."
+msgid "Quarkus supports https://docs.junit.org[JUnit] tests."
 msgstr ""
 
 #. type: Plain text
