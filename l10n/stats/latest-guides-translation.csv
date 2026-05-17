@@ -35,8 +35,8 @@ l10n/po/zh_CN/_guides/security-authentication-mechanisms.adoc.po, 152, 278, 2307
 l10n/po/zh_CN/_guides/smallrye-graphql.adoc.po, 161, 178, 2298, 2402, 5%
 l10n/po/zh_CN/_guides/reactive-routes.adoc.po, 154, 165, 2289, 2357, 3%
 l10n/po/zh_CN/_guides/doc-reference.adoc.po, 206, 293, 2116, 2315, 9%
-l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 120, 161, 2086, 3249, 36%
 l10n/po/zh_CN/_guides/doc-contribute-docs-howto.adoc.po, 139, 142, 2075, 2107, 2%
+l10n/po/zh_CN/_guides/security-openid-connect-providers.adoc.po, 119, 161, 2068, 3296, 38%
 l10n/po/zh_CN/_guides/cdi-integration.adoc.po, 153, 189, 1966, 3162, 38%
 l10n/po/zh_CN/_guides/rabbitmq-reference.adoc.po, 196, 254, 1959, 2515, 23%
 l10n/po/zh_CN/_guides/mutiny-primer.adoc.po, 123, 125, 1957, 1963, 1%
@@ -90,11 +90,11 @@ l10n/po/zh_CN/_guides/kafka-schema-registry-json-schema.adoc.po, 56, 67, 1187, 1
 l10n/po/zh_CN/_guides/getting-started-dev-services.adoc.po, 76, 86, 1174, 1321, 12%
 l10n/po/zh_CN/_guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_guides/security-getting-started-tutorial.adoc.po, 71, 126, 1098, 1760, 38%
-l10n/po/zh_CN/_guides/transaction.adoc.po, 41, 106, 1096, 2502, 57%
 l10n/po/zh_CN/_guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
 l10n/po/zh_CN/_guides/kafka-getting-started.adoc.po, 48, 77, 1087, 1303, 17%
 l10n/po/zh_CN/_guides/management-interface-reference.adoc.po, 62, 82, 1084, 1415, 24%
 l10n/po/zh_CN/_guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
+l10n/po/zh_CN/_guides/transaction.adoc.po, 40, 106, 1065, 2501, 58%
 l10n/po/zh_CN/_guides/databases-dev-services.adoc.po, 67, 83, 1061, 1454, 28%
 l10n/po/zh_CN/_guides/kafka-reactive-getting-started.adoc.po, 46, 77, 1057, 1299, 19%
 l10n/po/zh_CN/_guides/config-extending-support.adoc.po, 63, 65, 1036, 1040, 1%
@@ -148,7 +148,7 @@ l10n/po/zh_CN/_guides/infinispan-dev-services.adoc.po, 38, 52, 719, 894, 20%
 l10n/po/zh_CN/_guides/reactive-event-bus.adoc.po, 43, 73, 711, 996, 29%
 l10n/po/zh_CN/_guides/funqy.adoc.po, 21, 22, 710, 711, 1%
 l10n/po/zh_CN/_guides/capabilities.adoc.po, 39, 43, 693, 760, 9%
-l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 27, 251, 692, 5576, 88%
+l10n/po/zh_CN/_guides/getting-started-testing.adoc.po, 27, 251, 692, 5578, 88%
 l10n/po/zh_CN/_guides/infinispan-client.adoc.po, 47, 71, 684, 915, 26%
 l10n/po/zh_CN/_guides/rest-virtual-threads.adoc.po, 47, 58, 683, 917, 26%
 l10n/po/zh_CN/_guides/mailer.adoc.po, 51, 61, 681, 750, 10%
@@ -280,14 +280,14 @@ l10n/po/zh_CN/_guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 434
 l10n/po/zh_CN/_guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 482, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-native-howto.adoc.po, 0, 31, 0, 393, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-s2i-howto.adoc.po, 0, 36, 0, 407, 100%
-l10n/po/zh_CN/_guides/dev-mcp.adoc.po, 0, 67, 0, 1271, 100%
+l10n/po/zh_CN/_guides/dev-mcp.adoc.po, 0, 73, 0, 1417, 100%
 l10n/po/zh_CN/_guides/drools.adoc.po, 0, 68, 0, 1552, 100%
 l10n/po/zh_CN/_guides/extension-faq.adoc.po, 0, 40, 0, 933, 100%
 l10n/po/zh_CN/_guides/extension-maturity-matrix.adoc.po, 0, 65, 0, 1428, 100%
-l10n/po/zh_CN/_guides/extension-writing-dev-service.adoc.po, 0, 27, 0, 438, 100%
+l10n/po/zh_CN/_guides/extension-writing-dev-service.adoc.po, 0, 66, 0, 1149, 100%
 l10n/po/zh_CN/_guides/grpc-cli.adoc.po, 0, 9, 0, 40, 100%
 l10n/po/zh_CN/_guides/hibernate-panache-next.adoc.po, 0, 171, 0, 2262, 100%
-l10n/po/zh_CN/_guides/jar-tree-shaking.adoc.po, 0, 57, 0, 1078, 100%
+l10n/po/zh_CN/_guides/jar-tree-shaking.adoc.po, 0, 58, 0, 1117, 100%
 l10n/po/zh_CN/_guides/jfr.adoc.po, 0, 107, 0, 1826, 100%
 l10n/po/zh_CN/_guides/load-shedding-reference.adoc.po, 0, 64, 0, 1160, 100%
 l10n/po/zh_CN/_guides/lra-dev-services.adoc.po, 0, 20, 0, 449, 100%
@@ -309,6 +309,6 @@ l10n/po/zh_CN/_guides/stork-manual-service-registration.adoc.po, 0, 66, 0, 762, 
 l10n/po/zh_CN/_guides/stork-registration.adoc.po, 0, 45, 0, 456, 100%
 l10n/po/zh_CN/_guides/telemetry-examples.yaml.po, 0, 2, 0, 4, 100%
 l10n/po/zh_CN/_guides/telemetry-micrometer-to-opentelemetry.adoc.po, 0, 106, 0, 1009, 100%
-l10n/po/zh_CN/_guides/testing-components.adoc.po, 0, 82, 0, 1602, 100%
+l10n/po/zh_CN/_guides/testing-components.adoc.po, 0, 82, 0, 1603, 100%
 l10n/po/zh_CN/_guides/tls-registry-reference.adoc.po, 0, 382, 0, 6362, 100%
 l10n/po/zh_CN/_guides/web-dependency-locator.adoc.po, 0, 26, 0, 335, 100%
