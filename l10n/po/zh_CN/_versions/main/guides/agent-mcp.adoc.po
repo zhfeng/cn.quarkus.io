@@ -71,7 +71,7 @@ msgstr ""
 #. type: Title =
 #: _versions/main/guides/agent-mcp.adoc
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #. type: Plain text
 #: _versions/main/guides/agent-mcp.adoc
