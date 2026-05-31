@@ -56,7 +56,7 @@ msgstr ""
 #. type: Title =
 #: _guides/signals.adoc
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #. type: Plain text
 #: _guides/signals.adoc
@@ -71,12 +71,12 @@ msgstr ""
 #. type: Block title
 #: _guides/signals.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _guides/signals.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _guides/signals.adoc

@@ -74,7 +74,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Get Started"
-msgstr ""
+msgstr "开始体验"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -116,7 +116,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -158,7 +158,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Events"
-msgstr ""
+msgstr "活动"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -188,7 +188,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Newsletter"
-msgstr ""
+msgstr "新闻"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -242,7 +242,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "What is Quarkus?"
-msgstr ""
+msgstr "Quarkus是什么？"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -260,7 +260,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Developer Joy"
-msgstr ""
+msgstr "开发者的乐趣"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -296,7 +296,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Kubernetes Native"
-msgstr ""
+msgstr "Kubernetes原生"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -314,7 +314,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Standards"
-msgstr ""
+msgstr "标准"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -350,7 +350,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Container First"
-msgstr ""
+msgstr "容器优先"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -524,7 +524,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Documentation"
-msgstr ""
+msgstr "文档"
 
 #. type: Hash Value: sections links description
 #: upstream/_data/sitemap-links.yaml:0
@@ -572,7 +572,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Books"
-msgstr ""
+msgstr "书籍"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
@@ -644,7 +644,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "/guides/writing-extensions"
-msgstr ""
+msgstr "/guides/writing-extensions"
 
 #. type: Hash Value: sections links description
 #: upstream/_data/sitemap-links.yaml:0
@@ -668,7 +668,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Extensions"
-msgstr ""
+msgstr "扩展"
 
 #. type: Hash Value: sections id
 #: upstream/_data/sitemap-links.yaml:0
@@ -770,7 +770,7 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Roadmap"
-msgstr ""
+msgstr "路线图"
 
 #. type: Hash Value: sections links url
 #: upstream/_data/sitemap-links.yaml:0
