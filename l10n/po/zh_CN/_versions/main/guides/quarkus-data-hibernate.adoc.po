@@ -887,7 +887,7 @@ msgstr ""
 #. type: Table
 #: _versions/main/guides/quarkus-data-hibernate.adoc
 msgid "Query parameters"
-msgstr ""
+msgstr "查询参数"
 
 #. type: Table
 #: _versions/main/guides/quarkus-data-hibernate.adoc

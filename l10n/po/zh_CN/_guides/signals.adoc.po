@@ -568,7 +568,7 @@ msgstr ""
 #. type: Title ==
 #: _guides/signals.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _guides/signals.adoc
