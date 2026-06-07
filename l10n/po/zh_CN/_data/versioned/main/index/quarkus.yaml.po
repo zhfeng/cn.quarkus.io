@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-31 10:39+0000\n"
+"POT-Creation-Date: 2026-06-07 10:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9403,8 +9403,8 @@ msgstr "getting-started.adoc"
 #. type: Hash Value: types tutorial summary
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
-msgid "Discover how to create your first Quarkus application."
-msgstr "了解如何创建您的第一个Quarkus应用程序。"
+msgid "Build a REST API with live reload, dependency injection, and tests, in under 15 minutes."
+msgstr ""
 
 #. type: Hash Value: types tutorial title
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -9819,6 +9819,10 @@ msgstr "重新增强Quarkus应用程序"
 #, no-wrap
 msgid "/guides/getting-started-dev-services"
 msgstr "/guides/getting-started-dev-services"
+
+#, no-wrap
+#~ msgid "Discover how to create your first Quarkus application."
+#~ msgstr "了解如何创建您的第一个Quarkus应用程序。"
 
 #, fuzzy, no-wrap
 #~ msgid "This guide demonstrates how your Quarkus application can utilize Quarkus Messaging to interact with Apache Kafka."
