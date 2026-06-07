@@ -33,10 +33,10 @@ l10n/po/zh_CN/_includes/support-help-band.html.po, 0, 11, 0, 152, 100%
 l10n/po/zh_CN/_includes/support-options-band.html.po, 0, 5, 0, 33, 100%
 l10n/po/zh_CN/_includes/worldtour-code.html.po, 0, 3, 0, 36, 100%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
-l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 626, 1634, 3197, 6805, 54%
+l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 626, 1634, 3197, 6812, 54%
 l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 610, 1602, 3156, 6694, 53%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 960, 2376, 3831, 38%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 617, 962, 2376, 3838, 39%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 78, 87, 886, 950, 7%
@@ -78,4 +78,4 @@ l10n/po/zh_CN/_data/versioned/3-33/index/quarkus.yaml.po, 0, 1581, 0, 6609, 100%
 l10n/po/zh_CN/_data/versioned/3-33/index/relations.yaml.po, 0, 515, 0, 1403, 100%
 l10n/po/zh_CN/_data/versioned/3-34/index/quarkus.yaml.po, 0, 1581, 0, 6610, 100%
 l10n/po/zh_CN/_data/versioned/3-34/index/relations.yaml.po, 0, 515, 0, 1403, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 246, 0, 13125, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 249, 0, 13128, 100%

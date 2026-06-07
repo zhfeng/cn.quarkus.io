@@ -3,7 +3,7 @@ l10n/po/zh_CN/_versions/main/guides/writing-extensions.adoc.po, 588, 663, 11730,
 l10n/po/zh_CN/_versions/main/guides/qute-reference.adoc.po, 740, 891, 10667, 13912, 24%
 l10n/po/zh_CN/_versions/main/guides/native-reference.adoc.po, 304, 350, 9047, 10342, 13%
 l10n/po/zh_CN/_versions/main/guides/resteasy-reactive.adoc.po, 461, 468, 7435, 7458, 1%
-l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 458, 516, 7389, 8590, 14%
+l10n/po/zh_CN/_versions/main/guides/rest.adoc.po, 458, 521, 7389, 8685, 15%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-kubernetes.adoc.po, 317, 342, 5752, 6061, 6%
 l10n/po/zh_CN/_versions/main/guides/maven-tooling.adoc.po, 260, 289, 5240, 5916, 12%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
@@ -22,7 +22,7 @@ l10n/po/zh_CN/_versions/main/guides/gradle-tooling.adoc.po, 160, 213, 3224, 3937
 l10n/po/zh_CN/_versions/main/guides/redis-reference.adoc.po, 205, 253, 3174, 4369, 28%
 l10n/po/zh_CN/_versions/main/guides/infinispan-client-reference.adoc.po, 188, 202, 3103, 3210, 4%
 l10n/po/zh_CN/_versions/main/guides/cassandra.adoc.po, 146, 165, 3020, 3395, 12%
-l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 248, 312, 2775, 3635, 24%
+l10n/po/zh_CN/_versions/main/guides/http-reference.adoc.po, 248, 314, 2775, 3643, 24%
 l10n/po/zh_CN/_versions/main/guides/virtual-threads.adoc.po, 132, 157, 2739, 3297, 17%
 l10n/po/zh_CN/_versions/main/guides/cache.adoc.po, 148, 172, 2683, 3314, 20%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-dev-services.adoc.po, 98, 132, 2630, 3415, 23%
@@ -55,14 +55,14 @@ l10n/po/zh_CN/_versions/main/guides/resteasy-client.adoc.po, 84, 100, 1660, 1781
 l10n/po/zh_CN/_versions/main/guides/quarkus-reactive-architecture.adoc.po, 64, 66, 1651, 1664, 1%
 l10n/po/zh_CN/_versions/main/guides/smallrye-health.adoc.po, 81, 98, 1641, 1812, 10%
 l10n/po/zh_CN/_versions/main/guides/duplicated-context.adoc.po, 71, 74, 1586, 1590, 1%
-l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 113, 502, 1558, 6115, 75%
+l10n/po/zh_CN/_versions/main/guides/dev-ui.adoc.po, 113, 520, 1558, 6334, 76%
 l10n/po/zh_CN/_versions/main/guides/gcp-functions.adoc.po, 84, 92, 1558, 1619, 4%
 l10n/po/zh_CN/_versions/main/guides/funqy-knative-events.adoc.po, 65, 68, 1550, 1563, 1%
 l10n/po/zh_CN/_versions/main/guides/rest-data-panache.adoc.po, 101, 117, 1541, 1696, 10%
 l10n/po/zh_CN/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 71, 84, 1515, 1615, 7%
 l10n/po/zh_CN/_versions/main/guides/grpc-service-implementation.adoc.po, 107, 112, 1512, 1651, 9%
 l10n/po/zh_CN/_versions/main/guides/security-customization.adoc.po, 75, 88, 1494, 1743, 15%
-l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 216, 346, 1466, 3539, 59%
+l10n/po/zh_CN/_versions/main/guides/logging.adoc.po, 216, 355, 1466, 3733, 61%
 l10n/po/zh_CN/_versions/main/guides/class-loading-reference.adoc.po, 61, 65, 1447, 1476, 2%
 l10n/po/zh_CN/_versions/main/guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
 l10n/po/zh_CN/_versions/main/guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
@@ -91,7 +91,6 @@ l10n/po/zh_CN/_versions/main/guides/getting-started-dev-services.adoc.po, 76, 86
 l10n/po/zh_CN/_versions/main/guides/spring-data-jpa.adoc.po, 71, 95, 1136, 1301, 13%
 l10n/po/zh_CN/_versions/main/guides/security-getting-started-tutorial.adoc.po, 71, 126, 1098, 1760, 38%
 l10n/po/zh_CN/_versions/main/guides/spring-security.adoc.po, 79, 107, 1088, 1257, 14%
-l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 62, 82, 1084, 1415, 24%
 l10n/po/zh_CN/_versions/main/guides/elasticsearch.adoc.po, 60, 84, 1076, 1298, 18%
 l10n/po/zh_CN/_versions/main/guides/transaction.adoc.po, 40, 106, 1065, 2501, 58%
 l10n/po/zh_CN/_versions/main/guides/databases-dev-services.adoc.po, 67, 90, 1061, 1589, 34%
@@ -102,6 +101,7 @@ l10n/po/zh_CN/_versions/main/guides/mongodb-panache.adoc.po, 47, 200, 1033, 3902
 l10n/po/zh_CN/_versions/main/guides/kubernetes-client.adoc.po, 46, 67, 1027, 1458, 30%
 l10n/po/zh_CN/_versions/main/guides/pulsar-getting-started.adoc.po, 47, 76, 1027, 1243, 18%
 l10n/po/zh_CN/_versions/main/guides/quartz.adoc.po, 71, 90, 1027, 1157, 12%
+l10n/po/zh_CN/_versions/main/guides/management-interface-reference.adoc.po, 60, 87, 1021, 1452, 30%
 l10n/po/zh_CN/_versions/main/guides/hibernate-reactive.adoc.po, 62, 136, 1012, 2182, 54%
 l10n/po/zh_CN/_versions/main/guides/security-oauth2.adoc.po, 56, 79, 1005, 1226, 19%
 l10n/po/zh_CN/_versions/main/guides/command-mode-reference.adoc.po, 51, 70, 996, 1152, 14%
@@ -191,7 +191,6 @@ l10n/po/zh_CN/_versions/main/guides/appcds.adoc.po, 22, 33, 433, 883, 51%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-pulsar-producer.adoc.po, 78, 83, 432, 437, 2%
 l10n/po/zh_CN/_versions/main/guides/hibernate-orm-panache-kotlin.adoc.po, 11, 30, 431, 708, 40%
 l10n/po/zh_CN/_versions/main/guides/security-proactive-authentication.adoc.po, 17, 24, 426, 725, 42%
-l10n/po/zh_CN/_versions/main/guides/getting-started.adoc.po, 23, 106, 396, 1689, 77%
 l10n/po/zh_CN/_versions/main/guides/liquibase-mongodb.adoc.po, 26, 41, 393, 587, 34%
 l10n/po/zh_CN/_versions/main/guides/stork-reference.adoc.po, 30, 34, 385, 400, 4%
 l10n/po/zh_CN/_versions/main/guides/cache-infinispan-reference.adoc.po, 23, 41, 375, 643, 42%
@@ -238,6 +237,7 @@ l10n/po/zh_CN/_versions/main/guides/amqp.adoc.po, 6, 69, 97, 1116, 92%
 l10n/po/zh_CN/_versions/main/guides/conditional-extension-dependencies.adoc.po, 9, 45, 93, 1013, 91%
 l10n/po/zh_CN/_versions/main/guides/kafka-dev-ui.adoc.po, 8, 8, 87, 87, 0%
 l10n/po/zh_CN/_versions/main/guides/tooling.adoc.po, 3, 18, 79, 159, 51%
+l10n/po/zh_CN/_versions/main/guides/getting-started.adoc.po, 4, 71, 77, 1127, 94%
 l10n/po/zh_CN/_versions/main/guides/redis-dev-services.adoc.po, 2, 12, 69, 282, 76%
 l10n/po/zh_CN/_versions/main/guides/kafka-dev-services.adoc.po, 4, 36, 67, 608, 89%
 l10n/po/zh_CN/_versions/main/guides/_includes/smallrye-kafka-outgoing.adoc.po, 36, 104, 59, 1140, 95%
@@ -281,7 +281,7 @@ l10n/po/zh_CN/_versions/main/guides/aot.adoc.po, 0, 78, 0, 887, 100%
 l10n/po/zh_CN/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 425, 100%
 l10n/po/zh_CN/_versions/main/guides/assistant.adoc.po, 0, 103, 0, 1120, 100%
 l10n/po/zh_CN/_versions/main/guides/compose-dev-services.adoc.po, 0, 175, 0, 2259, 100%
-l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 141, 0, 2588, 100%
+l10n/po/zh_CN/_versions/main/guides/cyclonedx.adoc.po, 0, 143, 0, 2610, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 434, 100%
 l10n/po/zh_CN/_versions/main/guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 482, 100%
@@ -311,7 +311,7 @@ l10n/po/zh_CN/_versions/main/guides/opentelemetry-logging.adoc.po, 0, 48, 0, 590
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-metrics.adoc.po, 0, 175, 0, 1773, 100%
 l10n/po/zh_CN/_versions/main/guides/opentelemetry-tracing.adoc.po, 0, 178, 0, 2244, 100%
 l10n/po/zh_CN/_versions/main/guides/proxy-registry.adoc.po, 0, 54, 0, 600, 100%
-l10n/po/zh_CN/_versions/main/guides/quarkus-data-hibernate.adoc.po, 0, 180, 0, 2400, 100%
+l10n/po/zh_CN/_versions/main/guides/quarkus-data-hibernate.adoc.po, 0, 216, 0, 2662, 100%
 l10n/po/zh_CN/_versions/main/guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
 l10n/po/zh_CN/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 0, 751, 0, 13556, 100%
 l10n/po/zh_CN/_versions/main/guides/security-openid-connect-client-registration.adoc.po, 0, 58, 0, 1025, 100%
