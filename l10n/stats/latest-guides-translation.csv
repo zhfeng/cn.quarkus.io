@@ -22,7 +22,7 @@ l10n/po/zh_CN/_guides/cdi-reference.adoc.po, 197, 308, 3211, 6141, 48%
 l10n/po/zh_CN/_guides/redis-reference.adoc.po, 205, 253, 3174, 4369, 28%
 l10n/po/zh_CN/_guides/infinispan-client-reference.adoc.po, 187, 202, 3060, 3210, 5%
 l10n/po/zh_CN/_guides/cassandra.adoc.po, 146, 165, 3020, 3395, 12%
-l10n/po/zh_CN/_guides/http-reference.adoc.po, 246, 306, 2745, 3501, 22%
+l10n/po/zh_CN/_guides/http-reference.adoc.po, 246, 308, 2745, 3509, 22%
 l10n/po/zh_CN/_guides/virtual-threads.adoc.po, 132, 157, 2739, 3297, 17%
 l10n/po/zh_CN/_guides/cache.adoc.po, 148, 172, 2683, 3314, 20%
 l10n/po/zh_CN/_guides/security-openid-connect-dev-services.adoc.po, 98, 132, 2630, 3415, 23%
@@ -274,7 +274,7 @@ l10n/po/zh_CN/_guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 425, 100
 l10n/po/zh_CN/_guides/assistant.adoc.po, 0, 103, 0, 1120, 100%
 l10n/po/zh_CN/_guides/cache-infinispan-reference.adoc.po, 0, 41, 0, 643, 100%
 l10n/po/zh_CN/_guides/compose-dev-services.adoc.po, 0, 175, 0, 2259, 100%
-l10n/po/zh_CN/_guides/cyclonedx.adoc.po, 0, 141, 0, 2588, 100%
+l10n/po/zh_CN/_guides/cyclonedx.adoc.po, 0, 147, 0, 2734, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-S2I-howto.adoc.po, 0, 42, 0, 571, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-docker-howto.adoc.po, 0, 30, 0, 434, 100%
 l10n/po/zh_CN/_guides/deploying-to-openshift-howto.adoc.po, 0, 32, 0, 482, 100%
