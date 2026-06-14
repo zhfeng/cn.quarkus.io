@@ -44,7 +44,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #. type: Plain text
 #: _posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc
@@ -184,7 +184,7 @@ msgstr ""
 #. type: Title ==
 #: _posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc
 msgid "Capabilities"
-msgstr ""
+msgstr "功能"
 
 #. type: Plain text
 #: _posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc
@@ -239,7 +239,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 
 #. type: Plain text
 #: _posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc
