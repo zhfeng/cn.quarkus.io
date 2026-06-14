@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-06-07 10:52+0000\n"
+"POT-Creation-Date: 2026-06-14 11:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,24 +25,6 @@ msgstr "预定播客"
 #. type: Hash Value: nextsessionguest
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Stéphane Épardaud & Gavin King"
-msgstr ""
-
-#. type: Hash Value: futurevideos date
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "June 8th, 2026"
-msgstr ""
-
-#. type: Hash Value: nextsessiontitle
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "Episode #250: What's new with Quarkus Data"
-msgstr ""
-
-#. type: Hash Value: futurevideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
 msgid "Mark Stoodley & Georgios Andrianakis"
 msgstr ""
 
@@ -52,7 +34,7 @@ msgstr ""
 msgid "June 15th, 2026"
 msgstr ""
 
-#. type: Hash Value: futurevideos title
+#. type: Hash Value: nextsessiontitle
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
 msgid "Episode #251: Faster Startup on IBM Semeru Runtimes in Quarkus"
@@ -139,7 +121,7 @@ msgstr ""
 #. type: Hash Value: futurevideos authors
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Guest TBD"
+msgid "Alexandru-Cătălin Diniș"
 msgstr ""
 
 #. type: Hash Value: futurevideos date
@@ -151,7 +133,7 @@ msgstr ""
 #. type: Hash Value: futurevideos title
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "TBD"
+msgid "Episode #255 - Faster, Leaner, Predictable: Quarkus in the real world"
 msgstr ""
 
 #. type: Hash Value: futurevideos date
@@ -202,10 +184,28 @@ msgstr ""
 msgid "Episode #257: Taming the JVM: Optimizing Java Workloads on OpenShift & Kubernetes"
 msgstr ""
 
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, fuzzy, no-wrap
+msgid "Martin Kouba"
+msgstr "马丁-库巴"
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "September 7th, 2026"
+msgstr ""
+
+#. type: Hash Value: futurevideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #258: Quarkus Feature Flags"
+msgstr ""
+
 #. type: Hash Value: nextsessiondate
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "2026-06-08T13:00Z"
+msgid "2026-06-15T13:00Z"
 msgstr ""
 
 #. type: Hash Value: pastheadline
@@ -213,6 +213,30 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Archived Podcast Videos"
 msgstr "存档播客视频"
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Stéphane Épardaud & Gavin King"
+msgstr ""
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "June 8th, 2026"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://youtube.com/live/E_5rSjAD-k0"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #250: What's new with Quarkus Data"
+msgstr ""
 
 #. type: Hash Value: pastvideos authors
 #: upstream/_data/insights-videos.yaml:0
@@ -2085,12 +2109,6 @@ msgstr ""
 #, no-wrap
 msgid "EPISODE #169: What’s new with Infinispan and Quarkus"
 msgstr ""
-
-#. type: Hash Value: pastvideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, fuzzy, no-wrap
-msgid "Martin Kouba"
-msgstr "马丁-库巴"
 
 #. type: Hash Value: pastvideos date
 #: upstream/_data/insights-videos.yaml:0
@@ -5664,9 +5682,9 @@ msgstr "2020 年 6 月 2 日"
 
 #. type: Hash Value: pastvideos link
 #: upstream/_data/insights-videos.yaml:0
-#, fuzzy, no-wrap
-msgid "hhttps://youtu.be/6XVBa5YlEsw"
-msgstr "hhttps://youtu.be/6XVBa5YlEsw"
+#, no-wrap
+msgid "https://youtu.be/6XVBa5YlEsw"
+msgstr ""
 
 #. type: Hash Value: pastvideos title
 #: upstream/_data/insights-videos.yaml:0
@@ -5787,6 +5805,10 @@ msgstr "即将播客"
 #, fuzzy, no-wrap
 msgid "View the Podcast on these platforms"
 msgstr "在这些平台上观看播客"
+
+#, fuzzy, no-wrap
+#~ msgid "hhttps://youtu.be/6XVBa5YlEsw"
+#~ msgstr "hhttps://youtu.be/6XVBa5YlEsw"
 
 #, fuzzy, no-wrap
 #~ msgid "What's new with Quarkus JSF"

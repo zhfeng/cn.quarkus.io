@@ -66,7 +66,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-03-24-movie-similarity-search-using-vector-databases.adoc
-msgid "https://docs.quarkiverse.io/quarkus-langchain4j/dev/llms.html[Model provider]"
+msgid "https://docs.quarkiverse.io/quarkus-langchain4j/dev/models.html[Model provider]"
 msgstr ""
 
 #. type: Plain text

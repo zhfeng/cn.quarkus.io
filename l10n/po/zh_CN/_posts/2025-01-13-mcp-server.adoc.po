@@ -360,7 +360,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-01-13-mcp-server.adoc
-msgid "https://weather.gov/api[Weather API Documentation]"
+msgid "https://api.weather.gov[Weather API Documentation]"
 msgstr ""
 
 #. type: Plain text

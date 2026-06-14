@@ -153,7 +153,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-01-29-introducing-mcp-servers.adoc
-msgid "https://block.github.io/goose/docs/quickstart/[Goose]"
+msgid "https://goose-docs.ai/docs/quickstart/[Goose]"
 msgstr ""
 
 #. type: Plain text
@@ -163,7 +163,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-01-29-introducing-mcp-servers.adoc
-msgid "Goose is noteworthy given it is opensource and available both as a desktop app (on MacOS) and as a cli tool. It was https://block.github.io/goose/docs/quickstart/[recently announced] with full support for the Model Context Protocol."
+msgid "Goose is noteworthy given it is opensource and available both as a desktop app (on MacOS) and as a cli tool. It was https://goose-docs.ai/docs/quickstart/[recently announced] with full support for the Model Context Protocol."
 msgstr ""
 
 #. type: Plain text
