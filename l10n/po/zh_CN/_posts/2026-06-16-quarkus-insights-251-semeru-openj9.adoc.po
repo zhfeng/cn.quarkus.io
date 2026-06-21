@@ -517,7 +517,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-06-16-quarkus-insights-251-semeru-openj9.adoc
 msgid "Conclusion"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _posts/2026-06-16-quarkus-insights-251-semeru-openj9.adoc
