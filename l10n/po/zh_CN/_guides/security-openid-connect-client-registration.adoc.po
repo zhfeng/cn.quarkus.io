@@ -95,7 +95,7 @@ msgstr ""
 
 #. type: Plain text
 #: _guides/security-openid-connect-client-registration.adoc
-msgid "You or may not need to acquire an initial registration access token. If you don't, then you will have to enable one or more client registration policies in your OIDC provider's dashboard. For example, see https://www.keycloak.org/docs/latest/securing_apps/#_client_registration_policies[Keycloak client registration policies]."
+msgid "You or may not need to acquire an initial registration access token. If you don't, then you will have to enable one or more client registration policies in your OIDC provider's dashboard. For example, see https://www.keycloak.org/securing-apps/client-registration[Keycloak client registration policies]."
 msgstr ""
 
 #. type: Plain text
@@ -297,7 +297,7 @@ msgstr ""
 
 #. type: Plain text
 #: _guides/security-openid-connect-client-registration.adoc
-msgid "https://www.keycloak.org/docs/latest/securing_apps/#_client_registration[Keycloak Dynamic Client Registration Service]"
+msgid "https://www.keycloak.org/securing-apps/client-registration[Keycloak Dynamic Client Registration Service]"
 msgstr ""
 
 #. type: Plain text
