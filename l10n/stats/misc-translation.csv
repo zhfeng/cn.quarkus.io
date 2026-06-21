@@ -33,15 +33,15 @@ l10n/po/zh_CN/_includes/support-help-band.html.po, 0, 11, 0, 152, 100%
 l10n/po/zh_CN/_includes/support-options-band.html.po, 0, 5, 0, 33, 100%
 l10n/po/zh_CN/_includes/worldtour-code.html.po, 0, 3, 0, 36, 100%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 44%
-l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 626, 1639, 3197, 6847, 54%
+l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 626, 1650, 3197, 6872, 54%
 l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 610, 1602, 3156, 6694, 53%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 616, 965, 2374, 3857, 39%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 616, 966, 2374, 3859, 39%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 78, 87, 886, 950, 7%
 l10n/po/zh_CN/_data/extensions.yaml.po, 390, 416, 856, 883, 4%
-l10n/po/zh_CN/_data/versioned/main/index/relations.yaml.po, 158, 529, 708, 1436, 51%
+l10n/po/zh_CN/_data/versioned/main/index/relations.yaml.po, 158, 531, 708, 1441, 51%
 l10n/po/zh_CN/_data/versioned/latest/index/relations.yaml.po, 155, 517, 707, 1410, 50%
 l10n/po/zh_CN/_data/versioned/3-8/index/relations.yaml.po, 158, 446, 702, 1195, 42%
 l10n/po/zh_CN/_data/versioned/3-6/index/relations.yaml.po, 154, 444, 674, 1182, 43%
@@ -51,7 +51,7 @@ l10n/po/zh_CN/_data/newsletter.yaml.po, 130, 208, 326, 534, 39%
 l10n/po/zh_CN/_data/guides-2-13.yaml.po, 59, 707, 259, 4448, 95%
 l10n/po/zh_CN/_data/guides-2-7.yaml.po, 44, 666, 215, 4223, 95%
 l10n/po/zh_CN/_data/katakodalist.yaml.po, 17, 17, 141, 141, 0%
-l10n/po/zh_CN/_data/projectfooter.yaml.po, 77, 105, 122, 224, 46%
+l10n/po/zh_CN/_data/projectfooter.yaml.po, 78, 105, 123, 223, 45%
 l10n/po/zh_CN/_data/getstarted-guides.yaml.po, 14, 15, 104, 108, 4%
 l10n/po/zh_CN/_data/versioned/3-8/index/quarkiverse.yaml.po, 7, 102, 98, 690, 86%
 l10n/po/zh_CN/_data/versioned/latest/index/quarkiverse.yaml.po, 7, 102, 98, 690, 86%
@@ -78,4 +78,4 @@ l10n/po/zh_CN/_data/versioned/3-33/index/quarkus.yaml.po, 0, 1581, 0, 6609, 100%
 l10n/po/zh_CN/_data/versioned/3-33/index/relations.yaml.po, 0, 515, 0, 1403, 100%
 l10n/po/zh_CN/_data/versioned/3-34/index/quarkus.yaml.po, 0, 1581, 0, 6610, 100%
 l10n/po/zh_CN/_data/versioned/3-34/index/relations.yaml.po, 0, 515, 0, 1403, 100%
-l10n/po/zh_CN/_data/wg.yaml.po, 0, 244, 0, 13119, 100%
+l10n/po/zh_CN/_data/wg.yaml.po, 0, 246, 0, 13272, 100%
