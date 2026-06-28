@@ -27,7 +27,7 @@ msgstr ""
 #. type: Title =
 #: _guides/jlink.adoc
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #. type: Plain text
 #: _guides/jlink.adoc

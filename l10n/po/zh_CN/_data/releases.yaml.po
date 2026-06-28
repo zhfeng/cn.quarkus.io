@@ -68,7 +68,7 @@ msgstr ""
 #: upstream/_data/releases.yaml:0
 #, no-wrap
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #. type: Hash Value: releases lts
 #: upstream/_data/releases.yaml:0
@@ -1598,7 +1598,7 @@ msgstr ""
 #: upstream/_data/releases.yaml:0
 #, no-wrap
 msgid "Red Hat Build of Quarkus"
-msgstr ""
+msgstr "红帽的Quarkus构建"
 
 #. type: Hash Value: support_providers rhbq url
 #: upstream/_data/releases.yaml:0

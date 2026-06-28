@@ -756,7 +756,7 @@ msgstr ""
 #. type: Title =
 #: _versions/main/guides/aesh.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/main/guides/aesh.adoc

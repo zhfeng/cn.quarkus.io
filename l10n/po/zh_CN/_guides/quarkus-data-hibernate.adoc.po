@@ -57,12 +57,12 @@ msgstr ""
 #. type: Block title
 #: _guides/quarkus-data-hibernate.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _guides/quarkus-data-hibernate.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
@@ -371,7 +371,7 @@ msgstr ""
 #. type: Table
 #: _guides/quarkus-data-hibernate.adoc
 msgid "`T`"
-msgstr ""
+msgstr "`T` "
 
 #. type: Table
 #: _guides/quarkus-data-hibernate.adoc
@@ -887,7 +887,7 @@ msgstr ""
 #. type: Table
 #: _guides/quarkus-data-hibernate.adoc
 msgid "Query parameters"
-msgstr ""
+msgstr "查询参数"
 
 #. type: Table
 #: _guides/quarkus-data-hibernate.adoc
@@ -1109,7 +1109,7 @@ msgstr ""
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
 msgid "`order by ...` which will expand to `from EntityName order by ...`"
-msgstr ""
+msgstr "`order by ...` 语句会被扩展为： `from EntityName order by ...` "
 
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
@@ -1124,12 +1124,12 @@ msgstr ""
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
 msgid "`<query>` will expand to `from EntityName where <query>`"
-msgstr ""
+msgstr "`<query>` 语句会被扩展为： `from EntityName where <query>` "
 
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
 msgid "If your update query does not start with `update`, we support the following additional forms:"
-msgstr ""
+msgstr "如果你的更新语句不是以 `update` 开始，我们还支持以下的形式："
 
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
@@ -1149,12 +1149,12 @@ msgstr ""
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
 msgid "If your delete query does not start with `delete`, we support the following additional forms:"
-msgstr ""
+msgstr "如果你的删除语句不是以 `delete` 开始，我们还支持以下的形式："
 
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
 msgid "`from EntityName ...` which will expand to `delete from EntityName ...`"
-msgstr ""
+msgstr "`from EntityName ...​` 语句会被扩展为： `delete from EntityName ...​` "
 
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
@@ -1164,7 +1164,7 @@ msgstr ""
 #. type: Plain text
 #: _guides/quarkus-data-hibernate.adoc
 msgid "`<query>` will expand to `delete from EntityName where <query>`"
-msgstr ""
+msgstr "`<query>` 语句会被扩展为： `delete from EntityName where <query>` "
 
 #. type: Title ===
 #: _guides/quarkus-data-hibernate.adoc

@@ -188,7 +188,7 @@ msgstr ""
 #: upstream/_data/contributors.yaml:0
 #, no-wrap
 msgid "60"
-msgstr ""
+msgstr "60"
 
 #. type: Hash Value: contributors login
 #: upstream/_data/contributors.yaml:0
@@ -392,7 +392,7 @@ msgstr ""
 #: upstream/_data/contributors.yaml:0
 #, no-wrap
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #. type: Hash Value: contributors login
 #: upstream/_data/contributors.yaml:0

@@ -56,12 +56,12 @@ msgstr ""
 #. type: Block title
 #: _versions/main/guides/http3-reference.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/main/guides/http3-reference.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/main/guides/http3-reference.adoc
@@ -91,17 +91,17 @@ msgstr ""
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
@@ -116,7 +116,7 @@ msgstr ""
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
 msgid "`true`"
-msgstr ""
+msgstr "`true` "
 
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
@@ -223,7 +223,7 @@ msgstr ""
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
 msgid "Platform"
-msgstr ""
+msgstr "平台"
 
 #. type: Table
 #: _versions/main/guides/http3-reference.adoc
