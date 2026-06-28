@@ -6,8 +6,8 @@ l10n/po/zh_CN/_posts/2024-03-27-oidc-proxy.adoc.po, 101, 104, 2889, 2961, 3%
 l10n/po/zh_CN/_posts/2021-09-13-decathlon-user-story.adoc.po, 86, 86, 2800, 2800, 0%
 l10n/po/zh_CN/_posts/2021-06-08-quarkus-deploys-apps-on-openshift.adoc.po, 119, 119, 2762, 2762, 0%
 l10n/po/zh_CN/_posts/2023-09-19-virtual-thread-1.adoc.po, 67, 67, 2505, 2505, 0%
-l10n/po/zh_CN/_posts/2022-04-05-camel-quarkus-effortless-apis.adoc.po, 110, 111, 2495, 2496, 1%
 l10n/po/zh_CN/_posts/2023-04-26-quarkus-3-0-final-released.adoc.po, 154, 156, 2472, 2474, 1%
+l10n/po/zh_CN/_posts/2022-04-05-camel-quarkus-effortless-apis.adoc.po, 107, 111, 2400, 2502, 5%
 l10n/po/zh_CN/_posts/2022-02-22-quarkus-superheroes-to-the-rescue.adoc.po, 90, 91, 2364, 2365, 1%
 l10n/po/zh_CN/_posts/2023-09-11-live-diff-and-update-using-idea.adoc.po, 101, 103, 2336, 2338, 1%
 l10n/po/zh_CN/_posts/2023-12-04-testing-quarkus-with-citrus.adoc.po, 92, 92, 2298, 2298, 0%
@@ -232,9 +232,9 @@ l10n/po/zh_CN/_posts/2019-10-02-quarkus-0-23-2-released.adoc.po, 21, 22, 339, 34
 l10n/po/zh_CN/_posts/2023-10-19-virtual-threads-5.adoc.po, 19, 19, 327, 327, 0%
 l10n/po/zh_CN/_posts/2020-04-28-eclipse-quarkus-tools-4.15.0.Final.adoc.po, 29, 30, 327, 365, 11%
 l10n/po/zh_CN/_posts/2023-09-14-cve-2023-4853.adoc.po, 25, 25, 316, 316, 0%
-l10n/po/zh_CN/_posts/2020-01-21-march-of-ides.adoc.po, 33, 58, 312, 393, 21%
 l10n/po/zh_CN/_posts/2019-11-20-quarkus-1-0-0-CR2-released.adoc.po, 17, 18, 312, 313, 1%
 l10n/po/zh_CN/_posts/2020-06-15-quarkus-hackathon-announcement.adoc.po, 31, 31, 308, 308, 0%
+l10n/po/zh_CN/_posts/2020-01-21-march-of-ides.adoc.po, 32, 58, 308, 393, 22%
 l10n/po/zh_CN/_posts/2024-04-17-quarkus-3-2-12-final-released.adoc.po, 26, 26, 304, 304, 0%
 l10n/po/zh_CN/_posts/2020-01-21-quarkus-eclipse-microprofile-3-2-compatible.adoc.po, 6, 6, 295, 295, 0%
 l10n/po/zh_CN/_posts/2020-04-30-insights.adoc.po, 18, 18, 290, 290, 0%
@@ -441,10 +441,13 @@ l10n/po/zh_CN/_posts/2019-05-08-welcome.adoc.po, 4, 4, 75, 75, 0%
 l10n/po/zh_CN/_posts/2023-11-08-mandrel-23-1-image-size-increase.md.po, 1, 91, 1, 1815, 100%
 l10n/po/zh_CN/_posts/2023-11-02-mandrel-23-0-image-size-increase.md.po, 1, 124, 1, 3025, 100%
 l10n/po/zh_CN/_posts/2026-17-06-CVE-2026-50559.adoc.po, 0, 10, 0, 72, 100%
+l10n/po/zh_CN/_posts/2026-06-24-quarkus-3-37-released.adoc.po, 0, 52, 0, 795, 100%
+l10n/po/zh_CN/_posts/2026-06-23-quarkus-insights-252-performance-engineering-lessons.adoc.po, 0, 62, 0, 1704, 100%
 l10n/po/zh_CN/_posts/2026-06-18-quarkus-3-36-3-released.adoc.po, 0, 16, 0, 169, 100%
-l10n/po/zh_CN/_posts/2026-06-16-quarkus-insights-251-semeru-openj9.adoc.po, 0, 106, 0, 1488, 100%
+l10n/po/zh_CN/_posts/2026-06-16-quarkus-insights-251-semeru-openj9.adoc.po, 0, 106, 0, 1489, 100%
 l10n/po/zh_CN/_posts/2026-06-15-introducing-quarkus-data.adoc.po, 0, 42, 0, 1236, 100%
 l10n/po/zh_CN/_posts/2026-06-11-quarkus-3-36-2-released.adoc.po, 0, 16, 0, 169, 100%
+l10n/po/zh_CN/_posts/2026-06-10-when-the-jit-cant-keep-up.adoc.po, 0, 72, 0, 2048, 100%
 l10n/po/zh_CN/_posts/2026-06-10-a2a-java-sdk-1-0-0-final-released.adoc.po, 0, 61, 0, 936, 100%
 l10n/po/zh_CN/_posts/2026-06-09-quarkus-newsletter-69.adoc.po, 0, 6, 0, 282, 100%
 l10n/po/zh_CN/_posts/2026-06-08-quarkus-insights-250-quarkus-data.adoc.po, 0, 120, 0, 2037, 100%
