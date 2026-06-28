@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-31 10:39+0000\n"
+"POT-Creation-Date: 2026-06-28 10:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -358,22 +358,46 @@ msgstr "容器优先"
 msgid "/container-first"
 msgstr ""
 
-#. type: Hash Value: sections links description
+#. type: Hash Value: sections subsections links description
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
-msgid "Migrate from Spring Boot"
+msgid "Spring compatibility with Quarkus"
 msgstr ""
 
-#. type: Hash Value: sections links title
+#. type: Hash Value: sections subsections links title
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
-msgid "Using Spring?"
+msgid "Leverage your Spring expertise on Quarkus"
 msgstr ""
 
-#. type: Hash Value: sections links url
+#. type: Hash Value: sections subsections links url
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "/spring"
+msgstr ""
+
+#. type: Hash Value: sections subsections links description
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "Migrate from Spring Boot to Quarkus"
+msgstr ""
+
+#. type: Hash Value: sections subsections links title
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "Migrate to Quarkus"
+msgstr ""
+
+#. type: Hash Value: sections subsections links url
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "/spring/migrate/"
+msgstr ""
+
+#. type: Hash Value: sections subsections title
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "Spring Migration to Quarkus"
 msgstr ""
 
 #. type: Hash Value: sections subsections links description
@@ -525,6 +549,48 @@ msgstr ""
 #, no-wrap
 msgid "Documentation"
 msgstr "文档"
+
+#. type: Hash Value: sections links description
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "Listing of all releases and support status"
+msgstr ""
+
+#. type: Hash Value: sections links priority
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "0.5"
+msgstr ""
+
+#. type: Hash Value: sections links title
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "Releases"
+msgstr ""
+
+#. type: Hash Value: sections links url
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "/releases"
+msgstr ""
+
+#. type: Hash Value: sections links description
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "Listing of releases which have reached the end of community support"
+msgstr ""
+
+#. type: Hash Value: sections links title
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "End-of-life releases"
+msgstr ""
+
+#. type: Hash Value: sections links url
+#: upstream/_data/sitemap-links.yaml:0
+#, no-wrap
+msgid "/eol"
+msgstr ""
 
 #. type: Hash Value: sections links description
 #: upstream/_data/sitemap-links.yaml:0
@@ -782,12 +848,6 @@ msgstr ""
 #: upstream/_data/sitemap-links.yaml:0
 #, no-wrap
 msgid "Project supporters"
-msgstr ""
-
-#. type: Hash Value: sections links priority
-#: upstream/_data/sitemap-links.yaml:0
-#, no-wrap
-msgid "0.5"
 msgstr ""
 
 #. type: Hash Value: sections links title

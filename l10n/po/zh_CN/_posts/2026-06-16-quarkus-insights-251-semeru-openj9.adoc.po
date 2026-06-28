@@ -53,7 +53,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2026-06-16-quarkus-insights-251-semeru-openj9.adoc
-msgid "**Freely available** - No features behind paywalls, with quarterly updates for Java 8, 11, 17, 21, and 26"
+msgid "**Freely available** - No features behind paywalls, with quarterly updates for Java 8, 11, 17, 21, 25, and 26"
 msgstr ""
 
 #. type: Plain text

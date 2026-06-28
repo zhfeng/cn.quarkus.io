@@ -506,6 +506,21 @@ msgstr ""
 
 #. type: Table
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "quarkus.oidc.credentials.for-all-endpoints"
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "false"
+msgstr "false"
+
+#. type: Table
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "Send credentials to all OIDC endpoints including the discovery and JWKS endpoints."
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
 msgid "Client secret - use it if the HTTP `Authorization: Basic` client id and secret pair is expected"
 msgstr ""
 
@@ -798,11 +813,6 @@ msgstr ""
 
 #. type: Table
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "false"
-msgstr "false"
-
-#. type: Table
-#: _versions/main/guides/security-oidc-expanded-configuration.adoc
 msgid "Whether to keep a trailing slash in the audience value"
 msgstr ""
 
@@ -905,7 +915,9 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
-msgid "Set `quarkus.oidc.credentials.jwt.source=bearer` if the client authentication token is provided by Kubernetes, and use `quarkus.oidc.credentials.jwt.token-path` to point to the file resource containing this token."
+msgid ""
+"Set `quarkus.oidc.credentials.jwt.source=bearer` if the client authentication token is provided by Kubernetes, and use `quarkus.oidc.credentials.jwt.token-path` to point to the file resource containing this token.\n"
+"Set `quarkus.oidc.credentials.for-all-endpoints=true` when the OIDC provider enforces authenticated access to the discovery and JWKS endpoints. See xref:security-oidc-code-flow-authentication.adoc#authenticated-access-to-all-oidc-endpoints[Authenticated access to all OIDC endpoints] for more information."
 msgstr ""
 
 #. type: Title ==

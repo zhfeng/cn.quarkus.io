@@ -97,7 +97,7 @@ msgstr ""
 #: _posts/2025-03-26-quarkus-3-21-0-released.adoc
 msgid ""
 "Camel Quarkus has been upgraded to 3.20.0.\n"
-"You can consult the https://camel.apache.org/blog/camel-quarkus-release-3.20.0[release notes] for more information."
+"You can consult the https://camel.apache.org/releases/q-3.20.0/[release notes] for more information."
 msgstr ""
 
 #. type: Title ===
