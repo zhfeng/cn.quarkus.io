@@ -2,7 +2,7 @@ Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 l10n/po/zh_CN/_guides/writing-extensions.adoc.po, 587, 663, 11680, 13165, 12%
 l10n/po/zh_CN/_guides/qute-reference.adoc.po, 737, 891, 10622, 13912, 24%
 l10n/po/zh_CN/_guides/native-reference.adoc.po, 304, 350, 9047, 10342, 13%
-l10n/po/zh_CN/_guides/rest.adoc.po, 454, 521, 7333, 8685, 16%
+l10n/po/zh_CN/_guides/rest.adoc.po, 454, 522, 7333, 8742, 17%
 l10n/po/zh_CN/_guides/resteasy-reactive.adoc.po, 454, 461, 7222, 7245, 1%
 l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 316, 342, 5747, 6061, 6%
 l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 260, 289, 5240, 5916, 12%
@@ -63,7 +63,7 @@ l10n/po/zh_CN/_guides/grpc-service-implementation.adoc.po, 107, 112, 1512, 1651,
 l10n/po/zh_CN/_guides/security-customization.adoc.po, 75, 88, 1494, 1743, 15%
 l10n/po/zh_CN/_guides/logging.adoc.po, 216, 359, 1466, 3829, 62%
 l10n/po/zh_CN/_guides/class-loading-reference.adoc.po, 61, 65, 1447, 1476, 2%
-l10n/po/zh_CN/_guides/mailer-reference.adoc.po, 86, 115, 1414, 1813, 23%
+l10n/po/zh_CN/_guides/mailer-reference.adoc.po, 86, 116, 1414, 1870, 25%
 l10n/po/zh_CN/_guides/vertx-reference.adoc.po, 107, 258, 1400, 3434, 60%
 l10n/po/zh_CN/_guides/extension-registry-user.adoc.po, 65, 96, 1391, 1712, 19%
 l10n/po/zh_CN/_guides/smallrye-fault-tolerance.adoc.po, 66, 120, 1386, 2242, 39%
@@ -108,7 +108,7 @@ l10n/po/zh_CN/_guides/spring-data-rest.adoc.po, 87, 112, 955, 1149, 17%
 l10n/po/zh_CN/_guides/stork.adoc.po, 57, 69, 951, 997, 5%
 l10n/po/zh_CN/_guides/lra.adoc.po, 18, 22, 946, 960, 2%
 l10n/po/zh_CN/_guides/context-propagation.adoc.po, 65, 73, 942, 1049, 11%
-l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 89, 231, 941, 4199, 78%
+l10n/po/zh_CN/_guides/security-openid-connect-client-reference.adoc.po, 89, 235, 941, 4281, 79%
 l10n/po/zh_CN/_guides/funqy-aws-lambda.adoc.po, 41, 78, 938, 1383, 33%
 l10n/po/zh_CN/_guides/hibernate-reactive.adoc.po, 58, 136, 935, 2182, 58%
 l10n/po/zh_CN/_guides/qute.adoc.po, 76, 97, 935, 1412, 34%
@@ -204,7 +204,6 @@ l10n/po/zh_CN/_guides/pulsar-dev-services.adoc.po, 19, 23, 325, 335, 3%
 l10n/po/zh_CN/_guides/scheduler.adoc.po, 20, 44, 307, 496, 39%
 l10n/po/zh_CN/_guides/grpc-kubernetes.adoc.po, 14, 17, 291, 319, 9%
 l10n/po/zh_CN/_guides/security-jwt.adoc.po, 30, 345, 289, 4871, 95%
-l10n/po/zh_CN/_guides/update-quarkus.adoc.po, 20, 22, 289, 291, 1%
 l10n/po/zh_CN/_guides/funqy-gcp-functions-http.adoc.po, 10, 15, 283, 301, 6%
 l10n/po/zh_CN/_guides/funqy-aws-lambda-http.adoc.po, 10, 15, 278, 296, 7%
 l10n/po/zh_CN/_guides/security-basic-authentication-howto.adoc.po, 21, 24, 277, 288, 4%
@@ -217,6 +216,7 @@ l10n/po/zh_CN/_guides/deploying-to-openshift.adoc.po, 37, 140, 240, 1937, 88%
 l10n/po/zh_CN/_guides/_includes/smallrye-pulsar-outgoing.adoc.po, 23, 31, 230, 239, 4%
 l10n/po/zh_CN/_guides/grpc-xds.adoc.po, 18, 20, 201, 205, 2%
 l10n/po/zh_CN/_guides/README.adoc.po, 20, 21, 200, 201, 1%
+l10n/po/zh_CN/_guides/update-quarkus.adoc.po, 17, 24, 195, 317, 39%
 l10n/po/zh_CN/_guides/security-vulnerability-detection.adoc.po, 15, 19, 187, 261, 29%
 l10n/po/zh_CN/_guides/security-jwt-build.adoc.po, 19, 138, 178, 1882, 91%
 l10n/po/zh_CN/_guides/_includes/smallrye-kafka-incoming.adoc.po, 56, 141, 174, 1739, 90%
@@ -311,7 +311,7 @@ l10n/po/zh_CN/_guides/quarkus-runtime-base-image.adoc.po, 0, 16, 0, 268, 100%
 l10n/po/zh_CN/_guides/security-oidc-expanded-configuration.adoc.po, 0, 751, 0, 13556, 100%
 l10n/po/zh_CN/_guides/security-openid-connect-client-registration.adoc.po, 0, 58, 0, 1025, 100%
 l10n/po/zh_CN/_guides/security-vertx-oidc-to-quarkus-oidc-migration.adoc.po, 0, 132, 0, 3155, 100%
-l10n/po/zh_CN/_guides/signals.adoc.po, 0, 104, 0, 1529, 100%
+l10n/po/zh_CN/_guides/signals.adoc.po, 0, 104, 0, 1540, 100%
 l10n/po/zh_CN/_guides/spring-tx.adoc.po, 0, 71, 0, 582, 100%
 l10n/po/zh_CN/_guides/stork-manual-service-registration.adoc.po, 0, 66, 0, 762, 100%
 l10n/po/zh_CN/_guides/stork-registration.adoc.po, 0, 45, 0, 456, 100%
