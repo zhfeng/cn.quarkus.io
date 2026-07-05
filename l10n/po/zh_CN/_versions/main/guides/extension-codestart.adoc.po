@@ -107,9 +107,8 @@ msgstr "buildtool。构建工具（如Maven、Gradle、Gradle with Kotlin DSL）
 
 #. type: Plain text
 #: _versions/main/guides/extension-codestart.adoc
-#, fuzzy
-msgid "language: The coding language (e.g. Java, Kotlin, Scala)"
-msgstr "语言。编码语言（如Java、Kotlin、Scala）。"
+msgid "language: The coding language (e.g. Java, Kotlin)"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/extension-codestart.adoc
@@ -345,6 +344,11 @@ msgstr "在扩展元数据中创建扩展绑定 link:https://github.com/quarkusi
 
 #. type: Plain text
 #: _versions/main/guides/extension-codestart.adoc
+msgid "If your extension provides a base codestart but also needs to activate additional codestarts (e.g., for shared configuration or common setup provided by other codestarts in the same artifact), you can use the `extra-names` property alongside `name`:"
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/extension-codestart.adoc
 #, fuzzy
 msgid "Add the readme <<readme-md>> section template in `base/README.tpl.qute.md`:"
 msgstr "在 `base/README.tpl.qute.md` 中添加 readme <<readme-md>> 部分模板："
@@ -453,9 +457,8 @@ msgstr "你必须在你的扩展代码启动源中使用 `org.acme` 作为包名
 
 #. type: Plain text
 #: _versions/main/guides/extension-codestart.adoc
-#, fuzzy
-msgid "The package will be automatically replaced in all the source files (.java, .kt, .scala). The package directory will also be automatically adjusted. If for some reason, another type of file needs the user package name then you should use a <<qute-templates>> for it and the `{project.package-name}` data placeholder (https://github.com/quarkusio/quarkus/blob/main/devtools/project-core-extension-codestarts/src/main/resources/codestarts/quarkus/extension-codestarts/grpc-codestart/base/src/main/proto/hello.tpl.qute.proto#L4[find an example in the grpc proto file, window=\"_blank\"])."
-msgstr "软件包将自动替换所有源文件（.java、.kt、.scala）。软件包目录也会自动调整。如果由于某种原因，其他类型的文件需要使用用户软件包名称，则应使用 <<qute-templates>> 和 `{project.package-name}` 数据占位符（可 link:https://github.com/quarkusio/quarkus/blob/main/devtools/project-core-extension-codestarts/src/main/resources/codestarts/quarkus/extension-codestarts/grpc-codestart/base/src/main/proto/hello.tpl.qute.proto#L4[在 grpc proto 文件中找到示例] ）。"
+msgid "The package will be automatically replaced in all the source files (.java, .kt). The package directory will also be automatically adjusted. If for some reason, another type of file needs the user package name then you should use a <<qute-templates>> for it and the `{project.package-name}` data placeholder (https://github.com/quarkusio/quarkus/blob/main/devtools/project-core-extension-codestarts/src/main/resources/codestarts/quarkus/extension-codestarts/grpc-codestart/base/src/main/proto/hello.tpl.qute.proto#L4[find an example in the grpc proto file, window=\"_blank\"])."
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/extension-codestart.adoc
@@ -489,9 +492,8 @@ msgstr " `./base` 包含所有将被处理的文件，与指定的语言无关�
 
 #. type: Plain text
 #: _versions/main/guides/extension-codestart.adoc
-#, fuzzy
-msgid "`./[java/kotlin/scala]` contains all the files that will be processed only if the specified language has been selected (overriding base)"
-msgstr " `./[java/kotlin/scala]` 包含所有只有在选择了指定语言的情况下才会被处理的文件（凌驾于基础之上）。"
+msgid "`./[java/kotlin]` contains all the files that will be processed only if the specified language has been selected (overriding base)"
+msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/extension-codestart.adoc

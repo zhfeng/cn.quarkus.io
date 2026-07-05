@@ -180,6 +180,21 @@ msgstr "你希望项目使用的平台的版本。它也可以接受一个版本
 
 #. type: Table
 #: _versions/main/guides/maven-tooling.adoc
+msgid "`stream`"
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/maven-tooling.adoc
+msgid "_Not set_"
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/maven-tooling.adoc
+msgid "A target platform stream, for example `3.15` or `io.quarkus.platform:3.15`. When specified, the extension registry client will be used to resolve the platform BOM corresponding to the given stream. Cannot be combined with `platformGroupId`, `platformArtifactId`, or `platformVersion`."
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/maven-tooling.adoc
 #, fuzzy, no-wrap
 msgid "`javaVersion`"
 msgstr " `projectVersion` "
@@ -957,7 +972,7 @@ msgstr "生成的可执行文件将是一个 64 位 Linux 可执行文件，因�
 
 #. type: Plain text
 #: _versions/main/guides/maven-tooling.adoc
-msgid "By default, the native executable will be generated using the `quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:{mandrel-flavor}` Docker image."
+msgid "By default, the native executable will be generated using the `quay.io/quarkus/ubi10-quarkus-mandrel-builder-image:{mandrel-flavor}` Docker image."
 msgstr ""
 
 #. type: Plain text
@@ -971,16 +986,16 @@ msgstr "如果要使用不同的 Docker 映像构建本地可执行文件（例�
 #. type: Plain text
 #: _versions/main/guides/maven-tooling.adoc
 msgid ""
-"The list of the available Docker images can be found on https://quay.io/repository/quarkus/ubi9-quarkus-mandrel-builder-image?tab=tags[quay.io].\n"
+"The list of the available Docker images can be found on https://quay.io/repository/quarkus/ubi10-quarkus-mandrel-builder-image?tab=tags[quay.io].\n"
 "Be aware that a given Quarkus version might not be compatible with all the images available."
 msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/maven-tooling.adoc
 msgid ""
-"Starting from Quarkus 3.19, the _builder_ image is based on UBI 9, and thus requires an UBI 9 base image if you want to run the native executable in a container.\n"
-"You can switch back to UBI 8, by setting the `quarkus.native.builder-image` property to one of the available image from the https://quay.io/repository/quarkus/ubi-quarkus-mandrel-builder-image?tab=tags[quay.io repository].\n"
-"For example ``quay.io/quarkus/ubi-quarkus-mandrel-builder-image:{mandrel-flavor}` is using UBI 8, and so the resulting native executable will be compatible with UBI 8 base images."
+"The _builder_ image is based on UBI 10, and thus requires an UBI 10 base image if you want to run the native executable in a container.\n"
+"You can switch to an older UBI version by setting the `quarkus.native.builder-image` property to one of the available images from the https://quay.io/repository/quarkus/ubi9-quarkus-mandrel-builder-image?tab=tags[quay.io repository (UBI 9)] or the https://quay.io/repository/quarkus/ubi-quarkus-mandrel-builder-image?tab=tags[quay.io repository (UBI 8)].\n"
+"For example `quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:{mandrel-flavor}` is using UBI 9, and so the resulting native executable will be compatible with UBI 9 base images."
 msgstr ""
 
 #. type: Plain text

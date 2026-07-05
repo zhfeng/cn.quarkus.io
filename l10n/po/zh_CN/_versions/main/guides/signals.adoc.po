@@ -519,7 +519,7 @@ msgstr ""
 #: _versions/main/guides/signals.adoc
 msgid ""
 "A `SignalMetadataEnricher` enriches the metadata of a signal emission _before_ any receiver is invoked.\n"
-"It is called once per emission (i.e., per call to `publish()`, `send()`, or `request()`), not per receiver."
+"It is called once per emission (i.e., per call to `publish()`, `send()`, or `request()`), not per receiver, and is executed synchronously on the thread that emits the signal."
 msgstr ""
 
 #. type: Plain text

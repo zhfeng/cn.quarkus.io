@@ -699,7 +699,7 @@ msgstr "设置 `quarkus.native.container-build` 属性为 `true` "
 
 #. type: Plain text
 #: _versions/main/guides/gradle-tooling.adoc
-msgid "Set `quarkus.native.builder-image` property to `quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:{mandrel-flavor}`"
+msgid "Set `quarkus.native.builder-image` property to `quay.io/quarkus/ubi10-quarkus-mandrel-builder-image:{mandrel-flavor}`"
 msgstr ""
 
 #. type: Plain text
@@ -736,7 +736,7 @@ msgstr "生成的可执行文件将是一个 64 位 Linux 可执行文件，因�
 
 #. type: Plain text
 #: _versions/main/guides/gradle-tooling.adoc
-msgid "By default, the native executable will be generated using the `quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:{mandrel-flavor}` Docker image."
+msgid "By default, the native executable will be generated using the `quay.io/quarkus/ubi10-quarkus-mandrel-builder-image:{mandrel-flavor}` Docker image."
 msgstr ""
 
 #. type: Plain text
@@ -750,13 +750,13 @@ msgstr "如果要使用不同的 Docker 映像构建本地可执行文件（例�
 #. type: Plain text
 #: _versions/main/guides/gradle-tooling.adoc
 msgid ""
-"The list of the available Docker images can be found on https://quay.io/repository/quarkus/ubi9-quarkus-mandrel-builder-image?tab=tags[quay.io].\n"
+"The list of the available Docker images can be found on https://quay.io/repository/quarkus/ubi10-quarkus-mandrel-builder-image?tab=tags[quay.io].\n"
 "Be aware that a given Quarkus version might not be compatible with all the images available."
 msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/gradle-tooling.adoc
-msgid "Note also that starting Quarkus 3.19, the default _builder_ images are based on UBI 9. To use the previous UBI 8 based images, you can use the pick an image from the https://quay.io/repository/quarkus/ubi-quarkus-mandrel-builder-image?tab=tags[quay.io repository]."
+msgid "The default _builder_ images are based on UBI 10. To use older UBI based images, you can pick an image from the https://quay.io/repository/quarkus/ubi9-quarkus-mandrel-builder-image?tab=tags[quay.io repository (UBI 9)] or the https://quay.io/repository/quarkus/ubi-quarkus-mandrel-builder-image?tab=tags[quay.io repository (UBI 8)]."
 msgstr ""
 
 #. type: Title =
