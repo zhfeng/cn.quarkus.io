@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-07-10-quarkus-langchain4j-opa-guardrails.adoc
 msgid "Introduction"
-msgstr ""
+msgstr "简介"
 
 #. type: Plain text
 #: _posts/2026-07-10-quarkus-langchain4j-opa-guardrails.adoc
@@ -355,7 +355,7 @@ msgstr ""
 #. type: Title ==
 #: _posts/2026-07-10-quarkus-langchain4j-opa-guardrails.adoc
 msgid "Running the application"
-msgstr ""
+msgstr "运行应用程序"
 
 #. type: Plain text
 #: _posts/2026-07-10-quarkus-langchain4j-opa-guardrails.adoc
@@ -599,7 +599,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-07-10-quarkus-langchain4j-opa-guardrails.adoc
 msgid "Conclusion"
-msgstr ""
+msgstr "解决方案"
 
 #. type: Plain text
 #: _posts/2026-07-10-quarkus-langchain4j-opa-guardrails.adoc

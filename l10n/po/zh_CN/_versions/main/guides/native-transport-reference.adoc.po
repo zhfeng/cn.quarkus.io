@@ -90,7 +90,7 @@ msgstr ""
 #. type: Table
 #: _versions/main/guides/native-transport-reference.adoc
 msgid "Platform"
-msgstr ""
+msgstr "平台"
 
 #. type: Table
 #: _versions/main/guides/native-transport-reference.adoc
@@ -197,12 +197,12 @@ msgstr ""
 #. type: Block title
 #: _versions/main/guides/native-transport-reference.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/main/guides/native-transport-reference.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _versions/main/guides/native-transport-reference.adoc
@@ -222,7 +222,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/main/guides/native-transport-reference.adoc
 msgid "Or in `application.yml`:"
-msgstr ""
+msgstr "或者在 `application.yml` ："
 
 #. type: Title ==
 #: _versions/main/guides/native-transport-reference.adoc
@@ -260,12 +260,12 @@ msgstr ""
 #. type: Table
 #: _versions/main/guides/native-transport-reference.adoc
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #. type: Table
 #: _versions/main/guides/native-transport-reference.adoc
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. type: Table
 #: _versions/main/guides/native-transport-reference.adoc
