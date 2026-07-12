@@ -1861,6 +1861,21 @@ msgstr ""
 
 #. type: Table
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "quarkus.oidc.token.refresh-token-cache-time-to-live"
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "0 (disabled)"
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "Duration for which a completed refresh result is cached to deduplicate concurrent requests"
+msgstr ""
+
+#. type: Table
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
 msgid "quarkus.oidc.authentication.session-age-extension"
 msgstr ""
 
@@ -1919,6 +1934,11 @@ msgstr ""
 #. type: Plain text
 #: _versions/main/guides/security-oidc-expanded-configuration.adoc
 msgid "The `quarkus.oidc.token.refresh-token` property is automatically enabled if the `quarkus.oidc.token.refresh-token-time-skew` property is configured."
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/security-oidc-expanded-configuration.adoc
+msgid "`quarkus.oidc.token.refresh-token-cache-time-to-live` controls how long the tokens returned in the refresh token grant response are kept in memory. When multiple concurrent requests carry the same expired session and the OIDC provider restricts how many times a refresh token can be used, duplicate refresh attempts may be rejected. Set this property to a short duration (for example, `5S`) to ensure only one refresh call is made and subsequent requests reuse the cached result. Avoid setting this property unless concurrent refresh requests are expected and the provider restricts refresh token reuse."
 msgstr ""
 
 #. type: Plain text

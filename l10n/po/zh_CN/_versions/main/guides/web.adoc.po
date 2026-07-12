@@ -239,12 +239,6 @@ msgstr "Quarkus 是全栈 Web 组件和全栈微服务（又称微前端）的�
 msgid "For example the https://github.com/quarkusio/search.quarkus.io[Quarkus documentation search engine] on https://quarkus.io[quarkus.io] uses the Web Bundler to create a full-stack web-component. With Lit Element for the web-component and OpenSearch for the indexation it is a nice way to enhance the static web-site experience in a dynamic way."
 msgstr "例如， link:https://quarkus.io[quarkus.io] 上的 link:https://quarkus.io[Quarkus] link:https://github.com/quarkusio/search.quarkus.io[文档搜索引擎] 就使用 Web Bundler 创建了一个全栈网络组件。网络组件使用 Lit Element，索引使用 OpenSearch，这是一种以动态方式增强静态网站体验的好方法。"
 
-#. type: Plain text
-#: _versions/main/guides/web.adoc
-#, fuzzy
-msgid "More content about this is coming soon..."
-msgstr "更多相关内容即将发布..."
-
 #. type: Title =
 #: _versions/main/guides/web.adoc
 #, fuzzy
@@ -253,9 +247,8 @@ msgstr "其他方式"
 
 #. type: Plain text
 #: _versions/main/guides/web.adoc
-#, fuzzy
-msgid "We described Quarkus most common ways to create web applications but there are other options:"
-msgstr "我们介绍了夸克创建网络应用程序的最常见方法，但还有其他选择："
+msgid "We described the most common ways to create web applications with Quarkus but there are other options:"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/web.adoc

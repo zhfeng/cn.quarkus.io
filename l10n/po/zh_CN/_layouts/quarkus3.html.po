@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-27 08:40+0000\n"
+"POT-Creation-Date: 2026-07-12 10:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,11 @@ msgstr ""
 #, fuzzy
 msgid "--- layout: base --- {% include title-band.html %}"
 msgstr "--- layout: base --- {% include title-band.html %}"
+
+#. type: Attribute 'alt' of: <div><div><div><div><div><img>
+#: upstream/_layouts/quarkus3.html:10
+msgid "Quarkus framework efficiency illustration"
+msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h2>
 #: upstream/_layouts/quarkus3.html:12
@@ -51,6 +56,11 @@ msgstr "Hibernate ORM 6.2 是 Quarkus 主要持久层的一次重大升级。它
 #, fuzzy
 msgid "While there are a lot of great features the move to Hibernate 6.2 introduces some breaking changes. We created a <a href=\"https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration\">Hibernate ORM migration guide</a> to make the upgrade from 5 to 6 as smooth as possible."
 msgstr "虽然 Hibernate 6.2 有很多强大的功能，但它也带来了一些破坏性的变化。我们创建了一份<a href=\"https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration\">Hibernate ORM 迁移指南</a>，以便尽可能顺利地从 5 升级到 6。"
+
+#. type: Attribute 'alt' of: <div><div><div><div><div><img>
+#: upstream/_layouts/quarkus3.html:23
+msgid "Quarkus developer services illustration"
+msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h2>
 #: upstream/_layouts/quarkus3.html:25
@@ -117,6 +127,11 @@ msgstr "Quarkus 3 支持基于 Pact 合同的测试功能，这对 Quarkus 开�
 msgid "Watch the <a href=\"https://www.youtube.com/watch?v=d9CSY8HuZ9U\">Quarkus Insights episode about Pact and Quarkus</a> to learn more."
 msgstr "请观看<a href=\"https://www.youtube.com/watch?v=d9CSY8HuZ9U\">有关 Pact 和 Quarkus 的 Quarkus Insights 一集</a>，了解更多信息。"
 
+#. type: Attribute 'alt' of: <div><div><div><div><div><img>
+#: upstream/_layouts/quarkus3.html:41
+msgid "Quarkus Kubernetes-native illustration"
+msgstr ""
+
 #. type: Content of: <div><div><div><div><div><h2>
 #: upstream/_layouts/quarkus3.html:43
 #, fuzzy
@@ -140,6 +155,11 @@ msgstr "Kubernetes 开发服务"
 #, fuzzy
 msgid "It can often be difficult for developers to get access to a Kubernetes cluster for local development. Quarkus 3.0 includes Dev Services for Kubernetes that automatically start and configure a Kubernetes API server in dev mode and when running tests utilizing Docker. Dev Services for Kubernetes implements a service discovery mechanism for your Quarkus applications running in dev mode to share a single cluster. Learn more about <a href=\"https://quarkus.io/guides/kubernetes-dev-services#enabling-disabling-dev-services-for-kubernetes\"> enabling Dev Services for Kubernetes</a>"
 msgstr "开发人员通常很难访问 Kubernetes 集群进行本地开发。Quarkus 3.0 包含 Kubernetes Dev Services，可在开发模式下和利用 Docker 运行测试时自动启动和配置 Kubernetes API 服务器。Kubernetes Dev Services 为在开发模式下运行的 Quarkus 应用程序实现了服务发现机制，以便共享一个集群。了解有关<a href=\"https://quarkus.io/guides/kubernetes-dev-services#enabling-disabling-dev-services-for-kubernetes\"> 启用 Kubernetes Dev Services</a>的更多信息"
+
+#. type: Attribute 'alt' of: <div><div><div><div><div><img>
+#: upstream/_layouts/quarkus3.html:52
+msgid "Quarkus community and standards illustration"
+msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h2>
 #: upstream/_layouts/quarkus3.html:54
@@ -187,6 +207,11 @@ msgstr "Eclipse MicroProfile 6"
 msgid "Quarkus 3 is aligned with MicroProfile 6.0 and Jakarta EE Core Profile 10. The Micrometer Metrics extension is recommended over the deprecated SmallRye Metrics implementation of MicroProfile Metrics."
 msgstr "Quarkus 3 与 MicroProfile 6.0 和 Jakarta EE Core Profile 10 保持一致。建议使用 Micrometer Metrics 扩展，而不是已废弃的 MicroProfile Metrics 的 SmallRye Metrics 实现。"
 
+#. type: Attribute 'alt' of: <div><div><div><div><div><img>
+#: upstream/_layouts/quarkus3.html:67
+msgid "Quarkus long-term support illustration"
+msgstr ""
+
 #. type: Content of: <div><div><div><div><div><h2>
 #: upstream/_layouts/quarkus3.html:69
 msgid "Long-term Support (LTS)"
@@ -195,6 +220,11 @@ msgstr ""
 #. type: Content of: <div><div><div><div><div><p>
 #: upstream/_layouts/quarkus3.html:70
 msgid "The community asked, so we’ve delivered. Starting with Quarkus 3.2, we introduced the first Quarkus LTS version. Learn more about the <a href=\"https://quarkus.io/blog/quarkus-3-20-0-released/\">3.20 LTS release</a> and about our <a href=\"https://quarkus.io/blog/lts-releases/\">LTS policies</a>."
+msgstr ""
+
+#. type: Attribute 'alt' of: <div><div><div><div><div><img>
+#: upstream/_layouts/quarkus3.html:76
+msgid "Quarkus migration guide illustration"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h2>

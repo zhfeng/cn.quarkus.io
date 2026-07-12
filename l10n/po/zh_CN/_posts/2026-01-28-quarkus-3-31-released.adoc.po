@@ -228,7 +228,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2026-01-28-quarkus-3-31-released.adoc
-msgid "There would be a lot more to say but the best is to have a look at the https://quarkus.io/guides/hibernate-panache-next[documentation], and give it a try."
+msgid "There would be a lot more to say but the best is to have a look at the https://quarkus.io/guides/quarkus-data-hibernate[documentation], and give it a try."
 msgstr ""
 
 #. type: Plain text

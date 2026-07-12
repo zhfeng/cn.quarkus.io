@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-28 10:50+0000\n"
+"POT-Creation-Date: 2026-07-12 10:14+0000\n"
 "PO-Revision-Date: 2022-05-16 12:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -30,7 +30,7 @@ msgstr "<input type=\"checkbox\" id=\"checkbox\" />"
 msgid "<a href=\"{{site.baseurl}}/\">"
 msgstr "<a href=\"{{site.baseurl}}/\">"
 
-#. type: Attribute 'title' of: <div><div><div><nav><div><a><img>
+#. type: Attribute 'alt' of: <div><div><div><nav><div><a><img>
 #: upstream/_includes/header-navigation.html:7
 #, fuzzy
 msgid "Quarkus"

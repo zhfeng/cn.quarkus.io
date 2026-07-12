@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-12 16:00+0000\n"
+"POT-Creation-Date: 2026-07-12 10:14+0000\n"
 "PO-Revision-Date: 2022-05-15 20:26+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,6 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0.1\n"
+
+#. type: Attribute 'alt' of: <div><div><div><img>
+#: upstream/_includes/homepage-features-band.html:4
+msgid "Illustration for Kube-Native: fast boot time and low memory in Kubernetes"
+msgstr ""
 
 #. type: Content of: <div><div><div><h2>
 #: upstream/_includes/homepage-features-band.html:7
@@ -55,6 +60,16 @@ msgstr "在开发应用程序时，将熟悉的指令式和响应式代码风格
 #: upstream/_includes/homepage-features-band.html:20
 msgid "<a href=\"/continuum\">Learn more</a>>"
 msgstr "<a href=\"/continuum\">了解更多</a>>"
+
+#. type: Attribute 'alt' of: <div><div><div><img>
+#: upstream/_includes/homepage-features-band.html:23
+msgid "Illustration for Unifies Imperative and Reactive programming model"
+msgstr ""
+
+#. type: Attribute 'alt' of: <div><div><div><img>
+#: upstream/_includes/homepage-features-band.html:30
+msgid "Illustration for Community and Standards: best-of-breed libraries on a standard backbone"
+msgstr ""
 
 #. type: Content of: <div><div><div><h2>
 #: upstream/_includes/homepage-features-band.html:33
@@ -105,3 +120,8 @@ msgstr "轻松生成本机可执行文件"
 #: upstream/_includes/homepage-features-band.html:51
 msgid "<a href=\"/developer-joy\">Learn more</a>>"
 msgstr "<a href=\"/vision/developer-joy\">了解更多</a>"
+
+#. type: Attribute 'alt' of: <div><div><div><img>
+#: upstream/_includes/homepage-features-band.html:54
+msgid "Illustration for Developer Joy: unified config, live reload, and native executable generation"
+msgstr ""

@@ -21,7 +21,7 @@ msgstr ""
 msgid "This summary was generated using AI, reviewed by humans - https://youtube.com/live/E_5rSjAD-k0[watch the video] for the full story."
 msgstr ""
 
-#. type: Title
+#. type: Title =
 #: _posts/2026-06-08-quarkus-insights-250-quarkus-data.adoc
 msgid "Quarkus Insights #250: What''s New with Quarkus Data"
 msgstr ""
@@ -488,7 +488,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2026-06-08-quarkus-insights-250-quarkus-data.adoc
-msgid "The naming discussion near the end of the episode suggested that https://quarkus.io/blog/quarkus-3-37-0-released/[Quarkus 3.37] would likely be the first release where users start seeing “Quarkus Data” appear, though with the caveat that package names and type names may still evolve."
+msgid "The naming discussion near the end of the episode suggested that https://quarkus.io/blog/quarkus-3-37-released/[Quarkus 3.37] would likely be the first release where users start seeing “Quarkus Data” appear, though with the caveat that package names and type names may still evolve."
 msgstr ""
 
 #. type: Title =
