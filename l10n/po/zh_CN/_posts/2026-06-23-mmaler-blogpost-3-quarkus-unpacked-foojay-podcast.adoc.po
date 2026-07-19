@@ -34,7 +34,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-06-23-mmaler-blogpost-3-quarkus-unpacked-foojay-podcast.adoc
 msgid "What is Quarkus?"
-msgstr ""
+msgstr "Quarkus是什么？"
 
 #. type: Plain text
 #: _posts/2026-06-23-mmaler-blogpost-3-quarkus-unpacked-foojay-podcast.adoc

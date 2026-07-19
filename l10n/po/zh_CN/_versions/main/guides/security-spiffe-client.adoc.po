@@ -37,12 +37,12 @@ msgstr ""
 #. type: Block title
 #: _versions/main/guides/security-spiffe-client.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _versions/main/guides/security-spiffe-client.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Title =
 #: _versions/main/guides/security-spiffe-client.adoc
@@ -133,7 +133,7 @@ msgstr ""
 #. type: Title =
 #: _versions/main/guides/security-spiffe-client.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _versions/main/guides/security-spiffe-client.adoc
