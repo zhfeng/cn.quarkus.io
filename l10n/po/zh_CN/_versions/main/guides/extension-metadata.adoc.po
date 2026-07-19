@@ -84,9 +84,8 @@ msgstr "扩展应该出现在 link:https://code.quarkus.io[code.quarkus.io] 的�
 
 #. type: Plain text
 #: _versions/main/guides/extension-metadata.adoc
-#, fuzzy
-msgid "Maturity status that could be `stable`, `preview`, `experimental`. It is up to extension maintainers to evaluate the maturity status and communicate it to the users"
-msgstr "成熟度状态，可以是 `stable` , `preview` , `experimental` 。由扩展的维护者来评估成熟度状态并将其传达给用户"
+msgid "Maturity status that could be `stable`, `preview`, `experimental`, `deprecated`. It is up to extension maintainers to evaluate the maturity status and communicate it to the users"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/extension-metadata.adoc
@@ -111,6 +110,11 @@ msgstr "link:https://quarkus.io/guides/extension-codestart[Codestart] 信息"
 #, fuzzy
 msgid "Configuration prefix"
 msgstr "配置前缀"
+
+#. type: Plain text
+#: _versions/main/guides/extension-metadata.adoc
+msgid "To mark an extension as deprecated, set the status to `deprecated`:"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/extension-metadata.adoc
