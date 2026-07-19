@@ -2516,14 +2516,6 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>&lt;a href="https://www.redhat.com/en/topics/cloud-native-apps/why-choose-red-hat-quarkus" class="button-cta btn-sm"&gt;Red Hat Support&lt;/a&gt;</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>&lt;a href="https://www.redhat.com/en/topics/cloud-native-apps/why-choose-red-hat-quarkus" class="button-cta btn-sm"&gt;红帽技术支持&lt;/a&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;a href="{{ site.data.versions.quarkus.announce }}"&gt;Read the release notes&lt;/a&gt;</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -8748,14 +8740,6 @@ You can optionally apply a time limit to individual suppressions by adding an ex
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Enterprise support provided by Red Hat for the product.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>该产品由红帽公司提供企业级支持。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Entry point for everything gRPC.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -12827,14 +12811,6 @@ You can therefore use Mutiny APIs for handling downstream messages and errors.</
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>如果您偏好于使用Reactive Stream APIs，您可以使用 `MutinyEmitter` ，它将在 `send` 方法中返回 `Uni&lt;Void&gt;` 。因此，您可以使用Mutiny APIs来处理下游的信息和错误。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If you require a higher level of support, you have options.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>如果您需要更高级别的支持，您可以选择。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17566,14 +17542,6 @@ This is important if you consider using XA transactions that involve multiple re
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>GraalVM生产的二进制文件中不支持本地传输。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Need More Than Community Support?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>需要超出社区范围的支持?</seg>
       </tuv>
     </tu>
     <tu>
