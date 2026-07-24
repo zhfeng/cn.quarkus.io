@@ -53,18 +53,6 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>**Important:** the guides are maintained in the main Quarkus repository and pull requests should be submitted there:
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>**重要：** 指南保存在主Quarkus仓库中，合并请求应该提交在那里：
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>*Experimental*: early feedback is requested to mature the idea. There is no guarantee of stability nor long term presence in the platform until the solution matures. Such extensions are at the beginning of their maturation process.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -200,14 +188,6 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>./gradlew build -Dquarkus.package.type=native -Dquarkus.native.container-build=true {build-additional-parameters}
 </seg>
       </tuv>
@@ -296,6 +276,14 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/apicurio-registry-dev-services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/appcds</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/appcds</seg>
       </tuv>
     </tu>
     <tu>
@@ -599,7 +587,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
         <seg>/guides/deploying-to-heroku</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>/guides/deploying toheroku</seg>
+        <seg>/guides/deploying-to-heroku</seg>
       </tuv>
     </tu>
     <tu>
@@ -615,7 +603,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
         <seg>/guides/deploying-to-openshift</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>/guides/deploying toopenshift</seg>
+        <seg>/guides/deploying-to-openshift</seg>
       </tuv>
     </tu>
     <tu>
@@ -932,6 +920,14 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/grpc-xds</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/grpc-xds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/hibernate-orm</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -1080,6 +1076,14 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/kafka-getting-started</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/kafka-reactive-getting-started</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/kafka-reactive-getting-started</seg>
       </tuv>
     </tu>
     <tu>
@@ -1260,6 +1264,14 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/micrometer</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/micrometer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/mongodb</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -1344,6 +1356,14 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/opentracing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/optaplanner</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/optaplanner</seg>
       </tuv>
     </tu>
     <tu>
@@ -1556,6 +1576,14 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/rest-client-reactive</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/rest-client-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/rest-data-panache</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -1608,6 +1636,22 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/resteasy-client-multipart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/resteasy-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive-migration</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/resteasy-reactive-migration</seg>
       </tuv>
     </tu>
     <tu>
@@ -2890,6 +2934,14 @@ For example:</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>A list of all extensions that support Dev Services and their configuration options.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>所有支持开发服务的扩展及其配置选项的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>A minimal configuration for the Kafka connector with an incoming channel looks like the following:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -3347,7 +3399,7 @@ Adding them as static methods in your entity class is the Panache Active Record 
         <seg>Add this dependency to your `pom.xml`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>将此依赖添加到你的 `pom.xml` 中 ：</seg>
+        <seg>将以下依赖性添加到你的 `pom.xml` ：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3541,7 +3593,7 @@ are in the the build directory:  `target/` for maven, `build/` for gradle.</seg>
         <seg>All `list` methods have equivalent `stream` versions.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>所有 `list` 方法都有相对应的 `stream` 版本。</seg>
+        <seg>上述所有 `list` 方法都有等效的的 `stream` 版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4057,7 +4109,7 @@ This allows for proper encapsulation at runtime as all fields calls will be repl
         <seg>And this repository:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>还有这个储存库：</seg>
+        <seg>以及这个Repository类：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4549,7 +4601,7 @@ This can be done using a Jackson deserializer:</seg>
         <seg>As usual, the application can be packaged using:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>像往常一样，该应用程序能够使用以下方式进行打包:</seg>
+        <seg>像往常一样，该应用程序可以用以下方式打包：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4652,6 +4704,14 @@ It provides a convenient way of making just the necessary sources available to t
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Ask on &lt;a href="https://stackoverflow.com/questions/tagged/quarkus"&gt;Stack Overflow with the &lt;code&gt;quarkus&lt;/code&gt; tag&lt;/a&gt;</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>在&lt;a href="https://stackoverflow.com/questions/tagged/quarkus"&gt;Stack Overflow的&lt;code&gt;quarkus&lt;/code&gt;标签&lt;/a&gt;下提问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Assuming `/tmp/` is writable this can be fixed by setting the `vertx.cacheDirBase` property to point to a directory in `/tmp/` for instance in OpenShift by creating an environment variable `JAVA_OPTS` with the value `-Dvertx.cacheDirBase=/tmp/vertx`.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -4688,7 +4748,7 @@ GraalVM will simply return an empty list of fields.</seg>
         <seg>Attribute (_alias_)</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>Attribute (_alias_)</seg>
+        <seg>属性 _（别名）_</seg>
       </tuv>
     </tu>
     <tu>
@@ -6738,6 +6798,14 @@ Type: _string_</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Configuring Logging</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>配置日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Configuring Redis properties</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -7524,6 +7592,14 @@ It will contain our HTTP endpoints.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Cross-origin resource sharing</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Cross-Origin 资源共享</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Cross-site Request Forgery (CSRF) prevention</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -7760,7 +7836,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining entities in external projects or jars</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在外部项目或jar中定义实体</seg>
+        <seg>在外部项目或jar包中定义实体</seg>
       </tuv>
     </tu>
     <tu>
@@ -7768,7 +7844,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining your entity</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>定义你的实体</seg>
+        <seg>定义实体类</seg>
       </tuv>
     </tu>
     <tu>
@@ -7776,7 +7852,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining your repository</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>定义你的存储库</seg>
+        <seg>定义Repository</seg>
       </tuv>
     </tu>
     <tu>
@@ -7945,7 +8021,7 @@ If you're new to CDI then we recommend you to read the xref:cdi.adoc[Introductio
         <seg>Deprecation</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>弃用</seg>
+        <seg>废弃的API</seg>
       </tuv>
     </tu>
     <tu>
@@ -8247,6 +8323,14 @@ If your environment does not support Docker, you will need to start the server m
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>禁用权限 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Discover how to create your first Quarkus application.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>了解如何创建您的第一个Quarkus应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8651,7 +8735,7 @@ record key propagation produces the outgoing record with the same _key_ as the i
 Type: _boolean_</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>启用（默认）或禁用云事件支持。如果在 _incoming_ 通道上启用了，则连接器会分析传入记录并尝试创建云事件元数据。如果在 _outgoing_ 通道上启用了，如果消息包括云事件元数据，则连接器会将传出消息作为云事件发送。
+        <seg>启用（默认启用）或停用云事件支持。如果在 _传入_ 通道上启用，连接器会分析传入记录并尝试创建云事件元数据。如果在 _传出_ 通道上启用，并且如果消息包括云事件元数据，连接器会将传出的消息作为云事件发送。
 
 类型: _boolean_</seg>
       </tuv>
@@ -9366,7 +9450,7 @@ This time, we will not accumulate the file's content in memory and write it in o
         <seg>First, let's create the `Fruit` bean as follows:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，让我们创建 `Fruit` 实体类，如下所示：</seg>
+        <seg>首先，让我们创建 `Fruit` bean，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9407,7 +9491,7 @@ This time, we will not accumulate the file's content in memory and write it in o
 Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新项目:</seg>
+        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新的项目:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9415,7 +9499,7 @@ Create a new project with the following command:</seg>
         <seg>First, we need a new project. Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新的项目:</seg>
+        <seg>首先，我们需要一个新的工程项目。用以下命令创建一个新项目：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9489,7 +9573,7 @@ See this part of the documentation: xref:mongodb.adoc#simplifying-mongodb-client
         <seg>First: an example</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>第一：一个例子</seg>
+        <seg>首先看一个例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -9869,7 +9953,7 @@ but only for the annotated test class. You can also place them on your `QuarkusT
         <seg>For instance, having the following properties in your `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>例如，在你的 `application.properties` 中有以下属性：</seg>
+        <seg>例如，在你的 `application.properties`中有以下属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10139,6 +10223,14 @@ The field names, or getters, of the projection class will be used to restrict wh
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>For usage questions, we recommend to:</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>对于使用问题，我们建议到：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>For using `KafkaCompanion` API in tests, start by adding the following dependency:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -10390,6 +10482,22 @@ Refer to &lt;&lt;jackson-serialization&gt;&gt; to write your own serializer/dese
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Getting Started to SmallRye Reactive Messaging with AMQP 1.0</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>SmallRye响应式消息与AMQP 1.0入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Getting Started to SmallRye Reactive Messaging with Apache Kafka</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>开始使用Apache Kafka的SmallRye响应式消息传递</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Getting Started with Reactive</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -10592,7 +10700,7 @@ be rejected.</seg>
         <seg>GraalVM binaries are not (yet) notarized for macOS Catalina as reported in this https://github.com/oracle/graal/issues/1724[GraalVM issue]. This means that you may see the following error when using `gu`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题] 中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
+        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题]中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11031,6 +11139,14 @@ Panache专注于简化Hibernate ORM实体，让你的Quarkus开发有趣。
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>Hibernate Reactive Panache依赖于编译时对实体类的字节码增强。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hibernate Search allows you to index your entities in an Elasticsearch cluster and easily offer full text search in all your Hibernate ORM-based applications.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Hibernate Search允许你在Elasticsearch集群中索引你的实体，并在你所有基于Hibernate ORM的应用程序中轻松提供全文搜索。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14312,7 +14428,7 @@ To know more about Mutiny, check the xref:mutiny-primer.adoc[Mutiny documentatio
         <seg>In your build file, add the following dependencies:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在build文件中添加以下依赖项。</seg>
+        <seg>在你的项目构建文件中，添加以下依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16515,7 +16631,7 @@ Transactions are also about JMS and other database access, so one API makes more
         <seg>Mandatory</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>Mandatory</seg>
+        <seg>是否强制</seg>
       </tuv>
     </tu>
     <tu>
@@ -17271,7 +17387,7 @@ Dev Services for Redis implements a _service discovery_ mechanism for your multi
         <seg>Most useful operations</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>最有用的操作</seg>
+        <seg>常用操作</seg>
       </tuv>
     </tu>
     <tu>
@@ -18053,7 +18169,7 @@ One important thing to note is that having a default constructor is required by 
         <seg>Nothing fancy. One important thing to note is that having a default constructor is required by the JSON serialization layer.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>这非常的简单。需要注意的一件事是， JSON 序列化层需要具有默认构造函数。</seg>
+        <seg>这是非常的简单。需要注意的重要一点是， JSON 序列化层需要具有默认构造函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18634,7 +18750,7 @@ This is done in the `application.properties` configuration file. Edit it to the 
         <seg>Once you have written your entity, here are the most common operations you will be able to perform:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>编写实体后，可以执行以下最常见的操作：</seg>
+        <seg>写好了实体类之后，你可以执行以下一些最常见的操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18642,7 +18758,7 @@ This is done in the `application.properties` configuration file. Edit it to the 
         <seg>Once you have written your repository, here are the most common operations you will be able to perform:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>编写存储库后，您可以执行以下最常见的操作：</seg>
+        <seg>写好了Repository类之后，你可以执行以下一些最常见的操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18755,7 +18871,7 @@ call must set a specific environment variable:</seg>
         <seg>Open your browser to http://localhost:8080/greeting.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>打开你的浏览器并访问 http://localhost:8080/greeting。</seg>
+        <seg>在你的浏览器中打开 http://localhost:8080/greeting 网页。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18860,7 +18976,7 @@ data across the lifespan of a distributed transaction.</seg>
         <seg>Or by name using a `Map`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>或者使用 `Map` ，按名字来命名：</seg>
+        <seg>或者使用 `Map` ，用key做参数名：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19724,7 +19840,7 @@ precedence:</seg>
         <seg>Quarkus - 超音速 亚原子 Java</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>Quarkus 2.0 continues the mission of making Java the preferred framework for Kubernetes-native development with new developer tools and improved performance.</seg>
       </tuv>
@@ -19923,6 +20039,14 @@ OpenID Connect extension has to be used if the Quarkus application needs to auth
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Quarkus Security is a framework that provides the architecture, multiple authentication and authorization mechanisms, and other tools for you to build secure and production-quality Java applications.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Quarkus Security是一个框架，它提供了架构、多种认证和授权机制以及其他工具，用来为开发者提供构建达到生产级别安全性质量保证的Quarkus应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Quarkus Security is highly customizable. You can customize the following core security components of Quarkus:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -19952,7 +20076,7 @@ For example, the credentials can come from the `Authorization` header, client HT
         <seg>Quarkus Tools in your favorite IDE</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在你最喜欢的IDE中使用Quarkus工具</seg>
+        <seg>在你喜欢的IDE中使用Quarkus扩展工具</seg>
       </tuv>
     </tu>
     <tu>
@@ -20297,14 +20421,6 @@ It includes many reactive features and offers a broad ecosystem.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>Quarkus是一个 _Reactive_ 框架。 从一开始，_Reactive_ 就一直是Quarkus架构的基本原则。 它包括许多反应式功能，并提供广泛的生态系统。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quarkus is an Open Source project licensed under the &lt;a href="https://www.apache.org/licenses/LICENSE-2.0"&gt;Apache License version 2.0&lt;/a&gt;. First and foremost, it is an open community where contributions, ideas and discussions are done in the open and contributors are welcome. Let’s join forces in building the future of Java applications.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>Quarkus是一个在&lt;a href="https://www.apache.org/licenses/LICENSE-2.0"&gt;Apache许可证2.0版&lt;/a&gt;下许可的开源项目。首先，它是一个开放的社区，在这里，贡献、想法和讨论都是公开进行的，并且欢迎贡献者。让我们携手共建Java应用的未来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20762,7 +20878,7 @@ bring up your Quarkus lambda project in dev or test mode and code on your projec
         <seg>Query projection</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>查询映射</seg>
+        <seg>查询结果投影</seg>
       </tuv>
     </tu>
     <tu>
@@ -20770,7 +20886,7 @@ bring up your Quarkus lambda project in dev or test mode and code on your projec
         <seg>Query projection can be done with the `project(Class)` method on the `PanacheQuery` object that is returned by the `find()` methods.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>查询映射可以使用 `find()` 方法返回的 `PanacheQuery` 对象上的 `project(Class)` 方法来完成。</seg>
+        <seg>对 `find()` 方法返回的 `PanacheQuery` 对象，可以使用 `project(Class)` 方法投影到指定的实体类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20925,6 +21041,14 @@ to install as little software as possible).</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>重新增强Quarkus应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reactive</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>响应式</seg>
       </tuv>
     </tu>
     <tu>
@@ -21158,14 +21282,6 @@ On the `@Incoming` methods, you can control how multiple channels are merged usi
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>推荐使用的GraalVM版本。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Red Hat Build of Quarkus</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>红帽的Quarkus构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -22346,7 +22462,7 @@ A request will be sent to the OpenID Provider UserInfo endpoint and  an `io.quar
         <seg>Shared broker</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>共享的代理</seg>
+        <seg>共享的broker</seg>
       </tuv>
     </tu>
     <tu>
@@ -22774,7 +22890,7 @@ If WebSockets are supported, it uses them; otherwise, it degrades to SSE, long p
         <seg>Solution 1: using the active record pattern</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>解决方案1：使用active record（活动记录）模式</seg>
+        <seg>解决方案1：使用Active Record模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -22782,7 +22898,7 @@ If WebSockets are supported, it uses them; otherwise, it degrades to SSE, long p
         <seg>Solution 2: using the repository pattern</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>解决方案2：使用资源库模式</seg>
+        <seg>解决方案2：使用Repository模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -23075,6 +23191,14 @@ supported. Consider using xref:config-mappings.adoc[Mapping configuration to obj
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>在开发和测试模式下自动启动Elasticsearch。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start Keycloak or other providers automatically in dev and test modes.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>在开发和测试模式下自动启动Keycloak或其他提供者。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23529,7 +23653,7 @@ remove duplicates. If you want to only enable a test resource on a single test c
         <seg>Testing Your Application</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>测试你的应用程序</seg>
+        <seg>测试您的应用程序</seg>
       </tuv>
     </tu>
     <tu>
@@ -23700,6 +23824,14 @@ The fact that the application is reactive does not change anything.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>这就是它的全部内容：有了Panache，MongoDB看起来从未如此简洁</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The &lt;a href="https://groups.google.com/d/forum/quarkus-dev" target="_blank"&gt;quarkus-dev Google Groups&lt;/a&gt;</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>可以访问 &lt;a href="https://groups.google.com/d/forum/quarkus-dev" target="_blank"&gt;quarkus-dev Google Groups&lt;/a&gt;讨论组</seg>
       </tuv>
     </tu>
     <tu>
@@ -24505,7 +24637,7 @@ We'll explore different acknowledgment strategies in &lt;&lt;commit-strategies&g
         <seg>The `PanacheQuery` type has many other methods to deal with paging and returning streams.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`PanacheQuery` 类型有许多其他方法来处理分页和返回流。</seg>
+        <seg>`PanacheQuery` 类还有很多其他方法来做分页查询、返回流。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25050,7 +25182,7 @@ Type: _int_</seg>
         <seg>The application built in this guide is quite simple: the user can add elements in a list using a form and the list is updated.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素并更新列表。</seg>
+        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素，然后列表被更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25643,7 +25775,7 @@ using the default, `prod` profile.</seg>
         <seg>The final order of business is to make the configuration file known to the `native-image` executable by adding the proper configuration to `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>最后一项工作是通过向 `application.properties` 添加适当的配置，使配置文件为 `native-image` 可执行文件所知：</seg>
+        <seg>最后一项工作是通过向 `application.properties`添加适当的配置，使配置文件为 `native-image` 可执行文件所知：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25857,6 +25989,14 @@ complete list of externalized variables for use is given in the following table:
       <tuv xml:lang="en">
         <seg>The format for durations uses the standard `java.time.Duration` format.
 You can learn more about it in the link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc].</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>持续时间的格式使用标准的 `java.time.Duration` 格式您可以在 https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc] 中了解更多信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The format for durations uses the standard `java.time.Duration` format.  You can learn more about it in the link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>持续时间的格式使用标准的 `java.time.Duration` 格式您可以在 https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc] 中了解更多信息。</seg>
@@ -27231,7 +27371,7 @@ To achieve this we merge the stream coming from Kafka and a periodic stream emit
         <seg>Then add the relevant configuration properties in `{config-file}`.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>然后在 `{config-file}` 中添加相关的配置属性。</seg>
+        <seg>然后在 `{config-file}` 添加相关配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27400,7 +27540,7 @@ To achieve this we merge the stream coming from Kafka and a periodic stream emit
         <seg>Then, you can create the following resource to create/read/update/delete your Person entity:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>然后，你可以创建以下资源来create/read/update/delete你的Person实体：</seg>
+        <seg>然后，创建以下资源类，用于创建、读取、更新、删除Person实体。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28139,6 +28279,14 @@ If you are interested in reactive, we recommend the xref:getting-started-reactiv
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide covers how to deploy a native application on OpenShift.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南涵盖了如何在OpenShift上部署一个原生应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide covers how to use GCP BigQuery in Quarkus.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -28479,10 +28627,34 @@ If you are interested in reactive, we recommend the xref:getting-started-reactiv
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your OpenID Connect application can support multi-tenancy so that you can serve multiple tenants from a single application.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南演示了你的OpenID Connect应用程序如何支持多租户，这样你就可以从一个应用程序中为多个租户提供服务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can authorize a bearer token access to protected resources using https://www.keycloak.org/docs/latest/authorization_services/index.html[Keycloak Authorization Services].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南展示了如何在您的Quarkus应用程序中使用 link:https://www.keycloak.org/docs/latest/authorization_services/index.html[Keycloak授权服务] 来授权不记名token(bearer token)访问受保护的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can authorize access to protected resources using Keycloak Authorization Services.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南展示了你的Quarkus应用程序如何使用Keycloak授权服务来授权访问受保护的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can collect metrics using the Micrometer extension.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南展示了你的Quarkus应用程序如何使用Micrometer扩展来收集指标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28537,6 +28709,14 @@ passwords.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can use a .properties file to store your user identities.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南展示了你的Quarkus应用程序如何使用.properties文件来存储你的用户身份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can use a LDAP directory to store your user identities.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -28556,7 +28736,7 @@ passwords.</seg>
         <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to consume and produce HTTP messages.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>本指南展示了你的Quarkus应用程序如何利用SmallRye响应式消息传递来消费和提供HTTP消息。</seg>
+        <seg>本指南演示您的 Quarkus 应用程序如何利用 SmallRye Reactive Messaging 来使用和生成 HTTP 消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28573,6 +28753,30 @@ passwords.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南演示了你的Quarkus应用程序如何使用SmallRye Reactive Messaging来与AMQP 1.0进行交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with AMQP.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南展示了你的Quarkus应用程序如何利用SmallRye响应式消息传递与AMQP进行交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with Apache Kafka.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南演示了您的Quarkus应用程序如何利用SmallRye响应式消息传递与Apache Kafka进行交互。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with RabbitMQ.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南演示了您的 Quarkus 应用程序如何利用 SmallRye响应式消息传递与RabbitMQ进行交互。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28614,6 +28818,14 @@ application metrics.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南展示了您的Quarkus应用程序如何利用SmallRye Health扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize the SmallRye Metrics extension.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南展示了你的Quarkus应用程序如何利用SmallRye Metrics扩展。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28722,6 +28934,14 @@ application metrics.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to centralize your logs with Logstash or Fluentd using the Graylog Extended Log Format (GELF).</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南解释了如何使用Graylog扩展日志格式（GELF）用Logstash或Fluentd集中管理你的日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to configure Quarkus to authenticate against well-known OpenID Connect providers such as GitHub, Google, Microsoft, Apple...</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -28818,6 +29038,14 @@ application metrics.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to use OpenID Connect and OAuth2 Client and Filters to acquire, refresh and propagate access tokens.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南解释了如何使用OpenID Connect和OAuth2客户端和过滤器来获取、刷新和传播访问令牌。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to use Sentry to monitor your application and be notified when exceptions occur.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -28854,6 +29082,14 @@ application metrics.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南介绍如何使用RESTEasy REST客户端发送多部分REST请求，通常是为了上传文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how to use the RESTEasy Reactive REST Client.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南解释了如何使用RESTEasy Reactive REST客户端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28946,8 +29182,24 @@ application metrics.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTelemetry to provide distributed tracing for interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南解释了你的Quarkus应用程序如何利用OpenTelemetry来为交互式Web应用程序提供分布式跟踪。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how your Quarkus application can utilize OpenTracing to provide distributed tracing for
 interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南解释了你的Quarkus应用程序如何利用OpenTracing来为交互式网络应用程序提供分布式跟踪。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTracing to provide distributed tracing for interactive web applications.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南解释了你的Quarkus应用程序如何利用OpenTracing来为交互式网络应用程序提供分布式跟踪。</seg>
@@ -28994,6 +29246,14 @@ distributed tracing for interactive web applications.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南解释了您的应用程序如何利用SmallRye JWT来验证JWT令牌并为JAX-RS端点提供安全访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains logging and how to configure it.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南解释了日志记录以及如何配置它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29133,6 +29393,14 @@ of the project so you can adapt any existing projects you have to use Amazon Lam
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>本指南将指导你通过一个maven原型生成一个Java项目的例子，并将其部署到AWS。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide walks you through the process of creating a Quarkus application with OptaPlanner's constraint solving Artificial Intelligence (AI).</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本指南将引导你完成用OptaPlanner的约束解决人工智能（AI）创建Quarkus应用程序的过程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29578,6 +29846,14 @@ This property is optional if the local Json Web Key token verification only is u
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This reference guide provides an in-depth look on Apache Kafka and Smallrye Reactive Messaging framework.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>本参考指南深入介绍了Apache Kafka和Smallrye响应式消息传递框架。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This resource creates a `WebClient` and, upon request, uses this client to invoke a remote HTTP API.
 Depending on the result, the response is forwarded as received, or it creates a JSON object wrapping the error.
 The `WebClient` is asynchronous (and non-blocking), to the endpoint returns a `Uni`.</seg>
@@ -29878,7 +30154,7 @@ It's essential to comprehend that _Reactive_ is not just a different execution m
         <seg>To complete this guide, you need:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>要完成这个指南，你需要：</seg>
+        <seg>完成这个指南，你需要:</seg>
       </tuv>
     </tu>
     <tu>
@@ -30125,7 +30401,7 @@ need but if all you need are the Kotlin APIs then include the following dependen
         <seg>To get started:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>起步：</seg>
+        <seg>按以下步骤开始：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30950,6 +31226,14 @@ The `map` is used to return a `Uni&lt;Void&gt;` and not a `Uni&lt;Fruit&gt;`.</s
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Use Spring Boot's `@ConfigurationProperties` in place of MicroProfile Config annotations</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用Spring Boot的 `@ConfigurationProperties` ，代替MicroProfile配置注解</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Use `KafkaCompanion` to create producer task which writes 10 records to 'orders' topic.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -31302,7 +31586,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using HTTP with Reactive Messaging</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用HTTP与响应式消息传递</seg>
+        <seg>将 HTTP 与响应式消息结合使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -31382,7 +31666,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using JWT RBAC</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用JWT RBAC</seg>
+        <seg>使用 JWT RBAC</seg>
       </tuv>
     </tu>
     <tu>
@@ -31467,6 +31751,22 @@ Failure to do so will prevent Jackson specific customizations provided by variou
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Using OpenID Connect (OIDC) Multi-Tenancy</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用OpenID Connect（OIDC）多租户</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using OpenID Connect (OIDC) and Keycloak to Centralize Authorization</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用OpenID连接（OIDC）与Keycloak来做集中式授权</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Using OpenID Connect (OIDC) and Keycloak to Centralize Authorizations</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -31511,6 +31811,14 @@ Failure to do so will prevent Jackson specific customizations provided by variou
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>使用OpenTelemetry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using OpenTracing</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用OpenTracing</seg>
       </tuv>
     </tu>
     <tu>
@@ -31575,6 +31883,14 @@ Failure to do so will prevent Jackson specific customizations provided by variou
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>使用Schema注册表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using Security with .properties File</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用.properties文件的安全性</seg>
       </tuv>
     </tu>
     <tu>
@@ -31718,7 +32034,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using Vert.x clients</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用Vert.x客户端</seg>
+        <seg>使用 Vert.x 客户端</seg>
       </tuv>
     </tu>
     <tu>
@@ -31727,6 +32043,14 @@ Failure to do so will prevent Jackson specific customizations provided by variou
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>使用Vert.x流的功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using WebSockets</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用WebSockets</seg>
       </tuv>
     </tu>
     <tu>
@@ -31817,7 +32141,7 @@ as shown below.</seg>
         <seg>Using a range instead of pages</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用range而不是pages</seg>
+        <seg>使用范围查询而替代分页查询</seg>
       </tuv>
     </tu>
     <tu>
@@ -32129,7 +32453,7 @@ and for an outgoing channel checks that the topic used by the producer exist in 
         <seg>Using the repository pattern</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用资源库模式</seg>
+        <seg>使用Repository模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -32268,7 +32592,7 @@ to use the correct one, that includes none at all on unsupported platforms:</seg
         <seg>由Quarkus开发者主办的关于在Quarkus生态系统内和周边事物的视频播客。</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>View the https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-awscli.html[Getting Started Guide] for deploying
 a lambda with AWS CLI.  Specifically, make sure you have created an `Execution Role`.  You will need to define
@@ -32535,7 +32859,7 @@ This consumer can be in the same class or another bean such as:</seg>
         <seg>We recommend that you follow the instructions from &lt;&lt;bootstrapping-the-project,Bootstrapping project&gt;&gt; and onwards to create the application step by step.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>我们建议你按照从 link:#bootstrapping-the-project[构建项目] 开始的指示，一步一步地创建应用程序。</seg>
+        <seg>我们建议您按照从 &lt;&lt;bootstrapping-the-project,Bootstrapping project&gt;&gt; 开始的指示，一步一步地创建应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32762,14 +33086,6 @@ providing an asynchronous and non-blocking way to connect to Redis.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>作为一个Kubernetes原生框架意味着什么？</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What is Quarkus?</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>Quarkus是什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -33700,7 +34016,7 @@ Type: _boolean_</seg>
 Type: _boolean_</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>是否启用（默认）或禁用了追踪
+        <seg>是否启用（默认启用）或禁用tracing
 
 类型: _boolean_</seg>
       </tuv>
@@ -33921,7 +34237,7 @@ To consume events, use the `io.quarkus.vertx.ConsumeEvent` annotation:</seg>
         <seg>With Panache, we took an opinionated approach to tackle all these problems:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>通过Panache，我们采取了一种有主见的方法来解决所有这些问题：</seg>
+        <seg>我们通过Panache采取了一种有主见的方案来解决以上这些问题：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33941,6 +34257,14 @@ of the resource is created and not one per request. You can configure this using
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>使用Quarkus，不需要创建一个 `Application` 类。它支持这么做，但不是必须的。此外，只有一个资源的实例被创建，而不是每个请求一个。你可以使用不同的 `*Scoped` 注解（ `ApplicationScoped` , `RequestScoped` , 等等）来配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With Quarkus, you can easily configure a datasource, or several if need be.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>使用Quarkus，你可以很容易地配置一个数据源，如果需要的话，也可以配置若干个。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34324,6 +34648,14 @@ in any level for disambiguating configuration keys.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>YAML as a Configuration Source.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>YAML 作为配置源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Yep, it works in your Quarkus application, in your IDE, in your tests, because all of these are Quarkus applications.
 JTA has some bad press for some people.
 I don't know why.
@@ -34485,6 +34817,14 @@ Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>您还可以提供以数字开头的持续时间值。 在这种情况下，如果该值仅包含一个数字，则转换器将该值视为秒。 否则，`PT` 会隐式添加到值的前面，以获得标准的`java.time.Duration` 格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also provide duration values starting with a number.  In this case, if the value consists only of a number, the converter treats the value as seconds.  Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.time.Duration` format.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>您还可以提供以数字开头的持续时间值。 在这种情况下，如果该值仅包含一个数字，则转换器将该值视为秒。 否则，`PT` 会隐式添加到值的前面，以获得标准的 `java.time.Duration` 格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35179,7 +35519,7 @@ However, opaque (binary) tokens can only be introspected remotely.</seg>
         <seg>You can write your mocking test like this:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>你可以像这样写你的模拟测试。</seg>
+        <seg>你可以这样编写模拟测试：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36642,7 +36982,7 @@ In this case, instead of configuring the topic inside your application configura
         <seg>`PanacheQuery` also allows range-based queries.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`PanacheQuery` 也允许基于范围的查询。</seg>
+        <seg>`PanacheQuery` 也支持基于范围的查询。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36760,7 +37100,7 @@ Refer to the http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1
         <seg>`byte[]`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`byte[]` </seg>
+        <seg>`byte[]`</seg>
       </tuv>
     </tu>
     <tu>
@@ -38022,7 +38362,7 @@ your migration as you normally do</seg>
         <seg>add your settings in `{config-file}`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在 `{config-file}` 中添加你的设置</seg>
+        <seg>在 `{config-file}` 中添加你的设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38030,7 +38370,7 @@ your migration as you normally do</seg>
         <seg>all files in the `foo/` directory and its subdirectories except for files in `foo/private/` and its subdirectories,</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg> `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外</seg>
+        <seg> `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38315,6 +38655,14 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>appcds.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>appcds.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>application.properties for TokenSecuredResource</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -38590,7 +38938,7 @@ your migration as you normally do</seg>
         <seg>cloud</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>cloud</seg>
+        <seg>云</seg>
       </tuv>
     </tu>
     <tu>
@@ -38827,6 +39175,14 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>core, writing-extensions, native</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>core, writing-extensions, native</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>create the native executable with:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -38935,6 +39291,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>deploy-kubernetes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>deploy-openshift</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>deploy-openshift</seg>
       </tuv>
     </tu>
     <tu>
@@ -39431,6 +39795,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>grpc-virtual-threads.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>grpc-xds.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>grpc-xds.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -40379,7 +40751,7 @@ VSCode Quarkus Tools</seg>
         <seg>in order to ensure that various resources are included and additional reflection is registered.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>以确保各种资源被包括在内，并注册了额外的反射。</seg>
+        <seg>以确保各种资源被包括在内，并登记了额外的反射。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42063,6 +42435,14 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>smallrye-metrics.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>smallrye-metrics.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>smallrye.jwt.always-check-authorization</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -42715,6 +43095,14 @@ or rolled-back only at termination of the reactive value.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>web, security</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>web, security</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>web-dependency-locator.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -42984,7 +43372,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-boot-properties.adoc[Quarkus - Extension for Spring Boot properties]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>xref:spring-boot-properties.adoc[Quarkus - Spring Boot properties 扩展]</seg>
+        <seg>xref:spring-boot-properties.adoc[Quarkus - Spring Boot 属性扩展]</seg>
       </tuv>
     </tu>
     <tu>
@@ -43008,7 +43396,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-data-jpa.adoc[Quarkus - Extension for Spring Data JPA]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>xref:spring-data-jpa.adoc[Quarkus - Spring Data JPA 扩展]</seg>
+        <seg>link:spring-data-jpa.html[Quarkus - Spring Data JPA 扩展]</seg>
       </tuv>
     </tu>
     <tu>
@@ -43016,7 +43404,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-data-rest.adoc[Quarkus - Extension for Spring Data REST]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>xref:spring-data-rest.adoc[Quarkus - Spring Data REST 扩展]</seg>
+        <seg>link:spring-data-rest.html[Quarkus - Spring Data REST 扩展]</seg>
       </tuv>
     </tu>
     <tu>
