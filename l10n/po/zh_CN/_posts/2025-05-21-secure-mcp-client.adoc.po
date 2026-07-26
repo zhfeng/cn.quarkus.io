@@ -88,7 +88,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-05-21-secure-mcp-client.adoc
-msgid "You can find the complete project source in the https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples/secure-mcp-sse-client-server[Quarkus LangChain4j Secure MCP Client Server sample]."
+msgid "You can find the complete project source in the https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples/secure-mcp-client-server[Quarkus LangChain4j Secure MCP Client Server sample]."
 msgstr ""
 
 #. type: Title =
@@ -290,7 +290,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-05-21-secure-mcp-client.adoc
-msgid "The MCP server's security-related configuration remains exactly the same in prod mode, therefore we are not going to talk about running the MCP server in prod to save some blog post space. Please check the https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples/secure-mcp-sse-client-server[Quarkus LangChain4j Secure MCP Client Server sample] if you would like to run MCP server in prod mode - you will only need to make sure PostresSQL is available in prod mode too."
+msgid "The MCP server's security-related configuration remains exactly the same in prod mode, therefore we are not going to talk about running the MCP server in prod to save some blog post space. Please check the https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples/secure-mcp-client-server[Quarkus LangChain4j Secure MCP Client Server sample] if you would like to run MCP server in prod mode - you will only need to make sure PostresSQL is available in prod mode too."
 msgstr ""
 
 #. type: Title =
@@ -405,7 +405,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-05-21-secure-mcp-client.adoc
-msgid "After the user logs in to GitHub and is redirected to this endpoint, an HTML page with a user name and a link to the <<jaxrs-poem-resource,Poem Resource endpoint>> is generated with a simple https://github.com/quarkiverse/quarkus-langchain4j/blob/main/samples/secure-mcp-sse-client-server/secure-mcp-client/src/main/resources/templates/poem.html[Qute template] and returned to the user."
+msgid "After the user logs in to GitHub and is redirected to this endpoint, an HTML page with a user name and a link to the <<jaxrs-poem-resource,Poem Resource endpoint>> is generated with a simple https://github.com/quarkiverse/quarkus-langchain4j/blob/main/samples/secure-mcp-client-server/secure-mcp-client/src/main/resources/templates/poem.html[Qute template] and returned to the user."
 msgstr ""
 
 #. type: Title ==
@@ -485,7 +485,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2025-05-21-secure-mcp-client.adoc
-msgid "All the Poem Service configuration remains exactly the same in prod mode, therefore we are not going to talk about running it in prod to save some blog post space. Please check the https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples/secure-mcp-sse-client-server[Quarkus LangChain4j Secure MCP Client Server sample] if you would like to run it in prod mode."
+msgid "All the Poem Service configuration remains exactly the same in prod mode, therefore we are not going to talk about running it in prod to save some blog post space. Please check the https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples/secure-mcp-client-server[Quarkus LangChain4j Secure MCP Client Server sample] if you would like to run it in prod mode."
 msgstr ""
 
 #. type: Plain text

@@ -32,11 +32,10 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/stork-reference.adoc
-#, fuzzy
 msgid ""
-"This guide is the companion from the xref:stork.adoc[Stork Getting Started Guide].\n"
+"This guide is the companion to the xref:stork.adoc[Stork Getting Started Guide].\n"
 "It explains the configuration and usage of SmallRye Stork integration in Quarkus."
-msgstr "本指南是 xref:stork.adoc[Stork 入门指南] 的配套 xref:stork.adoc[指南] 。它解释了 Quarkus 中 SmallRye Stork 集成的配置和使用。"
+msgstr ""
 
 #. type: Title =
 #: _versions/main/guides/stork-reference.adoc

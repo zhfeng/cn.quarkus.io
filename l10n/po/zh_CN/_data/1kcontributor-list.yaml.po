@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-10-06 08:36+0000\n"
+"POT-Creation-Date: 2026-07-26 10:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -853,7 +853,7 @@ msgstr ""
 #. type: Hash Value: links url
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
-msgid "https://github.com/andreas-eberle"
+msgid "https://github.com/ghost"
 msgstr ""
 
 #. type: Hash Value: links avatar
@@ -9898,12 +9898,6 @@ msgstr ""
 msgid "Jonas Jensen"
 msgstr ""
 
-#. type: Hash Value: links url
-#: upstream/_data/1kcontributor-list.yaml:0
-#, no-wrap
-msgid "https://github.com/jonasjensen-brolstark"
-msgstr ""
-
 #. type: Hash Value: links avatar
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
@@ -16378,12 +16372,6 @@ msgstr ""
 msgid "Phil"
 msgstr ""
 
-#. type: Hash Value: links url
-#: upstream/_data/1kcontributor-list.yaml:0
-#, no-wrap
-msgid "https://github.com/PhilKes"
-msgstr ""
-
 #. type: Hash Value: links avatar
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
@@ -17354,12 +17342,6 @@ msgstr ""
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
 msgid "Romain BADINO"
-msgstr ""
-
-#. type: Hash Value: links url
-#: upstream/_data/1kcontributor-list.yaml:0
-#, no-wrap
-msgid "https://github.com/BadRoro"
 msgstr ""
 
 #. type: Hash Value: links avatar
@@ -18392,12 +18374,6 @@ msgstr ""
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
 msgid "Shivam Sharma"
-msgstr ""
-
-#. type: Hash Value: links url
-#: upstream/_data/1kcontributor-list.yaml:0
-#, no-wrap
-msgid "https://github.com/shivam-sharma7"
 msgstr ""
 
 #. type: Hash Value: links avatar
@@ -20656,12 +20632,6 @@ msgstr ""
 msgid "Yelzhas Suleimenov"
 msgstr ""
 
-#. type: Hash Value: links url
-#: upstream/_data/1kcontributor-list.yaml:0
-#, no-wrap
-msgid "https://github.com/Yelzhasdev"
-msgstr ""
-
 #. type: Hash Value: links avatar
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
@@ -22316,12 +22286,6 @@ msgstr ""
 #: upstream/_data/1kcontributor-list.yaml:0
 #, no-wrap
 msgid "manofthepeace"
-msgstr ""
-
-#. type: Hash Value: links url
-#: upstream/_data/1kcontributor-list.yaml:0
-#, no-wrap
-msgid "https://github.com/manofthepeace"
 msgstr ""
 
 #. type: Hash Value: links avatar

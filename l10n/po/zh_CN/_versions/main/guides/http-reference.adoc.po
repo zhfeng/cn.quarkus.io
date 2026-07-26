@@ -681,6 +681,14 @@ msgstr "如果配置中的路径重叠，可以指定一个顺序（数值越大
 msgid "Will include the `Cache-Control: max-age=1` header when `/paths/order` is requested."
 msgstr "当请求 `/paths/order` ，将包括 `Cache-Control: max-age=1` 头。"
 
+#. type: Plain text
+#: _versions/main/guides/http-reference.adoc
+msgid ""
+"When using aggressive cache headers (for example, for static assets behind a CDN), you can set `apply-on-success=true`\n"
+"to apply headers only on successful (2xx) responses.\n"
+"This prevents CDNs from caching error responses such as 403 or 500."
+msgstr ""
+
 #. type: Title =
 #: _versions/main/guides/http-reference.adoc
 #, fuzzy, no-wrap
