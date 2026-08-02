@@ -132,9 +132,8 @@ msgstr "决定一个最适合你所贡献的内容类型。"
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
-#, fuzzy
-msgid "To help you decide, see the content type descriptions in xref:doc-reference.adoc#titles-and-headings[Titles and headings] on the \"About Quarkus documentation\" page."
-msgstr "为了帮助你做出决定，请看 \"关于Quarkus文档 \"页面上的 link:{doc-guides}/doc-reference.html#titles-and-headings[标题和标题] 的内容类型描述。"
+msgid "To help you decide, see the content type descriptions in xref:doc-reference.adoc#titles-headings[Titles and headings] on the \"About Quarkus documentation\" page."
+msgstr ""
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
@@ -176,9 +175,8 @@ msgstr "设置 `id` ，使其与文件名相同，但不包括扩展名。如果
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
-#, fuzzy
-msgid "For information about how to create a good title for each content type, see xref:doc-reference.adoc#titles-and-headings[Titles and headings] on the \"Quarkus style and content guidelines\" page."
-msgstr "关于如何为每种内容类型创建一个好的标题，请参见 \"Quarkus风格和内容指南 \"页面上的 link:{doc-guides}/doc-reference.html#titles-and-headings[标题和头条] 。"
+msgid "For information about how to create a good title for each content type, see xref:doc-reference.adoc#titles-headings[Titles and headings] on the \"Quarkus style and content guidelines\" page."
+msgstr ""
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
@@ -194,9 +192,8 @@ msgstr "为你的文件指定一个ID。它应该以文件类型开头。 `conce
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
-#, fuzzy
-msgid "Set at least one category to ensure that the content is findable on the link:https://quarkus.io/guides/[Quarkus documentation home page]. For a list of Quarkus categories, see xref:doc-reference.adoc#document-attributes-and-variables[Document attributes and variables] on the \"Quarkus style and content guidelines\" page."
-msgstr "至少要设置一个类别，以确保内容在 link:https://quarkus.io/guides/[Quarkus文档主页上] 可以找到。关于Quarkus类别的列表，请参见 \"Quarkus风格和内容指南 \"页面上的 link:{doc-guides}/doc-reference.html#document-attributes-and-variables[文档属性和变量] 。"
+msgid "Set at least one category to ensure that the content is findable on the link:https://quarkus.io/guides/[Quarkus documentation home page]. For a list of Quarkus categories, see xref:doc-reference.adoc#categories[Categories] on the \"Quarkus style and content guidelines\" page."
+msgstr ""
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
@@ -226,9 +223,8 @@ msgstr "摘要的第一句话必须在 27 个字以内解释内容的价值和�
 
 #. type: Plain text
 #: _guides/doc-contribute-docs-howto.adoc
-#, fuzzy
-msgid "For more information about the minimum header requirements, see xref:doc-reference.adoc#document-structure[Document structure] on the \"Quarkus style and content guidelines\" page."
-msgstr "关于最小标题要求的更多信息，请参阅 \"Quarkus风格和内容指南 \"页面上的 link:{doc-guides}/doc-reference.html#document-structure[文档结构] 。"
+msgid "For more information about the minimum header requirements, see xref:doc-reference.adoc#doc-structure[Document structure] on the \"Quarkus style and content guidelines\" page."
+msgstr ""
 
 #. type: Title =
 #: _guides/doc-contribute-docs-howto.adoc

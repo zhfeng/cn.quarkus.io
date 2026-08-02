@@ -2263,7 +2263,7 @@ msgstr "支持 JSON 超文本应用语言 (HAL)"
 
 #. type: Plain text
 #: _guides/rest.adoc
-msgid "The https://tools.ietf.org/id/draft-kelly-json-hal-01.html[HAL] standard is a simple format to represent web links."
+msgid "The https://datatracker.ietf.org/doc/html/draft-kelly-json-hal-08[HAL] standard is a simple format to represent web links."
 msgstr ""
 
 #. type: Plain text
@@ -2280,7 +2280,7 @@ msgstr "`io.quarkus:quarkus-hal`"
 
 #. type: Table
 #: _guides/rest.adoc
-msgid "https://tools.ietf.org/id/draft-kelly-json-hal-01.html[HAL]"
+msgid "https://datatracker.ietf.org/doc/html/draft-kelly-json-hal-08[HAL]"
 msgstr ""
 
 #. type: Plain text

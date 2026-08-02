@@ -180,6 +180,21 @@ msgstr "你希望项目使用的平台的版本。它也可以接受一个版本
 
 #. type: Table
 #: _guides/maven-tooling.adoc
+msgid "`stream`"
+msgstr ""
+
+#. type: Table
+#: _guides/maven-tooling.adoc
+msgid "_Not set_"
+msgstr ""
+
+#. type: Table
+#: _guides/maven-tooling.adoc
+msgid "A target platform stream, for example `3.15` or `io.quarkus.platform:3.15`. When specified, the extension registry client will be used to resolve the platform BOM corresponding to the given stream. Cannot be combined with `platformGroupId`, `platformArtifactId`, or `platformVersion`."
+msgstr ""
+
+#. type: Table
+#: _guides/maven-tooling.adoc
 #, fuzzy, no-wrap
 msgid "`javaVersion`"
 msgstr " `projectVersion` "
