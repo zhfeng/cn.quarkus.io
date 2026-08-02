@@ -32,7 +32,7 @@ msgstr ""
 #. type: Title =
 #: _guides/aesh.adoc
 msgid "Extension"
-msgstr ""
+msgstr "扩展"
 
 #. type: Plain text
 #: _guides/aesh.adoc
@@ -44,17 +44,17 @@ msgstr ""
 #. type: Plain text
 #: _guides/aesh.adoc
 msgid "This will add the following to your build file:"
-msgstr ""
+msgstr "这会将以下内容添加到你的构建文件中:"
 
 #. type: Block title
 #: _guides/aesh.adoc
 msgid "pom.xml"
-msgstr ""
+msgstr "pom.xml"
 
 #. type: Block title
 #: _guides/aesh.adoc
 msgid "build.gradle"
-msgstr ""
+msgstr "build.gradle"
 
 #. type: Plain text
 #: _guides/aesh.adoc
@@ -764,7 +764,7 @@ msgstr ""
 #. type: Title =
 #: _guides/aesh.adoc
 msgid "Development Mode"
-msgstr ""
+msgstr "开发模式"
 
 #. type: Plain text
 #: _guides/aesh.adoc
@@ -796,7 +796,7 @@ msgstr ""
 #. type: Title ==
 #: _guides/aesh.adoc
 msgid "Dev UI"
-msgstr ""
+msgstr "开发用户界面"
 
 #. type: Plain text
 #: _guides/aesh.adoc
@@ -836,7 +836,7 @@ msgstr ""
 #. type: Title =
 #: _guides/aesh.adoc
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #. type: Plain text
 #: _guides/aesh.adoc
@@ -944,7 +944,7 @@ msgstr ""
 #. type: Title =
 #: _guides/aesh.adoc
 msgid "Configuration Reference"
-msgstr ""
+msgstr "配置参考"
 
 #. type: Plain text
 #: _guides/aesh.adoc

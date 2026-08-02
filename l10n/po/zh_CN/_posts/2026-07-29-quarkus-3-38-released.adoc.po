@@ -173,7 +173,7 @@ msgstr ""
 #. type: Title =
 #: _posts/2026-07-29-quarkus-3-38-released.adoc
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 
 #. type: Plain text
 #: _posts/2026-07-29-quarkus-3-38-released.adoc
