@@ -15120,7 +15120,7 @@ To achieve this, you can _switch_ the channels managed by the Kafka connector to
         <seg>It instructs the application to use PostgreSQL for the database and to handle the database schema generation.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>它指示应用程序使用PostgreSQL数据库，并处理数据库模式的生成。</seg>
+        <seg>它指示应用程序对数据库使用PostgreSQL，并处理数据库模式的生成。</seg>
       </tuv>
     </tu>
     <tu>
