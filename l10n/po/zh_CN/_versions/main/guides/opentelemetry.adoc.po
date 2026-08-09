@@ -760,7 +760,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/opentelemetry.adoc
-msgid "The Quarkus OpenTelemetry extension uses its own signal exporters built on top of Vert.x for optimal performance and maintainability. All *Quarkus built in exporters use the OTLP protocol* through a couple of data senders, using `grpc` (the default) and `http/protobuf`."
+msgid "The Quarkus OpenTelemetry extension uses its own signal exporters built on top of Vert.x for optimal performance and maintainability. All *Quarkus built in exporters use the OTLP protocol* through a couple of data senders, using `http/protobuf` (the default) and `grpc`."
 msgstr ""
 
 #. type: Plain text
@@ -775,7 +775,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/opentelemetry.adoc
-msgid "The `quarkus.otel.exporter.otlp.protocol` property instructs Quarkus to switch the senders and defaults to `grpc` but `http/protobuf` can also be used."
+msgid "The `quarkus.otel.exporter.otlp.protocol` property instructs Quarkus to switch the senders and defaults to `http/protobuf` but `grpc` can also be used."
 msgstr ""
 
 #. type: Plain text

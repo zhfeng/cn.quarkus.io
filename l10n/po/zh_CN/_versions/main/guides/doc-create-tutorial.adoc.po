@@ -142,12 +142,6 @@ msgstr "包括额外的属性，帮助定义一致的格式并提供源的可移
 #. type: Plain text
 #: _versions/main/guides/doc-create-tutorial.adoc
 #, fuzzy
-msgid "Specify the `web` category, as our imaginary extension works with Http requests."
-msgstr "指定 `web` 类别，因为我们的假想扩展是与 Http 请求一起工作的。"
-
-#. type: Plain text
-#: _versions/main/guides/doc-create-tutorial.adoc
-#, fuzzy
 msgid "Our imaginary `acme` extension is experimental, so we include the extension status declaration in the header."
 msgstr "我们想象中的 `acme` 扩展是实验性的，所以我们在头文件中包含了扩展状态声明。"
 
@@ -162,6 +156,11 @@ msgstr "文件预览"
 #, fuzzy
 msgid "The preview of your document should contain the chosen title as a styled header at the top of the page."
 msgstr "你的文件的预览应该包含所选择的标题，作为页面顶部的风格化标题。"
+
+#. type: Plain text
+#: _versions/main/guides/doc-create-tutorial.adoc
+msgid "Add `acme-serve-http-requests-tutorial.adoc` to the appropriate category or subcategory in `docs/src/main/resources/categories.yaml`."
+msgstr ""
 
 #. type: Title =
 #: _versions/main/guides/doc-create-tutorial.adoc

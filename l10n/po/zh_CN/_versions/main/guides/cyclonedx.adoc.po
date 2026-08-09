@@ -115,7 +115,12 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cyclonedx.adoc
-msgid "Each component in the generated SBOM will include the `quarkus:component:scope` property indicating whether the component is used at runtime or only at development/build time."
+msgid "Development/build-time dependencies will have their CycloneDX `scope` set to `excluded` (see <<build-time-dependencies>>), while runtime dependencies omit the `scope` field (defaulting to `required` per the specification)."
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/cyclonedx.adoc
+msgid "Optionally, the `quarkus:component:scope` custom property can be included on each component by setting `includeQuarkusComponentScope` to `true` (or `-Dquarkus.dependency.sbom.include-quarkus-component-scope=true`). When enabled, each component will carry a property indicating whether it is a `runtime` or `development` dependency:"
 msgstr ""
 
 #. type: Plain text
@@ -190,7 +195,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cyclonedx.adoc
-msgid "Given that the plugin is not aware of how Quarkus uses these dependencies, it will not be able to set the `quarkus:component:scope` property for components. On the other hand, the requested configuration name can be used to indicate which scope to target."
+msgid "Given that the plugin is not aware of how Quarkus uses these dependencies, it will not be able to set the CycloneDX `scope` field or the `quarkus:component:scope` property for components. On the other hand, the requested configuration name can be used to indicate which scope to target."
 msgstr ""
 
 #. type: Title =
@@ -342,6 +347,21 @@ msgstr ""
 
 #. type: Title ==
 #: _versions/main/guides/cyclonedx.adoc
+msgid "Runtime-only mode"
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/cyclonedx.adoc
+msgid "By default, the generated SBOM includes both runtime and development/build-time dependencies. To include only runtime dependencies, use:"
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/cyclonedx.adoc
+msgid "When enabled, development/build-time dependencies (those with CycloneDX `scope` set to `excluded`) are excluded entirely from the generated SBOM along with their dependency relationships. This can be useful when the SBOM is intended for runtime vulnerability scanning and build-time components are not relevant."
+msgstr ""
+
+#. type: Title ==
+#: _versions/main/guides/cyclonedx.adoc
 msgid "CycloneDX schema version"
 msgstr ""
 
@@ -412,7 +432,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cyclonedx.adoc
-msgid "Every file in the resulting Fast JAR distribution will appear in the SBOM with the `quarkus:component:scope` property set to `runtime` and `evidence.occurrences.location` field pointing to the location of the component in the application distribution directory, for example:"
+msgid "Every file in the resulting Fast JAR distribution will appear in the SBOM with an `evidence.occurrences.location` field pointing to the location of the component in the application distribution directory. Runtime components do not set the CycloneDX `scope` field, which defaults to `required` per the specification. For example:"
 msgstr ""
 
 #. type: Plain text
@@ -427,7 +447,12 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cyclonedx.adoc
-msgid "Build time dependencies will be recorded with the `quarkus:component:scope` property set to `development`:"
+msgid "Build time dependencies will have their CycloneDX `scope` set to `excluded`:"
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/cyclonedx.adoc
+msgid "The `excluded` scope indicates that these components are not reachable within a call graph at runtime, as defined by the CycloneDX specification. Runtime components omit the `scope` field, which defaults to `required` per the specification."
 msgstr ""
 
 #. type: Plain text
@@ -507,7 +532,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cyclonedx.adoc
-msgid "SBOMs generated for Mutable JAR distributions will also record locations of components that will be used during re-augmentation process using `evidence.occurrences.location` but keeping their `quarkus:component:scope` property set to `development`. For example:"
+msgid "SBOMs generated for Mutable JAR distributions will also record locations of components that will be used during re-augmentation process using `evidence.occurrences.location` but keeping their CycloneDX `scope` set to `excluded`. For example:"
 msgstr ""
 
 #. type: Title =
@@ -662,7 +687,7 @@ msgstr ""
 
 #. type: Table
 #: _versions/main/guides/cyclonedx.adoc
-msgid "Indicates whether a component is a runtime or a build/development time dependency of an application."
+msgid "Indicates whether a component is a runtime or a build/development time dependency of an application. Disabled by default; enable with `quarkus.cyclonedx.include-quarkus-component-scope=true`. Development components always have their CycloneDX `scope` set to `excluded` regardless of this setting."
 msgstr ""
 
 #. type: Table
@@ -766,7 +791,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/cyclonedx.adoc
-msgid "The `scope` field classifies components as `runtime` or `development` dependencies, which is recorded in the SBOM as the `quarkus:component:scope` property."
+msgid "The `scope` field classifies components as `runtime` or `development` dependencies. Development components have their CycloneDX `scope` set to `excluded`. When `quarkus.cyclonedx.include-quarkus-component-scope` is enabled, the scope is also recorded as the `quarkus:component:scope` custom property."
 msgstr ""
 
 #. type: Plain text

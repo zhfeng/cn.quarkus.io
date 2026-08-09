@@ -24,9 +24,10 @@ msgstr "启用基本认证"
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
-msgid "Enable xref:security-basic-authentication.adoc[Basic authentication] for your Quarkus project and allow users to authenticate with a username and password."
-msgstr "为你的Quarkus项目启用基本认证，允许用户用用户名和密码进行认证。"
+msgid ""
+"Enable Basic authentication to require a username and password before users can access your Quarkus application.\n"
+"For more information, see xref:security-basic-authentication.adoc[Basic authentication]."
+msgstr ""
 
 #. type: Title =
 #: _guides/security-basic-authentication-howto.adoc
@@ -36,11 +37,10 @@ msgstr "先决条件"
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
 msgid ""
-"You have installed at least one extension that provides an `IdentityProvider` based on username and password.\n"
+"You have installed at least one extension that provides an `IdentityProvider` to verify username and password credentials and map them to a `SecurityIdentity`.\n"
 "For example:"
-msgstr "您至少安装了一个根据用户名和密码提供 `IdentityProvider` 的扩展。例如"
+msgstr ""
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
@@ -59,12 +59,6 @@ msgstr "xref:security-properties.adoc[Elytron 安全属性文件扩展名(quarku
 msgid "xref:security-jdbc.adoc[Elytron security JDBC extension `(quarkus-elytron-security-jdbc)`]"
 msgstr "xref:security-jdbc.adoc[Elytron 安全 JDBC 扩展(quarkus-elytron-security-jdbc)]"
 
-#. type: Plain text
-#: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
-msgid "The following procedure outlines how you can enable Basic authentication for your application by using the `elytron-security-properties-file` extension."
-msgstr "以下步骤概述了如何使用 `elytron-security-properties-file` 扩展为应用程序启用 Basic 身份验证。"
-
 #. type: Title =
 #: _guides/security-basic-authentication-howto.adoc
 #, fuzzy, no-wrap
@@ -79,9 +73,16 @@ msgstr "通过将 `quarkus.http.auth.basic` 属性的值设置为 `true` ，启�
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
-msgid "**Optional:** In a non-production environment only and purely for testing Quarkus Security in your applications:"
-msgstr "*可选：* 仅在非生产环境中，纯粹用于在应用程序中测试 Quarkus 安全性："
+msgid ""
+"Configure an identity provider to verify the username and password against your user store.\n"
+"For a production application, configure one of the identity provider extensions listed in the Prerequisites, for example, by storing users in a database with the Jakarta Persistence extension.\n"
+"For more information, see the xref:security-identity-providers.adoc[Identity providers] guide."
+msgstr ""
+
+#. type: Plain text
+#: _guides/security-basic-authentication-howto.adoc
+msgid "*For testing only:* In a non-production environment, you can use the embedded realm provided by the `quarkus-elytron-security-properties-file` extension instead of a production identity provider."
+msgstr ""
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
@@ -91,11 +92,15 @@ msgstr "要启用嵌入式域的身份验证，请将 `quarkus.security.users.em
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
 msgid ""
-"You can also configure the required user credentials, user name, secret, and roles.\n"
+"You can also configure the required user credentials: user name, password, and roles.\n"
 "For example:"
-msgstr "您还可以配置所需的用户凭证、用户名、密 码和角色。例如"
+msgstr ""
+
+#. type: Plain text
+#: _guides/security-basic-authentication-howto.adoc
+msgid "where:"
+msgstr ""
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
@@ -109,19 +114,25 @@ msgstr "用户， `alice` ，其密码是 `alice` ，其角色是 `admin` 。"
 msgid "The user, `bob`, has `bob` as their password and `user` as their role."
 msgstr "用户， `bob` ，其密码是 `bob` ，其角色是 `user` 。"
 
-#. type: Plain text
+#. type: Title =
 #: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
-msgid "For information about other methods that you can use to configure the required user credentials, see the xref:security-testing.adoc#configuring-user-information[Configuring User Information] section of the Quarkus \"Security Testing\" guide."
-msgstr "关于你可以用来配置所需用户凭证的其他方法的信息，请参阅Quarkus \"安全测试 \"指南中的 link:security-testing.html#configuring-user-information[配置用户信息] 部分。"
+msgid "Verification"
+msgstr ""
 
 #. type: Plain text
 #: _guides/security-basic-authentication-howto.adoc
-#, fuzzy
-msgid ""
-"Configuring user names, secrets, and roles in the `application.properties` file is appropriate only for testing scenarios.\n"
-"For securing a production application, it is crucial to use a database to store this information."
-msgstr "在 `application.properties` 文件中配置用户名、机密和角色只适合测试场景。要确保生产应用程序的安全，使用数据库存储这些信息至关重要。"
+msgid "Start your application."
+msgstr ""
+
+#. type: Plain text
+#: _guides/security-basic-authentication-howto.adoc
+msgid "Send a request to a secured endpoint _without_ credentials and confirm that the application returns a `401 Unauthorized` response:"
+msgstr ""
+
+#. type: Plain text
+#: _guides/security-basic-authentication-howto.adoc
+msgid "Send the same request _with_ a valid username and password and confirm that the application returns a `200 OK` response:"
+msgstr ""
 
 #. type: Title =
 #: _guides/security-basic-authentication-howto.adoc

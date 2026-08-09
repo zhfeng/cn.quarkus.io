@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-07-19 10:13+0000\n"
+"POT-Creation-Date: 2026-08-09 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -544,7 +544,7 @@ msgstr "/guides/getting-started-testing"
 msgid "Your second Quarkus application"
 msgstr "重新增强Quarkus应用程序"
 
-#. type: Hash Value: /guides/writing-native-applications-tips sameTopics type
+#. type: Hash Value: /guides/websockets-next-reference sameTopics type
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
 msgid "tutorial"

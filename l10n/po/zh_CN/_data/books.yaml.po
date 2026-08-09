@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-01 08:53+0000\n"
+"POT-Creation-Date: 2026-08-09 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
 #, no-wrap
-msgid "applied-ai-for-enterprise-java-development.png"
+msgid "applied-ai-for-enterprise-java-development.webp"
 msgstr ""
 
 #. type: Hash Value: title
@@ -79,7 +79,7 @@ msgstr ""
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
 #, no-wrap
-msgid "quarkus-in-action.png"
+msgid "quarkus-in-action.webp"
 msgstr ""
 
 #. type: Hash Value: title
@@ -114,9 +114,9 @@ msgstr "2022 年 11 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "FullStackQuarkusandReact.png"
-msgstr "FullStackQuarkusandReact.png"
+#, no-wrap
+msgid "FullStackQuarkusandReact.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -150,9 +150,9 @@ msgstr "2022 年 1 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "designing-hexagonal-architectures.png"
-msgstr "设计六边形建筑.png"
+#, no-wrap
+msgid "designing-hexagonal-architectures.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -186,9 +186,9 @@ msgstr "2021 年 12 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "kubernetes-native-microservices.png"
-msgstr "kubernetes-native-microservices.png"
+#, no-wrap
+msgid "kubernetes-native-microservices.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -222,9 +222,9 @@ msgstr "2021 年 11 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "reactive-systems-in-java.png"
-msgstr "reactive-systems-in-java.png"
+#, no-wrap
+msgid "reactive-systems-in-java.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -258,9 +258,9 @@ msgstr "2021 年 8 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "quarkus-for-spring-developers.png"
-msgstr "quarkus-for-spring-developers.png"
+#, no-wrap
+msgid "quarkus-for-spring-developers.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -294,9 +294,9 @@ msgstr "2020 年 7 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "quarkus-cookbook.jpg"
-msgstr "quarkus-cookbook.jpg"
+#, no-wrap
+msgid "quarkus-cookbook.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -330,9 +330,9 @@ msgstr "2020 年 8 月 26 日"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "beginning-quarkus-framework.jpg"
-msgstr "beginning-quarkus-framework.jpg"
+#, no-wrap
+msgid "beginning-quarkus-framework.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -366,9 +366,9 @@ msgstr "2019 年 8 月 30 日"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "hands-on-enterprise-java.jpg"
-msgstr "hands-on-enterprise-java.jpg"
+#, no-wrap
+msgid "hands-on-enterprise-java.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -402,9 +402,9 @@ msgstr "2019 年 12 月 13 日"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "hands-on-cloud-native.jpg"
-msgstr "实践-云-原生.jpg"
+#, no-wrap
+msgid "hands-on-cloud-native.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -432,9 +432,9 @@ msgstr "即将推出"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "playing-with-java.png"
-msgstr "playing-with-java.png"
+#, no-wrap
+msgid "playing-with-java.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -468,9 +468,9 @@ msgstr "2020 年 11 月 2 日"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "understanding-quarkus.png"
-msgstr "understanding-quarkus.png"
+#, no-wrap
+msgid "understanding-quarkus.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -492,9 +492,9 @@ msgstr "https://developers.redhat.com/books/practising-quarkus"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "practising-quarkus.png"
-msgstr "practising-quarkus.png"
+#, no-wrap
+msgid "practising-quarkus.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
@@ -528,15 +528,67 @@ msgstr "2020 年 10 月"
 
 #. type: Hash Value: thumbnail
 #: upstream/_data/books.yaml:0
-#, fuzzy, no-wrap
-msgid "vertx-in-action.png"
-msgstr "vertx-in-action.png"
+#, no-wrap
+msgid "vertx-in-action.webp"
+msgstr ""
 
 #. type: Hash Value: title
 #: upstream/_data/books.yaml:0
 #, fuzzy, no-wrap
 msgid "Vert.x in Action (Asynchronous and Reactive Java)"
 msgstr "行动中的 Vert.x（异步和反应式 Java）"
+
+#, fuzzy, no-wrap
+#~ msgid "FullStackQuarkusandReact.png"
+#~ msgstr "FullStackQuarkusandReact.png"
+
+#, fuzzy, no-wrap
+#~ msgid "designing-hexagonal-architectures.png"
+#~ msgstr "设计六边形建筑.png"
+
+#, fuzzy, no-wrap
+#~ msgid "kubernetes-native-microservices.png"
+#~ msgstr "kubernetes-native-microservices.png"
+
+#, fuzzy, no-wrap
+#~ msgid "reactive-systems-in-java.png"
+#~ msgstr "reactive-systems-in-java.png"
+
+#, fuzzy, no-wrap
+#~ msgid "quarkus-for-spring-developers.png"
+#~ msgstr "quarkus-for-spring-developers.png"
+
+#, fuzzy, no-wrap
+#~ msgid "quarkus-cookbook.jpg"
+#~ msgstr "quarkus-cookbook.jpg"
+
+#, fuzzy, no-wrap
+#~ msgid "beginning-quarkus-framework.jpg"
+#~ msgstr "beginning-quarkus-framework.jpg"
+
+#, fuzzy, no-wrap
+#~ msgid "hands-on-enterprise-java.jpg"
+#~ msgstr "hands-on-enterprise-java.jpg"
+
+#, fuzzy, no-wrap
+#~ msgid "hands-on-cloud-native.jpg"
+#~ msgstr "实践-云-原生.jpg"
+
+#, fuzzy, no-wrap
+#~ msgid "playing-with-java.png"
+#~ msgstr "playing-with-java.png"
+
+#, fuzzy, no-wrap
+#~ msgid "understanding-quarkus.png"
+#~ msgstr "understanding-quarkus.png"
+
+#, fuzzy, no-wrap
+#~ msgid "practising-quarkus.png"
+#~ msgstr "practising-quarkus.png"
+
+#, fuzzy, no-wrap
+#~ msgid "vertx-in-action.png"
+#~ msgstr "vertx-in-action.png"
 
 #, fuzzy, no-wrap
 #~ msgid "Currently in Early access, final version estimated Q3 2023"

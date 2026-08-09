@@ -342,6 +342,23 @@ msgstr "如果 GET 请求需要路径参数，可以利用 `@PathParam(\"paramet
 
 #. type: Title ==
 #: _guides/rest-client.adoc
+msgid "Matrix Parameters"
+msgstr ""
+
+#. type: Plain text
+#: _guides/rest-client.adoc
+msgid ""
+"Matrix parameters can be specified with `@MatrixParam` or `@RestMatrix`. The `@RestMatrix` annotation is equivalent to\n"
+"`@MatrixParam`, but the name is optional — when omitted, the parameter name is used."
+msgstr ""
+
+#. type: Plain text
+#: _guides/rest-client.adoc
+msgid "Calling `greet(\"world\")` sends a request to `/greet;name=world`."
+msgstr ""
+
+#. type: Title ==
+#: _guides/rest-client.adoc
 msgid "Dynamic base URLs"
 msgstr ""
 

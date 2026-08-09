@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-08-02 10:20+0000\n"
+"POT-Creation-Date: 2026-08-09 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7906,6 +7906,18 @@ msgstr "OpenID Connect (OIDC) 的开发服务和开发用户界面"
 msgid "/guides/security-openid-connect-dev-services"
 msgstr "/guides/security-openid-connect-dev-services"
 
+#. type: Array Element: types howto extensions
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, no-wrap
+msgid "io.quarkus:quarkus-security-jpa"
+msgstr ""
+
+#. type: Array Element: types howto extensions
+#: upstream/_data/versioned/latest/index/quarkus.yaml:0
+#, fuzzy, no-wrap
+msgid "io.quarkus:quarkus-elytron-security-properties-file"
+msgstr "io.quarkus:quarkus-elytron-security-properties-file"
+
 #. type: Hash Value: types howto filename
 #: upstream/_data/versioned/latest/index/quarkus.yaml:0
 #, no-wrap
@@ -7920,9 +7932,9 @@ msgstr "security-basic-authentication-howto"
 
 #. type: Hash Value: types howto summary
 #: upstream/_data/versioned/latest/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "Enable Basic authentication for your Quarkus project and allow users to authenticate with a username and password."
-msgstr "为你的Quarkus项目启用基本认证，允许用户用用户名和密码进行认证。"
+#, no-wrap
+msgid "Enable Basic authentication to require a username and password before users can access your Quarkus application."
+msgstr ""
 
 #. type: Hash Value: types howto title
 #: upstream/_data/versioned/latest/index/quarkus.yaml:0
@@ -9947,6 +9959,10 @@ msgid "/guides/getting-started-dev-services"
 msgstr "/guides/getting-started-dev-services"
 
 #, fuzzy, no-wrap
+#~ msgid "Enable Basic authentication for your Quarkus project and allow users to authenticate with a username and password."
+#~ msgstr "为你的Quarkus项目启用基本认证，允许用户用用户名和密码进行认证。"
+
+#, fuzzy, no-wrap
 #~ msgid "This guide demonstrates how your Quarkus application can utilize Quarkus Messaging to interact with Apache Kafka."
 #~ msgstr "本指南演示了 Quarkus 应用程序如何利用 Quarkus Messaging 与 Apache Kafka 进行交互。"
 
@@ -10085,10 +10101,6 @@ msgstr "/guides/getting-started-dev-services"
 #, fuzzy, no-wrap
 #~ msgid "WebSockets Next extension reference guide"
 #~ msgstr "WebSockets Next 扩展参考指南"
-
-#, fuzzy, no-wrap
-#~ msgid "io.quarkus:quarkus-elytron-security-properties-file"
-#~ msgstr "io.quarkus:quarkus-elytron-security-properties-file"
 
 #, no-wrap
 #~ msgid "This guide demonstrates how your Quarkus application can use a .properties file to store your user identities."

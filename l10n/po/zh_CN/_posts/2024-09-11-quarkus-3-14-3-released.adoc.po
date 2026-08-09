@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #: _posts/2024-09-11-quarkus-3-14-3-released.adoc
-msgid "image:/assets/images/posts/3.14.3/quarkus-3.14.3.png[]"
+msgid "image:/assets/images/posts/3.14.3/quarkus-3.14.3.webp[]"
 msgstr ""
 
 #. type: Plain text

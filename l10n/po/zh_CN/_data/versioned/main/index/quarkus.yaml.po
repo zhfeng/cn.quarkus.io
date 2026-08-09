@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-07-26 10:24+0000\n"
+"POT-Creation-Date: 2026-08-09 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,6 +124,18 @@ msgstr "data"
 msgid "Data"
 msgstr "数据"
 
+#. type: Hash Value: types reference categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "execution-model"
+msgstr ""
+
+#. type: Hash Value: categories category
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Execution Model"
+msgstr ""
+
 #. type: Array Element: types tutorial topics
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -172,7 +184,7 @@ msgstr "miscellaneous"
 msgid "Miscellaneous"
 msgstr "杂项"
 
-#. type: Array Element: types tutorial topics
+#. type: Array Element: types reference topics
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
 msgid "native"
@@ -195,6 +207,42 @@ msgstr "observability"
 #, no-wrap
 msgid "Observability"
 msgstr "可观察性"
+
+#. type: Hash Value: types tutorial categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "operations"
+msgstr ""
+
+#. type: Hash Value: categories category
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Operations"
+msgstr ""
+
+#. type: Hash Value: types reference categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "packaging"
+msgstr ""
+
+#. type: Hash Value: categories category
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Packaging"
+msgstr ""
+
+#. type: Hash Value: types guide categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "rule-engine"
+msgstr ""
+
+#. type: Hash Value: categories category
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Rule Engine"
+msgstr ""
 
 #. type: Array Element: types tutorial topics
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -297,12 +345,6 @@ msgstr "concepts"
 #, no-wrap
 msgid "/guides/extension-maturity-matrix"
 msgstr ""
-
-#. type: Hash Value: types tutorial categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "security, web"
-msgstr "security, web"
 
 #. type: Hash Value: types concepts filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -519,12 +561,6 @@ msgstr "strava"
 #, no-wrap
 msgid "/guides/security-openid-connect-providers"
 msgstr "/guides/security-openid-connect-providers"
-
-#. type: Hash Value: types concepts categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "architecture, core"
-msgstr "建筑"
 
 #. type: Hash Value: types concepts filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -874,12 +910,6 @@ msgstr ""
 msgid "/guides/modularity"
 msgstr ""
 
-#. type: Hash Value: types concepts categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "contributing, security"
-msgstr "贡献，安全"
-
 #. type: Hash Value: types concepts filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -1125,12 +1155,6 @@ msgstr ""
 #, no-wrap
 msgid "/guides/agent-mcp"
 msgstr ""
-
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "cloud, core"
-msgstr "cloud, core"
 
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -1701,6 +1725,42 @@ msgstr "挛"
 #, no-wrap
 msgid "/guides/cli-tooling"
 msgstr "/guides/cli-tooling"
+
+#. type: Hash Value: types guide filename
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "building-native-image.adoc"
+msgstr "building-native-image.adoc"
+
+#. type: Hash Value: types guide summary
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Build native executables with GraalVM or Mandrel."
+msgstr "用GraalVM或Mandrel构建原生可执行文件。"
+
+#. type: Hash Value: types guide title
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Building a Native Executable"
+msgstr "构建一个原生可执行文件"
+
+#. type: Array Element: types guide topics
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, fuzzy, no-wrap
+msgid "graalvm"
+msgstr "graalvm"
+
+#. type: Array Element: types guide topics
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, fuzzy, no-wrap
+msgid "mandrel"
+msgstr "芯棒"
+
+#. type: Hash Value: types guide url
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "/guides/building-native-image"
+msgstr "/guides/building-native-image"
 
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -2332,12 +2392,6 @@ msgstr ""
 msgid "/guides/drools"
 msgstr ""
 
-#. type: Hash Value: types howto categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "cloud, native"
-msgstr "cloud, native"
-
 #. type: Array Element: types howto extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, fuzzy, no-wrap
@@ -2685,12 +2739,6 @@ msgstr "登记处"
 #, no-wrap
 msgid "/guides/apicurio-registry-dev-services"
 msgstr "/guides/apicurio-registry-dev-services"
-
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "data, tooling"
-msgstr "data, tooling"
 
 #. type: Array Element: types reference extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -3607,6 +3655,36 @@ msgstr ""
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
+msgid "getting-started-reactive.adoc"
+msgstr "getting-started-reactive.adoc"
+
+#. type: Hash Value: types guide summary
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Learn more about developing reactive applications with Quarkus."
+msgstr "了解有关使用Quarkus开发响应式应用程序的更多信息。"
+
+#. type: Hash Value: types guide title
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "Getting Started With Reactive"
+msgstr "响应式入门"
+
+#. type: Array Element: types reference topics
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "reactive"
+msgstr "reactive"
+
+#. type: Hash Value: types guide url
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "/guides/getting-started-reactive"
+msgstr "/guides/getting-started-reactive"
+
+#. type: Hash Value: types guide filename
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
 msgid "amqp.adoc"
 msgstr "amqp.adoc"
 
@@ -4294,12 +4372,6 @@ msgstr ""
 msgid "mutiny"
 msgstr "叛变"
 
-#. type: Array Element: types tutorial topics
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "reactive"
-msgstr "reactive"
-
 #. type: Hash Value: types guide url
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -4798,6 +4870,12 @@ msgstr ""
 msgid "/guides/messaging"
 msgstr ""
 
+#. type: Hash Value: types guide categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "architecture, execution-model"
+msgstr ""
+
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -4870,6 +4948,12 @@ msgstr ""
 msgid "/guides/signals"
 msgstr ""
 
+#. type: Hash Value: types guide categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "execution-model, serialization"
+msgstr ""
+
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -4900,6 +4984,12 @@ msgstr "虚拟线程.adoc"
 msgid "/guides/grpc-virtual-threads"
 msgstr "/guides/grpc-virtual-threads"
 
+#. type: Hash Value: types guide categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "execution-model, messaging"
+msgstr ""
+
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -4923,12 +5013,6 @@ msgstr "利用反应式消息传递支持 Quarkus 虚拟线程"
 #, no-wrap
 msgid "/guides/messaging-virtual-threads"
 msgstr "/guides/messaging-virtual-threads"
-
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "native, tooling"
-msgstr "native, tooling"
 
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -5247,6 +5331,12 @@ msgstr "可变罐"
 #, no-wrap
 msgid "/guides/reaugmentation"
 msgstr "/guides/reaugmentation"
+
+#. type: Hash Value: types guide categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "data, execution-model"
+msgstr ""
 
 #. type: Array Element: types reference extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -5632,12 +5722,6 @@ msgstr "使用Panache简化Hibernate ORM"
 msgid "/guides/hibernate-orm-panache"
 msgstr "/guides/hibernate-orm-panache"
 
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "alt-languages, data"
-msgstr "alt-languages, data"
-
 #. type: Array Element: types guide extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, fuzzy, no-wrap
@@ -5811,12 +5895,6 @@ msgstr "用Panache和Kotlin简化MongoDB"
 #, no-wrap
 msgid "/guides/mongodb-panache-kotlin"
 msgstr "/guides/mongodb-panache-kotlin"
-
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "observability, web"
-msgstr "observability, web"
 
 #. type: Array Element: types guide extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -5992,12 +6070,6 @@ msgstr ""
 msgid "/guides/spring-test"
 msgstr ""
 
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "core, native, tooling"
-msgstr "core, native, tooling"
-
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -6022,12 +6094,6 @@ msgstr "测试您的应用程序"
 msgid "/guides/getting-started-testing"
 msgstr "/guides/getting-started-testing"
 
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "core, tooling"
-msgstr ""
-
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -6051,12 +6117,6 @@ msgstr ""
 #, no-wrap
 msgid "/guides/testing-components"
 msgstr ""
-
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "core, native, writing-extensions"
-msgstr "core, native, writing-extensions"
 
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -6098,12 +6158,6 @@ msgstr ""
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
 msgid "Tree-shaking JAR dependencies"
-msgstr ""
-
-#. type: Array Element: types reference topics
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "packaging"
 msgstr ""
 
 #. type: Array Element: types guide topics
@@ -6928,6 +6982,12 @@ msgstr ""
 msgid "/guides/proxy-registry"
 msgstr ""
 
+#. type: Hash Value: types howto categories
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "execution-model, web"
+msgstr ""
+
 #. type: Array Element: types guide extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, fuzzy, no-wrap
@@ -6967,8 +7027,8 @@ msgstr "/guides/reactive-routes"
 #. type: Hash Value: types guide categories
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
-msgid "core, native, security"
-msgstr "core, native, security"
+msgid "packaging, security"
+msgstr ""
 
 #. type: Hash Value: types guide filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -7546,12 +7606,6 @@ msgstr "多部分"
 msgid "/guides/resteasy-client-multipart"
 msgstr "/guides/resteasy-client-multipart"
 
-#. type: Hash Value: types guide categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "data, web"
-msgstr "data, web"
-
 #. type: Array Element: types guide extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, fuzzy, no-wrap
@@ -7930,6 +7984,18 @@ msgstr "OpenID Connect (OIDC) 的开发服务和开发用户界面"
 msgid "/guides/security-openid-connect-dev-services"
 msgstr "/guides/security-openid-connect-dev-services"
 
+#. type: Array Element: types howto extensions
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "io.quarkus:quarkus-security-jpa"
+msgstr ""
+
+#. type: Array Element: types howto extensions
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, fuzzy, no-wrap
+msgid "io.quarkus:quarkus-elytron-security-properties-file"
+msgstr "io.quarkus:quarkus-elytron-security-properties-file"
+
 #. type: Hash Value: types howto filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -7944,9 +8010,9 @@ msgstr "security-basic-authentication-howto"
 
 #. type: Hash Value: types howto summary
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "Enable Basic authentication for your Quarkus project and allow users to authenticate with a username and password."
-msgstr "为你的Quarkus项目启用基本认证，允许用户用用户名和密码进行认证。"
+#, no-wrap
+msgid "Enable Basic authentication to require a username and password before users can access your Quarkus application."
+msgstr ""
 
 #. type: Hash Value: types howto title
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -8043,12 +8109,6 @@ msgstr "从Quarkus 2.x更新项目到Quarkus 3.x。"
 #, no-wrap
 msgid "/guides/update-quarkus"
 msgstr "/guides/update-quarkus"
-
-#. type: Hash Value: types howto categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "core, web"
-msgstr "安全, 网络"
 
 #. type: Hash Value: types howto filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -8320,12 +8380,6 @@ msgstr "类加载参考"
 msgid "/guides/class-loading-reference"
 msgstr "/guides/class-loading-reference"
 
-#. type: Hash Value: types reference categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "command-line, core"
-msgstr "command-line, core"
-
 #. type: Hash Value: types reference filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -8373,12 +8427,6 @@ msgstr "配置参考指南"
 #, no-wrap
 msgid "/guides/config-reference"
 msgstr "/guides/config-reference"
-
-#. type: Hash Value: types reference categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "data, getting-started"
-msgstr "data, getting-started"
 
 #. type: Hash Value: types reference filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -8673,12 +8721,6 @@ msgstr ""
 #, no-wrap
 msgid "/guides/load-shedding-reference"
 msgstr ""
-
-#. type: Hash Value: types reference categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "core, getting-started, observability"
-msgstr "core, getting-started, observability"
 
 #. type: Hash Value: types reference filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -9574,54 +9616,6 @@ msgstr "gRPC 参考指南"
 msgid "/guides/grpc-reference"
 msgstr "/guides/grpc-reference"
 
-#. type: Hash Value: types tutorial categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "getting-started, native"
-msgstr "getting-started, native"
-
-#. type: Hash Value: types tutorial filename
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "building-native-image.adoc"
-msgstr "building-native-image.adoc"
-
-#. type: Hash Value: types tutorial summary
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "Build native executables with GraalVM or Mandrel."
-msgstr "用GraalVM或Mandrel构建原生可执行文件。"
-
-#. type: Hash Value: types tutorial title
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "Building a Native Executable"
-msgstr "构建一个原生可执行文件"
-
-#. type: Array Element: types tutorial topics
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "graalvm"
-msgstr "graalvm"
-
-#. type: Array Element: types tutorial topics
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, fuzzy, no-wrap
-msgid "mandrel"
-msgstr "芯棒"
-
-#. type: Hash Value: types tutorial type
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "tutorial"
-msgstr "tutorial"
-
-#. type: Hash Value: types tutorial url
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "/guides/building-native-image"
-msgstr "/guides/building-native-image"
-
 #. type: Array Element: types tutorial extensions
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, fuzzy, no-wrap
@@ -9651,6 +9645,12 @@ msgstr "创建一个使用Micrometer指标库的应用程序，以收集运行�
 #, fuzzy, no-wrap
 msgid "Collect metrics using Micrometer"
 msgstr "使用测微仪收集指标"
+
+#. type: Hash Value: types tutorial type
+#: upstream/_data/versioned/main/index/quarkus.yaml:0
+#, no-wrap
+msgid "tutorial"
+msgstr "tutorial"
 
 #. type: Hash Value: types tutorial url
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -9715,30 +9715,6 @@ msgstr "/guides/doc-create-tutorial"
 #. type: Hash Value: types tutorial filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
-msgid "getting-started-reactive.adoc"
-msgstr "getting-started-reactive.adoc"
-
-#. type: Hash Value: types tutorial summary
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "Learn more about developing reactive applications with Quarkus."
-msgstr "了解有关使用Quarkus开发响应式应用程序的更多信息。"
-
-#. type: Hash Value: types tutorial title
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "Getting Started With Reactive"
-msgstr "响应式入门"
-
-#. type: Hash Value: types tutorial url
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "/guides/getting-started-reactive"
-msgstr "/guides/getting-started-reactive"
-
-#. type: Hash Value: types tutorial filename
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
 msgid "websockets-next-tutorial.adoc"
 msgstr "websockets-next-tutorial.adoc"
 
@@ -9759,12 +9735,6 @@ msgstr ""
 #, no-wrap
 msgid "/guides/websockets-next-tutorial"
 msgstr "/guides/websockets-next-tutorial"
-
-#. type: Hash Value: types tutorial categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "getting-started, security"
-msgstr "getting-started, security"
 
 #. type: Hash Value: types tutorial filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
@@ -10054,12 +10024,6 @@ msgstr "使用我们的工具"
 msgid "/guides/tooling"
 msgstr "/guides/tooling"
 
-#. type: Hash Value: types tutorial categories
-#: upstream/_data/versioned/main/index/quarkus.yaml:0
-#, no-wrap
-msgid "core, data, getting-started"
-msgstr "core, data, getting-started"
-
 #. type: Hash Value: types tutorial filename
 #: upstream/_data/versioned/main/index/quarkus.yaml:0
 #, no-wrap
@@ -10089,6 +10053,90 @@ msgstr "重新增强Quarkus应用程序"
 #, no-wrap
 msgid "/guides/getting-started-dev-services"
 msgstr "/guides/getting-started-dev-services"
+
+#, no-wrap
+#~ msgid "security, web"
+#~ msgstr "security, web"
+
+#, fuzzy, no-wrap
+#~ msgid "architecture, core"
+#~ msgstr "建筑"
+
+#, fuzzy, no-wrap
+#~ msgid "contributing, security"
+#~ msgstr "贡献，安全"
+
+#, no-wrap
+#~ msgid "cloud, core"
+#~ msgstr "cloud, core"
+
+#, no-wrap
+#~ msgid "cloud, native"
+#~ msgstr "cloud, native"
+
+#, no-wrap
+#~ msgid "data, tooling"
+#~ msgstr "data, tooling"
+
+#, no-wrap
+#~ msgid "native, tooling"
+#~ msgstr "native, tooling"
+
+#, no-wrap
+#~ msgid "alt-languages, data"
+#~ msgstr "alt-languages, data"
+
+#, no-wrap
+#~ msgid "observability, web"
+#~ msgstr "observability, web"
+
+#, no-wrap
+#~ msgid "core, native, tooling"
+#~ msgstr "core, native, tooling"
+
+#, no-wrap
+#~ msgid "core, native, writing-extensions"
+#~ msgstr "core, native, writing-extensions"
+
+#, no-wrap
+#~ msgid "core, native, security"
+#~ msgstr "core, native, security"
+
+#, no-wrap
+#~ msgid "data, web"
+#~ msgstr "data, web"
+
+#, fuzzy, no-wrap
+#~ msgid "Enable Basic authentication for your Quarkus project and allow users to authenticate with a username and password."
+#~ msgstr "为你的Quarkus项目启用基本认证，允许用户用用户名和密码进行认证。"
+
+#, fuzzy, no-wrap
+#~ msgid "core, web"
+#~ msgstr "安全, 网络"
+
+#, no-wrap
+#~ msgid "command-line, core"
+#~ msgstr "command-line, core"
+
+#, no-wrap
+#~ msgid "data, getting-started"
+#~ msgstr "data, getting-started"
+
+#, no-wrap
+#~ msgid "core, getting-started, observability"
+#~ msgstr "core, getting-started, observability"
+
+#, no-wrap
+#~ msgid "getting-started, native"
+#~ msgstr "getting-started, native"
+
+#, no-wrap
+#~ msgid "getting-started, security"
+#~ msgstr "getting-started, security"
+
+#, no-wrap
+#~ msgid "core, data, getting-started"
+#~ msgstr "core, data, getting-started"
 
 #, no-wrap
 #~ msgid "Trigger the inclusion on additional extensions based on certain conditions."
@@ -10293,10 +10341,6 @@ msgstr "/guides/getting-started-dev-services"
 #, fuzzy, no-wrap
 #~ msgid "WebSockets Next extension reference guide"
 #~ msgstr "WebSockets Next 扩展参考指南"
-
-#, fuzzy, no-wrap
-#~ msgid "io.quarkus:quarkus-elytron-security-properties-file"
-#~ msgstr "io.quarkus:quarkus-elytron-security-properties-file"
 
 #, no-wrap
 #~ msgid "This guide demonstrates how your Quarkus application can use a .properties file to store your user identities."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-07-12 10:14+0000\n"
+"POT-Creation-Date: 2026-08-09 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "rivieradev_logo.png"
+msgid "rivieradev_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
@@ -103,7 +103,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "kubecon_jp_2026_logo.png"
+msgid "kubecon_jp_2026_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
@@ -145,7 +145,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "quarkusclub_logo.png"
+msgid "quarkusclub_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
@@ -193,7 +193,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "osskorea_logo.png"
+msgid "osskorea_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
@@ -229,7 +229,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "mcpdevsummit_logo.png"
+msgid "mcpdevsummit_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
@@ -271,7 +271,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "javazone26_logo.png"
+msgid "javazone26_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title
@@ -313,7 +313,7 @@ msgstr ""
 #. type: Hash Value: upcomingevents thumbnail
 #: upstream/_data/events.yaml:0
 #, no-wrap
-msgid "kubecon_cn_2026_logo.png"
+msgid "kubecon_cn_2026_logo.webp"
 msgstr ""
 
 #. type: Hash Value: upcomingevents title

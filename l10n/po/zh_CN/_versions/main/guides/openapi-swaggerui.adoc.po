@@ -330,33 +330,6 @@ msgstr ""
 msgid "The filter executes each time the OpenAPI document is requested."
 msgstr ""
 
-#. type: Table
-#: _versions/main/guides/openapi-swaggerui.adoc
-msgid "RUN"
-msgstr ""
-
-#. type: Table
-#: _versions/main/guides/openapi-swaggerui.adoc
-msgid ""
-"DEPRECATED. The filter executes at stage `RUNTIME_STARTUP` if `quarkus.smallrye-openapi.always-run-filter` is set to `false`,\n"
-"or at stage `RUNTIME_PER_REQUEST` if `quarkus.smallrye-openapi.always-run-filter` is set to `true`. (See also <<Advanced interactions of RunStages>>.)"
-msgstr ""
-
-#. type: Table
-#: _versions/main/guides/openapi-swaggerui.adoc
-msgid "BOTH"
-msgstr ""
-
-#. type: Table
-#: _versions/main/guides/openapi-swaggerui.adoc
-msgid "DEPRECATED. The filter executes as if both the `BUILD` and `RUN` stages were specified."
-msgstr ""
-
-#. type: Plain text
-#: _versions/main/guides/openapi-swaggerui.adoc
-msgid "The `quarkus.smallrye-openapi.always-run-filter` configuration property is deprecated. Annotate your filters with `@OpenApiFilter(stages = OpenApiFilter.RunStage.RUNTIME_PER_REQUEST)` instead."
-msgstr ""
-
 #. type: Title ==
 #: _versions/main/guides/openapi-swaggerui.adoc
 msgid "Advanced interactions of RunStages"
@@ -377,7 +350,7 @@ msgstr ""
 #. type: Plain text
 #: _versions/main/guides/openapi-swaggerui.adoc
 msgid ""
-"To produce an OpenAPI Document which possibly *could* match the one produced during runtime, the `RUN` and `RUNTIME_STARTUP` RunStages are executed at build time - in a separate step from the `BUILD` RunStage.\n"
+"To produce an OpenAPI Document which possibly *could* match the one produced during runtime, the `RUNTIME_STARTUP` RunStage is executed at build time - in a separate step from the `BUILD` RunStage.\n"
 "Any exception which occurs during this additional processing step is ignored, i.e. if one of the filters throws, none will have any effect."
 msgstr ""
 
@@ -393,7 +366,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/openapi-swaggerui.adoc
-msgid "The Microprofile OpenAPI specification defines that *one* OASFilter implementation can be specified using the `mp.openapi.filter` configuration property. This filter will be run during RunStage `RUN`."
+msgid "The Microprofile OpenAPI specification defines that *one* OASFilter implementation can be specified using the `mp.openapi.filter` configuration property. This filter will be run during RunStage `RUNTIME_STARTUP`."
 msgstr ""
 
 #. type: Title =
