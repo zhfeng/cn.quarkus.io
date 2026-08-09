@@ -8,7 +8,7 @@ l10n/po/zh_CN/_guides/deploying-to-kubernetes.adoc.po, 316, 342, 5747, 6061, 6%
 l10n/po/zh_CN/_guides/maven-tooling.adoc.po, 260, 292, 5240, 5957, 13%
 l10n/po/zh_CN/_guides/security-oidc-auth0-tutorial.adoc.po, 190, 199, 5011, 5212, 4%
 l10n/po/zh_CN/_guides/rest-client-reactive.adoc.po, 262, 276, 4883, 4982, 2%
-l10n/po/zh_CN/_guides/rest-client.adoc.po, 253, 349, 4598, 6384, 28%
+l10n/po/zh_CN/_guides/rest-client.adoc.po, 253, 352, 4598, 6422, 29%
 l10n/po/zh_CN/_guides/hibernate-orm.adoc.po, 246, 448, 4547, 8255, 45%
 l10n/po/zh_CN/_guides/hibernate-search-orm-elasticsearch.adoc.po, 258, 289, 4544, 4778, 5%
 l10n/po/zh_CN/_guides/pulsar.adoc.po, 200, 240, 4041, 4444, 10%
@@ -206,7 +206,6 @@ l10n/po/zh_CN/_guides/grpc-kubernetes.adoc.po, 14, 17, 291, 319, 9%
 l10n/po/zh_CN/_guides/security-jwt.adoc.po, 30, 345, 289, 4871, 95%
 l10n/po/zh_CN/_guides/funqy-gcp-functions-http.adoc.po, 10, 15, 283, 301, 6%
 l10n/po/zh_CN/_guides/funqy-aws-lambda-http.adoc.po, 10, 15, 278, 296, 7%
-l10n/po/zh_CN/_guides/security-basic-authentication-howto.adoc.po, 21, 24, 277, 288, 4%
 l10n/po/zh_CN/_guides/init-tasks.adoc.po, 20, 37, 275, 630, 57%
 l10n/po/zh_CN/_guides/security-keycloak-authorization.adoc.po, 33, 187, 274, 2482, 89%
 l10n/po/zh_CN/_guides/rabbitmq-dev-services.adoc.po, 14, 34, 272, 570, 53%
@@ -224,6 +223,7 @@ l10n/po/zh_CN/_guides/grpc.adoc.po, 17, 19, 164, 169, 3%
 l10n/po/zh_CN/_guides/security-identity-providers.adoc.po, 10, 13, 143, 193, 26%
 l10n/po/zh_CN/_guides/funqy-azure-functions-http.adoc.po, 4, 5, 135, 136, 1%
 l10n/po/zh_CN/_guides/azure-functions.adoc.po, 17, 43, 133, 663, 80%
+l10n/po/zh_CN/_guides/security-basic-authentication-howto.adoc.po, 14, 27, 132, 325, 60%
 l10n/po/zh_CN/_guides/spring-scheduled.adoc.po, 3, 59, 132, 738, 83%
 l10n/po/zh_CN/_guides/quarkus-maven-plugin.adoc.po, 6, 27, 116, 216, 47%
 l10n/po/zh_CN/_guides/opentelemetry.adoc.po, 16, 189, 109, 2102, 95%
