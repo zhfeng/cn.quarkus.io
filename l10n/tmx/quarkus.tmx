@@ -40658,14 +40658,6 @@ there is some additional work to bundle the `function.zip`, as below.  For more 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/ignore.png[Ignore strategy]</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/ignore.png[Ignore strategy]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>image:containerization-process.png[Containerization Process]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
