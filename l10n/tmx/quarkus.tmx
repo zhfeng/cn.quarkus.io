@@ -53,6 +53,18 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>**Important:** the guides are maintained in the main Quarkus repository and pull requests should be submitted there:
+https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
+</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>**重要：** 指南保存在主Quarkus仓库中，合并请求应该提交在那里：
+https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>*Experimental*: early feedback is requested to mature the idea. There is no guarantee of stability nor long term presence in the platform until the solution matures. Such extensions are at the beginning of their maturation process.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -188,6 +200,14 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>./gradlew build -Dquarkus.package.type=native -Dquarkus.native.container-build=true {build-additional-parameters}
 </seg>
       </tuv>
@@ -628,6 +648,14 @@
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/dev-ui</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/dev-ui-v2</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/dev-ui-v2</seg>
       </tuv>
     </tu>
     <tu>
@@ -1652,6 +1680,14 @@
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/resteasy-reactive-migration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive-virtual-threads</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>/guides/resteasy-reactive-virtual-threads</seg>
       </tuv>
     </tu>
     <tu>
@@ -2924,7 +2960,7 @@ For example:</seg>
         <seg>所有前置的斜杠将改变配置的权限路径的解释方式。配置的URL将按原样使用，并且如果 `quarkus.http.root-path` 的值改变后路径将不会被调整。例如：</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>A leading slash will change how the configured permission path is interpreted. The configured URL will be used as-is, and paths will not be adjusted if the value of `quarkus.http.root-path` is changed. For example:</seg>
       </tuv>
@@ -4066,7 +4102,7 @@ Here is an example:</seg>
         <seg>And executed using `java -jar target/quarkus-app/quarkus-run.jar`.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>并使用 `java -jar target/quarkus-app/quarkus-run.jar` 命令执行。</seg>
+        <seg>并使用 `java -jar target/quarkus-app/quarkus-run.jar` 命令运行该应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6200,7 +6236,7 @@ Then, open the project in your favorite IDE.</seg>
         <seg>Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>克隆 Git 仓库: `git clone {quickstarts-clone-url}` ，或下载一个 {quickstarts-archive-url}[存档] 。</seg>
+        <seg>克隆 Git 仓库可使用命令： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[压缩包] 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6265,6 +6301,14 @@ Then, open the project in your favorite IDE.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>用SmallRye Metrics收集指标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Combine both the familiar imperative code and the reactive style when developing applications.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>在开发应用程序时，将熟悉的指令式和响应式代码风格结合起来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8438,7 +8482,7 @@ handler bootstraps Quarkus and wraps your actual handler so that injection can b
         <seg>Documentation</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>文档</seg>
+        <seg>文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -9450,7 +9494,7 @@ This time, we will not accumulate the file's content in memory and write it in o
         <seg>First, let's create the `Fruit` bean as follows:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，让我们创建 `Fruit` bean，如下所示：</seg>
+        <seg>首先，让我们创建 `Fruit` 实体类，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9499,7 +9543,7 @@ Create a new project with the following command:</seg>
         <seg>First, we need a new project. Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新的工程项目。用以下命令创建一个新项目：</seg>
+        <seg>首先，我们需要一个新项目。使用以下命令创建一个新项目:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10572,7 +10616,7 @@ be rejected.</seg>
         <seg>Given this simple entity:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>提供这个简单的实体：</seg>
+        <seg>编写一个简单的实体类：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10700,7 +10744,7 @@ be rejected.</seg>
         <seg>GraalVM binaries are not (yet) notarized for macOS Catalina as reported in this https://github.com/oracle/graal/issues/1724[GraalVM issue]. This means that you may see the following error when using `gu`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题]中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
+        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题] 中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17270,7 +17314,7 @@ to automatically convert your object to a BSON document.</seg>
         <seg>More Spring guides</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>更多Spring指南</seg>
+        <seg>更多 Spring 指南</seg>
       </tuv>
     </tu>
     <tu>
@@ -18169,7 +18213,7 @@ One important thing to note is that having a default constructor is required by 
         <seg>Nothing fancy. One important thing to note is that having a default constructor is required by the JSON serialization layer.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>这是非常的简单。需要注意的重要一点是， JSON 序列化层需要具有默认构造函数。</seg>
+        <seg>这非常的简单。需要注意的一件事是， JSON 序列化层需要具有默认构造函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22438,7 +22482,7 @@ A request will be sent to the OpenID Provider UserInfo endpoint and  an `io.quar
         <seg>Setting up and configuring MongoDB with Panache</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用Panache设置和配置MongoDB</seg>
+        <seg>使用 Panache 设置和配置 MongoDB</seg>
       </tuv>
     </tu>
     <tu>
@@ -25182,7 +25226,7 @@ Type: _int_</seg>
         <seg>The application built in this guide is quite simple: the user can add elements in a list using a form and the list is updated.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素，然后列表被更新。</seg>
+        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素并更新列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25775,7 +25819,7 @@ using the default, `prod` profile.</seg>
         <seg>The final order of business is to make the configuration file known to the `native-image` executable by adding the proper configuration to `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>最后一项工作是通过向 `application.properties`添加适当的配置，使配置文件为 `native-image` 可执行文件所知：</seg>
+        <seg>最后一项工作是通过向 `application.properties` 添加适当的配置，使配置文件为 `native-image` 可执行文件所知：</seg>
       </tuv>
     </tu>
     <tu>
@@ -27395,7 +27439,7 @@ To achieve this we merge the stream coming from Kafka and a periodic stream emit
         <seg>Then run it:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>然后运行它：</seg>
+        <seg>然后运行：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30154,7 +30198,7 @@ It's essential to comprehend that _Reactive_ is not just a different execution m
         <seg>To complete this guide, you need:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>完成这个指南，你需要:</seg>
+        <seg>要完成这个指南，你需要：</seg>
       </tuv>
     </tu>
     <tu>
@@ -32034,7 +32078,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using Vert.x clients</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用 Vert.x 客户端</seg>
+        <seg>使用Vert.x客户端</seg>
       </tuv>
     </tu>
     <tu>
@@ -32231,7 +32275,7 @@ REST endpoint methods or Vert.x Routes, are counted and timed by the micrometer 
         <seg>Using such a construct means that a `-H:DynamicProxyConfigurationResources` option will automatically be added to the `native-image` command line.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用这样的结构意味着 `-H:DynamicProxyConfigurationResources` 选项将被自动添加到 `native-image` 命令行中。</seg>
+        <seg>使用这样的结构意味着 `-H:DynamicProxyConfigurationResources` 参数将被自动添加到 `native-image` 命令行中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32592,7 +32636,7 @@ to use the correct one, that includes none at all on unsupported platforms:</seg
         <seg>由Quarkus开发者主办的关于在Quarkus生态系统内和周边事物的视频播客。</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>View the https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-awscli.html[Getting Started Guide] for deploying
 a lambda with AWS CLI.  Specifically, make sure you have created an `Execution Role`.  You will need to define
@@ -32859,7 +32903,7 @@ This consumer can be in the same class or another bean such as:</seg>
         <seg>We recommend that you follow the instructions from &lt;&lt;bootstrapping-the-project,Bootstrapping project&gt;&gt; and onwards to create the application step by step.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>我们建议您按照从 &lt;&lt;bootstrapping-the-project,Bootstrapping project&gt;&gt; 开始的指示，一步一步地创建应用程序。</seg>
+        <seg>我们建议你按照从 link:#bootstrapping-the-project[构建项目] 开始的指示，一步一步地创建应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37100,7 +37144,7 @@ Refer to the http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1
         <seg>`byte[]`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`byte[]`</seg>
+        <seg>`byte[]` </seg>
       </tuv>
     </tu>
     <tu>
@@ -39119,6 +39163,14 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>core, cloud</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>core, cloud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>core, data, getting-started</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -39163,6 +39215,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>core, security, native</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>core, tooling, native</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>core, tooling, native</seg>
       </tuv>
     </tu>
     <tu>
@@ -39227,6 +39287,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>data, alt-languages</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>data, alt-languages</seg>
       </tuv>
     </tu>
     <tu>
@@ -39363,6 +39431,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>dev-services.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>dev-ui-v2.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>dev-ui-v2.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -40178,7 +40254,7 @@ Similar to a message queue, or an enterprise messaging platform, it lets you:</s
  https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[Development Builds]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[插件市场]  link:https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[构建产物归档]</seg>
+        <seg>link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[插件市场]  link:https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[构建产物归档] </seg>
       </tuv>
     </tu>
     <tu>
@@ -40196,7 +40272,7 @@ Similar to a message queue, or an enterprise messaging platform, it lets you:</s
 https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[Development Builds]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:https://plugins.jetbrains.com/plugin/13234-quarkus/versions[插件市场]  link:https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[构建产物归档]</seg>
+        <seg>link:https://plugins.jetbrains.com/plugin/13234-quarkus/versions[插件市场]  link:https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[构建产物归档] </seg>
       </tuv>
     </tu>
     <tu>
@@ -40743,7 +40819,7 @@ VSCode Quarkus Tools</seg>
         <seg>in order to ensure that various resources are included and additional reflection is registered.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>以确保各种资源被包括在内，并登记了额外的反射。</seg>
+        <seg>以确保各种资源被包括在内，并注册了额外的反射。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40880,6 +40956,14 @@ VSCode Quarkus Tools</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>kafka-getting-started.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>kafka-reactive-getting-started.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>kafka-reactive-getting-started.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -41385,6 +41469,22 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>opentracing.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>opentracing.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>optaplanner.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>optaplanner.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>or &lt;a href="https://gradle.org/" target="_blank"&gt;Gradle&lt;/a&gt;</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -41707,6 +41807,22 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>rest-client-multipart.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>rest-client-multipart.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>rest-client-reactive.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>rest-client-reactive.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>rest-client.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -41775,6 +41891,38 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>resteasy-client.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive-migration.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>resteasy-reactive-migration.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive-virtual-threads</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>resteasy-reactive-virtual-threads</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive-virtual-threads.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>resteasy-reactive-virtual-threads.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>resteasy-reactive.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -41911,6 +42059,22 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>security-basic-authentication-howto.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>security-basic-authentication-tutorial</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>security-basic-authentication-tutorial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>security-basic-authentication-tutorial.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>security-basic-authentication-tutorial.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -42983,6 +43147,14 @@ or rolled-back only at termination of the reactive value.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>tooling, native</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>tooling, native</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>tooling.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -43087,10 +43259,18 @@ or rolled-back only at termination of the reactive value.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>web, security</seg>
+        <seg>web, observability</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>web, security</seg>
+        <seg>web, observability</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>web, serialization</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>web, serialization</seg>
       </tuv>
     </tu>
     <tu>
@@ -43364,7 +43544,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-boot-properties.adoc[Quarkus - Extension for Spring Boot properties]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>xref:spring-boot-properties.adoc[Quarkus - Spring Boot 属性扩展]</seg>
+        <seg>xref:spring-boot-properties.adoc[Quarkus - Spring Boot properties 扩展]</seg>
       </tuv>
     </tu>
     <tu>
@@ -43380,7 +43560,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-cloud-config-client.adoc[Quarkus - Reading properties from Spring Cloud Config Server]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>xref:spring-cloud-config-client.adoc[Quarkus - 从Spring Cloud Config Server 中读取属性]</seg>
+        <seg>xref:spring-cloud-config-client.adoc[Quarkus - 从Spring Cloud Config Server 中读取配置]</seg>
       </tuv>
     </tu>
     <tu>
@@ -43388,7 +43568,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-data-jpa.adoc[Quarkus - Extension for Spring Data JPA]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:spring-data-jpa.html[Quarkus - Spring Data JPA 扩展]</seg>
+        <seg>xref:spring-data-jpa.adoc[Quarkus - Spring Data JPA 扩展]</seg>
       </tuv>
     </tu>
     <tu>
@@ -43396,7 +43576,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>xref:spring-data-rest.adoc[Quarkus - Extension for Spring Data REST]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:spring-data-rest.html[Quarkus - Spring Data REST 扩展]</seg>
+        <seg>xref:spring-data-rest.adoc[Quarkus - Spring Data REST 扩展]</seg>
       </tuv>
     </tu>
     <tu>
