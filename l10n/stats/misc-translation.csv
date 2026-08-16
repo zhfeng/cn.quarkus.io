@@ -36,7 +36,7 @@ l10n/po/zh_CN/_data/versioned/3-8/index/quarkus.yaml.po, 597, 1341, 3229, 5729, 
 l10n/po/zh_CN/_data/versioned/latest/index/quarkus.yaml.po, 608, 1657, 3117, 6909, 55%
 l10n/po/zh_CN/_data/versioned/main/index/quarkus.yaml.po, 615, 1673, 3103, 6962, 56%
 l10n/po/zh_CN/_data/versioned/3-6/index/quarkus.yaml.po, 582, 1329, 3065, 5671, 46%
-l10n/po/zh_CN/_data/insights-videos.yaml.po, 616, 970, 2374, 3868, 39%
+l10n/po/zh_CN/_data/insights-videos.yaml.po, 616, 978, 2374, 3918, 40%
 l10n/po/zh_CN/_data/versioned/3-2/index/quarkus.yaml.po, 239, 970, 2240, 4940, 55%
 l10n/po/zh_CN/_data/versioned/2-16/index/quarkus.yaml.po, 184, 882, 1620, 4584, 65%
 l10n/po/zh_CN/_data/books.yaml.po, 65, 87, 860, 950, 10%
@@ -47,7 +47,7 @@ l10n/po/zh_CN/_data/versioned/latest/index/relations.yaml.po, 154, 533, 699, 144
 l10n/po/zh_CN/_data/versioned/3-6/index/relations.yaml.po, 154, 444, 674, 1182, 43%
 l10n/po/zh_CN/_data/qtips-videos.yaml.po, 106, 111, 395, 412, 5%
 l10n/po/zh_CN/_data/training.yaml.po, 59, 59, 355, 355, 0%
-l10n/po/zh_CN/_data/newsletter.yaml.po, 130, 211, 326, 542, 40%
+l10n/po/zh_CN/_data/newsletter.yaml.po, 130, 214, 326, 550, 41%
 l10n/po/zh_CN/_data/guides-2-13.yaml.po, 59, 707, 259, 4448, 95%
 l10n/po/zh_CN/_data/guides-2-7.yaml.po, 44, 666, 215, 4223, 95%
 l10n/po/zh_CN/_data/katakodalist.yaml.po, 17, 17, 141, 141, 0%
@@ -68,7 +68,7 @@ l10n/po/zh_CN/_data/guides.yaml.po, 0, 5, 0, 15, 100%
 l10n/po/zh_CN/_data/index-docs.yaml.po, 0, 14, 0, 67, 100%
 l10n/po/zh_CN/_data/publication-entries.yaml.po, 0, 1, 0, 18, 100%
 l10n/po/zh_CN/_data/recent-posts-band.yaml.po, 0, 2, 0, 6, 100%
-l10n/po/zh_CN/_data/releases.yaml.po, 0, 409, 0, 500, 100%
+l10n/po/zh_CN/_data/releases.yaml.po, 0, 410, 0, 501, 100%
 l10n/po/zh_CN/_data/sitemap-links.yaml.po, 0, 160, 0, 304, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/quarkus.yaml.po, 0, 1478, 0, 6258, 100%
 l10n/po/zh_CN/_data/versioned/3-15/index/relations.yaml.po, 0, 481, 0, 1282, 100%
@@ -80,5 +80,5 @@ l10n/po/zh_CN/_data/versioned/3-33/index/quarkus.yaml.po, 0, 1581, 0, 6609, 100%
 l10n/po/zh_CN/_data/versioned/3-33/index/relations.yaml.po, 0, 515, 0, 1403, 100%
 l10n/po/zh_CN/_data/versioned/3-34/index/quarkus.yaml.po, 0, 1581, 0, 6610, 100%
 l10n/po/zh_CN/_data/versioned/3-34/index/relations.yaml.po, 0, 515, 0, 1403, 100%
-l10n/po/zh_CN/_data/versioned/main/index/categories.yaml.po, 0, 1787, 0, 7187, 100%
+l10n/po/zh_CN/_data/versioned/main/index/categories.yaml.po, 0, 1786, 0, 7185, 100%
 l10n/po/zh_CN/_data/wg.yaml.po, 0, 260, 0, 13984, 100%
