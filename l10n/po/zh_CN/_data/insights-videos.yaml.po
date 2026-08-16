@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-08-09 09:11+0000\n"
+"POT-Creation-Date: 2026-08-16 08:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,52 +25,16 @@ msgstr "预定播客"
 #. type: Hash Value: nextsessionguest
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "Hector Ventura"
-msgstr ""
-
-#. type: Hash Value: futurevideos date
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "August 10th, 2026"
-msgstr ""
-
-#. type: Hash Value: nextsessiontitle
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "Episode #256: What is Floci?"
-msgstr ""
-
-#. type: Hash Value: futurevideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "None"
-msgstr ""
-
-#. type: Hash Value: futurevideos date
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "August 17th, 2026"
-msgstr ""
-
-#. type: Hash Value: futurevideos title
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
-msgid "No Session - Summer Holiday"
-msgstr ""
-
-#. type: Hash Value: futurevideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, no-wrap
 msgid "Rob Sedor"
 msgstr ""
 
 #. type: Hash Value: futurevideos date
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "August 24th, 2026"
+msgid "August 31st, 2026"
 msgstr ""
 
-#. type: Hash Value: futurevideos title
+#. type: Hash Value: nextsessiontitle
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
 msgid "Episode #257: Taming the JVM: Optimizing Java Workloads on OpenShift & Kubernetes"
@@ -112,10 +76,76 @@ msgstr ""
 msgid "Episode #259: Reshapr & Quarkus"
 msgstr ""
 
+#. type: Hash Value: futurevideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Ståle Pedersen & Max Andersen"
+msgstr ""
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "September 21st, 2026"
+msgstr ""
+
+#. type: Hash Value: futurevideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #260: Quarkus and CLI Applications"
+msgstr ""
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "September 28th, 2026"
+msgstr ""
+
+#. type: Hash Value: futurevideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #261: What is Quarkus Signals?"
+msgstr ""
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, fuzzy, no-wrap
+msgid "Bill Burke"
+msgstr "比尔-伯克"
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "October 5th, 2026"
+msgstr ""
+
+#. type: Hash Value: futurevideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #262: What is Quarkus Chat Scopes?"
+msgstr ""
+
+#. type: Hash Value: futurevideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Teymur Babayev, Guillaume Smet, & Ladislav Thon"
+msgstr ""
+
+#. type: Hash Value: futurevideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "October 12th, 2026"
+msgstr ""
+
+#. type: Hash Value: futurevideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #263: Everything you didn't want to know about Quarkus build reproducibility"
+msgstr ""
+
 #. type: Hash Value: nextsessiondate
 #: upstream/_data/insights-videos.yaml:0
 #, no-wrap
-msgid "2026-08-10T13:00Z"
+msgid "2026-08-31T13:00Z"
 msgstr ""
 
 #. type: Hash Value: pastheadline
@@ -123,6 +153,30 @@ msgstr ""
 #, fuzzy, no-wrap
 msgid "Archived Podcast Videos"
 msgstr "存档播客视频"
+
+#. type: Hash Value: pastvideos authors
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Hector Ventura"
+msgstr ""
+
+#. type: Hash Value: pastvideos date
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "August 10th, 2026"
+msgstr ""
+
+#. type: Hash Value: pastvideos link
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "https://www.youtube.com/watch?v=Nudqk1DM7fM"
+msgstr ""
+
+#. type: Hash Value: pastvideos title
+#: upstream/_data/insights-videos.yaml:0
+#, no-wrap
+msgid "Episode #256: What is Floci?"
+msgstr ""
 
 #. type: Hash Value: pastvideos authors
 #: upstream/_data/insights-videos.yaml:0
@@ -1401,12 +1455,6 @@ msgstr ""
 #, no-wrap
 msgid "EPISODE #201: Jakarta Data in Quarkus"
 msgstr ""
-
-#. type: Hash Value: pastvideos authors
-#: upstream/_data/insights-videos.yaml:0
-#, fuzzy, no-wrap
-msgid "Bill Burke"
-msgstr "比尔-伯克"
 
 #. type: Hash Value: pastvideos date
 #: upstream/_data/insights-videos.yaml:0
