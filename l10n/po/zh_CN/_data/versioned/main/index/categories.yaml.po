@@ -6518,7 +6518,7 @@ msgstr ""
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "Execution model"
-msgstr ""
+msgstr "执行模型"
 
 #. type: Hash Value: categories description
 #: upstream/_data/versioned/main/index/categories.yaml:0
