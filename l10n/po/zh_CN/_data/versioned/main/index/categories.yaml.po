@@ -386,7 +386,7 @@ msgstr "用GraalVM或Mandrel构建原生可执行文件。"
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "Building a native executable"
-msgstr ""
+msgstr "构建一个本地可执行文件"
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
