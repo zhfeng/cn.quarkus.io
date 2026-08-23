@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/aot.adoc
-msgid "Ahead-of-Time (AOT) Caching"
+msgid "Ahead-of-time (AOT) caching"
 msgstr ""
 
 #. type: Plain text

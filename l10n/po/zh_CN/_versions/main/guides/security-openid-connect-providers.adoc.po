@@ -18,9 +18,8 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/security-openid-connect-providers.adoc
-#, fuzzy, no-wrap
-msgid "Configuring Well-Known OpenID Connect Providers"
-msgstr "配置知名的OpenID连接供应商"
+msgid "Configuring well-known OpenID Connect providers"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-openid-connect-providers.adoc

@@ -17,13 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: title
-#. This guide is maintained in the main Quarkus repository
-#. and pull requests should be submitted there:
-#. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
 #: _versions/main/guides/messaging-virtual-threads.adoc
-#, fuzzy, no-wrap
-msgid "Quarkus Virtual Thread support with Reactive Messaging"
-msgstr "利用反应式消息传递支持 Quarkus 虚拟线程"
+msgid "Quarkus virtual thread support with Reactive Messaging"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/messaging-virtual-threads.adoc

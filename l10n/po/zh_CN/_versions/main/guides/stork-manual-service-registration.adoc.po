@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/stork-manual-service-registration.adoc
-msgid "Implementing a Custom Stork Service Registrar"
+msgid "Implementing a custom Stork service registrar"
 msgstr ""
 
 #. type: Plain text

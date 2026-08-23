@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-08-09 09:11+0000\n"
+"POT-Creation-Date: 2026-08-23 08:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,9 +24,9 @@ msgstr "2"
 
 #. type: Hash Value: /guides/picocli sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Command Mode Applications"
-msgstr "命令模式的应用"
+#, no-wrap
+msgid "Command mode applications"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics type
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -42,9 +42,9 @@ msgstr "/guides/command-mode-reference"
 
 #. type: Hash Value: /guides/grpc-cli sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Command Mode with Picocli"
-msgstr "使用Picocli的命令模式"
+#, no-wrap
+msgid "Command mode with Picocli"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics type
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -103,8 +103,8 @@ msgstr "/guides/amqp-dev-services"
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Reactive Messaging AMQP 1.0 Connector Reference Documentation"
-msgstr "响应式消息AMQP 1.0连接器参考文档"
+msgid "Reactive Messaging AMQP 1.0 Connector reference documentation"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -115,8 +115,8 @@ msgstr "/guides/amqp-reference"
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Apache Kafka Reference Guide"
-msgstr "Apache Kafka参考指南"
+msgid "Apache Kafka reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -126,9 +126,9 @@ msgstr "/guides/kafka"
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Apache Pulsar Reference Guide"
-msgstr "Apache Kafka参考指南"
+#, no-wrap
+msgid "Apache Pulsar reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -186,9 +186,21 @@ msgstr "/guides/rabbitmq-dev-services"
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Getting Started to Quarkus Messaging with Apache Pulsar"
-msgstr "使用 Apache Pulsar 开始使用 Quarkus 消息传输技术"
+#, no-wrap
+msgid "Getting started with Quarkus Messaging and Apache Kafka"
+msgstr ""
+
+#. type: Hash Value: /guides/reactive-event-bus sameTopics url
+#: upstream/_data/versioned/main/index/relations.yaml:0
+#, no-wrap
+msgid "/guides/kafka-getting-started"
+msgstr "/guides/kafka-getting-started"
+
+#. type: Hash Value: /guides/reactive-event-bus sameTopics title
+#: upstream/_data/versioned/main/index/relations.yaml:0
+#, no-wrap
+msgid "Getting started with Quarkus Messaging and Apache Pulsar"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -198,27 +210,15 @@ msgstr "/guides/pulsar-getting-started"
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Getting Started to Quarkus Messaging with RabbitMQ"
-msgstr "开始使用 RabbitMQ 进行 Quarkus 消息传递"
+#, no-wrap
+msgid "Getting started with Quarkus Messaging and RabbitMQ"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
 msgid "/guides/rabbitmq"
 msgstr "/guides/rabbitmq"
-
-#. type: Hash Value: /guides/reactive-event-bus sameTopics title
-#: upstream/_data/versioned/main/index/relations.yaml:0
-#, no-wrap
-msgid "Getting Started with Quarkus Messaging and Apache Kafka"
-msgstr ""
-
-#. type: Hash Value: /guides/reactive-event-bus sameTopics url
-#: upstream/_data/versioned/main/index/relations.yaml:0
-#, no-wrap
-msgid "/guides/kafka-getting-started"
-msgstr "/guides/kafka-getting-started"
 
 #. type: Hash Value: /guides/security-openid-connect-dev-services sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -235,7 +235,7 @@ msgstr "/guides/kafka-dev-ui"
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Quarkus Messaging Extensions"
+msgid "Quarkus Messaging extensions"
 msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
@@ -246,9 +246,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Virtual Thread support with Reactive Messaging"
-msgstr "利用反应式消息传递支持 Quarkus 虚拟线程"
+#, no-wrap
+msgid "Quarkus virtual thread support with Reactive Messaging"
+msgstr ""
 
 #. type: Hash Value: /guides/virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -258,9 +258,9 @@ msgstr "/guides/messaging-virtual-threads"
 
 #. type: Hash Value: /guides/tests-with-coverage sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Reactive Messaging RabbitMQ Connector Reference Documentation"
-msgstr "Reactive Messaging RabbitMQ连接器参考文档"
+#, no-wrap
+msgid "Reactive Messaging RabbitMQ Connector reference documentation"
+msgstr ""
 
 #. type: Hash Value: /guides/tests-with-coverage sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -330,9 +330,9 @@ msgstr "/guides/reactive-event-bus"
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Getting Started to Quarkus Messaging with AMQP 1.0"
-msgstr "使用 AMQP 1.0 开始 Quarkus 消息传递"
+#, no-wrap
+msgid "Getting started with Quarkus Messaging and AMQP 1.0"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-event-bus sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -384,9 +384,9 @@ msgstr "/guides/security-openid-connect-dev-services"
 
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Dev Services for Databases"
-msgstr "数据库的开发服务"
+#, no-wrap
+msgid "Dev Services for databases"
+msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -444,9 +444,9 @@ msgstr "/guides/redis-dev-services"
 
 #. type: Hash Value: /guides/tests-with-coverage sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Dev Services Overview"
-msgstr "开发服务概述"
+#, no-wrap
+msgid "Dev Services overview"
+msgstr ""
 
 #. type: Hash Value: /guides/tests-with-coverage sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -457,8 +457,8 @@ msgstr "/guides/dev-services"
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Continuous Testing"
-msgstr "持续测试"
+msgid "Continuous testing"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -505,8 +505,8 @@ msgstr "/guides/tests-with-coverage"
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Security Testing"
-msgstr "安全测试"
+msgid "Security testing"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -529,8 +529,8 @@ msgstr ""
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Testing Your Application"
-msgstr "测试你的应用程序"
+msgid "Testing your application"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -558,9 +558,9 @@ msgstr "/guides/getting-started-dev-services"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Container Images"
-msgstr "容器图像"
+#, no-wrap
+msgid "Container images"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -691,8 +691,8 @@ msgstr ""
 #. type: Hash Value: /guides/quarkus-reactive-architecture sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Measuring Performance"
-msgstr "衡量性能"
+msgid "Measuring performance"
+msgstr ""
 
 #. type: Hash Value: /guides/quarkus-reactive-architecture sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -744,9 +744,9 @@ msgstr "/guides/aws-lambda-http"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "AWS Lambda SnapStart Configuration"
-msgstr "亚马逊Lambda SnapStart配置"
+#, no-wrap
+msgid "AWS Lambda SnapStart configuration"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -756,9 +756,9 @@ msgstr "/guides/aws-lambda-snapstart"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Funqy AWS Lambda Binding"
-msgstr "Funqy亚马逊Lambda绑定"
+#, no-wrap
+msgid "Funqy AWS Lambda binding"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -828,9 +828,9 @@ msgstr "/guides/funqy-gcp-functions"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Funqy HTTP Binding (Standalone)"
-msgstr "Funqy HTTP绑定（独立的）。"
+#, no-wrap
+msgid "Funqy HTTP binding (standalone)"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -840,9 +840,9 @@ msgstr "/guides/funqy-http"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Funqy HTTP Binding with Azure Functions"
-msgstr "用Azure函数进行Funqy HTTP绑定"
+#, no-wrap
+msgid "Funqy HTTP binding with Azure Functions"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -852,9 +852,9 @@ msgstr "/guides/funqy-azure-functions-http"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Funqy HTTP Binding with Google Cloud Functions"
-msgstr "Funqy HTTP与谷歌云函数的绑定"
+#, no-wrap
+msgid "Funqy HTTP binding with Google Cloud Functions"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -864,9 +864,9 @@ msgstr "/guides/funqy-gcp-functions-http"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Funqy Knative Events Binding"
-msgstr "Funqy Knative事件绑定"
+#, no-wrap
+msgid "Funqy Knative events binding"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -876,9 +876,9 @@ msgstr "/guides/funqy-knative-events"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Google Cloud Functions (Serverless)"
-msgstr "谷歌云功能（无服务器）"
+#, no-wrap
+msgid "Google Cloud Functions (serverless)"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -931,8 +931,8 @@ msgstr ""
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Class Loading Reference"
-msgstr "类加载参考"
+msgid "Class loading reference"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -943,8 +943,8 @@ msgstr "/guides/class-loading-reference"
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Conditional Extension Dependencies"
-msgstr "条件性扩展的依赖性"
+msgid "Conditional extension dependencies"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -966,9 +966,9 @@ msgstr "/guides/duplicated-context"
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Extension Capabilities"
-msgstr "扩展能力"
+#, no-wrap
+msgid "Extension capabilities"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1002,9 +1002,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Extension Metadata"
-msgstr "Quarkus扩展元数据"
+#, no-wrap
+msgid "Quarkus extension metadata"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1014,9 +1014,9 @@ msgstr "/guides/extension-metadata"
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Extension Registry"
-msgstr "Quarkus扩展注册表"
+#, no-wrap
+msgid "Quarkus extension registry"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1063,8 +1063,8 @@ msgstr ""
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Writing Your Own Extension"
-msgstr "编写您自己的扩展"
+msgid "Writing your own extension"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1086,9 +1086,9 @@ msgstr "/guides/upx"
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Native Reference Guide"
-msgstr "本地参考指南"
+#, no-wrap
+msgid "Native reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1099,8 +1099,8 @@ msgstr "/guides/native-reference"
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Using SSL With Native Executables"
-msgstr "在原生可执行文件中使用SSL"
+msgid "Using SSL with native executables"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1170,9 +1170,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Infinispan Client Extension Reference Guide"
-msgstr "Infinispan客户端扩展参考指南"
+#, no-wrap
+msgid "Infinispan Client extension reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1182,9 +1182,9 @@ msgstr "/guides/infinispan-client-reference"
 
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Narayana LRA Participant Support"
-msgstr "纳拉亚纳LRA参与者支持"
+#, no-wrap
+msgid "Narayana LRA participant support"
+msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1195,8 +1195,8 @@ msgstr "/guides/lra"
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Reactive SQL Clients"
-msgstr "响应式SQL客户端"
+msgid "Reactive SQL clients"
+msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1206,9 +1206,9 @@ msgstr "/guides/reactive-sql-clients"
 
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Redis Extension Reference Guide"
-msgstr "Redis扩展参考指南"
+#, no-wrap
+msgid "Redis extension reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1434,9 +1434,9 @@ msgstr "/guides/transaction"
 
 #. type: Hash Value: /guides/transaction sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Application Data Caching"
-msgstr "应用数据缓存"
+#, no-wrap
+msgid "Application data caching"
+msgstr ""
 
 #. type: Hash Value: /guides/transaction sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1459,8 +1459,8 @@ msgstr "/guides/building-my-first-extension"
 #. type: Hash Value: /guides/cdi-reference sameExtensions title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Application Initialization and Termination"
-msgstr "应用程序的初始化和终止"
+msgid "Application initialization and termination"
+msgstr ""
 
 #. type: Hash Value: /guides/cdi-reference sameExtensions url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1470,9 +1470,9 @@ msgstr "/guides/lifecycle"
 
 #. type: Hash Value: /guides/spring-di sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "CDI Integration Guide"
-msgstr "CDI整合指南"
+#, no-wrap
+msgid "CDI integration guide"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-di sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1591,7 +1591,7 @@ msgstr "/guides/logging"
 #. type: Hash Value: /guides/telemetry-opentracing-to-otel-tutorial sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Application Info Endpoint"
+msgid "Application info endpoint"
 msgstr ""
 
 #. type: Hash Value: /guides/telemetry-opentracing-to-otel-tutorial sameTopics url
@@ -1746,9 +1746,9 @@ msgstr "/guides/doc-concept"
 
 #. type: Hash Value: /guides/reactive-sql-clients sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Reactive Architecture"
-msgstr "Quarkus反应式架构"
+#, no-wrap
+msgid "Quarkus reactive architecture"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-sql-clients sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1771,7 +1771,7 @@ msgstr "/guides/doc-reference"
 #. type: Hash Value: /guides/picocli sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Command Mode with Aesh"
+msgid "Command mode with Aesh"
 msgstr ""
 
 #. type: Hash Value: /guides/picocli sameTopics url
@@ -1782,9 +1782,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Packaging And Releasing With JReleaser"
-msgstr "使用JReleaser进行包装和发布"
+#, no-wrap
+msgid "Packaging and releasing with JReleaser"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1818,9 +1818,9 @@ msgstr "/guides/maven-tooling"
 
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Maven Plugin"
-msgstr "Quarkus Maven Plugin"
+#, no-wrap
+msgid "Quarkus Maven plugin"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1831,8 +1831,8 @@ msgstr "/guides/quarkus-maven-plugin"
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Quarkus Tools in your favorite IDE"
-msgstr "在你最喜欢的IDE中使用Quarkus工具"
+msgid "Quarkus tools in your favorite IDE"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1843,8 +1843,8 @@ msgstr "/guides/ide-tooling"
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Re-augment a Quarkus Application"
-msgstr "重新增强Quarkus应用程序"
+msgid "Re-augment a Quarkus application"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1867,8 +1867,8 @@ msgstr "/guides/update-quarkus"
 #. type: Hash Value: /guides/upx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Using our Tooling"
-msgstr "使用我们的工具"
+msgid "Using our tooling"
+msgstr ""
 
 #. type: Hash Value: /guides/upx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1878,9 +1878,9 @@ msgstr "/guides/tooling"
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Configuration Reference Guide"
-msgstr "配置参考指南"
+#, no-wrap
+msgid "Configuration reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1891,8 +1891,8 @@ msgstr "/guides/config-reference"
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Extending Configuration Support"
-msgstr "扩展配置支持"
+msgid "Extending configuration support"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -1939,8 +1939,8 @@ msgstr "/guides/config-yaml"
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Configuring Your Application"
-msgstr "配置你的应用程序"
+msgid "Configuring your application"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-cloud-config-client sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2022,9 +2022,9 @@ msgstr "/guides/security-jwt-build"
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Configuring Well-Known OpenID Connect Providers"
-msgstr "配置知名的OpenID连接供应商"
+#, no-wrap
+msgid "Configuring well-known OpenID Connect providers"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2034,9 +2034,9 @@ msgstr "/guides/security-openid-connect-providers"
 
 #. type: Hash Value: /guides/web-dependency-locator sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Cross-Site Request Forgery Prevention"
-msgstr "防止跨站请求伪造"
+#, no-wrap
+msgid "Cross-Site Request Forgery prevention"
+msgstr ""
 
 #. type: Hash Value: /guides/web-dependency-locator sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2203,7 +2203,7 @@ msgstr "/guides/security-oidc-code-flow-authentication-tutorial"
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Quarkus OpenId Connect (OIDC) Expanded Configuration Reference"
+msgid "Quarkus OpenID Connect (OIDC) expanded configuration reference"
 msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
@@ -2250,9 +2250,9 @@ msgstr "/guides/security-jpa"
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Security Tips and Tricks"
-msgstr "安全技巧和窍门"
+#, no-wrap
+msgid "Security tips and tricks"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2370,9 +2370,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Using Security with an LDAP Realm"
-msgstr "使用LDAP领域的安全性"
+#, no-wrap
+msgid "Using security with an LDAP realm"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2383,8 +2383,8 @@ msgstr "/guides/security-ldap"
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Using Security with JDBC"
-msgstr "使用JDBC的安全性"
+msgid "Using security with JDBC"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2395,8 +2395,8 @@ msgstr "/guides/security-jdbc"
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Using Security with WebAuthn"
-msgstr "使用WebAuthn的安全性"
+msgid "Using security with WebAuthn"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2425,8 +2425,8 @@ msgstr "/guides/rest-data-panache"
 #. type: Hash Value: /guides/reactive-sql-clients sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Getting Started With Reactive"
-msgstr "响应式入门"
+msgid "Getting started with Reactive"
+msgstr ""
 
 #. type: Hash Value: /guides/reactive-sql-clients sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2449,8 +2449,8 @@ msgstr "/guides/mutiny-primer"
 #. type: Hash Value: /guides/podman sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Quarkus Base Runtime Image"
-msgstr "Quarkus运行时基础镜像"
+msgid "Quarkus base runtime image"
+msgstr ""
 
 #. type: Hash Value: /guides/podman sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2460,9 +2460,9 @@ msgstr "/guides/quarkus-runtime-base-image"
 
 #. type: Hash Value: /guides/stork-kubernetes sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Deploying your gRPC Service in Kubernetes"
-msgstr "Kubernetes的开发服务"
+#, no-wrap
+msgid "Deploying your gRPC service in Kubernetes"
+msgstr ""
 
 #. type: Hash Value: /guides/stork-kubernetes sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2515,8 +2515,8 @@ msgstr "6"
 #. type: Hash Value: /guides/getting-started-testing sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Creating Your First Application"
-msgstr "创建你的第一个应用程序"
+msgid "Creating your first application"
+msgstr ""
 
 #. type: Hash Value: /guides/getting-started-testing sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2526,9 +2526,9 @@ msgstr "/guides/getting-started"
 
 #. type: Hash Value: /guides/grpc-virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Consuming a gRPC Service"
-msgstr "消耗一个gRPC服务"
+#, no-wrap
+msgid "Consuming a gRPC service"
+msgstr ""
 
 #. type: Hash Value: /guides/grpc-virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2539,8 +2539,8 @@ msgstr "/guides/grpc-service-consumption"
 #. type: Hash Value: /guides/grpc-virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Getting Started with gRPC"
-msgstr "开始使用gRPC"
+msgid "Getting started with gRPC"
+msgstr ""
 
 #. type: Hash Value: /guides/grpc-virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2574,9 +2574,9 @@ msgstr "/guides/grpc-reference"
 
 #. type: Hash Value: /guides/grpc-virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Implementing a gRPC Service"
-msgstr "实现一个gRPC服务"
+#, no-wrap
+msgid "Implementing a gRPC service"
+msgstr ""
 
 #. type: Hash Value: /guides/grpc-virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2586,9 +2586,9 @@ msgstr "/guides/grpc-service-implementation"
 
 #. type: Hash Value: /guides/virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Virtual Thread support for gRPC services"
-msgstr "Quarkus 虚拟线程支持 gRPC 服务"
+#, no-wrap
+msgid "Quarkus virtual thread support for gRPC services"
+msgstr ""
 
 #. type: Hash Value: /guides/virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2622,9 +2622,9 @@ msgstr "/guides/rest-virtual-threads"
 
 #. type: Hash Value: /guides/rest-virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Virtual Thread support reference"
-msgstr "虚拟线程支持参考"
+#, no-wrap
+msgid "Virtual thread support reference"
+msgstr ""
 
 #. type: Hash Value: /guides/rest-virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2634,9 +2634,9 @@ msgstr "/guides/virtual-threads"
 
 #. type: Hash Value: /guides/virtual-threads sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Writing REST Services with Quarkus REST (formerly RESTEasy Reactive)"
-msgstr "使用 Quarkus REST（前身为 RESTEasy Reactive）编写 REST 服务"
+#, no-wrap
+msgid "Writing REST services with Quarkus REST (formerly RESTEasy Reactive)"
+msgstr ""
 
 #. type: Hash Value: /guides/virtual-threads sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2671,7 +2671,7 @@ msgstr "/guides/security-cors"
 #. type: Hash Value: /guides/web-dependency-locator sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Native Transport Reference"
+msgid "Native transport reference"
 msgstr ""
 
 #. type: Hash Value: /guides/web-dependency-locator sameTopics url
@@ -2737,7 +2737,7 @@ msgstr "/guides/websockets-next-tutorial"
 #. type: Hash Value: /guides/websockets-next-tutorial sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Load Shedding reference guide"
+msgid "Load shedding reference guide"
 msgstr ""
 
 #. type: Hash Value: /guides/websockets-next-tutorial sameTopics url
@@ -2808,9 +2808,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/websockets-next-tutorial sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "HTTP Reference"
-msgstr "HTTP参考"
+#, no-wrap
+msgid "HTTP reference"
+msgstr ""
 
 #. type: Hash Value: /guides/websockets-next-tutorial sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2832,9 +2832,9 @@ msgstr "/guides/software-transactional-memory"
 
 #. type: Hash Value: /guides/mailer sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Mailer Reference Guide"
-msgstr "邮递员参考指南"
+#, no-wrap
+msgid "Mailer reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/mailer sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2857,8 +2857,8 @@ msgstr "/guides/mailer"
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Building a Native Executable"
-msgstr "构建一个原生可执行文件"
+msgid "Building a native executable"
+msgstr ""
 
 #. type: Hash Value: /guides/writing-native-applications-tips sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2929,8 +2929,8 @@ msgstr "/guides/rest-client"
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Writing JSON REST Services"
-msgstr "编写JSON REST服务"
+msgid "Writing JSON REST services"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2941,7 +2941,7 @@ msgstr "/guides/rest-json"
 #. type: Hash Value: /guides/performance-measure sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Ahead-of-Time (AOT) Caching"
+msgid "Ahead-of-time (AOT) caching"
 msgstr ""
 
 #. type: Hash Value: /guides/performance-measure sameTopics url
@@ -2952,9 +2952,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Using a Credentials Provider"
-msgstr "使用凭证提供者"
+#, no-wrap
+msgid "Using a credentials provider"
+msgstr ""
 
 #. type: Hash Value: /guides/tls-registry-reference sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2964,9 +2964,9 @@ msgstr "/guides/credentials-provider"
 
 #. type: Hash Value: /guides/spring-scheduled sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Scheduler Reference Guide"
-msgstr "调度器参考指南"
+#, no-wrap
+msgid "Scheduler reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-scheduled sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2977,8 +2977,8 @@ msgstr "/guides/scheduler-reference"
 #. type: Hash Value: /guides/spring-scheduled sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Scheduling Periodic Tasks"
-msgstr "安排周期性任务"
+msgid "Scheduling periodic tasks"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-scheduled sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -2988,9 +2988,9 @@ msgstr "/guides/scheduler"
 
 #. type: Hash Value: /guides/web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Qute Reference Guide"
-msgstr "衢州参考指南"
+#, no-wrap
+msgid "Qute reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3000,9 +3000,9 @@ msgstr "/guides/qute-reference"
 
 #. type: Hash Value: /guides/web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Qute Templating Engine"
-msgstr "Qute模板化引擎"
+#, no-wrap
+msgid "Qute templating engine"
+msgstr ""
 
 #. type: Hash Value: /guides/web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3012,9 +3012,9 @@ msgstr "/guides/qute"
 
 #. type: Hash Value: /guides/spring-scheduled sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Scheduling Periodic Tasks with Quartz"
-msgstr "用Quartz调度周期性任务"
+#, no-wrap
+msgid "Scheduling periodic tasks with Quartz"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-scheduled sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3084,9 +3084,9 @@ msgstr "/guides/spring-data-rest"
 
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Extension for Spring Cache API"
-msgstr "Quarkus Extension for Spring Cache API"
+#, no-wrap
+msgid "Quarkus extension for Spring Cache API"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3096,9 +3096,9 @@ msgstr "/guides/spring-cache"
 
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Extension for Spring DI API"
-msgstr "Quarkus对Spring DI API的扩展"
+#, no-wrap
+msgid "Quarkus extension for Spring DI API"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3109,8 +3109,8 @@ msgstr "/guides/spring-di"
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Scheduling API"
-msgstr "Quarkus对SpringSpring Scheduling API 的扩展"
+msgid "Quarkus extension for Spring Scheduling API"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3120,9 +3120,9 @@ msgstr "/guides/spring-scheduled"
 
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Extension for Spring Security API"
-msgstr "Quarkus Extension for Spring Security API"
+#, no-wrap
+msgid "Quarkus extension for Spring Security API"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3133,7 +3133,7 @@ msgstr "/guides/spring-security"
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Transaction API"
+msgid "Quarkus extension for Spring Transaction API"
 msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
@@ -3144,9 +3144,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/spring-tx sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Quarkus Extension for Spring Web API"
-msgstr "Quarkus Extension for Spring Web API"
+#, no-wrap
+msgid "Quarkus extension for Spring Web API"
+msgstr ""
 
 #. type: Hash Value: /guides/spring-tx sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3157,7 +3157,7 @@ msgstr "/guides/spring-web"
 #. type: Hash Value: /guides/spring-web sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Testing Spring-style Applications in Quarkus"
+msgid "Testing Spring-style applications in Quarkus"
 msgstr ""
 
 #. type: Hash Value: /guides/spring-web sameTopics url
@@ -3193,7 +3193,7 @@ msgstr ""
 #. type: Hash Value: /guides/stork-registration sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
-msgid "Implementing a Custom Stork Service Registrar"
+msgid "Implementing a custom Stork service registrar"
 msgstr ""
 
 #. type: Hash Value: /guides/stork-registration sameTopics url
@@ -3204,9 +3204,9 @@ msgstr ""
 
 #. type: Hash Value: /guides/stork-registration sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Stork Reference Guide"
-msgstr "鹳鸟参考指南"
+#, no-wrap
+msgid "Stork reference guide"
+msgstr ""
 
 #. type: Hash Value: /guides/stork-registration sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
@@ -3216,15 +3216,339 @@ msgstr "/guides/stork-reference"
 
 #. type: Hash Value: /guides/stork-registration sameTopics title
 #: upstream/_data/versioned/main/index/relations.yaml:0
-#, fuzzy, no-wrap
-msgid "Getting Started with SmallRye Stork"
-msgstr "开始使用SmallRye Stork"
+#, no-wrap
+msgid "Getting started with SmallRye Stork"
+msgstr ""
 
 #. type: Hash Value: /guides/stork-registration sameTopics url
 #: upstream/_data/versioned/main/index/relations.yaml:0
 #, no-wrap
 msgid "/guides/stork"
 msgstr "/guides/stork"
+
+#, fuzzy, no-wrap
+#~ msgid "Command Mode Applications"
+#~ msgstr "命令模式的应用"
+
+#, fuzzy, no-wrap
+#~ msgid "Command Mode with Picocli"
+#~ msgstr "使用Picocli的命令模式"
+
+#, no-wrap
+#~ msgid "Reactive Messaging AMQP 1.0 Connector Reference Documentation"
+#~ msgstr "响应式消息AMQP 1.0连接器参考文档"
+
+#, no-wrap
+#~ msgid "Apache Kafka Reference Guide"
+#~ msgstr "Apache Kafka参考指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Apache Pulsar Reference Guide"
+#~ msgstr "Apache Kafka参考指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Getting Started to Quarkus Messaging with Apache Pulsar"
+#~ msgstr "使用 Apache Pulsar 开始使用 Quarkus 消息传输技术"
+
+#, fuzzy, no-wrap
+#~ msgid "Getting Started to Quarkus Messaging with RabbitMQ"
+#~ msgstr "开始使用 RabbitMQ 进行 Quarkus 消息传递"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Virtual Thread support with Reactive Messaging"
+#~ msgstr "利用反应式消息传递支持 Quarkus 虚拟线程"
+
+#, fuzzy, no-wrap
+#~ msgid "Reactive Messaging RabbitMQ Connector Reference Documentation"
+#~ msgstr "Reactive Messaging RabbitMQ连接器参考文档"
+
+#, fuzzy, no-wrap
+#~ msgid "Getting Started to Quarkus Messaging with AMQP 1.0"
+#~ msgstr "使用 AMQP 1.0 开始 Quarkus 消息传递"
+
+#, fuzzy, no-wrap
+#~ msgid "Dev Services for Databases"
+#~ msgstr "数据库的开发服务"
+
+#, fuzzy, no-wrap
+#~ msgid "Dev Services Overview"
+#~ msgstr "开发服务概述"
+
+#, no-wrap
+#~ msgid "Continuous Testing"
+#~ msgstr "持续测试"
+
+#, no-wrap
+#~ msgid "Security Testing"
+#~ msgstr "安全测试"
+
+#, no-wrap
+#~ msgid "Testing Your Application"
+#~ msgstr "测试你的应用程序"
+
+#, fuzzy, no-wrap
+#~ msgid "Container Images"
+#~ msgstr "容器图像"
+
+#, no-wrap
+#~ msgid "Measuring Performance"
+#~ msgstr "衡量性能"
+
+#, fuzzy, no-wrap
+#~ msgid "AWS Lambda SnapStart Configuration"
+#~ msgstr "亚马逊Lambda SnapStart配置"
+
+#, fuzzy, no-wrap
+#~ msgid "Funqy AWS Lambda Binding"
+#~ msgstr "Funqy亚马逊Lambda绑定"
+
+#, fuzzy, no-wrap
+#~ msgid "Funqy HTTP Binding (Standalone)"
+#~ msgstr "Funqy HTTP绑定（独立的）。"
+
+#, fuzzy, no-wrap
+#~ msgid "Funqy HTTP Binding with Azure Functions"
+#~ msgstr "用Azure函数进行Funqy HTTP绑定"
+
+#, fuzzy, no-wrap
+#~ msgid "Funqy HTTP Binding with Google Cloud Functions"
+#~ msgstr "Funqy HTTP与谷歌云函数的绑定"
+
+#, fuzzy, no-wrap
+#~ msgid "Funqy Knative Events Binding"
+#~ msgstr "Funqy Knative事件绑定"
+
+#, fuzzy, no-wrap
+#~ msgid "Google Cloud Functions (Serverless)"
+#~ msgstr "谷歌云功能（无服务器）"
+
+#, no-wrap
+#~ msgid "Class Loading Reference"
+#~ msgstr "类加载参考"
+
+#, no-wrap
+#~ msgid "Conditional Extension Dependencies"
+#~ msgstr "条件性扩展的依赖性"
+
+#, fuzzy, no-wrap
+#~ msgid "Extension Capabilities"
+#~ msgstr "扩展能力"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Extension Metadata"
+#~ msgstr "Quarkus扩展元数据"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Extension Registry"
+#~ msgstr "Quarkus扩展注册表"
+
+#, no-wrap
+#~ msgid "Writing Your Own Extension"
+#~ msgstr "编写您自己的扩展"
+
+#, fuzzy, no-wrap
+#~ msgid "Native Reference Guide"
+#~ msgstr "本地参考指南"
+
+#, no-wrap
+#~ msgid "Using SSL With Native Executables"
+#~ msgstr "在原生可执行文件中使用SSL"
+
+#, fuzzy, no-wrap
+#~ msgid "Infinispan Client Extension Reference Guide"
+#~ msgstr "Infinispan客户端扩展参考指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Narayana LRA Participant Support"
+#~ msgstr "纳拉亚纳LRA参与者支持"
+
+#, no-wrap
+#~ msgid "Reactive SQL Clients"
+#~ msgstr "响应式SQL客户端"
+
+#, fuzzy, no-wrap
+#~ msgid "Redis Extension Reference Guide"
+#~ msgstr "Redis扩展参考指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Application Data Caching"
+#~ msgstr "应用数据缓存"
+
+#, no-wrap
+#~ msgid "Application Initialization and Termination"
+#~ msgstr "应用程序的初始化和终止"
+
+#, fuzzy, no-wrap
+#~ msgid "CDI Integration Guide"
+#~ msgstr "CDI整合指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Reactive Architecture"
+#~ msgstr "Quarkus反应式架构"
+
+#, fuzzy, no-wrap
+#~ msgid "Packaging And Releasing With JReleaser"
+#~ msgstr "使用JReleaser进行包装和发布"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Maven Plugin"
+#~ msgstr "Quarkus Maven Plugin"
+
+#, no-wrap
+#~ msgid "Quarkus Tools in your favorite IDE"
+#~ msgstr "在你最喜欢的IDE中使用Quarkus工具"
+
+#, no-wrap
+#~ msgid "Re-augment a Quarkus Application"
+#~ msgstr "重新增强Quarkus应用程序"
+
+#, no-wrap
+#~ msgid "Using our Tooling"
+#~ msgstr "使用我们的工具"
+
+#, fuzzy, no-wrap
+#~ msgid "Configuration Reference Guide"
+#~ msgstr "配置参考指南"
+
+#, no-wrap
+#~ msgid "Extending Configuration Support"
+#~ msgstr "扩展配置支持"
+
+#, no-wrap
+#~ msgid "Configuring Your Application"
+#~ msgstr "配置你的应用程序"
+
+#, fuzzy, no-wrap
+#~ msgid "Configuring Well-Known OpenID Connect Providers"
+#~ msgstr "配置知名的OpenID连接供应商"
+
+#, fuzzy, no-wrap
+#~ msgid "Cross-Site Request Forgery Prevention"
+#~ msgstr "防止跨站请求伪造"
+
+#, fuzzy, no-wrap
+#~ msgid "Security Tips and Tricks"
+#~ msgstr "安全技巧和窍门"
+
+#, fuzzy, no-wrap
+#~ msgid "Using Security with an LDAP Realm"
+#~ msgstr "使用LDAP领域的安全性"
+
+#, no-wrap
+#~ msgid "Using Security with JDBC"
+#~ msgstr "使用JDBC的安全性"
+
+#, no-wrap
+#~ msgid "Using Security with WebAuthn"
+#~ msgstr "使用WebAuthn的安全性"
+
+#, no-wrap
+#~ msgid "Getting Started With Reactive"
+#~ msgstr "响应式入门"
+
+#, no-wrap
+#~ msgid "Quarkus Base Runtime Image"
+#~ msgstr "Quarkus运行时基础镜像"
+
+#, fuzzy, no-wrap
+#~ msgid "Deploying your gRPC Service in Kubernetes"
+#~ msgstr "Kubernetes的开发服务"
+
+#, no-wrap
+#~ msgid "Creating Your First Application"
+#~ msgstr "创建你的第一个应用程序"
+
+#, fuzzy, no-wrap
+#~ msgid "Consuming a gRPC Service"
+#~ msgstr "消耗一个gRPC服务"
+
+#, no-wrap
+#~ msgid "Getting Started with gRPC"
+#~ msgstr "开始使用gRPC"
+
+#, fuzzy, no-wrap
+#~ msgid "Implementing a gRPC Service"
+#~ msgstr "实现一个gRPC服务"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Virtual Thread support for gRPC services"
+#~ msgstr "Quarkus 虚拟线程支持 gRPC 服务"
+
+#, fuzzy, no-wrap
+#~ msgid "Virtual Thread support reference"
+#~ msgstr "虚拟线程支持参考"
+
+#, fuzzy, no-wrap
+#~ msgid "Writing REST Services with Quarkus REST (formerly RESTEasy Reactive)"
+#~ msgstr "使用 Quarkus REST（前身为 RESTEasy Reactive）编写 REST 服务"
+
+#, fuzzy, no-wrap
+#~ msgid "HTTP Reference"
+#~ msgstr "HTTP参考"
+
+#, fuzzy, no-wrap
+#~ msgid "Mailer Reference Guide"
+#~ msgstr "邮递员参考指南"
+
+#, no-wrap
+#~ msgid "Building a Native Executable"
+#~ msgstr "构建一个原生可执行文件"
+
+#, no-wrap
+#~ msgid "Writing JSON REST Services"
+#~ msgstr "编写JSON REST服务"
+
+#, fuzzy, no-wrap
+#~ msgid "Using a Credentials Provider"
+#~ msgstr "使用凭证提供者"
+
+#, fuzzy, no-wrap
+#~ msgid "Scheduler Reference Guide"
+#~ msgstr "调度器参考指南"
+
+#, no-wrap
+#~ msgid "Scheduling Periodic Tasks"
+#~ msgstr "安排周期性任务"
+
+#, fuzzy, no-wrap
+#~ msgid "Qute Reference Guide"
+#~ msgstr "衢州参考指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Qute Templating Engine"
+#~ msgstr "Qute模板化引擎"
+
+#, fuzzy, no-wrap
+#~ msgid "Scheduling Periodic Tasks with Quartz"
+#~ msgstr "用Quartz调度周期性任务"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Extension for Spring Cache API"
+#~ msgstr "Quarkus Extension for Spring Cache API"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Extension for Spring DI API"
+#~ msgstr "Quarkus对Spring DI API的扩展"
+
+#, no-wrap
+#~ msgid "Quarkus Extension for Spring Scheduling API"
+#~ msgstr "Quarkus对SpringSpring Scheduling API 的扩展"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Extension for Spring Security API"
+#~ msgstr "Quarkus Extension for Spring Security API"
+
+#, fuzzy, no-wrap
+#~ msgid "Quarkus Extension for Spring Web API"
+#~ msgstr "Quarkus Extension for Spring Web API"
+
+#, fuzzy, no-wrap
+#~ msgid "Stork Reference Guide"
+#~ msgstr "鹳鸟参考指南"
+
+#, fuzzy, no-wrap
+#~ msgid "Getting Started with SmallRye Stork"
+#~ msgstr "开始使用SmallRye Stork"
 
 #, fuzzy, no-wrap
 #~ msgid "Using xDS gRPC"

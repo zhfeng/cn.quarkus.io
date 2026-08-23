@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/spring-test.adoc
-msgid "Testing Spring-style Applications in Quarkus"
+msgid "Testing Spring-style applications in Quarkus"
 msgstr ""
 
 #. type: Plain text

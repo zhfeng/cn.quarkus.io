@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-08-16 08:55+0000\n"
+"POT-Creation-Date: 2026-08-23 08:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,13 +85,13 @@ msgstr ""
 #. type: Hash Value: releases latest_patch
 #: upstream/_data/releases.yaml:0
 #, no-wrap
-msgid "3.38.2"
+msgid "3.38.3"
 msgstr ""
 
 #. type: Hash Value: releases latest_patch_date
 #: upstream/_data/releases.yaml:0
 #, no-wrap
-msgid "2026-08-13"
+msgid "2026-08-19"
 msgstr ""
 
 #. type: Hash Value: releases eol_date

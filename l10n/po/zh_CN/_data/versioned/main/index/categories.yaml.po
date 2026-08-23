@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-08-16 08:55+0000\n"
+"POT-Creation-Date: 2026-08-23 08:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,8 +43,8 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Creating Your First Application"
-msgstr "创建你的第一个应用程序"
+msgid "Creating your first application"
+msgstr ""
 
 #. type: Hash Value: categories guides type
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -109,8 +109,8 @@ msgstr "探索Quarkus开发者工具链，让Quarkus开发如此快速和愉快�
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using our Tooling"
-msgstr "使用我们的工具"
+msgid "Using our tooling"
+msgstr ""
 
 #. type: Hash Value: categories id
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -139,8 +139,8 @@ msgstr "了解更多关于Quarkus在IDE中的整合。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Tools in your favorite IDE"
-msgstr "在你喜欢的IDE中使用Quarkus扩展工具"
+msgid "Quarkus tools in your favorite IDE"
+msgstr ""
 
 #. type: Array Element: categories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -187,7 +187,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Ahead-of-Time (AOT) Caching"
+msgid "Ahead-of-time (AOT) caching"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -214,7 +214,7 @@ msgstr ""
 msgid "performance"
 msgstr ""
 
-#. type: Hash Value: categories guides type
+#. type: Hash Value: pinned type
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "guide"
@@ -343,8 +343,8 @@ msgstr "使用易变的jars来重建具有不同构建时间配置的应用程�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Re-augment a Quarkus Application"
-msgstr "重新增强Quarkus应用程序"
+msgid "Re-augment a Quarkus application"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -385,8 +385,8 @@ msgstr "用GraalVM或Mandrel构建原生可执行文件。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Building a Native Executable"
-msgstr "构建一个原生可执行文件"
+msgid "Building a native executable"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -433,7 +433,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Native Reference Guide"
+msgid "Native reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -493,8 +493,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using SSL With Native Executables"
-msgstr "在原生可执行文件中使用SSL"
+msgid "Using SSL with native executables"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -601,7 +601,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Container Images"
+msgid "Container images"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -637,8 +637,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Base Runtime Image"
-msgstr "Quarkus运行时基础镜像"
+msgid "Quarkus base runtime image"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -703,7 +703,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Generating and Using CycloneDX SBOMs"
+msgid "Generating and using CycloneDX SBOMs"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -733,7 +733,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Packaging And Releasing With JReleaser"
+msgid "Packaging and releasing with JReleaser"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -766,7 +766,7 @@ msgstr ""
 msgid "Core Quarkus concepts and features"
 msgstr ""
 
-#. type: Hash Value: categories subcategories guides categories
+#. type: Hash Value: pinned categories
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "core"
@@ -883,8 +883,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Application Initialization and Termination"
-msgstr "应用程序的初始化和终止"
+msgid "Application initialization and termination"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -931,7 +931,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Dev Services Overview"
+msgid "Dev Services overview"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -1033,8 +1033,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Configuring Your Application"
-msgstr "配置你的应用程序"
+msgid "Configuring your application"
+msgstr ""
 
 #. type: Array Element: categories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -1129,7 +1129,7 @@ msgstr "了解更多关于如何配置你的Quarkus应用程序。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Configuration Reference Guide"
+msgid "Configuration reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -1153,8 +1153,8 @@ msgstr "扩展和定制配置。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Extending Configuration Support"
-msgstr "扩展配置支持"
+msgid "Extending configuration support"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -1162,25 +1162,25 @@ msgstr "扩展配置支持"
 msgid "/guides/config-extending-support"
 msgstr "/guides/config-extending-support"
 
-#. type: Hash Value: categories subcategories guides filename
+#. type: Hash Value: pinned filename
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "all-config.adoc"
 msgstr "all-config.adoc"
 
-#. type: Hash Value: categories subcategories guides summary
+#. type: Hash Value: pinned summary
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "List all the configuration properties per extensions"
 msgstr "列出每个扩展的所有配置属性"
 
-#. type: Hash Value: categories subcategories guides title
+#. type: Hash Value: pinned title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "All configuration options"
 msgstr "所有配置选项"
 
-#. type: Hash Value: categories subcategories guides url
+#. type: Hash Value: pinned url
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "/guides/all-config"
@@ -1219,8 +1219,8 @@ msgstr "本指南解释了如何在Quarkus中使用Vert.x来构建响应式应�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using Eclipse Vert.x API from a Quarkus Application"
-msgstr "在Quarkus应用程序中使用Eclipse Vert.x API"
+msgid "Using Eclipse Vert.x API from a Quarkus application"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -1243,8 +1243,8 @@ msgstr "本参考指南提供了关于Quarkus使用的Vert.x实例的使用和�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Vert.x Reference Guide"
-msgstr "Vert.x参考指南"
+msgid "Vert.x reference guide"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -1279,8 +1279,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Testing Your Application"
-msgstr "测试您的应用程序"
+msgid "Testing your application"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -1303,8 +1303,8 @@ msgstr "通过持续测试获得早期测试反馈。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Continuous Testing"
-msgstr "持续测试"
+msgid "Continuous testing"
+msgstr ""
 
 #. type: Array Element: categories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -1567,7 +1567,7 @@ msgstr "了解更多关于配置Quarkus基于Vert.x的HTTP层的信息--如果�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "HTTP Reference"
+msgid "HTTP reference"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -1627,7 +1627,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "HTTP/3 Reference"
+msgid "HTTP/3 reference"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -1675,7 +1675,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Native Transport Reference"
+msgid "Native transport reference"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -1819,7 +1819,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Writing REST Services with Quarkus REST (formerly RESTEasy Reactive)"
+msgid "Writing REST services with Quarkus REST (formerly RESTEasy Reactive)"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -1897,8 +1897,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Writing JSON REST Services"
-msgstr "编写JSON REST服务"
+msgid "Writing JSON REST services"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -2629,8 +2629,8 @@ msgstr "本指南涵盖了如何在Quarkus中使用响应式SQL客户端。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Reactive SQL Clients"
-msgstr "响应式SQL客户端"
+msgid "Reactive SQL clients"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -2653,7 +2653,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Dev Services for Databases"
+msgid "Dev Services for databases"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -3115,7 +3115,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Narayana LRA Participant Support"
+msgid "Narayana LRA participant support"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -3409,7 +3409,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Redis Extension Reference Guide"
+msgid "Redis extension reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -3565,7 +3565,7 @@ msgstr "本指南解释了如何使用简单的注解来缓存CDI Bean中昂贵�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Application Data Caching"
+msgid "Application data caching"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -3691,7 +3691,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Infinispan Client Extension Reference Guide"
+msgid "Infinispan Client extension reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -3895,7 +3895,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Messaging Extensions"
+msgid "Quarkus Messaging extensions"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -3937,7 +3937,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Virtual Thread support with Reactive Messaging"
+msgid "Quarkus virtual thread support with Reactive Messaging"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -4159,7 +4159,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started with Quarkus Messaging and Apache Kafka"
+msgid "Getting started with Quarkus Messaging and Apache Kafka"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -4183,8 +4183,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Apache Kafka Reference Guide"
-msgstr "Apache Kafka参考指南"
+msgid "Apache Kafka reference guide"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -4411,7 +4411,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started to Quarkus Messaging with AMQP 1.0"
+msgid "Getting started with Quarkus Messaging and AMQP 1.0"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -4441,8 +4441,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Reactive Messaging AMQP 1.0 Connector Reference Documentation"
-msgstr "响应式消息AMQP 1.0连接器参考文档"
+msgid "Reactive Messaging AMQP 1.0 Connector reference documentation"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -4507,7 +4507,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started to Quarkus Messaging with Apache Pulsar"
+msgid "Getting started with Quarkus Messaging and Apache Pulsar"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -4537,7 +4537,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Apache Pulsar Reference Guide"
+msgid "Apache Pulsar reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -4603,7 +4603,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started to Quarkus Messaging with RabbitMQ"
+msgid "Getting started with Quarkus Messaging and RabbitMQ"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -4633,7 +4633,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Reactive Messaging RabbitMQ Connector Reference Documentation"
+msgid "Reactive Messaging RabbitMQ Connector reference documentation"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -4837,7 +4837,7 @@ msgstr "security-customization.adoc"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Security Tips and Tricks"
+msgid "Security tips and tricks"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -4969,7 +4969,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Cross-Site Request Forgery Prevention"
+msgid "Cross-Site Request Forgery prevention"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -4999,8 +4999,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using Security with .properties File"
-msgstr "使用.properties文件的安全性"
+msgid "Using security with .properties file"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -5029,8 +5029,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Security Testing"
-msgstr "安全测试"
+msgid "Security testing"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -5053,7 +5053,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Secrets in Configuration"
+msgid "Secrets in configuration"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -5077,7 +5077,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using a Credentials Provider"
+msgid "Using a credentials provider"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -5395,8 +5395,8 @@ msgstr "本指南演示了你的Quarkus应用程序如何使用WebAuthn认证来
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using Security with WebAuthn"
-msgstr "使用WebAuthn的安全性"
+msgid "Using security with WebAuthn"
+msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -5707,7 +5707,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus OpenId Connect (OIDC) Expanded Configuration Reference"
+msgid "Quarkus OpenID Connect (OIDC) expanded configuration reference"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -5743,7 +5743,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Configuring Well-Known OpenID Connect Providers"
+msgid "Configuring well-known OpenID Connect providers"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -6109,8 +6109,8 @@ msgstr "本指南展示了你的Quarkus应用程序如何使用数据库来存�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using Security with JDBC"
-msgstr "使用JDBC的安全性"
+msgid "Using security with JDBC"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -6133,7 +6133,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Using Security with an LDAP Realm"
+msgid "Using security with an LDAP realm"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -6271,7 +6271,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Virtual Thread support reference"
+msgid "Virtual thread support reference"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -6307,7 +6307,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Virtual Thread support for gRPC services"
+msgid "Quarkus virtual thread support for gRPC services"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -6349,8 +6349,8 @@ msgstr "了解有关使用Quarkus开发响应式应用程序的更多信息。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started With Reactive"
-msgstr "响应式入门"
+msgid "Getting started with Reactive"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -6415,7 +6415,7 @@ msgstr "了解关于Quarkus响应式架构的更多信息。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Reactive Architecture"
+msgid "Quarkus reactive architecture"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -6457,7 +6457,7 @@ msgstr "了解更多关于如何利用SmallRye Context Propagation传递上下�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Context Propagation in Quarkus"
+msgid "Context propagation in Quarkus"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -6967,7 +6967,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "AWS Lambda SnapStart Configuration"
+msgid "AWS Lambda SnapStart configuration"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -7003,7 +7003,7 @@ msgstr "本指南解释了如何部署基于Quarkus的Google Cloud Functions。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Google Cloud Functions (Serverless)"
+msgid "Google Cloud Functions (serverless)"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7153,7 +7153,7 @@ msgstr "本指南解释了Funqy的HTTP绑定。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Funqy HTTP Binding (Standalone)"
+msgid "Funqy HTTP binding (standalone)"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7183,7 +7183,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Funqy AWS Lambda Binding"
+msgid "Funqy AWS Lambda binding"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7261,7 +7261,7 @@ msgstr "本指南解释了Funqy的Google Cloud Platform Functions HTTP绑定。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Funqy HTTP Binding with Google Cloud Functions"
+msgid "Funqy HTTP binding with Google Cloud Functions"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7285,7 +7285,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Funqy HTTP Binding with Azure Functions"
+msgid "Funqy HTTP binding with Azure Functions"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7315,7 +7315,7 @@ msgstr "本指南解释了Funqy的Knative Events绑定。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Funqy Knative Events Binding"
+msgid "Funqy Knative events binding"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7495,7 +7495,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started with SmallRye Stork"
+msgid "Getting started with SmallRye Stork"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -7561,7 +7561,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Stork Reference Guide"
+msgid "Stork reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -7615,7 +7615,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Implementing a Custom Stork Service Registrar"
+msgid "Implementing a custom Stork service registrar"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -7861,7 +7861,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Application Info Endpoint"
+msgid "Application info endpoint"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -7958,6 +7958,12 @@ msgstr "/guides/centralized-log-management"
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "opentelemetry-logging.adoc"
+msgstr ""
+
+#. type: Hash Value: categories subcategories guides id
+#: upstream/_data/versioned/main/index/categories.yaml:0
+#, no-wrap
+msgid "opentelemetry-logging"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides summary
@@ -8170,6 +8176,12 @@ msgstr "/guides/opentelemetry"
 msgid "opentelemetry-tracing.adoc"
 msgstr ""
 
+#. type: Hash Value: categories subcategories guides id
+#: upstream/_data/versioned/main/index/categories.yaml:0
+#, no-wrap
+msgid "opentelemetry-tracing"
+msgstr ""
+
 #. type: Hash Value: categories subcategories guides summary
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
@@ -8192,6 +8204,12 @@ msgstr ""
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "opentelemetry-metrics.adoc"
+msgstr ""
+
+#. type: Hash Value: categories subcategories guides id
+#: upstream/_data/versioned/main/index/categories.yaml:0
+#, no-wrap
+msgid "opentelemetry-metrics"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides summary
@@ -8497,7 +8515,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Load Shedding reference guide"
+msgid "Load shedding reference guide"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -8593,8 +8611,8 @@ msgstr "本指南解释了如何在你的Quarkus应用程序中开始使用gRPC�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started with gRPC"
-msgstr "开始使用gRPC"
+msgid "Getting started with gRPC"
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -8617,7 +8635,7 @@ msgstr "本指南解释了如何在你的Quarkus应用程序中实现gRPC服务�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Implementing a gRPC Service"
+msgid "Implementing a gRPC service"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -8641,7 +8659,7 @@ msgstr "本指南解释了如何在你的Quarkus应用程序中消费gRPC服务�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Consuming a gRPC Service"
+msgid "Consuming a gRPC service"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -8749,7 +8767,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Deploying your gRPC Service in Kubernetes"
+msgid "Deploying your gRPC service in Kubernetes"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -8797,7 +8815,7 @@ msgstr "本参考指南解释了如何用Quarkus开发命令行应用程序。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Command Mode Applications"
+msgid "Command mode applications"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -8827,7 +8845,7 @@ msgstr "用Picocli扩展简化了命令行应用程序的创建。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Command Mode with Picocli"
+msgid "Command mode with Picocli"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -8875,7 +8893,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Command Mode with Aesh"
+msgid "Command mode with Aesh"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -9019,7 +9037,7 @@ msgstr "本参考指南更详细地解释了Quarkus Mailer的配置和使用。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Mailer Reference Guide"
+msgid "Mailer reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -9061,8 +9079,8 @@ msgstr ""
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Scheduling Periodic Tasks"
-msgstr "安排周期性任务"
+msgid "Scheduling periodic tasks"
+msgstr ""
 
 #. type: Array Element: categories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -9097,7 +9115,7 @@ msgstr "了解更多关于Scheduler扩展的信息。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Scheduler Reference Guide"
+msgid "Scheduler reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -9127,7 +9145,7 @@ msgstr "你的计划任务需要集群支持？本指南解释了如何使用Qua
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Scheduling Periodic Tasks with Quartz"
+msgid "Scheduling periodic tasks with Quartz"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -9187,7 +9205,7 @@ msgstr "了解更多关于如何利用Qute模板引擎在你的应用程序中�
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Qute Templating Engine"
+msgid "Qute templating engine"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
@@ -9217,7 +9235,7 @@ msgstr "了解你需要知道的关于Qute模板引擎的一切。"
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Qute Reference Guide"
+msgid "Qute reference guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
@@ -9331,7 +9349,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Maven Plugin"
+msgid "Quarkus Maven plugin"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -9469,7 +9487,7 @@ msgstr "虽然我们鼓励你使用CDI注解进行注入，但Quarkus以spring-d
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring DI API"
+msgid "Quarkus extension for Spring DI API"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -9505,7 +9523,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Web API"
+msgid "Quarkus extension for Spring Web API"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -9565,7 +9583,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Transaction API"
+msgid "Quarkus extension for Spring Transaction API"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -9625,7 +9643,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Security API"
+msgid "Quarkus extension for Spring Security API"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -9655,7 +9673,7 @@ msgstr "虽然我们鼓励你使用Cache扩展来进行应用级缓存，但Quar
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Cache API"
+msgid "Quarkus extension for Spring Cache API"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -9685,8 +9703,8 @@ msgstr "虽然我们鼓励你使用Scheduler或Quartz扩展来安排任务，但
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension for Spring Scheduling API"
-msgstr "Quarkus对SpringSpring Scheduling API 的扩展"
+msgid "Quarkus extension for Spring Scheduling API"
+msgstr ""
 
 #. type: Hash Value: categories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -9775,7 +9793,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Testing Spring-style Applications in Quarkus"
+msgid "Testing Spring-style applications in Quarkus"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -9943,8 +9961,8 @@ msgstr "了解关于Quarkus类加载基础设施的更多信息。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Class Loading Reference"
-msgstr "类加载参考"
+msgid "Class loading reference"
+msgstr ""
 
 #. type: Hash Value: categories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -10051,7 +10069,7 @@ msgstr "了解更多关于扩展仓库的概念，以及如何使用自己的扩
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension Registry"
+msgid "Quarkus extension registry"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -10075,8 +10093,8 @@ msgstr "本指南解释了如何最好地测量Quarkus应用程序的占用空�
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Measuring Performance"
-msgstr "衡量性能"
+msgid "Measuring performance"
+msgstr ""
 
 #. type: Hash Value: categories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -10117,8 +10135,8 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Writing Your Own Extension"
-msgstr "编写您自己的扩展"
+msgid "Writing your own extension"
+msgstr ""
 
 #. type: Hash Value: categories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -10165,7 +10183,7 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Quarkus Extension Metadata"
+msgid "Quarkus extension metadata"
 msgstr ""
 
 #. type: Array Element: categories guides topics
@@ -10195,7 +10213,7 @@ msgstr "在Quarkus中如何实现和使用功能。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Extension Capabilities"
+msgid "Extension capabilities"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -10219,7 +10237,7 @@ msgstr "了解如何将你的扩展与Quarkus的CDI容器集成。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "CDI Integration Guide"
+msgid "CDI integration guide"
 msgstr ""
 
 #. type: Hash Value: categories guides url
@@ -10243,8 +10261,8 @@ msgstr ""
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Conditional Extension Dependencies"
-msgstr "条件性扩展的依赖性"
+msgid "Conditional extension dependencies"
+msgstr ""
 
 #. type: Hash Value: categories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -10267,8 +10285,8 @@ msgstr "探索你可以在你的扩展中消费/提供的所有BuildItems。"
 #. type: Hash Value: categories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Build Items"
-msgstr "构建项目"
+msgid "Build items"
+msgstr ""
 
 #. type: Hash Value: categories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
@@ -10731,6 +10749,130 @@ msgstr ""
 #, no-wrap
 msgid "Rule engine"
 msgstr ""
+
+#, no-wrap
+#~ msgid "Creating Your First Application"
+#~ msgstr "创建你的第一个应用程序"
+
+#, no-wrap
+#~ msgid "Using our Tooling"
+#~ msgstr "使用我们的工具"
+
+#, no-wrap
+#~ msgid "Quarkus Tools in your favorite IDE"
+#~ msgstr "在你喜欢的IDE中使用Quarkus扩展工具"
+
+#, no-wrap
+#~ msgid "Re-augment a Quarkus Application"
+#~ msgstr "重新增强Quarkus应用程序"
+
+#, no-wrap
+#~ msgid "Building a Native Executable"
+#~ msgstr "构建一个原生可执行文件"
+
+#, no-wrap
+#~ msgid "Using SSL With Native Executables"
+#~ msgstr "在原生可执行文件中使用SSL"
+
+#, no-wrap
+#~ msgid "Quarkus Base Runtime Image"
+#~ msgstr "Quarkus运行时基础镜像"
+
+#, no-wrap
+#~ msgid "Application Initialization and Termination"
+#~ msgstr "应用程序的初始化和终止"
+
+#, no-wrap
+#~ msgid "Configuring Your Application"
+#~ msgstr "配置你的应用程序"
+
+#, no-wrap
+#~ msgid "Extending Configuration Support"
+#~ msgstr "扩展配置支持"
+
+#, no-wrap
+#~ msgid "Using Eclipse Vert.x API from a Quarkus Application"
+#~ msgstr "在Quarkus应用程序中使用Eclipse Vert.x API"
+
+#, no-wrap
+#~ msgid "Vert.x Reference Guide"
+#~ msgstr "Vert.x参考指南"
+
+#, no-wrap
+#~ msgid "Testing Your Application"
+#~ msgstr "测试您的应用程序"
+
+#, no-wrap
+#~ msgid "Continuous Testing"
+#~ msgstr "持续测试"
+
+#, no-wrap
+#~ msgid "Writing JSON REST Services"
+#~ msgstr "编写JSON REST服务"
+
+#, no-wrap
+#~ msgid "Reactive SQL Clients"
+#~ msgstr "响应式SQL客户端"
+
+#, no-wrap
+#~ msgid "Apache Kafka Reference Guide"
+#~ msgstr "Apache Kafka参考指南"
+
+#, no-wrap
+#~ msgid "Reactive Messaging AMQP 1.0 Connector Reference Documentation"
+#~ msgstr "响应式消息AMQP 1.0连接器参考文档"
+
+#, no-wrap
+#~ msgid "Using Security with .properties File"
+#~ msgstr "使用.properties文件的安全性"
+
+#, no-wrap
+#~ msgid "Security Testing"
+#~ msgstr "安全测试"
+
+#, no-wrap
+#~ msgid "Using Security with WebAuthn"
+#~ msgstr "使用WebAuthn的安全性"
+
+#, no-wrap
+#~ msgid "Using Security with JDBC"
+#~ msgstr "使用JDBC的安全性"
+
+#, no-wrap
+#~ msgid "Getting Started With Reactive"
+#~ msgstr "响应式入门"
+
+#, no-wrap
+#~ msgid "Getting Started with gRPC"
+#~ msgstr "开始使用gRPC"
+
+#, no-wrap
+#~ msgid "Scheduling Periodic Tasks"
+#~ msgstr "安排周期性任务"
+
+#, no-wrap
+#~ msgid "Quarkus Extension for Spring Scheduling API"
+#~ msgstr "Quarkus对SpringSpring Scheduling API 的扩展"
+
+#, no-wrap
+#~ msgid "Class Loading Reference"
+#~ msgstr "类加载参考"
+
+#, no-wrap
+#~ msgid "Measuring Performance"
+#~ msgstr "衡量性能"
+
+#, no-wrap
+#~ msgid "Writing Your Own Extension"
+#~ msgstr "编写您自己的扩展"
+
+#, no-wrap
+#~ msgid "Conditional Extension Dependencies"
+#~ msgstr "条件性扩展的依赖性"
+
+#, no-wrap
+#~ msgid "Build Items"
+#~ msgstr "构建项目"
 
 #, no-wrap
 #~ msgid "Getting Started"

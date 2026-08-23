@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/spring-tx.adoc
-msgid "Quarkus Extension for Spring Transaction API"
+msgid "Quarkus extension for Spring Transaction API"
 msgstr ""
 
 #. type: Plain text

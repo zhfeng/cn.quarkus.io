@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/info.adoc
-msgid "Application Info Endpoint"
+msgid "Application info endpoint"
 msgstr ""
 
 #. type: Plain text

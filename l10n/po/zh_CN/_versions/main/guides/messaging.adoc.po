@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/messaging.adoc
-msgid "Quarkus Messaging Extensions"
+msgid "Quarkus Messaging extensions"
 msgstr ""
 
 #. type: Plain text

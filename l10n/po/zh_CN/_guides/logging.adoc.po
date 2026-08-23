@@ -1476,6 +1476,11 @@ msgstr ""
 
 #. type: Plain text
 #: _guides/logging.adoc
+msgid "MDC data is kept in the `mdc` field, which is not part of the ECS schema. Set `mdc.flat-fields` to write those entries as root-level fields instead, or add `mdc` to `excluded-keys` to leave them out entirely."
+msgstr ""
+
+#. type: Plain text
+#: _guides/logging.adoc
 msgid ""
 "*gcp*: Uses the link:https://cloud.google.com/logging/docs/structured-logging#structured_logging_special_fields[Google Cloud] format.\n"
 "This format follows the *default* format."

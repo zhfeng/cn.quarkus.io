@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/kafka-getting-started.adoc
-msgid "Getting Started with Quarkus Messaging and Apache Kafka"
+msgid "Getting started with Quarkus Messaging and Apache Kafka"
 msgstr ""
 
 #. type: Plain text

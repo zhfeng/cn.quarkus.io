@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/http3-reference.adoc
-msgid "HTTP/3 Reference"
+msgid "HTTP/3 reference"
 msgstr ""
 
 #. type: Plain text

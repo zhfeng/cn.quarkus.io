@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/aesh.adoc
-msgid "Command Mode with Aesh"
+msgid "Command mode with Aesh"
 msgstr ""
 
 #. type: Plain text

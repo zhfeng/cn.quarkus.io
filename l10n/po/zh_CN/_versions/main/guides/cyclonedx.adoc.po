@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/cyclonedx.adoc
-msgid "Generating and Using CycloneDX SBOMs"
+msgid "Generating and using CycloneDX SBOMs"
 msgstr ""
 
 #. type: Plain text

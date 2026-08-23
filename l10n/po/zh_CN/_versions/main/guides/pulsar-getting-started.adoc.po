@@ -18,9 +18,8 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/pulsar-getting-started.adoc
-#, fuzzy
-msgid "Getting Started to Quarkus Messaging with Apache Pulsar"
-msgstr "使用 Apache Pulsar 开始使用 Quarkus 消息传输技术"
+msgid "Getting started with Quarkus Messaging and Apache Pulsar"
+msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/pulsar-getting-started.adoc

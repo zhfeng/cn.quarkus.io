@@ -8,7 +8,7 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: _versions/main/guides/native-transport-reference.adoc
-msgid "Native Transport Reference"
+msgid "Native transport reference"
 msgstr ""
 
 #. type: Plain text

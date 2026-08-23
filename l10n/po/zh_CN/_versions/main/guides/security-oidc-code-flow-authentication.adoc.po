@@ -376,6 +376,11 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-oidc-code-flow-authentication.adoc
+msgid "For development and testing with Keycloak, see xref:security-spiffe-client.adoc#keycloak-dev-svc-integration[SPIFFE integration with Dev Services for Keycloak]."
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/security-oidc-code-flow-authentication.adoc
 msgid ""
 "The JWT-SVID audience defaults to the `quarkus.oidc.auth-server-url` value.\n"
 "If the OIDC provider's issuer differs from `quarkus.oidc.auth-server-url`, set `quarkus.oidc.credentials.jwt.audience` explicitly."
