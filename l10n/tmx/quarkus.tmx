@@ -203,7 +203,7 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
         <seg>.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>.</seg>
+        <seg>。</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,14 +648,6 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/dev-ui</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>/guides/dev-ui-v2</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>/guides/dev-ui-v2</seg>
       </tuv>
     </tu>
     <tu>
@@ -1672,22 +1664,6 @@ https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>/guides/resteasy-reactive</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>/guides/resteasy-reactive-migration</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>/guides/resteasy-reactive-migration</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>/guides/resteasy-reactive-virtual-threads</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>/guides/resteasy-reactive-virtual-threads</seg>
       </tuv>
     </tu>
     <tu>
@@ -2960,7 +2936,7 @@ For example:</seg>
         <seg>所有前置的斜杠将改变配置的权限路径的解释方式。配置的URL将按原样使用，并且如果 `quarkus.http.root-path` 的值改变后路径将不会被调整。例如：</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>A leading slash will change how the configured permission path is interpreted. The configured URL will be used as-is, and paths will not be adjusted if the value of `quarkus.http.root-path` is changed. For example:</seg>
       </tuv>
@@ -4410,7 +4386,7 @@ A processor method can be simply implemented using both the `@Incoming` and `@Ou
         <seg>Architecture</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>应用结构</seg>
+        <seg>架构</seg>
       </tuv>
     </tu>
     <tu>
@@ -6054,7 +6030,7 @@ A test suite is also free to utilize multiple `@QuarkusTestResource` annotations
         <seg>Category</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>类别</seg>
+        <seg>分类</seg>
       </tuv>
     </tu>
     <tu>
@@ -6228,7 +6204,7 @@ Then, open the project in your favorite IDE.</seg>
 {quickstarts-archive-url}[archive].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>克隆 Git 仓库: `git clone {quickstarts-clone-url}` ，或下载一个 {quickstarts-archive-url}[存档] 。</seg>
+        <seg>克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6236,7 +6212,7 @@ Then, open the project in your favorite IDE.</seg>
         <seg>Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>克隆 Git 仓库可使用命令： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[压缩包] 。</seg>
+        <seg>克隆 Git 仓库： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[存档] 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7831,7 +7807,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Default</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>默认</seg>
+        <seg>默认值</seg>
       </tuv>
     </tu>
     <tu>
@@ -8482,7 +8458,7 @@ handler bootstraps Quarkus and wraps your actual handler so that injection can b
         <seg>Documentation</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>文件</seg>
+        <seg>文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -8929,7 +8905,7 @@ This is best shown in the following example.</seg>
         <seg>Every query operation accepts passing parameters by index (`Object...`), or by name (`Map&lt;String,Object&gt;` or `Parameters`).</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>每个查询操作都接受按索引（ `Object...` ）或按名称（ `Map&lt;String,Object&gt;` 或 `Parameters` ）传递参数。</seg>
+        <seg>所有查询操作都可以接收按索引（ `Object...​` ）或按名称（ `Map&lt;String,Object&gt;` 或 `Parameters` ）传递的参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9543,7 +9519,7 @@ Create a new project with the following command:</seg>
         <seg>First, we need a new project. Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新项目。使用以下命令创建一个新项目:</seg>
+        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新的项目:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9997,7 +9973,7 @@ but only for the annotated test class. You can also place them on your `QuarkusT
         <seg>For instance, having the following properties in your `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>例如，在你的 `application.properties`中有以下属性：</seg>
+        <seg>例如，在你的 `application.properties` 中有以下属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10537,7 +10513,7 @@ Refer to &lt;&lt;jackson-serialization&gt;&gt; to write your own serializer/dese
         <seg>Getting Started to SmallRye Reactive Messaging with Apache Kafka</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>开始使用Apache Kafka的SmallRye响应式消息传递</seg>
+        <seg>开始使用Apache Kafka的SmallRye响应式消息传递。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10744,7 +10720,7 @@ be rejected.</seg>
         <seg>GraalVM binaries are not (yet) notarized for macOS Catalina as reported in this https://github.com/oracle/graal/issues/1724[GraalVM issue]. This means that you may see the following error when using `gu`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题] 中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
+        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题]中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19068,7 +19044,7 @@ data across the lifespan of a distributed transaction.</seg>
         <seg>Or using the convenience class `Parameters` either as is or to build a `Map`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>或者使用方便的类 `Parameters` ，既可以是原样，也可以是建立一个 `Map` 。</seg>
+        <seg>或者使用 `Parameters` 类，也可以方便地构造一个 `Map` ：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19696,7 +19672,7 @@ but be aware that you won't get security updates that way and it's unsupported.<
         <seg>Profiles</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>配置文件</seg>
+        <seg>环境配置(Profiles)</seg>
       </tuv>
     </tu>
     <tu>
@@ -20465,6 +20441,14 @@ It includes many reactive features and offers a broad ecosystem.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>Quarkus是一个 _Reactive_ 框架。 从一开始，_Reactive_ 就一直是Quarkus架构的基本原则。 它包括许多反应式功能，并提供广泛的生态系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Quarkus is an Open Source project licensed under the &lt;a href="https://www.apache.org/licenses/LICENSE-2.0"&gt;Apache License version 2.0&lt;/a&gt;. First and foremost, it is an open community where contributions, ideas and discussions are done in the open and contributors are welcome. Let’s join forces in building the future of Java applications.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Quarkus是一个在&lt;a href="https://www.apache.org/licenses/LICENSE-2.0"&gt;Apache许可证2.0版&lt;/a&gt;下许可的开源项目。首先，它是一个开放的社区，在这里，贡献、想法和讨论都是公开进行的，并且欢迎贡献者。让我们携手共建Java应用的未来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21330,6 +21314,14 @@ On the `@Incoming` methods, you can control how multiple channels are merged usi
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Red Hat Build of Quarkus</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>红帽的Quarkus构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Red Hat OpenShift Streams for Apache Kafka</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -21648,7 +21640,7 @@ you may need to manually manage that encoding.</seg>
         <seg>运行远程 &lt;a href="{{site.baseurl}}/guides/maven-tooling#dev-mode"&gt;开发者模式&lt;/a&gt; 可以在容器化环境中立即对本地文件进行更改。</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>Run `act -s GITHUB_TOKEN=&lt;GITHUB_TOKEN&gt;`, where *&lt;GITHUB_TOKEN&gt;* needs to be replaced with a token that allows you to push to the https://github.com/quarkusio/quarkusio.github.io repository.
 </seg>
@@ -22482,7 +22474,7 @@ A request will be sent to the OpenID Provider UserInfo endpoint and  an `io.quar
         <seg>Setting up and configuring MongoDB with Panache</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用 Panache 设置和配置 MongoDB</seg>
+        <seg>使用Panache设置和配置MongoDB</seg>
       </tuv>
     </tu>
     <tu>
@@ -22506,7 +22498,7 @@ A request will be sent to the OpenID Provider UserInfo endpoint and  an `io.quar
         <seg>Shared broker</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>共享的broker</seg>
+        <seg>共享的代理</seg>
       </tuv>
     </tu>
     <tu>
@@ -22856,7 +22848,7 @@ Take a look at the new endpoint method `helloRolesAllowed` in the following:</se
         <seg>So when you access the `/q/health/ready` endpoint of your application you will have information about the connection validation status.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>因此，当你访问应用程序的 `/q/health/ready` 端点时，可获得有关于连接验证状态的信息。</seg>
+        <seg>因此，当你访问你的应用程序的 `/q/health/ready` 端点时，您将获得有关连接验证状态的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24554,7 +24546,7 @@ More details about the `@RegisterForReflection` annotation can be found on the x
         <seg>The `@RegisterForReflection` annotation instructs Quarkus to keep the class and its members during the native compilation. More details about the `@RegisterForReflection` annotation can be found on the xref:writing-native-applications-tips.adoc#registerForReflection[native application tips] page.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg> `@RegisterForReflection` 注解指示Quarkus在本地编译过程中保留该类和其成员。关于 `@RegisterForReflection` 注解的更多细节，请访问 link:writing-native-applications-tips.html#registerForReflection[本地应用程序提示] 。</seg>
+        <seg>`@RegisterForReflection` 注解用于指导Quarkus在native编译过程中保留该类和其成员。关于 `@RegisterForReflection` 注解的更多细节可以在 link:writing-native-applications-tips.html#registerForReflection[native应用程序提示] 页面找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26033,14 +26025,6 @@ complete list of externalized variables for use is given in the following table:
       <tuv xml:lang="en">
         <seg>The format for durations uses the standard `java.time.Duration` format.
 You can learn more about it in the link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc].</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>持续时间的格式使用标准的 `java.time.Duration` 格式您可以在 https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc] 中了解更多信息。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The format for durations uses the standard `java.time.Duration` format.  You can learn more about it in the link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>持续时间的格式使用标准的 `java.time.Duration` 格式您可以在 https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc] 中了解更多信息。</seg>
@@ -30198,7 +30182,7 @@ It's essential to comprehend that _Reactive_ is not just a different execution m
         <seg>To complete this guide, you need:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>要完成这个指南，你需要：</seg>
+        <seg>完成这个指南，你需要:</seg>
       </tuv>
     </tu>
     <tu>
@@ -31366,7 +31350,7 @@ The executable is retrieved using the `native.image.path` system property config
         <seg>Use platform-specific install tools like https://sdkman.io/jdks#Oracle[sdkman], https://github.com/graalvm/homebrew-tap[homebrew], or https://github.com/ScoopInstaller/Java[scoop].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用特定平台的安装工具，如 https://sdkman.io/jdks#Oracle[sdkman] 、 https://github.com/graalvm/homebrew-tap[homebrew] 或 https://github.com/ScoopInstaller/Java[scoop] 。</seg>
+        <seg>使用特定平台的安装工具，如 https://sdkman.io/jdks#Oracle[sdkman] 、https://github.com/graalvm/homebrew-tap[homebrew] 或 https://github.com/ScoopInstaller/Java[scoop] 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32078,7 +32062,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using Vert.x clients</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用Vert.x客户端</seg>
+        <seg>使用 Vert.x 客户端</seg>
       </tuv>
     </tu>
     <tu>
@@ -33130,6 +33114,14 @@ providing an asynchronous and non-blocking way to connect to Redis.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>作为一个Kubernetes原生框架意味着什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What is Quarkus?</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Quarkus是什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -34865,14 +34857,6 @@ Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>You can also provide duration values starting with a number.  In this case, if the value consists only of a number, the converter treats the value as seconds.  Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.time.Duration` format.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>您还可以提供以数字开头的持续时间值。 在这种情况下，如果该值仅包含一个数字，则转换器将该值视为秒。 否则，`PT` 会隐式添加到值的前面，以获得标准的 `java.time.Duration` 格式。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>You can also remove the limit of in-flight messages by setting `max-inflight-messages` to `0`.
 However, note that the Kafka producer may block if the number of requests reaches `max.in.flight.requests.per.connection`.</seg>
       </tuv>
@@ -35434,7 +35418,7 @@ be appended to the end of the endpoint path.</seg>
         <seg>You can use a configuration file to register classes for reflection.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>你可以使用配置文件来为反射注册类。</seg>
+        <seg>你可以使用一个配置文件来为反射注册类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38414,7 +38398,7 @@ your migration as you normally do</seg>
         <seg>all files in the `foo/` directory and its subdirectories except for files in `foo/private/` and its subdirectories,</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg> `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外。</seg>
+        <seg> `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外</seg>
       </tuv>
     </tu>
     <tu>
@@ -39163,14 +39147,6 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>core, cloud</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>core, cloud</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>core, data, getting-started</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -39215,14 +39191,6 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>core, security, native</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>core, tooling, native</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>core, tooling, native</seg>
       </tuv>
     </tu>
     <tu>
@@ -39291,14 +39259,6 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>data, alt-languages</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>data, alt-languages</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>data, cloud</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -39359,14 +39319,6 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>deploy-kubernetes</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>deploy-openshift</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>deploy-openshift</seg>
       </tuv>
     </tu>
     <tu>
@@ -39431,14 +39383,6 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>dev-services.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>dev-ui-v2.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>dev-ui-v2.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -40254,7 +40198,7 @@ Similar to a message queue, or an enterprise messaging platform, it lets you:</s
  https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[Development Builds]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[插件市场]  link:https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[构建产物归档] </seg>
+        <seg>link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[插件市场]  link:https://download.jboss.org/jbosstools/vscode/snapshots/vscode-quarkus/?C=M;O=D[构建产物归档]</seg>
       </tuv>
     </tu>
     <tu>
@@ -40272,7 +40216,7 @@ Similar to a message queue, or an enterprise messaging platform, it lets you:</s
 https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[Development Builds]</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>link:https://plugins.jetbrains.com/plugin/13234-quarkus/versions[插件市场]  link:https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[构建产物归档] </seg>
+        <seg>link:https://plugins.jetbrains.com/plugin/13234-quarkus/versions[插件市场]  link:https://download.jboss.org/jbosstools/intellij/snapshots/intellij-quarkus/[构建产物归档]</seg>
       </tuv>
     </tu>
     <tu>
@@ -40960,14 +40904,6 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>kafka-reactive-getting-started.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>kafka-reactive-getting-started.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>kafka-schema-registry-avro.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -41469,22 +41405,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>opentracing.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>opentracing.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>optaplanner.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>optaplanner.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>or &lt;a href="https://gradle.org/" target="_blank"&gt;Gradle&lt;/a&gt;</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -41807,22 +41727,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>rest-client-multipart.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>rest-client-multipart.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>rest-client-reactive.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>rest-client-reactive.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>rest-client.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -41891,38 +41795,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>resteasy-client.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>resteasy-reactive-migration.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>resteasy-reactive-migration.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>resteasy-reactive-virtual-threads</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>resteasy-reactive-virtual-threads</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>resteasy-reactive-virtual-threads.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>resteasy-reactive-virtual-threads.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>resteasy-reactive.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>resteasy-reactive.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -42059,22 +41931,6 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>security-basic-authentication-howto.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>security-basic-authentication-tutorial</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>security-basic-authentication-tutorial</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>security-basic-authentication-tutorial.adoc</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>security-basic-authentication-tutorial.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -43147,14 +43003,6 @@ or rolled-back only at termination of the reactive value.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>tooling, native</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>tooling, native</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>tooling.adoc</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -43255,22 +43103,6 @@ or rolled-back only at termination of the reactive value.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>web</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>web, observability</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>web, observability</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>web, serialization</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>web, serialization</seg>
       </tuv>
     </tu>
     <tu>
