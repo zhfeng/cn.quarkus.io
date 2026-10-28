@@ -53,18 +53,6 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>**Important:** the guides are maintained in the main Quarkus repository and pull requests should be submitted there:
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>**重要：** 指南保存在主Quarkus仓库中，合并请求应该提交在那里：
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>*Experimental*: early feedback is requested to mature the idea. There is no guarantee of stability nor long term presence in the platform until the solution matures. Such extensions are at the beginning of their maturation process.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -2845,6 +2833,14 @@ they have either a "User" or "Admin" role assigned.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Kubernetes Native Java栈为OpenJDK HotSpot和GraalVM量身定制，从Java库和标准中精心打造。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>A `MutinyEmitter` to send message to a channel, so it can be easily integrated with the Mutiny API exposed by Hibernate Reactive or Hibernate Reactive with Panache.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -2960,7 +2956,7 @@ For example:</seg>
         <seg>所有前置的斜杠将改变配置的权限路径的解释方式。配置的URL将按原样使用，并且如果 `quarkus.http.root-path` 的值改变后路径将不会被调整。例如：</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>A leading slash will change how the configured permission path is interpreted. The configured URL will be used as-is, and paths will not be adjusted if the value of `quarkus.http.root-path` is changed. For example:</seg>
       </tuv>
@@ -3629,7 +3625,7 @@ are in the the build directory:  `target/` for maven, `build/` for gradle.</seg>
         <seg>All `list` methods have equivalent `stream` versions.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>上述所有 `list` 方法都有等效的的 `stream` 版本。</seg>
+        <seg>所有 `list` 方法都有相对应的 `stream` 版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3820,14 +3816,6 @@ remove the other dependencies to shrink your deployment.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>替代方案 - 使用 ubi-minimal</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Alternative Languages</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>替代语言</seg>
       </tuv>
     </tu>
     <tu>
@@ -4410,7 +4398,7 @@ A processor method can be simply implemented using both the `@Incoming` and `@Ou
         <seg>Architecture</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>应用结构</seg>
+        <seg>架构</seg>
       </tuv>
     </tu>
     <tu>
@@ -4736,14 +4724,6 @@ It provides a convenient way of making just the necessary sources available to t
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>除了调试符号外，设置 `-Dquarkus.native.debug.enabled=true` 标志会生成一个源文件缓存，用于生成原生可执行文件时解决的任何JDK运行时类、GraalVM类和应用程序类。这个源码缓存对原生调试工具很有用，可以在符号和匹配的源代码之间建立联系。在调试本原生执行文件时，它提供了一种方便的方法，使调试器/IDE仅能获得必要的源文件。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Ask on &lt;a href="https://stackoverflow.com/questions/tagged/quarkus"&gt;Stack Overflow with the &lt;code&gt;quarkus&lt;/code&gt; tag&lt;/a&gt;</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>在&lt;a href="https://stackoverflow.com/questions/tagged/quarkus"&gt;Stack Overflow的&lt;code&gt;quarkus&lt;/code&gt;标签&lt;/a&gt;下提问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -6236,7 +6216,7 @@ Then, open the project in your favorite IDE.</seg>
         <seg>Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>克隆 Git 仓库可使用命令： `git clone {quickstarts-clone-url}` ，或者下载 {quickstarts-archive-url}[压缩包] 。</seg>
+        <seg>克隆 Git 仓库。 `git clone {quickstarts-clone-url}` ，或者下载一个 {quickstarts-archive-url}[存档] 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6301,14 +6281,6 @@ Then, open the project in your favorite IDE.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>用SmallRye Metrics收集指标</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Combine both the familiar imperative code and the reactive style when developing applications.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>在开发应用程序时，将熟悉的指令式和响应式代码风格结合起来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6941,7 +6913,7 @@ Type: _string_</seg>
         <seg>Configuring the application</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>配置该应用程序</seg>
+        <seg>配置应用</seg>
       </tuv>
     </tu>
     <tu>
@@ -7880,7 +7852,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining entities in external projects or jars</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在外部项目或jar包中定义实体</seg>
+        <seg>在外部项目或jar中定义实体</seg>
       </tuv>
     </tu>
     <tu>
@@ -7888,7 +7860,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining your entity</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>定义实体类</seg>
+        <seg>定义你的实体</seg>
       </tuv>
     </tu>
     <tu>
@@ -7896,7 +7868,7 @@ It will contain our HTTP endpoints.</seg>
         <seg>Defining your repository</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>定义Repository</seg>
+        <seg>定义你的存储库</seg>
       </tuv>
     </tu>
     <tu>
@@ -8779,7 +8751,7 @@ record key propagation produces the outgoing record with the same _key_ as the i
 Type: _boolean_</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>启用（默认启用）或停用云事件支持。如果在 _传入_ 通道上启用，连接器会分析传入记录并尝试创建云事件元数据。如果在 _传出_ 通道上启用，并且如果消息包括云事件元数据，连接器会将传出的消息作为云事件发送。
+        <seg>启用（默认）或禁用云事件支持。如果在 _incoming_ 通道上启用了，则连接器会分析传入记录并尝试创建云事件元数据。如果在 _outgoing_ 通道上启用了，如果消息包括云事件元数据，则连接器会将传出消息作为云事件发送。
 
 类型: _boolean_</seg>
       </tuv>
@@ -9494,7 +9466,7 @@ This time, we will not accumulate the file's content in memory and write it in o
         <seg>First, let's create the `Fruit` bean as follows:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，让我们创建 `Fruit` 实体类，如下所示：</seg>
+        <seg>首先，让我们创建 `Fruit` bean，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9535,7 +9507,7 @@ This time, we will not accumulate the file's content in memory and write it in o
 Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新的项目:</seg>
+        <seg>首先，我们需要一个新的项目。使用以下命令创建一个新项目:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9543,7 +9515,7 @@ Create a new project with the following command:</seg>
         <seg>First, we need a new project. Create a new project with the following command:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先，我们需要一个新项目。使用以下命令创建一个新项目:</seg>
+        <seg>首先，我们需要一个新的工程项目。用以下命令创建一个新项目：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9617,7 +9589,7 @@ See this part of the documentation: xref:mongodb.adoc#simplifying-mongodb-client
         <seg>First: an example</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>首先看一个例子</seg>
+        <seg>第一：一个例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -9899,7 +9871,7 @@ Note that if the `partitions` value exceed the number of partitions of the topic
         <seg>For example, The following code illustrates how you can store incoming payloads to a database using Hibernate with Panache:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>例如，下面的代码说明了如何使用带有Panache的Hibernate来将传入的有效载荷存储到数据库：</seg>
+        <seg>例如，下面的代码演示了如何使用Hibernate与Panache将接收到的payload存储到数据库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9997,7 +9969,7 @@ but only for the annotated test class. You can also place them on your `QuarkusT
         <seg>For instance, having the following properties in your `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>例如，在你的 `application.properties`中有以下属性：</seg>
+        <seg>例如，在你的 `application.properties` 中有以下属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10267,14 +10239,6 @@ The field names, or getters, of the projection class will be used to restrict wh
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>For usage questions, we recommend to:</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>对于使用问题，我们建议到：</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>For using `KafkaCompanion` API in tests, start by adding the following dependency:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -10489,7 +10453,7 @@ Refer to &lt;&lt;jackson-serialization&gt;&gt; to write your own serializer/dese
         <seg>Get it running</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>让它运行起来</seg>
+        <seg>让其运行</seg>
       </tuv>
     </tu>
     <tu>
@@ -10648,7 +10612,7 @@ be rejected.</seg>
         <seg>Going further</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>进一步探索</seg>
+        <seg>更进一步</seg>
       </tuv>
     </tu>
     <tu>
@@ -10744,7 +10708,7 @@ be rejected.</seg>
         <seg>GraalVM binaries are not (yet) notarized for macOS Catalina as reported in this https://github.com/oracle/graal/issues/1724[GraalVM issue]. This means that you may see the following error when using `gu`:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题] 中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
+        <seg>GraalVM的二进制文件（尚未）对macOS Catalina进行认证，正如这个 https://github.com/oracle/graal/issues/1724[GralVM问题]中所报告的那样。这意味着您在使用 `gu` 时可能会看到以下错误：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14302,7 +14266,7 @@ link:https://micrometer.io/docs/concepts[official documentation].</seg>
         <seg>In this example, we will create an application to manage a list of fruits.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在这个例子中，我们将创建一个应用程序来管理fruit列表。</seg>
+        <seg>在这个例子中，我们将创建一个应用程序来管理一个fruit列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14472,7 +14436,7 @@ To know more about Mutiny, check the xref:mutiny-primer.adoc[Mutiny documentatio
         <seg>In your build file, add the following dependencies:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>在你的项目构建文件中，添加以下依赖：</seg>
+        <seg>在build文件中添加以下依赖项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15164,7 +15128,7 @@ To achieve this, you can _switch_ the channels managed by the Kafka connector to
         <seg>It instructs the application to use PostgreSQL for the database and to handle the database schema generation.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>它指示应用程序对数据库使用PostgreSQL，并处理数据库模式的生成。</seg>
+        <seg>它指示应用程序使用PostgreSQL数据库，并处理数据库模式的生成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17431,7 +17395,7 @@ Dev Services for Redis implements a _service discovery_ mechanism for your multi
         <seg>Most useful operations</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>常用操作</seg>
+        <seg>最有用的操作</seg>
       </tuv>
     </tu>
     <tu>
@@ -18213,7 +18177,7 @@ One important thing to note is that having a default constructor is required by 
         <seg>Nothing fancy. One important thing to note is that having a default constructor is required by the JSON serialization layer.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>这非常的简单。需要注意的一件事是， JSON 序列化层需要具有默认构造函数。</seg>
+        <seg>这是非常的简单。需要注意的重要一点是， JSON 序列化层需要具有默认构造函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18802,7 +18766,7 @@ This is done in the `application.properties` configuration file. Edit it to the 
         <seg>Once you have written your repository, here are the most common operations you will be able to perform:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>写好了Repository类之后，你可以执行以下一些最常见的操作：</seg>
+        <seg>编写存储库后，您可以执行以下最常见的操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20072,7 +20036,7 @@ dependencies and requirements to support specific monitoring systems.</seg>
         <seg>Quarkus 新闻</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>Quarkus OpenID Connect `quarkus-oidc` extension also supports Bearer Token Authorization and uses `smallrye-jwt` to represent the bearer tokens as `JsonWebToken`, please read the xref:security-openid-connect.adoc[Using OpenID Connect to Protect Service Applications] guide for more information.
 OpenID Connect extension has to be used if the Quarkus application needs to authenticate the users using OIDC Authorization Code Flow, please read xref:security-openid-connect-web-authentication.adoc[Using OpenID Connect to Protect Web Applications] guide for more information.</seg>
@@ -21326,6 +21290,14 @@ On the `@Incoming` methods, you can control how multiple channels are merged usi
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>推荐使用的GraalVM版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Red Hat Build of Quarkus</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>红帽的Quarkus构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -22856,7 +22828,7 @@ Take a look at the new endpoint method `helloRolesAllowed` in the following:</se
         <seg>So when you access the `/q/health/ready` endpoint of your application you will have information about the connection validation status.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>因此，当你访问应用程序的 `/q/health/ready` 端点时，可获得有关于连接验证状态的信息。</seg>
+        <seg>因此，当你访问你的应用程序的 `/q/health/ready` 端点时，您将获得有关连接验证状态的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23868,14 +23840,6 @@ The fact that the application is reactive does not change anything.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>这就是它的全部内容：有了Panache，MongoDB看起来从未如此简洁</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The &lt;a href="https://groups.google.com/d/forum/quarkus-dev" target="_blank"&gt;quarkus-dev Google Groups&lt;/a&gt;</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>可以访问 &lt;a href="https://groups.google.com/d/forum/quarkus-dev" target="_blank"&gt;quarkus-dev Google Groups&lt;/a&gt;讨论组</seg>
       </tuv>
     </tu>
     <tu>
@@ -25226,7 +25190,7 @@ Type: _int_</seg>
         <seg>The application built in this guide is quite simple: the user can add elements in a list using a form and the list is updated.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素并更新列表。</seg>
+        <seg>本指南中构建的应用程序非常简单：用户可以使用一个表单在列表中添加元素，然后列表被更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26033,14 +25997,6 @@ complete list of externalized variables for use is given in the following table:
       <tuv xml:lang="en">
         <seg>The format for durations uses the standard `java.time.Duration` format.
 You can learn more about it in the link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc].</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>持续时间的格式使用标准的 `java.time.Duration` 格式您可以在 https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc] 中了解更多信息。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The format for durations uses the standard `java.time.Duration` format.  You can learn more about it in the link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc].</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>持续时间的格式使用标准的 `java.time.Duration` 格式您可以在 https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-[Duration#parse() javadoc] 中了解更多信息。</seg>
@@ -27609,7 +27565,7 @@ It can use `double` payloads as in the following snippet:</seg>
         <seg>There are 2 `@Blocking` annotations:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>有2个 `@Blocking` 注释：</seg>
+        <seg>有2种 `@Blocking` 注解：</seg>
       </tuv>
     </tu>
     <tu>
@@ -28780,7 +28736,7 @@ passwords.</seg>
         <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to consume and produce HTTP messages.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>本指南演示您的 Quarkus 应用程序如何利用 SmallRye Reactive Messaging 来使用和生成 HTTP 消息。</seg>
+        <seg>本指南展示了你的Quarkus应用程序如何利用SmallRye响应式消息传递来消费和提供HTTP消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31630,7 +31586,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using HTTP with Reactive Messaging</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>将 HTTP 与响应式消息结合使用</seg>
+        <seg>使用HTTP与响应式消息传递</seg>
       </tuv>
     </tu>
     <tu>
@@ -32078,7 +32034,7 @@ Failure to do so will prevent Jackson specific customizations provided by variou
         <seg>Using Vert.x clients</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用Vert.x客户端</seg>
+        <seg>使用 Vert.x 客户端</seg>
       </tuv>
     </tu>
     <tu>
@@ -32497,7 +32453,7 @@ and for an outgoing channel checks that the topic used by the producer exist in 
         <seg>Using the repository pattern</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>使用Repository模式</seg>
+        <seg>使用资源库模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -33130,6 +33086,14 @@ providing an asynchronous and non-blocking way to connect to Redis.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>作为一个Kubernetes原生框架意味着什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What is Quarkus?</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>Quarkus是什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -34865,14 +34829,6 @@ Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>You can also provide duration values starting with a number.  In this case, if the value consists only of a number, the converter treats the value as seconds.  Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.time.Duration` format.</seg>
-      </tuv>
-      <tuv xml:lang="zh_CN">
-        <seg>您还可以提供以数字开头的持续时间值。 在这种情况下，如果该值仅包含一个数字，则转换器将该值视为秒。 否则，`PT` 会隐式添加到值的前面，以获得标准的 `java.time.Duration` 格式。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>You can also remove the limit of in-flight messages by setting `max-inflight-messages` to `0`.
 However, note that the Kafka producer may block if the number of requests reaches `max.in.flight.requests.per.connection`.</seg>
       </tuv>
@@ -35393,7 +35349,7 @@ be appended to the end of the endpoint path.</seg>
         <seg>You can then point your browser to `http://localhost:8080/fruits.html` and use your application.</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>然后你可以使用的浏览器访问 `&lt;a href="http://localhost:8080/fruits.html" class="bare"&gt;http://localhost:8080/fruits.html&lt;/a&gt;` 来使用你的应用程序。</seg>
+        <seg>然后你可以将你的浏览器访问 `http://localhost:8080/fruits.html` 并使用你的应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37144,7 +37100,7 @@ Refer to the http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1
         <seg>`byte[]`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`byte[]` </seg>
+        <seg>`byte[]`</seg>
       </tuv>
     </tu>
     <tu>
@@ -37311,7 +37267,7 @@ The AMQP message is marked as rejected.</seg>
         <seg>`from EntityName ...` which will expand to `update from EntityName ...`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`from EntityName ...​` 语句会被扩展为： `update from EntityName ...​` </seg>
+        <seg>`from EntityName ...​` 语句会被扩展为： `update from EntityName ...​`</seg>
       </tuv>
     </tu>
     <tu>
@@ -37524,7 +37480,7 @@ In case of a failure, only records that were not committed yet will be re-proces
         <seg>`io.smallrye.common.annotation.Blocking`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`io.smallrye.common.annotation.Blocking` </seg>
+        <seg>`io.smallrye.common.annotation.Blocking`</seg>
       </tuv>
     </tu>
     <tu>
@@ -37541,7 +37497,7 @@ It uses `MP JWT` and `smallrye-jwt` properties listed in the `Configuration` sec
         <seg>`io.smallrye.reactive.messaging.annotations.Blocking`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>`io.smallrye.reactive.messaging.annotations.Blocking` </seg>
+        <seg>`io.smallrye.reactive.messaging.annotations.Blocking`</seg>
       </tuv>
     </tu>
     <tu>
@@ -38414,7 +38370,7 @@ your migration as you normally do</seg>
         <seg>all files in the `foo/` directory and its subdirectories except for files in `foo/private/` and its subdirectories,</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg> `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外。</seg>
+        <seg> `foo/` 目录及其子目录中的所有文件，但 `foo/private/` 及其子目录中的文件除外</seg>
       </tuv>
     </tu>
     <tu>
@@ -38638,7 +38594,7 @@ your migration as you normally do</seg>
         <seg>and write a test code like this one:</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>并写一个像这样的测试代码：</seg>
+        <seg>写一个测试代码如同下面这样的：</seg>
       </tuv>
     </tu>
     <tu>
@@ -39167,6 +39123,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>core, cloud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>core, command-line</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>core, command-line</seg>
       </tuv>
     </tu>
     <tu>
@@ -41432,7 +41396,7 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
         <seg>open a browser to `http://localhost:8080/fruits.html`</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>打开浏览器访问 `&lt;a href="http://localhost:8080/fruits.html" class="bare"&gt;http://localhost:8080/fruits.html&lt;/a&gt;` </seg>
+        <seg>打开浏览器访问 `http://localhost:8080/fruits.html` </seg>
       </tuv>
     </tu>
     <tu>
@@ -42043,6 +42007,22 @@ To use this model, you write and _deploy_ verticles, communicating by sending me
       </tuv>
       <tuv xml:lang="zh_CN">
         <seg>security-basic-authentication</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>security-basic-authentication-concept</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>security-basic-authentication-concept</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>security-basic-authentication-concept.adoc</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>security-basic-authentication-concept.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -43179,6 +43159,14 @@ or rolled-back only at termination of the reactive value.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>tutorial-micrometer</seg>
+      </tuv>
+      <tuv xml:lang="zh_CN">
+        <seg>tutorial-micrometer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>update-quarkus</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
@@ -43632,7 +43620,7 @@ MongoDB with Panache also allows for the use of the more classical link:https://
         <seg>your JDBC driver extension (`quarkus-jdbc-postgresql`, `quarkus-jdbc-h2`, `quarkus-jdbc-mariadb`, ...)</seg>
       </tuv>
       <tuv xml:lang="zh_CN">
-        <seg>JDBC驱动扩展 (如 `quarkus-jdbc-postgresql` , `quarkus-jdbc-h2` , `quarkus-jdbc-mariadb` , ...)</seg>
+        <seg>JDBC驱动扩展 ( `quarkus-jdbc-postgresql` , `quarkus-jdbc-h2` , `quarkus-jdbc-mariadb` , ...)</seg>
       </tuv>
     </tu>
     <tu>
